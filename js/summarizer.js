@@ -12,7 +12,10 @@ const SUMMARIZER_DICT = {
     "en": "Hello",
     "tr": "Merhaba",
     "ro": "Bună",
-    "bs": "Zdravo"
+    "bs": "Zdravo",
+    "es": "Hola",
+    "bg": "здравей",
+    "el": "Γειά σου"
   },
   "guten tag": {
     "type": "phrase",
@@ -20,7 +23,10 @@ const SUMMARIZER_DICT = {
     "en": "Good day / Hello",
     "tr": "İyi günler / Merhaba",
     "ro": "Bună ziua",
-    "bs": "Dobar dan / Zdravo"
+    "bs": "Dobar dan / Zdravo",
+    "es": "Buen día / Hola",
+    "bg": "Добър ден / Здравейте",
+    "el": "Καλημέρα / Γεια σας"
   },
   "guten morgen": {
     "type": "phrase",
@@ -28,7 +34,10 @@ const SUMMARIZER_DICT = {
     "en": "Good morning",
     "tr": "Günaydın",
     "ro": "Bună dimineața",
-    "bs": "Dobro jutro"
+    "bs": "Dobro jutro",
+    "es": "Buen día",
+    "bg": "добро утро",
+    "el": "Καλημέρα"
   },
   "guten abend": {
     "type": "phrase",
@@ -36,7 +45,10 @@ const SUMMARIZER_DICT = {
     "en": "Good evening",
     "tr": "İyi akşamlar",
     "ro": "Bună seara",
-    "bs": "Dobro veče"
+    "bs": "Dobro veče",
+    "es": "Buenas noches",
+    "bg": "Добър вечер",
+    "el": "Καλησπέρα"
   },
   "auf wiedersehen": {
     "type": "phrase",
@@ -44,7 +56,10 @@ const SUMMARIZER_DICT = {
     "en": "Goodbye (formal)",
     "tr": "Hoşçakal (resmi)",
     "ro": "La revedere (formal)",
-    "bs": "doviđenja (formalno)"
+    "bs": "doviđenja (formalno)",
+    "es": "Adiós (formal)",
+    "bg": "Довиждане (официално)",
+    "el": "Αντίο (επίσημο)"
   },
   "tschüss": {
     "type": "phrase",
@@ -52,7 +67,10 @@ const SUMMARIZER_DICT = {
     "en": "Goodbye (informal)",
     "tr": "Görüşürüz",
     "ro": "Pa (informal)",
-    "bs": "zbogom (neformalno)"
+    "bs": "zbogom (neformalno)",
+    "es": "Adiós (informal)",
+    "bg": "Довиждане (неформално)",
+    "el": "Αντίο (ανεπίσημη)"
   },
   "bitte": {
     "type": "phrase",
@@ -60,7 +78,10 @@ const SUMMARIZER_DICT = {
     "en": "Please / You're welcome",
     "tr": "Lütfen / Rica ederim",
     "ro": "Te rog / Cu plăcere",
-    "bs": "Molim / Nema na čemu"
+    "bs": "Molim / Nema na čemu",
+    "es": "Por favor / De nada",
+    "bg": "Моля / няма за какво",
+    "el": "Παρακαλώ / Είστε ευπρόσδεκτοι"
   },
   "danke": {
     "type": "phrase",
@@ -68,7 +89,10 @@ const SUMMARIZER_DICT = {
     "en": "Thank you",
     "tr": "Teşekkürler",
     "ro": "Mulțumesc",
-    "bs": "Hvala ti"
+    "bs": "Hvala ti",
+    "es": "Gracias",
+    "bg": "благодаря",
+    "el": "Σας ευχαριστώ"
   },
   "name": {
     "type": "noun",
@@ -78,7 +102,10 @@ const SUMMARIZER_DICT = {
     "en": "Name",
     "tr": "İsim",
     "ro": "Nume",
-    "bs": "Ime"
+    "bs": "Ime",
+    "es": "Nombre",
+    "bg": "Име",
+    "el": "Ονομα"
   },
   "heißen": {
     "type": "verb",
@@ -90,7 +117,10 @@ const SUMMARIZER_DICT = {
     "en": "to be called",
     "tr": "adlandırılmak",
     "ro": "a se numi",
-    "bs": "biti pozvan"
+    "bs": "biti pozvan",
+    "es": "ser llamado",
+    "bg": "да бъде наречен",
+    "el": "να κληθείς"
   },
   "sein": {
     "type": "verb",
@@ -102,7 +132,10 @@ const SUMMARIZER_DICT = {
     "en": "to be",
     "tr": "olmak",
     "ro": "a fi",
-    "bs": "biti"
+    "bs": "biti",
+    "es": "ser",
+    "bg": "да бъде",
+    "el": "να είναι"
   },
   "kommen": {
     "type": "verb",
@@ -114,7 +147,10 @@ const SUMMARIZER_DICT = {
     "en": "to come",
     "tr": "gelmek",
     "ro": "a veni",
-    "bs": "doći"
+    "bs": "doći",
+    "es": "venir",
+    "bg": "да дойде",
+    "el": "να έρθει"
   },
   "wohnen": {
     "type": "verb",
@@ -126,7 +162,10 @@ const SUMMARIZER_DICT = {
     "en": "to live / dwell",
     "tr": "yaşamak / ikamet etmek",
     "ro": "a locui",
-    "bs": "živjeti / boraviti"
+    "bs": "živjeti / boraviti",
+    "es": "vivir / habitar",
+    "bg": "да живея / живея",
+    "el": "να ζήσω / κατοικήσω"
   },
   "sprechen": {
     "type": "verb",
@@ -138,7 +177,10 @@ const SUMMARIZER_DICT = {
     "en": "to speak",
     "tr": "konuşmak",
     "ro": "a vorbi",
-    "bs": "govoriti"
+    "bs": "govoriti",
+    "es": "hablar",
+    "bg": "да говоря",
+    "el": "να μιλήσει"
   },
   "sprache": {
     "type": "noun",
@@ -148,7 +190,10 @@ const SUMMARIZER_DICT = {
     "en": "Language",
     "tr": "Dil",
     "ro": "Limbă",
-    "bs": "Jezik"
+    "bs": "Jezik",
+    "es": "Idioma",
+    "bg": "език",
+    "el": "Γλώσσα"
   },
   "land": {
     "type": "noun",
@@ -158,7 +203,10 @@ const SUMMARIZER_DICT = {
     "en": "Country",
     "tr": "Ülke",
     "ro": "Țară",
-    "bs": "Država"
+    "bs": "Država",
+    "es": "País",
+    "bg": "държава",
+    "el": "Χώρα"
   },
   "kurs": {
     "type": "noun",
@@ -168,7 +216,10 @@ const SUMMARIZER_DICT = {
     "en": "Course",
     "tr": "Kurs",
     "ro": "Curs",
-    "bs": "Naravno"
+    "bs": "Naravno",
+    "es": "Curso",
+    "bg": "курс",
+    "el": "Πορεία"
   },
   "buchstabieren": {
     "type": "verb",
@@ -180,7 +231,10 @@ const SUMMARIZER_DICT = {
     "en": "to spell",
     "tr": "hecelemek",
     "ro": "a silabisi",
-    "bs": "spelovati"
+    "bs": "spelovati",
+    "es": "deletrear",
+    "bg": "да сричам",
+    "el": "να συλλαβίσει"
   },
   "alphabet": {
     "type": "noun",
@@ -190,7 +244,10 @@ const SUMMARIZER_DICT = {
     "en": "Alphabet",
     "tr": "Alfabe",
     "ro": "Alfabet",
-    "bs": "Abeceda"
+    "bs": "Abeceda",
+    "es": "Alfabeto",
+    "bg": "Азбука",
+    "el": "Αλφάβητο"
   },
   "wie geht's": {
     "type": "phrase",
@@ -198,7 +255,10 @@ const SUMMARIZER_DICT = {
     "en": "How are you?",
     "tr": "Nasıl gidiyor?",
     "ro": "Ce mai faci?",
-    "bs": "Kako si?"
+    "bs": "Kako si?",
+    "es": "¿Cómo estás?",
+    "bg": "как си",
+    "el": "Τι κάνετε;"
   },
   "gut": {
     "type": "adj",
@@ -206,7 +266,10 @@ const SUMMARIZER_DICT = {
     "en": "good / fine",
     "tr": "iyi",
     "ro": "bine",
-    "bs": "dobro / dobro"
+    "bs": "dobro / dobro",
+    "es": "bueno / bien",
+    "bg": "добре / добре",
+    "el": "καλό / καλό"
   },
   "nicht gut": {
     "type": "phrase",
@@ -214,7 +277,10 @@ const SUMMARIZER_DICT = {
     "en": "not good",
     "tr": "iyi değil",
     "ro": "nu prea bine",
-    "bs": "nije dobro"
+    "bs": "nije dobro",
+    "es": "no es bueno",
+    "bg": "не е добре",
+    "el": "δεν είναι καλό"
   },
   "es geht": {
     "type": "phrase",
@@ -222,7 +288,10 @@ const SUMMARIZER_DICT = {
     "en": "so-so",
     "tr": "şöyle böyle",
     "ro": "așa și așa",
-    "bs": "tako-tako"
+    "bs": "tako-tako",
+    "es": "más o menos",
+    "bg": "така-така",
+    "el": "έτσι-έτσι"
   },
   "müde": {
     "type": "adj",
@@ -230,7 +299,10 @@ const SUMMARIZER_DICT = {
     "en": "tired",
     "tr": "yorgun",
     "ro": "obosit",
-    "bs": "umoran"
+    "bs": "umoran",
+    "es": "cansado",
+    "bg": "уморен",
+    "el": "κουρασμένος"
   },
   "krank": {
     "type": "adj",
@@ -238,7 +310,10 @@ const SUMMARIZER_DICT = {
     "en": "sick",
     "tr": "hasta",
     "ro": "bolnav",
-    "bs": "bolestan"
+    "bs": "bolestan",
+    "es": "enfermo",
+    "bg": "болен",
+    "el": "άρρωστος"
   },
   "kaffee": {
     "type": "noun",
@@ -248,7 +323,10 @@ const SUMMARIZER_DICT = {
     "en": "Coffee",
     "tr": "Kahve",
     "ro": "Cafea",
-    "bs": "Kafa"
+    "bs": "Kafa",
+    "es": "Café",
+    "bg": "кафе",
+    "el": "Καφές"
   },
   "tee": {
     "type": "noun",
@@ -258,7 +336,10 @@ const SUMMARIZER_DICT = {
     "en": "Tea",
     "tr": "Çay",
     "ro": "Ceai",
-    "bs": "Tea"
+    "bs": "Tea",
+    "es": "Té",
+    "bg": "чай",
+    "el": "Τσάι"
   },
   "wasser": {
     "type": "noun",
@@ -268,7 +349,10 @@ const SUMMARIZER_DICT = {
     "en": "Water",
     "tr": "Su",
     "ro": "Apă",
-    "bs": "Voda"
+    "bs": "Voda",
+    "es": "Agua",
+    "bg": "вода",
+    "el": "Νερό"
   },
   "milch": {
     "type": "noun",
@@ -278,7 +362,10 @@ const SUMMARIZER_DICT = {
     "en": "Milk",
     "tr": "Süt",
     "ro": "Lapte",
-    "bs": "Mlijeko"
+    "bs": "Mlijeko",
+    "es": "Leche",
+    "bg": "мляко",
+    "el": "Γάλα"
   },
   "trinken": {
     "type": "verb",
@@ -290,7 +377,10 @@ const SUMMARIZER_DICT = {
     "en": "to drink",
     "tr": "içmek",
     "ro": "a bea",
-    "bs": "piti"
+    "bs": "piti",
+    "es": "beber",
+    "bg": "да пия",
+    "el": "να πιει"
   },
   "möchten": {
     "type": "verb",
@@ -302,7 +392,10 @@ const SUMMARIZER_DICT = {
     "en": "would like",
     "tr": "istemek (kibarca)",
     "ro": "a dori",
-    "bs": "voleo bi"
+    "bs": "voleo bi",
+    "es": "quisiera",
+    "bg": "би искал",
+    "el": "θα ήθελε"
   },
   "telefonnummer": {
     "type": "noun",
@@ -312,7 +405,10 @@ const SUMMARIZER_DICT = {
     "en": "Telephone number",
     "tr": "Telefon numarası",
     "ro": "Număr de telefon",
-    "bs": "Broj telefona"
+    "bs": "Broj telefona",
+    "es": "Número telefónico",
+    "bg": "Телефонен номер",
+    "el": "Αριθμός τηλεφώνου"
   },
   "cafeteria": {
     "type": "noun",
@@ -322,7 +418,10 @@ const SUMMARIZER_DICT = {
     "en": "Cafeteria",
     "tr": "Kafeterya",
     "ro": "Cafenea",
-    "bs": "Kafeterija"
+    "bs": "Kafeterija",
+    "es": "Cafetería",
+    "bg": "Кафетерия",
+    "el": "Καφετέρια"
   },
   "kosten": {
     "type": "verb",
@@ -334,7 +433,10 @@ const SUMMARIZER_DICT = {
     "en": "to cost",
     "tr": "maliyetinde olmak",
     "ro": "a costa",
-    "bs": "da košta"
+    "bs": "da košta",
+    "es": "costar",
+    "bg": "да струва",
+    "el": "να κοστίσει"
   },
   "kaufen": {
     "type": "verb",
@@ -346,7 +448,10 @@ const SUMMARIZER_DICT = {
     "en": "to buy",
     "tr": "satın almak",
     "ro": "a cumpăra",
-    "bs": "kupiti"
+    "bs": "kupiti",
+    "es": "comprar",
+    "bg": "да купя",
+    "el": "να αγοράσουν"
   },
   "teuer": {
     "type": "adj",
@@ -354,7 +459,10 @@ const SUMMARIZER_DICT = {
     "en": "expensive",
     "tr": "pahalı",
     "ro": "scump",
-    "bs": "skupo"
+    "bs": "skupo",
+    "es": "caro",
+    "bg": "скъпо",
+    "el": "ακριβός"
   },
   "billig": {
     "type": "adj",
@@ -362,7 +470,10 @@ const SUMMARIZER_DICT = {
     "en": "cheap",
     "tr": "ucuz",
     "ro": "ieftin",
-    "bs": "jeftino"
+    "bs": "jeftino",
+    "es": "barato",
+    "bg": "евтино",
+    "el": "φτηνός"
   },
   "euro": {
     "type": "noun",
@@ -372,7 +483,10 @@ const SUMMARIZER_DICT = {
     "en": "Euro",
     "tr": "Euro",
     "ro": "Euro",
-    "bs": "Euro"
+    "bs": "Euro",
+    "es": "Euro",
+    "bg": "евро",
+    "el": "Ευρώ"
   },
   "cent": {
     "type": "noun",
@@ -382,7 +496,10 @@ const SUMMARIZER_DICT = {
     "en": "Cent",
     "tr": "Cent",
     "ro": "Cent",
-    "bs": "Cent"
+    "bs": "Cent",
+    "es": "Centavo",
+    "bg": "Cent",
+    "el": "Σεντ"
   },
   "laptop": {
     "type": "noun",
@@ -392,7 +509,10 @@ const SUMMARIZER_DICT = {
     "en": "Laptop",
     "tr": "Dizüstü bilgisayar",
     "ro": "Laptop",
-    "bs": "Laptop"
+    "bs": "Laptop",
+    "es": "Computadora portátil",
+    "bg": "Лаптоп",
+    "el": "Φορητός υπολογιστής"
   },
   "handy": {
     "type": "noun",
@@ -402,7 +522,10 @@ const SUMMARIZER_DICT = {
     "en": "Mobile phone",
     "tr": "Cep telefonu",
     "ro": "Telefon mobil",
-    "bs": "Mobilni telefon"
+    "bs": "Mobilni telefon",
+    "es": "teléfono móvil",
+    "bg": "Мобилен телефон",
+    "el": "Κινητό τηλέφωνο"
   },
   "buch": {
     "type": "noun",
@@ -412,7 +535,10 @@ const SUMMARIZER_DICT = {
     "en": "Book",
     "tr": "Kitap",
     "ro": "Carte",
-    "bs": "Book"
+    "bs": "Book",
+    "es": "Libro",
+    "bg": "книга",
+    "el": "Βιβλίο"
   },
   "uhr": {
     "type": "noun",
@@ -422,7 +548,10 @@ const SUMMARIZER_DICT = {
     "en": "Clock / Watch / Hour",
     "tr": "Saat",
     "ro": "Ceas",
-    "bs": "Sat / Sat / Sat"
+    "bs": "Sat / Sat / Sat",
+    "es": "Reloj / Reloj / Hora",
+    "bg": "Часовник / часовник / час",
+    "el": "Ρολόι / Ρολόι / Ώρα"
   },
   "nehmen": {
     "type": "verb",
@@ -434,7 +563,10 @@ const SUMMARIZER_DICT = {
     "en": "to take",
     "tr": "almak",
     "ro": "a lua",
-    "bs": "uzeti"
+    "bs": "uzeti",
+    "es": "tomar",
+    "bg": "да вземеш",
+    "el": "να πάρει"
   },
   "flohmarkt": {
     "type": "noun",
@@ -444,7 +576,10 @@ const SUMMARIZER_DICT = {
     "en": "Flea market",
     "tr": "Bit pazarı",
     "ro": "Târg de vechituri",
-    "bs": "Buvlja pijaca"
+    "bs": "Buvlja pijaca",
+    "es": "Mercado de pulgas",
+    "bg": "Битпазар",
+    "el": "Υπαίθρια αγορά"
   },
   "supermarkt": {
     "type": "noun",
@@ -454,7 +589,10 @@ const SUMMARIZER_DICT = {
     "en": "Supermarket",
     "tr": "Süpermarket",
     "ro": "Supermarket",
-    "bs": "Supermarket"
+    "bs": "Supermarket",
+    "es": "Supermercado",
+    "bg": "Супермаркет",
+    "el": "Σουπερμάρκετ"
   },
   "schön": {
     "type": "adj",
@@ -462,7 +600,10 @@ const SUMMARIZER_DICT = {
     "en": "beautiful / nice",
     "tr": "güzel",
     "ro": "frumos",
-    "bs": "lijepo / lijepo"
+    "bs": "lijepo / lijepo",
+    "es": "hermoso / agradable",
+    "bg": "красиво / хубаво",
+    "el": "όμορφο / ωραίο"
   },
   "groß": {
     "type": "adj",
@@ -470,7 +611,10 @@ const SUMMARIZER_DICT = {
     "en": "big / tall",
     "tr": "büyük",
     "ro": "mare",
-    "bs": "veliki / visok"
+    "bs": "veliki / visok",
+    "es": "grande / alto",
+    "bg": "голям / висок",
+    "el": "μεγάλος / ψηλός"
   },
   "klein": {
     "type": "adj",
@@ -478,7 +622,10 @@ const SUMMARIZER_DICT = {
     "en": "small / little",
     "tr": "küçük",
     "ro": "mic",
-    "bs": "mali / mali"
+    "bs": "mali / mali",
+    "es": "pequeño / poco",
+    "bg": "малък / малък",
+    "el": "μικρό / μικρό"
   },
   "neu": {
     "type": "adj",
@@ -486,7 +633,10 @@ const SUMMARIZER_DICT = {
     "en": "new",
     "tr": "yeni",
     "ro": "nou",
-    "bs": "novo"
+    "bs": "novo",
+    "es": "nuevo",
+    "bg": "нов",
+    "el": "νέος"
   },
   "alt": {
     "type": "adj",
@@ -494,7 +644,10 @@ const SUMMARIZER_DICT = {
     "en": "old",
     "tr": "eski / yaşlı",
     "ro": "vechi / bătrân",
-    "bs": "star"
+    "bs": "star",
+    "es": "viejo",
+    "bg": "стар",
+    "el": "παλιός"
   },
   "montag": {
     "type": "noun",
@@ -504,7 +657,10 @@ const SUMMARIZER_DICT = {
     "en": "Monday",
     "tr": "Pazartesi",
     "ro": "Luni",
-    "bs": "ponedjeljak"
+    "bs": "ponedjeljak",
+    "es": "Lunes",
+    "bg": "понеделник",
+    "el": "Δευτέρα"
   },
   "dienstag": {
     "type": "noun",
@@ -514,7 +670,10 @@ const SUMMARIZER_DICT = {
     "en": "Tuesday",
     "tr": "Salı",
     "ro": "Marți",
-    "bs": "utorak"
+    "bs": "utorak",
+    "es": "Martes",
+    "bg": "вторник",
+    "el": "Τρίτη"
   },
   "mittwoch": {
     "type": "noun",
@@ -524,7 +683,10 @@ const SUMMARIZER_DICT = {
     "en": "Wednesday",
     "tr": "Çarşamba",
     "ro": "Miercuri",
-    "bs": "srijeda"
+    "bs": "srijeda",
+    "es": "Miércoles",
+    "bg": "сряда",
+    "el": "Τετάρτη"
   },
   "donnerstag": {
     "type": "noun",
@@ -534,7 +696,10 @@ const SUMMARIZER_DICT = {
     "en": "Thursday",
     "tr": "Perşembe",
     "ro": "Joi",
-    "bs": "četvrtak"
+    "bs": "četvrtak",
+    "es": "Jueves",
+    "bg": "четвъртък",
+    "el": "Πέμπτη"
   },
   "freitag": {
     "type": "noun",
@@ -544,7 +709,10 @@ const SUMMARIZER_DICT = {
     "en": "Friday",
     "tr": "Cuma",
     "ro": "Vineri",
-    "bs": "petak"
+    "bs": "petak",
+    "es": "Viernes",
+    "bg": "петък",
+    "el": "Παρασκευή"
   },
   "samstag": {
     "type": "noun",
@@ -554,7 +722,10 @@ const SUMMARIZER_DICT = {
     "en": "Saturday",
     "tr": "Cumartesi",
     "ro": "Sâmbătă",
-    "bs": "Subota"
+    "bs": "Subota",
+    "es": "Sábado",
+    "bg": "Събота",
+    "el": "Σάββατο"
   },
   "sonntag": {
     "type": "noun",
@@ -564,7 +735,10 @@ const SUMMARIZER_DICT = {
     "en": "Sunday",
     "tr": "Pazar",
     "ro": "Duminică",
-    "bs": "Nedjelja"
+    "bs": "Nedjelja",
+    "es": "Domingo",
+    "bg": "неделя",
+    "el": "Κυριακή"
   },
   "wochenende": {
     "type": "noun",
@@ -574,7 +748,10 @@ const SUMMARIZER_DICT = {
     "en": "Weekend",
     "tr": "Hafta sonu",
     "ro": "Weekend",
-    "bs": "Vikend"
+    "bs": "Vikend",
+    "es": "Fin de semana",
+    "bg": "Уикенд",
+    "el": "Σαββατοκύριακο"
   },
   "aufstehen": {
     "type": "verb",
@@ -586,7 +763,10 @@ const SUMMARIZER_DICT = {
     "en": "to get up",
     "tr": "ayağa kalkmak / uyanmak",
     "ro": "a se scula",
-    "bs": "da ustanem"
+    "bs": "da ustanem",
+    "es": "levantarse",
+    "bg": "да ставам",
+    "el": "να σηκωθεί"
   },
   "frühstücken": {
     "type": "verb",
@@ -598,7 +778,10 @@ const SUMMARIZER_DICT = {
     "en": "to eat breakfast",
     "tr": "kahvaltı yapmak",
     "ro": "a lua micul dejun",
-    "bs": "doručkovati"
+    "bs": "doručkovati",
+    "es": "desayunar",
+    "bg": "да закусвам",
+    "el": "να φάει πρωινό"
   },
   "anfangen": {
     "type": "verb",
@@ -610,7 +793,10 @@ const SUMMARIZER_DICT = {
     "en": "to begin",
     "tr": "başlamak",
     "ro": "a începe",
-    "bs": "za početak"
+    "bs": "za početak",
+    "es": "para empezar",
+    "bg": "да започнем",
+    "el": "να ξεκινήσει"
   },
   "termin": {
     "type": "noun",
@@ -620,7 +806,10 @@ const SUMMARIZER_DICT = {
     "en": "Appointment",
     "tr": "Randevu",
     "ro": "Programare",
-    "bs": "Imenovanje"
+    "bs": "Imenovanje",
+    "es": "Cita",
+    "bg": "Назначаване",
+    "el": "Ραντεβού"
   },
   "morgen": {
     "type": "noun",
@@ -630,7 +819,10 @@ const SUMMARIZER_DICT = {
     "en": "Morning",
     "tr": "Sabah",
     "ro": "Dimineață",
-    "bs": "Jutro"
+    "bs": "Jutro",
+    "es": "Mañana",
+    "bg": "сутрин",
+    "el": "Πρωί"
   },
   "abend": {
     "type": "noun",
@@ -640,7 +832,10 @@ const SUMMARIZER_DICT = {
     "en": "Evening",
     "tr": "Akşam",
     "ro": "Seară",
-    "bs": "Večernje"
+    "bs": "Večernje",
+    "es": "Noche",
+    "bg": "вечер",
+    "el": "Απόγευμα"
   },
   "nacht": {
     "type": "noun",
@@ -650,7 +845,10 @@ const SUMMARIZER_DICT = {
     "en": "Night",
     "tr": "Gece",
     "ro": "Noapte",
-    "bs": "Noć"
+    "bs": "Noć",
+    "es": "Noche",
+    "bg": "нощ",
+    "el": "Νύχτα"
   },
   "brot": {
     "type": "noun",
@@ -660,7 +858,10 @@ const SUMMARIZER_DICT = {
     "en": "Bread",
     "tr": "Ekmek",
     "ro": "Pâine",
-    "bs": "Hleb"
+    "bs": "Hleb",
+    "es": "Pan",
+    "bg": "хляб",
+    "el": "Ψωμί"
   },
   "tomate": {
     "type": "noun",
@@ -670,7 +871,10 @@ const SUMMARIZER_DICT = {
     "en": "Tomato",
     "tr": "Domates",
     "ro": "Roșie",
-    "bs": "Paradajz"
+    "bs": "Paradajz",
+    "es": "Tomate",
+    "bg": "Домат",
+    "el": "Ντομάτα"
   },
   "käse": {
     "type": "noun",
@@ -680,7 +884,10 @@ const SUMMARIZER_DICT = {
     "en": "Cheese",
     "tr": "Peynir",
     "ro": "Brânză",
-    "bs": "Sir"
+    "bs": "Sir",
+    "es": "Queso",
+    "bg": "сирене",
+    "el": "Τυρί"
   },
   "fleisch": {
     "type": "noun",
@@ -690,7 +897,10 @@ const SUMMARIZER_DICT = {
     "en": "Meat",
     "tr": "Et",
     "ro": "Carne",
-    "bs": "Meso"
+    "bs": "Meso",
+    "es": "Carne",
+    "bg": "месо",
+    "el": "Κρέας"
   },
   "obst": {
     "type": "noun",
@@ -700,7 +910,10 @@ const SUMMARIZER_DICT = {
     "en": "Fruit",
     "tr": "Meyve",
     "ro": "Fructe",
-    "bs": "Voće"
+    "bs": "Voće",
+    "es": "Fruta",
+    "bg": "Плодове",
+    "el": "Καρπός"
   },
   "gemüse": {
     "type": "noun",
@@ -710,7 +923,10 @@ const SUMMARIZER_DICT = {
     "en": "Vegetables",
     "tr": "Sebze",
     "ro": "Legume",
-    "bs": "Povrće"
+    "bs": "Povrće",
+    "es": "Verduras",
+    "bg": "зеленчуци",
+    "el": "Λαχανικά"
   },
   "zwiebel": {
     "type": "noun",
@@ -720,7 +936,10 @@ const SUMMARIZER_DICT = {
     "en": "Onion",
     "tr": "Soğan",
     "ro": "Ceapă",
-    "bs": "Luk"
+    "bs": "Luk",
+    "es": "Cebolla",
+    "bg": "лук",
+    "el": "Κρεμμύδι"
   },
   "gurke": {
     "type": "noun",
@@ -730,7 +949,10 @@ const SUMMARIZER_DICT = {
     "en": "Cucumber",
     "tr": "Salatalık",
     "ro": "Castravete",
-    "bs": "Krastavac"
+    "bs": "Krastavac",
+    "es": "Pepino",
+    "bg": "Краставица",
+    "el": "Αγγούρι"
   },
   "öl": {
     "type": "noun",
@@ -740,7 +962,10 @@ const SUMMARIZER_DICT = {
     "en": "Oil",
     "tr": "Yağ",
     "ro": "Ulei",
-    "bs": "Ulje"
+    "bs": "Ulje",
+    "es": "Aceite",
+    "bg": "Масло",
+    "el": "Ελαιο"
   },
   "salz": {
     "type": "noun",
@@ -750,7 +975,10 @@ const SUMMARIZER_DICT = {
     "en": "Salt",
     "tr": "Tuz",
     "ro": "Sare",
-    "bs": "Sol"
+    "bs": "Sol",
+    "es": "Sal",
+    "bg": "сол",
+    "el": "Αλας"
   },
   "kilo": {
     "type": "noun",
@@ -760,7 +988,10 @@ const SUMMARIZER_DICT = {
     "en": "Kilo",
     "tr": "Kilo",
     "ro": "Kilogram",
-    "bs": "Kilo"
+    "bs": "Kilo",
+    "es": "Kilo",
+    "bg": "Кило",
+    "el": "Κιλό"
   },
   "gramm": {
     "type": "noun",
@@ -770,7 +1001,10 @@ const SUMMARIZER_DICT = {
     "en": "Gram",
     "tr": "Gram",
     "ro": "Gram",
-    "bs": "Gram"
+    "bs": "Gram",
+    "es": "Gramo",
+    "bg": "грам",
+    "el": "Γραμμάριο"
   },
   "liter": {
     "type": "noun",
@@ -780,7 +1014,10 @@ const SUMMARIZER_DICT = {
     "en": "Liter",
     "tr": "Litre",
     "ro": "Litru",
-    "bs": "Litara"
+    "bs": "Litara",
+    "es": "Litro",
+    "bg": "Литър",
+    "el": "Λίτρο"
   },
   "flasche": {
     "type": "noun",
@@ -790,7 +1027,10 @@ const SUMMARIZER_DICT = {
     "en": "Bottle",
     "tr": "Şişe",
     "ro": "Sticlă",
-    "bs": "Boca"
+    "bs": "Boca",
+    "es": "Botella",
+    "bg": "Бутилка",
+    "el": "Μπουκάλι"
   },
   "brauchen": {
     "type": "verb",
@@ -802,7 +1042,10 @@ const SUMMARIZER_DICT = {
     "en": "to need",
     "tr": "ihtiyacı olmak",
     "ro": "a avea nevoie",
-    "bs": "da treba"
+    "bs": "da treba",
+    "es": "necesitar",
+    "bg": "да се нуждая",
+    "el": "να χρειαστεί"
   },
   "kochen": {
     "type": "verb",
@@ -814,7 +1057,10 @@ const SUMMARIZER_DICT = {
     "en": "to cook",
     "tr": "yemek pişirmek",
     "ro": "a găti",
-    "bs": "kuhati"
+    "bs": "kuhati",
+    "es": "cocinar",
+    "bg": "да готвя",
+    "el": "να μαγειρέψουν"
   },
   "essen": {
     "type": "verb",
@@ -826,7 +1072,10 @@ const SUMMARIZER_DICT = {
     "en": "to eat",
     "tr": "yemek yemek",
     "ro": "a mânca",
-    "bs": "jesti"
+    "bs": "jesti",
+    "es": "comer",
+    "bg": "да ям",
+    "el": "να φάει"
   },
   "lecker": {
     "type": "adj",
@@ -834,7 +1083,10 @@ const SUMMARIZER_DICT = {
     "en": "delicious",
     "tr": "lezzetli",
     "ro": "gustos",
-    "bs": "ukusno"
+    "bs": "ukusno",
+    "es": "delicioso",
+    "bg": "вкусно",
+    "el": "υπέροχος"
   },
   "rezept": {
     "type": "noun",
@@ -844,7 +1096,10 @@ const SUMMARIZER_DICT = {
     "en": "Recipe",
     "tr": "Tarif",
     "ro": "Rețetă",
-    "bs": "Recept"
+    "bs": "Recept",
+    "es": "Receta",
+    "bg": "Рецепта",
+    "el": "Συνταγή"
   },
   "familie": {
     "type": "noun",
@@ -854,7 +1109,10 @@ const SUMMARIZER_DICT = {
     "en": "Family",
     "tr": "Aile",
     "ro": "Familie",
-    "bs": "Porodica"
+    "bs": "Porodica",
+    "es": "Familia",
+    "bg": "семейство",
+    "el": "Οικογένεια"
   },
   "vater": {
     "type": "noun",
@@ -864,7 +1122,10 @@ const SUMMARIZER_DICT = {
     "en": "Father",
     "tr": "Baba",
     "ro": "Tată",
-    "bs": "Oče"
+    "bs": "Oče",
+    "es": "Padre",
+    "bg": "баща",
+    "el": "Πατέρας"
   },
   "mutter": {
     "type": "noun",
@@ -874,7 +1135,10 @@ const SUMMARIZER_DICT = {
     "en": "Mother",
     "tr": "Anne",
     "ro": "Mamă",
-    "bs": "Majko"
+    "bs": "Majko",
+    "es": "Madre",
+    "bg": "Майка",
+    "el": "Μητέρα"
   },
   "bruder": {
     "type": "noun",
@@ -884,7 +1148,10 @@ const SUMMARIZER_DICT = {
     "en": "Brother",
     "tr": "Erkek kardeş",
     "ro": "Frate",
-    "bs": "brate"
+    "bs": "brate",
+    "es": "Hermano",
+    "bg": "Братко",
+    "el": "Αδελφός"
   },
   "schwester": {
     "type": "noun",
@@ -894,7 +1161,10 @@ const SUMMARIZER_DICT = {
     "en": "Sister",
     "tr": "Kız kardeş",
     "ro": "Soră",
-    "bs": "Sestro"
+    "bs": "Sestro",
+    "es": "Hermana",
+    "bg": "сестра",
+    "el": "Αδελφή"
   },
   "sohn": {
     "type": "noun",
@@ -904,7 +1174,10 @@ const SUMMARIZER_DICT = {
     "en": "Son",
     "tr": "Oğul",
     "ro": "Fiu",
-    "bs": "Sin"
+    "bs": "Sin",
+    "es": "Hijo",
+    "bg": "син",
+    "el": "Υιός"
   },
   "tochter": {
     "type": "noun",
@@ -914,7 +1187,10 @@ const SUMMARIZER_DICT = {
     "en": "Daughter",
     "tr": "Kız evlat",
     "ro": "Fiică",
-    "bs": "kćeri"
+    "bs": "kćeri",
+    "es": "Hija",
+    "bg": "Дъщеря",
+    "el": "Κόρη"
   },
   "großvater": {
     "type": "noun",
@@ -924,7 +1200,10 @@ const SUMMARIZER_DICT = {
     "en": "Grandfather",
     "tr": "Dede",
     "ro": "Bunic",
-    "bs": "Djed"
+    "bs": "Djed",
+    "es": "Abuelo",
+    "bg": "дядо",
+    "el": "Παππούς"
   },
   "großmutter": {
     "type": "noun",
@@ -934,7 +1213,10 @@ const SUMMARIZER_DICT = {
     "en": "Grandmother",
     "tr": "Nene",
     "ro": "Bunică",
-    "bs": "Bako"
+    "bs": "Bako",
+    "es": "Abuela",
+    "bg": "баба",
+    "el": "Γιαγιά"
   },
   "kind": {
     "type": "noun",
@@ -944,7 +1226,10 @@ const SUMMARIZER_DICT = {
     "en": "Child",
     "tr": "Çocuk",
     "ro": "Copil",
-    "bs": "Dijete"
+    "bs": "Dijete",
+    "es": "Niño",
+    "bg": "дете",
+    "el": "Παιδί"
   },
   "geburtstag": {
     "type": "noun",
@@ -954,7 +1239,10 @@ const SUMMARIZER_DICT = {
     "en": "Birthday",
     "tr": "Doğum günü",
     "ro": "Zi de naștere",
-    "bs": "Rođendan"
+    "bs": "Rođendan",
+    "es": "Cumpleaños",
+    "bg": "рожден ден",
+    "el": "Γενέθλια"
   },
   "foto": {
     "type": "noun",
@@ -964,7 +1252,10 @@ const SUMMARIZER_DICT = {
     "en": "Photo",
     "tr": "Fotoğraf",
     "ro": "Fotografie",
-    "bs": "Fotografija"
+    "bs": "Fotografija",
+    "es": "Foto",
+    "bg": "снимка",
+    "el": "Φωτογραφία"
   },
   "wohnung": {
     "type": "noun",
@@ -974,7 +1265,10 @@ const SUMMARIZER_DICT = {
     "en": "Apartment",
     "tr": "Daire",
     "ro": "Apartament",
-    "bs": "Apartman"
+    "bs": "Apartman",
+    "es": "Departamento",
+    "bg": "Апартамент",
+    "el": "Διαμέρισμα"
   },
   "haus": {
     "type": "noun",
@@ -984,7 +1278,10 @@ const SUMMARIZER_DICT = {
     "en": "House",
     "tr": "Ev",
     "ro": "Casă",
-    "bs": "Kuća"
+    "bs": "Kuća",
+    "es": "Casa",
+    "bg": "Къща",
+    "el": "Σπίτι"
   },
   "zimmer": {
     "type": "noun",
@@ -994,7 +1291,10 @@ const SUMMARIZER_DICT = {
     "en": "Room",
     "tr": "Oda",
     "ro": "Cameră",
-    "bs": "Soba"
+    "bs": "Soba",
+    "es": "Habitación",
+    "bg": "стая",
+    "el": "Δωμάτιο"
   },
   "wohnzimmer": {
     "type": "noun",
@@ -1004,7 +1304,10 @@ const SUMMARIZER_DICT = {
     "en": "Living room",
     "tr": "Oturma odası",
     "ro": "Living",
-    "bs": "Dnevni boravak"
+    "bs": "Dnevni boravak",
+    "es": "Sala de estar",
+    "bg": "Всекидневна",
+    "el": "Καθιστικό"
   },
   "schlafzimmer": {
     "type": "noun",
@@ -1014,7 +1317,10 @@ const SUMMARIZER_DICT = {
     "en": "Bedroom",
     "tr": "Yatak odası",
     "ro": "Dormitor",
-    "bs": "Spavaca soba"
+    "bs": "Spavaca soba",
+    "es": "Dormitorio",
+    "bg": "Спалня",
+    "el": "Υπνοδωμάτιο"
   },
   "küche": {
     "type": "noun",
@@ -1024,7 +1330,10 @@ const SUMMARIZER_DICT = {
     "en": "Kitchen",
     "tr": "Mutfak",
     "ro": "Bucătărie",
-    "bs": "Kuhinja"
+    "bs": "Kuhinja",
+    "es": "Cocina",
+    "bg": "Кухня",
+    "el": "Κουζίνα"
   },
   "bad": {
     "type": "noun",
@@ -1034,7 +1343,10 @@ const SUMMARIZER_DICT = {
     "en": "Bathroom",
     "tr": "Banyo",
     "ro": "Baie",
-    "bs": "Kupatilo"
+    "bs": "Kupatilo",
+    "es": "Baño",
+    "bg": "Баня",
+    "el": "Τουαλέτα"
   },
   "badezimmer": {
     "type": "noun",
@@ -1044,7 +1356,10 @@ const SUMMARIZER_DICT = {
     "en": "Bathroom",
     "tr": "Banyo",
     "ro": "Baie",
-    "bs": "Kupatilo"
+    "bs": "Kupatilo",
+    "es": "Baño",
+    "bg": "Баня",
+    "el": "Τουαλέτα"
   },
   "miete": {
     "type": "noun",
@@ -1054,7 +1369,10 @@ const SUMMARIZER_DICT = {
     "en": "Rent",
     "tr": "Kira",
     "ro": "Chirie",
-    "bs": "Najam"
+    "bs": "Najam",
+    "es": "Alquilar",
+    "bg": "Наем",
+    "el": "Ενοίκιο"
   },
   "stock": {
     "type": "noun",
@@ -1064,7 +1382,10 @@ const SUMMARIZER_DICT = {
     "en": "Floor / Story",
     "tr": "Kat",
     "ro": "Etaj",
-    "bs": "Kat / Priča"
+    "bs": "Kat / Priča",
+    "es": "Piso / Piso",
+    "bg": "Етаж / Разказ",
+    "el": "Όροφος / Ιστορία"
   },
   "etage": {
     "type": "noun",
@@ -1074,7 +1395,10 @@ const SUMMARIZER_DICT = {
     "en": "Floor",
     "tr": "Kat",
     "ro": "Etaj",
-    "bs": "Kat"
+    "bs": "Kat",
+    "es": "Piso",
+    "bg": "Етаж",
+    "el": "Πάτωμα"
   },
   "sofa": {
     "type": "noun",
@@ -1084,7 +1408,10 @@ const SUMMARIZER_DICT = {
     "en": "Sofa",
     "tr": "Kanepe",
     "ro": "Canapea",
-    "bs": "Sofa"
+    "bs": "Sofa",
+    "es": "Sofá",
+    "bg": "Диван",
+    "el": "Καναπές"
   },
   "schrank": {
     "type": "noun",
@@ -1094,7 +1421,10 @@ const SUMMARIZER_DICT = {
     "en": "Cabinet / Wardrobe",
     "tr": "Dolap",
     "ro": "Dulap",
-    "bs": "Ormar / Ormar"
+    "bs": "Ormar / Ormar",
+    "es": "Gabinete / Armario",
+    "bg": "Шкаф/гардероб",
+    "el": "Ντουλάπα / Ντουλάπα"
   },
   "bett": {
     "type": "noun",
@@ -1104,7 +1434,10 @@ const SUMMARIZER_DICT = {
     "en": "Bed",
     "tr": "Yatak",
     "ro": "Pat",
-    "bs": "Bed"
+    "bs": "Bed",
+    "es": "Cama",
+    "bg": "легло",
+    "el": "Κρεβάτι"
   },
   "tisch": {
     "type": "noun",
@@ -1114,7 +1447,10 @@ const SUMMARIZER_DICT = {
     "en": "Table",
     "tr": "Masa",
     "ro": "Masă",
-    "bs": "Table"
+    "bs": "Table",
+    "es": "Mesa",
+    "bg": "Таблица",
+    "el": "Τραπέζι"
   },
   "stuhl": {
     "type": "noun",
@@ -1124,7 +1460,10 @@ const SUMMARIZER_DICT = {
     "en": "Chair",
     "tr": "Sandalye",
     "ro": "Scaun",
-    "bs": "Stolica"
+    "bs": "Stolica",
+    "es": "Silla",
+    "bg": "стол",
+    "el": "Καρέκλα"
   },
   "kopf": {
     "type": "noun",
@@ -1134,7 +1473,10 @@ const SUMMARIZER_DICT = {
     "en": "Head",
     "tr": "Kafa",
     "ro": "Cap",
-    "bs": "Glava"
+    "bs": "Glava",
+    "es": "Cabeza",
+    "bg": "Глава",
+    "el": "Κεφάλι"
   },
   "bauch": {
     "type": "noun",
@@ -1144,7 +1486,10 @@ const SUMMARIZER_DICT = {
     "en": "Belly / Stomach",
     "tr": "Karın",
     "ro": "Burta",
-    "bs": "Trbuh / stomak"
+    "bs": "Trbuh / stomak",
+    "es": "Vientre / Estómago",
+    "bg": "Корем/стомах",
+    "el": "Κοιλιά / Στομάχι"
   },
   "hals": {
     "type": "noun",
@@ -1154,7 +1499,10 @@ const SUMMARIZER_DICT = {
     "en": "Throat / Neck",
     "tr": "Boğaz / Boyun",
     "ro": "Gât",
-    "bs": "Grlo / Vrat"
+    "bs": "Grlo / Vrat",
+    "es": "Garganta / Cuello",
+    "bg": "Гърло / Шия",
+    "el": "Λαιμός / Λαιμός"
   },
   "rücken": {
     "type": "noun",
@@ -1164,7 +1512,10 @@ const SUMMARIZER_DICT = {
     "en": "Back",
     "tr": "Arka / Sırt",
     "ro": "Spate",
-    "bs": "Nazad"
+    "bs": "Nazad",
+    "es": "Atrás",
+    "bg": "Назад",
+    "el": "Πίσω"
   },
   "kopfschmerzen": {
     "type": "noun",
@@ -1174,7 +1525,10 @@ const SUMMARIZER_DICT = {
     "en": "Headache",
     "tr": "Baş ağrısı",
     "ro": "Durere de cap",
-    "bs": "Glavobolja"
+    "bs": "Glavobolja",
+    "es": "Dolor de cabeza",
+    "bg": "Главоболие",
+    "el": "Πονοκέφαλο"
   },
   "fieber": {
     "type": "noun",
@@ -1184,7 +1538,10 @@ const SUMMARIZER_DICT = {
     "en": "Fever",
     "tr": "Ateş",
     "ro": "Febră",
-    "bs": "Vrućica"
+    "bs": "Vrućica",
+    "es": "Fiebre",
+    "bg": "Треска",
+    "el": "Πυρετός"
   },
   "erkältung": {
     "type": "noun",
@@ -1194,7 +1551,10 @@ const SUMMARIZER_DICT = {
     "en": "Common cold",
     "tr": "Soğuk algınlığı",
     "ro": "Răceală",
-    "bs": "Obična prehlada"
+    "bs": "Obična prehlada",
+    "es": "Resfriado común",
+    "bg": "Обикновена настинка",
+    "el": "Κοινό κρυολόγημα"
   },
   "arzt": {
     "type": "noun",
@@ -1204,7 +1564,10 @@ const SUMMARIZER_DICT = {
     "en": "Doctor (male)",
     "tr": "Doktor",
     "ro": "Medic",
-    "bs": "doktor (muško)"
+    "bs": "doktor (muško)",
+    "es": "Médico (masculino)",
+    "bg": "лекар (мъж)",
+    "el": "Γιατρός (άνδρας)"
   },
   "ärztin": {
     "type": "noun",
@@ -1214,7 +1577,10 @@ const SUMMARIZER_DICT = {
     "en": "Doctor (female)",
     "tr": "Bayan doktor",
     "ro": "Medic (femeie)",
-    "bs": "doktorica (žena)"
+    "bs": "doktorica (žena)",
+    "es": "Doctora (mujer)",
+    "bg": "лекар (жена)",
+    "el": "Γιατρός (γυναίκα)"
   },
   "krankenhaus": {
     "type": "noun",
@@ -1224,7 +1590,10 @@ const SUMMARIZER_DICT = {
     "en": "Hospital",
     "tr": "Hastane",
     "ro": "Spital",
-    "bs": "Bolnica"
+    "bs": "Bolnica",
+    "es": "Hospital",
+    "bg": "болница",
+    "el": "Νοσοκομείο"
   },
   "medikament": {
     "type": "noun",
@@ -1234,7 +1603,10 @@ const SUMMARIZER_DICT = {
     "en": "Medicine / Drug",
     "tr": "İlaç",
     "ro": "Medicament",
-    "bs": "Medicina / Drog"
+    "bs": "Medicina / Drog",
+    "es": "Medicina / Droga",
+    "bg": "Лекарство / Лекарство",
+    "el": "Ιατρική / Φάρμακο"
   },
   "müssen": {
     "type": "verb",
@@ -1246,7 +1618,10 @@ const SUMMARIZER_DICT = {
     "en": "must / have to",
     "tr": "zorunda olmak",
     "ro": "a trebui",
-    "bs": "mora / mora"
+    "bs": "mora / mora",
+    "es": "debe / tiene que",
+    "bg": "трябва / трябва",
+    "el": "πρέπει / πρέπει να"
   },
   "können": {
     "type": "verb",
@@ -1258,7 +1633,10 @@ const SUMMARIZER_DICT = {
     "en": "can / be able to",
     "tr": "bilmek / ebilmek",
     "ro": "a putea",
-    "bs": "mogu / mogu"
+    "bs": "mogu / mogu",
+    "es": "puede / ser capaz de",
+    "bg": "мога / мога да",
+    "el": "μπορώ / μπορώ να"
   },
   "dürfen": {
     "type": "verb",
@@ -1270,7 +1648,10 @@ const SUMMARIZER_DICT = {
     "en": "may / be allowed to",
     "tr": "izinli olmak",
     "ro": "a avea voie",
-    "bs": "može / biti dozvoljeno"
+    "bs": "može / biti dozvoljeno",
+    "es": "puede / se le permitirá",
+    "bg": "може / може да бъде позволено",
+    "el": "μπορεί / επιτρέπεται να"
   },
   "wehtun": {
     "type": "verb",
@@ -1282,7 +1663,10 @@ const SUMMARIZER_DICT = {
     "en": "to hurt",
     "tr": "acımak",
     "ro": "a durea",
-    "bs": "da boli"
+    "bs": "da boli",
+    "es": "lastimar",
+    "bg": "да боли",
+    "el": "να πονέσει"
   },
   "gesund": {
     "type": "adj",
@@ -1290,7 +1674,10 @@ const SUMMARIZER_DICT = {
     "en": "healthy / sound",
     "tr": "sağlıklı",
     "ro": "sănătos",
-    "bs": "zdrav / zdrav"
+    "bs": "zdrav / zdrav",
+    "es": "sano/sano",
+    "bg": "здрав / здрав",
+    "el": "υγιής / ήχος"
   },
   "sport": {
     "type": "noun",
@@ -1300,7 +1687,10 @@ const SUMMARIZER_DICT = {
     "en": "Sport",
     "tr": "Spor",
     "ro": "Sport",
-    "bs": "Sport"
+    "bs": "Sport",
+    "es": "Deporte",
+    "bg": "спорт",
+    "el": "Αθλημα"
   },
   "zug": {
     "type": "noun",
@@ -1310,7 +1700,10 @@ const SUMMARIZER_DICT = {
     "en": "Train",
     "tr": "Tren",
     "ro": "Tren",
-    "bs": "Vlak"
+    "bs": "Vlak",
+    "es": "Tren",
+    "bg": "влак",
+    "el": "Τρένο"
   },
   "auto": {
     "type": "noun",
@@ -1320,7 +1713,10 @@ const SUMMARIZER_DICT = {
     "en": "Car",
     "tr": "Araba",
     "ro": "Mașină",
-    "bs": "Auto"
+    "bs": "Auto",
+    "es": "Auto",
+    "bg": "кола",
+    "el": "Αυτοκίνητο"
   },
   "fahrrad": {
     "type": "noun",
@@ -1330,7 +1726,10 @@ const SUMMARIZER_DICT = {
     "en": "Bicycle",
     "tr": "Bisiklet",
     "ro": "Bicicletă",
-    "bs": "Bicikl"
+    "bs": "Bicikl",
+    "es": "Bicicleta",
+    "bg": "Велосипед",
+    "el": "Ποδήλατο"
   },
   "u-bahn": {
     "type": "noun",
@@ -1340,7 +1739,10 @@ const SUMMARIZER_DICT = {
     "en": "Subway",
     "tr": "Metro",
     "ro": "Metrou",
-    "bs": "Podzemna željeznica"
+    "bs": "Podzemna željeznica",
+    "es": "Metro",
+    "bg": "Метро",
+    "el": "Υπόγεια διάβαση"
   },
   "bus": {
     "type": "noun",
@@ -1350,7 +1752,10 @@ const SUMMARIZER_DICT = {
     "en": "Bus",
     "tr": "Otobüs",
     "ro": "Autobuz",
-    "bs": "Autobus"
+    "bs": "Autobus",
+    "es": "Autobús",
+    "bg": "автобус",
+    "el": "Λεωφορείο"
   },
   "fahrkarte": {
     "type": "noun",
@@ -1360,7 +1765,10 @@ const SUMMARIZER_DICT = {
     "en": "Ticket",
     "tr": "Bilet",
     "ro": "Bilet",
-    "bs": "Ticket"
+    "bs": "Ticket",
+    "es": "Boleto",
+    "bg": "Билет",
+    "el": "Εισιτήριο"
   },
   "bahnhof": {
     "type": "noun",
@@ -1370,7 +1778,10 @@ const SUMMARIZER_DICT = {
     "en": "Train station",
     "tr": "İstasyon",
     "ro": "Gară",
-    "bs": "Željeznička stanica"
+    "bs": "Željeznička stanica",
+    "es": "Estación de tren",
+    "bg": "ЖП гара",
+    "el": "σιδηροδρομικός σταθμός"
   },
   "gleis": {
     "type": "noun",
@@ -1380,7 +1791,10 @@ const SUMMARIZER_DICT = {
     "en": "Platform / Track",
     "tr": "Peron",
     "ro": "Linie / Peron",
-    "bs": "Platforma / staza"
+    "bs": "Platforma / staza",
+    "es": "Plataforma / Pista",
+    "bg": "Платформа / писта",
+    "el": "Πλατφόρμα / Κομμάτι"
   },
   "abfahren": {
     "type": "verb",
@@ -1392,7 +1806,10 @@ const SUMMARIZER_DICT = {
     "en": "to depart",
     "tr": "hareket etmek",
     "ro": "a pleca",
-    "bs": "da ode"
+    "bs": "da ode",
+    "es": "partir",
+    "bg": "да замина",
+    "el": "να αναχωρήσει"
   },
   "ankommen": {
     "type": "verb",
@@ -1404,7 +1821,10 @@ const SUMMARIZER_DICT = {
     "en": "to arrive",
     "tr": "varmak",
     "ro": "a sosi",
-    "bs": "stići"
+    "bs": "stići",
+    "es": "llegar",
+    "bg": "да пристигне",
+    "el": "να φτάσει"
   },
   "geradeaus": {
     "type": "adv",
@@ -1412,7 +1832,10 @@ const SUMMARIZER_DICT = {
     "en": "straight ahead",
     "tr": "düz gitmek",
     "ro": "drept înainte",
-    "bs": "pravo naprijed"
+    "bs": "pravo naprijed",
+    "es": "todo derecho",
+    "bg": "право напред",
+    "el": "ευθεία μπροστά"
   },
   "rechts": {
     "type": "adv",
@@ -1420,7 +1843,10 @@ const SUMMARIZER_DICT = {
     "en": "right",
     "tr": "sağ",
     "ro": "dreapta",
-    "bs": "u pravu"
+    "bs": "u pravu",
+    "es": "bien",
+    "bg": "точно",
+    "el": "δικαίωμα"
   },
   "links": {
     "type": "adv",
@@ -1428,7 +1854,10 @@ const SUMMARIZER_DICT = {
     "en": "left",
     "tr": "sol",
     "ro": "stânga",
-    "bs": "lijevo"
+    "bs": "lijevo",
+    "es": "izquierda",
+    "bg": "наляво",
+    "el": "αριστερά"
   },
   "hobby": {
     "type": "noun",
@@ -1438,7 +1867,10 @@ const SUMMARIZER_DICT = {
     "en": "Hobby",
     "tr": "Hobi",
     "ro": "Hobby",
-    "bs": "Hobi"
+    "bs": "Hobi",
+    "es": "Pasatiempo",
+    "bg": "хоби",
+    "el": "Χόμπι"
   },
   "fußball": {
     "type": "noun",
@@ -1448,7 +1880,10 @@ const SUMMARIZER_DICT = {
     "en": "Football",
     "tr": "Futbol",
     "ro": "Fotbal",
-    "bs": "Fudbal"
+    "bs": "Fudbal",
+    "es": "Fútbol americano",
+    "bg": "футбол",
+    "el": "Ποδόσφαιρο"
   },
   "tennis": {
     "type": "noun",
@@ -1458,7 +1893,10 @@ const SUMMARIZER_DICT = {
     "en": "Tennis",
     "tr": "Tenis",
     "ro": "Tenis",
-    "bs": "Tenis"
+    "bs": "Tenis",
+    "es": "Tenis",
+    "bg": "тенис",
+    "el": "Τένις"
   },
   "schwimmen": {
     "type": "noun",
@@ -1468,7 +1906,10 @@ const SUMMARIZER_DICT = {
     "en": "Swimming",
     "tr": "Yüzme",
     "ro": "Înot",
-    "bs": "Plivanje"
+    "bs": "Plivanje",
+    "es": "Nadar",
+    "bg": "Плуване",
+    "el": "Κολύμπι"
   },
   "musik": {
     "type": "noun",
@@ -1478,7 +1919,10 @@ const SUMMARIZER_DICT = {
     "en": "Music",
     "tr": "Müzik",
     "ro": "Muzică",
-    "bs": "Muzika"
+    "bs": "Muzika",
+    "es": "Música",
+    "bg": "Музика",
+    "el": "Μουσική"
   },
   "lesen": {
     "type": "verb",
@@ -1490,7 +1934,10 @@ const SUMMARIZER_DICT = {
     "en": "to read",
     "tr": "okumak",
     "ro": "a citi",
-    "bs": "čitati"
+    "bs": "čitati",
+    "es": "leer",
+    "bg": "да чета",
+    "el": "για να διαβάσετε"
   },
   "spielen": {
     "type": "verb",
@@ -1502,7 +1949,10 @@ const SUMMARIZER_DICT = {
     "en": "to play",
     "tr": "oynamak",
     "ro": "a se juca",
-    "bs": "igrati"
+    "bs": "igrati",
+    "es": "jugar",
+    "bg": "да играят",
+    "el": "να παίξει"
   },
   "hören": {
     "type": "verb",
@@ -1514,7 +1964,10 @@ const SUMMARIZER_DICT = {
     "en": "to hear / listen",
     "tr": "duymak / dinlemek",
     "ro": "a auzi / a asculta",
-    "bs": "čuti/slušati"
+    "bs": "čuti/slušati",
+    "es": "escuchar / escuchar",
+    "bg": "да чуя / слушам",
+    "el": "να ακούσω / ακούσω"
   },
   "gern": {
     "type": "adv",
@@ -1522,7 +1975,10 @@ const SUMMARIZER_DICT = {
     "en": "gladly",
     "tr": "severek / memnuniyetle",
     "ro": "cu plăcere",
-    "bs": "rado"
+    "bs": "rado",
+    "es": "con alegría",
+    "bg": "с радост",
+    "el": "ευχαρίστως"
   },
   "spaß": {
     "type": "noun",
@@ -1532,7 +1988,10 @@ const SUMMARIZER_DICT = {
     "en": "Fun",
     "tr": "Eğlence",
     "ro": "Distracție",
-    "bs": "Zabava"
+    "bs": "Zabava",
+    "es": "Divertido",
+    "bg": "забавление",
+    "el": "Διασκέδαση"
   },
   "kino": {
     "type": "noun",
@@ -1542,7 +2001,10 @@ const SUMMARIZER_DICT = {
     "en": "Cinema",
     "tr": "Sinema",
     "ro": "Cinema",
-    "bs": "Bioskop"
+    "bs": "Bioskop",
+    "es": "Cine",
+    "bg": "Кино",
+    "el": "Σινεμά"
   },
   "konzert": {
     "type": "noun",
@@ -1552,7 +2014,10 @@ const SUMMARIZER_DICT = {
     "en": "Concert",
     "tr": "Konser",
     "ro": "Concert",
-    "bs": "Koncert"
+    "bs": "Koncert",
+    "es": "Concierto",
+    "bg": "Концерт",
+    "el": "Συναυλία"
   },
   "einladung": {
     "type": "noun",
@@ -1562,7 +2027,10 @@ const SUMMARIZER_DICT = {
     "en": "Invitation",
     "tr": "Davetiye",
     "ro": "Invitație",
-    "bs": "Poziv"
+    "bs": "Poziv",
+    "es": "Invitación",
+    "bg": "Покана",
+    "el": "Πρόσκληση"
   },
   "arbeit": {
     "type": "noun",
@@ -1572,7 +2040,10 @@ const SUMMARIZER_DICT = {
     "en": "Work",
     "tr": "İş",
     "ro": "Muncă",
-    "bs": "Posao"
+    "bs": "Posao",
+    "es": "Trabajar",
+    "bg": "работа",
+    "el": "Εργασία"
   },
   "job": {
     "type": "noun",
@@ -1582,7 +2053,10 @@ const SUMMARIZER_DICT = {
     "en": "Job",
     "tr": "İş",
     "ro": "Job",
-    "bs": "Posao"
+    "bs": "Posao",
+    "es": "Trabajo",
+    "bg": "работа",
+    "el": "Δουλειά"
   },
   "beruf": {
     "type": "noun",
@@ -1592,7 +2066,10 @@ const SUMMARIZER_DICT = {
     "en": "Profession",
     "tr": "Meslek",
     "ro": "Profesie",
-    "bs": "Profesija"
+    "bs": "Profesija",
+    "es": "Profesión",
+    "bg": "Професия",
+    "el": "Επάγγελμα"
   },
   "lehrer": {
     "type": "noun",
@@ -1602,7 +2079,10 @@ const SUMMARIZER_DICT = {
     "en": "Teacher (male)",
     "tr": "Öğretmen",
     "ro": "Profesor",
-    "bs": "Učitelj (muško)"
+    "bs": "Učitelj (muško)",
+    "es": "Profesor (masculino)",
+    "bg": "Учител (мъж)",
+    "el": "Δάσκαλος (άνδρας)"
   },
   "ingenieur": {
     "type": "noun",
@@ -1612,7 +2092,10 @@ const SUMMARIZER_DICT = {
     "en": "Engineer",
     "tr": "Mühendis",
     "ro": "Inginer",
-    "bs": "Inženjer"
+    "bs": "Inženjer",
+    "es": "Ingeniero",
+    "bg": "Инженер",
+    "el": "Μηχανικός"
   },
   "koch": {
     "type": "noun",
@@ -1622,7 +2105,10 @@ const SUMMARIZER_DICT = {
     "en": "Cook / Chef",
     "tr": "Aşçı",
     "ro": "Bucătar",
-    "bs": "Kuvar / Kuvar"
+    "bs": "Kuvar / Kuvar",
+    "es": "Cocinero / Cocinero",
+    "bg": "Готвач / готвач",
+    "el": "Μάγειρας / Σεφ"
   },
   "verkäufer": {
     "type": "noun",
@@ -1632,7 +2118,10 @@ const SUMMARIZER_DICT = {
     "en": "Seller / Clerk",
     "tr": "Satıcı",
     "ro": "Vânzător",
-    "bs": "Prodavac / Službenik"
+    "bs": "Prodavac / Službenik",
+    "es": "Vendedor / Empleado",
+    "bg": "Продавач / Чиновник",
+    "el": "Πωλητής / Υπάλληλος"
   },
   "büro": {
     "type": "noun",
@@ -1642,7 +2131,10 @@ const SUMMARIZER_DICT = {
     "en": "Office",
     "tr": "Ofis",
     "ro": "Birou",
-    "bs": "Ured"
+    "bs": "Ured",
+    "es": "Oficina",
+    "bg": "офис",
+    "el": "Γραφείο"
   },
   "arbeiten": {
     "type": "verb",
@@ -1654,7 +2146,10 @@ const SUMMARIZER_DICT = {
     "en": "to work",
     "tr": "çalışmak",
     "ro": "a lucra",
-    "bs": "na posao"
+    "bs": "na posao",
+    "es": "trabajar",
+    "bg": "да работят",
+    "el": "να δουλέψεις"
   },
   "gehalt": {
     "type": "noun",
@@ -1664,7 +2159,10 @@ const SUMMARIZER_DICT = {
     "en": "Salary",
     "tr": "Maaş",
     "ro": "Salariu",
-    "bs": "Plata"
+    "bs": "Plata",
+    "es": "Salario",
+    "bg": "Заплата",
+    "el": "Μισθός"
   },
   "stunde": {
     "type": "noun",
@@ -1674,7 +2172,10 @@ const SUMMARIZER_DICT = {
     "en": "Hour",
     "tr": "Saat",
     "ro": "Oră",
-    "bs": "Sat"
+    "bs": "Sat",
+    "es": "Hora",
+    "bg": "час",
+    "el": "Ωρα"
   },
   "restaurant": {
     "type": "noun",
@@ -1684,7 +2185,10 @@ const SUMMARIZER_DICT = {
     "en": "Restaurant",
     "tr": "Restoran",
     "ro": "Restaurant",
-    "bs": "Restoran"
+    "bs": "Restoran",
+    "es": "Restaurante",
+    "bg": "ресторант",
+    "el": "Εστιατόριο"
   },
   "speisekarte": {
     "type": "noun",
@@ -1694,7 +2198,10 @@ const SUMMARIZER_DICT = {
     "en": "Menu",
     "tr": "Menü / Yemek listesi",
     "ro": "Meniu",
-    "bs": "Meni"
+    "bs": "Meni",
+    "es": "Menú",
+    "bg": "Меню",
+    "el": "Μενού"
   },
   "kellner": {
     "type": "noun",
@@ -1704,7 +2211,10 @@ const SUMMARIZER_DICT = {
     "en": "Waiter",
     "tr": "Garson",
     "ro": "Chelner",
-    "bs": "Konobar"
+    "bs": "Konobar",
+    "es": "Mesero",
+    "bg": "сервитьор",
+    "el": "Σερβιτόρος"
   },
   "vorspeise": {
     "type": "noun",
@@ -1714,7 +2224,10 @@ const SUMMARIZER_DICT = {
     "en": "Appetizer",
     "tr": "Meze / Giriş yemeği",
     "ro": "Aperitiv",
-    "bs": "Predjelo"
+    "bs": "Predjelo",
+    "es": "Aperitivo",
+    "bg": "Предястие",
+    "el": "Ορεκτικό"
   },
   "hauptspeise": {
     "type": "noun",
@@ -1724,7 +2237,10 @@ const SUMMARIZER_DICT = {
     "en": "Main course",
     "tr": "Ana yemek",
     "ro": "Fel principal",
-    "bs": "Glavno jelo"
+    "bs": "Glavno jelo",
+    "es": "Plato principal",
+    "bg": "Основно ястие",
+    "el": "Κύριο πιάτο"
   },
   "dessert": {
     "type": "noun",
@@ -1734,7 +2250,10 @@ const SUMMARIZER_DICT = {
     "en": "Dessert",
     "tr": "Tatlı",
     "ro": "Desert",
-    "bs": "Desert"
+    "bs": "Desert",
+    "es": "Postre",
+    "bg": "Десерт",
+    "el": "Επιδόρπιο"
   },
   "schnitzel": {
     "type": "noun",
@@ -1744,7 +2263,10 @@ const SUMMARIZER_DICT = {
     "en": "Schnitzel",
     "tr": "Şnitzel",
     "ro": "Șnițel",
-    "bs": "Schnitzel"
+    "bs": "Schnitzel",
+    "es": "Chuleta de ternera",
+    "bg": "Шницел",
+    "el": "Σνίτσελ"
   },
   "suppe": {
     "type": "noun",
@@ -1754,7 +2276,10 @@ const SUMMARIZER_DICT = {
     "en": "Soup",
     "tr": "Çorba",
     "ro": "Supă",
-    "bs": "Supa"
+    "bs": "Supa",
+    "es": "Sopa",
+    "bg": "Супа",
+    "el": "Σούπα"
   },
   "bestellen": {
     "type": "verb",
@@ -1766,7 +2291,10 @@ const SUMMARIZER_DICT = {
     "en": "to order",
     "tr": "sipariş vermek",
     "ro": "a comanda",
-    "bs": "naručiti"
+    "bs": "naručiti",
+    "es": "ordenar",
+    "bg": "да поръчам",
+    "el": "να παραγγείλετε"
   },
   "trinkgeld": {
     "type": "noun",
@@ -1776,7 +2304,10 @@ const SUMMARIZER_DICT = {
     "en": "Tip",
     "tr": "Bahşiş",
     "ro": "Bacșiș",
-    "bs": "Savjet"
+    "bs": "Savjet",
+    "es": "Consejo",
+    "bg": "Съвет",
+    "el": "Ακρο"
   },
   "gehen": {
     "type": "verb",
@@ -1788,7 +2319,10 @@ const SUMMARIZER_DICT = {
     "en": "to go",
     "tr": "gitmek",
     "ro": "a merge",
-    "bs": "ići"
+    "bs": "ići",
+    "es": "ir",
+    "bg": "да отида",
+    "el": "να πάει"
   },
   "fahren": {
     "type": "verb",
@@ -1800,7 +2334,10 @@ const SUMMARIZER_DICT = {
     "en": "to drive / ride",
     "tr": "sürmek / gitmek",
     "ro": "a conduce / a merge",
-    "bs": "voziti / voziti se"
+    "bs": "voziti / voziti se",
+    "es": "conducir / montar",
+    "bg": "да карам / яздя",
+    "el": "να οδηγείς / να οδηγείς"
   },
   "schreiben": {
     "type": "verb",
@@ -1812,7 +2349,10 @@ const SUMMARIZER_DICT = {
     "en": "to write",
     "tr": "yazmak",
     "ro": "a scrie",
-    "bs": "pisati"
+    "bs": "pisati",
+    "es": "escribir",
+    "bg": "да пиша",
+    "el": "να γράψω"
   },
   "verstehen": {
     "type": "verb",
@@ -1824,7 +2364,10 @@ const SUMMARIZER_DICT = {
     "en": "to understand",
     "tr": "anlamak",
     "ro": "a înțelege",
-    "bs": "razumjeti"
+    "bs": "razumjeti",
+    "es": "entender",
+    "bg": "да разберем",
+    "el": "να καταλάβεις"
   },
   "lernen": {
     "type": "verb",
@@ -1836,7 +2379,10 @@ const SUMMARIZER_DICT = {
     "en": "to learn",
     "tr": "öğrenmek",
     "ro": "a învăța",
-    "bs": "učiti"
+    "bs": "učiti",
+    "es": "aprender",
+    "bg": "да се уча",
+    "el": "να μάθεις"
   },
   "suchen": {
     "type": "verb",
@@ -1848,7 +2394,10 @@ const SUMMARIZER_DICT = {
     "en": "to search / look for",
     "tr": "aramak",
     "ro": "a căuta",
-    "bs": "tražiti / tražiti"
+    "bs": "tražiti / tražiti",
+    "es": "buscar / buscar",
+    "bg": "да търся / търся",
+    "el": "για αναζήτηση / αναζήτηση"
   },
   "finden": {
     "type": "verb",
@@ -1860,7 +2409,10 @@ const SUMMARIZER_DICT = {
     "en": "to find",
     "tr": "bulmak",
     "ro": "a găsi",
-    "bs": "pronaći"
+    "bs": "pronaći",
+    "es": "encontrar",
+    "bg": "за намиране",
+    "el": "να βρεις"
   },
   "haben": {
     "type": "verb",
@@ -1872,7 +2424,10 @@ const SUMMARIZER_DICT = {
     "en": "to have",
     "tr": "sahip olmak",
     "ro": "a avea",
-    "bs": "imati"
+    "bs": "imati",
+    "es": "tener",
+    "bg": "да имаш",
+    "el": "να έχει"
   },
   "geben": {
     "type": "verb",
@@ -1884,7 +2439,10 @@ const SUMMARIZER_DICT = {
     "en": "to give",
     "tr": "vermek",
     "ro": "a oferi",
-    "bs": "dati"
+    "bs": "dati",
+    "es": "dar",
+    "bg": "да дадеш",
+    "el": "να δώσει"
   },
   "sehen": {
     "type": "verb",
@@ -1896,7 +2454,10 @@ const SUMMARIZER_DICT = {
     "en": "to see",
     "tr": "görmek",
     "ro": "a vedea",
-    "bs": "vidjeti"
+    "bs": "vidjeti",
+    "es": "ver",
+    "bg": "да видя",
+    "el": "να δεις"
   },
   "machen": {
     "type": "verb",
@@ -1908,7 +2469,10 @@ const SUMMARIZER_DICT = {
     "en": "to do / make",
     "tr": "yapmak",
     "ro": "a face",
-    "bs": "učiniti / napraviti"
+    "bs": "učiniti / napraviti",
+    "es": "hacer / hacer",
+    "bg": "да направя / направя",
+    "el": "να κάνω / να φτιάξω"
   },
   "helfen": {
     "type": "verb",
@@ -1920,7 +2484,10 @@ const SUMMARIZER_DICT = {
     "en": "to help",
     "tr": "yardım etmek",
     "ro": "a ajuta",
-    "bs": "pomoći"
+    "bs": "pomoći",
+    "es": "para ayudar",
+    "bg": "да помагам",
+    "el": "να βοηθήσει"
   },
   "fragen": {
     "type": "verb",
@@ -1932,7 +2499,10 @@ const SUMMARIZER_DICT = {
     "en": "to ask",
     "tr": "sormak",
     "ro": "a întreba",
-    "bs": "pitati"
+    "bs": "pitati",
+    "es": "preguntar",
+    "bg": "да питам",
+    "el": "να ρωτήσω"
   },
   "antworten": {
     "type": "verb",
@@ -1944,7 +2514,10 @@ const SUMMARIZER_DICT = {
     "en": "to answer",
     "tr": "cevap vermek",
     "ro": "a răspunde",
-    "bs": "odgovoriti"
+    "bs": "odgovoriti",
+    "es": "responder",
+    "bg": "да отговоря",
+    "el": "να απαντήσει"
   },
   "kalt": {
     "type": "adj",
@@ -1952,7 +2525,10 @@ const SUMMARIZER_DICT = {
     "en": "cold",
     "tr": "soğuk",
     "ro": "rece",
-    "bs": "hladno"
+    "bs": "hladno",
+    "es": "frío",
+    "bg": "студено",
+    "el": "κρύο"
   },
   "warm": {
     "type": "adj",
@@ -1960,7 +2536,10 @@ const SUMMARIZER_DICT = {
     "en": "warm",
     "tr": "sıcak / ılık",
     "ro": "cald",
-    "bs": "toplo"
+    "bs": "toplo",
+    "es": "cálido",
+    "bg": "топло",
+    "el": "ζεστός"
   },
   "heiß": {
     "type": "adj",
@@ -1968,7 +2547,10 @@ const SUMMARIZER_DICT = {
     "en": "hot",
     "tr": "çok sıcak",
     "ro": "fierbinte",
-    "bs": "vruće"
+    "bs": "vruće",
+    "es": "caliente",
+    "bg": "горещ",
+    "el": "καυτό"
   },
   "mädchen": {
     "type": "noun",
@@ -1978,7 +2560,10 @@ const SUMMARIZER_DICT = {
     "en": "Girl",
     "tr": "Kız çocuk",
     "ro": "Fată",
-    "bs": "Girl"
+    "bs": "Girl",
+    "es": "Chica",
+    "bg": "момиче",
+    "el": "Κορίτσι"
   },
   "dokument": {
     "type": "noun",
@@ -1988,7 +2573,10 @@ const SUMMARIZER_DICT = {
     "en": "Document",
     "tr": "Belge / Doküman",
     "ro": "Document",
-    "bs": "Dokument"
+    "bs": "Dokument",
+    "es": "Documento",
+    "bg": "Документ",
+    "el": "Εγγραφο"
   }
 };
 

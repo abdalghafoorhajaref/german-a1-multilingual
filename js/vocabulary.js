@@ -14,7 +14,10 @@ const VOCABULARY = [
     "en": "Hello",
     "tr": "Merhaba",
     "ro": "Bună",
-    "bs": "Zdravo"
+    "bs": "Zdravo",
+    "es": "Hola",
+    "bg": "здравей",
+    "el": "Γειά σου"
   },
   {
     "id": 2,
@@ -26,7 +29,10 @@ const VOCABULARY = [
     "en": "Good day / Hello",
     "tr": "İyi günler / Merhaba",
     "ro": "Bună ziua",
-    "bs": "Dobar dan / Zdravo"
+    "bs": "Dobar dan / Zdravo",
+    "es": "Buen día / Hola",
+    "bg": "Добър ден / Здравейте",
+    "el": "Καλημέρα / Γεια σας"
   },
   {
     "id": 3,
@@ -38,7 +44,10 @@ const VOCABULARY = [
     "en": "Good morning",
     "tr": "Günaydın",
     "ro": "Bună dimineața",
-    "bs": "Dobro jutro"
+    "bs": "Dobro jutro",
+    "es": "Buen día",
+    "bg": "добро утро",
+    "el": "Καλημέρα"
   },
   {
     "id": 4,
@@ -50,7 +59,10 @@ const VOCABULARY = [
     "en": "Good evening",
     "tr": "İyi akşamlar",
     "ro": "Bună seara",
-    "bs": "Dobro veče"
+    "bs": "Dobro veče",
+    "es": "Buenas noches",
+    "bg": "Добър вечер",
+    "el": "Καλησπέρα"
   },
   {
     "id": 5,
@@ -62,7 +74,10 @@ const VOCABULARY = [
     "en": "Goodbye (formal)",
     "tr": "Görüşmek üzere (resmi)",
     "ro": "La revedere (formal)",
-    "bs": "doviđenja (formalno)"
+    "bs": "doviđenja (formalno)",
+    "es": "Adiós (formal)",
+    "bg": "Довиждане (официално)",
+    "el": "Αντίο (επίσημο)"
   },
   {
     "id": 6,
@@ -74,7 +89,10 @@ const VOCABULARY = [
     "en": "Goodbye (informal)",
     "tr": "Görüşürüz / Hoşça kal",
     "ro": "Pa (informal)",
-    "bs": "zbogom (neformalno)"
+    "bs": "zbogom (neformalno)",
+    "es": "Adiós (informal)",
+    "bg": "Довиждане (неформално)",
+    "el": "Αντίο (ανεπίσημη)"
   },
   {
     "id": 7,
@@ -86,7 +104,10 @@ const VOCABULARY = [
     "en": "Please / You're welcome",
     "tr": "Lütfen / Rica ederim",
     "ro": "Te rog / Cu plăcere",
-    "bs": "Molim / Nema na čemu"
+    "bs": "Molim / Nema na čemu",
+    "es": "Por favor / De nada",
+    "bg": "Моля / няма за какво",
+    "el": "Παρακαλώ / Είστε ευπρόσδεκτοι"
   },
   {
     "id": 8,
@@ -98,7 +119,10 @@ const VOCABULARY = [
     "en": "Thank you",
     "tr": "Teşekkürler",
     "ro": "Mulțumesc",
-    "bs": "Hvala ti"
+    "bs": "Hvala ti",
+    "es": "Gracias",
+    "bg": "благодаря",
+    "el": "Σας ευχαριστώ"
   },
   {
     "id": 9,
@@ -110,7 +134,10 @@ const VOCABULARY = [
     "en": "the name",
     "tr": "isim / ad",
     "ro": "numele",
-    "bs": "ime"
+    "bs": "ime",
+    "es": "el nombre",
+    "bg": "името",
+    "el": "το όνομα"
   },
   {
     "id": 10,
@@ -122,7 +149,10 @@ const VOCABULARY = [
     "en": "to be called",
     "tr": "adlandırılmak / adı olmak",
     "ro": "a se numi",
-    "bs": "biti pozvan"
+    "bs": "biti pozvan",
+    "es": "ser llamado",
+    "bg": "да бъде наречен",
+    "el": "να κληθείς"
   },
   {
     "id": 11,
@@ -134,7 +164,10 @@ const VOCABULARY = [
     "en": "to be",
     "tr": "olmak",
     "ro": "a fi",
-    "bs": "biti"
+    "bs": "biti",
+    "es": "ser",
+    "bg": "да бъде",
+    "el": "να είναι"
   },
   {
     "id": 12,
@@ -146,7 +179,10 @@ const VOCABULARY = [
     "en": "to come",
     "tr": "gelmek",
     "ro": "a veni",
-    "bs": "doći"
+    "bs": "doći",
+    "es": "venir",
+    "bg": "да дойде",
+    "el": "να έρθει"
   },
   {
     "id": 13,
@@ -158,7 +194,10 @@ const VOCABULARY = [
     "en": "to live / reside",
     "tr": "yaşamak / ikamet etmek",
     "ro": "a locui",
-    "bs": "živjeti / boraviti"
+    "bs": "živjeti / boraviti",
+    "es": "vivir / residir",
+    "bg": "да живея / пребивавам",
+    "el": "να ζήσει / να κατοικήσει"
   },
   {
     "id": 14,
@@ -170,7 +209,10 @@ const VOCABULARY = [
     "en": "to speak",
     "tr": "konuşmak",
     "ro": "a vorbi",
-    "bs": "govoriti"
+    "bs": "govoriti",
+    "es": "hablar",
+    "bg": "да говоря",
+    "el": "να μιλήσει"
   },
   {
     "id": 15,
@@ -182,7 +224,10 @@ const VOCABULARY = [
     "en": "from Germany",
     "tr": "Almanya'dan",
     "ro": "din Germania",
-    "bs": "iz Njemačke"
+    "bs": "iz Njemačke",
+    "es": "de Alemania",
+    "bg": "от Германия",
+    "el": "από τη Γερμανία"
   },
   {
     "id": 16,
@@ -194,7 +239,10 @@ const VOCABULARY = [
     "en": "the language",
     "tr": "dil",
     "ro": "limba",
-    "bs": "jezik"
+    "bs": "jezik",
+    "es": "el idioma",
+    "bg": "езикът",
+    "el": "η γλώσσα"
   },
   {
     "id": 17,
@@ -206,7 +254,10 @@ const VOCABULARY = [
     "en": "the country",
     "tr": "ülke",
     "ro": "țara",
-    "bs": "zemlji"
+    "bs": "zemlji",
+    "es": "el pais",
+    "bg": "страната",
+    "el": "η χώρα"
   },
   {
     "id": 18,
@@ -218,7 +269,10 @@ const VOCABULARY = [
     "en": "the course",
     "tr": "kurs",
     "ro": "cursul",
-    "bs": "kurs"
+    "bs": "kurs",
+    "es": "el curso",
+    "bg": "курсът",
+    "el": "το μάθημα"
   },
   {
     "id": 19,
@@ -230,7 +284,10 @@ const VOCABULARY = [
     "en": "to spell",
     "tr": "hecelemek",
     "ro": "a silabisi",
-    "bs": "spelovati"
+    "bs": "spelovati",
+    "es": "deletrear",
+    "bg": "да сричам",
+    "el": "να συλλαβίσει"
   },
   {
     "id": 20,
@@ -242,7 +299,10 @@ const VOCABULARY = [
     "en": "the alphabet",
     "tr": "alfabe",
     "ro": "alfabetul",
-    "bs": "abeceda"
+    "bs": "abeceda",
+    "es": "el alfabeto",
+    "bg": "азбуката",
+    "el": "το αλφάβητο"
   },
   {
     "id": 21,
@@ -254,7 +314,10 @@ const VOCABULARY = [
     "en": "I",
     "tr": "ben",
     "ro": "eu",
-    "bs": "I"
+    "bs": "I",
+    "es": "I",
+    "bg": "аз",
+    "el": "εγώ"
   },
   {
     "id": 22,
@@ -266,7 +329,10 @@ const VOCABULARY = [
     "en": "you (singular, informal)",
     "tr": "sen",
     "ro": "tu (singular, informal)",
-    "bs": "ti (jednina, neformalno)"
+    "bs": "ti (jednina, neformalno)",
+    "es": "tú (singular, informal)",
+    "bg": "вие (единствено число, неформално)",
+    "el": "εσείς (ενικός, άτυπος)"
   },
   {
     "id": 23,
@@ -278,7 +344,10 @@ const VOCABULARY = [
     "en": "you (formal)",
     "tr": "Siz",
     "ro": "tu (formal)",
-    "bs": "ti (formalno)"
+    "bs": "ti (formalno)",
+    "es": "tú (formal)",
+    "bg": "ти (официално)",
+    "el": "εσύ (επίσημο)"
   },
   {
     "id": 24,
@@ -290,7 +359,10 @@ const VOCABULARY = [
     "en": "he / she / it",
     "tr": "o (erkek / kadın / cansız)",
     "ro": "el",
-    "bs": "on/ona/to"
+    "bs": "on/ona/to",
+    "es": "él / ella / eso",
+    "bg": "той / тя / то",
+    "el": "αυτός / αυτή / αυτό"
   },
   {
     "id": 25,
@@ -302,7 +374,10 @@ const VOCABULARY = [
     "en": "we",
     "tr": "biz",
     "ro": "noi",
-    "bs": "mi"
+    "bs": "mi",
+    "es": "nosotros",
+    "bg": "ние",
+    "el": "εμείς"
   },
   {
     "id": 26,
@@ -314,7 +389,10 @@ const VOCABULARY = [
     "en": "How are you?",
     "tr": "Nasılsın? / Nasıl gidiyor?",
     "ro": "Ce mai faci?",
-    "bs": "Kako si?"
+    "bs": "Kako si?",
+    "es": "¿Cómo estás?",
+    "bg": "как си",
+    "el": "Τι κάνετε;"
   },
   {
     "id": 27,
@@ -326,7 +404,10 @@ const VOCABULARY = [
     "en": "good",
     "tr": "iyi",
     "ro": "bun",
-    "bs": "dobro"
+    "bs": "dobro",
+    "es": "bien",
+    "bg": "добре",
+    "el": "καλός"
   },
   {
     "id": 28,
@@ -338,7 +419,10 @@ const VOCABULARY = [
     "en": "not good",
     "tr": "iyi değil",
     "ro": "nu e bun",
-    "bs": "nije dobro"
+    "bs": "nije dobro",
+    "es": "no es bueno",
+    "bg": "не е добре",
+    "el": "δεν είναι καλό"
   },
   {
     "id": 29,
@@ -350,7 +434,10 @@ const VOCABULARY = [
     "en": "so-so / it's okay",
     "tr": "şöyle böyle / idare eder",
     "ro": "asa-asa",
-    "bs": "tako-tako / u redu je"
+    "bs": "tako-tako / u redu je",
+    "es": "regular / está bien",
+    "bg": "така-така / всичко е наред",
+    "el": "έτσι-έτσι / είναι εντάξει"
   },
   {
     "id": 30,
@@ -362,7 +449,10 @@ const VOCABULARY = [
     "en": "tired",
     "tr": "yorgun",
     "ro": "obosit",
-    "bs": "umoran"
+    "bs": "umoran",
+    "es": "cansado",
+    "bg": "уморен",
+    "el": "κουρασμένος"
   },
   {
     "id": 31,
@@ -374,7 +464,10 @@ const VOCABULARY = [
     "en": "sick / ill",
     "tr": "hasta",
     "ro": "bolnav",
-    "bs": "bolestan / bolestan"
+    "bs": "bolestan / bolestan",
+    "es": "enfermo / enfermo",
+    "bg": "болен / болен",
+    "el": "άρρωστος / άρρωστος"
   },
   {
     "id": 32,
@@ -386,7 +479,10 @@ const VOCABULARY = [
     "en": "the coffee",
     "tr": "kahve",
     "ro": "cafeaua",
-    "bs": "kafu"
+    "bs": "kafu",
+    "es": "el cafe",
+    "bg": "кафето",
+    "el": "τον καφέ"
   },
   {
     "id": 33,
@@ -398,7 +494,10 @@ const VOCABULARY = [
     "en": "the tea",
     "tr": "çay",
     "ro": "ceaiul",
-    "bs": "čaj"
+    "bs": "čaj",
+    "es": "el te",
+    "bg": "чаят",
+    "el": "το τσάι"
   },
   {
     "id": 34,
@@ -410,7 +509,10 @@ const VOCABULARY = [
     "en": "the water",
     "tr": "su",
     "ro": "apa",
-    "bs": "voda"
+    "bs": "voda",
+    "es": "el agua",
+    "bg": "водата",
+    "el": "το νερό"
   },
   {
     "id": 35,
@@ -422,7 +524,10 @@ const VOCABULARY = [
     "en": "the milk",
     "tr": "süt",
     "ro": "laptele",
-    "bs": "mleko"
+    "bs": "mleko",
+    "es": "la leche",
+    "bg": "млякото",
+    "el": "το γάλα"
   },
   {
     "id": 36,
@@ -434,7 +539,10 @@ const VOCABULARY = [
     "en": "to drink",
     "tr": "içmek",
     "ro": "a bea",
-    "bs": "piti"
+    "bs": "piti",
+    "es": "beber",
+    "bg": "да пия",
+    "el": "να πιει"
   },
   {
     "id": 37,
@@ -446,7 +554,10 @@ const VOCABULARY = [
     "en": "would like",
     "tr": "istemek (kibarca)",
     "ro": "ar dori",
-    "bs": "voleo bi"
+    "bs": "voleo bi",
+    "es": "quisiera",
+    "bg": "би искал",
+    "el": "θα ήθελε"
   },
   {
     "id": 38,
@@ -458,7 +569,10 @@ const VOCABULARY = [
     "en": "zero (0)",
     "tr": "sıfır (0)",
     "ro": "zero (0)",
-    "bs": "nula (0)"
+    "bs": "nula (0)",
+    "es": "cero (0)",
+    "bg": "нула (0)",
+    "el": "μηδέν (0)"
   },
   {
     "id": 39,
@@ -470,7 +584,10 @@ const VOCABULARY = [
     "en": "one (1)",
     "tr": "bir (1)",
     "ro": "unul (1)",
-    "bs": "jedan (1)"
+    "bs": "jedan (1)",
+    "es": "uno (1)",
+    "bg": "един (1)",
+    "el": "ένα (1)"
   },
   {
     "id": 40,
@@ -482,7 +599,10 @@ const VOCABULARY = [
     "en": "two (2)",
     "tr": "iki (2)",
     "ro": "doi (2)",
-    "bs": "dva (2)"
+    "bs": "dva (2)",
+    "es": "dos (2)",
+    "bg": "две (2)",
+    "el": "δύο (2)"
   },
   {
     "id": 41,
@@ -494,7 +614,10 @@ const VOCABULARY = [
     "en": "three (3)",
     "tr": "üç (3)",
     "ro": "trei (3)",
-    "bs": "tri (3)"
+    "bs": "tri (3)",
+    "es": "tres (3)",
+    "bg": "три (3)",
+    "el": "τρεις (3)"
   },
   {
     "id": 42,
@@ -506,7 +629,10 @@ const VOCABULARY = [
     "en": "four (4)",
     "tr": "dört (4)",
     "ro": "patru (4)",
-    "bs": "četiri (4)"
+    "bs": "četiri (4)",
+    "es": "cuatro (4)",
+    "bg": "четири (4)",
+    "el": "τέσσερα (4)"
   },
   {
     "id": 43,
@@ -518,7 +644,10 @@ const VOCABULARY = [
     "en": "five (5)",
     "tr": "beş (5)",
     "ro": "cinci (5)",
-    "bs": "pet (5)"
+    "bs": "pet (5)",
+    "es": "cinco (5)",
+    "bg": "пет (5)",
+    "el": "πέντε (5)"
   },
   {
     "id": 44,
@@ -530,7 +659,10 @@ const VOCABULARY = [
     "en": "six (6)",
     "tr": "altı (6)",
     "ro": "șase (6)",
-    "bs": "šest (6)"
+    "bs": "šest (6)",
+    "es": "seis (6)",
+    "bg": "шест (6)",
+    "el": "έξι (6)"
   },
   {
     "id": 45,
@@ -542,7 +674,10 @@ const VOCABULARY = [
     "en": "seven (7)",
     "tr": "yedi (7)",
     "ro": "sapte (7)",
-    "bs": "sedam (7)"
+    "bs": "sedam (7)",
+    "es": "siete (7)",
+    "bg": "седем (7)",
+    "el": "επτά (7)"
   },
   {
     "id": 46,
@@ -554,7 +689,10 @@ const VOCABULARY = [
     "en": "eight (8)",
     "tr": "sekiz (8)",
     "ro": "opt (8)",
-    "bs": "osam (8)"
+    "bs": "osam (8)",
+    "es": "ocho (8)",
+    "bg": "осем (8)",
+    "el": "οκτώ (8)"
   },
   {
     "id": 47,
@@ -566,7 +704,10 @@ const VOCABULARY = [
     "en": "nine (9)",
     "tr": "dokuz (9)",
     "ro": "nouă (9)",
-    "bs": "devet (9)"
+    "bs": "devet (9)",
+    "es": "nueve (9)",
+    "bg": "девет (9)",
+    "el": "εννέα (9)"
   },
   {
     "id": 48,
@@ -578,7 +719,10 @@ const VOCABULARY = [
     "en": "ten (10)",
     "tr": "on (10)",
     "ro": "zece (10)",
-    "bs": "deset (10)"
+    "bs": "deset (10)",
+    "es": "diez (10)",
+    "bg": "десет (10)",
+    "el": "δέκα (10)"
   },
   {
     "id": 49,
@@ -590,7 +734,10 @@ const VOCABULARY = [
     "en": "twenty (20)",
     "tr": "yirmi (20)",
     "ro": "douăzeci (20)",
-    "bs": "dvadeset (20)"
+    "bs": "dvadeset (20)",
+    "es": "veinte (20)",
+    "bg": "двадесет (20)",
+    "el": "είκοσι (20)"
   },
   {
     "id": 50,
@@ -602,7 +749,10 @@ const VOCABULARY = [
     "en": "hundred (100)",
     "tr": "yüz (100)",
     "ro": "suta (100)",
-    "bs": "sto (100)"
+    "bs": "sto (100)",
+    "es": "cien (100)",
+    "bg": "сто (100)",
+    "el": "εκατό (100)"
   },
   {
     "id": 51,
@@ -614,7 +764,10 @@ const VOCABULARY = [
     "en": "the phone number",
     "tr": "telefon numarası",
     "ro": "numărul de telefon",
-    "bs": "broj telefona"
+    "bs": "broj telefona",
+    "es": "el número de teléfono",
+    "bg": "телефонния номер",
+    "el": "τον αριθμό τηλεφώνου"
   },
   {
     "id": 52,
@@ -626,7 +779,10 @@ const VOCABULARY = [
     "en": "the cafeteria",
     "tr": "kafeterya",
     "ro": "cantina",
-    "bs": "kafeterija"
+    "bs": "kafeterija",
+    "es": "la cafeteria",
+    "bg": "кафенето",
+    "el": "η καφετέρια"
   },
   {
     "id": 53,
@@ -638,7 +794,10 @@ const VOCABULARY = [
     "en": "to cost",
     "tr": "fiyatı olmak / tutmak",
     "ro": "a costa",
-    "bs": "da košta"
+    "bs": "da košta",
+    "es": "costar",
+    "bg": "да струва",
+    "el": "να κοστίσει"
   },
   {
     "id": 54,
@@ -650,7 +809,10 @@ const VOCABULARY = [
     "en": "to buy",
     "tr": "satın almak",
     "ro": "să cumpere",
-    "bs": "kupiti"
+    "bs": "kupiti",
+    "es": "comprar",
+    "bg": "да купя",
+    "el": "να αγοράσουν"
   },
   {
     "id": 55,
@@ -662,7 +824,10 @@ const VOCABULARY = [
     "en": "expensive",
     "tr": "pahalı",
     "ro": "scump",
-    "bs": "skupo"
+    "bs": "skupo",
+    "es": "caro",
+    "bg": "скъпо",
+    "el": "ακριβός"
   },
   {
     "id": 56,
@@ -674,7 +839,10 @@ const VOCABULARY = [
     "en": "cheap",
     "tr": "ucuz",
     "ro": "ieftin",
-    "bs": "jeftino"
+    "bs": "jeftino",
+    "es": "barato",
+    "bg": "евтино",
+    "el": "φτηνός"
   },
   {
     "id": 57,
@@ -686,7 +854,10 @@ const VOCABULARY = [
     "en": "the Euro",
     "tr": "Euro",
     "ro": "euro",
-    "bs": "euro"
+    "bs": "euro",
+    "es": "el euro",
+    "bg": "еврото",
+    "el": "το ευρώ"
   },
   {
     "id": 58,
@@ -698,7 +869,10 @@ const VOCABULARY = [
     "en": "the Cent",
     "tr": "Cent",
     "ro": "Centul",
-    "bs": "the Cent"
+    "bs": "the Cent",
+    "es": "el centavo",
+    "bg": "Центът",
+    "el": "το Cent"
   },
   {
     "id": 59,
@@ -710,7 +884,10 @@ const VOCABULARY = [
     "en": "the laptop",
     "tr": "dizüstü bilgisayar",
     "ro": "laptopul",
-    "bs": "laptop"
+    "bs": "laptop",
+    "es": "la computadora portátil",
+    "bg": "лаптопа",
+    "el": "το laptop"
   },
   {
     "id": 60,
@@ -722,7 +899,10 @@ const VOCABULARY = [
     "en": "the mobile phone",
     "tr": "cep telefonu",
     "ro": "telefonul mobil",
-    "bs": "mobilni telefon"
+    "bs": "mobilni telefon",
+    "es": "el teléfono móvil",
+    "bg": "мобилния телефон",
+    "el": "το κινητό τηλέφωνο"
   },
   {
     "id": 61,
@@ -734,7 +914,10 @@ const VOCABULARY = [
     "en": "the book",
     "tr": "kitap",
     "ro": "cartea",
-    "bs": "knjiga"
+    "bs": "knjiga",
+    "es": "Biblia",
+    "bg": "книгата",
+    "el": "το βιβλίο"
   },
   {
     "id": 62,
@@ -746,7 +929,10 @@ const VOCABULARY = [
     "en": "the clock / watch",
     "tr": "saat",
     "ro": "ceasul",
-    "bs": "sat / sat"
+    "bs": "sat / sat",
+    "es": "el reloj / reloj",
+    "bg": "часовникът / часовникът",
+    "el": "το ρολόι / ρολόι"
   },
   {
     "id": 63,
@@ -758,7 +944,10 @@ const VOCABULARY = [
     "en": "to take",
     "tr": "almak",
     "ro": "a lua",
-    "bs": "uzeti"
+    "bs": "uzeti",
+    "es": "tomar",
+    "bg": "да вземеш",
+    "el": "να πάρει"
   },
   {
     "id": 64,
@@ -770,7 +959,10 @@ const VOCABULARY = [
     "en": "the article (grammar)",
     "tr": "artikel (dilbilgisi)",
     "ro": "articolul (gramatica)",
-    "bs": "članak (gramatika)"
+    "bs": "članak (gramatika)",
+    "es": "el artículo (gramática)",
+    "bg": "статията (граматика)",
+    "el": "το άρθρο (γραμματική)"
   },
   {
     "id": 65,
@@ -782,7 +974,10 @@ const VOCABULARY = [
     "en": "indefinite article",
     "tr": "belirsiz tanımlık (bir)",
     "ro": "articol nedeterminat",
-    "bs": "neodređeni član"
+    "bs": "neodređeni član",
+    "es": "artículo indefinido",
+    "bg": "неопределен член",
+    "el": "αόριστο άρθρο"
   },
   {
     "id": 66,
@@ -794,7 +989,10 @@ const VOCABULARY = [
     "en": "negation article",
     "tr": "olumsuzluk tanımlığı",
     "ro": "articol de negație",
-    "bs": "negacijski članak"
+    "bs": "negacijski članak",
+    "es": "artículo de negación",
+    "bg": "отрицателна статия",
+    "el": "άρθρο άρνησης"
   },
   {
     "id": 67,
@@ -806,7 +1004,10 @@ const VOCABULARY = [
     "en": "the flea market",
     "tr": "bit pazarı",
     "ro": "târgul de vechituri",
-    "bs": "buvljak"
+    "bs": "buvljak",
+    "es": "el mercado de pulgas",
+    "bg": "битпазар",
+    "el": "η υπαίθρια αγορά"
   },
   {
     "id": 68,
@@ -818,7 +1019,10 @@ const VOCABULARY = [
     "en": "the supermarket",
     "tr": "süpermarket",
     "ro": "supermarketul",
-    "bs": "supermarket"
+    "bs": "supermarket",
+    "es": "el supermercado",
+    "bg": "супермаркетът",
+    "el": "το σούπερ μάρκετ"
   },
   {
     "id": 69,
@@ -830,7 +1034,10 @@ const VOCABULARY = [
     "en": "beautiful / nice",
     "tr": "güzel",
     "ro": "frumos",
-    "bs": "lijepo / lijepo"
+    "bs": "lijepo / lijepo",
+    "es": "hermoso / agradable",
+    "bg": "красиво / хубаво",
+    "el": "όμορφο / ωραίο"
   },
   {
     "id": 70,
@@ -842,7 +1049,10 @@ const VOCABULARY = [
     "en": "big / large",
     "tr": "büyük",
     "ro": "mare",
-    "bs": "veliki / veliki"
+    "bs": "veliki / veliki",
+    "es": "grande / grande",
+    "bg": "голям / голям",
+    "el": "μεγάλος / μεγάλος"
   },
   {
     "id": 71,
@@ -854,7 +1064,10 @@ const VOCABULARY = [
     "en": "small / little",
     "tr": "küçük",
     "ro": "mic",
-    "bs": "mali / mali"
+    "bs": "mali / mali",
+    "es": "pequeño / poco",
+    "bg": "малък / малък",
+    "el": "μικρό / μικρό"
   },
   {
     "id": 72,
@@ -866,7 +1079,10 @@ const VOCABULARY = [
     "en": "new",
     "tr": "yeni",
     "ro": "nou",
-    "bs": "novo"
+    "bs": "novo",
+    "es": "nuevo",
+    "bg": "нов",
+    "el": "νέος"
   },
   {
     "id": 73,
@@ -878,7 +1094,10 @@ const VOCABULARY = [
     "en": "old",
     "tr": "eski / yaşlı",
     "ro": "vechi",
-    "bs": "star"
+    "bs": "star",
+    "es": "viejo",
+    "bg": "стар",
+    "el": "παλιός"
   },
   {
     "id": 74,
@@ -890,7 +1109,10 @@ const VOCABULARY = [
     "en": "What time is it?",
     "tr": "Saat kaç?",
     "ro": "Cât este ceasul?",
-    "bs": "Koliko je sati?"
+    "bs": "Koliko je sati?",
+    "es": "¿Qué hora es?",
+    "bg": "колко е часът",
+    "el": "Τι ώρα είναι;"
   },
   {
     "id": 75,
@@ -902,7 +1124,10 @@ const VOCABULARY = [
     "en": "It is ... o'clock",
     "tr": "Saat ...",
     "ro": "Este... ceasul",
-    "bs": "Sada je... sat"
+    "bs": "Sada je... sat",
+    "es": "son las... en punto",
+    "bg": "Часът е...",
+    "el": "Είναι ... η ώρα"
   },
   {
     "id": 76,
@@ -914,7 +1139,10 @@ const VOCABULARY = [
     "en": "half (time)",
     "tr": "buçuk",
     "ro": "jumatate (timp)",
-    "bs": "poluvrijeme (vrijeme)"
+    "bs": "poluvrijeme (vrijeme)",
+    "es": "mitad (tiempo)",
+    "bg": "полувреме (време)",
+    "el": "ημίχρονο)"
   },
   {
     "id": 77,
@@ -926,7 +1154,10 @@ const VOCABULARY = [
     "en": "quarter past",
     "tr": "çeyrek geçe",
     "ro": "un sfert",
-    "bs": "prošla četvrt"
+    "bs": "prošla četvrt",
+    "es": "y cuarto",
+    "bg": "миналия четвъртък",
+    "el": "περασμένο τέταρτο"
   },
   {
     "id": 78,
@@ -938,7 +1169,10 @@ const VOCABULARY = [
     "en": "quarter to",
     "tr": "çeyrek kala",
     "ro": "sfert la",
-    "bs": "quarter to"
+    "bs": "quarter to",
+    "es": "cuarto para",
+    "bg": "четвърт до",
+    "el": "τρίμηνο έως"
   },
   {
     "id": 79,
@@ -950,7 +1184,10 @@ const VOCABULARY = [
     "en": "Monday",
     "tr": "Pazartesi",
     "ro": "luni",
-    "bs": "ponedjeljak"
+    "bs": "ponedjeljak",
+    "es": "Lunes",
+    "bg": "понеделник",
+    "el": "Δευτέρα"
   },
   {
     "id": 80,
@@ -962,7 +1199,10 @@ const VOCABULARY = [
     "en": "Tuesday",
     "tr": "Salı",
     "ro": "marţi",
-    "bs": "utorak"
+    "bs": "utorak",
+    "es": "Martes",
+    "bg": "вторник",
+    "el": "Τρίτη"
   },
   {
     "id": 81,
@@ -974,7 +1214,10 @@ const VOCABULARY = [
     "en": "Wednesday",
     "tr": "Çarşamba",
     "ro": "miercuri",
-    "bs": "srijeda"
+    "bs": "srijeda",
+    "es": "Miércoles",
+    "bg": "сряда",
+    "el": "Τετάρτη"
   },
   {
     "id": 82,
@@ -986,7 +1229,10 @@ const VOCABULARY = [
     "en": "Thursday",
     "tr": "Perşembe",
     "ro": "joi",
-    "bs": "četvrtak"
+    "bs": "četvrtak",
+    "es": "Jueves",
+    "bg": "четвъртък",
+    "el": "Πέμπτη"
   },
   {
     "id": 83,
@@ -998,7 +1244,10 @@ const VOCABULARY = [
     "en": "Friday",
     "tr": "Cuma",
     "ro": "vineri",
-    "bs": "petak"
+    "bs": "petak",
+    "es": "Viernes",
+    "bg": "петък",
+    "el": "Παρασκευή"
   },
   {
     "id": 84,
@@ -1010,7 +1259,10 @@ const VOCABULARY = [
     "en": "the weekend",
     "tr": "hafta sonu",
     "ro": "weekendul",
-    "bs": "vikend"
+    "bs": "vikend",
+    "es": "el fin de semana",
+    "bg": "уикенда",
+    "el": "το Σαββατοκύριακο"
   },
   {
     "id": 85,
@@ -1022,7 +1274,10 @@ const VOCABULARY = [
     "en": "to get up",
     "tr": "ayağa kalkmak / uyanmak",
     "ro": "a se ridica",
-    "bs": "da ustanem"
+    "bs": "da ustanem",
+    "es": "levantarse",
+    "bg": "да ставам",
+    "el": "να σηκωθεί"
   },
   {
     "id": 86,
@@ -1034,7 +1289,10 @@ const VOCABULARY = [
     "en": "to eat breakfast",
     "tr": "kahvaltı yapmak",
     "ro": "a lua micul dejun",
-    "bs": "doručkovati"
+    "bs": "doručkovati",
+    "es": "desayunar",
+    "bg": "да закусвам",
+    "el": "να φάει πρωινό"
   },
   {
     "id": 87,
@@ -1046,7 +1304,10 @@ const VOCABULARY = [
     "en": "to start / begin",
     "tr": "başlamak",
     "ro": "pentru a începe",
-    "bs": "započeti / započeti"
+    "bs": "započeti / započeti",
+    "es": "empezar / comenzar",
+    "bg": "да започна / започвам",
+    "el": "για να ξεκινήσετε / ξεκινήσετε"
   },
   {
     "id": 88,
@@ -1058,7 +1319,10 @@ const VOCABULARY = [
     "en": "the appointment",
     "tr": "randevu",
     "ro": "programarea / întâlnirea",
-    "bs": "imenovanje"
+    "bs": "imenovanje",
+    "es": "la cita",
+    "bg": "назначаването",
+    "el": "το ραντεβού"
   },
   {
     "id": 89,
@@ -1070,7 +1334,10 @@ const VOCABULARY = [
     "en": "the morning",
     "tr": "sabah",
     "ro": "dimineața",
-    "bs": "jutro"
+    "bs": "jutro",
+    "es": "la mañana",
+    "bg": "сутринта",
+    "el": "το πρωί"
   },
   {
     "id": 90,
@@ -1082,7 +1349,10 @@ const VOCABULARY = [
     "en": "the evening",
     "tr": "akşam",
     "ro": "seara",
-    "bs": "veče"
+    "bs": "veče",
+    "es": "la tarde",
+    "bg": "вечерта",
+    "el": "το βράδυ"
   },
   {
     "id": 91,
@@ -1094,7 +1364,10 @@ const VOCABULARY = [
     "en": "the night",
     "tr": "gece",
     "ro": "noaptea",
-    "bs": "noć"
+    "bs": "noć",
+    "es": "la noche",
+    "bg": "нощта",
+    "el": "τη νύχτα"
   },
   {
     "id": 92,
@@ -1106,7 +1379,10 @@ const VOCABULARY = [
     "en": "the bread",
     "tr": "ekmek",
     "ro": "pâinea",
-    "bs": "hleb"
+    "bs": "hleb",
+    "es": "el pan",
+    "bg": "хлябът",
+    "el": "το ψωμί"
   },
   {
     "id": 93,
@@ -1118,7 +1394,10 @@ const VOCABULARY = [
     "en": "the tomato",
     "tr": "domates",
     "ro": "roșia",
-    "bs": "paradajz"
+    "bs": "paradajz",
+    "es": "el tomate",
+    "bg": "доматът",
+    "el": "η ντομάτα"
   },
   {
     "id": 94,
@@ -1130,7 +1409,10 @@ const VOCABULARY = [
     "en": "the cheese",
     "tr": "peynir",
     "ro": "brânza",
-    "bs": "sir"
+    "bs": "sir",
+    "es": "el queso",
+    "bg": "сиренето",
+    "el": "το τυρί"
   },
   {
     "id": 95,
@@ -1142,7 +1424,10 @@ const VOCABULARY = [
     "en": "the meat",
     "tr": "et",
     "ro": "carnea",
-    "bs": "meso"
+    "bs": "meso",
+    "es": "la carne",
+    "bg": "месото",
+    "el": "το κρέας"
   },
   {
     "id": 96,
@@ -1154,7 +1439,10 @@ const VOCABULARY = [
     "en": "the fruit",
     "tr": "meyve",
     "ro": "fructul",
-    "bs": "voće"
+    "bs": "voće",
+    "es": "la fruta",
+    "bg": "плодът",
+    "el": "το φρούτο"
   },
   {
     "id": 97,
@@ -1166,7 +1454,10 @@ const VOCABULARY = [
     "en": "the vegetable",
     "tr": "sebze",
     "ro": "leguma",
-    "bs": "povrće"
+    "bs": "povrće",
+    "es": "la verdura",
+    "bg": "зеленчукът",
+    "el": "το λαχανικό"
   },
   {
     "id": 98,
@@ -1178,7 +1469,10 @@ const VOCABULARY = [
     "en": "the onion",
     "tr": "soğan",
     "ro": "ceapa",
-    "bs": "luk"
+    "bs": "luk",
+    "es": "la cebolla",
+    "bg": "лукът",
+    "el": "το κρεμμύδι"
   },
   {
     "id": 99,
@@ -1190,7 +1484,10 @@ const VOCABULARY = [
     "en": "the cucumber",
     "tr": "salatalık",
     "ro": "castravetele",
-    "bs": "krastavac"
+    "bs": "krastavac",
+    "es": "el pepino",
+    "bg": "краставицата",
+    "el": "το αγγούρι"
   },
   {
     "id": 100,
@@ -1202,7 +1499,10 @@ const VOCABULARY = [
     "en": "the oil",
     "tr": "sıvı yağ",
     "ro": "uleiul",
-    "bs": "ulje"
+    "bs": "ulje",
+    "es": "el aceite",
+    "bg": "маслото",
+    "el": "το λάδι"
   },
   {
     "id": 101,
@@ -1214,7 +1514,10 @@ const VOCABULARY = [
     "en": "the salt",
     "tr": "tuz",
     "ro": "sarea",
-    "bs": "so"
+    "bs": "so",
+    "es": "la sal",
+    "bg": "солта",
+    "el": "το αλάτι"
   },
   {
     "id": 102,
@@ -1226,7 +1529,10 @@ const VOCABULARY = [
     "en": "the kilo",
     "tr": "kilo",
     "ro": "kilogramul",
-    "bs": "kilogram"
+    "bs": "kilogram",
+    "es": "el kilo",
+    "bg": "килограмът",
+    "el": "το κιλό"
   },
   {
     "id": 103,
@@ -1238,7 +1544,10 @@ const VOCABULARY = [
     "en": "the gram",
     "tr": "gram",
     "ro": "gramul",
-    "bs": "gram"
+    "bs": "gram",
+    "es": "el gramo",
+    "bg": "грамът",
+    "el": "το γραμμάριο"
   },
   {
     "id": 104,
@@ -1250,7 +1559,10 @@ const VOCABULARY = [
     "en": "the liter",
     "tr": "litre",
     "ro": "litrul",
-    "bs": "litar"
+    "bs": "litar",
+    "es": "el litro",
+    "bg": "литърът",
+    "el": "το λίτρο"
   },
   {
     "id": 105,
@@ -1262,7 +1574,10 @@ const VOCABULARY = [
     "en": "the bottle",
     "tr": "şişe",
     "ro": "sticla",
-    "bs": "bocu"
+    "bs": "bocu",
+    "es": "la botella",
+    "bg": "бутилката",
+    "el": "το μπουκάλι"
   },
   {
     "id": 106,
@@ -1274,7 +1589,10 @@ const VOCABULARY = [
     "en": "to need",
     "tr": "ihtiyacı olmak",
     "ro": "a avea nevoie",
-    "bs": "da treba"
+    "bs": "da treba",
+    "es": "necesitar",
+    "bg": "да се нуждая",
+    "el": "να χρειαστεί"
   },
   {
     "id": 107,
@@ -1286,7 +1604,10 @@ const VOCABULARY = [
     "en": "to cook",
     "tr": "yemek pişirmek",
     "ro": "a găti",
-    "bs": "kuhati"
+    "bs": "kuhati",
+    "es": "cocinar",
+    "bg": "да готвя",
+    "el": "να μαγειρέψουν"
   },
   {
     "id": 108,
@@ -1298,7 +1619,10 @@ const VOCABULARY = [
     "en": "to eat",
     "tr": "yemek yemek",
     "ro": "a mânca",
-    "bs": "jesti"
+    "bs": "jesti",
+    "es": "comer",
+    "bg": "да ям",
+    "el": "να φάει"
   },
   {
     "id": 109,
@@ -1310,7 +1634,10 @@ const VOCABULARY = [
     "en": "delicious",
     "tr": "lezzetli",
     "ro": "delicios",
-    "bs": "ukusno"
+    "bs": "ukusno",
+    "es": "delicioso",
+    "bg": "вкусно",
+    "el": "υπέροχος"
   },
   {
     "id": 110,
@@ -1322,7 +1649,10 @@ const VOCABULARY = [
     "en": "the recipe",
     "tr": "yemek tarifi",
     "ro": "reteta",
-    "bs": "recept"
+    "bs": "recept",
+    "es": "la receta",
+    "bg": "рецептата",
+    "el": "η συνταγή"
   },
   {
     "id": 111,
@@ -1334,7 +1664,10 @@ const VOCABULARY = [
     "en": "Enjoy your meal!",
     "tr": "Afiyet olsun!",
     "ro": "Poftă bună!",
-    "bs": "Uživajte u obroku!"
+    "bs": "Uživajte u obroku!",
+    "es": "¡Disfrute de su comida!",
+    "bg": "Приятно хранене!",
+    "el": "Απολαύστε το γεύμα σας!"
   },
   {
     "id": 112,
@@ -1346,7 +1679,10 @@ const VOCABULARY = [
     "en": "the family",
     "tr": "aile",
     "ro": "familia",
-    "bs": "porodica"
+    "bs": "porodica",
+    "es": "la familia",
+    "bg": "семейството",
+    "el": "την οικογένεια"
   },
   {
     "id": 113,
@@ -1358,7 +1694,10 @@ const VOCABULARY = [
     "en": "the father",
     "tr": "baba",
     "ro": "tatăl",
-    "bs": "otac"
+    "bs": "otac",
+    "es": "el padre",
+    "bg": "бащата",
+    "el": "ο πατέρας"
   },
   {
     "id": 114,
@@ -1370,7 +1709,10 @@ const VOCABULARY = [
     "en": "the mother",
     "tr": "anne",
     "ro": "mama",
-    "bs": "majka"
+    "bs": "majka",
+    "es": "la madre",
+    "bg": "майката",
+    "el": "η μητέρα"
   },
   {
     "id": 115,
@@ -1382,7 +1724,10 @@ const VOCABULARY = [
     "en": "the brother",
     "tr": "erkek kardeş",
     "ro": "fratele",
-    "bs": "brata"
+    "bs": "brata",
+    "es": "el hermano",
+    "bg": "братът",
+    "el": "ο αδελφός"
   },
   {
     "id": 116,
@@ -1394,7 +1739,10 @@ const VOCABULARY = [
     "en": "the sister",
     "tr": "kız kardeş",
     "ro": "sora",
-    "bs": "sestra"
+    "bs": "sestra",
+    "es": "la hermana",
+    "bg": "сестрата",
+    "el": "η αδερφή"
   },
   {
     "id": 117,
@@ -1406,7 +1754,10 @@ const VOCABULARY = [
     "en": "the son",
     "tr": "oğul",
     "ro": "fiul",
-    "bs": "sina"
+    "bs": "sina",
+    "es": "el hijo",
+    "bg": "синът",
+    "el": "ο γιος"
   },
   {
     "id": 118,
@@ -1418,7 +1769,10 @@ const VOCABULARY = [
     "en": "the daughter",
     "tr": "kız evlat",
     "ro": "fiica",
-    "bs": "kćer"
+    "bs": "kćer",
+    "es": "la hija",
+    "bg": "дъщерята",
+    "el": "η κόρη"
   },
   {
     "id": 119,
@@ -1430,7 +1784,10 @@ const VOCABULARY = [
     "en": "the grandfather",
     "tr": "büyükbaba / dede",
     "ro": "bunicul",
-    "bs": "djed"
+    "bs": "djed",
+    "es": "el abuelo",
+    "bg": "дядото",
+    "el": "ο παππούς"
   },
   {
     "id": 120,
@@ -1442,7 +1799,10 @@ const VOCABULARY = [
     "en": "the grandmother",
     "tr": "büyükanne / nene",
     "ro": "bunica",
-    "bs": "baka"
+    "bs": "baka",
+    "es": "la abuela",
+    "bg": "бабата",
+    "el": "η γιαγιά"
   },
   {
     "id": 121,
@@ -1454,7 +1814,10 @@ const VOCABULARY = [
     "en": "the child",
     "tr": "çocuk",
     "ro": "copilul",
-    "bs": "dijete"
+    "bs": "dijete",
+    "es": "el niño",
+    "bg": "детето",
+    "el": "το παιδί"
   },
   {
     "id": 122,
@@ -1466,7 +1829,10 @@ const VOCABULARY = [
     "en": "the birthday",
     "tr": "doğum günü",
     "ro": "ziua de naștere",
-    "bs": "rođendan"
+    "bs": "rođendan",
+    "es": "el cumpleaños",
+    "bg": "рожденият ден",
+    "el": "τα γενέθλια"
   },
   {
     "id": 123,
@@ -1478,7 +1844,10 @@ const VOCABULARY = [
     "en": "Congratulations!",
     "tr": "Tebrikler!",
     "ro": "Felicitări!",
-    "bs": "Čestitamo!"
+    "bs": "Čestitamo!",
+    "es": "¡Felicidades!",
+    "bg": "честито!",
+    "el": "Συγχαρητήρια!"
   },
   {
     "id": 124,
@@ -1490,7 +1859,10 @@ const VOCABULARY = [
     "en": "to be old / to be ... years old",
     "tr": "yaşında olmak / yaşlı olmak",
     "ro": "a fi în vârstă de / a avea ... ani",
-    "bs": "biti star / biti ... godina star"
+    "bs": "biti star / biti ... godina star",
+    "es": "ser viejo / tener ... años",
+    "bg": "да съм стар / да съм на ... години",
+    "el": "να είσαι μεγάλος / να είσαι ... χρονών"
   },
   {
     "id": 125,
@@ -1502,7 +1874,10 @@ const VOCABULARY = [
     "en": "the photo",
     "tr": "fotoğraf",
     "ro": "fotografia",
-    "bs": "fotografija"
+    "bs": "fotografija",
+    "es": "la foto",
+    "bg": "снимката",
+    "el": "η φωτογραφία"
   },
   {
     "id": 126,
@@ -1514,7 +1889,10 @@ const VOCABULARY = [
     "en": "the apartment / flat",
     "tr": "daire",
     "ro": "apartamentul",
-    "bs": "stan/stan"
+    "bs": "stan/stan",
+    "es": "el apartamento/piso",
+    "bg": "апартамента/апартамента",
+    "el": "το διαμέρισμα / διαμέρισμα"
   },
   {
     "id": 127,
@@ -1526,7 +1904,10 @@ const VOCABULARY = [
     "en": "the house",
     "tr": "ev",
     "ro": "casa",
-    "bs": "kuću"
+    "bs": "kuću",
+    "es": "la casa",
+    "bg": "къщата",
+    "el": "το σπίτι"
   },
   {
     "id": 128,
@@ -1538,7 +1919,10 @@ const VOCABULARY = [
     "en": "the room",
     "tr": "oda",
     "ro": "camera",
-    "bs": "soba"
+    "bs": "soba",
+    "es": "la habitación",
+    "bg": "стаята",
+    "el": "το δωμάτιο"
   },
   {
     "id": 129,
@@ -1550,7 +1934,10 @@ const VOCABULARY = [
     "en": "the living room",
     "tr": "oturma odası",
     "ro": "camera de zi / sufrageria",
-    "bs": "dnevni boravak"
+    "bs": "dnevni boravak",
+    "es": "la sala de estar",
+    "bg": "хола",
+    "el": "το σαλόνι"
   },
   {
     "id": 130,
@@ -1562,7 +1949,10 @@ const VOCABULARY = [
     "en": "the bedroom",
     "tr": "yatak odası",
     "ro": "dormitorul",
-    "bs": "spavaća soba"
+    "bs": "spavaća soba",
+    "es": "el dormitorio",
+    "bg": "спалнята",
+    "el": "την κρεβατοκάμαρα"
   },
   {
     "id": 131,
@@ -1574,7 +1964,10 @@ const VOCABULARY = [
     "en": "the kitchen",
     "tr": "mutfak",
     "ro": "bucataria",
-    "bs": "kuhinja"
+    "bs": "kuhinja",
+    "es": "la cocina",
+    "bg": "кухнята",
+    "el": "την κουζίνα"
   },
   {
     "id": 132,
@@ -1586,7 +1979,10 @@ const VOCABULARY = [
     "en": "the bathroom",
     "tr": "banyo",
     "ro": "baia",
-    "bs": "kupatilo"
+    "bs": "kupatilo",
+    "es": "el baño",
+    "bg": "банята",
+    "el": "το μπάνιο"
   },
   {
     "id": 133,
@@ -1598,7 +1994,10 @@ const VOCABULARY = [
     "en": "the rent",
     "tr": "kira",
     "ro": "chiria",
-    "bs": "najam"
+    "bs": "najam",
+    "es": "el alquiler",
+    "bg": "наема",
+    "el": "το ενοίκιο"
   },
   {
     "id": 134,
@@ -1610,7 +2009,10 @@ const VOCABULARY = [
     "en": "the floor / story",
     "tr": "kat",
     "ro": "etajul",
-    "bs": "sprat / priča"
+    "bs": "sprat / priča",
+    "es": "el piso / historia",
+    "bg": "етажът / история",
+    "el": "ο όροφος / ιστορία"
   },
   {
     "id": 135,
@@ -1622,7 +2024,10 @@ const VOCABULARY = [
     "en": "the sofa",
     "tr": "kanepe / koltuk",
     "ro": "canapeaua",
-    "bs": "sofa"
+    "bs": "sofa",
+    "es": "el sofá",
+    "bg": "дивана",
+    "el": "τον καναπέ"
   },
   {
     "id": 136,
@@ -1634,7 +2039,10 @@ const VOCABULARY = [
     "en": "the cupboard / wardrobe",
     "tr": "dolap",
     "ro": "dulapul",
-    "bs": "ormar/ormar"
+    "bs": "ormar/ormar",
+    "es": "el armario/armario",
+    "bg": "шкафа/гардероба",
+    "el": "το ντουλάπι / ντουλάπα"
   },
   {
     "id": 137,
@@ -1646,7 +2054,10 @@ const VOCABULARY = [
     "en": "the bed",
     "tr": "yatak",
     "ro": "patul",
-    "bs": "krevet"
+    "bs": "krevet",
+    "es": "la cama",
+    "bg": "леглото",
+    "el": "το κρεβάτι"
   },
   {
     "id": 138,
@@ -1658,7 +2069,10 @@ const VOCABULARY = [
     "en": "the table",
     "tr": "masa",
     "ro": "masa",
-    "bs": "sto"
+    "bs": "sto",
+    "es": "la mesa",
+    "bg": "масата",
+    "el": "το τραπέζι"
   },
   {
     "id": 139,
@@ -1670,7 +2084,10 @@ const VOCABULARY = [
     "en": "the chair",
     "tr": "sandalye",
     "ro": "scaunul",
-    "bs": "stolica"
+    "bs": "stolica",
+    "es": "la silla",
+    "bg": "столът",
+    "el": "την καρέκλα"
   },
   {
     "id": 140,
@@ -1682,7 +2099,10 @@ const VOCABULARY = [
     "en": "on / upon",
     "tr": "üzerinde",
     "ro": "pe",
-    "bs": "na / na"
+    "bs": "na / na",
+    "es": "en / sobre",
+    "bg": "на / върху",
+    "el": "on / on"
   },
   {
     "id": 141,
@@ -1694,7 +2114,10 @@ const VOCABULARY = [
     "en": "next to / beside",
     "tr": "yanında",
     "ro": "lângă",
-    "bs": "pored / pored"
+    "bs": "pored / pored",
+    "es": "al lado de / al lado",
+    "bg": "до / до",
+    "el": "δίπλα / δίπλα"
   },
   {
     "id": 142,
@@ -1706,7 +2129,10 @@ const VOCABULARY = [
     "en": "in front of / before",
     "tr": "önünde",
     "ro": "în fața",
-    "bs": "ispred / prije"
+    "bs": "ispred / prije",
+    "es": "delante de / antes",
+    "bg": "пред / преди",
+    "el": "μπροστά από / πριν"
   },
   {
     "id": 143,
@@ -1718,7 +2144,10 @@ const VOCABULARY = [
     "en": "behind",
     "tr": "arkasında",
     "ro": "în spatele",
-    "bs": "iza"
+    "bs": "iza",
+    "es": "detrás",
+    "bg": "отзад",
+    "el": "πίσω"
   },
   {
     "id": 144,
@@ -1730,7 +2159,10 @@ const VOCABULARY = [
     "en": "the head",
     "tr": "baş / kafa",
     "ro": "capul",
-    "bs": "glava"
+    "bs": "glava",
+    "es": "la cabeza",
+    "bg": "главата",
+    "el": "το κεφάλι"
   },
   {
     "id": 145,
@@ -1742,7 +2174,10 @@ const VOCABULARY = [
     "en": "the stomach / belly",
     "tr": "karın",
     "ro": "stomacul",
-    "bs": "stomak/trbuh"
+    "bs": "stomak/trbuh",
+    "es": "el estómago/vientre",
+    "bg": "стомаха/корема",
+    "el": "το στομάχι / κοιλιά"
   },
   {
     "id": 146,
@@ -1754,7 +2189,10 @@ const VOCABULARY = [
     "en": "the neck / throat",
     "tr": "boyun / boğaz",
     "ro": "gâtul",
-    "bs": "vrat / grlo"
+    "bs": "vrat / grlo",
+    "es": "el cuello/garganta",
+    "bg": "врата / гърлото",
+    "el": "ο λαιμός / ο λαιμός"
   },
   {
     "id": 147,
@@ -1766,7 +2204,10 @@ const VOCABULARY = [
     "en": "the back",
     "tr": "sırt",
     "ro": "spatele",
-    "bs": "leđa"
+    "bs": "leđa",
+    "es": "la espalda",
+    "bg": "гърба",
+    "el": "η πλάτη"
   },
   {
     "id": 148,
@@ -1778,7 +2219,10 @@ const VOCABULARY = [
     "en": "headache",
     "tr": "baş ağrısı",
     "ro": "durere de cap",
-    "bs": "glavobolja"
+    "bs": "glavobolja",
+    "es": "dolor de cabeza",
+    "bg": "главоболие",
+    "el": "πονοκέφαλο"
   },
   {
     "id": 149,
@@ -1790,7 +2234,10 @@ const VOCABULARY = [
     "en": "the fever",
     "tr": "ateş (vücut)",
     "ro": "febra",
-    "bs": "groznica"
+    "bs": "groznica",
+    "es": "la fiebre",
+    "bg": "треската",
+    "el": "ο πυρετός"
   },
   {
     "id": 150,
@@ -1802,7 +2249,10 @@ const VOCABULARY = [
     "en": "the cold / common cold",
     "tr": "soğuk algınlığı",
     "ro": "răceala",
-    "bs": "prehlada / prehlada"
+    "bs": "prehlada / prehlada",
+    "es": "el resfriado / resfriado común",
+    "bg": "настинка/обикновена настинка",
+    "el": "το κρυολόγημα / κοινό κρυολόγημα"
   },
   {
     "id": 151,
@@ -1814,7 +2264,10 @@ const VOCABULARY = [
     "en": "the doctor",
     "tr": "doktor",
     "ro": "medicul / doctorul",
-    "bs": "doktora"
+    "bs": "doktora",
+    "es": "el doctor",
+    "bg": "лекарят",
+    "el": "ο γιατρός"
   },
   {
     "id": 152,
@@ -1826,7 +2279,10 @@ const VOCABULARY = [
     "en": "the hospital",
     "tr": "hastane",
     "ro": "spitalul",
-    "bs": "bolnicu"
+    "bs": "bolnicu",
+    "es": "el hospital",
+    "bg": "болницата",
+    "el": "το νοσοκομείο"
   },
   {
     "id": 153,
@@ -1838,7 +2294,10 @@ const VOCABULARY = [
     "en": "the medicine",
     "tr": "ilaç",
     "ro": "medicamentul",
-    "bs": "lijek"
+    "bs": "lijek",
+    "es": "la medicina",
+    "bg": "лекарството",
+    "el": "το φάρμακο"
   },
   {
     "id": 154,
@@ -1850,7 +2309,10 @@ const VOCABULARY = [
     "en": "must / to have to",
     "tr": "zorunda olmak",
     "ro": "a trebui (obligație)",
-    "bs": "mora / da se mora"
+    "bs": "mora / da se mora",
+    "es": "debe / tener que",
+    "bg": "трябва / трябва да",
+    "el": "πρέπει / πρέπει να"
   },
   {
     "id": 155,
@@ -1862,7 +2324,10 @@ const VOCABULARY = [
     "en": "can / to be able to",
     "tr": "yapabilmek",
     "ro": "a putea (abilitate)",
-    "bs": "mogu / da mogu"
+    "bs": "mogu / da mogu",
+    "es": "puede / ser capaz de",
+    "bg": "мога / да мога",
+    "el": "μπορώ / να μπορώ να"
   },
   {
     "id": 156,
@@ -1874,7 +2339,10 @@ const VOCABULARY = [
     "en": "may / to be allowed to",
     "tr": "izinli olmak",
     "ro": "a avea voie (permisiune)",
-    "bs": "može / biti dozvoljeno"
+    "bs": "može / biti dozvoljeno",
+    "es": "puede / ser permitido",
+    "bg": "може / да бъде позволено",
+    "el": "μπορεί / να επιτρέπεται να"
   },
   {
     "id": 157,
@@ -1886,7 +2354,10 @@ const VOCABULARY = [
     "en": "to hurt / ache",
     "tr": "ağrımak / acımak",
     "ro": "a răni",
-    "bs": "povrediti / boljeti"
+    "bs": "povrediti / boljeti",
+    "es": "doler / doler",
+    "bg": "да боли / боли",
+    "el": "πονώ / πονάω"
   },
   {
     "id": 158,
@@ -1898,7 +2369,10 @@ const VOCABULARY = [
     "en": "healthy / well",
     "tr": "sağlıklı / sıhhatli",
     "ro": "sănătos",
-    "bs": "zdravo/dobro"
+    "bs": "zdravo/dobro",
+    "es": "sano / bien",
+    "bg": "здрав / добре",
+    "el": "υγιής / καλά"
   },
   {
     "id": 159,
@@ -1910,7 +2384,10 @@ const VOCABULARY = [
     "en": "the sport",
     "tr": "spor",
     "ro": "sportul",
-    "bs": "sport"
+    "bs": "sport",
+    "es": "el deporte",
+    "bg": "спортът",
+    "el": "το άθλημα"
   },
   {
     "id": 160,
@@ -1922,7 +2399,10 @@ const VOCABULARY = [
     "en": "the train",
     "tr": "tren",
     "ro": "trenul",
-    "bs": "voz"
+    "bs": "voz",
+    "es": "el tren",
+    "bg": "влакът",
+    "el": "το τρένο"
   },
   {
     "id": 161,
@@ -1934,7 +2414,10 @@ const VOCABULARY = [
     "en": "the car",
     "tr": "araba",
     "ro": "mașina",
-    "bs": "auto"
+    "bs": "auto",
+    "es": "el auto",
+    "bg": "колата",
+    "el": "το αυτοκίνητο"
   },
   {
     "id": 162,
@@ -1946,7 +2429,10 @@ const VOCABULARY = [
     "en": "the bicycle",
     "tr": "bisiklet",
     "ro": "bicicleta",
-    "bs": "bicikl"
+    "bs": "bicikl",
+    "es": "la bicicleta",
+    "bg": "велосипедът",
+    "el": "το ποδήλατο"
   },
   {
     "id": 163,
@@ -1958,7 +2444,10 @@ const VOCABULARY = [
     "en": "the subway / metro",
     "tr": "metro",
     "ro": "metroul",
-    "bs": "metro / metro"
+    "bs": "metro / metro",
+    "es": "el metro/metro",
+    "bg": "метрото / метрото",
+    "el": "το μετρό / μετρό"
   },
   {
     "id": 164,
@@ -1970,7 +2459,10 @@ const VOCABULARY = [
     "en": "the bus",
     "tr": "otobüs",
     "ro": "autobuzul",
-    "bs": "autobus"
+    "bs": "autobus",
+    "es": "el autobús",
+    "bg": "автобусът",
+    "el": "το λεωφορείο"
   },
   {
     "id": 165,
@@ -1982,7 +2474,10 @@ const VOCABULARY = [
     "en": "the ticket",
     "tr": "bilet",
     "ro": "biletul",
-    "bs": "kartu"
+    "bs": "kartu",
+    "es": "el billete",
+    "bg": "билетът",
+    "el": "το εισιτήριο"
   },
   {
     "id": 166,
@@ -1994,7 +2489,10 @@ const VOCABULARY = [
     "en": "the train station",
     "tr": "tren istasyonu",
     "ro": "gara",
-    "bs": "željeznička stanica"
+    "bs": "željeznička stanica",
+    "es": "la estación de tren",
+    "bg": "гарата",
+    "el": "ο σιδηροδρομικός σταθμός"
   },
   {
     "id": 167,
@@ -2006,7 +2504,10 @@ const VOCABULARY = [
     "en": "the platform / track",
     "tr": "peron / ray",
     "ro": "peronul / linia",
-    "bs": "platforma / staza"
+    "bs": "platforma / staza",
+    "es": "la plataforma/pista",
+    "bg": "платформата/пистата",
+    "el": "την πλατφόρμα / πίστα"
   },
   {
     "id": 168,
@@ -2018,7 +2519,10 @@ const VOCABULARY = [
     "en": "to depart / leave",
     "tr": "hareket etmek",
     "ro": "a pleca / a demara",
-    "bs": "otići / otići"
+    "bs": "otići / otići",
+    "es": "partir / salir",
+    "bg": "да замина / да си тръгна",
+    "el": "να αναχωρήσει / να φύγει"
   },
   {
     "id": 169,
@@ -2030,7 +2534,10 @@ const VOCABULARY = [
     "en": "to arrive",
     "tr": "varmak",
     "ro": "a sosi",
-    "bs": "stići"
+    "bs": "stići",
+    "es": "llegar",
+    "bg": "да пристигне",
+    "el": "να φτάσει"
   },
   {
     "id": 170,
@@ -2042,7 +2549,10 @@ const VOCABULARY = [
     "en": "straight ahead",
     "tr": "düz / dosdoğru",
     "ro": "drept înainte",
-    "bs": "pravo naprijed"
+    "bs": "pravo naprijed",
+    "es": "todo derecho",
+    "bg": "право напред",
+    "el": "ευθεία μπροστά"
   },
   {
     "id": 171,
@@ -2054,7 +2564,10 @@ const VOCABULARY = [
     "en": "right",
     "tr": "sağ",
     "ro": "corect",
-    "bs": "u pravu"
+    "bs": "u pravu",
+    "es": "bien",
+    "bg": "точно",
+    "el": "δικαίωμα"
   },
   {
     "id": 172,
@@ -2066,7 +2579,10 @@ const VOCABULARY = [
     "en": "left",
     "tr": "sol",
     "ro": "stânga",
-    "bs": "lijevo"
+    "bs": "lijevo",
+    "es": "izquierda",
+    "bg": "наляво",
+    "el": "αριστερά"
   },
   {
     "id": 173,
@@ -2078,7 +2594,10 @@ const VOCABULARY = [
     "en": "round trip",
     "tr": "gidiş-dönüş",
     "ro": "dus-întors",
-    "bs": "povratno putovanje"
+    "bs": "povratno putovanje",
+    "es": "ida y vuelta",
+    "bg": "отиване и връщане",
+    "el": "μετ' επιστροφής"
   },
   {
     "id": 174,
@@ -2090,7 +2609,10 @@ const VOCABULARY = [
     "en": "the hobby",
     "tr": "hobi",
     "ro": "hobby-ul",
-    "bs": "hobi"
+    "bs": "hobi",
+    "es": "el pasatiempo",
+    "bg": "хобито",
+    "el": "το χόμπι"
   },
   {
     "id": 175,
@@ -2102,7 +2624,10 @@ const VOCABULARY = [
     "en": "the football / soccer",
     "tr": "futbol",
     "ro": "fotbalul",
-    "bs": "fudbal / fudbal"
+    "bs": "fudbal / fudbal",
+    "es": "el futbol/fútbol",
+    "bg": "футболът / футболът",
+    "el": "το ποδόσφαιρο / ποδόσφαιρο"
   },
   {
     "id": 176,
@@ -2114,7 +2639,10 @@ const VOCABULARY = [
     "en": "the tennis",
     "tr": "tenis",
     "ro": "tenisul",
-    "bs": "tenis"
+    "bs": "tenis",
+    "es": "el tenis",
+    "bg": "тениса",
+    "el": "το τένις"
   },
   {
     "id": 177,
@@ -2126,7 +2654,10 @@ const VOCABULARY = [
     "en": "the swimming",
     "tr": "yüzme",
     "ro": "înotul",
-    "bs": "plivanje"
+    "bs": "plivanje",
+    "es": "la natación",
+    "bg": "плуването",
+    "el": "το κολύμπι"
   },
   {
     "id": 178,
@@ -2138,7 +2669,10 @@ const VOCABULARY = [
     "en": "the music",
     "tr": "müzik",
     "ro": "muzica",
-    "bs": "muzika"
+    "bs": "muzika",
+    "es": "la musica",
+    "bg": "музиката",
+    "el": "η μουσική"
   },
   {
     "id": 179,
@@ -2150,7 +2684,10 @@ const VOCABULARY = [
     "en": "to read",
     "tr": "okumak",
     "ro": "a citi",
-    "bs": "čitati"
+    "bs": "čitati",
+    "es": "leer",
+    "bg": "да чета",
+    "el": "για να διαβάσετε"
   },
   {
     "id": 180,
@@ -2162,7 +2699,10 @@ const VOCABULARY = [
     "en": "to play",
     "tr": "oynamak / çalmak (müzik)",
     "ro": "a juca",
-    "bs": "igrati"
+    "bs": "igrati",
+    "es": "jugar",
+    "bg": "да играят",
+    "el": "να παίξει"
   },
   {
     "id": 181,
@@ -2174,7 +2714,10 @@ const VOCABULARY = [
     "en": "to hear / listen",
     "tr": "duymak / dinlemek",
     "ro": "a auzi",
-    "bs": "čuti/slušati"
+    "bs": "čuti/slušati",
+    "es": "escuchar / escuchar",
+    "bg": "да чуя / слушам",
+    "el": "να ακούσω / ακούσω"
   },
   {
     "id": 182,
@@ -2186,7 +2729,10 @@ const VOCABULARY = [
     "en": "gladly / with pleasure",
     "tr": "severek / memnuniyetle",
     "ro": "bucuros",
-    "bs": "rado / sa zadovoljstvom"
+    "bs": "rado / sa zadovoljstvom",
+    "es": "con mucho gusto / con mucho gusto",
+    "bg": "с удоволствие / с удоволствие",
+    "el": "ευχαρίστως / με ευχαρίστηση"
   },
   {
     "id": 183,
@@ -2198,7 +2744,10 @@ const VOCABULARY = [
     "en": "not gladly / dislike",
     "tr": "sevmeden / hoşlanmayarak",
     "ro": "nu cu bucurie",
-    "bs": "ne rado/ne sviđa mi se"
+    "bs": "ne rado/ne sviđa mi se",
+    "es": "no con gusto / no me gusta",
+    "bg": "не с удоволствие / не харесвам",
+    "el": "όχι ευχαρίστως / αντιπαθείς"
   },
   {
     "id": 184,
@@ -2210,7 +2759,10 @@ const VOCABULARY = [
     "en": "the fun",
     "tr": "eğlence / keyif",
     "ro": "distracția",
-    "bs": "zabava"
+    "bs": "zabava",
+    "es": "la diversion",
+    "bg": "забавлението",
+    "el": "η διασκέδαση"
   },
   {
     "id": 185,
@@ -2222,7 +2774,10 @@ const VOCABULARY = [
     "en": "the cinema / movie theater",
     "tr": "sinema",
     "ro": "cinematograful",
-    "bs": "kino/bioskop"
+    "bs": "kino/bioskop",
+    "es": "el cine/cine",
+    "bg": "киното / киносалона",
+    "el": "ο κινηματογράφος / κινηματογράφος"
   },
   {
     "id": 186,
@@ -2234,7 +2789,10 @@ const VOCABULARY = [
     "en": "the concert",
     "tr": "konser",
     "ro": "concertul",
-    "bs": "koncert"
+    "bs": "koncert",
+    "es": "el concierto",
+    "bg": "концертът",
+    "el": "η συναυλία"
   },
   {
     "id": 187,
@@ -2246,7 +2804,10 @@ const VOCABULARY = [
     "en": "the invitation",
     "tr": "davet",
     "ro": "invitația",
-    "bs": "pozivnicu"
+    "bs": "pozivnicu",
+    "es": "la invitación",
+    "bg": "поканата",
+    "el": "την πρόσκληση"
   },
   {
     "id": 188,
@@ -2258,7 +2819,10 @@ const VOCABULARY = [
     "en": "the work / job",
     "tr": "iş / meslek",
     "ro": "lucrarea",
-    "bs": "posao/posao"
+    "bs": "posao/posao",
+    "es": "el trabajo/trabajo",
+    "bg": "работата / работа",
+    "el": "η δουλειά / η δουλειά"
   },
   {
     "id": 189,
@@ -2270,7 +2834,10 @@ const VOCABULARY = [
     "en": "the profession / occupation",
     "tr": "meslek",
     "ro": "profesia",
-    "bs": "profesija / zanimanje"
+    "bs": "profesija / zanimanje",
+    "es": "la profesión/ocupación",
+    "bg": "професията/заниманието",
+    "el": "το επάγγελμα / επάγγελμα"
   },
   {
     "id": 190,
@@ -2282,7 +2849,10 @@ const VOCABULARY = [
     "en": "the doctor (male)",
     "tr": "erkek doktor",
     "ro": "doctorul (masculin)",
-    "bs": "doktor (muško)"
+    "bs": "doktor (muško)",
+    "es": "el doctor (masculino)",
+    "bg": "лекарят (мъж)",
+    "el": "ο γιατρός (άνδρας)"
   },
   {
     "id": 191,
@@ -2294,7 +2864,10 @@ const VOCABULARY = [
     "en": "the teacher",
     "tr": "öğretmen",
     "ro": "profesorul",
-    "bs": "nastavnik"
+    "bs": "nastavnik",
+    "es": "el maestro",
+    "bg": "учителят",
+    "el": "ο δάσκαλος"
   },
   {
     "id": 192,
@@ -2306,7 +2879,10 @@ const VOCABULARY = [
     "en": "the engineer",
     "tr": "mühendis",
     "ro": "inginerul",
-    "bs": "inženjer"
+    "bs": "inženjer",
+    "es": "el ingeniero",
+    "bg": "инженерът",
+    "el": "ο μηχανικός"
   },
   {
     "id": 193,
@@ -2318,7 +2894,10 @@ const VOCABULARY = [
     "en": "the cook / chef",
     "tr": "aşçı",
     "ro": "bucătarul",
-    "bs": "kuhar / kuhar"
+    "bs": "kuhar / kuhar",
+    "es": "el cocinero/chef",
+    "bg": "готвачът / главният готвач",
+    "el": "ο μάγειρας / σεφ"
   },
   {
     "id": 194,
@@ -2330,7 +2909,10 @@ const VOCABULARY = [
     "en": "the salesman / seller",
     "tr": "satıcı / tezgahtar",
     "ro": "vânzătorul",
-    "bs": "prodavač/prodavac"
+    "bs": "prodavač/prodavac",
+    "es": "el vendedor / vendedor",
+    "bg": "продавачът / продавачът",
+    "el": "ο πωλητής / πωλητής"
   },
   {
     "id": 195,
@@ -2342,7 +2924,10 @@ const VOCABULARY = [
     "en": "the office",
     "tr": "ofis / büro",
     "ro": "biroul",
-    "bs": "kancelariju"
+    "bs": "kancelariju",
+    "es": "la oficina",
+    "bg": "офиса",
+    "el": "το γραφείο"
   },
   {
     "id": 196,
@@ -2354,7 +2939,10 @@ const VOCABULARY = [
     "en": "to work",
     "tr": "çalışmak",
     "ro": "a lucra",
-    "bs": "na posao"
+    "bs": "na posao",
+    "es": "trabajar",
+    "bg": "да работят",
+    "el": "να δουλέψεις"
   },
   {
     "id": 197,
@@ -2366,7 +2954,10 @@ const VOCABULARY = [
     "en": "the salary",
     "tr": "maaş",
     "ro": "salariul",
-    "bs": "platu"
+    "bs": "platu",
+    "es": "el salario",
+    "bg": "заплатата",
+    "el": "ο μισθός"
   },
   {
     "id": 198,
@@ -2378,7 +2969,10 @@ const VOCABULARY = [
     "en": "the hour",
     "tr": "saat (zaman birimi)",
     "ro": "ora",
-    "bs": "sat"
+    "bs": "sat",
+    "es": "la hora",
+    "bg": "часът",
+    "el": "την ώρα"
   },
   {
     "id": 199,
@@ -2390,7 +2984,10 @@ const VOCABULARY = [
     "en": "the restaurant",
     "tr": "restoran",
     "ro": "restaurantul",
-    "bs": "restoran"
+    "bs": "restoran",
+    "es": "el restaurante",
+    "bg": "ресторанта",
+    "el": "το εστιατόριο"
   },
   {
     "id": 200,
@@ -2402,7 +2999,10 @@ const VOCABULARY = [
     "en": "the menu",
     "tr": "yemek menüsü",
     "ro": "meniul",
-    "bs": "meni"
+    "bs": "meni",
+    "es": "el menú",
+    "bg": "менюто",
+    "el": "το μενού"
   },
   {
     "id": 201,
@@ -2414,7 +3014,10 @@ const VOCABULARY = [
     "en": "the waiter",
     "tr": "garson",
     "ro": "chelnerul",
-    "bs": "konobar"
+    "bs": "konobar",
+    "es": "el camarero",
+    "bg": "сервитьорът",
+    "el": "ο σερβιτόρος"
   },
   {
     "id": 202,
@@ -2426,7 +3029,10 @@ const VOCABULARY = [
     "en": "the appetizer / starter",
     "tr": "başlangıç / meze",
     "ro": "aperitivul",
-    "bs": "predjelo / predjelo"
+    "bs": "predjelo / predjelo",
+    "es": "el aperitivo/entrante",
+    "bg": "предястие/предястие",
+    "el": "το ορεκτικό / ορεκτικό"
   },
   {
     "id": 203,
@@ -2438,7 +3044,10 @@ const VOCABULARY = [
     "en": "the main course",
     "tr": "ana yemek",
     "ro": "felul principal",
-    "bs": "glavno jelo"
+    "bs": "glavno jelo",
+    "es": "el plato principal",
+    "bg": "основното ястие",
+    "el": "το κυρίως πιάτο"
   },
   {
     "id": 204,
@@ -2450,7 +3059,10 @@ const VOCABULARY = [
     "en": "the dessert",
     "tr": "tatlı",
     "ro": "desertul",
-    "bs": "desert"
+    "bs": "desert",
+    "es": "el postre",
+    "bg": "десертът",
+    "el": "το επιδόρπιο"
   },
   {
     "id": 205,
@@ -2462,7 +3074,10 @@ const VOCABULARY = [
     "en": "the schnitzel",
     "tr": "şinitzel",
     "ro": "șnițelul",
-    "bs": "šnicle"
+    "bs": "šnicle",
+    "es": "el schnitzel",
+    "bg": "шницелът",
+    "el": "το σνίτσελ"
   },
   {
     "id": 206,
@@ -2474,7 +3089,10 @@ const VOCABULARY = [
     "en": "the soup",
     "tr": "çorba",
     "ro": "supa",
-    "bs": "supu"
+    "bs": "supu",
+    "es": "la sopa",
+    "bg": "супата",
+    "el": "τη σούπα"
   },
   {
     "id": 207,
@@ -2486,7 +3104,10 @@ const VOCABULARY = [
     "en": "to order",
     "tr": "sipariş vermek",
     "ro": "a comanda",
-    "bs": "naručiti"
+    "bs": "naručiti",
+    "es": "ordenar",
+    "bg": "да поръчам",
+    "el": "να παραγγείλετε"
   },
   {
     "id": 208,
@@ -2498,7 +3119,10 @@ const VOCABULARY = [
     "en": "The bill, please!",
     "tr": "Hesap lütfen!",
     "ro": "Factura, vă rog!",
-    "bs": "Račun, molim!"
+    "bs": "Račun, molim!",
+    "es": "¡La cuenta, por favor!",
+    "bg": "Сметката, моля!",
+    "el": "Ο λογαριασμός, παρακαλώ!"
   },
   {
     "id": 209,
@@ -2510,7 +3134,10 @@ const VOCABULARY = [
     "en": "Keep the change.",
     "tr": "Üstü kalsın.",
     "ro": "Păstrați restul.",
-    "bs": "Zadrži kusur."
+    "bs": "Zadrži kusur.",
+    "es": "Quédese con el cambio.",
+    "bg": "Запазете рестото.",
+    "el": "Κρατήστε τα ρέστα."
   },
   {
     "id": 210,
@@ -2522,7 +3149,10 @@ const VOCABULARY = [
     "en": "the tip",
     "tr": "bahşiş",
     "ro": "vârful",
-    "bs": "vrh"
+    "bs": "vrh",
+    "es": "la punta",
+    "bg": "върха",
+    "el": "η άκρη"
   },
   {
     "id": 211,
@@ -2534,7 +3164,10 @@ const VOCABULARY = [
     "en": "yes",
     "tr": "evet",
     "ro": "Da",
-    "bs": "da"
+    "bs": "da",
+    "es": "Sí",
+    "bg": "да",
+    "el": "Ναί"
   },
   {
     "id": 212,
@@ -2546,7 +3179,10 @@ const VOCABULARY = [
     "en": "no",
     "tr": "hayır",
     "ro": "nu",
-    "bs": "br"
+    "bs": "br",
+    "es": "No",
+    "bg": "не",
+    "el": "Όχι"
   },
   {
     "id": 213,
@@ -2558,7 +3194,10 @@ const VOCABULARY = [
     "en": "and",
     "tr": "ve",
     "ro": "şi",
-    "bs": "i"
+    "bs": "i",
+    "es": "y",
+    "bg": "и",
+    "el": "και"
   },
   {
     "id": 214,
@@ -2570,7 +3209,10 @@ const VOCABULARY = [
     "en": "or",
     "tr": "veya",
     "ro": "sau",
-    "bs": "ili"
+    "bs": "ili",
+    "es": "o",
+    "bg": "или",
+    "el": "ή"
   },
   {
     "id": 215,
@@ -2582,7 +3224,10 @@ const VOCABULARY = [
     "en": "but",
     "tr": "ama / fakat",
     "ro": "dar",
-    "bs": "ali"
+    "bs": "ali",
+    "es": "pero",
+    "bg": "но",
+    "el": "αλλά"
   },
   {
     "id": 216,
@@ -2594,7 +3239,10 @@ const VOCABULARY = [
     "en": "very",
     "tr": "çok",
     "ro": "foarte",
-    "bs": "vrlo"
+    "bs": "vrlo",
+    "es": "muy",
+    "bg": "много",
+    "el": "πολύ"
   },
   {
     "id": 217,
@@ -2606,7 +3254,10 @@ const VOCABULARY = [
     "en": "also / too",
     "tr": "de / da / hem de",
     "ro": "asemenea",
-    "bs": "također / također"
+    "bs": "također / također",
+    "es": "también / también",
+    "bg": "също / също",
+    "el": "επίσης / επίσης"
   },
   {
     "id": 218,
@@ -2618,7 +3269,10 @@ const VOCABULARY = [
     "en": "not",
     "tr": "değil / -me (olumsuzluk)",
     "ro": "nu",
-    "bs": "ne"
+    "bs": "ne",
+    "es": "no",
+    "bg": "не",
+    "el": "δεν"
   },
   {
     "id": 219,
@@ -2630,7 +3284,10 @@ const VOCABULARY = [
     "en": "much / many",
     "tr": "çok / fazla",
     "ro": "mult",
-    "bs": "mnogo / mnogo"
+    "bs": "mnogo / mnogo",
+    "es": "mucho / muchos",
+    "bg": "много / много",
+    "el": "πολλά / πολλά"
   },
   {
     "id": 220,
@@ -2642,7 +3299,10 @@ const VOCABULARY = [
     "en": "today",
     "tr": "bugün",
     "ro": "astăzi",
-    "bs": "danas"
+    "bs": "danas",
+    "es": "hoy",
+    "bg": "днес",
+    "el": "σήμερα"
   },
   {
     "id": 221,
@@ -2654,7 +3314,10 @@ const VOCABULARY = [
     "en": "tomorrow",
     "tr": "yarın",
     "ro": "mâine",
-    "bs": "sutra"
+    "bs": "sutra",
+    "es": "mañana",
+    "bg": "утре",
+    "el": "αύριο"
   },
   {
     "id": 222,
@@ -2666,7 +3329,10 @@ const VOCABULARY = [
     "en": "now",
     "tr": "şimdi",
     "ro": "acum",
-    "bs": "sada"
+    "bs": "sada",
+    "es": "ahora",
+    "bg": "сега",
+    "el": "τώρα"
   },
   {
     "id": 223,
@@ -2678,7 +3344,10 @@ const VOCABULARY = [
     "en": "then",
     "tr": "sonra / o zaman",
     "ro": "apoi",
-    "bs": "onda"
+    "bs": "onda",
+    "es": "entonces",
+    "bg": "тогава",
+    "el": "τότε"
   },
   {
     "id": 224,
@@ -2690,7 +3359,10 @@ const VOCABULARY = [
     "en": "Excuse me / Sorry!",
     "tr": "Affedersiniz / Özür dilerim!",
     "ro": "Scuzați-mă",
-    "bs": "Izvinite / Izvinite!"
+    "bs": "Izvinite / Izvinite!",
+    "es": "Disculpe / ¡Lo siento!",
+    "bg": "Извинете / Съжалявам!",
+    "el": "Συγγνώμη / Συγγνώμη!"
   },
   {
     "id": 225,
@@ -2702,7 +3374,10 @@ const VOCABULARY = [
     "en": "once again",
     "tr": "bir kez daha",
     "ro": "încă o dată",
-    "bs": "još jednom"
+    "bs": "još jednom",
+    "es": "una vez más",
+    "bg": "още веднъж",
+    "el": "για άλλη μια φορά"
   }
 ];
 
@@ -2715,7 +3390,10 @@ const TYPE_LABELS = {
     "de": "Nomen",
     "ro": "Substantiv",
     "bs": "Imenica",
-    "color": "#4f8ef7"
+    "color": "#4f8ef7",
+    "es": "Sustantivo",
+    "bg": "Съществително",
+    "el": "Ουσιαστικό"
   },
   "verb": {
     "ar": "فعل",
@@ -2724,7 +3402,10 @@ const TYPE_LABELS = {
     "de": "Verb",
     "ro": "Verb",
     "bs": "Glagol",
-    "color": "#f59e0b"
+    "color": "#f59e0b",
+    "es": "Verbo",
+    "bg": "Глагол",
+    "el": "Ρήμα"
   },
   "adj": {
     "ar": "صفة",
@@ -2733,7 +3414,10 @@ const TYPE_LABELS = {
     "de": "Adjektiv",
     "ro": "Adjectiv",
     "bs": "Pridjev",
-    "color": "#34d399"
+    "color": "#34d399",
+    "es": "Adjetivo",
+    "bg": "Прилагателно",
+    "el": "Επίθετο"
   },
   "phrase": {
     "ar": "عبارة",
@@ -2742,7 +3426,10 @@ const TYPE_LABELS = {
     "de": "Ausdruck",
     "ro": "Expresie",
     "bs": "Izraz",
-    "color": "#a78bfa"
+    "color": "#a78bfa",
+    "es": "Frase",
+    "bg": "Фраза",
+    "el": "Φράση"
   },
   "pronoun": {
     "ar": "ضمير",
@@ -2751,7 +3438,10 @@ const TYPE_LABELS = {
     "de": "Pronomen",
     "ro": "Pronume",
     "bs": "Zamjenica",
-    "color": "#60a5fa"
+    "color": "#60a5fa",
+    "es": "Pronombre",
+    "bg": "Местоимение",
+    "el": "Αντωνυμία"
   },
   "number": {
     "ar": "رقم",
@@ -2760,7 +3450,10 @@ const TYPE_LABELS = {
     "de": "Zahl",
     "ro": "Număr",
     "bs": "Broj",
-    "color": "#fbbf24"
+    "color": "#fbbf24",
+    "es": "Número",
+    "bg": "Число",
+    "el": "Αριθμός"
   },
   "grammar": {
     "ar": "قاعدة",
@@ -2769,7 +3462,10 @@ const TYPE_LABELS = {
     "de": "Grammatik",
     "ro": "Gramatică",
     "bs": "Gramatika",
-    "color": "#f87171"
+    "color": "#f87171",
+    "es": "Gramática",
+    "bg": "Граматика",
+    "el": "Γραμματική"
   },
   "adv": {
     "ar": "ظرف",
@@ -2778,7 +3474,10 @@ const TYPE_LABELS = {
     "de": "Adverb",
     "ro": "Adverb",
     "bs": "Prilog",
-    "color": "#34d399"
+    "color": "#34d399",
+    "es": "Adverbio",
+    "bg": "Наречие",
+    "el": "Επίρρημα"
   },
   "prep": {
     "ar": "حرف جر",
@@ -2787,7 +3486,10 @@ const TYPE_LABELS = {
     "de": "Präposition",
     "ro": "Prepoziție",
     "bs": "Prijedlog",
-    "color": "#fb923c"
+    "color": "#fb923c",
+    "es": "Preposición",
+    "bg": "Предлог",
+    "el": "Πρόθεση"
   },
   "time": {
     "ar": "وقت",
@@ -2796,6 +3498,9 @@ const TYPE_LABELS = {
     "de": "Zeit",
     "ro": "Timp",
     "bs": "Vrijeme",
-    "color": "#a78bfa"
+    "color": "#a78bfa",
+    "es": "Tiempo",
+    "bg": "Време",
+    "el": "Χρόνος"
   }
 };

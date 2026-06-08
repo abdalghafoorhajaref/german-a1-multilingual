@@ -2210,5 +2210,1661 @@ const CONVERSATION_TRANSLATIONS = {
         }
       ]
     }
+  },
+  "es": {
+    "1": {
+      "title": "Autopresentación",
+      "turns": [
+        {
+          "text": "¡Hola! Soy Ana. ¿Cómo te llamas?"
+        },
+        {
+          "prompt": "Preséntate y dile a tu pareja tu nombre.",
+          "options": [
+            "Hola Ana! Mi nombre es Ahmad.",
+            "¡Buen día! Mi nombre es Ahmad."
+          ]
+        },
+        {
+          "text": "¡Encantado de conocerte, Ahmad! ¿De dónde es?"
+        },
+        {
+          "prompt": "Dile al socio tu país de origen",
+          "options": [
+            "Vengo de Siria.",
+            "Yo vengo de Egipto."
+          ]
+        },
+        {
+          "text": "¡Ah, qué bueno! ¿Y dónde vives ahora?"
+        },
+        {
+          "prompt": "Dile al socio tu ciudad actual",
+          "options": [
+            "Vivo en Berlín ahora.",
+            "Vivo en Munich ahora."
+          ]
+        },
+        {
+          "text": "¡Berlín es genial! ¿Qué idiomas hablas?"
+        },
+        {
+          "prompt": "Menciona los idiomas que hablas.",
+          "options": [
+            "Hablo árabe y un poco de alemán.",
+            "Mi lengua materna es el árabe. Estoy aprendiendo alemán ahora."
+          ]
+        },
+        {
+          "text": "¡Muy bien! ¡Adiós, Ahmad!"
+        },
+        {
+          "prompt": "Despedirse de la pareja de forma adecuada",
+          "options": [
+            "¡Adiós, Ana! ¡Adiós!",
+            "¡Adiós! ¡Nos vemos pronto!"
+          ]
+        }
+      ]
+    },
+    "2": {
+      "title": "Reunión en un café",
+      "turns": [
+        {
+          "text": "¡Hola! ¿Cómo está hoy?"
+        },
+        {
+          "prompt": "Responde que te va bien y pregunta cómo le va a tu pareja.",
+          "options": [
+            "¡Hola! Estoy muy bien, gracias. ¿Y tú?",
+            "Gracias, bien! ¿Y tú cómo estás?"
+          ]
+        },
+        {
+          "text": "A mi también me va bien, gracias. ¿Quieres tomar café o té?"
+        },
+        {
+          "prompt": "Pide una taza de café con leche, por favor.",
+          "options": [
+            "Quisiera un café con leche, por favor.",
+            "Un café con leche para mí, por favor."
+          ]
+        },
+        {
+          "text": "¡Seguro! Tomaré un té. ¿Cuál es tu número de móvil para más tarde?"
+        },
+        {
+          "prompt": "Da tu número de teléfono al socio (0176...)",
+          "options": [
+            "Mi número es cero-uno-siete-seis-dos-tres-cuatro.",
+            "Aquí está mi número: cero-uno-siete-seis-cinco-seis-siete."
+          ]
+        },
+        {
+          "text": "¡Gracias, lo he anotado! ¡Hasta la próxima!"
+        },
+        {
+          "prompt": "Despídete de tu amigo y deséale un buen día.",
+          "options": [
+            "¡Adiós! ¡Que tenga un lindo día!",
+            "¡Adiós! ¡Nos vemos pronto!"
+          ]
+        }
+      ]
+    },
+    "3": {
+      "title": "En el mercado de pulgas",
+      "turns": [
+        {
+          "text": "¡Buen día! ¿Estás buscando algo específico?"
+        },
+        {
+          "prompt": "Di que estás buscando una cámara o un libro y pregunta por el precio.",
+          "options": [
+            "¡Buen día! Estoy buscando un libro. ¿Cuánto cuesta este libro?",
+            "¡Hola! ¿Cuánto cuesta esta cámara aquí?"
+          ]
+        },
+        {
+          "text": "El libro cuesta 5 euros. La cámara cuesta 45 euros. ¡Eso es barato!"
+        },
+        {
+          "prompt": "Decir que el precio es demasiado alto (caro) e intentar negociar un precio más bajo.",
+          "options": [
+            "El libro es barato. Tomaré el libro.",
+            "¡Oh, 45 euros es demasiado caro! ¿Están bien 35 euros?"
+          ]
+        },
+        {
+          "text": "Bueno, vale, 35 euros por la cámara está bien. ¿Lo aceptarás?"
+        },
+        {
+          "prompt": "Acepta, di que lo aceptarás y pregunta dónde pagar.",
+          "options": [
+            "Sí, lo aceptaré. ¡Muchas gracias!",
+            "Genial, me quedo con la cámara por 35 euros."
+          ]
+        },
+        {
+          "text": "Aquí tienes. Eso son 35 euros."
+        },
+        {
+          "prompt": "Paga al vendedor y agradécele.",
+          "options": [
+            "Aquí tienes 35 euros. ¡Muchas gracias!",
+            "Aquí tienes, 35 euros. ¡Que tenga un lindo día!"
+          ]
+        }
+      ]
+    },
+    "4": {
+      "title": "Mañanas y citas",
+      "turns": [
+        {
+          "text": "¡Hola! ¿A qué hora te levantas normalmente?"
+        },
+        {
+          "prompt": "Dígales que normalmente se levanta a las 7 a. m. y desayuna a las 7:30",
+          "options": [
+            "Me levanto a las siete y desayuno a las siete y media.",
+            "Normalmente me levanto a las 7 y luego desayuno."
+          ]
+        },
+        {
+          "text": "¿Y cuándo empieza tu curso de alemán?"
+        },
+        {
+          "prompt": "Dígales que la lección comienza a las nueve y termina a la una y media.",
+          "options": [
+            "El curso comienza a las nueve y finaliza a la una y media.",
+            "Comienza a las 9 en punto y dura hasta las 13:30."
+          ]
+        },
+        {
+          "text": "¡Oh, ese es un curso largo! ¿Tienes tiempo el viernes por la noche? ¿Vamos al cine?"
+        },
+        {
+          "prompt": "Disculpa que no tienes tiempo por otra cita y pregunta por el sábado.",
+          "options": [
+            "Lo siento, no tengo tiempo el viernes. ¿Funciona el sábado?",
+            "Lamentablemente tengo una cita el viernes. ¿Qué tal el sábado?"
+          ]
+        },
+        {
+          "text": "¡Sí, el sábado a las 6 de la tarde encaja bien! ¡Nos vemos el sábado!"
+        },
+        {
+          "prompt": "Aceptar la cita y despedirse.",
+          "options": [
+            "¡Excelente! Nos vemos el sábado a las 18:00. ¡Adiós!",
+            "¡Trato! ¡Nos vemos el sábado!"
+          ]
+        }
+      ]
+    },
+    "5": {
+      "title": "Compras de comestibles",
+      "turns": [
+        {
+          "text": "¡Buen día! ¿Qué puedo hacer por ti?"
+        },
+        {
+          "prompt": "Di que quieres comprar tomates y queso y pregunta si están frescos.",
+          "options": [
+            "¡Buen día! Necesito tomates y queso. ¿Están frescos?",
+            "¡Hola! Me gustaría comprar tomates y queso."
+          ]
+        },
+        {
+          "text": "¡Sí, todo está muy fresco! ¿Cuántos tomates quieres?"
+        },
+        {
+          "prompt": "Solicitar un kilo de tomates",
+          "options": [
+            "Quisiera un kilo de tomates, por favor.",
+            "Un kilo de tomates, por favor."
+          ]
+        },
+        {
+          "text": "Seguro. ¿Y cuánto queso quieres?"
+        },
+        {
+          "prompt": "Solicita 300 gramos de queso suizo",
+          "options": [
+            "Por favor dame 300 gramos de queso.",
+            "Necesito trescientos gramos de queso, por favor."
+          ]
+        },
+        {
+          "text": "Aquí tienes. ¿Algo más?"
+        },
+        {
+          "prompt": "Responde negativamente y pregunta por el coste total.",
+          "options": [
+            "No, gracias. Eso es todo. ¿Cuánto cuesta eso?",
+            "Eso es todo, gracias. ¿Cuánto gana?"
+          ]
+        },
+        {
+          "text": "Son 9 euros 40 en total, por favor."
+        },
+        {
+          "prompt": "Dales un billete de 10 euros y diles que se queden con el cambio.",
+          "options": [
+            "Aquí tienes 10 euros. ¡Quédese con el cambio!",
+            "Aquí tienes. Diez euros. Quédese con el cambio."
+          ]
+        }
+      ]
+    },
+    "6": {
+      "title": "Hablando de familia",
+      "turns": [
+        {
+          "text": "¡Hola! ¿Vives solo o con tu familia?"
+        },
+        {
+          "prompt": "Digamos que está casado y vive con su familia e hijos.",
+          "options": [
+            "Estoy casado y vivo con mi familia.",
+            "Vivo junto con mi esposa y mis dos hijos."
+          ]
+        },
+        {
+          "text": "¡Ay qué lindo! ¿Qué edad tienen sus hijos?"
+        },
+        {
+          "prompt": "Diles que tu hija tiene 8 años y tu hijo 5 años.",
+          "options": [
+            "Mi hija tiene ocho años y mi hijo cinco años.",
+            "La hija tiene 8 años y el hijo 5."
+          ]
+        },
+        {
+          "text": "¿Y tus padres? ¿Viven también aquí en Alemania?"
+        },
+        {
+          "prompt": "Dígales que viven en su país de origen, pero usted habla por teléfono con ellos a menudo.",
+          "options": [
+            "No, mis padres viven en mi país de origen. Pero hablamos por teléfono a menudo.",
+            "Viven en Egipto/Siria. Hablo por teléfono con ellos todos los días."
+          ]
+        },
+        {
+          "text": "¡Eso es bueno! Mañana es el cumpleaños de mi hermana. ¡Estamos de celebración!"
+        },
+        {
+          "prompt": "Felicitar a su hermana y desearle un feliz cumpleaños.",
+          "options": [
+            "¡Feliz cumpleaños a tu hermana!",
+            "¡Todo lo mejor en su cumpleaños!"
+          ]
+        }
+      ]
+    },
+    "7": {
+      "title": "Alquilar un apartamento",
+      "turns": [
+        {
+          "text": "¡Buen día! ¿Llamas por el apartamento de 3 habitaciones?"
+        },
+        {
+          "prompt": "Confirma la llamada y pregunta por los metros cuadrados totales del apartamento.",
+          "options": [
+            "Sí, exactamente. ¿Qué tamaño tiene realmente el apartamento?",
+            "¡Buen día! Sí, estoy interesado en el apartamento. ¿Cuantos metros cuadrados son?"
+          ]
+        },
+        {
+          "text": "El apartamento tiene 85 metros cuadrados y también tiene un balcón."
+        },
+        {
+          "prompt": "Pregunte por el alquiler frío y el costo de los servicios públicos y la electricidad.",
+          "options": [
+            "¿Qué tan alto es el alquiler frío? ¿Y a cuánto ascienden los servicios públicos?",
+            "¿A cuánto asciende el alquiler cálido?"
+          ]
+        },
+        {
+          "text": "El alquiler en frío es de 750 euros. Los servicios públicos son 180 euros."
+        },
+        {
+          "prompt": "Preguntar en qué planta está el apartamento y si el edificio tiene ascensor.",
+          "options": [
+            "¿En qué piso está el departamento? ¿Hay ascensor?",
+            "¿El apartamento está en la planta baja o en el primer piso?"
+          ]
+        },
+        {
+          "text": "El departamento está en el tercer piso. Pero lamentablemente no hay ascensor."
+        },
+        {
+          "prompt": "Dígale que el apartamento le parece adecuado y pregunte si puede verlo pronto.",
+          "options": [
+            "Eso está bien para mí. ¿Puedo ver el apartamento?",
+            "¿Cuándo es posible una visita? Me gustaría verlo."
+          ]
+        }
+      ]
+    },
+    "8": {
+      "title": "en el medico",
+      "turns": [
+        {
+          "text": "¡Buen día! ¿Qué te pasa?"
+        },
+        {
+          "prompt": "Explíquele al médico que se siente mal, tiene dolor de cabeza intenso y fiebre.",
+          "options": [
+            "Buenos días doctor. Me siento muy mal. Tengo dolor de cabeza y fiebre.",
+            "Estoy enfermo. Me duele la cabeza y tengo fiebre."
+          ]
+        },
+        {
+          "text": "Veo. ¿También tienes dolor de garganta o tos?"
+        },
+        {
+          "prompt": "Responde que sí, también te duele la garganta y no puedes dormir bien.",
+          "options": [
+            "Sí, también me duele la garganta y no puedo dormir.",
+            "Sí, tengo dolor de garganta desde ayer."
+          ]
+        },
+        {
+          "text": "Tienes un fuerte resfriado. Te recetaré medicamentos."
+        },
+        {
+          "prompt": "Pregúntele al médico cuántas veces al día necesita tomar este medicamento.",
+          "options": [
+            "¿Cuántas veces al día necesito tomar el medicamento?",
+            "¿Cuándo debo tomar el medicamento?"
+          ]
+        },
+        {
+          "text": "Dos veces al día, por la mañana y por la noche después de comer. ¡Que te mejores pronto!"
+        },
+        {
+          "prompt": "Agradécele y despídete cortésmente.",
+          "options": [
+            "Muchas gracias doctora. ¡Adiós!",
+            "Muchas gracias por tu ayuda. ¡Adiós!"
+          ]
+        }
+      ]
+    },
+    "9": {
+      "title": "Pedir direcciones",
+      "turns": [
+        {
+          "text": "¡Disculpe! ¿Cómo llego a la estación de tren?"
+        },
+        {
+          "prompt": "Dígale al viajero que siga recto y luego gire a la izquierda.",
+          "options": [
+            "Siga recto y luego tome la siguiente calle a la izquierda.",
+            "Primero siga recto y luego gire a la izquierda."
+          ]
+        },
+        {
+          "text": "¿La estación de tren está lejos de aquí?"
+        },
+        {
+          "prompt": "Dile que no está lejos, sólo una caminata de cinco minutos.",
+          "options": [
+            "No, está muy cerca. Sólo cinco minutos a pie.",
+            "No está lejos, unos 500 metros."
+          ]
+        },
+        {
+          "text": "¿Puedo tomar también el autobús?"
+        },
+        {
+          "prompt": "Dile que sí, que el autobús número 100 va directo allí.",
+          "options": [
+            "Sí, la línea de autobús 100 va directamente hasta allí.",
+            "Sí, toma el autobús número 100."
+          ]
+        },
+        {
+          "text": "¡Excelente! ¡Muchas gracias por tu ayuda!"
+        },
+        {
+          "prompt": "Responde con 'De nada' y deséale un buen viaje.",
+          "options": [
+            "¡De nada! ¡Que tengas un buen viaje!",
+            "¡De nada! ¡Que tenga un lindo día!"
+          ]
+        }
+      ]
+    },
+    "10": {
+      "title": "Hacer planes de tiempo libre",
+      "turns": [
+        {
+          "text": "¡Hola! ¿Qué es lo que más te gusta hacer en tu tiempo libre?"
+        },
+        {
+          "prompt": "Dile que te gusta jugar al fútbol y escuchar música.",
+          "options": [
+            "Me gusta mucho jugar al fútbol y escuchar música.",
+            "En mi tiempo libre juego al fútbol o leo un libro."
+          ]
+        },
+        {
+          "text": "¡El fútbol es genial! Jugamos el sábado. ¿Quieres venir?"
+        },
+        {
+          "prompt": "Expresa tu interés y pregunta a qué hora empezarás a jugar.",
+          "options": [
+            "¡Sí, con mucho gusto! ¿A qué hora os reunís?",
+            "¡Eso suena divertido! ¿Cuándo juegas el sábado?"
+          ]
+        },
+        {
+          "text": "Jugaremos el sábado a las 3 p.m. en el parque. Sólo trae calzado deportivo."
+        },
+        {
+          "prompt": "Confirma tu asistencia a la hora prevista y di que definitivamente vendrás.",
+          "options": [
+            "¡Está bien! Vendré el sábado a las 15:00. ¡Hasta luego!",
+            "Genial, estaré allí el sábado a las tres."
+          ]
+        }
+      ]
+    },
+    "11": {
+      "title": "Hablando de empleos",
+      "turns": [
+        {
+          "text": "¡Hola! ¿Cuál es tu profesión?"
+        },
+        {
+          "prompt": "Dígale su profesión (por ejemplo, ingeniero informático) y la empresa para la que trabaja.",
+          "options": [
+            "Soy ingeniero de profesión y trabajo en una empresa de informática.",
+            "Trabajo como vendedor en un supermercado."
+          ]
+        },
+        {
+          "text": "¡Es interesante! ¿Cuántas horas trabajas por semana?"
+        },
+        {
+          "prompt": "Digamos que trabajas 40 horas a la semana y tu trabajo es divertido pero agotador.",
+          "options": [
+            "Trabajo 40 horas por semana. El trabajo es divertido, pero estresante.",
+            "Trabajo cuarenta horas. Me gusta mucho mi trabajo."
+          ]
+        },
+        {
+          "text": "Veo. ¿Y cuál es el trabajo de tus sueños?"
+        },
+        {
+          "prompt": "Supongamos que el trabajo de sus sueños es trabajar como gerente o desarrollador de software y ganar mucho dinero.",
+          "options": [
+            "El trabajo de mis sueños es desarrollador de software. Me gustaría trabajar de forma flexible.",
+            "Me gustaría ser una cocinera exitosa y tener mi propio restaurante."
+          ]
+        }
+      ]
+    },
+    "12": {
+      "title": "en el restaurante",
+      "turns": [
+        {
+          "text": "¡Buenas noches! ¿Has reservado una mesa?"
+        },
+        {
+          "prompt": "Responde que sí, has reservado una mesa para dos con el nombre 'Ahmad'",
+          "options": [
+            "¡Buenas noches! Sí, hemos reservado una mesa para dos personas con el nombre de Ahmad.",
+            "Sí, una mesa para dos. El nombre es Ahmad."
+          ]
+        },
+        {
+          "text": "Por supuesto, señor Ahmad. Aquí está tu mesa. ¿Qué le gustaría beber?"
+        },
+        {
+          "prompt": "Pide una botella de agua mineral y un zumo de manzana.",
+          "options": [
+            "Quisiera una botella de agua mineral y un zumo de manzana, por favor.",
+            "Por favor tráeme agua y un jugo."
+          ]
+        },
+        {
+          "text": "Con mucho gusto. ¿Y a ti qué te gustaría comer?"
+        },
+        {
+          "prompt": "Pida sopa de tomate como entrante y escalope como plato principal.",
+          "options": [
+            "De entrada la sopa de tomate y de segundo el escalope.",
+            "Tomaré una sopa y un escalope, por favor."
+          ]
+        },
+        {
+          "text": "Próximamente. (Más tarde...) ¿La comida estuvo deliciosa? ¿Quieres pagar?"
+        },
+        {
+          "prompt": "Elogia la comida y pide la cuenta.",
+          "options": [
+            "Sí, ¡la comida estuvo fantástica! ¡La cuenta, por favor!",
+            "Estaba muy delicioso. La cuenta, por favor."
+          ]
+        },
+        {
+          "text": "Esto hace un total de 27 euros y 80 céntimos."
+        },
+        {
+          "prompt": "Dale 30 euros y dile que se quede con el cambio (propina)",
+          "options": [
+            "Aquí tienes 30 euros. ¡Quédese con el cambio!",
+            "Quédese con el cambio. Que sean 30 euros."
+          ]
+        }
+      ]
+    }
+  },
+  "bg": {
+    "1": {
+      "title": "Самостоятелно представяне",
+      "turns": [
+        {
+          "text": "здравей Аз съм Анна. как се казваш"
+        },
+        {
+          "prompt": "Представете се и кажете името си на партньора",
+          "options": [
+            "Здравей Анна! Казвам се Ахмад.",
+            "Добър ден! Казвам се Ахмад."
+          ]
+        },
+        {
+          "text": "Радвам се да се запознаем, Ахмад! от къде идваш"
+        },
+        {
+          "prompt": "Кажете на партньора вашата страна на произход",
+          "options": [
+            "Идвам от Сирия.",
+            "Идвам от Египет."
+          ]
+        },
+        {
+          "text": "Ах, хубаво! И къде живееш сега?"
+        },
+        {
+          "prompt": "Кажете на партньора си текущия град",
+          "options": [
+            "Сега живея в Берлин.",
+            "Сега живея в Мюнхен."
+          ]
+        },
+        {
+          "text": "Берлин е страхотен! кои езици говориш"
+        },
+        {
+          "prompt": "Споменете езиците, които говорите",
+          "options": [
+            "Говоря арабски и малко немски.",
+            "Майчиният ми език е арабски. Сега уча немски."
+          ]
+        },
+        {
+          "text": "Много добре! Сбогом, Ахмад!"
+        },
+        {
+          "prompt": "Сбогувайте се с партньора по подходящ начин",
+          "options": [
+            "Довиждане, Анна! чао",
+            "чао До скоро!"
+          ]
+        }
+      ]
+    },
+    "2": {
+      "title": "Среща в кафене",
+      "turns": [
+        {
+          "text": "здравей как си днес"
+        },
+        {
+          "prompt": "Отговорете, че се справяте добре и попитайте как се справя партньорът",
+          "options": [
+            "здравей Справям се много добре, благодаря. а ти",
+            "Благодаря, добре! а вие как сте"
+          ]
+        },
+        {
+          "text": "И аз се справям добре, благодаря. Бихте ли пили кафе или чай?"
+        },
+        {
+          "prompt": "Поръчайте чаша кафе с мляко, моля",
+          "options": [
+            "Искам кафе с мляко, моля.",
+            "Едно кафе с мляко за мен, моля."
+          ]
+        },
+        {
+          "text": "Разбира се! Ще взема един чай. Какъв е мобилният ви номер за по-късно?"
+        },
+        {
+          "prompt": "Дайте своя телефонен номер на партньора (0176...)",
+          "options": [
+            "Моето число е нула-едно-седем-шест-две-три-четири.",
+            "Ето моето число: нула-едно-седем-шест-пет-шест-седем."
+          ]
+        },
+        {
+          "text": "Благодаря, записах си го! Ще се видим следващия път!"
+        },
+        {
+          "prompt": "Кажете сбогом на приятеля си и му пожелайте добър ден",
+          "options": [
+            "чао приятен ден!",
+            "Довиждане! До скоро!"
+          ]
+        }
+      ]
+    },
+    "3": {
+      "title": "На Битпазара",
+      "turns": [
+        {
+          "text": "Добър ден! Търсите нещо конкретно?"
+        },
+        {
+          "prompt": "Кажете, че търсите фотоапарат или книга и попитайте за цената",
+          "options": [
+            "Добър ден! Търся книга. Колко струва тази книга?",
+            "здравей Колко струва тази камера тук?"
+          ]
+        },
+        {
+          "text": "Книгата струва 5 евро. Фотоапаратът струва 45 евро. Това е евтино!"
+        },
+        {
+          "prompt": "Кажете, че цената е твърде висока (скъпа) и се опитайте да договорите по-ниска цена",
+          "options": [
+            "Книгата е евтина. Ще взема книгата.",
+            "О, 45 евро са твърде скъпи! 35 евро добре ли са?"
+          ]
+        },
+        {
+          "text": "Е, добре, 35 евро за камерата е добре. ще го вземеш ли"
+        },
+        {
+          "prompt": "Съгласете се, кажете, че ще го вземете и попитайте къде да платите",
+          "options": [
+            "Да, ще го взема. Благодаря много!",
+            "Супер, ще взема камерата за 35 евро."
+          ]
+        },
+        {
+          "text": "Ето го. Това прави 35 евро."
+        },
+        {
+          "prompt": "Платете на продавача и му благодарете",
+          "options": [
+            "Ето 35 евро. Благодаря много!",
+            "Ето, 35 евро. приятен ден!"
+          ]
+        }
+      ]
+    },
+    "4": {
+      "title": "Сутрин и срещи",
+      "turns": [
+        {
+          "text": "здравей Кога обикновено ставаш?"
+        },
+        {
+          "prompt": "Кажете им, че обикновено се събуждате в 7 сутринта и закусвате в 7:30",
+          "options": [
+            "Ставам в седем часа и закусвам в седем и половина.",
+            "Обикновено ставам в 7 часа, след което закусвам."
+          ]
+        },
+        {
+          "text": "И кога започва вашият курс по немски?"
+        },
+        {
+          "prompt": "Кажете им, че урокът започва в девет часа и свършва в един и половина",
+          "options": [
+            "Курсът започва в девет часа и завършва в един и половина.",
+            "Започва в 9 часа и продължава до 13:30 часа."
+          ]
+        },
+        {
+          "text": "О, това е дълъг курс! Имате ли време петък вечер? Ще отидем ли на кино?"
+        },
+        {
+          "prompt": "Извини се, че нямаш време заради друг ангажимент и попитай за събота",
+          "options": [
+            "Съжалявам, нямам време в петък. Събота работи ли?",
+            "За съжаление имам час в петък. Какво ще кажете за събота?"
+          ]
+        },
+        {
+          "text": "Да, събота от 18 часа пасва! Ще се видим в събота!"
+        },
+        {
+          "prompt": "Съгласете се с уговорката и се сбогувайте",
+          "options": [
+            "Страхотно! Ще се видим в събота от 18:00ч. чао",
+            "сделка! Ще се видим в събота!"
+          ]
+        }
+      ]
+    },
+    "5": {
+      "title": "Пазаруване на хранителни стоки",
+      "turns": [
+        {
+          "text": "Добър ден! Какво мога да направя за вас?"
+        },
+        {
+          "prompt": "Кажете, че искате да купите домати и сирене и попитайте дали са пресни",
+          "options": [
+            "Добър ден! Имам нужда от домати и сирене. Пресни ли са?",
+            "здравей Бих искал да купя домати и сирене."
+          ]
+        },
+        {
+          "text": "Да всичко е много свежо! Колко домата искате?"
+        },
+        {
+          "prompt": "Поискайте един килограм домати",
+          "options": [
+            "Бих искал един килограм домати, моля.",
+            "Един килограм домати, моля."
+          ]
+        },
+        {
+          "text": "Разбира се. И колко сирене искате?"
+        },
+        {
+          "prompt": "Поискайте 300 грама швейцарско сирене",
+          "options": [
+            "Моля, дайте ми 300 грама сирене.",
+            "Имам нужда от триста грама сирене, моля."
+          ]
+        },
+        {
+          "text": "Ето го. Нещо друго?"
+        },
+        {
+          "prompt": "Отговорете отрицателно и поискайте общата цена",
+          "options": [
+            "Не, благодаря. Това е всичко Колко струва това?",
+            "Това е всичко, благодаря ви. Колко прави?"
+          ]
+        },
+        {
+          "text": "Това прави общо 9 евро 40, моля."
+        },
+        {
+          "prompt": "Дайте им банкнота от 10 евро и им кажете да запазят рестото",
+          "options": [
+            "Ето 10 евро. Запазете рестото!",
+            "Ето го. Десет евро. Запазете рестото."
+          ]
+        }
+      ]
+    },
+    "6": {
+      "title": "Говорейки за семейството",
+      "turns": [
+        {
+          "text": "здравей Сам ли живееш или със семейството си?"
+        },
+        {
+          "prompt": "Кажете, че сте женен и живеете със семейството и децата си",
+          "options": [
+            "Омъжена съм и живея със семейството си.",
+            "Живея заедно с жена ми и двете ми деца."
+          ]
+        },
+        {
+          "text": "Ах, колко хубаво! На колко години са вашите деца?"
+        },
+        {
+          "prompt": "Кажете им, че дъщеря ви е на 8 години, а синът ви е на 5 години",
+          "options": [
+            "Дъщеря ми е на осем, а синът ми е на пет години.",
+            "Дъщерята е на 8 години, а синът е на 5."
+          ]
+        },
+        {
+          "text": "А вашите родители? Те също ли живеят тук в Германия?"
+        },
+        {
+          "prompt": "Кажете им, че живеят във вашата страна, но често говорите по телефона с тях",
+          "options": [
+            "Не, родителите ми живеят в родната ми страна. Но често говорим по телефона.",
+            "Те живеят в Египет/Сирия. Говоря по телефона с тях всеки ден."
+          ]
+        },
+        {
+          "text": "Това е добре! Утре сестра ми има рожден ден. Ние празнуваме!"
+        },
+        {
+          "prompt": "Поздравете сестра му и й пожелайте честит рожден ден",
+          "options": [
+            "Честит рожден ден на сестра ти!",
+            "Всичко най-хубаво на рождения й ден!"
+          ]
+        }
+      ]
+    },
+    "7": {
+      "title": "Отдаване под наем на апартамент",
+      "turns": [
+        {
+          "text": "Добър ден! За 3-стаен апартамент ли се обаждате?"
+        },
+        {
+          "prompt": "Потвърдете обаждането и попитайте за общите квадратни метри на апартамента",
+          "options": [
+            "Да точно така. Колко голям е всъщност апартаментът?",
+            "Добър ден! Да, интересувам се от апартамента. Колко квадратни метра е?"
+          ]
+        },
+        {
+          "text": "Апартаментът е 85 кв.м. и разполага с тераса."
+        },
+        {
+          "prompt": "Попитайте за студения наем и разходите за комунални услуги и ток",
+          "options": [
+            "Колко висок е студеният наем? И колко са комуналните?",
+            "Колко е топлият наем?"
+          ]
+        },
+        {
+          "text": "Студеният наем е 750 евро. Комуналните разходи са 180 евро."
+        },
+        {
+          "prompt": "Попитайте на кой етаж е апартамента и дали сградата има асансьор",
+          "options": [
+            "На кой етаж е апартамента? има ли асансьор",
+            "Апартаментът на партер ли е или на първи етаж?"
+          ]
+        },
+        {
+          "text": "Апартаментът се намира на трети етаж. Но за съжаление няма асансьор."
+        },
+        {
+          "prompt": "Кажете, че намирате апартамента за подходящ и попитайте за оглед скоро",
+          "options": [
+            "Това е добре за мен. Мога ли да огледам апартамента?",
+            "Кога е възможен оглед? Бих искал да го видя."
+          ]
+        }
+      ]
+    },
+    "8": {
+      "title": "При доктора",
+      "turns": [
+        {
+          "text": "Добър ден! какво ти става"
+        },
+        {
+          "prompt": "Обяснете на лекаря, че се чувствате зле, имате силно главоболие и температура",
+          "options": [
+            "Добър ден, докторе. Чувствам се много зле. Имам главоболие и температура.",
+            "болен съм Главата ме боли и имам температура."
+          ]
+        },
+        {
+          "text": "разбирам Имате ли и възпалено гърло или кашлица?"
+        },
+        {
+          "prompt": "Отговорете да, боли ви и гърлото и не можете да спите добре",
+          "options": [
+            "Да, и мен ме боли гърлото и не мога да спя.",
+            "Да, от вчера ме боли гърлото."
+          ]
+        },
+        {
+          "text": "Имате силна настинка. Ще ти предпиша лекарства."
+        },
+        {
+          "prompt": "Попитайте лекаря колко пъти на ден трябва да приемате това лекарство",
+          "options": [
+            "Колко пъти на ден трябва да приемам лекарството?",
+            "Кога трябва да приемам лекарството?"
+          ]
+        },
+        {
+          "text": "Два пъти дневно, сутрин и вечер след хранене. Оздравявай бързо!"
+        },
+        {
+          "prompt": "Благодарете му и се сбогувайте учтиво",
+          "options": [
+            "Благодаря ви много, докторе. Довиждане!",
+            "Благодаря ви много за помощта. чао"
+          ]
+        }
+      ]
+    },
+    "9": {
+      "title": "Питане за упътване",
+      "turns": [
+        {
+          "text": "извинете! Как да стигна до гарата?"
+        },
+        {
+          "prompt": "Кажете на пътника да върви направо и след това да завие наляво",
+          "options": [
+            "Продължете направо и след това поемете по следващата улица наляво.",
+            "Първо вървете направо, след това завийте наляво."
+          ]
+        },
+        {
+          "text": "Далеч ли е гарата?"
+        },
+        {
+          "prompt": "Кажете му, че не е далеч, само на пет минути пеша",
+          "options": [
+            "Не, много е близо. Само пет минути пеша.",
+            "Не е далеч, около 500 метра."
+          ]
+        },
+        {
+          "text": "Може ли и аз да взема автобуса?"
+        },
+        {
+          "prompt": "Кажете му да, автобус номер 100 отива директно там",
+          "options": [
+            "Да, автобусна линия 100 отива директно там.",
+            "Да, вземете автобус номер 100."
+          ]
+        },
+        {
+          "text": "Страхотно! Благодаря ви много за помощта!"
+        },
+        {
+          "prompt": "Отговорете с „Заповядайте“ и му пожелайте приятен път",
+          "options": [
+            "няма за какво! Приятно пътуване!",
+            "няма за какво! приятен ден!"
+          ]
+        }
+      ]
+    },
+    "10": {
+      "title": "Изготвяне на планове за свободното време",
+      "turns": [
+        {
+          "text": "здравей Какво най-много обичаш да правиш в свободното си време?"
+        },
+        {
+          "prompt": "Кажете му, че обичате да играете футбол и да слушате музика",
+          "options": [
+            "Много обичам да играя футбол и да слушам музика.",
+            "В свободното си време играя футбол или чета книга."
+          ]
+        },
+        {
+          "text": "Футболът е страхотен! Играем в събота. искаш ли да дойдеш"
+        },
+        {
+          "prompt": "Изразете интереса си и попитайте в колко часа ще започнете да играете",
+          "options": [
+            "Да, с радост! В колко часа се срещате?",
+            "Това звучи забавно! Кога ще играеш в събота?"
+          ]
+        },
+        {
+          "text": "Играем в събота от 15 часа в парка. Просто носете спортни обувки."
+        },
+        {
+          "prompt": "Потвърдете присъствието си в уречения час и кажете, че определено ще дойдете",
+          "options": [
+            "добре! Ще дойда в събота в 15:00ч. Ще се видим тогава!",
+            "Чудесно, ще бъда там в събота в три часа."
+          ]
+        }
+      ]
+    },
+    "11": {
+      "title": "Говорейки за работа",
+      "turns": [
+        {
+          "text": "здравей каква си професия"
+        },
+        {
+          "prompt": "Кажете му вашата професия (напр. компютърен инженер) и компанията, в която работите",
+          "options": [
+            "По професия съм инженер и работя в компютърна фирма.",
+            "Работя като продавач в супермаркет."
+          ]
+        },
+        {
+          "text": "Това е интересно! How many hours do you work per week?"
+        },
+        {
+          "prompt": "Да кажем, че работите 40 часа седмично и работата ви е забавна, но уморителна",
+          "options": [
+            "Работя 40 часа на седмица. Работата е забавна, но е стресираща.",
+            "Работя четиридесет часа. Много харесвам работата си."
+          ]
+        },
+        {
+          "text": "разбирам А коя е вашата мечтана работа?"
+        },
+        {
+          "prompt": "Кажете, че вашата мечтана работа е да работите като мениджър или разработчик на софтуер и да печелите много пари",
+          "options": [
+            "Мечтаната ми работа е софтуерен разработчик. Бих искал да работя гъвкаво.",
+            "Бих искал да бъда успешен готвач и да имам собствен ресторант."
+          ]
+        }
+      ]
+    },
+    "12": {
+      "title": "В ресторанта",
+      "turns": [
+        {
+          "text": "Добър вечер! Резервирахте ли маса?"
+        },
+        {
+          "prompt": "Отговорете с да, запазихте маса за двама на името „Ахмад“",
+          "options": [
+            "Добър вечер! Да, резервирали сме маса за двама на името Ахмад.",
+            "Да, маса за двама. Името е Ахмад."
+          ]
+        },
+        {
+          "text": "Разбира се, г-н Ахмад. Ето ви масата. Какво бихте искали да пиете?"
+        },
+        {
+          "prompt": "Поръчайте бутилка минерална вода и ябълков сок",
+          "options": [
+            "Бих искал бутилка минерална вода и ябълков сок, моля.",
+            "Моля, донесете ми вода и сок."
+          ]
+        },
+        {
+          "text": "С удоволствие. И какво бихте искали да ядете?"
+        },
+        {
+          "prompt": "Поръчайте доматена супа като предястие и шницел като основно ястие",
+          "options": [
+            "Като предястие доматената супа, а като основно ястие шницелът.",
+            "Ще взема супа и шницел, моля."
+          ]
+        },
+        {
+          "text": "Идва веднага. (По-късно...) Вкусна ли беше храната? Искате ли да платите?"
+        },
+        {
+          "prompt": "Похвалете храната и поискайте сметката",
+          "options": [
+            "Да, храната беше фантастична! Сметката, моля!",
+            "Беше много вкусно. Сметката, моля."
+          ]
+        },
+        {
+          "text": "Това прави общо 27 евро 80 ​​цента."
+        },
+        {
+          "prompt": "Дайте му 30 евро и му кажете да задържи рестото (бакшиш)",
+          "options": [
+            "Ето 30 евро. Запазете рестото!",
+            "Запазете рестото. Направи го 30 евро."
+          ]
+        }
+      ]
+    }
+  },
+  "el": {
+    "1": {
+      "title": "Αυτο Εισαγωγή",
+      "turns": [
+        {
+          "text": "Γειά σου! Είμαι η Άννα. Πώς σε λένε;"
+        },
+        {
+          "prompt": "Συστηθείτε και πείτε στον συνεργάτη το όνομά σας",
+          "options": [
+            "Γεια σου Άννα! Το όνομά μου είναι Ahmad.",
+            "Καλημέρα! Το όνομά μου είναι Ahmad."
+          ]
+        },
+        {
+          "text": "Χαίρομαι που σε γνωρίζω, Ahmad! Από πού κατάγεσαι;"
+        },
+        {
+          "prompt": "Πείτε στον συνεργάτη τη χώρα καταγωγής σας",
+          "options": [
+            "Κατάγομαι από τη Συρία.",
+            "Κατάγομαι από την Αίγυπτο."
+          ]
+        },
+        {
+          "text": "Α, ωραία! Και που μένεις τώρα;"
+        },
+        {
+          "prompt": "Πείτε στον συνεργάτη την τρέχουσα πόλη σας",
+          "options": [
+            "Τώρα ζω στο Βερολίνο.",
+            "Τώρα ζω στο Μόναχο."
+          ]
+        },
+        {
+          "text": "Το Βερολίνο είναι υπέροχο! Ποιες γλώσσες μιλάτε;"
+        },
+        {
+          "prompt": "Αναφέρετε τις γλώσσες που μιλάτε",
+          "options": [
+            "Μιλάω αραβικά και λίγα γερμανικά.",
+            "Η μητρική μου γλώσσα είναι η αραβική. Τώρα μαθαίνω γερμανικά."
+          ]
+        },
+        {
+          "text": "Πολύ καλό! Αντίο, Ahmad!"
+        },
+        {
+          "prompt": "Πείτε αντίο στον σύντροφο με τον κατάλληλο τρόπο",
+          "options": [
+            "Αντίο Άννα! Αντίο!",
+            "Αντίο! Τα λέμε σύντομα!"
+          ]
+        }
+      ]
+    },
+    "2": {
+      "title": "Συνάντηση σε ένα καφέ",
+      "turns": [
+        {
+          "text": "Γειά σου! Πώς τα πάτε σήμερα;"
+        },
+        {
+          "prompt": "Απαντήστε ότι τα πάτε καλά και ρωτήστε πώς είναι ο σύντροφος",
+          "options": [
+            "Γειά σου! Τα πάω πολύ καλά, ευχαριστώ. Και εσύ;",
+            "Ευχαριστώ, καλά! Και πώς είσαι;"
+          ]
+        },
+        {
+          "text": "Και εγώ καλά πάω, ευχαριστώ. Θα θέλατε να πιείτε καφέ ή τσάι;"
+        },
+        {
+          "prompt": "Παραγγείλετε ένα φλιτζάνι καφέ με γάλα, παρακαλώ",
+          "options": [
+            "Θα ήθελα έναν καφέ με γάλα, παρακαλώ.",
+            "Ένας καφές με γάλα για μένα, παρακαλώ."
+          ]
+        },
+        {
+          "text": "Σίγουρος! Θα πάρω ένα τσάι. Ποιος είναι ο αριθμός του κινητού σας για αργότερα;"
+        },
+        {
+          "prompt": "Δώστε τον αριθμό τηλεφώνου σας στον συνεργάτη (0176...)",
+          "options": [
+            "Ο αριθμός μου είναι μηδέν-ένα-επτά-έξι-δύο-τρία-τέσσερα.",
+            "Εδώ είναι ο αριθμός μου: μηδέν-ένα-επτά-έξι-πέντε-έξι-επτά."
+          ]
+        },
+        {
+          "text": "Ευχαριστώ, το έχω σημειώσει! Τα λέμε την επόμενη φορά!"
+        },
+        {
+          "prompt": "Πείτε αντίο στον φίλο σας και ευχηθείτε καλή μέρα",
+          "options": [
+            "Αντίο! Καλή σας μέρα!",
+            "Αντίο! Τα λέμε σύντομα!"
+          ]
+        }
+      ]
+    },
+    "3": {
+      "title": "Στο Flea Market",
+      "turns": [
+        {
+          "text": "Καλημέρα! Ψάχνετε για κάτι συγκεκριμένο;"
+        },
+        {
+          "prompt": "Πείτε ότι ψάχνετε για μια φωτογραφική μηχανή ή ένα βιβλίο και ρωτήστε για την τιμή",
+          "options": [
+            "Καλημέρα! Ψάχνω για ένα βιβλίο. Πόσο κοστίζει αυτό το βιβλίο;",
+            "Γειά σου! Πόσο κοστίζει αυτή η κάμερα εδώ;"
+          ]
+        },
+        {
+          "text": "Το βιβλίο κοστίζει 5 ευρώ. Η κάμερα κοστίζει 45 ευρώ. Αυτό είναι φτηνό!"
+        },
+        {
+          "prompt": "Πείτε ότι η τιμή είναι πολύ υψηλή (ακριβή) και προσπαθήστε να διαπραγματευτείτε μια χαμηλότερη τιμή",
+          "options": [
+            "Το βιβλίο είναι φτηνό. Θα πάρω το βιβλίο.",
+            "Ω, 45 ευρώ είναι πολύ ακριβά! 35 ευρώ είναι εντάξει;"
+          ]
+        },
+        {
+          "text": "Λοιπόν, εντάξει, 35 ευρώ για την κάμερα είναι μια χαρά. Θα το πάρεις;"
+        },
+        {
+          "prompt": "Συμφωνώ, πείτε ότι θα το πάρετε και ρωτήστε πού να πληρώσετε",
+          "options": [
+            "Ναι, θα το πάρω. Σας ευχαριστώ πολύ!",
+            "Τέλεια, θα πάρω την κάμερα 35 ευρώ."
+          ]
+        },
+        {
+          "text": "Ορίστε. Δηλαδή 35 ευρώ."
+        },
+        {
+          "prompt": "Πληρώστε τον πωλητή και ευχαριστήστε τον",
+          "options": [
+            "Εδώ είναι 35 ευρώ. Σας ευχαριστώ πολύ!",
+            "Ορίστε, 35 ευρώ. Καλή σας μέρα!"
+          ]
+        }
+      ]
+    },
+    "4": {
+      "title": "Mornens και ραντεβού",
+      "turns": [
+        {
+          "text": "Γειά σου! Πότε σηκώνεσαι συνήθως;"
+        },
+        {
+          "prompt": "Πείτε τους ότι συνήθως ξυπνάτε στις 7 το πρωί και τρώτε πρωινό στις 7:30",
+          "options": [
+            "Σηκώνομαι στις επτά και τρώω πρωινό στις επτά και μισή.",
+            "Κανονικά σηκώνομαι στις 7 και μετά παίρνω πρωινό."
+          ]
+        },
+        {
+          "text": "Και πότε ξεκινά το μάθημα των Γερμανικών;"
+        },
+        {
+          "prompt": "Πες τους ότι το μάθημα ξεκινά στις εννιά και τελειώνει στη μιάμιση",
+          "options": [
+            "Το μάθημα ξεκινά στις εννιά και τελειώνει στη μία και μισή.",
+            "Ξεκινά στις 9 και πάει μέχρι τις 13:30."
+          ]
+        },
+        {
+          "text": "Ω, αυτή είναι μια μακρά πορεία! Έχετε χρόνο την Παρασκευή το απόγευμα; Πάμε σινεμά;"
+        },
+        {
+          "prompt": "Ζητήστε συγγνώμη που δεν έχετε χρόνο λόγω άλλου ραντεβού και ρωτήστε για το Σάββατο",
+          "options": [
+            "Συγγνώμη, δεν έχω χρόνο την Παρασκευή. Λειτουργεί το Σάββατο;",
+            "Δυστυχώς έχω ραντεβού την Παρασκευή. Τι θα λέγατε για το Σάββατο;"
+          ]
+        },
+        {
+          "text": "Ναι, το Σάββατο στις 18:00 χωράει καλά! Τα λέμε το Σάββατο!"
+        },
+        {
+          "prompt": "Συμφωνήστε στο ραντεβού και πείτε αντίο",
+          "options": [
+            "Μεγάλος! Ραντεβού το Σάββατο στις 18:00. Αντίο!",
+            "Συμφωνία! Τα λέμε το Σάββατο!"
+          ]
+        }
+      ]
+    },
+    "5": {
+      "title": "Αγορές παντοπωλείου",
+      "turns": [
+        {
+          "text": "Καλημέρα! Τι μπορώ να κάνω για σένα;"
+        },
+        {
+          "prompt": "Πείτε ότι θέλετε να αγοράσετε ντομάτες και τυρί και ρωτήστε αν είναι φρέσκα",
+          "options": [
+            "Καλημέρα! Χρειάζομαι ντομάτες και τυρί. Είναι φρέσκα;",
+            "Γειά σου! Θα ήθελα να αγοράσω ντομάτες και τυρί."
+          ]
+        },
+        {
+          "text": "Ναι, όλα είναι πολύ φρέσκα! Πόσες ντομάτες θα θέλατε;"
+        },
+        {
+          "prompt": "Ζητήστε ένα κιλό ντομάτες",
+          "options": [
+            "Θα ήθελα ένα κιλό ντομάτες, παρακαλώ.",
+            "Ένα κιλό ντομάτες, παρακαλώ."
+          ]
+        },
+        {
+          "text": "Σίγουρος. Και πόσο τυρί θα θέλατε;"
+        },
+        {
+          "prompt": "Ζητήστε 300 γραμμάρια ελβετικό τυρί",
+          "options": [
+            "Δώστε μου 300 γραμμάρια τυρί.",
+            "Χρειάζομαι τριακόσια γραμμάρια τυρί, παρακαλώ."
+          ]
+        },
+        {
+          "text": "Ορίστε. Κάτι άλλο;"
+        },
+        {
+          "prompt": "Απαντήστε αρνητικά και ζητήστε το συνολικό κόστος",
+          "options": [
+            "Όχι, ευχαριστώ. Αυτό είναι όλο. Πόσο κοστίζει αυτό;",
+            "Αυτό είναι όλο, ευχαριστώ. Πόσο κάνει;"
+          ]
+        },
+        {
+          "text": "Αυτό κάνει 9 ευρώ 40 συνολικά, παρακαλώ."
+        },
+        {
+          "prompt": "Δώστε τους ένα λογαριασμό των 10 ευρώ και πείτε τους να κρατήσουν τα ρέστα",
+          "options": [
+            "Εδώ είναι 10 ευρώ. Κρατήστε τα ρέστα!",
+            "Ορίστε. Δέκα ευρώ. Κρατήστε τα ρέστα."
+          ]
+        }
+      ]
+    },
+    "6": {
+      "title": "Μιλώντας για την οικογένεια",
+      "turns": [
+        {
+          "text": "Γειά σου! Μένεις μόνος ή με την οικογένειά σου;"
+        },
+        {
+          "prompt": "Πες ότι είσαι παντρεμένος και ζεις με την οικογένεια και τα παιδιά σου",
+          "options": [
+            "Είμαι παντρεμένος και ζω με την οικογένειά μου.",
+            "Μένω μαζί με τη γυναίκα μου και τα δύο μου παιδιά."
+          ]
+        },
+        {
+          "text": "Αχ, τι ωραία! Πόσο χρονών είναι τα παιδιά σας;"
+        },
+        {
+          "prompt": "Πες τους ότι η κόρη σου είναι 8 ετών και ο γιος σου 5 ετών",
+          "options": [
+            "Η κόρη μου είναι οκτώ και ο γιος μου πέντε ετών.",
+            "Η κόρη είναι 8 ετών και ο γιος 5."
+          ]
+        },
+        {
+          "text": "Και οι γονείς σου; Ζουν και αυτοί εδώ στη Γερμανία;"
+        },
+        {
+          "prompt": "Πείτε τους ότι ζουν στη χώρα σας, αλλά μιλάτε συχνά μαζί τους στο τηλέφωνο",
+          "options": [
+            "Όχι, οι γονείς μου ζουν στην πατρίδα μου. Αλλά μιλάμε συχνά στο τηλέφωνο.",
+            "Ζουν στην Αίγυπτο/Συρία. Μιλάω στο τηλέφωνο μαζί τους κάθε μέρα."
+          ]
+        },
+        {
+          "text": "Αυτό είναι καλό! Αύριο είναι τα γενέθλια της αδερφής μου. Γιορτάζουμε!"
+        },
+        {
+          "prompt": "Συγχαρητήρια στην αδερφή του και ευχόμαστε χρόνια πολλά",
+          "options": [
+            "Χρόνια πολλά στην αδερφή σου!",
+            "Ό,τι καλύτερο για τα γενέθλιά της!"
+          ]
+        }
+      ]
+    },
+    "7": {
+      "title": "Ενοικίαση Διαμερίσματος",
+      "turns": [
+        {
+          "text": "Καλημέρα! Καλείτε για το διαμέρισμα 3 δωματίων;"
+        },
+        {
+          "prompt": "Επιβεβαιώστε την κλήση και ρωτήστε για τα συνολικά τετραγωνικά μέτρα του διαμερίσματος",
+          "options": [
+            "Ναι, ακριβώς. Πόσο μεγάλο είναι πραγματικά το διαμέρισμα;",
+            "Καλημέρα! Ναι, ενδιαφέρομαι για το διαμέρισμα. Πόσα τετραγωνικά είναι;"
+          ]
+        },
+        {
+          "text": "Το διαμέρισμα είναι 85 τετραγωνικά μέτρα και διαθέτει επίσης μπαλκόνι."
+        },
+        {
+          "prompt": "Ρωτήστε για το κρύο ενοίκιο και το κόστος των κοινόχρηστων και του ρεύματος",
+          "options": [
+            "Πόσο υψηλό είναι το κρύο ενοίκιο; Και πόσα είναι τα κοινόχρηστα;",
+            "Πόσο είναι το ζεστό ενοίκιο;"
+          ]
+        },
+        {
+          "text": "Το κρύο ενοίκιο είναι 750 Ευρώ. Τα κοινόχρηστα είναι 180 ευρώ."
+        },
+        {
+          "prompt": "Ρωτήστε σε ποιον όροφο βρίσκεται το διαμέρισμα και αν το κτίριο διαθέτει ανελκυστήρα",
+          "options": [
+            "Σε ποιον όροφο βρίσκεται το διαμέρισμα; Υπάρχει ασανσέρ;",
+            "Το διαμέρισμα βρίσκεται στο ισόγειο ή στον πρώτο όροφο;"
+          ]
+        },
+        {
+          "text": "Το διαμέρισμα βρίσκεται στον τρίτο όροφο. Αλλά δυστυχώς, δεν υπάρχει ανελκυστήρας."
+        },
+        {
+          "prompt": "Πείτε ότι βρίσκετε το διαμέρισμα κατάλληλο και ρωτήστε να το δείτε σύντομα",
+          "options": [
+            "Αυτό είναι εντάξει για μένα. Μπορώ να δω το διαμέρισμα;",
+            "Πότε είναι δυνατή η προβολή; Θα ήθελα να το δω."
+          ]
+        }
+      ]
+    },
+    "8": {
+      "title": "Στο Γιατρό",
+      "turns": [
+        {
+          "text": "Καλημέρα! Τι σου συμβαίνει;"
+        },
+        {
+          "prompt": "Εξηγήστε στον γιατρό ότι αισθάνεστε άρρωστος, έχετε έντονο πονοκέφαλο και πυρετό",
+          "options": [
+            "Καλημερα γιατρε. Νιώθω πολύ άσχημα. Έχω πονοκέφαλο και πυρετό.",
+            "Είμαι άρρωστος. Πονάει το κεφάλι μου και έχω πυρετό."
+          ]
+        },
+        {
+          "text": "βλέπω. Έχετε επίσης πονόλαιμο ή βήχα;"
+        },
+        {
+          "prompt": "Απάντησε ναι, πονάει και ο λαιμός σου και δεν μπορείς να κοιμηθείς καλά",
+          "options": [
+            "Ναι, πονάει και ο λαιμός μου και δεν μπορώ να κοιμηθώ.",
+            "Ναι, έχω πονόλαιμο από χθες."
+          ]
+        },
+        {
+          "text": "Έχεις κρυολόγημα. Θα σου συνταγογραφήσω φάρμακα."
+        },
+        {
+          "prompt": "Ρωτήστε τον γιατρό πόσες φορές την ημέρα πρέπει να παίρνετε αυτό το φάρμακο",
+          "options": [
+            "Πόσες φορές την ημέρα πρέπει να παίρνω το φάρμακο;",
+            "Πότε πρέπει να πάρω το φάρμακο;"
+          ]
+        },
+        {
+          "text": "Δύο φορές την ημέρα, πρωί και βράδυ μετά το φαγητό. Γίνε καλά σύντομα!"
+        },
+        {
+          "prompt": "Ευχαριστήστε τον και αποχαιρετήστε τον ευγενικά",
+          "options": [
+            "Ευχαριστώ πολύ γιατρέ. Αντίο!",
+            "Σας ευχαριστώ πολύ για τη βοήθειά σας. Αντίο!"
+          ]
+        }
+      ]
+    },
+    "9": {
+      "title": "Ζητώντας οδηγίες",
+      "turns": [
+        {
+          "text": "Με συγχωρείτε! Πώς θα πάω στο σιδηροδρομικό σταθμό;"
+        },
+        {
+          "prompt": "Πείτε στον ταξιδιώτη να πάει ευθεία και μετά στρίψτε αριστερά",
+          "options": [
+            "Προχωρήστε ευθεία και στη συνέχεια πάρτε τον επόμενο δρόμο αριστερά.",
+            "Πρώτα πηγαίνετε ευθεία, μετά στρίψτε αριστερά."
+          ]
+        },
+        {
+          "text": "Είναι ο σιδηροδρομικός σταθμός μακριά από εδώ;"
+        },
+        {
+          "prompt": "Πες του ότι δεν είναι μακριά, μόνο πέντε λεπτά με τα πόδια",
+          "options": [
+            "Όχι, είναι πολύ κοντά. Μόνο πέντε λεπτά με τα πόδια.",
+            "Δεν είναι μακριά, περίπου 500 μέτρα."
+          ]
+        },
+        {
+          "text": "Μπορώ να πάρω και το λεωφορείο;"
+        },
+        {
+          "prompt": "Πες του ναι, το λεωφορείο 100 πηγαίνει κατευθείαν εκεί",
+          "options": [
+            "Ναι, η γραμμή λεωφορείου 100 πηγαίνει απευθείας εκεί.",
+            "Ναι, πάρτε το λεωφορείο 100."
+          ]
+        },
+        {
+          "text": "Μεγάλος! Σας ευχαριστώ πολύ για τη βοήθειά σας!"
+        },
+        {
+          "prompt": "Απαντήστε με «Καλώς ήρθατε» και ευχηθείτε του καλό ταξίδι",
+          "options": [
+            "Καλώς ήρθες! Καλό ταξίδι!",
+            "Καλώς ήρθες! Καλή σας μέρα!"
+          ]
+        }
+      ]
+    },
+    "10": {
+      "title": "Κάνοντας σχέδια ελεύθερου χρόνου",
+      "turns": [
+        {
+          "text": "Γειά σου! Τι σου αρέσει να κάνεις περισσότερο στον ελεύθερο χρόνο σου;"
+        },
+        {
+          "prompt": "Πες του ότι σου αρέσει να παίζεις ποδόσφαιρο και να ακούς μουσική",
+          "options": [
+            "Μου αρέσει πολύ να παίζω ποδόσφαιρο και να ακούω μουσική.",
+            "Στον ελεύθερο χρόνο μου παίζω ποδόσφαιρο ή διαβάζω ένα βιβλίο."
+          ]
+        },
+        {
+          "text": "Το ποδόσφαιρο είναι υπέροχο! Παίζουμε το Σάββατο. Θέλεις να έρθεις μαζί;"
+        },
+        {
+          "prompt": "Εκφράστε το ενδιαφέρον σας και ρωτήστε τι ώρα θα ξεκινήσετε να παίζετε",
+          "options": [
+            "Ναι, ευχαρίστως! Τι ώρα συναντιέστε;",
+            "Αυτό ακούγεται διασκεδαστικό! Πότε παίζεις το Σάββατο;"
+          ]
+        },
+        {
+          "text": "Παίζουμε το Σάββατο στις 3 το μεσημέρι στο πάρκο. Απλά φέρτε αθλητικά παπούτσια."
+        },
+        {
+          "prompt": "Επιβεβαιώστε την παρουσία σας την προγραμματισμένη ώρα και πείτε ότι θα έρθετε σίγουρα",
+          "options": [
+            "Καλώς! Θα έρθω το Σάββατο στις 15:00. Τα λέμε τότε!",
+            "Ωραία, θα είμαι εκεί το Σάββατο στις τρεις η ώρα."
+          ]
+        }
+      ]
+    },
+    "11": {
+      "title": "Μιλώντας για τις δουλειές",
+      "turns": [
+        {
+          "text": "Γειά σου! Ποιο είναι το επάγγελμά σας;"
+        },
+        {
+          "prompt": "Πείτε του το επάγγελμά σας (π.χ. μηχανικός υπολογιστών) και την εταιρεία στην οποία εργάζεστε",
+          "options": [
+            "Είμαι μηχανικός στο επάγγελμα και εργάζομαι σε εταιρεία υπολογιστών.",
+            "Εργάζομαι ως πωλητής σε σούπερ μάρκετ."
+          ]
+        },
+        {
+          "text": "Αυτό είναι ενδιαφέρον! Πόσες ώρες εργάζεστε την εβδομάδα;"
+        },
+        {
+          "prompt": "Ας πούμε ότι εργάζεστε 40 ώρες την εβδομάδα και η δουλειά σας είναι διασκεδαστική αλλά κουραστική",
+          "options": [
+            "Δουλεύω 40 ώρες την εβδομάδα. Η δουλειά είναι διασκεδαστική, αλλά είναι αγχωτική.",
+            "Δουλεύω σαράντα ώρες. Μου αρέσει πολύ η δουλειά μου."
+          ]
+        },
+        {
+          "text": "βλέπω. Και ποια είναι η δουλειά των ονείρων σου;"
+        },
+        {
+          "prompt": "Ας πούμε ότι η δουλειά των ονείρων σας είναι να εργαστείτε ως διευθυντής ή προγραμματιστής λογισμικού και να κερδίσετε πολλά χρήματα",
+          "options": [
+            "Η δουλειά των ονείρων μου είναι προγραμματιστής λογισμικού. Θα ήθελα να εργαστώ με ευελιξία.",
+            "Θα ήθελα να γίνω επιτυχημένος μάγειρας και να έχω το δικό μου εστιατόριο."
+          ]
+        }
+      ]
+    },
+    "12": {
+      "title": "Στο Εστιατόριο",
+      "turns": [
+        {
+          "text": "Καλησπέρα! Έχετε κλείσει τραπέζι;"
+        },
+        {
+          "prompt": "Απαντήστε ναι, έχετε κάνει κράτηση για ένα τραπέζι για δύο με το όνομα 'Ahmad'",
+          "options": [
+            "Καλησπέρα! Ναι, έχουμε κρατήσει ένα τραπέζι για δύο με το όνομα Ahmad.",
+            "Ναι, ένα τραπέζι για δύο. Το όνομα είναι Ahmad."
+          ]
+        },
+        {
+          "text": "Βεβαίως, κύριε Ahmad. Εδώ είναι το τραπέζι σας. Τι θα θέλατε να πιείτε;"
+        },
+        {
+          "prompt": "Παραγγείλετε ένα μπουκάλι μεταλλικό νερό και έναν χυμό μήλου",
+          "options": [
+            "Θα ήθελα ένα μπουκάλι μεταλλικό νερό και ένα χυμό μήλου, παρακαλώ.",
+            "Σε παρακαλώ, φέρε μου ένα νερό και ένα χυμό."
+          ]
+        },
+        {
+          "text": "Ευχαρίστως. Και τι θα θέλατε να φάτε;"
+        },
+        {
+          "prompt": "Παραγγείλετε ντοματόσουπα ως ορεκτικό και σνίτσελ ως κύριο πιάτο",
+          "options": [
+            "Ως ορεκτικό η ντοματόσουπα και ως κυρίως πιάτο το σνίτσελ.",
+            "Θα πάρω μια σούπα και ένα σνίτσελ, παρακαλώ."
+          ]
+        },
+        {
+          "text": "Έρχεται αμέσως επάνω. (Αργότερα...) Ήταν το φαγητό νόστιμο; Θα θέλατε να πληρώσετε;"
+        },
+        {
+          "prompt": "Επαινέστε το φαγητό και ζητήστε το λογαριασμό",
+          "options": [
+            "Ναι, το φαγητό ήταν φανταστικό! Ο λογαριασμός, παρακαλώ!",
+            "Ήταν πολύ νόστιμο. Ο λογαριασμός, παρακαλώ."
+          ]
+        },
+        {
+          "text": "Αυτό κάνει 27 Ευρώ 80 Σεντ συνολικά."
+        },
+        {
+          "prompt": "Δώσε του 30 ευρώ και πες του να κρατήσει τα ρέστα (φιλοδώρημα)",
+          "options": [
+            "Εδώ είναι 30 ευρώ. Κρατήστε τα ρέστα!",
+            "Κρατήστε τα ρέστα. Κάντε το 30 ευρώ."
+          ]
+        }
+      ]
+    }
   }
 };

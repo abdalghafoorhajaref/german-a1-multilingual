@@ -13,6 +13,9 @@ let quizState = {
 
 function getVocabTranslation(word) {
   if (currentLang === 'bs') return (word.bs && word.bs.trim() !== '') ? word.bs : ((word.en && word.en.trim() !== '') ? word.en : '');
+  if (currentLang === 'es') return (word.es && word.es.trim() !== '') ? word.es : ((word.en && word.en.trim() !== '') ? word.en : word.ar);
+  if (currentLang === 'bg') return (word.bg && word.bg.trim() !== '') ? word.bg : ((word.en && word.en.trim() !== '') ? word.en : word.ar);
+  if (currentLang === 'el') return (word.el && word.el.trim() !== '') ? word.el : ((word.en && word.en.trim() !== '') ? word.en : word.ar);
   if (currentLang === 'ro') return (word.ro && word.ro.trim() !== '') ? word.ro : ((word.en && word.en.trim() !== '') ? word.en : word.ar);
   if (currentLang === 'tr') return (word.tr && word.tr.trim() !== '') ? word.tr : ((word.en && word.en.trim() !== '') ? word.en : word.ar);
   if (currentLang === 'en') return (word.en && word.en.trim() !== '') ? word.en : word.ar;
@@ -92,7 +95,7 @@ function generateQuizQuestions(chapterId) {
 
   // Q6-Q7: Grammar MCQ from exercises
   ch.exercises.filter(e => e.type === 'mcq').slice(0, 2).forEach(ex => {
-    const localizedOptions = ex.options.map(opt => getExerciseOption(opt, ex));
+    const localizedOptions = ex.options.map((opt, oi) => getExerciseOption(opt, ex, oi));
     questions.push({
       type: 'mcq',
       skill: 'grammar',

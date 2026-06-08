@@ -99,6 +99,9 @@ function getChapterTitle(ch) {
   if (currentLang === 'tr') return ch.titleTr || ch.titleEn || ch.titleDe || ch.titleAr;
   if (currentLang === 'ro') return ch.titleRo || ch.titleEn || ch.titleDe || ch.titleAr;
   if (currentLang === 'bs') return ch.titleBs || ch.titleEn || ch.titleDe || '';
+  if (currentLang === 'es') return ch.titleEs || ch.titleEn || ch.titleDe || '';
+  if (currentLang === 'bg') return ch.titleBg || ch.titleEn || ch.titleDe || '';
+  if (currentLang === 'el') return ch.titleEl || ch.titleEn || ch.titleDe || '';
   return ch.titleEn || ch.titleDe || ch.titleAr;
 }
 
@@ -108,6 +111,9 @@ function getChapterTopics(ch) {
   if (currentLang === 'tr') return ch.topicsTr || ch.topicsEn || ch.topics || [];
   if (currentLang === 'ro') return ch.topicsRo || ch.topicsEn || ch.topics || [];
   if (currentLang === 'bs') return ch.topicsBs || ch.topicsEn || [];
+  if (currentLang === 'es') return ch.topicsEs || ch.topicsEn || [];
+  if (currentLang === 'bg') return ch.topicsBg || ch.topicsEn || [];
+  if (currentLang === 'el') return ch.topicsEl || ch.topicsEn || [];
   return ch.topicsEn || ch.topics || [];
 }
 
@@ -117,6 +123,9 @@ function getChapterCanDo(ch) {
   if (currentLang === 'tr') return ch.canDoTr || ch.canDoEn || ch.canDoDe || ch.canDo;
   if (currentLang === 'ro') return ch.canDoRo || ch.canDoEn || ch.canDoDe || ch.canDo;
   if (currentLang === 'bs') return ch.canDoBs || ch.canDoEn || ch.canDoDe || '';
+  if (currentLang === 'es') return ch.canDoEs || ch.canDoEn || ch.canDoDe || '';
+  if (currentLang === 'bg') return ch.canDoBg || ch.canDoEn || ch.canDoDe || '';
+  if (currentLang === 'el') return ch.canDoEl || ch.canDoEn || ch.canDoDe || '';
   return ch.canDoEn || ch.canDoDe || ch.canDo;
 }
 
@@ -126,6 +135,9 @@ function getDialogueTitle(d) {
   if (currentLang === 'tr') return d.titleTr || d.titleEn || d.title || d.titleAr;
   if (currentLang === 'ro') return d.titleRo || d.titleEn || d.title || d.titleAr;
   if (currentLang === 'bs') return d.titleBs || d.titleEn || d.title || '';
+  if (currentLang === 'es') return d.titleEs || d.titleEn || d.title || '';
+  if (currentLang === 'bg') return d.titleBg || d.titleEn || d.title || '';
+  if (currentLang === 'el') return d.titleEl || d.titleEn || d.title || '';
   return d.titleEn || d.title || d.titleAr;
 }
 
@@ -135,6 +147,9 @@ function getDialogueLineTrans(line) {
   if (currentLang === 'tr') return line.tr || line.en || line.ar;
   if (currentLang === 'ro') return line.ro || line.en || line.ar;
   if (currentLang === 'bs') return line.bs || line.en || line.de || '';
+  if (currentLang === 'es') return line.es || line.en || line.de || '';
+  if (currentLang === 'bg') return line.bg || line.en || line.de || '';
+  if (currentLang === 'el') return line.el || line.en || line.de || '';
   return line.en || line.ar;
 }
 
@@ -144,6 +159,9 @@ function getReadingTitle(rt) {
   if (currentLang === 'tr') return rt.titleTr || rt.titleEn || rt.title || rt.titleAr;
   if (currentLang === 'ro') return rt.titleRo || rt.titleEn || rt.title || rt.titleAr;
   if (currentLang === 'bs') return rt.titleBs || rt.titleEn || rt.title || '';
+  if (currentLang === 'es') return rt.titleEs || rt.titleEn || rt.title || '';
+  if (currentLang === 'bg') return rt.titleBg || rt.titleEn || rt.title || '';
+  if (currentLang === 'el') return rt.titleEl || rt.titleEn || rt.title || '';
   return rt.titleEn || rt.title || rt.titleAr;
 }
 
@@ -153,6 +171,9 @@ function getParagraphTrans(p) {
   if (currentLang === 'tr') return p.tr || p.en || p.ar;
   if (currentLang === 'ro') return p.ro || p.en || p.ar;
   if (currentLang === 'bs') return p.bs || p.en || p.de || '';
+  if (currentLang === 'es') return p.es || p.en || p.de || '';
+  if (currentLang === 'bg') return p.bg || p.en || p.de || '';
+  if (currentLang === 'el') return p.el || p.en || p.de || '';
   return p.en || p.ar;
 }
 
@@ -162,16 +183,19 @@ function getQuestionText(q) {
   if (currentLang === 'tr') return q.qTr || q.qEn || q.q;
   if (currentLang === 'ro') return q.qRo || q.qEn || q.q;
   if (currentLang === 'bs') return q.qBs || q.qEn || q.q || '';
+  if (currentLang === 'es') return q.qEs || q.qEn || q.q || '';
+  if (currentLang === 'bg') return q.qBg || q.qEn || q.q || '';
+  if (currentLang === 'el') return q.qEl || q.qEn || q.q || '';
   return q.qEn || q.q;
 }
 
 // Translate simple matching terms on LTR viewports
 function getMatchItemTrans(word) {
   const matches = {
-    "Guten Tag": { ar: "مرحباً/صباح الخير", en: "Good day / Hello", tr: "İyi günler / Merhaba", ro: "Bună ziua", bs: "Dobar dan" },
-    "Danke": { ar: "شكراً", en: "Thank you", tr: "Teşekkürler", ro: "Mulțumesc", bs: "Hvala" },
-    "Bitte": { ar: "من فضلك / عفواً", en: "Please / You're welcome", tr: "Lütfen / Rica ederim", ro: "Te rog / Cu plăcere", bs: "Molim" },
-    "Tschüss": { ar: "مع السلامة", en: "Goodbye", tr: "Hoşçakal / Görüşürüz", ro: "La revedere / Pa", bs: "Ćao / Zbogom" }
+    "Guten Tag": { ar: "مرحباً/صباح الخير", en: "Good day / Hello", tr: "İyi günler / Merhaba", ro: "Bună ziua", bs: "Dobar dan", es: "Buen día", bg: "Добър ден", el: "Καλημέρα" },
+    "Danke": { ar: "شكراً", en: "Thank you", tr: "Teşekkürler", ro: "Mulțumesc", bs: "Hvala", es: "Gracias", bg: "Благодаря", el: "Ευχαριστώ" },
+    "Bitte": { ar: "من فضلك / عفواً", en: "Please / You're welcome", tr: "Lütfen / Rica ederim", ro: "Te rog / Cu plăcere", bs: "Molim", es: "Por favor / De nada", bg: "Моля / Няма за какво", el: "Παρακαλώ / Παρακαλώ" },
+    "Tschüss": { ar: "مع السلامة", en: "Goodbye", tr: "Hoşçakal / Görüşürüz", ro: "La revedere / Pa", bs: "Ćao / Zbogom", es: "Adiós", bg: "Довиждане", el: "Αντίο" }
   };
   if (matches[word]) {
     return matches[word][currentLang] || matches[word].en || word;
@@ -185,6 +209,9 @@ function getPairTranslation(pair) {
   if (currentLang === 'tr') return pair.tr || pair.en || pair.ar;
   if (currentLang === 'ro') return pair.ro || pair.en || pair.ar;
   if (currentLang === 'bs') return pair.bs || pair.en || pair.de || '';
+  if (currentLang === 'es') return pair.es || pair.en || pair.de || '';
+  if (currentLang === 'bg') return pair.bg || pair.en || pair.de || '';
+  if (currentLang === 'el') return pair.el || pair.en || pair.de || '';
   return pair.en || pair.ar;
 }
 
@@ -194,6 +221,9 @@ function getQuestionAnswerTrans(q) {
   if (currentLang === 'tr') return q.answerTr || q.answerEn || q.answer;
   if (currentLang === 'ro') return q.answerRo || q.answerEn || q.answer;
   if (currentLang === 'bs') return q.answerBs || q.answerEn || q.answer || '';
+  if (currentLang === 'es') return q.answerEs || q.answerEn || q.answer || '';
+  if (currentLang === 'bg') return q.answerBg || q.answerEn || q.answer || '';
+  if (currentLang === 'el') return q.answerEl || q.answerEn || q.answer || '';
   return q.answerEn || q.answer;
 }
 
@@ -203,6 +233,9 @@ function getAudioLabelTrans(af) {
   if (currentLang === 'tr') return af.labelTr || af.labelEn || af.label;
   if (currentLang === 'ro') return af.labelRo || af.labelEn || af.label;
   if (currentLang === 'bs') return af.labelBs || af.labelEn || af.label || '';
+  if (currentLang === 'es') return af.labelEs || af.labelEn || af.label || '';
+  if (currentLang === 'bg') return af.labelBg || af.labelEn || af.label || '';
+  if (currentLang === 'el') return af.labelEl || af.labelEn || af.label || '';
   return af.labelEn || af.label;
 }
 
@@ -212,6 +245,9 @@ function getGrammarTitle(g) {
   if (currentLang === 'tr') return g.titleTr || g.titleEn || g.titleDe || g.title;
   if (currentLang === 'ro') return g.titleRo || g.titleEn || g.titleDe || g.title;
   if (currentLang === 'bs') return g.titleBs || g.titleEn || g.titleDe || g.title || '';
+  if (currentLang === 'es') return g.titleEs || g.titleEn || g.titleDe || g.title || '';
+  if (currentLang === 'bg') return g.titleBg || g.titleEn || g.titleDe || g.title || '';
+  if (currentLang === 'el') return g.titleEl || g.titleEn || g.titleDe || g.title || '';
   return g.titleEn || g.titleDe || g.title;
 }
 
@@ -221,6 +257,9 @@ function getGrammarExplanation(g) {
   if (currentLang === 'tr') return g.explanationTr || g.explanationEn || g.explanation;
   if (currentLang === 'ro') return g.explanationRo || g.explanationEn || g.explanation;
   if (currentLang === 'bs') return g.explanationBs || g.explanationEn || g.explanation || '';
+  if (currentLang === 'es') return g.explanationEs || g.explanationEn || g.explanation || '';
+  if (currentLang === 'bg') return g.explanationBg || g.explanationEn || g.explanation || '';
+  if (currentLang === 'el') return g.explanationEl || g.explanationEn || g.explanation || '';
   return g.explanationEn || g.explanation;
 }
 
@@ -230,6 +269,9 @@ function getRuleTranslation(r) {
   if (currentLang === 'tr') return r.translationTr || r.translationEn || r.translation;
   if (currentLang === 'ro') return r.translationRo || r.translationEn || r.translation;
   if (currentLang === 'bs') return r.translationBs || r.translationEn || '';
+  if (currentLang === 'es') return r.translationEs || r.translationEn || '';
+  if (currentLang === 'bg') return r.translationBg || r.translationEn || '';
+  if (currentLang === 'el') return r.translationEl || r.translationEn || '';
   return r.translationEn || r.translation;
 }
 
@@ -239,6 +281,9 @@ function getRuleNote(r) {
   if (currentLang === 'tr') return r.noteTr || r.noteEn || r.note || '';
   if (currentLang === 'ro') return r.noteRo || r.noteEn || r.note || '';
   if (currentLang === 'bs') return r.noteBs || r.noteEn || '';
+  if (currentLang === 'es') return r.noteEs || r.noteEn || '';
+  if (currentLang === 'bg') return r.noteBg || r.noteEn || '';
+  if (currentLang === 'el') return r.noteEl || r.noteEn || '';
   return r.noteEn || r.note || '';
 }
 
@@ -247,6 +292,9 @@ function getTableHeader(idx, table) {
   if (currentLang === 'tr') return (table.headersTr && table.headersTr[idx]) || (table.headersEn && table.headersEn[idx]) || table.headers[idx];
   if (currentLang === 'ro') return (table.headersRo && table.headersRo[idx]) || (table.headersEn && table.headersEn[idx]) || table.headers[idx];
   if (currentLang === 'bs') return (table.headersBs && table.headersBs[idx]) || (table.headersEn && table.headersEn[idx]) || '';
+  if (currentLang === 'es') return (table.headersEs && table.headersEs[idx]) || (table.headersEn && table.headersEn[idx]) || '';
+  if (currentLang === 'bg') return (table.headersBg && table.headersBg[idx]) || (table.headersEn && table.headersEn[idx]) || '';
+  if (currentLang === 'el') return (table.headersEl && table.headersEl[idx]) || (table.headersEn && table.headersEn[idx]) || '';
   return (table.headersEn && table.headersEn[idx]) || table.headers[idx];
 }
 
@@ -259,6 +307,9 @@ function getTableCellTranslation(cell) {
     if (currentLang === 'tr') return parts[2] || parts[1] || parts[0];
     if (currentLang === 'ro') return parts[3] || parts[1] || parts[0];
     if (currentLang === 'bs') return parts[4] || parts[1] || '';
+    if (currentLang === 'es') return parts[5] || parts[1] || '';
+    if (currentLang === 'bg') return parts[6] || parts[1] || '';
+    if (currentLang === 'el') return parts[7] || parts[1] || '';
   }
   return cell;
 }
@@ -268,6 +319,9 @@ function getExerciseQuestionText(ex) {
   if (currentLang === 'tr') return ex.questionTr || ex.questionEn || ex.question;
   if (currentLang === 'ro') return ex.questionRo || ex.questionEn || ex.question;
   if (currentLang === 'bs') return ex.questionBs || ex.questionEn || ex.question || '';
+  if (currentLang === 'es') return ex.questionEs || ex.questionEn || ex.question || '';
+  if (currentLang === 'bg') return ex.questionBg || ex.questionEn || ex.question || '';
+  if (currentLang === 'el') return ex.questionEl || ex.questionEn || ex.question || '';
   return ex.questionEn || ex.question;
 }
 
@@ -276,6 +330,9 @@ function getExerciseQuestionTranslation(ex) {
   if (currentLang === 'tr') return ex.questionTr || ex.questionEn || '';
   if (currentLang === 'ro') return ex.questionRo || ex.questionEn || '';
   if (currentLang === 'bs') return ex.questionBs || ex.questionEn || '';
+  if (currentLang === 'es') return ex.questionEs || ex.questionEn || '';
+  if (currentLang === 'bg') return ex.questionBg || ex.questionEn || '';
+  if (currentLang === 'el') return ex.questionEl || ex.questionEn || '';
   return ex.questionEn || '';
 }
 
@@ -284,17 +341,32 @@ function getExerciseHintText(ex) {
   if (currentLang === 'tr') return ex.hintTr || ex.hintEn || ex.hint || '';
   if (currentLang === 'ro') return ex.hintRo || ex.hintEn || ex.hint || '';
   if (currentLang === 'bs') return ex.hintBs || ex.hintEn || '';
+  if (currentLang === 'es') return ex.hintEs || ex.hintEn || '';
+  if (currentLang === 'bg') return ex.hintBg || ex.hintEn || '';
+  if (currentLang === 'el') return ex.hintEl || ex.hintEn || '';
   return ex.hintEn || ex.hint || '';
 }
 
-function getExerciseOption(opt, ex) {
-  if (opt.includes(' / ')) {
+function getExerciseOption(opt, ex, index) {
+  if (ex && typeof index === 'number') {
+    if (currentLang === 'bs' && ex.optionsBs && ex.optionsBs[index]) return ex.optionsBs[index];
+    if (currentLang === 'es' && ex.optionsEs && ex.optionsEs[index]) return ex.optionsEs[index];
+    if (currentLang === 'bg' && ex.optionsBg && ex.optionsBg[index]) return ex.optionsBg[index];
+    if (currentLang === 'el' && ex.optionsEl && ex.optionsEl[index]) return ex.optionsEl[index];
+    if (currentLang === 'tr' && ex.optionsTr && ex.optionsTr[index]) return ex.optionsTr[index];
+    if (currentLang === 'en' && ex.optionsEn && ex.optionsEn[index]) return ex.optionsEn[index];
+    if (currentLang === 'ro' && ex.optionsRo && ex.optionsRo[index]) return ex.optionsRo[index];
+  }
+  if (opt && opt.includes(' / ')) {
     const parts = opt.split(' / ');
     if (currentLang === 'ar') return parts[0];
     if (currentLang === 'en') return parts[1] || parts[0];
     if (currentLang === 'tr') return parts[2] || parts[1] || parts[0];
     if (currentLang === 'ro') return parts[3] || parts[1] || parts[0];
     if (currentLang === 'bs') return parts[4] || parts[1] || '';
+    if (currentLang === 'es') return parts[5] || parts[1] || '';
+    if (currentLang === 'bg') return parts[6] || parts[1] || '';
+    if (currentLang === 'el') return parts[7] || parts[1] || '';
   }
   return opt;
 }
@@ -304,6 +376,9 @@ function getWritingPromptText(wp) {
   if (currentLang === 'tr') return wp.promptTr || wp.promptEn || wp.prompt;
   if (currentLang === 'ro') return wp.promptRo || wp.promptEn || wp.prompt;
   if (currentLang === 'bs') return wp.promptBs || wp.promptEn || '';
+  if (currentLang === 'es') return wp.promptEs || wp.promptEn || '';
+  if (currentLang === 'bg') return wp.promptBg || wp.promptEn || '';
+  if (currentLang === 'el') return wp.promptEl || wp.promptEn || '';
   return wp.promptEn || wp.prompt;
 }
 
@@ -312,6 +387,9 @@ function getWritingHelpers(wp) {
   if (currentLang === 'tr') return wp.helpersTr || wp.helpersEn || wp.helpers;
   if (currentLang === 'ro') return wp.helpersRo || wp.helpersEn || wp.helpers;
   if (currentLang === 'bs') return wp.helpersBs || wp.helpersEn || [];
+  if (currentLang === 'es') return wp.helpersEs || wp.helpersEn || [];
+  if (currentLang === 'bg') return wp.helpersBg || wp.helpersEn || [];
+  if (currentLang === 'el') return wp.helpersEl || wp.helpersEn || [];
   return wp.helpersEn || wp.helpers;
 }
 
@@ -574,7 +652,7 @@ function renderVocabTab(ch, container) {
   container.innerHTML = `
     <div class="vocab-cards-grid" style="grid-template-columns:repeat(auto-fill,minmax(200px,1fr))">
       ${vocab.map(word => {
-        const trans = currentLang === 'bs' ? (word.bs || word.en || '') : currentLang === 'ro' ? (word.ro || word.en) : currentLang === 'tr' ? (word.tr || word.en) : currentLang === 'en' ? word.en : word.ar;
+        const trans = currentLang === 'bs' ? (word.bs || word.en || '') : currentLang === 'es' ? (word.es || word.en || '') : currentLang === 'bg' ? (word.bg || word.en || '') : currentLang === 'el' ? (word.el || word.en || '') : currentLang === 'ro' ? (word.ro || word.en) : currentLang === 'tr' ? (word.tr || word.en) : currentLang === 'en' ? word.en : word.ar;
         const typeInfo = TYPE_LABELS[word.type] || { ar: word.type, en: word.type, tr: word.type, ro: word.type, color: '#888' };
         const typeLabel = typeInfo[currentLang] || typeInfo.en || word.type;
         return `
@@ -650,8 +728,8 @@ function renderExercise(ex, idx, chId) {
         <div class="exercise-question">${idx+1}. ${ex.question}${qTransHtml}</div>
         <div class="options-grid" style="grid-template-columns:1fr 1fr">
           ${ex.options.map((opt, oi) => {
-            const transOpt = getExerciseOption(opt);
-            const escapedCorrect = getExerciseOption(ex.options[ex.answer]).replace(/'/g, "\\'");
+            const transOpt = getExerciseOption(opt, ex, oi);
+            const escapedCorrect = getExerciseOption(ex.options[ex.answer], ex, ex.answer).replace(/'/g, "\\'");
             return `
             <button class="option-btn" onclick="checkExercise(this, ${oi}, ${ex.answer}, 'exFb_${chId}_${idx}', '${escapedCorrect}')">
               ${transOpt}
@@ -878,7 +956,7 @@ function renderVocabGrid(filter = null) {
     const mastered = saved.masteredWords?.includes(word.id);
     const typeInfo = TYPE_LABELS[word.type] || { ar: word.type, en: word.type, tr: word.type, ro: word.type, color: '#888' };
     const typeLabel = typeInfo[currentLang] || typeInfo.en || word.type;
-    const trans = currentLang === 'bs' ? (word.bs || word.en || '') : currentLang === 'ro' ? (word.ro || word.en) : currentLang === 'tr' ? (word.tr || word.en) : currentLang === 'en' ? word.en : word.ar;
+    const trans = currentLang === 'bs' ? (word.bs || word.en || '') : currentLang === 'es' ? (word.es || word.en || '') : currentLang === 'bg' ? (word.bg || word.en || '') : currentLang === 'el' ? (word.el || word.en || '') : currentLang === 'ro' ? (word.ro || word.en) : currentLang === 'tr' ? (word.tr || word.en) : currentLang === 'en' ? word.en : word.ar;
     const chLabel = `${getTranslation('chapter_label', 'الوحدة')} ${word.ch}`;
     const btnText = mastered 
       ? getTranslation('vocab_btn_saved', '✓ محفوظة') 
@@ -1010,9 +1088,9 @@ function renderFlashcard() {
 
   const typeInfo = TYPE_LABELS[word.type] || { ar: word.type, en: word.type, tr: word.type, ro: word.type };
   const typeLabel = typeInfo[currentLang] || typeInfo.en || word.type;
-  const trans = currentLang === 'bs' ? (word.bs || word.en || '') : currentLang === 'ro' ? (word.ro || word.en) : currentLang === 'tr' ? (word.tr || word.en) : currentLang === 'en' ? word.en : word.ar;
-  const hintText = currentLang === 'bs' ? 'Kliknite za okretanje' : currentLang === 'ro' ? 'Atingeți pentru a întoarce' : currentLang === 'tr' ? 'Çevirmek için tıklayın' : currentLang === 'en' ? 'Click card to flip' : 'انقر للقلب';
-  const listenText = currentLang === 'bs' ? 'Slušaj' : currentLang === 'ro' ? 'Ascultă' : currentLang === 'tr' ? 'Dinle' : currentLang === 'en' ? 'Listen' : 'استمع';
+  const trans = currentLang === 'bs' ? (word.bs || word.en || '') : currentLang === 'es' ? (word.es || word.en || '') : currentLang === 'bg' ? (word.bg || word.en || '') : currentLang === 'el' ? (word.el || word.en || '') : currentLang === 'ro' ? (word.ro || word.en) : currentLang === 'tr' ? (word.tr || word.en) : currentLang === 'en' ? word.en : word.ar;
+  const hintText = currentLang === 'bs' ? 'Kliknite za okretanje' : currentLang === 'es' ? 'Haga clic para voltear' : currentLang === 'bg' ? 'Кликнете за обръщане' : currentLang === 'el' ? 'Κλικ για αναστροφή' : currentLang === 'ro' ? 'Atingeți pentru a întoarce' : currentLang === 'tr' ? 'Çevirmek için tıklayın' : currentLang === 'en' ? 'Click card to flip' : 'انقر للقلب';
+  const listenText = currentLang === 'bs' ? 'Slušaj' : currentLang === 'es' ? 'Escuchar' : currentLang === 'bg' ? 'Слушайте' : currentLang === 'el' ? 'Ακρόαση' : currentLang === 'ro' ? 'Ascultă' : currentLang === 'tr' ? 'Dinle' : currentLang === 'en' ? 'Listen' : 'استمع';
 
   if (front) front.innerHTML = `
     <div class="fc-word">${word.de}</div>
@@ -1026,8 +1104,8 @@ function renderFlashcard() {
     <button class="tts-btn" onclick="event.stopPropagation();speakGerman('${word.de.replace(/'/g,"\\'")}')">🔊</button>`;
 
   if (counter) {
-    const cardText = currentLang === 'bs' ? 'Kartica' : currentLang === 'ro' ? 'Card' : currentLang === 'tr' ? 'Kart' : currentLang === 'en' ? 'Card' : 'بطاقة';
-    const ofText = currentLang === 'bs' ? 'od' : currentLang === 'ro' ? 'din' : currentLang === 'tr' ? '/' : currentLang === 'en' ? 'of' : 'من';
+    const cardText = currentLang === 'bs' ? 'Kartica' : currentLang === 'es' ? 'Tarjeta' : currentLang === 'bg' ? 'Карта' : currentLang === 'el' ? 'Κάρτα' : currentLang === 'ro' ? 'Card' : currentLang === 'tr' ? 'Kart' : currentLang === 'en' ? 'Card' : 'بطاقة';
+    const ofText = currentLang === 'bs' ? 'od' : currentLang === 'es' ? 'de' : currentLang === 'bg' ? 'от' : currentLang === 'el' ? 'από' : currentLang === 'ro' ? 'din' : currentLang === 'tr' ? '/' : currentLang === 'en' ? 'of' : 'من';
     counter.textContent = `${cardText} ${fcIndex + 1} ${ofText} ${fcDeck.length}`;
   }
   if (actions) actions.style.display = 'none';
@@ -1084,7 +1162,7 @@ function setDailyContent() {
   const dailyWord = VOCABULARY[wordIdx];
   const dwEl = document.getElementById('dailyWord');
   if (dwEl && dailyWord) {
-    const trans = currentLang === 'bs' ? (dailyWord.bs || dailyWord.en || '') : currentLang === 'ro' ? (dailyWord.ro || dailyWord.en) : currentLang === 'tr' ? (dailyWord.tr || dailyWord.en) : currentLang === 'en' ? dailyWord.en : dailyWord.ar;
+    const trans = currentLang === 'bs' ? (dailyWord.bs || dailyWord.en || '') : currentLang === 'es' ? (dailyWord.es || dailyWord.en || '') : currentLang === 'bg' ? (dailyWord.bg || dailyWord.en || '') : currentLang === 'el' ? (dailyWord.el || dailyWord.en || '') : currentLang === 'ro' ? (dailyWord.ro || dailyWord.en) : currentLang === 'tr' ? (dailyWord.tr || dailyWord.en) : currentLang === 'en' ? dailyWord.en : dailyWord.ar;
     const typeInfo = TYPE_LABELS[dailyWord.type] || { ar: dailyWord.type, en: dailyWord.type, tr: dailyWord.type, ro: dailyWord.type };
     const typeLabel = typeInfo[currentLang] || typeInfo.en || dailyWord.type;
     const chLabel = `${getTranslation('chapter_label', 'الوحدة')} ${dailyWord.ch}`;
@@ -1103,7 +1181,7 @@ function setDailyContent() {
   const phrase = allPhrases[phraseIdx];
   const dsEl = document.getElementById('dailySentence');
   if (dsEl && phrase) {
-    const trans = currentLang === 'bs' ? (phrase.bs || phrase.en || '') : currentLang === 'ro' ? (phrase.ro || phrase.en || phrase.ar) : currentLang === 'tr' ? (phrase.tr || phrase.en || phrase.ar) : currentLang === 'en' ? (phrase.en || phrase.ar) : phrase.ar;
+    const trans = currentLang === 'bs' ? (phrase.bs || phrase.en || '') : currentLang === 'es' ? (phrase.es || phrase.en || '') : currentLang === 'bg' ? (phrase.bg || phrase.en || '') : currentLang === 'el' ? (phrase.el || phrase.en || '') : currentLang === 'ro' ? (phrase.ro || phrase.en || phrase.ar) : currentLang === 'tr' ? (phrase.tr || phrase.en || phrase.ar) : currentLang === 'en' ? (phrase.en || phrase.ar) : phrase.ar;
     dsEl.innerHTML = `
       <div class="sentence-de">${phrase.de}
         <button class="tts-btn" onclick="speakGerman('${phrase.de.replace(/'/g,"\\'")}')">🔊</button>

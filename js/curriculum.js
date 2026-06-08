@@ -38,7 +38,10 @@ const CURRICULUM = [
         "labelEn": "1.1b - The Course List",
         "labelTr": "1.1b - Sınıf Listesi",
         "labelRo": "1.1b - Lista de cursuri",
-        "labelBs": "1.1b - Lista kurseva"
+        "labelBs": "1.1b - Lista kurseva",
+        "labelEs": "1.1b - La lista de cursos",
+        "labelBg": "1.1b - Списъкът на курсовете",
+        "labelEl": "1.1β - Η λίστα μαθημάτων"
       },
       {
         "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD1/03_langenschidt_-_1.2a_-_sie_und_du.mp3",
@@ -47,7 +50,10 @@ const CURRICULUM = [
         "labelEn": "1.2a - Sie and du (Formal/Informal)",
         "labelTr": "1.2a - Sie ve du (Resmi/Samimi)",
         "labelRo": "1.2a - Sie and du (Formal/Informal)",
-        "labelBs": "1.2a - Sie and du (formalno/neformalno)"
+        "labelBs": "1.2a - Sie and du (formalno/neformalno)",
+        "labelEs": "1.2a - Sie y du (formal/informal)",
+        "labelBg": "1.2a - Sie и du (официално/неофициално)",
+        "labelEl": "1.2a - Sie and du (Επίσημο/Άτυπο)"
       },
       {
         "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD1/04_langenschidt_-_1.3a_-_melodie_und_akzent.mp3",
@@ -56,7 +62,10 @@ const CURRICULUM = [
         "labelEn": "1.3a - Melody and Accent",
         "labelTr": "1.3a - Melodi ve Vurgu",
         "labelRo": "1.3a - Melodie și accent",
-        "labelBs": "1.3a - Melodija i akcenat"
+        "labelBs": "1.3a - Melodija i akcenat",
+        "labelEs": "1.3a - Melodía y acento",
+        "labelBg": "1.3a - Мелодия и акцент",
+        "labelEl": "1.3a - Μελωδία και προφορά"
       },
       {
         "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD1/06_langenschidt_-_1.4a_-_sich_vorstellen.mp3",
@@ -65,7 +74,10 @@ const CURRICULUM = [
         "labelEn": "1.4a - Introducing oneself",
         "labelTr": "1.4a - Kendini Tanıtma",
         "labelRo": "1.4a - Prezentarea pe sine",
-        "labelBs": "1.4a - Predstavljanje"
+        "labelBs": "1.4a - Predstavljanje",
+        "labelEs": "1.4a - Presentarse",
+        "labelBg": "1.4a – Представяне",
+        "labelEl": "1.4α - Παρουσίαση του εαυτού"
       },
       {
         "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD1/09_langenschidt_-_1.6b_-_steckbriefe.mp3",
@@ -74,7 +86,10 @@ const CURRICULUM = [
         "labelEn": "1.6b - Profiles",
         "labelTr": "1.6b - Kimlik Bilgileri",
         "labelRo": "1.6b - Profile",
-        "labelBs": "1.6b - Profili"
+        "labelBs": "1.6b - Profili",
+        "labelEs": "1.6b - Perfiles",
+        "labelBg": "1.6b - Профили",
+        "labelEl": "1.6β - Προφίλ"
       },
       {
         "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD1/11_langenschidt_-_1.9a_-_buchstabieren.mp3",
@@ -83,7 +98,10 @@ const CURRICULUM = [
         "labelEn": "1.9a - Spelling",
         "labelTr": "1.9a - Heceleme",
         "labelRo": "1.9a - Ortografie",
-        "labelBs": "1.9a - Pravopis"
+        "labelBs": "1.9a - Pravopis",
+        "labelEs": "1.9a - Ortografía",
+        "labelBg": "1.9а – Правопис",
+        "labelEl": "1,9α - Ορθογραφία"
       },
       {
         "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD1/12_langenschidt_-_1.9b_-_alphabet_und_rhythmus_lernen.mp3",
@@ -92,7 +110,10 @@ const CURRICULUM = [
         "labelEn": "1.9b - Learning the Alphabet",
         "labelTr": "1.9b - Alfabeyi Öğrenmek",
         "labelRo": "1.9b - Învățarea alfabetului",
-        "labelBs": "1.9b - Učenje abecede"
+        "labelBs": "1.9b - Učenje abecede",
+        "labelEs": "1.9b - Aprender el alfabeto",
+        "labelBg": "1.9b - Изучаване на азбуката",
+        "labelEl": "1.9β - Εκμάθηση της Αλφαβήτου"
       }
     ],
     "dialogs": [
@@ -109,7 +130,10 @@ const CURRICULUM = [
             "en": "Good day! My name is Anna Müller.",
             "tr": "İyi günler! Benim adım Anna Müller.",
             "ro": "Bună ziua! Numele meu este Anna Müller.",
-            "bs": "Dobar dan! Moje ime je Anna Müller."
+            "bs": "Dobar dan! Moje ime je Anna Müller.",
+            "es": "¡Buen día! Mi nombre es Anna Müller.",
+            "bg": "Добър ден! Казвам се Анна Мюлер.",
+            "el": "Καλημέρα! Το όνομά μου είναι Anna Müller."
           },
           {
             "speaker": "Carlos",
@@ -118,7 +142,10 @@ const CURRICULUM = [
             "en": "Good day! I am Carlos Vera. And you?",
             "tr": "İyi günler! Ben Carlos Vera. Ya siz?",
             "ro": "Bună ziua! Eu sunt Carlos Vera. Și tu?",
-            "bs": "Dobar dan! Ja sam Carlos Vera. A ti?"
+            "bs": "Dobar dan! Ja sam Carlos Vera. A ti?",
+            "es": "¡Buen día! Soy Carlos Vera. ¿Y tú?",
+            "bg": "Добър ден! Аз съм Карлос Вера. а ти",
+            "el": "Καλημέρα! Είμαι ο Carlos Vera. Και εσύ;"
           },
           {
             "speaker": "Anna",
@@ -127,7 +154,10 @@ const CURRICULUM = [
             "en": "My name is Anna Müller. Where do you come from?",
             "tr": "Benim adım Anna Müller. Nereden geliyorsunuz?",
             "ro": "Numele meu este Anna Müller. De unde eşti?",
-            "bs": "Moje ime je Anna Müller. odakle dolaziš?"
+            "bs": "Moje ime je Anna Müller. odakle dolaziš?",
+            "es": "Mi nombre es Anna Müller. ¿De dónde es?",
+            "bg": "Казвам се Анна Мюлер. от къде идваш",
+            "el": "Το όνομά μου είναι Anna Müller. Από πού κατάγεσαι;"
           },
           {
             "speaker": "Carlos",
@@ -136,7 +166,10 @@ const CURRICULUM = [
             "en": "I come from Spain. And you?",
             "tr": "İspanya'dan geliyorum. Ya siz?",
             "ro": "Vin din Spania. Și tu?",
-            "bs": "Dolazim iz Španjolska. A ti?"
+            "bs": "Dolazim iz Španjolska. A ti?",
+            "es": "Yo vengo de España. ¿Y tú?",
+            "bg": "Идвам от Испания. а ти",
+            "el": "Κατάγομαι από την Ισπανία. Και εσύ;"
           },
           {
             "speaker": "Anna",
@@ -145,11 +178,17 @@ const CURRICULUM = [
             "en": "I come from Germany.",
             "tr": "Almanya'dan geliyorum.",
             "ro": "Vin din Germania.",
-            "bs": "Dolazim iz Njemačka."
+            "bs": "Dolazim iz Njemačka.",
+            "es": "Vengo de Alemania.",
+            "bg": "Идвам от Германия.",
+            "el": "Κατάγομαι από τη Γερμανία."
           }
         ],
         "titleRo": "Bună ziua! Prezentându-se",
-        "titleBs": "Dobar dan! Predstavljajući se"
+        "titleBs": "Dobar dan! Predstavljajući se",
+        "titleEs": "¡Buen día! Presentarse",
+        "titleBg": "Добър ден! Представяне на себе си",
+        "titleEl": "Καλημέρα! Παρουσίαση του εαυτού του"
       },
       {
         "title": "Wie schreibt man das?",
@@ -164,7 +203,10 @@ const CURRICULUM = [
             "en": "Please spell your name.",
             "tr": "Lütfen adınızı heceleyin.",
             "ro": "Vă rog să vă scrieți numele.",
-            "bs": "Molimo napišite svoje ime."
+            "bs": "Molimo napišite svoje ime.",
+            "es": "Por favor deletrea tu nombre.",
+            "bg": "Моля, напишете името си.",
+            "el": "Παρακαλώ γράψτε το όνομά σας."
           },
           {
             "speaker": "Student",
@@ -173,7 +215,10 @@ const CURRICULUM = [
             "en": "M-A-R-I-A.",
             "tr": "M-A-R-I-A.",
             "ro": "M-A-R-I-A.",
-            "bs": "M-A-R-I-A."
+            "bs": "M-A-R-I-A.",
+            "es": "M-A-R-I-A.",
+            "bg": "М-А-Р-И-А.",
+            "el": "Μ-Α-Ρ-Ι-Α."
           },
           {
             "speaker": "Lehrerin",
@@ -182,7 +227,10 @@ const CURRICULUM = [
             "en": "Thank you. What is your telephone number?",
             "tr": "Teşekkürler. Telefon numaranız nedir?",
             "ro": "Multumesc. Care este numărul tău de telefon?",
-            "bs": "Hvala. Koji je tvoj broj telefona?"
+            "bs": "Hvala. Koji je tvoj broj telefona?",
+            "es": "Gracias. ¿Cuál es tu número de teléfono?",
+            "bg": "благодаря Какъв е вашият телефонен номер?",
+            "el": "Σας ευχαριστώ. Ποιος είναι ο αριθμός τηλεφώνου σας;"
           },
           {
             "speaker": "Student",
@@ -191,11 +239,17 @@ const CURRICULUM = [
             "en": "0171 - 23 45 67.",
             "tr": "0171 - 23 45 67.",
             "ro": "0171 - 23 45 67.",
-            "bs": "0171 - 23 45 67."
+            "bs": "0171 - 23 45 67.",
+            "es": "0171 - 23 45 67.",
+            "bg": "0171 - 23 45 67.",
+            "el": "0171 - 23 45 67."
           }
         ],
         "titleRo": "Cum scrii asta?",
-        "titleBs": "Kako to pišete?"
+        "titleBs": "Kako to pišete?",
+        "titleEs": "¿Cómo se escribe eso?",
+        "titleBg": "Как се пише това?",
+        "titleEl": "Πώς το γράφεις αυτό;"
       }
     ],
     "readingTexts": [
@@ -211,7 +265,10 @@ const CURRICULUM = [
             "en": "This is the German course.",
             "tr": "Bu Almanca kursudur.",
             "ro": "Acesta este cursul de germană.",
-            "bs": "Ovo je kurs nemačkog."
+            "bs": "Ovo je kurs nemačkog.",
+            "es": "Este es el curso de alemán.",
+            "bg": "Това е курсът по немски.",
+            "el": "Αυτό είναι το γερμανικό μάθημα."
           },
           {
             "de": "Die Kursleiterin heißt Frau Kohl.",
@@ -219,7 +276,10 @@ const CURRICULUM = [
             "en": "The instructor's name is Mrs. Kohl.",
             "tr": "Kurs öğretmeninin adı Bayan Kohl.",
             "ro": "Numele instructorului este doamna Kohl.",
-            "bs": "Instruktor se zove gđa Kohl."
+            "bs": "Instruktor se zove gđa Kohl.",
+            "es": "El nombre de la instructora es Sra. Kohl.",
+            "bg": "Името на инструктора е г-жа Кол.",
+            "el": "Το όνομα της καθηγήτριας είναι κυρία Kohl."
           },
           {
             "de": "Im Kurs sind 15 Personen.",
@@ -227,7 +287,10 @@ const CURRICULUM = [
             "en": "There are 15 people in the course.",
             "tr": "Kursta 15 kişi var.",
             "ro": "Sunt 15 persoane la curs.",
-            "bs": "Na kursu je 15 ljudi."
+            "bs": "Na kursu je 15 ljudi.",
+            "es": "Hay 15 personas en el curso.",
+            "bg": "В курса има 15 човека.",
+            "el": "Στο μάθημα συμμετέχουν 15 άτομα."
           },
           {
             "de": "Sie kommen aus vielen Ländern.",
@@ -235,7 +298,10 @@ const CURRICULUM = [
             "en": "They come from many countries.",
             "tr": "Birçok ülkeden geliyorlar.",
             "ro": "Ei vin din multe țări.",
-            "bs": "Dolaze iz mnogih zemalja."
+            "bs": "Dolaze iz mnogih zemalja.",
+            "es": "Vienen de muchos países.",
+            "bg": "Те идват от много страни.",
+            "el": "Προέρχονται από πολλές χώρες."
           },
           {
             "de": "Carlos kommt aus Spanien. Maria kommt aus Brasilien.",
@@ -243,7 +309,10 @@ const CURRICULUM = [
             "en": "Carlos comes from Spain. Maria comes from Brazil.",
             "tr": "Carlos İspanya'dan geliyor. Maria Brezilya'dan geliyor.",
             "ro": "Carlos vine din Spania. Maria vine din Brazilia.",
-            "bs": "Carlos dolazi iz Španije. Maria dolazi iz Brazila."
+            "bs": "Carlos dolazi iz Španije. Maria dolazi iz Brazila.",
+            "es": "Carlos viene de España. María viene de Brasil.",
+            "bg": "Карлос идва от Испания. Мария идва от Бразилия.",
+            "el": "Ο Κάρλος κατάγεται από την Ισπανία. Η Μαρία κατάγεται από τη Βραζιλία."
           }
         ],
         "questions": [
@@ -259,7 +328,13 @@ const CURRICULUM = [
             "qRo": "Care este numele instructorului?",
             "answerRo": "doamna Kohl",
             "qBs": "Kako se zove instruktor?",
-            "answerBs": "Gospođo Kohl"
+            "answerBs": "Gospođo Kohl",
+            "qEs": "¿Cómo se llama el instructor?",
+            "answerEs": "Sra. Kohl",
+            "qBg": "Как се казва инструкторът?",
+            "answerBg": "г-жа Кол",
+            "qEl": "Ποιο είναι το όνομα του εκπαιδευτή;",
+            "answerEl": "Η κυρία Κολ"
           },
           {
             "q": "Wie viele Personen sind im Kurs?",
@@ -273,11 +348,20 @@ const CURRICULUM = [
             "qRo": "Câte persoane sunt la curs?",
             "answerRo": "15 persoane",
             "qBs": "Koliko je ljudi na kursu?",
-            "answerBs": "15 ljudi"
+            "answerBs": "15 ljudi",
+            "qEs": "¿Cuántas personas hay en el curso?",
+            "answerEs": "15 personas",
+            "qBg": "Колко души са в курса?",
+            "answerBg": "15 души",
+            "qEl": "Πόσα άτομα συμμετέχουν στο μάθημα;",
+            "answerEl": "15 άτομα"
           }
         ],
         "titleRo": "Învățați limba germană la Berlin",
-        "titleBs": "Učenje njemačkog u Berlinu"
+        "titleBs": "Učenje njemačkog u Berlinu",
+        "titleEs": "Aprender alemán en Berlín",
+        "titleBg": "Учене на немски в Берлин",
+        "titleEl": "Εκμάθηση γερμανικών στο Βερολίνο"
       }
     ],
     "grammar": [
@@ -302,7 +386,13 @@ const CURRICULUM = [
             "translationRo": "Eu sunt Carlos.",
             "noteRo": "Cu „ich” folosim „bin”",
             "translationBs": "Ja sam Carlos.",
-            "noteBs": "Sa 'ich' koristimo 'bin'"
+            "noteBs": "Sa 'ich' koristimo 'bin'",
+            "translationEs": "Soy carlos.",
+            "noteEs": "Con 'ich' usamos 'bin'",
+            "translationBg": "Аз съм Карлос.",
+            "noteBg": "С \"ich\" използваме \"bin\"",
+            "translationEl": "Είμαι ο Κάρλος.",
+            "noteEl": "Με το 'ich' χρησιμοποιούμε 'bin'"
           },
           {
             "example": "Du bist Maria.",
@@ -315,7 +405,13 @@ const CURRICULUM = [
             "translationRo": "Tu esti Maria.",
             "noteRo": "Cu „du” folosim „bist”",
             "translationBs": "Ti si Marija.",
-            "noteBs": "Sa 'du' koristimo 'bist'"
+            "noteBs": "Sa 'du' koristimo 'bist'",
+            "translationEs": "Eres María.",
+            "noteEs": "Con 'du' usamos 'bist'",
+            "translationBg": "Ти си Мария.",
+            "noteBg": "С \"du\" използваме \"bist\"",
+            "translationEl": "Είσαι η Μαρία.",
+            "noteEl": "Με το \"du\" χρησιμοποιούμε το \"bist\""
           }
         ],
         "table": {
@@ -375,12 +471,33 @@ const CURRICULUM = [
             "Zamjenica",
             "Konjugacija",
             "Značenje"
+          ],
+          "headersEs": [
+            "Pronombre",
+            "Conjugación",
+            "Significado"
+          ],
+          "headersBg": [
+            "Местоимение",
+            "Конюгация",
+            "Значение"
+          ],
+          "headersEl": [
+            "Αντωνυμία",
+            "Σύζευξη",
+            "Εννοια"
           ]
         },
         "titleRo": "Verbul „sein” (a fi)",
         "explanationRo": "Verbul „sein” este unul dintre cele mai importante verbe din germană. Este folosit pentru a te prezenta și a descrie lucruri.",
         "titleBs": "Glagol 'sein' (biti)",
-        "explanationBs": "Glagol 'sein' jedan je od najvažnijih glagola u njemačkom jeziku. Koristi se za predstavljanje i opisivanje stvari."
+        "explanationBs": "Glagol 'sein' jedan je od najvažnijih glagola u njemačkom jeziku. Koristi se za predstavljanje i opisivanje stvari.",
+        "titleEs": "El verbo 'sein' (ser)",
+        "explanationEs": "El verbo 'sein' es uno de los verbos más importantes del alemán. Se utiliza para presentarse y describir cosas.",
+        "titleBg": "Глаголът \"sein\" (да бъде)",
+        "explanationBg": "Глаголът „sein“ е един от най-важните глаголи в немския език. Използва се за представяне и описание на нещата.",
+        "titleEl": "Το ρήμα «sein» (να είσαι)",
+        "explanationEl": "Το ρήμα «sein» είναι ένα από τα πιο σημαντικά ρήματα στα γερμανικά. Χρησιμοποιείται για να συστηθεί και να περιγράψει πράγματα."
       },
       {
         "id": "verb-heissen",
@@ -401,7 +518,10 @@ const CURRICULUM = [
             "noteEn": "",
             "noteTr": "",
             "translationRo": "Numele meu este Maria.",
-            "translationBs": "Moje ime je Marija."
+            "translationBs": "Moje ime je Marija.",
+            "translationEs": "Mi nombre es María.",
+            "translationBg": "Казвам се Мария.",
+            "translationEl": "Με λένε Μαρία."
           }
         ],
         "table": {
@@ -450,12 +570,30 @@ const CURRICULUM = [
           "headersBs": [
             "Zamjenica",
             "Konjugacija"
+          ],
+          "headersEs": [
+            "Pronombre",
+            "Conjugación"
+          ],
+          "headersBg": [
+            "Местоимение",
+            "Конюгация"
+          ],
+          "headersEl": [
+            "Αντωνυμία",
+            "Σύζευξη"
           ]
         },
         "titleRo": "Verbul „heißen” (a fi numit)",
         "explanationRo": "Folosim „heißen” pentru a spune cum se numește cineva. Verbul se conjugă regulat.",
         "titleBs": "Glagol 'heißen' (nazvati se)",
-        "explanationBs": "Koristimo 'heißen' da kažemo kako se neko zove. Glagol se redovno konjugira."
+        "explanationBs": "Koristimo 'heißen' da kažemo kako se neko zove. Glagol se redovno konjugira.",
+        "titleEs": "El verbo 'heißen' (ser llamado)",
+        "explanationEs": "Usamos 'heißen' para decir cómo se llama alguien. El verbo se conjuga regularmente.",
+        "titleBg": "Глаголът „heißen“ (да се нарича)",
+        "explanationBg": "Използваме „heißen“, за да кажем как се казва някой. Глаголът се спряга редовно.",
+        "titleEl": "Το ρήμα «heißen» (λέγεται)",
+        "explanationEl": "Χρησιμοποιούμε το «heißen» για να πούμε πώς ονομάζεται κάποιος. Το ρήμα συζευγνύεται τακτικά."
       }
     ],
     "exercises": [
@@ -472,7 +610,13 @@ const CURRICULUM = [
         "questionRo": "Completați spațiul liber cu conjugarea corectă",
         "hintRo": "Conjugarea lui heißen cu ich",
         "questionBs": "Popunite prazno mjesto pravilnom konjugacijom",
-        "hintBs": "Konjugacija heißen sa ich"
+        "hintBs": "Konjugacija heißen sa ich",
+        "questionEs": "Completa el espacio en blanco con la conjugación correcta.",
+        "hintEs": "Conjugación de heißen con ich",
+        "questionBg": "Попълнете празното поле с правилното спрежение",
+        "hintBg": "Конюгиране на heißen с ich",
+        "questionEl": "Συμπληρώστε το κενό με τη σωστή σύζευξη",
+        "hintEl": "Σύζευξη του heißen με το ich"
       },
       {
         "type": "mcq",
@@ -506,6 +650,27 @@ const CURRICULUM = [
           "Kako se zovete (formalno)?",
           "odakle si",
           "koliko imaš godina?"
+        ],
+        "questionEs": "¿Qué significa esta frase en inglés?",
+        "optionsEs": [
+          "¿Cuál es tu idioma?",
+          "¿Cuál es tu nombre (formal)?",
+          "¿De dónde eres?",
+          "¿Cuántos años tiene?"
+        ],
+        "questionBg": "Какво означава това изречение на английски?",
+        "optionsBg": [
+          "какъв е вашият език",
+          "Как се казвате (официално)?",
+          "ти откъде си",
+          "на колко си години"
+        ],
+        "questionEl": "Τι σημαίνει αυτή η πρόταση στα Αγγλικά;",
+        "optionsEl": [
+          "Ποια είναι η γλώσσα σας;",
+          "Πώς είναι το όνομά σας (επίσημο);",
+          "Από πού είστε;",
+          "Πόσων χρονών είστε;"
         ]
       },
       {
@@ -522,7 +687,10 @@ const CURRICULUM = [
         ],
         "answer": "Ich komme aus Deutschland.",
         "questionRo": "Aranjați cuvintele pentru a forma o propoziție corectă",
-        "questionBs": "Rasporedite riječi tako da formirate ispravnu rečenicu"
+        "questionBs": "Rasporedite riječi tako da formirate ispravnu rečenicu",
+        "questionEs": "Ordena las palabras para formar una oración correcta.",
+        "questionBg": "Подредете думите така, че да образуват правилно изречение",
+        "questionEl": "Τακτοποιήστε τις λέξεις ώστε να σχηματίσουν μια σωστή πρόταση"
       },
       {
         "type": "matching",
@@ -557,7 +725,10 @@ const CURRICULUM = [
           }
         ],
         "questionRo": "Potriviți germană și traducere:",
-        "questionBs": "Uskladite njemački i prijevod:"
+        "questionBs": "Uskladite njemački i prijevod:",
+        "questionEs": "Coincidencia de alemán y traducción:",
+        "questionBg": "Съвпадение на немски и превод:",
+        "questionEl": "Ταίριασμα στα γερμανικά και μετάφραση:"
       }
     ],
     "writingPrompts": [
@@ -644,7 +815,28 @@ const CURRICULUM = [
       "Pozdrav",
       "Abeceda"
     ],
-    "canDoBs": "Mogu se predstaviti i spelovati svoje ime"
+    "canDoBs": "Mogu se predstaviti i spelovati svoje ime",
+    "titleEs": "¡Hola! ¿Cómo te llamas?",
+    "topicsEs": [
+      "Presentarse",
+      "Saludos",
+      "Alfabeto"
+    ],
+    "canDoEs": "Puedo presentarme y deletrear mi nombre",
+    "titleBg": "здравей как се казваш",
+    "topicsBg": [
+      "Представяне на себе си",
+      "поздрави",
+      "Азбука"
+    ],
+    "canDoBg": "Мога да се представя и да напиша името си",
+    "titleEl": "Γειά σου! Πώς σε λένε;",
+    "topicsEl": [
+      "Παρουσίαση του εαυτού του",
+      "Χαιρετίσματα",
+      "Αλφάβητο"
+    ],
+    "canDoEl": "Μπορώ να συστηθώ και να γράψω το όνομά μου"
   },
   {
     "id": 2,
@@ -681,7 +873,10 @@ const CURRICULUM = [
         "labelEn": "2.2a - How are you?",
         "labelTr": "2.2a - Nasılsın?",
         "labelRo": "2.2a - Ce mai faci?",
-        "labelBs": "2.2a - Kako ste?"
+        "labelBs": "2.2a - Kako ste?",
+        "labelEs": "2.2a - ¿Cómo estás?",
+        "labelBg": "2.2a - Как си?",
+        "labelEl": "2.2a - Πώς είσαι;"
       },
       {
         "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD1/16_langenschidt_-_2.3a_-_dialoge.mp3",
@@ -690,7 +885,10 @@ const CURRICULUM = [
         "labelEn": "2.3a - Dialogues",
         "labelTr": "2.3a - Diyaloglar",
         "labelRo": "2.3a - Dialoguri",
-        "labelBs": "2.3a - Dijalozi"
+        "labelBs": "2.3a - Dijalozi",
+        "labelEs": "2.3a - Diálogos",
+        "labelBg": "2.3a – Диалози",
+        "labelEl": "2.3α - Διάλογοι"
       },
       {
         "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD1/19_langenschidt_-_2.5b_-_in_der_cafeteria.mp3",
@@ -699,7 +897,10 @@ const CURRICULUM = [
         "labelEn": "2.5b - In the Cafeteria",
         "labelTr": "2.5b - Kafeteryada",
         "labelRo": "2.5b - În cantină",
-        "labelBs": "2.5b - U kafeteriji"
+        "labelBs": "2.5b - U kafeteriji",
+        "labelEs": "2.5b - En la cafetería",
+        "labelBg": "2.5b - В кафенето",
+        "labelEl": "2.5β - Στην Καφετέρια"
       },
       {
         "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD1/20_langenschidt_-_2.8a_-_null_bis_zwolf.mp3",
@@ -708,7 +909,10 @@ const CURRICULUM = [
         "labelEn": "2.8a - Zero to twelve",
         "labelTr": "2.8a - Sıfırdan on ikiye",
         "labelRo": "2.8a - Zero la doisprezece",
-        "labelBs": "2.8a - Nula do dvanaest"
+        "labelBs": "2.8a - Nula do dvanaest",
+        "labelEs": "2.8a - Cero a doce",
+        "labelBg": "2.8a - Нула до дванадесет",
+        "labelEl": "2.8a - Μηδέν έως δώδεκα"
       },
       {
         "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD1/22_langenschidt_-_2.10_-_zahlen_von_13_bis_200.mp3",
@@ -717,7 +921,10 @@ const CURRICULUM = [
         "labelEn": "2.10 - Numbers 13-200",
         "labelTr": "2.10 - 13-200 arası Sayılar",
         "labelRo": "2.10 - Numerele 13-200",
-        "labelBs": "2.10 - Brojevi 13-200"
+        "labelBs": "2.10 - Brojevi 13-200",
+        "labelEs": "2.10 - Números 13-200",
+        "labelBg": "2.10 - Числа 13-200",
+        "labelEl": "2.10 - Αριθμοί 13-200"
       }
     ],
     "dialogs": [
@@ -734,7 +941,10 @@ const CURRICULUM = [
             "en": "Good morning, Mrs. Kohl! How are you?",
             "tr": "Günaydın Bayan Kohl! Nasılsınız?",
             "ro": "Bună dimineața, doamnă Kohl! Ce mai faci?",
-            "bs": "Dobro jutro, gospođo Kohl! Kako si?"
+            "bs": "Dobro jutro, gospođo Kohl! Kako si?",
+            "es": "¡Buenos días, señora Kohl! ¿Cómo estás?",
+            "bg": "Добро утро, г-жо Кол! как си",
+            "el": "Καλημέρα, κυρία Kohl! Τι κάνετε;"
           },
           {
             "speaker": "Frau Kohl",
@@ -743,7 +953,10 @@ const CURRICULUM = [
             "en": "Thanks, good. And you?",
             "tr": "Teşekkürler, iyiyim. Ya siz?",
             "ro": "Mulțumesc, bine. Și tu?",
-            "bs": "Hvala, dobro. A ti?"
+            "bs": "Hvala, dobro. A ti?",
+            "es": "Gracias, bien. ¿Y tú?",
+            "bg": "Благодаря, добре. а ти",
+            "el": "Ευχαριστώ, καλά. Και εσύ;"
           },
           {
             "speaker": "Kurt",
@@ -752,7 +965,10 @@ const CURRICULUM = [
             "en": "So-so. I am tired.",
             "tr": "Şöyle böyle. Yorgunum.",
             "ro": "Așa-așa. Sunt obosit.",
-            "bs": "Tako-tako. Umoran sam."
+            "bs": "Tako-tako. Umoran sam.",
+            "es": "Más o menos. Estoy cansado.",
+            "bg": "Така-така. уморен съм",
+            "el": "Έτσι-έτσι. Είμαι κουρασμένος."
           },
           {
             "speaker": "Frau Kohl",
@@ -761,11 +977,17 @@ const CURRICULUM = [
             "en": "Oh! That's not good.",
             "tr": "Oh! Bu iyi değil.",
             "ro": "Oh! Asta nu e bine.",
-            "bs": "Oh! To nije dobro."
+            "bs": "Oh! To nije dobro.",
+            "es": "¡Oh! Eso no es bueno.",
+            "bg": "о! Това не е добре.",
+            "el": "Ω! Αυτό δεν είναι καλό."
           }
         ],
         "titleRo": "Ce mai faci? (Dialog)",
-        "titleBs": "Kako si? (dijalog)"
+        "titleBs": "Kako si? (dijalog)",
+        "titleEs": "¿Cómo estás? (Diálogo)",
+        "titleBg": "как си (диалог)",
+        "titleEl": "Τι κάνετε; (Διάλογος)"
       },
       {
         "title": "In der Cafeteria",
@@ -780,7 +1002,10 @@ const CURRICULUM = [
             "en": "What would you like to drink?",
             "tr": "Ne içmek istersiniz?",
             "ro": "Ce ți-ar place să bei?",
-            "bs": "Šta biste voljeli popiti?"
+            "bs": "Šta biste voljeli popiti?",
+            "es": "¿Qué le gustaría beber?",
+            "bg": "Какво бихте искали да пиете?",
+            "el": "Τι θα θέλατε να πιείτε;"
           },
           {
             "speaker": "Kunde",
@@ -789,7 +1014,10 @@ const CURRICULUM = [
             "en": "A coffee, please.",
             "tr": "Bir kahve lütfen.",
             "ro": "O cafea, te rog.",
-            "bs": "Kafu, molim."
+            "bs": "Kafu, molim.",
+            "es": "Un café, por favor.",
+            "bg": "Едно кафе, моля.",
+            "el": "Ένας καφές, παρακαλώ."
           },
           {
             "speaker": "Kellnerin",
@@ -798,7 +1026,10 @@ const CURRICULUM = [
             "en": "With milk?",
             "tr": "Sütlü mü?",
             "ro": "Cu lapte?",
-            "bs": "Sa mlekom?"
+            "bs": "Sa mlekom?",
+            "es": "¿Con leche?",
+            "bg": "С мляко?",
+            "el": "Με γάλα;"
           },
           {
             "speaker": "Kunde",
@@ -807,7 +1038,10 @@ const CURRICULUM = [
             "en": "Yes, and a water.",
             "tr": "Evet, ve bir su.",
             "ro": "Da, și o apă.",
-            "bs": "Da, i vodu."
+            "bs": "Da, i vodu.",
+            "es": "Sí, y un agua.",
+            "bg": "Да, и вода.",
+            "el": "Ναι, και ένα νερό."
           },
           {
             "speaker": "Kellnerin",
@@ -816,11 +1050,17 @@ const CURRICULUM = [
             "en": "That makes 3 Euros 50.",
             "tr": "Toplam 3 Euro 50 Sent yapar.",
             "ro": "Asta înseamnă 3 euro 50.",
-            "bs": "To je 3 evra 50."
+            "bs": "To je 3 evra 50.",
+            "es": "Eso hace 3 euros 50.",
+            "bg": "Това прави 3 евро 50.",
+            "el": "Δηλαδή 3 ευρώ 50."
           }
         ],
         "titleRo": "În cantină",
-        "titleBs": "U kafeteriji"
+        "titleBs": "U kafeteriji",
+        "titleEs": "en la cafeteria",
+        "titleBg": "В кафенето",
+        "titleEl": "Στην Καφετέρια"
       }
     ],
     "readingTexts": [
@@ -836,7 +1076,10 @@ const CURRICULUM = [
             "en": "Carlos's telephone number is: 0171 – 34 56 78.",
             "tr": "Carlos'un telefon numarası: 0171 – 34 56 78.",
             "ro": "Numărul de telefon al lui Carlos este: 0171 – 34 56 78.",
-            "bs": "Karlosov broj telefona je: 0171 – 34 56 78."
+            "bs": "Karlosov broj telefona je: 0171 – 34 56 78.",
+            "es": "El teléfono de Carlos es: 0171 – 34 56 78.",
+            "bg": "Телефонът на Карлос е: 0171 – 34 56 78.",
+            "el": "Το τηλέφωνο του Carlos είναι: 0171 – 34 56 78."
           }
         ],
         "questions": [
@@ -852,11 +1095,20 @@ const CURRICULUM = [
             "qRo": "Care este numărul de telefon al lui Carlos?",
             "answerRo": "0171 – 34 56 78",
             "qBs": "Koji je Carlosov broj telefona?",
-            "answerBs": "0171 – 34 56 78"
+            "answerBs": "0171 – 34 56 78",
+            "qEs": "¿Cuál es el número de teléfono de Carlos?",
+            "answerEs": "0171 – 34 56 78",
+            "qBg": "Какъв е телефонният номер на Карлос?",
+            "answerBg": "0171 – 34 56 78",
+            "qEl": "Ποιος είναι ο αριθμός τηλεφώνου του Carlos;",
+            "answerEl": "0171 – 34 56 78"
           }
         ],
         "titleRo": "Numere de telefon",
-        "titleBs": "Telefonski brojevi"
+        "titleBs": "Telefonski brojevi",
+        "titleEs": "Números de teléfono",
+        "titleBg": "Телефонни номера",
+        "titleEl": "Τηλέφωνα"
       }
     ],
     "grammar": [
@@ -881,7 +1133,13 @@ const CURRICULUM = [
             "translationRo": "să vină",
             "noteRo": "Verb regulat",
             "translationBs": "doći",
-            "noteBs": "Regularni glagol"
+            "noteBs": "Regularni glagol",
+            "translationEs": "venir",
+            "noteEs": "verbo regular",
+            "translationBg": "да дойде",
+            "noteBg": "Правилен глагол",
+            "translationEl": "να έρθει",
+            "noteEl": "Κανονικό ρήμα"
           }
         ],
         "table": {
@@ -934,12 +1192,36 @@ const CURRICULUM = [
             "kommen",
             "arbeiten",
             "trinken"
+          ],
+          "headersEs": [
+            "Pronombre",
+            "kommen",
+            "Arbeiten",
+            "trincado"
+          ],
+          "headersBg": [
+            "Местоимение",
+            "kommen",
+            "арбайтен",
+            "trinken"
+          ],
+          "headersEl": [
+            "Αντωνυμία",
+            "kommen",
+            "arbeiten",
+            "μπιχλιμπίδι"
           ]
         },
         "titleRo": "Verbe la timpul prezent",
         "explanationRo": "Verbele germane se conjugă după pronume. Majoritatea verbelor urmează un model obișnuit.",
         "titleBs": "Glagoli u sadašnjem vremenu",
-        "explanationBs": "Njemački glagoli konjugiraju se prema zamjenici. Većina glagola prati pravilan obrazac."
+        "explanationBs": "Njemački glagoli konjugiraju se prema zamjenici. Većina glagola prati pravilan obrazac.",
+        "titleEs": "Verbos en tiempo presente",
+        "explanationEs": "Los verbos alemanes se conjugan según el pronombre. La mayoría de los verbos siguen un patrón regular.",
+        "titleBg": "Глаголи в сегашно време",
+        "explanationBg": "Немските глаголи се спрягат според местоимението. Повечето глаголи следват редовен модел.",
+        "titleEl": "Ρήματα σε Ενεστώτα",
+        "explanationEl": "Τα γερμανικά ρήματα συζευγνύονται σύμφωνα με την αντωνυμία. Τα περισσότερα ρήματα ακολουθούν κανονικό μοτίβο."
       }
     ],
     "exercises": [
@@ -957,7 +1239,10 @@ const CURRICULUM = [
         ],
         "answer": 2,
         "questionRo": "Ce înseamnă această propoziție?",
-        "questionBs": "Šta znači ova rečenica?"
+        "questionBs": "Šta znači ova rečenica?",
+        "questionEs": "¿Qué significa esta frase?",
+        "questionBg": "Какво означава това изречение?",
+        "questionEl": "Τι σημαίνει αυτή η πρόταση;"
       }
     ],
     "writingPrompts": [
@@ -1029,7 +1314,28 @@ const CURRICULUM = [
       "Brojevi 0-200",
       "Piće"
     ],
-    "canDoBs": "Mogu pitati za dobrobit i dati svoj broj telefona"
+    "canDoBs": "Mogu pitati za dobrobit i dati svoj broj telefona",
+    "titleEs": "¿Cómo estás?",
+    "topicsEs": [
+      "Estado de salud",
+      "Números 0-200",
+      "Bebidas"
+    ],
+    "canDoEs": "Puedo preguntar sobre bienestar y dar mi número de teléfono.",
+    "titleBg": "как си",
+    "topicsBg": [
+      "Здравен статус",
+      "Числа 0-200",
+      "Напитки"
+    ],
+    "canDoBg": "Мога да попитам за благосъстоянието и да дам телефонния си номер",
+    "titleEl": "Τι κάνετε;",
+    "topicsEl": [
+      "Κατάσταση υγείας",
+      "Αριθμοί 0-200",
+      "Αναψυκτικά"
+    ],
+    "canDoEl": "Μπορώ να ρωτήσω για την ευημερία και να δώσω τον αριθμό τηλεφώνου μου"
   },
   {
     "id": 3,
@@ -1069,7 +1375,10 @@ const CURRICULUM = [
         "labelEn": "3.1b - Objects",
         "labelTr": "3.1b - Nesneler",
         "labelRo": "3.1b - Obiecte",
-        "labelBs": "3.1b - Objekti"
+        "labelBs": "3.1b - Objekti",
+        "labelEs": "3.1b - Objetos",
+        "labelBg": "3.1b - Обекти",
+        "labelEl": "3.1β - Αντικείμενα"
       },
       {
         "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD1/27_langenschidt_-_3.2a_-_was_kostet_....mp3",
@@ -1078,7 +1387,10 @@ const CURRICULUM = [
         "labelEn": "3.2a - What does it cost?",
         "labelTr": "3.2a - Bu ne kadar?",
         "labelRo": "3.2a - Cât costă?",
-        "labelBs": "3.2a - Koliko košta?"
+        "labelBs": "3.2a - Koliko košta?",
+        "labelEs": "3.2a - ¿Cuánto cuesta?",
+        "labelBg": "3.2a - Колко струва?",
+        "labelEl": "3.2α - Τι κοστίζει;"
       }
     ],
     "dialogs": [
@@ -1095,7 +1407,10 @@ const CURRICULUM = [
             "en": "Excuse me! How much is the laptop?",
             "tr": "Affedersiniz! Dizüstü bilgisayar ne kadar?",
             "ro": "Scuzați-mă! Cât costă laptopul?",
-            "bs": "Izvinite me! Koliko košta laptop?"
+            "bs": "Izvinite me! Koliko košta laptop?",
+            "es": "¡Disculpe! ¿Cuánto cuesta la computadora portátil?",
+            "bg": "извинете! Колко струва лаптопа?",
+            "el": "Με συγχωρείτε! Πόσο είναι το laptop;"
           },
           {
             "speaker": "Verkäufer",
@@ -1104,7 +1419,10 @@ const CURRICULUM = [
             "en": "The laptop costs 599 Euros.",
             "tr": "Dizüstü bilgisayar 599 Euro.",
             "ro": "Laptopul costa 599 de euro.",
-            "bs": "Laptop košta 599 evra."
+            "bs": "Laptop košta 599 evra.",
+            "es": "El portátil cuesta 599 euros.",
+            "bg": "Лаптопа струва 599 евро.",
+            "el": "Το laptop κοστίζει 599 ευρώ."
           },
           {
             "speaker": "Kunde",
@@ -1113,7 +1431,10 @@ const CURRICULUM = [
             "en": "And the mouse?",
             "tr": "Peki ya fare?",
             "ro": "Și șoarecele?",
-            "bs": "A miš?"
+            "bs": "A miš?",
+            "es": "¿Y el ratón?",
+            "bg": "А мишката?",
+            "el": "Και το ποντίκι;"
           },
           {
             "speaker": "Verkäufer",
@@ -1122,7 +1443,10 @@ const CURRICULUM = [
             "en": "The mouse costs 15 Euros 99.",
             "tr": "Fare 15 Euro 99 Sent.",
             "ro": "Mouse-ul costa 15 euro 99.",
-            "bs": "Miš košta 15 evra i 99 evra."
+            "bs": "Miš košta 15 evra i 99 evra.",
+            "es": "El ratón cuesta 15 euros 99.",
+            "bg": "Мишката струва 15 99 евро.",
+            "el": "Το ποντίκι κοστίζει 15 ευρώ 99."
           },
           {
             "speaker": "Kunde",
@@ -1131,11 +1455,17 @@ const CURRICULUM = [
             "en": "I'll take the laptop. Please.",
             "tr": "Dizüstü bilgisayarı alıyorum. Lütfen.",
             "ro": "Voi lua laptopul. Vă rog.",
-            "bs": "Ja ću uzeti laptop. Molim te."
+            "bs": "Ja ću uzeti laptop. Molim te.",
+            "es": "Tomaré la computadora portátil. Por favor.",
+            "bg": "Ще взема лаптопа. моля",
+            "el": "Θα πάρω το laptop. Παρακαλώ."
           }
         ],
         "titleRo": "Dialog în magazin",
-        "titleBs": "Dijalog u radnji"
+        "titleBs": "Dijalog u radnji",
+        "titleEs": "Diálogo en la tienda",
+        "titleBg": "Диалог в магазина",
+        "titleEl": "Διάλογος στο μαγαζί"
       }
     ],
     "readingTexts": [
@@ -1151,7 +1481,10 @@ const CURRICULUM = [
             "en": "Today is a flea market in Berlin.",
             "tr": "Bugün Berlin'de bit pazarı var.",
             "ro": "Astăzi este o piață de vechituri în Berlin.",
-            "bs": "Danas je buvlja pijaca u Berlinu."
+            "bs": "Danas je buvlja pijaca u Berlinu.",
+            "es": "Hoy es un mercadillo en Berlín.",
+            "bg": "Днес в Берлин е битпазар.",
+            "el": "Σήμερα είναι μια υπαίθρια αγορά στο Βερολίνο."
           },
           {
             "de": "Carlos kauft eine Uhr für 5 Euro.",
@@ -1159,7 +1492,10 @@ const CURRICULUM = [
             "en": "Carlos buys a watch for 5 Euros.",
             "tr": "Carlos 5 Euro'ya bir saat alıyor.",
             "ro": "Carlos cumpără un ceas cu 5 euro.",
-            "bs": "Carlos kupuje sat za 5 eura."
+            "bs": "Carlos kupuje sat za 5 eura.",
+            "es": "Carlos compra un reloj por 5 euros.",
+            "bg": "Карлос купува часовник за 5 евро.",
+            "el": "Ο Carlos αγοράζει ένα ρολόι 5 ευρώ."
           },
           {
             "de": "Maria kauft ein book für 2 Euro.",
@@ -1167,7 +1503,10 @@ const CURRICULUM = [
             "en": "Maria buys a book for 2 Euros.",
             "tr": "Maria 2 Euro'ya bir kitap alıyor.",
             "ro": "Maria cumpără o carte cu 2 euro.",
-            "bs": "Marija kupuje knjigu za 2 evra."
+            "bs": "Marija kupuje knjigu za 2 evra.",
+            "es": "María compra un libro por 2 euros.",
+            "bg": "Мария купува книга за 2 евро.",
+            "el": "Η Μαρία αγοράζει ένα βιβλίο με 2 ευρώ."
           }
         ],
         "questions": [
@@ -1183,11 +1522,20 @@ const CURRICULUM = [
             "qRo": "Ce cumpără Carlos?",
             "answerRo": "Un ceas",
             "qBs": "Šta Carlos kupuje?",
-            "answerBs": "Sat"
+            "answerBs": "Sat",
+            "qEs": "¿Qué compra Carlos?",
+            "answerEs": "un reloj",
+            "qBg": "Какво купува Карлос?",
+            "answerBg": "часовник",
+            "qEl": "Τι αγοράζει ο Carlos;",
+            "answerEl": "Ένα ρολόι"
           }
         ],
         "titleRo": "Târgul de vechituri",
-        "titleBs": "Buvlja pijaca"
+        "titleBs": "Buvlja pijaca",
+        "titleEs": "El mercado de pulgas",
+        "titleBg": "Битпазарът",
+        "titleEl": "Η υπαίθρια αγορά"
       }
     ],
     "grammar": [
@@ -1210,7 +1558,10 @@ const CURRICULUM = [
             "noteEn": "",
             "noteTr": "",
             "translationRo": "masa - o masă",
-            "translationBs": "sto - sto"
+            "translationBs": "sto - sto",
+            "translationEs": "la mesa - una mesa",
+            "translationBg": "масата - маса",
+            "translationEl": "το τραπέζι - ένα τραπέζι"
           }
         ],
         "table": {
@@ -1263,12 +1614,36 @@ const CURRICULUM = [
             "Definitivno",
             "Neodređeno",
             "Negacija"
+          ],
+          "headersEs": [
+            "Género",
+            "Definido",
+            "Indefinido",
+            "Negación"
+          ],
+          "headersBg": [
+            "Пол",
+            "Определено",
+            "Безсрочен",
+            "Отрицание"
+          ],
+          "headersEl": [
+            "Γένος",
+            "Σαφής",
+            "Αόριστος",
+            "Αρνηση"
           ]
         },
         "titleRo": "Articole determinate și nedeterminate",
         "explanationRo": "În germană, fiecare substantiv are un gen gramatical: masculin (der), feminin (die), neutru (das). Acest lucru este foarte important!",
         "titleBs": "Određeni i neodređeni članovi",
-        "explanationBs": "U njemačkom jeziku svaka imenica ima gramatički rod: muški (der), ženski (die), neutralan (das). Ovo je veoma važno!"
+        "explanationBs": "U njemačkom jeziku svaka imenica ima gramatički rod: muški (der), ženski (die), neutralan (das). Ovo je veoma važno!",
+        "titleEs": "Artículos definidos e indefinidos",
+        "explanationEs": "En alemán, cada sustantivo tiene un género gramatical: masculino (der), femenino (die), neutro (das). ¡Esto es muy importante!",
+        "titleBg": "Определителни и неопределени членове",
+        "explanationBg": "На немски език всяко съществително име има граматически род: мъжки (der), женски (die), неутрален (das). Това е много важно!",
+        "titleEl": "Ορισμένα και Αόριστα Άρθρα",
+        "explanationEl": "Στα γερμανικά, κάθε ουσιαστικό έχει ένα γραμματικό γένος: αρσενικό (der), θηλυκό (die), ουδέτερο (das). Αυτό είναι πολύ σημαντικό!"
       }
     ],
     "exercises": [
@@ -1286,7 +1661,10 @@ const CURRICULUM = [
         ],
         "answer": 2,
         "questionRo": "Care este articolul pentru „Buch” (carte)?",
-        "questionBs": "Šta je članak za 'Buch' (knjigu)?"
+        "questionBs": "Šta je članak za 'Buch' (knjigu)?",
+        "questionEs": "¿Cuál es el artículo de 'Buch' (libro)?",
+        "questionBg": "Каква е статията за \"Buch\" (книга)?",
+        "questionEl": "Τι είναι το άρθρο για το «Buch» (βιβλίο);"
       }
     ],
     "writingPrompts": [
@@ -1357,7 +1735,31 @@ const CURRICULUM = [
       "Objekti",
       "Članci i negacija"
     ],
-    "canDoBs": "Mogu pitati za cijene i kupiti stvari"
+    "canDoBs": "Mogu pitati za cijene i kupiti stvari",
+    "titleEs": "¿Cuánto es eso?",
+    "topicsEs": [
+      "Compras",
+      "Precios",
+      "Objetos",
+      "Artículos y negación"
+    ],
+    "canDoEs": "Puedo preguntar precios y comprar cosas.",
+    "titleBg": "колко е това",
+    "topicsBg": [
+      "Пазаруване",
+      "цени",
+      "Обекти",
+      "Статии и отрицание"
+    ],
+    "canDoBg": "Мога да попитам за цени и да купя неща",
+    "titleEl": "Πόσο είναι αυτό;",
+    "topicsEl": [
+      "Ψώνια",
+      "Τιμές",
+      "Αντικείμενα",
+      "Άρθρα & Άρνηση"
+    ],
+    "canDoEl": "Μπορώ να ρωτήσω για τιμές και να αγοράσω πράγματα"
   },
   {
     "id": 4,
@@ -1397,7 +1799,10 @@ const CURRICULUM = [
         "labelEn": "4.2a - What time is it?",
         "labelTr": "4.2a - Saat kaç?",
         "labelRo": "4.2a - Cât este ceasul?",
-        "labelBs": "4.2a - Koliko je sati?"
+        "labelBs": "4.2a - Koliko je sati?",
+        "labelEs": "4.2a - ¿Qué hora es?",
+        "labelBg": "4.2a - Колко е часът?",
+        "labelEl": "4.2α - Τι ώρα είναι;"
       }
     ],
     "dialogs": [
@@ -1414,7 +1819,10 @@ const CURRICULUM = [
             "en": "Excuse me, what time is it?",
             "tr": "Affedersiniz, saat kaç?",
             "ro": "Scuză-mă, cât este ceasul?",
-            "bs": "Izvinite, koliko je sati?"
+            "bs": "Izvinite, koliko je sati?",
+            "es": "Disculpe, ¿qué hora es?",
+            "bg": "Извинете, колко е часът?",
+            "el": "Με συγχωρείτε, τι ώρα είναι;"
           },
           {
             "speaker": "Thomas",
@@ -1423,7 +1831,10 @@ const CURRICULUM = [
             "en": "It is half past two.",
             "tr": "Saat iki buçuk.",
             "ro": "Este două și jumătate.",
-            "bs": "Pola je dva."
+            "bs": "Pola je dva.",
+            "es": "Son las dos y media.",
+            "bg": "Два и половина е.",
+            "el": "Η ώρα είναι δύο και μισή."
           },
           {
             "speaker": "Maria",
@@ -1432,11 +1843,17 @@ const CURRICULUM = [
             "en": "Oh! I have an appointment at 3 o'clock.",
             "tr": "Oh! Saat 3'te bir randevum var.",
             "ro": "Oh! Am o programare la ora 3.",
-            "bs": "Oh! Imam termin u 3 sata."
+            "bs": "Oh! Imam termin u 3 sata.",
+            "es": "¡Oh! Tengo una cita a las 3 en punto.",
+            "bg": "о! Имам час за 3 часа.",
+            "el": "Ω! Έχω ραντεβού στις 3 η ώρα."
           }
         ],
         "titleRo": "Cât este ceasul?",
-        "titleBs": "Koliko je sati?"
+        "titleBs": "Koliko je sati?",
+        "titleEs": "¿Qué hora es?",
+        "titleBg": "колко е часът",
+        "titleEl": "Τι ώρα είναι;"
       }
     ],
     "readingTexts": [
@@ -1452,7 +1869,10 @@ const CURRICULUM = [
             "en": "I get up at 7 o'clock.",
             "tr": "Saat 7'de kalkıyorum.",
             "ro": "Mă trezesc la ora 7.",
-            "bs": "Ustajem u 7 sati."
+            "bs": "Ustajem u 7 sati.",
+            "es": "Me levanto a las 7 en punto.",
+            "bg": "Ставам в 7 часа.",
+            "el": "Σηκώνομαι στις 7 η ώρα."
           },
           {
             "de": "Der Deutschkurs beginnt um 9 Uhr.",
@@ -1460,7 +1880,10 @@ const CURRICULUM = [
             "en": "The German course begins at 9 o'clock.",
             "tr": "Almanca kursu saat 9'da başlıyor.",
             "ro": "Cursul de germană începe la ora 9.",
-            "bs": "Kurs njemačkog počinje u 9 sati."
+            "bs": "Kurs njemačkog počinje u 9 sati.",
+            "es": "El curso de alemán comienza a las 9 h.",
+            "bg": "Курсът по немски започва в 9 часа.",
+            "el": "Το μάθημα των Γερμανικών ξεκινά στις 9."
           }
         ],
         "questions": [
@@ -1476,11 +1899,20 @@ const CURRICULUM = [
             "qRo": "La ce oră începe cursul?",
             "answerRo": "La ora 9",
             "qBs": "U koliko sati počinje kurs?",
-            "answerBs": "U 9 ​​sati"
+            "answerBs": "U 9 ​​sati",
+            "qEs": "¿A qué hora empieza el curso?",
+            "answerEs": "a las 9 en punto",
+            "qBg": "В колко часа започва курсът?",
+            "answerBg": "В 9 часа",
+            "qEl": "Τι ώρα αρχίζει το μάθημα;",
+            "answerEl": "Στις 9 η ώρα"
           }
         ],
         "titleRo": "Rutina mea zilnică",
-        "titleBs": "Moja dnevna rutina"
+        "titleBs": "Moja dnevna rutina",
+        "titleEs": "Mi rutina diaria",
+        "titleBg": "Моето ежедневие",
+        "titleEl": "Η καθημερινή μου ρουτίνα"
       }
     ],
     "grammar": [
@@ -1505,13 +1937,25 @@ const CURRICULUM = [
             "translationRo": "Este nouă și jumătate.",
             "noteRo": "halb = jumătate înainte de ora următoare",
             "translationBs": "Pola je devet.",
-            "noteBs": "halb = pola prije sljedećeg sata"
+            "noteBs": "halb = pola prije sljedećeg sata",
+            "translationEs": "Son las nueve y media.",
+            "noteEs": "halb = mitad antes de la próxima hora",
+            "translationBg": "Девет и половина е.",
+            "noteBg": "halb = половината преди следващия час",
+            "translationEl": "Η ώρα είναι εννιά και μισή.",
+            "noteEl": "halb = μισό πριν την επόμενη ώρα"
           }
         ],
         "titleRo": "Spunând Timpul",
         "explanationRo": "Există două moduri de a spune ora: formal și informal.",
         "titleBs": "Telling the Time",
-        "explanationBs": "Postoje dva načina određivanja vremena: formalni i neformalni."
+        "explanationBs": "Postoje dva načina određivanja vremena: formalni i neformalni.",
+        "titleEs": "Decir la hora",
+        "explanationEs": "Hay dos formas de decir la hora: formal e informal.",
+        "titleBg": "Разказване на времето",
+        "explanationBg": "Има два начина за определяне на времето: официален и неофициален.",
+        "titleEl": "Λέγοντας την ώρα",
+        "explanationEl": "Υπάρχουν δύο τρόποι να πεις την ώρα: επίσημος και άτυπος."
       }
     ],
     "exercises": [
@@ -1529,7 +1973,10 @@ const CURRICULUM = [
         ],
         "answer": 1,
         "questionRo": "Ce înseamnă „halb zehn”?",
-        "questionBs": "Šta znači 'halb zehn'?"
+        "questionBs": "Šta znači 'halb zehn'?",
+        "questionEs": "¿Qué significa 'halb zehn'?",
+        "questionBg": "Какво означава „halb zehn“?",
+        "questionEl": "Τι σημαίνει «halb zehn»;"
       }
     ],
     "writingPrompts": [
@@ -1600,7 +2047,31 @@ const CURRICULUM = [
       "Dani u sedmici",
       "Dnevne aktivnosti"
     ],
-    "canDoBs": "Mogu pitati za vrijeme i zakazati termine"
+    "canDoBs": "Mogu pitati za vrijeme i zakazati termine",
+    "titleEs": "¿Qué hora es?",
+    "topicsEs": [
+      "Tiempo",
+      "Equipo",
+      "Días de la semana",
+      "Actividades diarias"
+    ],
+    "canDoEs": "Puedo pedir la hora y concertar citas.",
+    "titleBg": "колко е часът",
+    "topicsBg": [
+      "време",
+      "Назначавания",
+      "Дни от седмицата",
+      "Ежедневни дейности"
+    ],
+    "canDoBg": "Мога да поискам час и да уговоря срещи",
+    "titleEl": "Τι ώρα είναι;",
+    "topicsEl": [
+      "Φορά",
+      "Εφόδια",
+      "Μέρες της εβδομάδας",
+      "Καθημερινές δραστηριότητες"
+    ],
+    "canDoEl": "Μπορώ να ζητήσω την ώρα και να κλείσω ραντεβού"
   },
   {
     "id": 5,
@@ -1640,7 +2111,10 @@ const CURRICULUM = [
         "labelEn": "5.2b - Shopping",
         "labelTr": "5.2b - Alışveriş",
         "labelRo": "5.2b - Cumpărături",
-        "labelBs": "5.2b - Kupovina"
+        "labelBs": "5.2b - Kupovina",
+        "labelEs": "5.2b - Compras",
+        "labelBg": "5.2b - Пазаруване",
+        "labelEl": "5.2β - Αγορές"
       }
     ],
     "dialogs": [
@@ -1657,7 +2131,10 @@ const CURRICULUM = [
             "en": "Do you have fresh tomatoes?",
             "tr": "Taze domatesiniz var mı?",
             "ro": "Aveți roșii proaspete?",
-            "bs": "Imate li svježeg paradajza?"
+            "bs": "Imate li svježeg paradajza?",
+            "es": "¿Tienes tomates frescos?",
+            "bg": "Имате ли пресни домати?",
+            "el": "Έχετε φρέσκια ντομάτα;"
           },
           {
             "speaker": "Verkäufer",
@@ -1666,7 +2143,10 @@ const CURRICULUM = [
             "en": "Yes, of course. How much would you like?",
             "tr": "Evet, tabii. Ne kadar istersiniz?",
             "ro": "Da, desigur. Cât de mult ai vrea?",
-            "bs": "Da, naravno. Koliko bi htela?"
+            "bs": "Da, naravno. Koliko bi htela?",
+            "es": "Sí, claro. ¿Cuánto te gustaría?",
+            "bg": "да разбира се Колко искаш?",
+            "el": "Ναι, φυσικά. Πόσο θα ήθελες;"
           },
           {
             "speaker": "Kunde",
@@ -1675,11 +2155,17 @@ const CURRICULUM = [
             "en": "A kilo, please. And 500 grams of cheese.",
             "tr": "Bir kilo lütfen. Ve 500 gram peynir.",
             "ro": "Un kilogram, te rog. Și 500 de grame de brânză.",
-            "bs": "Kilogram, molim. I 500 grama sira."
+            "bs": "Kilogram, molim. I 500 grama sira.",
+            "es": "Un kilo, por favor. Y 500 gramos de queso.",
+            "bg": "Един килограм, моля. И 500 грама сирене.",
+            "el": "Ένα κιλό παρακαλώ. Και 500 γραμμάρια τυρί."
           }
         ],
         "titleRo": "În Supermarket",
-        "titleBs": "U supermarketu"
+        "titleBs": "U supermarketu",
+        "titleEs": "en el supermercado",
+        "titleBg": "В Супермаркета",
+        "titleEl": "Στο Σούπερ Μάρκετ"
       }
     ],
     "readingTexts": [
@@ -1695,7 +2181,10 @@ const CURRICULUM = [
             "en": "Ingredients: 500g tomatoes, 1 cucumber, 1 onion.",
             "tr": "Malzemeler: 500 gr domates, 1 salatalık, 1 soğan.",
             "ro": "Ingrediente: 500 g rosii, 1 castravete, 1 ceapa.",
-            "bs": "Sastojci: 500 g paradajza, 1 krastavac, 1 luk."
+            "bs": "Sastojci: 500 g paradajza, 1 krastavac, 1 luk.",
+            "es": "Ingredientes: 500g de tomates, 1 pepino, 1 cebolla.",
+            "bg": "Продукти: 500 г домати, 1 краставица, 1 глава лук.",
+            "el": "Υλικά: 500 γρ ντομάτες, 1 αγγούρι, 1 κρεμμύδι."
           }
         ],
         "questions": [
@@ -1711,11 +2200,20 @@ const CURRICULUM = [
             "qRo": "Ce este necesar pentru salată?",
             "answerRo": "Roșii, castraveți, ceapă",
             "qBs": "Šta je potrebno za salatu?",
-            "answerBs": "Paradajz, krastavac, luk"
+            "answerBs": "Paradajz, krastavac, luk",
+            "qEs": "¿Qué se necesita para la ensalada?",
+            "answerEs": "Tomates, pepino, cebolla",
+            "qBg": "Какво е необходимо за салата?",
+            "answerBg": "Домати, краставици, лук",
+            "qEl": "Τι χρειάζεται για τη σαλάτα;",
+            "answerEl": "Ντομάτες, αγγούρι, κρεμμύδι"
           }
         ],
         "titleRo": "Reteta: Salata de rosii",
-        "titleBs": "Recept: Salata od paradajza"
+        "titleBs": "Recept: Salata od paradajza",
+        "titleEs": "Receta: Ensalada De Tomate",
+        "titleBg": "Рецепта: Салата с домати",
+        "titleEl": "Συνταγή: Τοματοσαλάτα"
       }
     ],
     "grammar": [
@@ -1738,13 +2236,22 @@ const CURRICULUM = [
             "noteEn": "",
             "noteTr": "",
             "translationRo": "un kilogram de roșii",
-            "translationBs": "kilogram paradajza"
+            "translationBs": "kilogram paradajza",
+            "translationEs": "un kilo de tomates",
+            "translationBg": "килограм домати",
+            "translationEl": "ένα κιλό ντομάτες"
           }
         ],
         "titleRo": "Cantitati si Greutati",
         "explanationRo": "La cumpărături ai nevoie de termeni pentru cantități și greutăți.",
         "titleBs": "Količine i težine",
-        "explanationBs": "Prilikom kupovine potrebni su vam termini za količine i težine."
+        "explanationBs": "Prilikom kupovine potrebni su vam termini za količine i težine.",
+        "titleEs": "Cantidades y pesos",
+        "explanationEs": "Al comprar necesitas términos para cantidades y pesos.",
+        "titleBg": "Количества и грамажи",
+        "explanationBg": "При пазаруване се нуждаете от условия за количества и грамажи.",
+        "titleEl": "Ποσότητες και Βάρη",
+        "explanationEl": "Όταν ψωνίζετε χρειάζεστε όρους για τις ποσότητες και τα βάρη."
       }
     ],
     "exercises": [
@@ -1762,7 +2269,10 @@ const CURRICULUM = [
         ],
         "answer": 0,
         "questionRo": "Ce înseamnă „Guten Appet”?",
-        "questionBs": "Šta znači 'Guten Appetit'?"
+        "questionBs": "Šta znači 'Guten Appetit'?",
+        "questionEs": "¿Qué significa 'Guten Appetit'?",
+        "questionBg": "Какво означава „Guten Appetit“?",
+        "questionEl": "Τι σημαίνει «Guten Appetit»;"
       }
     ],
     "writingPrompts": [
@@ -1826,7 +2336,31 @@ const CURRICULUM = [
       "Kuvanje",
       "Utezi"
     ],
-    "canDoBs": "Mogu kupovati namirnice i razgovarati o hrani"
+    "canDoBs": "Mogu kupovati namirnice i razgovarati o hrani",
+    "titleEs": "Compras y comida",
+    "topicsEs": [
+      "Compras de comida",
+      "Cantidades",
+      "Cocinando",
+      "Pesos"
+    ],
+    "canDoEs": "Puedo hacer compras y hablar sobre comida.",
+    "titleBg": "Пазаруване и храна",
+    "topicsBg": [
+      "Пазаруване на храна",
+      "Количества",
+      "готвене",
+      "Тежести"
+    ],
+    "canDoBg": "Мога да пазарувам хранителни стоки и да говоря за храна",
+    "titleEl": "Αγορές & Φαγητό",
+    "topicsEl": [
+      "Ψώνια τροφίμων",
+      "Ποσότητες",
+      "Μαγείρεμα",
+      "Βάρη"
+    ],
+    "canDoEl": "Μπορώ να ψωνίσω για παντοπωλεία και να μιλήσω για φαγητό"
   },
   {
     "id": 6,
@@ -1866,7 +2400,10 @@ const CURRICULUM = [
         "labelEn": "6.1a - Family photos",
         "labelTr": "6.1a - Aile fotoğrafları",
         "labelRo": "6.1a - Fotografii de familie",
-        "labelBs": "6.1a - Porodične fotografije"
+        "labelBs": "6.1a - Porodične fotografije",
+        "labelEs": "6.1a - Fotos familiares",
+        "labelBg": "6.1a - Семейни снимки",
+        "labelEl": "6.1α - Οικογενειακές φωτογραφίες"
       }
     ],
     "dialogs": [
@@ -1883,7 +2420,10 @@ const CURRICULUM = [
             "en": "Do you have children?",
             "tr": "Çocuklarınız var mı?",
             "ro": "Aveţi copii?",
-            "bs": "Imate li djece?"
+            "bs": "Imate li djece?",
+            "es": "¿Tienes hijos?",
+            "bg": "имаш ли деца",
+            "el": "Έχετε παιδιά;"
           },
           {
             "speaker": "Carlos",
@@ -1892,11 +2432,17 @@ const CURRICULUM = [
             "en": "Yes, I have two children. A daughter and a son.",
             "tr": "Evet, iki çocuğum var. Bir kız ve bir erkek.",
             "ro": "Da, am doi copii. O fiică și un fiu.",
-            "bs": "Da, imam dvoje djece. Ćerka i sin."
+            "bs": "Da, imam dvoje djece. Ćerka i sin.",
+            "es": "Sí, tengo dos hijos. Una hija y un hijo.",
+            "bg": "Да, имам две деца. Дъщеря и син.",
+            "el": "Ναι, έχω δύο παιδιά. Μια κόρη και ένας γιος."
           }
         ],
         "titleRo": "Vorbind despre familie",
-        "titleBs": "Pričamo o porodici"
+        "titleBs": "Pričamo o porodici",
+        "titleEs": "hablando de la familia",
+        "titleBg": "Говорейки за семейството",
+        "titleEl": "Μιλώντας για την οικογένεια"
       }
     ],
     "readingTexts": [
@@ -1912,7 +2458,10 @@ const CURRICULUM = [
             "en": "Peter is 42 years old. The family lives in Munich.",
             "tr": "Peter 42 yaşında. Aile Münih'te yaşıyor.",
             "ro": "Peter are 42 de ani. Familia locuiește în Munchen.",
-            "bs": "Petar ima 42 godine. Porodica živi u Minhenu."
+            "bs": "Petar ima 42 godine. Porodica živi u Minhenu.",
+            "es": "Pedro tiene 42 años. La familia vive en Munich.",
+            "bg": "Петър е на 42 години. Семейството живее в Мюнхен.",
+            "el": "Ο Πέτρος είναι 42 ετών. Η οικογένεια ζει στο Μόναχο."
           }
         ],
         "questions": [
@@ -1928,11 +2477,20 @@ const CURRICULUM = [
             "qRo": "Unde locuiește familia?",
             "answerRo": "La Munchen",
             "qBs": "Gdje porodica živi?",
-            "answerBs": "U Minhenu"
+            "answerBs": "U Minhenu",
+            "qEs": "¿Dónde vive la familia?",
+            "answerEs": "En Múnich",
+            "qBg": "Къде живее семейството?",
+            "answerBg": "В Мюнхен",
+            "qEl": "Πού μένει η οικογένεια;",
+            "answerEl": "Στο Μόναχο"
           }
         ],
         "titleRo": "Familia Wagner",
-        "titleBs": "Porodica Wagner"
+        "titleBs": "Porodica Wagner",
+        "titleEs": "La familia Wagner",
+        "titleBg": "Семейство Вагнер",
+        "titleEl": "Η οικογένεια Βάγκνερ"
       }
     ],
     "grammar": [
@@ -1955,7 +2513,10 @@ const CURRICULUM = [
             "noteEn": "",
             "noteTr": "",
             "translationRo": "tatăl meu / mama mea",
-            "translationBs": "moj otac / moja majka"
+            "translationBs": "moj otac / moja majka",
+            "translationEs": "mi padre/mi madre",
+            "translationBg": "баща ми / майка ми",
+            "translationEl": "ο πατέρας μου / η μητέρα μου"
           }
         ],
         "table": {
@@ -2005,12 +2566,33 @@ const CURRICULUM = [
             "Zamjenica",
             "Masc/Neut",
             "Fem"
+          ],
+          "headersEs": [
+            "Pronombre",
+            "Masc/Neut",
+            "femenino"
+          ],
+          "headersBg": [
+            "Местоимение",
+            "Masc/Neut",
+            "Fem"
+          ],
+          "headersEl": [
+            "Αντωνυμία",
+            "Masc/Neut",
+            "Fem"
           ]
         },
         "titleRo": "Articole posesive",
         "explanationRo": "Pentru a indica proprietatea, folosim articole posesive care se potrivesc cu pronumele.",
         "titleBs": "Posesivni članci",
-        "explanationBs": "Za označavanje vlasništva koristimo prisvojne članove koji odgovaraju zamjenicama."
+        "explanationBs": "Za označavanje vlasništva koristimo prisvojne članove koji odgovaraju zamjenicama.",
+        "titleEs": "Artículos posesivos",
+        "explanationEs": "Para indicar propiedad utilizamos artículos posesivos que coinciden con los pronombres.",
+        "titleBg": "Притежателни статии",
+        "explanationBg": "За да посочим собственост, използваме притежателни членове, съответстващи на местоименията.",
+        "titleEl": "Κατοχικά άρθρα",
+        "explanationEl": "Για να δηλώσουμε την ιδιοκτησία χρησιμοποιούμε κτητικά άρθρα που ταιριάζουν με τις αντωνυμίες."
       }
     ],
     "exercises": [
@@ -2028,7 +2610,10 @@ const CURRICULUM = [
         ],
         "answer": 2,
         "questionRo": "Ce înseamnă „Herzlichen Glückwunsch”?",
-        "questionBs": "Šta znači 'Herzlichen Glückwunsch'?"
+        "questionBs": "Šta znači 'Herzlichen Glückwunsch'?",
+        "questionEs": "¿Qué significa \"Herzlichen Glückwunsch\"?",
+        "questionBg": "Какво означава „Herzlichen Glückwunsch“?",
+        "questionEl": "Τι σημαίνει «Herzlichen Glückwunsch»;"
       }
     ],
     "writingPrompts": [
@@ -2088,7 +2673,31 @@ const CURRICULUM = [
       "Čestitam",
       "Pridjevi"
     ],
-    "canDoBs": "Mogu da pričam o svojoj porodici i da čestitam povremeno"
+    "canDoBs": "Mogu da pričam o svojoj porodici i da čestitam povremeno",
+    "titleEs": "Mi familia",
+    "topicsEs": [
+      "Miembros de la familia",
+      "cumpleaños",
+      "Felicidades",
+      "Adjetivos"
+    ],
+    "canDoEs": "Puedo hablar de mi familia y felicitar en ocasiones.",
+    "titleBg": "Моето семейство",
+    "topicsBg": [
+      "Членове на семейството",
+      "Рождени дни",
+      "честито",
+      "прилагателни"
+    ],
+    "canDoBg": "Мога да говоря за семейството си и да поздравявам при поводи",
+    "titleEl": "Η οικογένειά μου",
+    "topicsEl": [
+      "Μέλη της οικογένειας",
+      "Γενέθλια",
+      "Συγχαρητήρια",
+      "Επίθετα"
+    ],
+    "canDoEl": "Μπορώ να μιλήσω για την οικογένειά μου και να δώσω συγχαρητήρια σε ορισμένες περιπτώσεις"
   },
   {
     "id": 7,
@@ -2128,7 +2737,10 @@ const CURRICULUM = [
         "labelEn": "8.2 - Flat Search (1)",
         "labelTr": "8.2 - Ev Arama (1)",
         "labelRo": "8.2 - Căutare plată (1)",
-        "labelBs": "8.2 - Flat Search (1)"
+        "labelBs": "8.2 - Flat Search (1)",
+        "labelEs": "8.2 - Búsqueda de Pisos (1)",
+        "labelBg": "8.2 - Плоско търсене (1)",
+        "labelEl": "8.2 - Επίπεδη αναζήτηση (1)"
       }
     ],
     "dialogs": [
@@ -2145,7 +2757,10 @@ const CURRICULUM = [
             "en": "The apartment has 3 rooms, a kitchen, and a bathroom.",
             "tr": "Dairede 3 oda, bir mutfak ve bir banyo bulunmaktadır.",
             "ro": "Apartamentul are 3 camere, bucatarie si baie.",
-            "bs": "Stan ima 3 sobe, kuhinju i kupatilo."
+            "bs": "Stan ima 3 sobe, kuhinju i kupatilo.",
+            "es": "El apartamento tiene 3 habitaciones, cocina y baño.",
+            "bg": "Апартаментът се състои от 3 стаи, кухня и баня.",
+            "el": "Το διαμέρισμα διαθέτει 3 δωμάτια, κουζίνα και μπάνιο."
           },
           {
             "speaker": "Kunde",
@@ -2154,11 +2769,17 @@ const CURRICULUM = [
             "en": "How much is the rent?",
             "tr": "Kira ne kadar?",
             "ro": "Cât este chiria?",
-            "bs": "Koliko je kirija?"
+            "bs": "Koliko je kirija?",
+            "es": "¿A cuánto asciende el alquiler?",
+            "bg": "Колко е наемът?",
+            "el": "Πόσο είναι το ενοίκιο;"
           }
         ],
         "titleRo": "Apartamentul",
-        "titleBs": "The Flat"
+        "titleBs": "The Flat",
+        "titleEs": "El piso",
+        "titleBg": "Апартаментът",
+        "titleEl": "Το Διαμέρισμα"
       }
     ],
     "readingTexts": [
@@ -2174,7 +2795,10 @@ const CURRICULUM = [
             "en": "I live in a 2-room apartment.",
             "tr": "2 odalı bir dairede yaşıyorum.",
             "ro": "Locuiesc intr-un apartament cu 2 camere.",
-            "bs": "Živim u 2-sobnom stanu."
+            "bs": "Živim u 2-sobnom stanu.",
+            "es": "Vivo en un apartamento de 2 habitaciones.",
+            "bg": "Живея в 2-стаен апартамент.",
+            "el": "Μένω σε διαμέρισμα 2 δωματίων."
           }
         ],
         "questions": [
@@ -2190,11 +2814,20 @@ const CURRICULUM = [
             "qRo": "Câte camere are apartamentul?",
             "answerRo": "2 camere",
             "qBs": "Koliko soba ima stan?",
-            "answerBs": "2 sobe"
+            "answerBs": "2 sobe",
+            "qEs": "¿Cuántas habitaciones tiene el apartamento?",
+            "answerEs": "2 habitaciones",
+            "qBg": "Колко стаи има апартаментът?",
+            "answerBg": "2 стаи",
+            "qEl": "Πόσα δωμάτια έχει το διαμέρισμα;",
+            "answerEl": "2 δωμάτια"
           }
         ],
         "titleRo": "Apartamentul meu",
-        "titleBs": "Moj stan"
+        "titleBs": "Moj stan",
+        "titleEs": "mi apartamento",
+        "titleBg": "Моят апартамент",
+        "titleEl": "Το Διαμέρισμά μου"
       }
     ],
     "grammar": [
@@ -2219,13 +2852,25 @@ const CURRICULUM = [
             "translationRo": "Cartea este pe masă.",
             "noteRo": "auf = on",
             "translationBs": "Knjiga je na stolu.",
-            "noteBs": "auf = uključeno"
+            "noteBs": "auf = uključeno",
+            "translationEs": "El libro está sobre la mesa.",
+            "noteEs": "auf = en",
+            "translationBg": "Книгата е на масата.",
+            "noteBg": "auf = включено",
+            "translationEl": "Το βιβλίο είναι στο τραπέζι.",
+            "noteEl": "auf = επάνω"
           }
         ],
         "titleRo": "Prepoziții de loc",
         "explanationRo": "Folosim prepoziții pentru a descrie locația obiectelor, urmate de obicei de cazul dativ.",
         "titleBs": "Prijedlozi mjesta",
-        "explanationBs": "Koristimo prijedloge da opišemo lokaciju objekata, nakon kojih obično slijedi dativ."
+        "explanationBs": "Koristimo prijedloge da opišemo lokaciju objekata, nakon kojih obično slijedi dativ.",
+        "titleEs": "Preposiciones de lugar",
+        "explanationEs": "Usamos preposiciones para describir la ubicación de objetos, generalmente seguidas del caso dativo.",
+        "titleBg": "Предлози за място",
+        "explanationBg": "Използваме предлози, за да опишем местоположението на обектите, обикновено последвани от дателен падеж.",
+        "titleEl": "Προθέσεις Τόπου",
+        "explanationEl": "Χρησιμοποιούμε προθέσεις για να περιγράψουμε τη θέση των αντικειμένων, ακολουθούμενες συνήθως από κεφαλαία Dative."
       }
     ],
     "exercises": [
@@ -2243,7 +2888,10 @@ const CURRICULUM = [
         ],
         "answer": 2,
         "questionRo": "Ce înseamnă „Wohnzimmer”?",
-        "questionBs": "Šta znači 'Wohnzimmer'?"
+        "questionBs": "Šta znači 'Wohnzimmer'?",
+        "questionEs": "¿Qué significa \"Wohnzimmer\"?",
+        "questionBg": "Какво означава „Wohnzimmer“?",
+        "questionEl": "Τι σημαίνει «Wohnzimmer»;"
       }
     ],
     "writingPrompts": [
@@ -2307,7 +2955,31 @@ const CURRICULUM = [
       "Namještaj",
       "Stan lov"
     ],
-    "canDoBs": "Mogu opisati svoj stan i tražiti stan"
+    "canDoBs": "Mogu opisati svoj stan i tražiti stan",
+    "titleEs": "Vivir en Alemania",
+    "topicsEs": [
+      "Departamento",
+      "Alojamiento",
+      "Muebles",
+      "Búsqueda de apartamento"
+    ],
+    "canDoEs": "Puedo describir mi apartamento y buscar piso.",
+    "titleBg": "Живеейки в Германия",
+    "topicsBg": [
+      "Апартамент",
+      "Стаи",
+      "Мебели",
+      "Търсене на апартаменти"
+    ],
+    "canDoBg": "Мога да опиша апартамента си и да търся апартамент",
+    "titleEl": "Ζώντας στη Γερμανία",
+    "topicsEl": [
+      "Διαμέρισμα",
+      "Δωμάτια",
+      "Επιπλα",
+      "Κυνήγι διαμερισμάτων"
+    ],
+    "canDoEl": "Μπορώ να περιγράψω το διαμέρισμά μου και να ψάξω για διαμέρισμα"
   },
   {
     "id": 8,
@@ -2344,7 +3016,10 @@ const CURRICULUM = [
         "labelEn": "11.1b - The Body",
         "labelTr": "11.1b - Vücut",
         "labelRo": "11.1b - Corpul",
-        "labelBs": "11.1b - Telo"
+        "labelBs": "11.1b - Telo",
+        "labelEs": "11.1b - El Cuerpo",
+        "labelBg": "11.1b - Тялото",
+        "labelEl": "11.1β - Το Σώμα"
       }
     ],
     "dialogs": [
@@ -2361,7 +3036,10 @@ const CURRICULUM = [
             "en": "Good day! What is wrong?",
             "tr": "İyi günler! Şikayetiniz nedir?",
             "ro": "Bună ziua! Ce s-a întâmplat?",
-            "bs": "Dobar dan! šta nije u redu?"
+            "bs": "Dobar dan! šta nije u redu?",
+            "es": "¡Buen día! ¿Lo que está mal?",
+            "bg": "Добър ден! какво не е наред",
+            "el": "Καλημέρα! Τι φταίει;"
           },
           {
             "speaker": "Patient",
@@ -2370,11 +3048,17 @@ const CURRICULUM = [
             "en": "I have a headache and fever.",
             "tr": "Baş ağrım ve ateşim var.",
             "ro": "Am o durere de cap și febră.",
-            "bs": "Imam glavobolju i temperaturu."
+            "bs": "Imam glavobolju i temperaturu.",
+            "es": "Tengo dolor de cabeza y fiebre.",
+            "bg": "Имам главоболие и температура.",
+            "el": "Έχω πονοκέφαλο και πυρετό."
           }
         ],
         "titleRo": "La Doctor",
-        "titleBs": "Kod doktora"
+        "titleBs": "Kod doktora",
+        "titleEs": "en el doctor",
+        "titleBg": "При доктора",
+        "titleEl": "Στο Γιατρό"
       }
     ],
     "readingTexts": [
@@ -2390,7 +3074,10 @@ const CURRICULUM = [
             "en": "Sports is healthy. One should drink plenty of water.",
             "tr": "Spor sağlıklıdır. İnsan bol su içmelidir.",
             "ro": "Sportul este sănătos. Ar trebui să bei multă apă.",
-            "bs": "Sport je zdrav. Treba piti dosta vode."
+            "bs": "Sport je zdrav. Treba piti dosta vode.",
+            "es": "El deporte es saludable. Se debe beber mucha agua.",
+            "bg": "Спортът е здравословен. Човек трябва да пие много вода.",
+            "el": "Ο αθλητισμός είναι υγιής. Κάποιος πρέπει να πίνει άφθονο νερό."
           }
         ],
         "questions": [
@@ -2406,11 +3093,20 @@ const CURRICULUM = [
             "qRo": "Ce este sănătos?",
             "answerRo": "Sport, apă",
             "qBs": "Šta je zdravo?",
-            "answerBs": "Sport, voda"
+            "answerBs": "Sport, voda",
+            "qEs": "¿Qué es saludable?",
+            "answerEs": "deportes, agua",
+            "qBg": "Какво е здравословно?",
+            "answerBg": "Спорт, вода",
+            "qEl": "Τι είναι υγιές;",
+            "answerEl": "Αθλητισμός, νερό"
           }
         ],
         "titleRo": "Rămâi sănătos",
-        "titleBs": "Staying Healthy"
+        "titleBs": "Staying Healthy",
+        "titleEs": "Mantenerse saludable",
+        "titleBg": "Да останем здрави",
+        "titleEl": "Παραμονή Υγιής"
       }
     ],
     "grammar": [
@@ -2433,13 +3129,22 @@ const CURRICULUM = [
             "noteEn": "",
             "noteTr": "",
             "translationRo": "Trebuie să iau medicamente.",
-            "translationBs": "Moram uzeti lijek."
+            "translationBs": "Moram uzeti lijek.",
+            "translationEs": "Debo tomar medicina.",
+            "translationBg": "Трябва да взема лекарство.",
+            "translationEl": "Πρέπει να πάρω φάρμακα."
           }
         ],
         "titleRo": "Verbe modale",
         "explanationRo": "Verbele modale exprimă obligația (müssen), capacitatea (können), recomandarea (sollen) și permisiunea (dürfen).",
         "titleBs": "Modalni glagoli",
-        "explanationBs": "Modalni glagoli izražavaju obavezu (müssen), sposobnost (können), preporuku (sollen) i dozvolu (dürfen)."
+        "explanationBs": "Modalni glagoli izražavaju obavezu (müssen), sposobnost (können), preporuku (sollen) i dozvolu (dürfen).",
+        "titleEs": "Verbos modales",
+        "explanationEs": "Los verbos modales expresan obligación (müssen), capacidad (können), recomendación (sollen) y permiso (dürfen).",
+        "titleBg": "Модални глаголи",
+        "explanationBg": "Модалните глаголи изразяват задължение (müssen), способност (können), препоръка (sollen) и разрешение (dürfen).",
+        "titleEl": "Modal Verbs",
+        "explanationEl": "Τα τροπικά ρήματα εκφράζουν υποχρέωση (müssen), ικανότητα (können), σύσταση (sollen) και άδεια (dürfen)."
       }
     ],
     "exercises": [
@@ -2457,7 +3162,10 @@ const CURRICULUM = [
         ],
         "answer": 1,
         "questionRo": "Cum se spune „Mă doare capul” în germană?",
-        "questionBs": "Kako se kaže 'Imam glavobolju' na njemačkom?"
+        "questionBs": "Kako se kaže 'Imam glavobolju' na njemačkom?",
+        "questionEs": "¿Cómo se dice \"me duele la cabeza\" en alemán?",
+        "questionBg": "Как се казва „имам главоболие“ на немски?",
+        "questionEl": "Πώς λέτε \"Έχω πονοκέφαλο\" στα Γερμανικά;"
       }
     ],
     "writingPrompts": [
@@ -2519,7 +3227,28 @@ const CURRICULUM = [
       "Zdravstvene pritužbe",
       "Kod doktora"
     ],
-    "canDoBs": "O zdravstvenim simptomima mogu razgovarati u ordinaciji"
+    "canDoBs": "O zdravstvenim simptomima mogu razgovarati u ordinaciji",
+    "titleEs": "Salud y cuerpo",
+    "topicsEs": [
+      "Partes del cuerpo",
+      "Quejas de salud",
+      "en el medico"
+    ],
+    "canDoEs": "Puedo hablar sobre síntomas de salud en el consultorio del médico.",
+    "titleBg": "Здраве и тяло",
+    "topicsBg": [
+      "Части на тялото",
+      "Здравни оплаквания",
+      "При доктора"
+    ],
+    "canDoBg": "Мога да говоря за здравословни симптоми в лекарския кабинет",
+    "titleEl": "Υγεία και Σώμα",
+    "topicsEl": [
+      "Μέρη του σώματος",
+      "Παράπονα υγείας",
+      "Στο γιατρό"
+    ],
+    "canDoEl": "Μπορώ να μιλήσω για συμπτώματα υγείας στο ιατρείο"
   },
   {
     "id": 9,
@@ -2556,7 +3285,10 @@ const CURRICULUM = [
         "labelEn": "7.3 - Directions",
         "labelTr": "7.3 - Yön Tarifi",
         "labelRo": "7.3 - Direcții",
-        "labelBs": "7.3 - Upute"
+        "labelBs": "7.3 - Upute",
+        "labelEs": "7.3 - Direcciones",
+        "labelBg": "7.3 - Насоки",
+        "labelEl": "7.3 - Οδηγίες"
       }
     ],
     "dialogs": [
@@ -2573,7 +3305,10 @@ const CURRICULUM = [
             "en": "A ticket to Munich, please.",
             "tr": "Münih'e bir bilet lütfen.",
             "ro": "Un bilet la Munchen, te rog.",
-            "bs": "Kartu za Minhen, molim."
+            "bs": "Kartu za Minhen, molim.",
+            "es": "Un billete a Munich, por favor.",
+            "bg": "Билет до Мюнхен, моля.",
+            "el": "Ένα εισιτήριο για Μόναχο, παρακαλώ."
           },
           {
             "speaker": "Beamter",
@@ -2582,11 +3317,17 @@ const CURRICULUM = [
             "en": "One-way or return?",
             "tr": "Gidiş mi gidiş-dönüş mü?",
             "ro": "Dus-întors sau retur?",
-            "bs": "Jednosmjerno ili povratno?"
+            "bs": "Jednosmjerno ili povratno?",
+            "es": "¿Ida o vuelta?",
+            "bg": "Еднопосочен или на връщане?",
+            "el": "Μονόδρομος ή με επιστροφή;"
           }
         ],
         "titleRo": "La Gara",
-        "titleBs": "Na željezničkoj stanici"
+        "titleBs": "Na željezničkoj stanici",
+        "titleEs": "En la estación de tren",
+        "titleBg": "На гарата",
+        "titleEl": "Στο Σιδηροδρομικό Σταθμό"
       }
     ],
     "readingTexts": [
@@ -2602,7 +3343,10 @@ const CURRICULUM = [
             "en": "The train to Berlin departs at 10:30.",
             "tr": "Berlin treni saat 10:30'da hareket ediyor.",
             "ro": "Trenul spre Berlin pleacă la 10:30.",
-            "bs": "Voz za Berlin polazi u 10:30."
+            "bs": "Voz za Berlin polazi u 10:30.",
+            "es": "El tren a Berlín sale a las 10:30.",
+            "bg": "Влакът за Берлин тръгва в 10:30.",
+            "el": "Το τρένο για το Βερολίνο αναχωρεί στις 10:30."
           }
         ],
         "questions": [
@@ -2618,11 +3362,20 @@ const CURRICULUM = [
             "qRo": "Când pleacă trenul?",
             "answerRo": "La 10:30",
             "qBs": "Kada polazi voz?",
-            "answerBs": "U 10:30"
+            "answerBs": "U 10:30",
+            "qEs": "¿Cuándo sale el tren?",
+            "answerEs": "A las 10:30",
+            "qBg": "Кога тръгва влакът?",
+            "answerBg": "В 10:30ч",
+            "qEl": "Πότε αναχωρεί το τρένο;",
+            "answerEl": "Στις 10:30"
           }
         ],
         "titleRo": "Orarul",
-        "titleBs": "Raspored"
+        "titleBs": "Raspored",
+        "titleEs": "El horario",
+        "titleBg": "Разписанието",
+        "titleEl": "Το χρονοδιάγραμμα"
       }
     ],
     "grammar": [
@@ -2645,13 +3398,22 @@ const CURRICULUM = [
             "noteEn": "",
             "noteTr": "",
             "translationRo": "Mergeți drept înainte.",
-            "translationBs": "Samo napred."
+            "translationBs": "Samo napred.",
+            "translationEs": "Siga recto.",
+            "translationBg": "Давай направо напред.",
+            "translationEl": "Προχώρα ευθεία."
           }
         ],
         "titleRo": "Dând direcții",
         "explanationRo": "Expresii cheie pentru a-i ghida pe alții și pentru a descrie trasee și locuri.",
         "titleBs": "Davanje uputstava",
-        "explanationBs": "Ključne fraze za usmjeravanje drugih i opisivanje ruta i mjesta."
+        "explanationBs": "Ključne fraze za usmjeravanje drugih i opisivanje ruta i mjesta.",
+        "titleEs": "Dar direcciones",
+        "explanationEs": "Frases clave para guiar a otros y describir rutas y lugares.",
+        "titleBg": "Даване на указания",
+        "explanationBg": "Ключови фрази за насочване на другите и описание на маршрути и места.",
+        "titleEl": "Δίνοντας Οδηγίες",
+        "explanationEl": "Φράσεις κλειδιά που καθοδηγούν τους άλλους και περιγράφουν διαδρομές και μέρη."
       }
     ],
     "exercises": [
@@ -2669,7 +3431,10 @@ const CURRICULUM = [
         ],
         "answer": 2,
         "questionRo": "Ce înseamnă „hin und zurück”?",
-        "questionBs": "Šta znači 'hin und zurück'?"
+        "questionBs": "Šta znači 'hin und zurück'?",
+        "questionEs": "¿Qué significa \"hin und zurück\"?",
+        "questionBg": "Какво означава „hin und zurück“?",
+        "questionEl": "Τι σημαίνει «hin und zurück»;"
       }
     ],
     "writingPrompts": [
@@ -2727,7 +3492,28 @@ const CURRICULUM = [
       "Željeznička stanica",
       "Upute"
     ],
-    "canDoBs": "Mogu pitati za put i kupiti kartu za voz"
+    "canDoBs": "Mogu pitati za put i kupiti kartu za voz",
+    "titleEs": "En movimiento",
+    "topicsEs": [
+      "Medios de transporte",
+      "Estación de tren",
+      "Instrucciones"
+    ],
+    "canDoEs": "Puedo pedir direcciones y comprar un billete de tren.",
+    "titleBg": "В движение",
+    "topicsBg": [
+      "Транспортни средства",
+      "ЖП гара",
+      "Упътвания"
+    ],
+    "canDoBg": "Мога да попитам за посоката и да купя билет за влак",
+    "titleEl": "Εν κινήσει",
+    "topicsEl": [
+      "Μέσα μεταφοράς",
+      "σιδηροδρομικός σταθμός",
+      "Οδηγίες"
+    ],
+    "canDoEl": "Μπορώ να ζητήσω οδηγίες και να αγοράσω εισιτήριο τρένου"
   },
   {
     "id": 10,
@@ -2767,7 +3553,10 @@ const CURRICULUM = [
         "labelEn": "9.1 - The Weekend",
         "labelTr": "9.1 - Hafta sonu",
         "labelRo": "9.1 - Weekend-ul",
-        "labelBs": "9.1 - Vikend"
+        "labelBs": "9.1 - Vikend",
+        "labelEs": "9.1 - El fin de semana",
+        "labelBg": "9.1 - Уикендът",
+        "labelEl": "9.1 - Το Σαββατοκύριακο"
       }
     ],
     "dialogs": [
@@ -2784,7 +3573,10 @@ const CURRICULUM = [
             "en": "What do you do in your free time?",
             "tr": "Boş zamanlarında ne yaparsın?",
             "ro": "Ce faci în timpul liber?",
-            "bs": "Šta radiš u slobodno vrijeme?"
+            "bs": "Šta radiš u slobodno vrijeme?",
+            "es": "¿Qué haces en tu tiempo libre?",
+            "bg": "Какво правиш в свободното си време?",
+            "el": "Τι κάνεις στον ελεύθερο χρόνο σου;"
           },
           {
             "speaker": "Maria",
@@ -2793,11 +3585,17 @@ const CURRICULUM = [
             "en": "I like to play football. And you?",
             "tr": "Futbol oynamayı severim. Ya sen?",
             "ro": "Îmi place să joc fotbal. Și tu?",
-            "bs": "Volim da igram fudbal. A ti?"
+            "bs": "Volim da igram fudbal. A ti?",
+            "es": "Me gusta jugar al fútbol. ¿Y tú?",
+            "bg": "Обичам да играя футбол. а ти",
+            "el": "Μου αρέσει να παίζω ποδόσφαιρο. Και εσύ;"
           }
         ],
         "titleRo": "Ce faci în timpul liber?",
-        "titleBs": "Šta radiš u slobodno vrijeme?"
+        "titleBs": "Šta radiš u slobodno vrijeme?",
+        "titleEs": "¿Qué haces en tu tiempo libre?",
+        "titleBg": "Какво правиш в свободното си време?",
+        "titleEl": "Τι κάνεις στον ελεύθερο χρόνο σου;"
       }
     ],
     "readingTexts": [
@@ -2813,7 +3611,10 @@ const CURRICULUM = [
             "en": "My name is Sarah. My hobby is photography.",
             "tr": "Adım Sarah. Hobim fotoğraf çekmek.",
             "ro": "Numele meu este Sarah. Hobby-ul meu este fotografia.",
-            "bs": "Moje ime je Sarah. Moj hobi je fotografija."
+            "bs": "Moje ime je Sarah. Moj hobi je fotografija.",
+            "es": "Mi nombre es Sara. Mi hobby es la fotografía.",
+            "bg": "Казвам се Сара. Моето хоби е фотографията.",
+            "el": "Το όνομά μου είναι Σάρα. Το χόμπι μου είναι η φωτογραφία."
           }
         ],
         "questions": [
@@ -2829,11 +3630,20 @@ const CURRICULUM = [
             "qRo": "Care este hobby-ul lui Sarah?",
             "answerRo": "Fotografie",
             "qBs": "Šta je Sarin hobi?",
-            "answerBs": "Fotografija"
+            "answerBs": "Fotografija",
+            "qEs": "¿Cuál es el pasatiempo de Sarah?",
+            "answerEs": "Fotografía",
+            "qBg": "Какво е хобито на Сара?",
+            "answerBg": "Фотография",
+            "qEl": "Ποιο είναι το χόμπι της Σάρα;",
+            "answerEl": "Φωτογραφία"
           }
         ],
         "titleRo": "Hobby-ul meu",
-        "titleBs": "Moj hobi"
+        "titleBs": "Moj hobi",
+        "titleEs": "mi pasatiempo",
+        "titleBg": "Моето хоби",
+        "titleEl": "Το χόμπι μου"
       }
     ],
     "grammar": [
@@ -2856,13 +3666,22 @@ const CURRICULUM = [
             "noteEn": "",
             "noteTr": "",
             "translationRo": "Îmi place să joc tenis.",
-            "translationBs": "Volim da igram tenis."
+            "translationBs": "Volim da igram tenis.",
+            "translationEs": "Me gusta jugar al tenis.",
+            "translationBg": "Обичам да играя тенис.",
+            "translationEl": "Μου αρέσει να παίζω τένις."
           }
         ],
         "titleRo": "Îmi place să facă lucruri: gern / nicht gern",
         "explanationRo": "Folosim „gern” pentru a exprima că ne place să facem ceva, plasat imediat după verbul conjugat.",
         "titleBs": "Voli raditi stvari: gern / nicht gern",
-        "explanationBs": "Koristimo 'gern' da izrazimo da volimo nešto raditi, smješteno odmah iza konjugiranog glagola."
+        "explanationBs": "Koristimo 'gern' da izrazimo da volimo nešto raditi, smješteno odmah iza konjugiranog glagola.",
+        "titleEs": "Gustar de hacer cosas: gern / nicht gern",
+        "explanationEs": "Usamos 'gern' para expresar que nos gusta hacer algo, colocado justo después del verbo conjugado.",
+        "titleBg": "Обичам да правя неща: gern / nicht gern",
+        "explanationBg": "Използваме „gern“, за да изразим, че ни харесва да правим нещо, поставено точно след спрегнатия глагол.",
+        "titleEl": "Μου αρέσει να κάνω πράγματα: gern / nicht gern",
+        "explanationEl": "Χρησιμοποιούμε το «gern» για να εκφράσουμε ότι μας αρέσει να κάνουμε κάτι, τοποθετημένο ακριβώς μετά το συζευγμένο ρήμα."
       }
     ],
     "exercises": [
@@ -2880,7 +3699,10 @@ const CURRICULUM = [
         ],
         "answer": 1,
         "questionRo": "Ce înseamnă „gern” aici?",
-        "questionBs": "Šta ovde znači \"gern\"?"
+        "questionBs": "Šta ovde znači \"gern\"?",
+        "questionEs": "¿Qué significa aquí \"gern\"?",
+        "questionBg": "Какво означава „gern“ тук?",
+        "questionEl": "Τι σημαίνει εδώ το «gern»;"
       }
     ],
     "writingPrompts": [
@@ -2940,7 +3762,31 @@ const CURRICULUM = [
       "Slobodno vrijeme",
       "Poziv"
     ],
-    "canDoBs": "Mogu pričati o svojim hobijima i pozvati nekoga"
+    "canDoBs": "Mogu pričati o svojim hobijima i pozvati nekoga",
+    "titleEs": "Ocio y pasatiempos",
+    "topicsEs": [
+      "Pasatiempos",
+      "Deportes",
+      "Ocio",
+      "Invitación"
+    ],
+    "canDoEs": "Puedo hablar de mis aficiones e invitar a alguien.",
+    "titleBg": "Свободно време и хоби",
+    "topicsBg": [
+      "Хоби",
+      "Спорт",
+      "свободно време",
+      "Покана"
+    ],
+    "canDoBg": "Мога да говоря за моите хобита и да поканя някого",
+    "titleEl": "Αναψυχή & Χόμπι",
+    "topicsEl": [
+      "Χόμπι",
+      "Αθλητισμός",
+      "Ελεύθερος χρόνος",
+      "Πρόσκληση"
+    ],
+    "canDoEl": "Μπορώ να μιλήσω για τα χόμπι μου και να προσκαλέσω κάποιον"
   },
   {
     "id": 11,
@@ -2977,7 +3823,10 @@ const CURRICULUM = [
         "labelEn": "10.2 - Work Routine",
         "labelTr": "10.2 - Günlük İş Rutini",
         "labelRo": "10.2 - Rutina de lucru",
-        "labelBs": "10.2 - Radna rutina"
+        "labelBs": "10.2 - Radna rutina",
+        "labelEs": "10.2 - Rutina de trabajo",
+        "labelBg": "10.2 - Работна рутина",
+        "labelEl": "10.2 - Ρουτίνα εργασίας"
       }
     ],
     "dialogs": [
@@ -2994,7 +3843,10 @@ const CURRICULUM = [
             "en": "What do you do for a living?",
             "tr": "Mesleğiniz nedir?",
             "ro": "Cu ce ​​​​vă ocupați?",
-            "bs": "čime se baviš?"
+            "bs": "čime se baviš?",
+            "es": "¿A qué te dedicas?",
+            "bg": "с какво си изкарваш хляба",
+            "el": "Τι κάνεις για να ζήσεις;"
           },
           {
             "speaker": "B",
@@ -3003,11 +3855,17 @@ const CURRICULUM = [
             "en": "I am a doctor. And you?",
             "tr": "Ben doktorum. Ya siz?",
             "ro": "Sunt doctor. Și tu?",
-            "bs": "Ja sam doktor. A ti?"
+            "bs": "Ja sam doktor. A ti?",
+            "es": "Soy médico. ¿Y tú?",
+            "bg": "Аз съм лекар. а ти",
+            "el": "Είμαι γιατρός. Και εσύ;"
           }
         ],
         "titleRo": "Care este profesia ta?",
-        "titleBs": "Koja je tvoja profesija?"
+        "titleBs": "Koja je tvoja profesija?",
+        "titleEs": "¿Cuál es tu profesión?",
+        "titleBg": "каква си професия",
+        "titleEl": "Ποιο είναι το επάγγελμά σας;"
       }
     ],
     "readingTexts": [
@@ -3023,7 +3881,10 @@ const CURRICULUM = [
             "en": "We are looking for an experienced cook. Salary: 2500 Euros.",
             "tr": "Deneyimli bir aşçı arıyoruz. Maaş: 2500 Euro.",
             "ro": "Cautam bucatar cu experienta. Salariu: 2500 euro.",
-            "bs": "Tražimo kuhara sa iskustvom. Plata: 2500 eura."
+            "bs": "Tražimo kuhara sa iskustvom. Plata: 2500 eura.",
+            "es": "Buscamos cocinero con experiencia. Salario: 2500 euros.",
+            "bg": "Търсим готвач с опит. Заплата: 2500 евро.",
+            "el": "Ζητείται μάγειρας έμπειρος. Μισθός: 2500 ευρώ."
           }
         ],
         "questions": [
@@ -3039,11 +3900,20 @@ const CURRICULUM = [
             "qRo": "Cât câștigă cineva?",
             "answerRo": "2500 euro",
             "qBs": "Koliko se zarađuje?",
-            "answerBs": "2500 eura"
+            "answerBs": "2500 eura",
+            "qEs": "¿Cuanto gana uno?",
+            "answerEs": "2500euros",
+            "qBg": "Колко печели човек?",
+            "answerBg": "2500 евро",
+            "qEl": "Πόσα κερδίζει κανείς;",
+            "answerEl": "2500 ευρώ"
           }
         ],
         "titleRo": "Anunț de locuri de muncă",
-        "titleBs": "Oglas za posao"
+        "titleBs": "Oglas za posao",
+        "titleEs": "Anuncio de empleo",
+        "titleBg": "Обява за работа",
+        "titleEl": "Ανακοίνωση Εργασίας"
       }
     ],
     "grammar": [
@@ -3066,13 +3936,22 @@ const CURRICULUM = [
             "noteEn": "",
             "noteTr": "",
             "translationRo": "doctorul → femeia doctor",
-            "translationBs": "muški doktor → doktorica"
+            "translationBs": "muški doktor → doktorica",
+            "translationEs": "el doctor varón → la doctora",
+            "translationBg": "лекарят мъж → лекарката",
+            "translationEl": "ο άντρας γιατρός → η γυναίκα γιατρός"
           }
         ],
         "titleRo": "Profesii: masculin și feminin",
         "explanationRo": "În germană, profesiile au forme masculine și feminine, de obicei se termină cu „-in” pentru feminin.",
         "titleBs": "Profesije: muško i žensko",
-        "explanationBs": "Na njemačkom, profesije imaju oblike muškog i ženskog roda, koji se obično završavaju na '-in' za ženski rod."
+        "explanationBs": "Na njemačkom, profesije imaju oblike muškog i ženskog roda, koji se obično završavaju na '-in' za ženski rod.",
+        "titleEs": "Profesiones: Masculina y Femenina",
+        "explanationEs": "En alemán, las profesiones tienen formas masculinas y femeninas, y normalmente terminan en '-in' para femenino.",
+        "titleBg": "Професии: мъжки и женски",
+        "explanationBg": "На немски език професиите имат форми за мъжки и женски род, обикновено завършващи на „-in“ за женски род.",
+        "titleEl": "Επαγγέλματα: Ανδρικά και Γυναικεία",
+        "explanationEl": "Στα γερμανικά, τα επαγγέλματα έχουν αρσενικές και γυναικείες μορφές, που συνήθως τελειώνουν σε «-in» για το θηλυκό."
       }
     ],
     "exercises": [
@@ -3090,7 +3969,10 @@ const CURRICULUM = [
         ],
         "answer": 1,
         "questionRo": "Care este forma feminină a lui „Arzt”?",
-        "questionBs": "Koji je ženski oblik 'Arzt'?"
+        "questionBs": "Koji je ženski oblik 'Arzt'?",
+        "questionEs": "¿Cuál es la forma femenina de 'Arzt'?",
+        "questionBg": "Каква е женската форма на „Arzt“?",
+        "questionEl": "Ποια είναι η γυναικεία μορφή του «Arzt»;"
       }
     ],
     "writingPrompts": [
@@ -3152,7 +4034,28 @@ const CURRICULUM = [
       "Workplace",
       "Traženje posla"
     ],
-    "canDoBs": "Mogu govoriti o svom poslu i razumjeti oglase za posao"
+    "canDoBs": "Mogu govoriti o svom poslu i razumjeti oglase za posao",
+    "titleEs": "Trabajo y profesión",
+    "topicsEs": [
+      "Ocupaciones",
+      "Lugar de trabajo",
+      "búsqueda de empleo"
+    ],
+    "canDoEs": "Puedo hablar sobre mi trabajo y entender los anuncios de empleo.",
+    "titleBg": "Работа и професия",
+    "topicsBg": [
+      "Професии",
+      "Работно място",
+      "Търсене на работа"
+    ],
+    "canDoBg": "Мога да говоря за работата си и да разбирам обявите за работа",
+    "titleEl": "Εργασία & Επάγγελμα",
+    "topicsEl": [
+      "Επαγγέλματα",
+      "Χώρος εργασίας",
+      "Αναζήτηση εργασίας"
+    ],
+    "canDoEl": "Μπορώ να μιλήσω για τη δουλειά μου και να κατανοήσω τις αγγελίες εργασίας"
   },
   {
     "id": 12,
@@ -3192,7 +4095,10 @@ const CURRICULUM = [
         "labelEn": "12.12 - Excursion (1)",
         "labelTr": "12.12 - Sınıf Gezisi (1)",
         "labelRo": "12.12 - Excursie (1)",
-        "labelBs": "12.12 - Ekskurzija (1)"
+        "labelBs": "12.12 - Ekskurzija (1)",
+        "labelEs": "12.12 - Excursión (1)",
+        "labelBg": "12.12 - Екскурзия (1)",
+        "labelEl": "12.12 - Εκδρομή (1)"
       }
     ],
     "dialogs": [
@@ -3209,7 +4115,10 @@ const CURRICULUM = [
             "en": "What can I get you?",
             "tr": "Ne alırdınız?",
             "ro": "Ce pot să-ți aduc?",
-            "bs": "Šta da ti donesem?"
+            "bs": "Šta da ti donesem?",
+            "es": "¿Qué puedo conseguirte?",
+            "bg": "Какво мога да ти дам?",
+            "el": "Τι μπορώ να σου πάρω;"
           },
           {
             "speaker": "Gast",
@@ -3218,7 +4127,10 @@ const CURRICULUM = [
             "en": "I would like the soup, please. And a water.",
             "tr": "Çorba istiyorum lütfen. Ve bir su.",
             "ro": "Aș dori supa, te rog. Și o apă.",
-            "bs": "Ja bih supu, molim. I vodu."
+            "bs": "Ja bih supu, molim. I vodu.",
+            "es": "Quisiera la sopa, por favor. Y un agua.",
+            "bg": "Бих искал супата, моля. И вода.",
+            "el": "Θα ήθελα τη σούπα, παρακαλώ. Και ένα νερό."
           },
           {
             "speaker": "Gast",
@@ -3227,11 +4139,17 @@ const CURRICULUM = [
             "en": "The bill, please!",
             "tr": "Hesap lütfen!",
             "ro": "Factura, vă rog!",
-            "bs": "Račun, molim!"
+            "bs": "Račun, molim!",
+            "es": "¡La cuenta, por favor!",
+            "bg": "Сметката, моля!",
+            "el": "Ο λογαριασμός, παρακαλώ!"
           }
         ],
         "titleRo": "În Restaurant",
-        "titleBs": "U restoranu"
+        "titleBs": "U restoranu",
+        "titleEs": "en el restaurante",
+        "titleBg": "В ресторанта",
+        "titleEl": "Στο Εστιατόριο"
       }
     ],
     "readingTexts": [
@@ -3247,7 +4165,10 @@ const CURRICULUM = [
             "en": "Main courses: Schnitzel €13.00 / Pizza €10.50.",
             "tr": "Ana yemekler: Şnitzel 13,00 € / Pizza 10,50 €.",
             "ro": "Feluri principale: Schnitzel 13,00 € / Pizza 10,50 €.",
-            "bs": "Glavna jela: Šnicla 13,00 € / Pizza 10,50 €."
+            "bs": "Glavna jela: Šnicla 13,00 € / Pizza 10,50 €.",
+            "es": "Platos principales: Schnitzel 13,00 € / Pizza 10,50 €.",
+            "bg": "Основни ястия: Шницел 13,00 € / Пица 10,50 €.",
+            "el": "Κύρια πιάτα: Σνίτσελ 13,00 € / Πίτσα 10,50 €."
           }
         ],
         "questions": [
@@ -3263,11 +4184,20 @@ const CURRICULUM = [
             "qRo": "Cât costă șnițelul?",
             "answerRo": "13,00 euro",
             "qBs": "Koliko košta šnicla?",
-            "answerBs": "13,00 eura"
+            "answerBs": "13,00 eura",
+            "qEs": "¿Cuánto cuesta el schnitzel?",
+            "answerEs": "13,00€",
+            "qBg": "Колко струва шницелът?",
+            "answerBg": "13.00 евро",
+            "qEl": "Πόσο κοστίζει το σνίτσελ;",
+            "answerEl": "13,00 ευρώ"
           }
         ],
         "titleRo": "Meniul",
-        "titleBs": "The Menu"
+        "titleBs": "The Menu",
+        "titleEs": "El menú",
+        "titleBg": "Менюто",
+        "titleEl": "Το Μενού"
       }
     ],
     "grammar": [
@@ -3290,13 +4220,22 @@ const CURRICULUM = [
             "noteEn": "",
             "noteTr": "",
             "translationRo": "Există Schnitzel astăzi.",
-            "translationBs": "Danas je šnicl."
+            "translationBs": "Danas je šnicl.",
+            "translationEs": "Hoy hay Schnitzel.",
+            "translationBg": "Днес има Шницел.",
+            "translationEl": "Υπάρχει σνίτσελ σήμερα."
           }
         ],
         "titleRo": "Pronume nehotărât (om) & es gibt",
         "explanationRo": "Pronumele „om” reprezintă oameni/unul în general, în timp ce „es gibt” înseamnă „există/sunt” și ia un obiect acuzativ.",
         "titleBs": "Neodređena zamjenica (čovjek) & es gibt",
-        "explanationBs": "Zamjenica 'čovjek' predstavlja ljude/jednog općenito, dok 'es gibt' znači 'postoji/su' i uzima akuzativ."
+        "explanationBs": "Zamjenica 'čovjek' predstavlja ljude/jednog općenito, dok 'es gibt' znači 'postoji/su' i uzima akuzativ.",
+        "titleEs": "Pronombre indefinido (hombre) y es gibt",
+        "explanationEs": "El pronombre 'hombre' representa a personas/uno en general, mientras que 'es gibt' significa 'hay/hay' y toma un objeto acusativo.",
+        "titleBg": "Неопределено местоимение (man) & es gibt",
+        "explanationBg": "Местоимението „човек“ представлява хора/един като цяло, докато „es gibt“ означава „има/са“ и приема винителен обект.",
+        "titleEl": "Αόριστος Αντωνυμία (άνδρας) & es gibt",
+        "explanationEl": "Η αντωνυμία 'man' αντιπροσωπεύει τους ανθρώπους/ένα γενικά, ενώ το 'es gibt' σημαίνει 'υπάρχει/είναι' και παίρνει ένα κατηγορούμενο αντικείμενο."
       }
     ],
     "exercises": [
@@ -3314,7 +4253,10 @@ const CURRICULUM = [
         ],
         "answer": 1,
         "questionRo": "Ce vrea oaspetele?",
-        "questionBs": "Šta gost želi?"
+        "questionBs": "Šta gost želi?",
+        "questionEs": "¿Qué quiere el invitado?",
+        "questionBg": "Какво иска гостът?",
+        "questionEl": "Τι θέλει ο καλεσμένος;"
       }
     ],
     "writingPrompts": [
@@ -3374,9 +4316,30 @@ const CURRICULUM = [
       "Preference u hrani",
       "Plaćanje računa"
     ],
-    "canDoBs": "Mogu naručiti u restoranu i platiti račun"
+    "canDoBs": "Mogu naručiti u restoranu i platiti račun",
+    "titleEs": "Comer y beber",
+    "topicsEs": [
+      "Restaurante",
+      "Realizar pedidos",
+      "Preferencias alimentarias",
+      "pagar la factura"
+    ],
+    "canDoEs": "Puedo pedir en un restaurante y pagar la cuenta.",
+    "titleBg": "Хранене и пиене",
+    "topicsBg": [
+      "ресторант",
+      "Поръчване",
+      "Хранителни предпочитания",
+      "Плащане на сметката"
+    ],
+    "canDoBg": "Мога да поръчам в ресторант и да платя сметката",
+    "titleEl": "Φαγοπότι",
+    "topicsEl": [
+      "Εστιατόριο",
+      "Παραγγελία",
+      "Διατροφικές προτιμήσεις",
+      "Πληρώνοντας τον λογαριασμό"
+    ],
+    "canDoEl": "Μπορώ να παραγγείλω σε ένα εστιατόριο και να πληρώσω τον λογαριασμό"
   }
 ];
-
-// Daily rotation index
-const TODAY_IDX = new Date().getDate() % CURRICULUM.reduce((a, c) => a + c.speakingPhrases.length, 0);

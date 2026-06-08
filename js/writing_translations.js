@@ -3874,5 +3874,2909 @@ const WRITING_TRANSLATIONS = {
         "Da li ste izrazili svoje mišljenje o kursu?"
       ]
     }
+  },
+  "es": {
+    "1": {
+      "title": "Autopresentación",
+      "type": "Hoja informativa/párrafo",
+      "description": "Aprenda a presentarse en alemán: nombre, edad, país, residencia, familia e idiomas.",
+      "keyVocabulary": [
+        "ser llamado",
+        "venir de",
+        "vivir en",
+        "ser",
+        "años",
+        "casado",
+        "soltero",
+        "niño / niños",
+        "lengua materna",
+        "aprender",
+        "hablar",
+        "meta",
+        "trabajo / profesión"
+      ],
+      "usefulPhrases": [
+        "Mi nombre es ...",
+        "Yo vengo de...",
+        "Vivo en... / desde... años.",
+        "Tengo... años.",
+        "Estoy casado/soltero.",
+        "Tengo... hijos.",
+        "Mi lengua materna es...",
+        "He estado aprendiendo alemán durante...",
+        "Yo también hablo...",
+        "Mi objetivo es..."
+      ],
+      "grammarFocus": [
+        "Utilice 'ich bin' para presentarse",
+        "Verbos: heißen, kommen, wohnen, sein, haben",
+        "Recuerde: 'ich komme' (no 'ich kommt')",
+        "Números: 'ich bin 25 Jahre alt'"
+      ],
+      "structure": [
+        {
+          "step": "Introducción: nombre y país",
+          "tip": "Comience con 'Hola' o 'Guten Tag' luego su nombre y país de origen"
+        },
+        {
+          "step": "Detalles personales: edad y estado",
+          "tip": "Agregue su edad, estado civil y número de hijos, si corresponde"
+        },
+        {
+          "step": "Idiomas y Estudios",
+          "tip": "Menciona tu lengua materna y cuánto tiempo llevas aprendiendo alemán."
+        },
+        {
+          "step": "Conclusión - Meta",
+          "tip": "Termina con tu objetivo de aprender alemán."
+        }
+      ],
+      "exampleEssayTranslation": "¡Hola! Mi nombre es Ahmad Al-Hassan. Vengo de Siria. Ahora vivo en Berlín desde hace dos años. Tengo 28 años. Estoy casado y tengo dos hijos. Mi lengua materna es el árabe. Llevo tres meses aprendiendo alemán. El alemán es difícil, pero me gusta aprender. También hablo un poco de inglés. Mi objetivo es hablar bien alemán y trabajar en Alemania.",
+      "writingTips": [
+        "Empiece siempre con 'Hola' o 'Guten Tag'",
+        "Utilice el verbo 'ich heiße' (o 'mein Name ist')",
+        "Escribe oraciones cortas y claras.",
+        "Recuerda poner un punto al final de cada frase.",
+        "Oración alemana: el verbo siempre está en la segunda posición"
+      ],
+      "selfCheckList": [
+        "¿Escribiste tu nombre? (Ich heiße...)",
+        "¿Mencionaste tu país? (Ich komme aus...)",
+        "¿Mencionaste tu ciudad en Alemania? (Estoy en...)",
+        "¿Mencionaste tu edad? (Ich bin... Jahre alt.)",
+        "¿Mencionaste tu estado civil?",
+        "¿Mencionaste tu lengua materna?",
+        "¿Todas las oraciones comienzan con mayúscula?",
+        "¿Todas las oraciones terminan con un punto?"
+      ]
+    },
+    "2": {
+      "title": "Mi familia",
+      "type": "Descripción",
+      "description": "Aprenda a escribir sobre su familia: sus miembros, sus edades y sus profesiones.",
+      "keyVocabulary": [
+        "familia",
+        "padre/madre",
+        "hermano / hermana",
+        "hijo/hija",
+        "marido/esposa",
+        "abuelo / abuela",
+        "grande / pequeño",
+        "años",
+        "trabajar como",
+        "vivir / residir",
+        "gustar / amar",
+        "juntos"
+      ],
+      "usefulPhrases": [
+        "Mi familia es grande/pequeña.",
+        "Somos... personas.",
+        "El nombre de mi padre es... Tiene... años.",
+        "Mi madre es... de profesión.",
+        "Tengo... hermanos y... hermanas.",
+        "Mi hermano es menor/mayor que yo.",
+        "Vivimos juntos en...",
+        "Mi familia es muy importante para mí."
+      ],
+      "grammarFocus": [
+        "Artículos posesivos: mein (masc/neut) - meine (fem/plur)",
+        "Mein Vater / Meine Mutter / Mein Kind",
+        "Verbo 'sein' para descripción: Er ist Arzt. Sie ist Lehrerin.",
+        "Género y número en oraciones descriptivas."
+      ],
+      "structure": [
+        {
+          "step": "Introducción - Descripción general de la familia",
+          "tip": "Comience describiendo el tamaño de su familia y el número de miembros."
+        },
+        {
+          "step": "Descripción detallada: cada miembro",
+          "tip": "Describa a cada miembro: nombre, edad y profesión."
+        },
+        {
+          "step": "Relaciones familiares",
+          "tip": "Menciona lo que te gusta hacer juntos en familia."
+        },
+        {
+          "step": "Conclusión",
+          "tip": "Termina con una frase que exprese tus sentimientos hacia tu familia."
+        }
+      ],
+      "exampleEssayTranslation": "Mi familia no es muy grande. Somos cuatro personas. El nombre de mi padre es Hassan. Tiene 55 años y trabaja como ingeniero. El nombre de mi madre es Nour. Tiene 50 años y es profesora. Tengo una hermana. Su nombre es Sara y tiene 20 años. Ella estudia medicina. Vivimos todos juntos en un gran apartamento en Hamburgo. Los fines de semana comemos juntos y hablamos mucho. Mi familia es muy importante para mí.",
+      "writingTips": [
+        "Utilice 'mein' para masculino/neutral y 'meine' para femenino/plural",
+        "Mencione primero el nombre, luego la edad y luego la profesión de cada miembro.",
+        "Utilice 'und' para conectar oraciones cortas",
+        "No olvides las comas entre números y detalles."
+      ],
+      "selfCheckList": [
+        "¿Describiste cuántas personas hay en tu familia?",
+        "¿Mencionaste el nombre, edad y trabajo de cada miembro?",
+        "¿Usaste mein/meine correctamente?",
+        "¿Mencionaste dónde vive tu familia?",
+        "¿Agregaste una frase emotiva al final?",
+        "¿Todos los nombres de las personas están en mayúscula?"
+      ]
+    },
+    "3": {
+      "title": "mi apartamento",
+      "type": "Descripción",
+      "description": "Aprenda a describir su apartamento o casa: habitaciones, muebles, alquiler y ubicación.",
+      "keyVocabulary": [
+        "apartamento / casa",
+        "habitación",
+        "sala de estar",
+        "dormitorio",
+        "cocina",
+        "baño",
+        "balcón",
+        "alquilar",
+        "piso / planta baja",
+        "grande/pequeño/brillante/oscuro",
+        "sofá / cama / mesa",
+        "jardín"
+      ],
+      "usefulPhrases": [
+        "Vivo en un apartamento/una casa.",
+        "El apartamento tiene... habitaciones.",
+        "El apartamento tiene... metros cuadrados.",
+        "Se encuentra en el... piso.",
+        "El alquiler es... Euros.",
+        "En el salón hay...",
+        "Me gusta mi apartamento porque...",
+        "El apartamento está cerca de..."
+      ],
+      "grammarFocus": [
+        "es gibt = hay / hay (para descripción)",
+        "en + Dativ: im Wohnzimmer, in der Küche",
+        "Adjetivos: Die Wohnung ist groß/hell/schön",
+        "Preposiciones: auf dem Tisch, neben dem Sofa, vor dem Fenster"
+      ],
+      "structure": [
+        {
+          "step": "Introducción - Tipo de vivienda y ubicación",
+          "tip": "Comience con el tipo de vivienda (apartamento/casa) y su ubicación en la ciudad."
+        },
+        {
+          "step": "Descripción del Apartamento - Tamaño y Habitaciones",
+          "tip": "Describa el número de habitaciones, el tamaño y el alquiler."
+        },
+        {
+          "step": "Descripción de Habitaciones y Mobiliario",
+          "tip": "Describe lo que hay en cada habitación."
+        },
+        {
+          "step": "Tu opinión",
+          "tip": "Menciona lo que te gusta y lo que no te gusta de tu apartamento."
+        }
+      ],
+      "exampleEssayTranslation": "Mi apartamento no es muy grande. Dispone de 3 estancias: salón, dormitorio y habitación infantil. Son 75 metros cuadrados. El alquiler es de 900 euros al mes. En el salón hay un sofá, un televisor y una mesa grande. El dormitorio es pequeño pero acogedor. La cocina es moderna y luminosa. También tenemos un balcón. Me gusta mucho mi apartamento porque es luminoso y tranquilo. El balcón es mi lugar favorito.",
+      "writingTips": [
+        "Recuerda que las habitaciones en alemán tienen diferentes géneros: das Wohnzimmer, die Küche, der Balkon",
+        "Utilice 'es gibt' seguido del caso acusativo (p. ej., einen Fernseher, ein Sofa)",
+        "Comprobar el uso de mayúsculas en los sustantivos: Wohnung, Zimmer, Küche"
+      ],
+      "selfCheckList": [
+        "¿Mencionaste cuántas habitaciones tiene tu departamento?",
+        "¿Especificaste el tamaño en metros cuadrados?",
+        "¿Mencionaste el alquiler?",
+        "¿Describiste los muebles en al menos una habitación?",
+        "¿Usaste 'es gibt' correctamente con acusativo?",
+        "¿Dijo su opinión sobre el apartamento?"
+      ]
+    },
+    "4": {
+      "title": "Mi rutina diaria",
+      "type": "Párrafo cronológico",
+      "description": "Aprenda a describir su día típico: despertarse, comer, trabajar, estudiar y tiempo libre.",
+      "keyVocabulary": [
+        "rutina diaria",
+        "despertar / levantarse",
+        "desayunar",
+        "empezar / comenzar",
+        "trabajar / estudiar",
+        "almuerzo/cena",
+        "tiempo libre",
+        "para ver la televisión",
+        "limpiar",
+        "ir a dormir",
+        "en punto / hora",
+        "siempre / a menudo / a veces"
+      ],
+      "usefulPhrases": [
+        "Mi día comienza a las... en punto.",
+        "Primero me levanto y desayuno.",
+        "Luego voy al trabajo/escuela.",
+        "A las... en punto almuerzo.",
+        "Por la tarde hago...",
+        "Por la noche veo televisión o leo.",
+        "Me acuesto a las... en punto."
+      ],
+      "grammarFocus": [
+        "Verbos separables: aufstehen (ich stehe auf), einkaufen (ich kaufe ein)",
+        "Indicaciones de tiempo con 'um': um 8 Uhr",
+        "Orden de las palabras: cuando comienza con el tiempo, el verbo sigue (por ejemplo, Um 8 Uhr frühstücke ich)"
+      ],
+      "structure": [
+        {
+          "step": "Rutina matutina",
+          "tip": "Describe a qué hora te despiertas, te levantas y desayunas."
+        },
+        {
+          "step": "Principales Actividades (Día)",
+          "tip": "Describe tu trabajo, escuela o horas de curso."
+        },
+        {
+          "step": "Rutina nocturna",
+          "tip": "Describe tus actividades de tiempo libre, cena y limpieza."
+        },
+        {
+          "step": "Conclusión: hora de dormir",
+          "tip": "Menciona a qué hora te vas a dormir"
+        }
+      ],
+      "exampleEssayTranslation": "Mi día empieza muy temprano. Me levanto a las 6:30. Primero tomo un café y desayuno. A las 7:45 voy a mi curso de alemán. El curso comienza a las 8:30 y finaliza a las 12:00. A las 13:00 almuerzo en casa. Por la tarde limpio el apartamento y estudio alemán durante dos horas. Por la noche preparo la cena para mi familia. Comemos a las 19:00. Luego miramos la televisión juntos. Me acuesto a las 22:30.",
+      "writingTips": [
+        "Cuidado con los verbos separables: aufstehen → ich stehe... auf",
+        "Varíe sus conectores: Zuerst, Dann, Danach, Später",
+        "Mantenga el verbo en la segunda posición incluso cuando comience con una expresión de tiempo."
+      ],
+      "selfCheckList": [
+        "¿Dijiste cuándo comienza tu día?",
+        "¿Usaste correctamente los verbos separables?",
+        "¿Colocaste verbos en segunda posición después de expresiones de tiempo?",
+        "¿Mencionaste tu curso o trabajo de alemán?",
+        "¿Mencionaste cuándo te vas a dormir?",
+        "¿Usaste palabras de transición (Zuerst, Dann, Danach)?"
+      ]
+    },
+    "5": {
+      "title": "mi pasatiempo",
+      "type": "Descripción / Opinión",
+      "description": "Aprenda a escribir sobre sus pasatiempos, deportes, música y cómo pasa su tiempo libre.",
+      "keyVocabulary": [
+        "pasatiempo / pasatiempos",
+        "tiempo libre",
+        "jugar futbol/tenis",
+        "leer libros",
+        "escuchar musica",
+        "cocinar / hornear",
+        "para encontrarse con amigos",
+        "viajar",
+        "los fines de semana",
+        "divertido",
+        "pasatiempo favorito"
+      ],
+      "usefulPhrases": [
+        "Mis pasatiempos son...",
+        "En mi tiempo libre me gusta...",
+        "Juego al fútbol todos los sábados.",
+        "Me gusta leer porque es relajante.",
+        "Mi pasatiempo favorito es...",
+        "Los fines de semana a menudo me encuentro con amigos.",
+        "... es muy divertido."
+      ],
+      "grammarFocus": [
+        "Uso de 'gern' para expresar agrado: Ich spiele gern Fußball. Ich lese gern.",
+        "Formas plurales: das Hobby → die Hobbys",
+        "Conjugación de verbos: spielen, lesen (du liest, er liest), treffen (ich treffe, du triffst)"
+      ],
+      "structure": [
+        {
+          "step": "Introducción - Tiempo libre",
+          "tip": "Indique en general cuánto tiempo libre tiene y si le gustan los pasatiempos."
+        },
+        {
+          "step": "Tus principales aficiones",
+          "tip": "Describe 2 o 3 pasatiempos que practiques habitualmente."
+        },
+        {
+          "step": "Detalles y frecuencia",
+          "tip": "Explica cuándo y con quién practicas estas aficiones."
+        },
+        {
+          "step": "Conclusión - Preferencia",
+          "tip": "Indique cuál es su pasatiempo favorito y por qué."
+        }
+      ],
+      "exampleEssayTranslation": "Tengo mucho tiempo libre los fines de semana. Mis pasatiempos son jugar al fútbol, ​​leer y escuchar música. Todos los sábados por la mañana juego al fútbol con mis amigos en el parque. Eso es muy divertido. Por la noche me gusta leer libros o ver una película. Mi pasatiempo favorito es cocinar. Me gusta cocinar comida italiana para mi familia. Los pasatiempos son muy importantes para mí porque me ayudan a relajarme.",
+      "writingTips": [
+        "Coloque 'gern' directamente después del verbo conjugado: Ich schwimme gern",
+        "Presta atención al verbo irregular 'lesen': ich lese, du liest, er/sie liest",
+        "Presta atención a la ortografía: Hobbys (con 'y', no 'ies' como en inglés)"
+      ],
+      "selfCheckList": [
+        "¿Enumeraste tus pasatiempos?",
+        "¿Usaste 'gern' correctamente después de los verbos?",
+        "¿Especificaste con qué frecuencia practicas tus pasatiempos?",
+        "¿Mencionaste con quién los haces?",
+        "¿Dijiste tu pasatiempo favorito?",
+        "¿Es correcta la ortografía de 'Hobbys'?"
+      ]
+    },
+    "6": {
+      "title": "Escribir un correo electrónico",
+      "type": "Carta formal e informal",
+      "description": "Aprenda a escribir correos electrónicos formales e informales de nivel A1 (invitaciones, disculpas, solicitudes).",
+      "keyVocabulary": [
+        "correo electrónico / carta",
+        "invitación",
+        "disculpa",
+        "pedido",
+        "remitente/destinatario",
+        "sujeto",
+        "fecha/hora",
+        "invitar",
+        "desafortunadamente",
+        "no puedo venir",
+        "atentamente",
+        "estimado"
+      ],
+      "usefulPhrases": [
+        "Estimado Sr./Sra. ... (formal)",
+        "Querido... (informal)",
+        "Me gustaría invitarte a...",
+        "Lamentablemente no puedo venir porque...",
+        "Por favor responda por...",
+        "Escribo este correo electrónico porque...",
+        "Atentamente,"
+      ],
+      "grammarFocus": [
+        "Fórmulas de saludo y cierre (formal vs informal)",
+        "Pronombres de dirección: Sie/Ihnen (formal, en mayúscula) vs du/dir (informal)",
+        "Oraciones subordinadas con 'weil' (verbo al final)"
+      ],
+      "structure": [
+        {
+          "step": "Saludo",
+          "tip": "Elija formal (Sehr geehrte/r...) o informal (Liebe/r...) según el destinatario."
+        },
+        {
+          "step": "Razón para escribir",
+          "tip": "Indique claramente por qué está escribiendo en la primera oración."
+        },
+        {
+          "step": "Detalles / Información",
+          "tip": "Agregar detalles: fecha, hora, motivo o disculpa"
+        },
+        {
+          "step": "Llamado a la acción/Cierre",
+          "tip": "Solicite una respuesta y utilice una fórmula de aprobación adecuada"
+        }
+      ],
+      "exampleEssayTranslation": "Estimado Sr. Müller: Le escribo este correo electrónico porque mañana no puedo asistir al curso de alemán. Estoy enfermo y debo ir al médico. Espero poder volver el lunes. ¿Podrías enviarme la tarea? Muchas gracias por tu ayuda. Saludos cordiales, Ahmad Al-Hassan.",
+      "writingTips": [
+        "En cartas/correos electrónicos escriba siempre Sie, Ihr, Ihnen con mayúscula",
+        "Si el saludo termina con coma, la primera palabra de la siguiente línea comienza con letra minúscula.",
+        "Relaciona el saludo del final con el saludo del inicio."
+      ],
+      "selfCheckList": [
+        "¿Elegiste el saludo correcto (formal/informal)?",
+        "¿La primera oración después del saludo comenzó con una letra minúscula?",
+        "¿Dijo el motivo de la escritura?",
+        "¿Escribiste 'Sie/Ihnen' con letras mayúsculas si fuera formal?",
+        "¿Utilizó una fórmula de cierre correcta (por ejemplo, Mit freundlichen Grüßen)?",
+        "¿Firmaste con tu nombre al final?"
+      ]
+    },
+    "7": {
+      "title": "en el medico",
+      "type": "Descripción / Informe de enfermedad",
+      "description": "Aprenda a describir síntomas de salud, partes del cuerpo, dolor y a escribir una nota de excusa para trabajar.",
+      "keyVocabulary": [
+        "cuerpo",
+        "cabeza/estómago/espalda",
+        "dolor / dolor",
+        "fiebre",
+        "tos/resfriado",
+        "doctor",
+        "cita",
+        "baja por enfermedad",
+        "medicina / pastilla",
+        "prescripción",
+        "saludable",
+        "lastimar"
+      ],
+      "usefulPhrases": [
+        "Me siento enfermo/indispuesto.",
+        "Me duele la cabeza. / Me duele la cabeza.",
+        "Tengo fiebre alta (39 grados).",
+        "Necesito una cita hoy, por favor.",
+        "No puedo venir a trabajar hoy porque estoy enfermo.",
+        "El médico me recetó pastillas."
+      ],
+      "grammarFocus": [
+        "El verbo 'wehtun' (separable): Mein Kopf tut weh / Meine Beine tun weh",
+        "Sustantivos compuestos: Kopf + Schmerzen = Kopfschmerzen",
+        "Verbo modal 'müssen' (conjugación: ich muss, du musst, er muss)"
+      ],
+      "structure": [
+        {
+          "step": "enfermedad del estado",
+          "tip": "Menciona que te sientes mal y has estado enfermo desde ayer."
+        },
+        {
+          "step": "Describir los síntomas",
+          "tip": "Explica qué te duele (cabeza, estómago, garganta) y si tienes fiebre."
+        },
+        {
+          "step": "Visita al médico / acción",
+          "tip": "Mencione que tiene una cita con el médico o necesita una nota de baja por enfermedad"
+        },
+        {
+          "step": "Solicitud de trabajo/curso",
+          "tip": "Informe a su empleador/profesor que no puede venir"
+        }
+      ],
+      "exampleEssayTranslation": "Estimada señora Weber: Hoy no puedo ir a trabajar porque estoy enferma. Tengo un fuerte dolor de cabeza y de garganta desde ayer por la tarde. Yo también tengo fiebre. Tengo cita con el médico hoy a las 10:00. Más tarde te enviaré el certificado de baja por enfermedad. Espero estar sano nuevamente el jueves. Saludos cordiales, Ahmad Al-Hassan.",
+      "writingTips": [
+        "Tenga en cuenta el plural en el dolor: Kopfschmerzen, Bauchschmerzen (siempre plural)",
+        "wehtun es singular 'tut weh' para una parte, plural 'tun weh' para varias partes",
+        "müssen es un verbo modal, por lo que el segundo verbo va al final en infinitivo."
+      ],
+      "selfCheckList": [
+        "¿Mencionaste que estás enfermo?",
+        "¿Especificó sus síntomas (dolor de cabeza, fiebre, etc.)?",
+        "¿Dijo que tiene una cita con el médico?",
+        "¿Le dijiste a tu jefe/maestro que no puedes venir?",
+        "¿Usaste 'tut weh' o 'tun weh' correctamente?",
+        "¿Solicitó un certificado de enfermedad (Krankschreibung)?"
+      ]
+    },
+    "8": {
+      "title": "Hacer pedidos en un restaurante",
+      "type": "Diálogo / Descripción",
+      "description": "Aprende a pedir comida y bebida, pedir la cuenta y expresar tu opinión sobre la comida.",
+      "keyVocabulary": [
+        "restaurante",
+        "menú",
+        "mesero",
+        "entrante/plato principal/postre",
+        "escalope / sopa",
+        "ordenar",
+        "pagar / pagar en efectivo / tarjeta",
+        "la factura",
+        "Quédese con el cambio",
+        "consejo",
+        "delicioso"
+      ],
+      "usefulPhrases": [
+        "Quisiera hacer un pedido, por favor.",
+        "¿Qué me recomienda?",
+        "Para mí, un escalope con patatas, por favor.",
+        "Para beber, tomaré agua.",
+        "¿Podemos pagar, por favor?",
+        "¿Juntos o por separado?",
+        "La cuenta, por favor.",
+        "Estaba muy delicioso."
+      ],
+      "grammarFocus": [
+        "'möchte' condicional para órdenes educadas: Ich möchte bestellen",
+        "Caso acusativo para pedidos de comida: Ich nehme einen Salat (masc), ein Wasser (neut), eine Suppe (fem)",
+        "Preposición 'mit' + Dativ: Schnitzel mit Kartoffeln"
+      ],
+      "structure": [
+        {
+          "step": "Pedir comida y bebida",
+          "tip": "Utilice estructuras educadas como 'Ich hätte gern' o 'Ich nehme'"
+        },
+        {
+          "step": "Solicitudes especiales",
+          "tip": "Pide algo extra, como agua sin hielo o ensalada con aceite."
+        },
+        {
+          "step": "Pagar la factura",
+          "tip": "Llama al camarero y pide la cuenta, especificando cómo deseas pagar."
+        },
+        {
+          "step": "Consejo / Despedida",
+          "tip": "Da un consejo y di gracias."
+        }
+      ],
+      "exampleEssayTranslation": "Buenas noches. Nos gustaría hacer un pedido. Para empezar, tomo una sopa de tomate. Como plato principal, me gustaría un schnitzel con patatas fritas. Mi esposa toma una ensalada de pescado. Para beber tomamos una botella de agua mineral. (Más tarde) ¿Podemos pagar, por favor? Nos gustaría pagar juntos, en efectivo. La factura es de 36 euros. Aquí tienes 40 euros. Quédese con el cambio. La comida estuvo muy deliciosa. ¡Gracias!",
+      "writingTips": [
+        "Utilice siempre 'Ich hätte gern' o 'Ich möchte' en lugar de 'Ich will' (grosero)",
+        "Al pagar, diga '¡Zahlen, bitte!' o 'Ich möchte bezahlen, bitte'",
+        "Utilice 'Stimmt so' para dejar propina al entregar el dinero"
+      ],
+      "selfCheckList": [
+        "¿Usó expresiones amables (Ich hätte gern... / Ich möchte...)?",
+        "¿Pediste comida y bebida?",
+        "¿Utilizó correctamente los artículos acusativos (por ejemplo, einen Salat)?",
+        "¿Pediste la factura?",
+        "¿Especificaste el método de pago (efectivo/tarjeta)?",
+        "¿Mencionaste dejar una propina?"
+      ]
+    },
+    "9": {
+      "title": "Mi Profesión / Mi Trabajo",
+      "type": "Descripción",
+      "description": "Aprenda a escribir sobre su trabajo actual, tareas diarias, lugar de trabajo y horario laboral.",
+      "keyVocabulary": [
+        "profesión / trabajo",
+        "lugar de trabajo/oficina",
+        "horas de trabajo",
+        "tareas / deberes",
+        "colegas",
+        "salario",
+        "trabajar como",
+        "por profesión",
+        "que le guste el trabajo",
+        "tiempo completo / tiempo parcial"
+      ],
+      "usefulPhrases": [
+        "Trabajo como...",
+        "Soy... de profesión.",
+        "Mi lugar de trabajo está en...",
+        "Trabajo 40 horas a la semana.",
+        "Mis tareas son...",
+        "Me gustan mis colegas.",
+        "El trabajo es interesante/estresante.",
+        "Trabajo de 8 a 17 horas."
+      ],
+      "grammarFocus": [
+        "Preposiciones de trabajo: arbeiten bei + Empresa (Dativ), arbeiten als + Profesión",
+        "Rangos de tiempo: de ... bis ... (de 8 a 17 horas)",
+        "Sufijo de profesión femenina '-in': der Lehrer / die Lehrerin"
+      ],
+      "structure": [
+        {
+          "step": "Título profesional",
+          "tip": "Indique su profesión y dónde trabaja actualmente."
+        },
+        {
+          "step": "Horas de trabajo",
+          "tip": "Explique su horario de trabajo y cuántos días a la semana trabaja."
+        },
+        {
+          "step": "Tareas Diarias",
+          "tip": "Enumere 2 o 3 tareas principales que realiza durante el trabajo"
+        },
+        {
+          "step": "Opinión sobre el trabajo",
+          "tip": "Di si te gusta tu trabajo, tus compañeros o si es estresante"
+        }
+      ],
+      "exampleEssayTranslation": "Trabajo como informático en una empresa de software en Munich. Soy ingeniero de profesión. Trabajo a tiempo completo, 40 horas a la semana. Mi horario de trabajo es de 9:00 a 17:30. Mis tareas son escribir programas y ayudar a los clientes. Me gusta mucho mi trabajo porque es interesante. Mis colegas también son muy amables y serviciales. La oficina es moderna y tranquila.",
+      "writingTips": [
+        "Las mujeres deben añadir '-in' al título de su trabajo: ich arbeite als Verkäuferin",
+        "Recuerda la diferencia: 'Beruf' es la profesión que estudiaste, 'Job' es el trabajo que haces",
+        "Utilice 'bei' para el nombre del empleador (bei Siemens) y 'als' para el puesto de trabajo (als Ingenieur)"
+      ],
+      "selfCheckList": [
+        "¿Dijo su profesión y función?",
+        "¿Usaste la preposición correcta (bei/als)?",
+        "¿Especificaste tu horario de trabajo?",
+        "¿Enumeró sus tareas principales?",
+        "¿Expresaste tu opinión sobre el trabajo o los compañeros?",
+        "¿Usaste el sufijo femenino '-in' si eres mujer?"
+      ]
+    },
+    "10": {
+      "title": "Lista de compras y diálogo",
+      "type": "Lista y diálogo de compras",
+      "description": "Aprenda a escribir una lista de compras y escribir un diálogo con un vendedor en el supermercado o mercado.",
+      "keyVocabulary": [
+        "lista de compras",
+        "supermercado / mercado",
+        "kilo / gramo / botella",
+        "precio",
+        "caro / barato",
+        "verduras / frutas",
+        "queso / carne / pan",
+        "fresco",
+        "eso es todo",
+        "bolsa"
+      ],
+      "usefulPhrases": [
+        "¿Qué necesitas?",
+        "Necesito un kilo de tomates.",
+        "¿Eso es todo?",
+        "Sí, eso es todo, gracias.",
+        "¿Cuánto cuesta una botella de aceite?",
+        "También necesitamos pan y queso.",
+        "¿Dónde puedo encontrar leche?",
+        "¿Tienes pescado fresco?"
+      ],
+      "grammarFocus": [
+        "Plural de sustantivos y unidades: 2 Kilo (no Kilos), 3 Flaschen (plural)",
+        "Cuantificadores: viel / viele (viele Tomaten, viel Brot)",
+        "Preguntando por los precios: ¿Era kostet...? / ¿Era gratuito...?"
+      ],
+      "structure": [
+        {
+          "step": "Preparación de la lista de compras",
+          "tip": "Anota la lista de artículos que necesitas por cantidades (kilo, botella, pack)"
+        },
+        {
+          "step": "Diálogo - Pedir artículos",
+          "tip": "Pregúntele al vendedor si tiene productos frescos o dónde encontrarlos."
+        },
+        {
+          "step": "Consulta de precios",
+          "tip": "Preguntar por el precio de artículos específicos."
+        },
+        {
+          "step": "Caja/Pago",
+          "tip": "Complete la transacción en el mostrador."
+        }
+      ],
+      "exampleEssayTranslation": "Buen día. Me gustaría comprar verduras y frutas hoy. Necesito dos kilos de manzanas, un kilo de tomates y un pepino. ¿Los tomates están frescos? Sí, están recién hechos desde hoy. ¿Cuánto cuestan las manzanas? Un kilo cuesta 2,50 euros. Está bien, tomaré dos kilos. ¿También tienes queso? Sí, por allá. Eso es todo, gracias. Eso son 8,20 euros. Aquí tienes 10 euros. Muchas gracias.",
+      "writingTips": [
+        "Tenga en cuenta que las unidades de medida suelen permanecer en singular después de los números: 2 kilos de Äpfel, 3 litros de leche",
+        "Utilice 'Was kostet...' para elementos singulares y 'Was kosten...' para elementos plurales.",
+        "Pregunte cortésmente: 'Ich hätte gern...' o 'Ich brauche...'"
+      ],
+      "selfCheckList": [
+        "¿Incluiste cantidades y unidades (kilo, litro, paquete)?",
+        "¿Preguntaste por el precio?",
+        "¿Verificaste si los artículos están frescos?",
+        "¿Usaste 'Was kostet/Was kosten' correctamente?",
+        "¿Utilizó expresiones educadas para solicitar artículos?",
+        "¿Escribiste un cierre lógico para la interacción de compras?"
+      ]
+    },
+    "11": {
+      "title": "mi ciudad",
+      "type": "Descripción",
+      "description": "Aprenda a describir su ciudad: ubicación, tamaño, transporte público, lugares turísticos y vida.",
+      "keyVocabulary": [
+        "ciudad / pueblo",
+        "ubicación / país",
+        "habitantes",
+        "transporte público",
+        "monumentos / atracciones",
+        "tranquilo/ocupado",
+        "parques / museos",
+        "tiendas",
+        "gustar la ciudad",
+        "aquí"
+      ],
+      "usefulPhrases": [
+        "Vivo en..., una ciudad en...",
+        "La ciudad tiene... habitantes.",
+        "Se encuentra en el norte/sur/este/oeste.",
+        "Hay muchos lugares de interés, como...",
+        "El transporte público es muy bueno.",
+        "Me gusta vivir aquí porque...",
+        "Mi lugar favorito es..."
+      ],
+      "grammarFocus": [
+        "Adverbios de lugar: hier, dort, in der Nähe",
+        "Direcciones de la brújula: en el norte, en el sur, en el oeste, en el oeste",
+        "Verbo 'liegen' para ubicación: München liegt im Süden von Deutschland"
+      ],
+      "structure": [
+        {
+          "step": "Ubicación y tamaño",
+          "tip": "Nombre la ciudad, país/región y número de habitantes."
+        },
+        {
+          "step": "Transporte público e instalaciones",
+          "tip": "Mencionar cómo es el transporte público y si hay escuelas, parques o comercios."
+        },
+        {
+          "step": "Atracciones y Ocio",
+          "tip": "Enumere 2 o 3 lugares o cosas para hacer en la ciudad."
+        },
+        {
+          "step": "Conclusión personal",
+          "tip": "Explica por qué te gusta o no te gusta vivir en esta ciudad."
+        }
+      ],
+      "exampleEssayTranslation": "Vivo en Hamburgo. Es una gran ciudad en el norte de Alemania. Hamburgo tiene alrededor de 1,8 millones de habitantes. La ciudad se encuentra a orillas del río Elba. El transporte público es muy bueno: hay autobuses, metro y barcos. Aquí hay muchos lugares de interés, como el puerto y la Filarmónica del Elba. Hamburgo tiene muchos parques y tiendas hermosos. Me gusta vivir aquí porque la ciudad es hermosa y animada. El puerto es mi lugar favorito.",
+      "writingTips": [
+        "Nota sobre el uso de mayúsculas: Norden, Süden, Osten, Westen se escriben con mayúscula cuando siguen a 'im'",
+        "Utilice 'es gibt' para enumerar lo que existe en la ciudad (con acusativo)",
+        "Escriba 'in' para las ciudades: en Berlín, en Hamburgo (sin artículo)"
+      ],
+      "selfCheckList": [
+        "¿Dijo el nombre de la ciudad y su ubicación?",
+        "¿Mencionaste el tamaño o la población?",
+        "¿Mencionaste el transporte público?",
+        "¿Enumeró algunos lugares de interés o atracciones?",
+        "¿Expresaste tu opinión personal sobre la ciudad?",
+        "¿Usaste correctamente las indicaciones de la brújula?"
+      ]
+    },
+    "12": {
+      "title": "Perfil personal",
+      "type": "Hoja informativa/formulario",
+      "description": "Aprenda a completar un formulario de información personal y escribir un párrafo que resuma los hechos.",
+      "keyVocabulary": [
+        "nombre de pila",
+        "apellido / apellido",
+        "fecha de nacimiento",
+        "Lugar de nacimiento",
+        "nacionalidad",
+        "dirección / calle",
+        "número de teléfono",
+        "correo electrónico",
+        "idiomas",
+        "firma"
+      ],
+      "usefulPhrases": [
+        "Nombre: ... / Apellido: ...",
+        "Fecha de nacimiento: ... en ...",
+        "Nacionalidad: ...",
+        "Mi dirección es: ... Calle, ... Ciudad.",
+        "Mi número de teléfono es...",
+        "Hablo... y..."
+      ],
+      "grammarFocus": [
+        "Capitalización de sustantivos en formas.",
+        "Fechas de formato: 12.05.1995 (día.mes.año)",
+        "Preposiciones de dirección y origen: in (ciudad), aus (país)"
+      ],
+      "structure": [
+        {
+          "step": "Datos del formulario",
+          "tip": "Escriba los datos personales en un formato claro."
+        },
+        {
+          "step": "Párrafo de resumen de hechos",
+          "tip": "Escribe un texto breve que conecte todos estos hechos en oraciones completas."
+        }
+      ],
+      "exampleEssayTranslation": "Nombre: Ahmad. Apellido: Al-Hassan. Fecha de nacimiento: 15.08.1998. Lugar de nacimiento: Alepo. Nacionalidad: siria. Dirección: Hauptstraße 12, 10115 Berlín. Teléfono: 0176-12345678. Correo electrónico: ahmad@email.com. Idiomas: Árabe (lengua materna), Alemán (A1), Inglés (bueno). Este es Ahmad Al-Hassan. Nació en Alepo, Siria. Ahora vive en Berlín. Habla árabe, alemán e inglés.",
+      "writingTips": [
+        "Los formularios requieren una ortografía precisa y un formato correcto de números y símbolos.",
+        "En alemán, el nombre de la calle siempre va primero, seguido del número de la casa: Hauptstraße 12",
+        "El apellido (Nachname/Familienname) es diferente del nombre (Vorname)"
+      ],
+      "selfCheckList": [
+        "¿Completó todos los campos obligatorios del formulario?",
+        "¿Formateó la dirección correctamente (calle y luego número de casa)?",
+        "¿Formateaste correctamente la fecha de nacimiento?",
+        "¿Escribiste un texto resumido en 3ª persona (Él/Ella)?",
+        "¿Todos los sustantivos están en mayúscula?",
+        "¿Especificaste tus niveles de idioma?"
+      ]
+    },
+    "13": {
+      "title": "El clima",
+      "type": "Descripción / Informe",
+      "description": "Aprenda a describir diferentes condiciones climáticas, estaciones, temperaturas y actividades.",
+      "keyVocabulary": [
+        "clima",
+        "sol / lluvia / nieve / viento",
+        "estación",
+        "primavera/verano/otoño/invierno",
+        "temperatura / grados",
+        "tibio / caliente / frío / fresco",
+        "nublado / ventoso / soleado",
+        "brillar",
+        "mal tiempo",
+        "congelar"
+      ],
+      "usefulPhrases": [
+        "Hoy hace muy buen/mal tiempo.",
+        "El sol brilla.",
+        "Está lloviendo/nevando.",
+        "La temperatura es de 22 grados.",
+        "En verano hace mucho calor.",
+        "En invierno hace frío y nieva.",
+        "Me gusta el clima soleado porque..."
+      ],
+      "grammarFocus": [
+        "Pronombre impersonal 'es': Es regnet. Es Schneit. Es ist kalt.",
+        "Expresiones de temperatura: Es sind 20 Grad. (plural)",
+        "Preposiciones para las estaciones: im Sommer, im Winter, im Frühling, im Herbst"
+      ],
+      "structure": [
+        {
+          "step": "Tiempo actual",
+          "tip": "Describe el clima hoy: temperatura, sol, nubes o lluvia."
+        },
+        {
+          "step": "Descripción de las estaciones",
+          "tip": "Describe cómo es el clima en tu estación favorita"
+        },
+        {
+          "step": "Actividades dependiendo del clima.",
+          "tip": "Explica qué te gusta hacer cuando hace buen o mal tiempo."
+        },
+        {
+          "step": "Conclusión",
+          "tip": "Indique su tipo de clima favorito"
+        }
+      ],
+      "exampleEssayTranslation": "Hoy el tiempo en Múnich es muy bonito. El sol brilla y no hay nubes. Hace calor, la temperatura es de 24 grados. Me gusta este clima. En verano suele hacer calor en Alemania. En invierno hace mucho frío y nieva a menudo. Cuando hace buen tiempo, voy al parque o juego al fútbol. Cuando llueve, me quedo en casa y leo. Mi estación favorita es el verano.",
+      "writingTips": [
+        "Utilice 'Es ist...' con adjetivos: Es ist windig/sonnig/kalt",
+        "Utilice verbos para lluvia y nieve: Es regnet (llueve), Es schneit (nieva)",
+        "Temperatura: diga 'Es sind... Grad' (use 'sind' porque grados es plural)"
+      ],
+      "selfCheckList": [
+        "¿Describiste el clima de hoy?",
+        "¿Especificaste la temperatura en grados?",
+        "¿Usaste 'es' correctamente (Es regnet / Es ist kalt)?",
+        "¿Mencionaste las estaciones?",
+        "¿Enumeraste actividades para el buen y el mal tiempo?",
+        "¿Dijiste tu estación favorita?"
+      ]
+    },
+    "14": {
+      "title": "Describiendo a un amigo",
+      "type": "Descripción / Biografía",
+      "description": "Aprenda a describir a un amigo: apariencia, carácter, pasatiempos y cómo se conocieron.",
+      "keyVocabulary": [
+        "amigo (hombre/mujer)",
+        "apariencia / mirada",
+        "ojos / cabello",
+        "personaje / amigable / divertido",
+        "pasatiempos",
+        "conocer / conocer",
+        "desde",
+        "a menudo juntos",
+        "importante",
+        "mejor amigo"
+      ],
+      "usefulPhrases": [
+        "El nombre de mi mejor amigo es...",
+        "Él/Ella tiene... años.",
+        "Él / Ella tiene ojos marrones y cabello negro.",
+        "Él/Ella es muy amigable y divertido.",
+        "Nos conocemos desde hace... años.",
+        "A menudo jugamos al fútbol juntos.",
+        "Él/Ella es una persona muy importante para mí."
+      ],
+      "grammarFocus": [
+        "Pronombres en tercera persona del singular: er/sein (masc) vs sie/ihr (fem)",
+        "Posesivos: sein Freund / ihre Freundin",
+        "Terminaciones de adjetivo después de 'ist' (sin terminación): Er ist nett. Sie ist groß."
+      ],
+      "structure": [
+        {
+          "step": "Introducción - ¿Quién es tu amigo?",
+          "tip": "Nombra a tu amigo, su edad y dónde vive."
+        },
+        {
+          "step": "Apariencia y aspecto",
+          "tip": "Describe sus ojos, cabello, altura y apariencia general."
+        },
+        {
+          "step": "Carácter y rasgos",
+          "tip": "Explique su personalidad: divertido, servicial, tranquilo, activo."
+        },
+        {
+          "step": "Actividades conjuntas",
+          "tip": "Describe qué hacen juntos y cuánto tiempo se conocen."
+        }
+      ],
+      "exampleEssayTranslation": "Mi mejor amigo se llama Carlos. Tiene 25 años y viene de España. Ahora vive en Hamburgo. Carlos es alto y tiene cabello negro corto y ojos marrones. Es muy amigable, divertido y servicial. Nos conocemos desde hace dos años, desde nuestro curso de alemán. A menudo jugamos juntos al tenis o escuchamos música los fines de semana. Carlos es un muy buen amigo y muy importante para mí.",
+      "writingTips": [
+        "Mantenga la coherencia de los pronombres: utilice 'er' y 'sein' para amigos varones, 'sie' e 'ihr' para amigas",
+        "Los adjetivos después de 'sein' (is/are) no tienen terminaciones: Er ist nett (no Er ist netter)",
+        "Menciona cómo se conocieron para agregar profundidad a tu texto."
+      ],
+      "selfCheckList": [
+        "¿Dijo el nombre y la edad de su amigo?",
+        "¿Describiste su apariencia física (cabello, ojos)?",
+        "¿Enumeraste los rasgos de carácter (amigables, divertidos)?",
+        "¿Mencionaste cómo se conocieron y cuánto tiempo se conocen?",
+        "¿Usaste pronombres correctos (er/sie, sein/ihr)?",
+        "¿Describiste lo que hacen juntos?"
+      ]
+    },
+    "15": {
+      "title": "Mi curso de alemán",
+      "type": "Descripción",
+      "description": "Aprenda a escribir sobre su curso de alemán: compañeros de clase, profesores, horarios y métodos de estudio.",
+      "keyVocabulary": [
+        "curso de alemán",
+        "escuela / instituto",
+        "profesor (masculino/femenino)",
+        "compañeros de clase",
+        "lecciones",
+        "estudiar / aprender",
+        "hora/horario",
+        "difícil / fácil / interesante",
+        "romper",
+        "tarea"
+      ],
+      "usefulPhrases": [
+        "Asisto a un curso de alemán en...",
+        "Nuestro profesor se llama Sr./Sra. ...",
+        "El curso es de lunes a viernes.",
+        "Somos 15 estudiantes en la clase.",
+        "El alemán es difícil pero interesante.",
+        "Aprendemos gramática y hablamos mucho.",
+        "Tenemos un descanso a las 10:00."
+      ],
+      "grammarFocus": [
+        "Conjugación verbal: lernen, sprechen (wir sprechen, er spricht)",
+        "Intervalos de tiempo: de ... bis ... (de 9 a 12 Uhr)",
+        "Plurales de términos escolares: der Lehrer → die Lehrer, die Hausaufgabe → die Hausaufgaben"
+      ],
+      "structure": [
+        {
+          "step": "Información del curso",
+          "tip": "Indique el nombre de la escuela y el nivel de su curso (A1)"
+        },
+        {
+          "step": "Horario y duración",
+          "tip": "Mencionar qué días y en qué horarios se realiza el curso."
+        },
+        {
+          "step": "Clase y profesor",
+          "tip": "Describe al profesor y menciona de dónde vienen tus compañeros."
+        },
+        {
+          "step": "Lecciones y métodos",
+          "tip": "Explica lo que haces en clase (habla, escritura, gramática) y tu opinión."
+        }
+      ],
+      "exampleEssayTranslation": "Asisto a un curso de alemán en el Instituto Goethe de Berlín. El curso es de nivel A1. Tenemos clase de lunes a viernes, de 9:00 a 12:30. Nuestra maestra se llama Sra. Schmidt. Ella es muy amigable y paciente. Somos 12 estudiantes de diferentes países: Siria, Turquía, Polonia y Rumania. Aprendemos gramática, leemos textos y hablamos mucho. El curso es interesante pero a veces difícil. Hacemos los deberes todos los días.",
+      "writingTips": [
+        "Recuerde que las nacionalidades y países están en mayúscula: Syrien, Türkei, Polen.",
+        "Formas de profesor: der Lehrer (masculino), die Lehrerin (femenino)",
+        "Curso de alemán: 'der Deutschkurs' (una palabra compuesta)"
+      ],
+      "selfCheckList": [
+        "¿Nombraste la escuela y el nivel del curso?",
+        "¿Especificaste los días y horas del curso?",
+        "¿Mencionaste el nombre y el sexo del maestro?",
+        "¿Dijiste de dónde vienen tus compañeros de clase?",
+        "¿Describiste lo que estudias en clase?",
+        "¿Expresaste tu opinión sobre el curso?"
+      ]
+    }
+  },
+  "bg": {
+    "1": {
+      "title": "Самостоятелно представяне",
+      "type": "Информационен лист / параграф",
+      "description": "Научете как да се представите на немски - име, възраст, държава, местожителство, семейство и езици.",
+      "keyVocabulary": [
+        "да бъде наречен",
+        "да идва от",
+        "да живееш в",
+        "да бъде",
+        "години",
+        "женен",
+        "единичен",
+        "дете / деца",
+        "роден език",
+        "да се уча",
+        "да говоря",
+        "гол",
+        "работа / професия"
+      ],
+      "usefulPhrases": [
+        "името ми е...",
+        "идвам от...",
+        "Живея в ... / от ... години.",
+        "Аз съм на ... години.",
+        "Женен/неженен съм.",
+        "Имам ... деца.",
+        "Моят роден език е...",
+        "Уча немски от...",
+        "Аз също говоря...",
+        "Моята цел е..."
+      ],
+      "grammarFocus": [
+        "Използвайте „ich bin“, за да се представите",
+        "Глаголи: heißen, kommen, wohnen, sein, haben",
+        "Запомнете: „ich komme“ (не „ich kommt“)",
+        "Числа: 'ich bin 25 Jahre alt'"
+      ],
+      "structure": [
+        {
+          "step": "Въведение - име и държава",
+          "tip": "Започнете с „Hallo“ или „Guten Tag“, след това вашето име и страна на произход"
+        },
+        {
+          "step": "Лични данни - възраст и статус",
+          "tip": "Добавете вашата възраст, семейно положение и брой деца, ако е приложимо"
+        },
+        {
+          "step": "Езици и изследвания",
+          "tip": "Споменете майчиния си език и колко време учите немски"
+        },
+        {
+          "step": "Извод - Гол",
+          "tip": "Завършете с целта си да научите немски"
+        }
+      ],
+      "exampleEssayTranslation": "здравей Казвам се Ахмад Ал-Хасан. Идвам от Сирия. Сега живея в Берлин от две години. На 28 години съм. Женен съм и имам две деца. Моят роден език е арабски. Уча немски от три месеца. Немският е труден, но ми харесва да уча. Говоря и малко английски. Целта ми е да говоря добре немски и да работя в Германия.",
+      "writingTips": [
+        "Винаги започвайте с „Hallo“ или „Guten Tag“",
+        "Използвайте глагола „ich heiße“ (или „mein Name ist“)",
+        "Пишете кратки и ясни изречения",
+        "Не забравяйте да поставите точка в края на всяко изречение",
+        "Немско изречение: глаголът винаги е на 2-ра позиция"
+      ],
+      "selfCheckList": [
+        "Написахте ли името си? (Ich heiße...)",
+        "Споменахте ли вашата страна? (Ich komme aus...)",
+        "Споменахте ли вашия град в Германия? (Ich wohne in...)",
+        "Споменахте ли възрастта си? (Ich bin ... Jahre алт.)",
+        "Споменахте ли семейното си положение?",
+        "Споменахте ли родния си език?",
+        "Всяко изречение започва ли с главна буква?",
+        "Всяко изречение завършва ли с точка?"
+      ]
+    },
+    "2": {
+      "title": "Моето семейство",
+      "type": "Описание",
+      "description": "Научете как да пишете за вашето семейство - членове на семейството, тяхната възраст и професии.",
+      "keyVocabulary": [
+        "семейство",
+        "баща / майка",
+        "брат / сестра",
+        "син / дъщеря",
+        "съпруг / съпруга",
+        "дядо / баба",
+        "големи / малки",
+        "години",
+        "да работи като",
+        "да живея / пребивавам",
+        "да харесвам / обичам",
+        "заедно"
+      ],
+      "usefulPhrases": [
+        "Семейството ми е голямо / малко.",
+        "Ние сме ... хора.",
+        "Баща ми се казва ... Той е на ... години.",
+        "Майка ми е ... по професия.",
+        "Имам ... братя и ... сестри.",
+        "Брат ми е по-млад/по-голям от мен.",
+        "Живеем заедно в...",
+        "Семейството ми е много важно за мен."
+      ],
+      "grammarFocus": [
+        "Притежателни членове: mein (masc/neut) - meine (fem/plur)",
+        "Mein Vater / Meine Mutter / Mein Kind",
+        "Глагол „sein“ за описание: Er ist Arzt. Sie ist Lehrerin.",
+        "Род и число в описателни изречения"
+      ],
+      "structure": [
+        {
+          "step": "Въведение - Общо описание на семейството",
+          "tip": "Започнете, като опишете размера на вашето семейство и броя на членовете"
+        },
+        {
+          "step": "Подробно описание - Всеки член",
+          "tip": "Опишете всеки член: име, възраст и професия"
+        },
+        {
+          "step": "Семейни отношения",
+          "tip": "Споменете какво обичате да правите заедно като семейство"
+        },
+        {
+          "step": "Заключение",
+          "tip": "Завършете с изречение, изразяващо чувствата ви към семейството ви"
+        }
+      ],
+      "exampleEssayTranslation": "Семейството ми не е много голямо. Четирима души сме. Баща ми се казва Хасан. Той е на 55 години и работи като инженер. Майка ми се казва Нур. Тя е на 50 години и е учител. Имам една сестра. Тя се казва Сара и е на 20 години. Учи медицина. Всички живеем заедно в голям апартамент в Хамбург. През уикендите ядем заедно и говорим много. Семейството ми е много важно за мен.",
+      "writingTips": [
+        "Използвайте „mein“ за мъжки род/неутрален и „meine“ за женски род/множествено число",
+        "Споменете първо името, след това възрастта и след това професията за всеки член",
+        "Използвайте 'und', за да свържете кратки изречения",
+        "Не забравяйте запетаите между числата и детайлите"
+      ],
+      "selfCheckList": [
+        "Описахте ли колко души имате в семейството си?",
+        "Споменахте ли името, възрастта и работата на всеки член?",
+        "Използвахте ли mein/meine правилно?",
+        "Споменахте ли къде живее семейството ви?",
+        "Добавихте ли емоционално изречение в края?",
+        "Всички имена на хора написани ли са с главни букви?"
+      ]
+    },
+    "3": {
+      "title": "Моят апартамент",
+      "type": "Описание",
+      "description": "Научете как да опишете вашия апартамент или къща - стаи, мебели, наем и местоположение.",
+      "keyVocabulary": [
+        "апартамент / къща",
+        "стая",
+        "хол",
+        "спалня",
+        "кухня",
+        "баня",
+        "балкон",
+        "наем",
+        "етаж/ партер",
+        "голям / малък / светъл / тъмен",
+        "диван / легло / маса",
+        "градина"
+      ],
+      "usefulPhrases": [
+        "Живея в апартамент/къща.",
+        "Апартаментът разполага с ... стаи.",
+        "Жилището е ... кв.м.",
+        "Намира се на ...ет.",
+        "Наемът е ... евро.",
+        "В хола има...",
+        "Харесвам апартамента си, защото...",
+        "Апартаментът е близо до..."
+      ],
+      "grammarFocus": [
+        "es gibt = има / има (за описание)",
+        "in + Dativ: im Wohnzimmer, in der Küche",
+        "Прилагателни: Die Wohnung ist groß/hell/schön",
+        "Предлози: auf dem Tisch, neben dem Sofa, vor dem Fenster"
+      ],
+      "structure": [
+        {
+          "step": "Въведение - Вид жилище и местоположение",
+          "tip": "Започнете с типа жилище (апартамент/къща) и местоположението му в града"
+        },
+        {
+          "step": "Описание на апартамента - размер и стаи",
+          "tip": "Опишете броя на стаите, размера и наема"
+        },
+        {
+          "step": "Описание на стаите и мебелите",
+          "tip": "Опишете какво има във всяка стая"
+        },
+        {
+          "step": "Вашето мнение",
+          "tip": "Споменете какво харесвате и какво не харесвате в апартамента си"
+        }
+      ],
+      "exampleEssayTranslation": "Апартаментът ми не е много голям. Разполага с 3 стаи: хол, спалня и детска стая. Тя е 75 квадратни метра. Наемът е 900 евро на месец. В хола има диван, телевизор и голяма маса. Спалнята е малка, но уютна. Кухнята е модерна и светла. Разполагаме и с балкон. Много харесвам апартамента си, защото е светъл и тих. Балконът е любимото ми място.",
+      "writingTips": [
+        "Не забравяйте, че стаите на немски имат различен пол: das Wohnzimmer, die Küche, der Balkon",
+        "Използвайте „es gibt“, последвано от винителен падеж (напр. einen Fernseher, ein Sofa)",
+        "Проверете изписването с главни букви на съществителните: Wohnung, Zimmer, Küche"
+      ],
+      "selfCheckList": [
+        "Споменахте ли колко стаи има апартаментът ви?",
+        "Посочихте ли размера в квадратни метри?",
+        "Споменахте ли наема?",
+        "Описахте ли мебелите в поне една стая?",
+        "Използвахте ли правилно „es gibt“ с винителен падеж?",
+        "Изказахте ли мнението си за апартамента?"
+      ]
+    },
+    "4": {
+      "title": "Моето ежедневие",
+      "type": "Хронологичен параграф",
+      "description": "Научете как да опишете типичния си ден - събуждане, хранене, работа, учене и свободно време.",
+      "keyVocabulary": [
+        "ежедневна рутина",
+        "да се събудя / да стана",
+        "да закусвам",
+        "да започна / започвам",
+        "да работи/учи",
+        "обяд / вечеря",
+        "свободно време",
+        "да гледам телевизия",
+        "да почистя",
+        "да отида да спя",
+        "час / час",
+        "винаги / често / понякога"
+      ],
+      "usefulPhrases": [
+        "Денят ми започва в ... часа.",
+        "Първо ставам и закусвам.",
+        "След това отивам на работа/училище.",
+        "В ... часа обядвам.",
+        "Следобед правя...",
+        "Вечер гледам телевизия или чета.",
+        "Лягам си в ... часа."
+      ],
+      "grammarFocus": [
+        "Разделими глаголи: aufstehen (ich stehe auf), einkaufen (ich kaufe ein)",
+        "Часови индикации с 'хм': хм 8 Uhr",
+        "Словоред: когато се започва с време, глаголът следва (напр. Um 8 Uhr frühstücke ich)"
+      ],
+      "structure": [
+        {
+          "step": "Сутрешна рутина",
+          "tip": "Опишете в колко часа се събуждате, ставате и закусвате"
+        },
+        {
+          "step": "Основни дейности (ден)",
+          "tip": "Опишете вашата работа, училище или часове на курса"
+        },
+        {
+          "step": "Вечерна рутина",
+          "tip": "Опишете свободното си време, вечерята и почистването"
+        },
+        {
+          "step": "Заключение - Време за лягане",
+          "tip": "Споменете в колко часа си лягате"
+        }
+      ],
+      "exampleEssayTranslation": "Денят ми започва много рано. Ставам в 6:30. Първо пия едно кафе и закусвам. В 7:45 отивам на курса си по немски. Курсът започва в 8:30 и приключва в 12:00. В 13:00 обядвам вкъщи. Следобед почиствам апартамента и уча два часа немски. Вечерта приготвям вечеря за семейството си. Ядем в 19:00ч. След това гледаме телевизия заедно. Лягам си в 22:30.",
+      "writingTips": [
+        "Внимавайте с разделимите глаголи: aufstehen → ich stehe... auf",
+        "Варирайте вашите конектори: Zuerst, Dann, Danach, Später",
+        "Запазете глагола във втора позиция, дори когато започвате с израз за време"
+      ],
+      "selfCheckList": [
+        "Казахте ли кога започва денят ви?",
+        "Използвахте ли правилно разделимите глаголи?",
+        "Поставихте ли глаголи на 2-ра позиция след времеви изрази?",
+        "Споменахте ли вашия курс по немски език или работа?",
+        "Споменахте ли кога си лягате?",
+        "Използвахте ли преходни думи (Zuerst, Dann, Danach)?"
+      ]
+    },
+    "5": {
+      "title": "Моето хоби",
+      "type": "Описание / Мнение",
+      "description": "Научете как да пишете за вашите хобита, спорт, музика и как прекарвате свободното си време.",
+      "keyVocabulary": [
+        "хоби / хобита",
+        "свободно време",
+        "да играят футбол / тенис",
+        "да чета книги",
+        "да слушам музика",
+        "да готвя / пека",
+        "да се срещна с приятели",
+        "да пътувам",
+        "през почивните дни",
+        "забавление",
+        "любимо хоби"
+      ],
+      "usefulPhrases": [
+        "Моите хобита са...",
+        "В свободното си време обичам да...",
+        "Всяка събота играя футбол.",
+        "Обичам да чета, защото е релаксиращо.",
+        "Любимото ми хоби е...",
+        "През уикендите често се срещам с приятели.",
+        "... е много забавно."
+      ],
+      "grammarFocus": [
+        "Използване на „gern“ за изразяване на харесване: Ich spiele gern Fußball. Ich lese gern.",
+        "Форми за множествено число: das Hobby → die Hobbys",
+        "Спрежение на глагола: spielen, lesen (du liest, er liest), treffen (ich treffe, du triffst)"
+      ],
+      "structure": [
+        {
+          "step": "Въведение - Свободно време",
+          "tip": "Посочете най-общо колко свободно време имате и дали обичате хобита"
+        },
+        {
+          "step": "Вашите основни хобита",
+          "tip": "Опишете 2-3 хобита, които практикувате редовно"
+        },
+        {
+          "step": "Подробности и честота",
+          "tip": "Обяснете кога и с кого практикувате тези хобита"
+        },
+        {
+          "step": "Заключение - Предпочитание",
+          "tip": "Посочете любимото си хоби и защо"
+        }
+      ],
+      "exampleEssayTranslation": "Имам много свободно време през уикендите. Моите хобита са да играя футбол, да чета и да слушам музика. Всяка събота сутрин играя футбол с приятелите си в парка. Това е много забавно. Вечер обичам да чета книги или да гледам филм. Любимото ми хоби е готвенето. Обичам ��а готвя италианска храна за семейството си. Хобитата са много важни за мен, защото ми помагат да се отпусна.",
+      "writingTips": [
+        "Поставете „gern“ директно след спрегнатия глагол: Ich schwimme gern",
+        "Обърнете внимание на неправилния глагол „lesen“: ich lese, du liest, er/sie liest",
+        "Обърнете внимание на правописа: Hobbys (с \"y\", а не с \"ies\", както на английски)"
+      ],
+      "selfCheckList": [
+        "Изброихте ли вашите хобита?",
+        "Използвахте ли „gern“ правилно след глаголите?",
+        "Уточнихте ли колко често правите хобитата си?",
+        "Споменахте ли с кого ги правите?",
+        "Посочихте ли любимото си хоби?",
+        "Правилно ли се изписва „Хоби“?"
+      ]
+    },
+    "6": {
+      "title": "Писане на имейл",
+      "type": "Официално и неофициално писмо",
+      "description": "Научете как да пишете официални и неофициални имейли на ниво А1 (покани, извинения, молби).",
+      "keyVocabulary": [
+        "имейл / писмо",
+        "покана",
+        "извинение",
+        "искане",
+        "изпращач/получател",
+        "предмет",
+        "дата / час",
+        "да покани",
+        "за съжаление",
+        "не може да дойде",
+        "най-добри пожелания",
+        "скъпа"
+      ],
+      "usefulPhrases": [
+        "Уважаеми г-н/г-жо ... (официално)",
+        "Скъпи ... (неофициално)",
+        "Бих искал да ви поканя на...",
+        "За съжаление не мога да дойда, защото...",
+        "Моля, отговорете до...",
+        "Пиша този имейл, защото...",
+        "с уважение,"
+      ],
+      "grammarFocus": [
+        "Формули за поздрав и затваряне (официални срещу неформални)",
+        "Местоимения на обръщение: Sie/Ihnen (официално, с главни букви) срещу du/dir (неофициално)",
+        "Подчинени изречения с „weil“ (глагол в края)"
+      ],
+      "structure": [
+        {
+          "step": "поздрав",
+          "tip": "Изберете официално (Sehr geehrte/r...) или неофициално (Liebe/r...) в зависимост от получателя"
+        },
+        {
+          "step": "Причина за писане",
+          "tip": "Посочете ясно защо пишете в първото изречение"
+        },
+        {
+          "step": "Подробности / Информация",
+          "tip": "Добавете подробности: дата, час, причина или извинение"
+        },
+        {
+          "step": "Призив за действие / Затваряне",
+          "tip": "Поискайте отговор и използвайте подходяща формула за подписване"
+        }
+      ],
+      "exampleEssayTranslation": "Уважаеми г-н Мюлер, пиша този имейл, защото не мога да дойда на курса по немски утре. Болна съм и трябва да отида на лекар. Надявам се да мога да се върна в понеделник. Бихте ли ми изпратили домашното? Благодаря ви много за помощта. С уважение, Ахмад Ал-Хасан.",
+      "writingTips": [
+        "Винаги пишете Sie, Ihr, Ihnen с главна буква в писма/имейли",
+        "Ако поздравът завършва със запетая, първата дума на следващия ред започва с малка буква",
+        "Свържете поздрава в края с поздрава в началото"
+      ],
+      "selfCheckList": [
+        "Избрахте ли правилния поздрав (официален/неофициален)?",
+        "Първото изречение след поздрава започва ли с малка буква?",
+        "Посочихте ли причината за писането?",
+        "Написахте ли „Sie/Ihnen“ с главни букви, ако е официално?",
+        "Използвахте ли правилна формула за затваряне (напр. Mit freundlichen Grüßen)?",
+        "Подписахте ли името си накрая?"
+      ]
+    },
+    "7": {
+      "title": "При доктора",
+      "type": "Описание / Доклад за болест",
+      "description": "Научете как да описвате здравословни симптоми, части от тялото, болка и да пишете извинителна бележка за работа.",
+      "keyVocabulary": [
+        "тяло",
+        "глава / стомах / гръб",
+        "болка / болка",
+        "треска",
+        "кашлица / настинка",
+        "лекар",
+        "назначаване",
+        "отпуск по болест",
+        "лекарство / хапче",
+        "рецепта",
+        "здрави",
+        "да боли"
+      ],
+      "usefulPhrases": [
+        "Чувствам се болен/неразположен.",
+        "Главата ме боли. / Имам главоболие.",
+        "Имам висока температура (39 градуса).",
+        "Имам нужда от среща днес, моля.",
+        "Днес не мога да дойда на работа, защото съм болен.",
+        "Лекарят ми даде рецепта за хапчета."
+      ],
+      "grammarFocus": [
+        "Глаголът „wehtun“ (разделим): Mein Kopf tut weh / Meine Beine tun weh",
+        "Сложни съществителни: Kopf + Schmerzen = Kopfschmerzen",
+        "Модален глагол „müssen“ (спрежение: ich muss, du musst, er muss)"
+      ],
+      "structure": [
+        {
+          "step": "Държавна болест",
+          "tip": "Споменете, че се чувствате зле и сте болни от вчера"
+        },
+        {
+          "step": "Опишете симптомите",
+          "tip": "Обяснете какво ви боли (глава, корем, гърло) и дали имате температура"
+        },
+        {
+          "step": "Посещение при лекар / действие",
+          "tip": "Споменете, че имате час при лекар или имате нужда от болничен лист"
+        },
+        {
+          "step": "Заявка за работа/курс",
+          "tip": "Уведомете вашия работодател/учител, че не можете да дойдете"
+        }
+      ],
+      "exampleEssayTranslation": "Уважаема г-жо Вебер, днес не мога да дойда на работа, защото съм болен. Имам силно главоболие и болки в гърлото от вчера вечерта. Имам и температура. Днес имам час за лекар в 10:00ч. По-късно ще ви изпратя болничния лист. Надявам се до четвъртък отново да съм здрав. С най-добри пожелания, Ахмад Ал-Хасан.",
+      "writingTips": [
+        "Обърнете внимание на множественото число в болка: Kopfschmerzen, Bauchschmerzen (винаги множествено число)",
+        "wehtun е единствено число „tut weh“ за една част, множествено число „tun weh“ за множество части",
+        "müssen е модален глагол, така че вторият глагол отива до края в инфинитив"
+      ],
+      "selfCheckList": [
+        "Споменахте ли, че сте болен?",
+        "Посочихте ли вашите симптоми (главоболие, треска и т.н.)?",
+        "Заявихте ли, че имате час за лекар?",
+        "Казахте ли на шефа/учителя си, че не можете да дойдете?",
+        "Използвахте ли „tut weh“ или „tun weh“ правилно?",
+        "Поискахте ли болничен лист (Krankschreibung)?"
+      ]
+    },
+    "8": {
+      "title": "Поръчка в ресторант",
+      "type": "Диалог / Описание",
+      "description": "Научете как да поръчате храна и напитки, да поискате сметката и да изразите мнението си за храната.",
+      "keyVocabulary": [
+        "ресторант",
+        "меню",
+        "сервитьор",
+        "предястие / основно ястие / десерт",
+        "шницел/супа",
+        "да поръчам",
+        "за плащане / плащане в брой / карта",
+        "сметката",
+        "запазете рестото",
+        "съвет",
+        "вкусно"
+      ],
+      "usefulPhrases": [
+        "Бих искал да поръчам, моля.",
+        "Какво ще ми препоръчате?",
+        "За мен един шницел с картофи, моля.",
+        "За да пия, ще взема вода.",
+        "Може ли да платим, моля?",
+        "Заедно или по отделно?",
+        "Сметката, моля.",
+        "Беше много вкусно."
+      ],
+      "grammarFocus": [
+        "Условно „möchte“ за учтиви поръчки: Ich möchte bestellen",
+        "Винителен падеж за поръчки на храна: Ich nehme einen Salat (masc), ein Wasser (neut), eine Suppe (fem)",
+        "Предлог 'mit' + Dativ: Schnitzel mit Kartoffeln"
+      ],
+      "structure": [
+        {
+          "step": "Поръчване на храна и напитки",
+          "tip": "Използвайте учтиви структури като „Ich hätte gern“ или „Ich nehme“"
+        },
+        {
+          "step": "Специални заявки",
+          "tip": "Поискайте нещо допълнително, като вода без лед или салата с масло"
+        },
+        {
+          "step": "Плащане на сметката",
+          "tip": "Обадете се на сервитьора и поискайте сметката, като посочите как искате да платите"
+        },
+        {
+          "step": "Съвет / сбогом",
+          "tip": "Дайте съвет и кажете благодаря"
+        }
+      ],
+      "exampleEssayTranslation": "Добър вечер Бихме искали да поръчаме. За предястие вземам една доматена супа. За основно ястие бих искал шницел с пържени картофки. Жена ми взема рибна салата. За пиене вземаме бутилка минерална вода. (По-късно) Може ли да платим, моля? Бихме искали да платим заедно, в брой. Сметката е 36 евро. Ето 40 евро. Запазете рестото. Храната беше много вкусна. благодаря ви",
+      "writingTips": [
+        "Винаги използвайте „Ich hätte gern“ или „Ich möchte“, вместо „Ich will“ (грубо)",
+        "Когато плащате, кажете „Zahlen, bitte!“ или „Ich möchte bezahlen, bitte“",
+        "Използвайте „Stimmt so“, за да оставите бакшиш, когато предавате парите"
+      ],
+      "selfCheckList": [
+        "Използвахте ли учтиви изрази (Ich hätte gern... / Ich möchte...)?",
+        "Поръчахте ли храна и напитки?",
+        "Използвахте ли правилно винителни членове (напр. einen Salat)?",
+        "Поискахте ли сметката?",
+        "Посочихте ли начина на плащане (в брой/карта)?",
+        "Споменахте ли да оставите бакшиш?"
+      ]
+    },
+    "9": {
+      "title": "Моята професия / Моята работа",
+      "type": "Описание",
+      "description": "Научете как да пишете за текущата си работа, ежедневни задачи, работно място и работно време.",
+      "keyVocabulary": [
+        "професия / работа",
+        "работно място/офис",
+        "работно време",
+        "задачи/задължения",
+        "колеги",
+        "заплата",
+        "да работи като",
+        "по професия",
+        "да хареса работата",
+        "на пълен / непълен работен ден"
+      ],
+      "usefulPhrases": [
+        "Работя като...",
+        "По професия съм ...",
+        "Работното ми място е в...",
+        "Работя по 40 часа на седмица.",
+        "Моите задачи са...",
+        "Харесвам колегите си.",
+        "Работата е интересна/стресираща.",
+        "Работя от 8 до 17 часа."
+      ],
+      "grammarFocus": [
+        "Предлози за работа: arbeiten bei + Company (Dativ), arbeiten als + Profession",
+        "Времеви диапазони: от ... до ... (от 8 до 17 Uhr)",
+        "Наставка за женска професия „-in“: der Lehrer / die Lehrerin"
+      ],
+      "structure": [
+        {
+          "step": "Длъжност и титла",
+          "tip": "Посочете вашата професия и къде работите в момента"
+        },
+        {
+          "step": "Работно време",
+          "tip": "Обяснете работното си време и колко дни в седмицата работите"
+        },
+        {
+          "step": "Ежедневни задачи",
+          "tip": "Избройте 2-3 основни задачи, които изпълнявате по време на работа"
+        },
+        {
+          "step": "Мнение за работа",
+          "tip": "Посочете дали харесвате работата си, колеги или е стресираща"
+        }
+      ],
+      "exampleEssayTranslation": "Работя като компютърен специалист в софтуерна компания в Мюнхен. По професия съм инженер. Работя на пълен работен ден, 40 часа седмично. Работното ми време е от 9:00 до 17:30. Моите задачи са писане на програми и помощ на клиенти. Много харесвам работата си, защото е интересна. Колегите ми също са много мили и полезни. Офисът е модерен и тих.",
+      "writingTips": [
+        "Жените трябва да добавят „-in“ към длъжността си: ich arbeite als Verkäuferin",
+        "Запомнете разликата: „Беруф“ е професията, която сте учили, „Работа“ е работата, която вършите",
+        "Използвайте „bei“ за името на работодателя (bei Siemens) и „als“ за длъжността (als Ingenieur)"
+      ],
+      "selfCheckList": [
+        "Посочихте ли вашата професия и роля?",
+        "Използвахте ли правилния предлог (bei/als)?",
+        "Уточнихте ли работното си време?",
+        "Изброихте ли основните си задачи?",
+        "Изразихте ли мнението си за работата или колегите?",
+        "Използвахте ли наставката за женски род „-in“, ако сте жена?"
+      ]
+    },
+    "10": {
+      "title": "Списък за пазаруване и диалог",
+      "type": "Диалог за списък и пазаруване",
+      "description": "Научете как да напишете списък за пазаруване и да напишете диалог с продавач в супермаркета или на пазара.",
+      "keyVocabulary": [
+        "списък за пазаруване",
+        "супермаркет / пазар",
+        "килограм / грам / бутилка",
+        "цена",
+        "скъпо / евтино",
+        "зеленчуци / плодове",
+        "сирене/месо/хляб",
+        "свежи",
+        "това е всичко",
+        "чанта"
+      ],
+      "usefulPhrases": [
+        "какво ти трябва",
+        "Имам нужда от килограм домати.",
+        "това ли е всичко",
+        "Да, това е всичко, благодаря.",
+        "Колко струва една бутилка масло?",
+        "Имаме нужда и от хляб и сирене.",
+        "Къде мога да намеря мляко?",
+        "Имате ли прясна риба?"
+      ],
+      "grammarFocus": [
+        "Множествено число от съществителни и единици: 2 Kilo (не Kilos), 3 Flaschen (множествено число)",
+        "Квантори: viel / viele (viele Tomaten, viel Brot)",
+        "Питане за цени: Беше костет...? / Was kosten...?"
+      ],
+      "structure": [
+        {
+          "step": "Изготвяне на списък за пазаруване",
+          "tip": "Запишете списъка с артикули, от които се нуждаете, като използвате количества (килограм, бутилка, опаковка)"
+        },
+        {
+          "step": "Диалог - Искане на предмети",
+          "tip": "Попитайте продавача дали има пресни продукти или къде да намерите артикули"
+        },
+        {
+          "step": "Запитване за цена",
+          "tip": "Попитайте за цената на конкретни артикули"
+        },
+        {
+          "step": "Плащане / Плащане",
+          "tip": "Завършете транзакцията на гишето"
+        }
+      ],
+      "exampleEssayTranslation": "добро утро Бих искал да купя зеленчуци и плодове днес. Трябват ми два килограма ябълки, килограм домати и една краставица. Доматите пресни ли са? Да, пресни са от днес. Колко струват ябълките? Един килограм струва 2,50 евро. Добре, ще взема два килограма. Имате ли и сирене? Да, там. Това е всичко, благодаря. Това прави 8,20 евро. Ето 10 евро. много ви благодаря",
+      "writingTips": [
+        "Имайте предвид, че мерните единици обикновено остават в единствено число след числата: 2 Kilo Äpfel, 3 Liter Milch",
+        "Използвайте „Was kostet...“ за елементи в единствено число и „Was kosten...“ за елементи в множествено число",
+        "Попитайте учтиво: „Ich hätte gern...“ или „Ich brauche...“"
+      ],
+      "selfCheckList": [
+        "Включихте ли количества и единици (килограм, литър, опаковка)?",
+        "Питахте ли за цената?",
+        "Проверихте ли дали артикулите са пресни?",
+        "Използвахте ли правилно „Was kostet/Was kosten“?",
+        "Използвахте ли учтиви изрази за искане на артикули?",
+        "Написахте ли логично завършване на взаимодействието при пазаруване?"
+      ]
+    },
+    "11": {
+      "title": "Моят град",
+      "type": "Описание",
+      "description": "Научете как да опишете вашия град - местоположение, размер, обществен транспорт, туристически забележителности и живот.",
+      "keyVocabulary": [
+        "град / населено място",
+        "местоположение/държава",
+        "обитатели",
+        "градски транспорт",
+        "забележителности/атракции",
+        "тихо / заето",
+        "паркове/музеи",
+        "магазини",
+        "да хареса града",
+        "тук"
+      ],
+      "usefulPhrases": [
+        "Живея в ..., град в ...",
+        "Градът има ... жители.",
+        "Намира се на север/юг/изток/запад.",
+        "Има много забележителности, като...",
+        "Градският транспорт е много добър.",
+        "Харесва ми да живея тук, защото...",
+        "Любимото ми място е..."
+      ],
+      "grammarFocus": [
+        "Наречия за място: hier, dort, in der Nähe",
+        "Посоки по компаса: im Norden, im Süden, im Osten, im Westen",
+        "Глагол „liegen“ за местоположение: München liegt im Süden von Deutschland"
+      ],
+      "structure": [
+        {
+          "step": "Местоположение и размер",
+          "tip": "Посочете града, държавата/региона и броя на жителите"
+        },
+        {
+          "step": "Обществен транспорт и съоръжения",
+          "tip": "Споменете какъв е общественият транспорт и дали има училища, паркове или магазини"
+        },
+        {
+          "step": "Атракции и свободно време",
+          "tip": "Избройте 2-3 забележителности или неща за правене в града"
+        },
+        {
+          "step": "Лично заключение",
+          "tip": "Обяснете защо харесвате или не харесвате да живеете в този град"
+        }
+      ],
+      "exampleEssayTranslation": "Живея в Хамбург. Това е голям град в северната част на Германия. Хамбург има около 1,8 милиона жители. Градът е разположен на река Елба. Общественият транспорт е много добър: има автобуси, метро и кораби. Тук има много забележителности, като пристанището и Elbphilharmonie. ��амбург има много красиви паркове и магазини. Харесва ми да живея тук, защото градът е красив и оживен. Пристанището е любимото ми място.",
+      "writingTips": [
+        "Забележете изписване с главни букви: Norden, Süden, Osten, Westen се изписват с главни букви, когато следват „im“",
+        "Използвайте 'es gibt', за да изброите какво съществува в града (с винителен падеж)",
+        "Напишете 'in' за градове: в Берлин, в Хамбург (няма статия)"
+      ],
+      "selfCheckList": [
+        "Посочихте ли името на града и местоположението му?",
+        "Споменахте ли размера или населението?",
+        "Споменахте ли градския транспорт?",
+        "Изброихте ли някои забележителности или атракции?",
+        "Изразихте ли лично мнение за града?",
+        "Използвахте ли правилно указанията с компаса?"
+      ]
+    },
+    "12": {
+      "title": "Личен профил",
+      "type": "Информационен лист / формуляр",
+      "description": "Научете как да попълните формуляр за лична информация и да напишете параграф, обобщаващ фактите.",
+      "keyVocabulary": [
+        "първо име",
+        "фамилия / презиме",
+        "дата на раждане",
+        "място на раждане",
+        "националност",
+        "адрес / улица",
+        "телефонен номер",
+        "имейл",
+        "езици",
+        "подпис"
+      ],
+      "usefulPhrases": [
+        "Име: ... / Фамилия: ...",
+        "Дата на раждане: ... в ...",
+        "Националност: ...",
+        "Моят адрес е: ... ул. ... гр.",
+        "Телефонният ми номер е...",
+        "говоря... и..."
+      ],
+      "grammarFocus": [
+        "Главна буква на съществителните във формите",
+        "Дати на форматиране: 12.05.1995 (ден.месец.година)",
+        "Предлози за адрес и произход: in (град), aus (държава)"
+      ],
+      "structure": [
+        {
+          "step": "Данни от формуляра",
+          "tip": "Запишете личните данни в ясен формуляр"
+        },
+        {
+          "step": "Параграф с обобщение на фактите",
+          "tip": "Напишете кратък текст, свързвайки всички тези факти в пълни изречения"
+        }
+      ],
+      "exampleEssayTranslation": "Първо име: Ахмад. Фамилия: Ал-Хасан. Дата на раждане: 15.08.1998 г. Място на раждане: Алепо. Националност: сириец. Адрес: Hauptstraße 12, 10115 Берлин. Телефон: 0176-12345678. Имейл: ahmad@email.com. Езици: арабски (майчин език), немски (A1), английски (добър). Това е Ахмад Ал-Хасан. Роден е в Алепо, Сирия. Сега живее в Берлин. Владее арабски, немски и английски език.",
+      "writingTips": [
+        "Формулярите изискват точно изписване и правилно форматиране на числата и символите",
+        "На немски името на улицата винаги е първо, последвано от номера на къщата: Hauptstraße 12",
+        "Фамилното име (Nachname/Familienname) е различно от собственото име (Vorname)"
+      ],
+      "selfCheckList": [
+        "Попълнихте ли всички задължителни полета във формуляра?",
+        "Правилно ли форматирахте адреса (улица и след това номер на къща)?",
+        "Форматирахте ли правилно датата на раждане?",
+        "Написахте ли обобщителен текст в 3-то лице (Той/Тя)?",
+        "Всички съществителни имена ли се пишат с главна буква?",
+        "Посочихте ли вашите езикови нива?"
+      ]
+    },
+    "13": {
+      "title": "Времето",
+      "type": "Описание / Доклад",
+      "description": "Научете как да описвате различни метеорологични условия, сезони, температури и дейности.",
+      "keyVocabulary": [
+        "времето",
+        "слънце / дъжд / сняг / вятър",
+        "сезон",
+        "пролет / лято / есен / зима",
+        "температура / градуси",
+        "топло / горещо / студено / хладно",
+        "облачно / ветровито / слънчево",
+        "да блести",
+        "лошо време",
+        "да замръзне"
+      ],
+      "usefulPhrases": [
+        "Днес времето е много хубаво/лошо.",
+        "Слънцето грее.",
+        "Вали дъжд/сняг.",
+        "Температурата е 22 градуса.",
+        "През лятото е много горещо.",
+        "През зимата е студено и вали сняг.",
+        "Обичам слънчевото време, защото..."
+      ],
+      "grammarFocus": [
+        "Нелично местоимение „es“: Es regnet. Es schneit. Es ist kalt.",
+        "Температурни изрази: Es sind 20 Grad. (множествено число)",
+        "Предлози за сезони: im Sommer, im Winter, im Frühling, im Herbst"
+      ],
+      "structure": [
+        {
+          "step": "Текущо време",
+          "tip": "Опишете времето днес: температура, слънце, облаци или дъжд"
+        },
+        {
+          "step": "Описание на сезоните",
+          "tip": "Опишете какво е времето през любимия ви сезон"
+        },
+        {
+          "step": "Дейности в зависимост от времето",
+          "tip": "Обяснете какво обичате да правите, когато времето е хубаво или лошо"
+        },
+        {
+          "step": "Заключение",
+          "tip": "Посочете любимия си тип време"
+        }
+      ],
+      "exampleEssayTranslation": "Днес времето в Мюнхен е много красиво. Слънцето грее и няма облаци. Топло е, температурата е 24 градуса. Харесвам това време. През лятото в Германия често е горещо. През зимата е много студено и често вали сняг. Когато времето е хубаво, отивам в парка или играя футбол. Когато вали, си стоя вкъщи и чета. Любимият ми сезон е лятото.",
+      "writingTips": [
+        "Използвайте „Es ist...“ с прилагателни: Es ist windig/sonnig/kalt",
+        "Използвайте глаголи за дъжд и сняг: Es regnet (вали), Es schneit (вали сняг)",
+        "Температура: кажете „Es sind ... Grad“ (използвайте „sind“, защото градусите са множествено число)"
+      ],
+      "selfCheckList": [
+        "Описахте ли времето днес?",
+        "Посочихте ли температурата в градуси?",
+        "Използвахте ли „es“ правилно (Es regnet / Es ist kalt)?",
+        "Споменахте ли сезоните?",
+        "Изброихте ли дейности за хубаво и лошо време?",
+        "Посочихте ли любимия си сезон?"
+      ]
+    },
+    "14": {
+      "title": "Описване на приятел",
+      "type": "Описание / Биография",
+      "description": "Научете как да опишете приятел - външен вид, характер, хобита и как сте се запознали.",
+      "keyVocabulary": [
+        "приятел (мъж/жена)",
+        "външен вид / вид",
+        "очи / коса",
+        "характер / приятелски / забавен",
+        "хобита",
+        "да знам / срещнах",
+        "тъй като",
+        "често заедно",
+        "важно",
+        "най-добър приятел"
+      ],
+      "usefulPhrases": [
+        "Най-добрата ми приятелка се казва...",
+        "Той/Тя е на ... години.",
+        "Той/Тя има кафяви очи и черна коса.",
+        "Той/Тя е много дружелюбен и забавен.",
+        "Познаваме се от ... години.",
+        "Често играем футбол заедно.",
+        "Той/Тя е много важен човек за мен."
+      ],
+      "grammarFocus": [
+        "Местоимения в 3-то лице единствено число: er/sein (masc) срещу sie/ihr (fem)",
+        "Притежатели: sein Freund / ihre Freundin",
+        "Окончания на прилагателни след „ist“ (без окончание): Er ist nett. Sie ist groß."
+      ],
+      "structure": [
+        {
+          "step": "Въведение - Кой е вашият приятел?",
+          "tip": "Назовете приятеля си, неговата възраст и къде живее"
+        },
+        {
+          "step": "Външен вид и вид",
+          "tip": "Опишете техните очи, коса, височина и цялостна визия"
+        },
+        {
+          "step": "Характер и черти",
+          "tip": "Обяснете тяхната личност: забавен, услужлив, тих, активен"
+        },
+        {
+          "step": "Съвместни дейности",
+          "tip": "Опишете какво правите заедно и от колко време се познавате"
+        }
+      ],
+      "exampleEssayTranslation": "Най-добрият ми приятел се казва Карлос. Той е на 25 години и идва от Испания. Сега той живее в Хамбург. Карлос е висок, има къса черна коса и кафяви очи. Той е много дружелюбен, забавен и полезен. Познаваме се от две години, от курса по немски. Често играем тенис заедно или слушам�� музика през уикендите. Карлос е много добър приятел и много важен за мен.",
+      "writingTips": [
+        "Поддържайте местоименията последователни: използвайте „er“ и „sein“ за приятели мъже, „sie“ и „ihr“ за приятели жени",
+        "Прилагателните след „sein“ (е/са) не получават окончания: Er ist nett (не Er ist netter)",
+        "Споменете как сте се запознали, за да добавите дълбочина към вашия текст"
+      ],
+      "selfCheckList": [
+        "Казахте ли името и възрастта на вашия приятел?",
+        "Описахте ли външния им вид (коса, очи)?",
+        "Изброихте ли черти на характера (приятелски, забавен)?",
+        "Споменахте ли как се запознахте и откога се познавате?",
+        "Използвахте ли правилните местоимения (er/sie, sein/ihr)?",
+        "Описахте ли какво правите заедно?"
+      ]
+    },
+    "15": {
+      "title": "Моят курс по немски",
+      "type": "Описание",
+      "description": "Научете как да пишете за вашия курс по немски - съученици, учител, график и методи на учене.",
+      "keyVocabulary": [
+        "Курс по немски език",
+        "училище / институт",
+        "учител (мъж/жена)",
+        "съученици",
+        "уроци",
+        "да уча / уча",
+        "време / график",
+        "трудно / лесно / интересно",
+        "прекъсвам",
+        "домашна работа"
+      ],
+      "usefulPhrases": [
+        "Ходя на курс по немски в...",
+        "Нашият учител се казва Mr./Mrs. ...",
+        "Курсът е от понеделник до петък.",
+        "В класа сме 15 ученика.",
+        "Немският е труден, но интересен.",
+        "Учим граматика и говорим много.",
+        "В 10:00 имаме почивка."
+      ],
+      "grammarFocus": [
+        "Спрежение на глагола: lernen, sprechen (wir sprechen, er spricht)",
+        "Времеви интервали: от ... до ... (от 9 до 12 часа)",
+        "Множествени числа на училищни термини: der Lehrer → die Lehrer, die Hausaufgabe → die Hausaufgaben"
+      ],
+      "structure": [
+        {
+          "step": "Информация за курса",
+          "tip": "Посочете името на училището и нивото на вашия курс (A1)"
+        },
+        {
+          "step": "График и продължителност",
+          "tip": "Споменете в кои дни и по кое време се провежда курсът"
+        },
+        {
+          "step": "Клас и учител",
+          "tip": "Опишете учителя и споменете откъде идват вашите съученици"
+        },
+        {
+          "step": "Уроци и методи",
+          "tip": "Обяснете какво правите в клас (говорене, писане, граматика) и вашето мнение"
+        }
+      ],
+      "exampleEssayTranslation": "Посещавам курс по немски език в Гьоте институт в Берлин. Курсът е ниво А1. Имаме занятия от понеделник до петък, от 9:00 до 12:30. Нашата учителка се казва г-жа Шмид. Тя е много дружелюбна и търпелива. Ние сме 12 студенти от различни страни: Сирия, Турция, Полша и Румъния. Учим граматика, четем текстове и говорим много. Курсът е интересен, но понякога труден. Пишем домашни всеки ден.",
+      "writingTips": [
+        "Не забравяйте, че националностите и държавите се пишат с главни букви: Syrien, Türkei, Polen",
+        "Учителски форми: der Lehrer (мъж), die Lehrerin (жена)",
+        "Курс по немски език: „der Deutschkurs“ (една сложна дума)"
+      ],
+      "selfCheckList": [
+        "Посочихте ли училището и нивото на курса?",
+        "Уточнихте ли дните и часовете на курса?",
+        "Споменахте ли името и пола на учителя?",
+        "Посочихте ли откъде идват вашите съученици?",
+        "Описахте ли какво изучавате в клас?",
+        "Изразихте ли мнението си за курса?"
+      ]
+    }
+  },
+  "el": {
+    "1": {
+      "title": "Αυτο Εισαγωγή",
+      "type": "Ενημερωτικό Φύλλο / Παράγραφος",
+      "description": "Μάθετε πώς να συστήνεστε στα γερμανικά - όνομα, ηλικία, χώρα, κατοικία, οικογένεια και γλώσσες.",
+      "keyVocabulary": [
+        "να κληθείς",
+        "να προέρχονται από",
+        "να ζεις",
+        "να είναι",
+        "χρονών",
+        "παντρεμένος",
+        "μονόκλινο",
+        "παιδί / παιδιά",
+        "μητρική γλώσσα",
+        "να μάθεις",
+        "να μιλήσει",
+        "γκολ",
+        "εργασία / επάγγελμα"
+      ],
+      "usefulPhrases": [
+        "Το όνομά μου είναι...",
+        "κατάγομαι από...",
+        "Ζω σε ... / από ... χρόνια.",
+        "Είμαι ... χρονών.",
+        "Είμαι παντρεμένος/ανύπαντρος.",
+        "Έχω... παιδιά.",
+        "Η μητρική μου γλώσσα είναι...",
+        "Έχω μάθει γερμανικά για...",
+        "Μιλάω κι εγώ...",
+        "Στόχος μου είναι..."
+      ],
+      "grammarFocus": [
+        "Χρησιμοποιήστε το «ich bin» για να συστηθείτε",
+        "Ρήματα: heißen, kommen, wohnen, sein, haben",
+        "Θυμηθείτε: 'ich komme' (όχι 'ich kommt')",
+        "Αριθμοί: 'ich bin 25 Jahre alt'"
+      ],
+      "structure": [
+        {
+          "step": "Εισαγωγή - Όνομα & Χώρα",
+          "tip": "Ξεκινήστε με «Hallo» ή «Guten Tag» και μετά το όνομά σας και τη χώρα προέλευσής σας"
+        },
+        {
+          "step": "Προσωπικά Στοιχεία - Ηλικία & Κατάσταση",
+          "tip": "Προσθέστε την ηλικία, την οικογενειακή σας κατάσταση και τον αριθμό των παιδιών, εάν υπάρχει"
+        },
+        {
+          "step": "Γλώσσες & Σπουδές",
+          "tip": "Αναφέρετε τη μητρική σας γλώσσα και πόσο καιρό μαθαίνετε γερμανικά"
+        },
+        {
+          "step": "Συμπέρασμα - Στόχος",
+          "tip": "Τελειώστε με τον στόχο σας να μάθετε γερμανικά"
+        }
+      ],
+      "exampleEssayTranslation": "Γειά σου! Το όνομά μου είναι Ahmad Al-Hassan. Κατάγομαι από τη Συρία. Τώρα ζω στο Βερολίνο, δύο χρόνια. Είμαι 28 χρονών. Είμαι παντρεμένος και έχω δύο παιδιά. Η μητρική μου γλώσσα είναι τα αραβικά. Μαθαίνω γερμανικά εδώ και τρεις μήνες. Τα γερμανικά είναι δύσκολα, αλλά μου αρέσει να μαθαίνω. Μιλάω και λίγα αγγλικά. Στόχος μου είναι να μιλάω καλά γερμανικά και να δουλεύω στη Γερμανία.",
+      "writingTips": [
+        "Να ξεκινάτε πάντα με \"Hallo\" ή \"Guten Tag\"",
+        "Χρησιμοποιήστε το ρήμα 'ich heiße' (ή 'mein Name ist')",
+        "Γράψε σύντομες και σαφείς προτάσεις",
+        "Θυμηθείτε να βάζετε τελεία στο τέλος κάθε πρότασης",
+        "Γερμανική πρόταση: το ρήμα βρίσκεται πάντα στη 2η θέση"
+      ],
+      "selfCheckList": [
+        "Έγραψες το όνομά σου; (Ich heiße...)",
+        "Ανέφερες τη χώρα σου; (Ich komme aus...)",
+        "Ανέφερες την πόλη σου στη Γερμανία; (Ich whne in...)",
+        "Ανέφερες την ηλικία σου; (Ich bin ... Jahre alt.)",
+        "Ανέφερες την οικογενειακή σου κατάσταση;",
+        "Ανέφερες τη μητρική σου γλώσσα;",
+        "Κάθε πρόταση αρχίζει με κεφαλαίο γράμμα;",
+        "Κάθε πρόταση τελειώνει με τελεία;"
+      ]
+    },
+    "2": {
+      "title": "Η οικογένειά μου",
+      "type": "Περιγραφή",
+      "description": "Μάθετε πώς να γράφετε για την οικογένειά σας - τα μέλη της οικογένειάς σας, τις ηλικίες τους και τα επαγγέλματά τους.",
+      "keyVocabulary": [
+        "οικογένεια",
+        "πατέρας / μητέρα",
+        "αδελφός / αδελφή",
+        "γιος / κόρη",
+        "σύζυγος/σύζυγος",
+        "παππούς / γιαγιά",
+        "μεγάλο / μικρό",
+        "χρονών",
+        "να εργαστεί ως",
+        "να ζήσει / να κατοικήσει",
+        "να αρέσει / αγαπώ",
+        "μαζί"
+      ],
+      "usefulPhrases": [
+        "Η οικογένειά μου είναι μεγάλη / μικρή.",
+        "Είμαστε ... άνθρωποι.",
+        "Το όνομα του πατέρα μου είναι ... Είναι ... ετών.",
+        "Η μητέρα μου είναι ... στο επάγγελμα.",
+        "Έχω ... αδέρφια και ... αδερφές.",
+        "Ο αδερφός μου είναι νεότερος / μεγαλύτερος από εμένα.",
+        "Ζούμε μαζί στο...",
+        "Η οικογένειά μου είναι πολύ σημαντική για μένα."
+      ],
+      "grammarFocus": [
+        "Κτητικά άρθρα: mein (αρσ/ουδέτερο) - meine (fem/plur)",
+        "Mein Vater / Meine Mutter / Mein Kind",
+        "Ρήμα «sein» για περιγραφή: Er ist Arzt. Sie ist Lehrerin.",
+        "Φύλο και αριθμός σε περιγραφικές προτάσεις"
+      ],
+      "structure": [
+        {
+          "step": "Εισαγωγή - Γενική περιγραφή της οικογένειας",
+          "tip": "Ξεκινήστε περιγράφοντας το μέγεθος της οικογένειάς σας και τον αριθμό των μελών σας"
+        },
+        {
+          "step": "Αναλυτική Περιγραφή - Κάθε μέλος",
+          "tip": "Περιγράψτε κάθε μέλος: Όνομα, ηλικία και επάγγελμα"
+        },
+        {
+          "step": "Οικογενειακές Σχέσεις",
+          "tip": "Αναφέρετε τι σας αρέσει να κάνετε μαζί ως οικογένεια"
+        },
+        {
+          "step": "Σύναψη",
+          "tip": "Τελειώστε με μια πρόταση που εκφράζει τα συναισθήματά σας για την οικογένειά σας"
+        }
+      ],
+      "exampleEssayTranslation": "Η οικογένειά μου δεν είναι πολύ μεγάλη. Είμαστε τέσσερα άτομα. Ο πατέρας μου ονομάζεται Χασάν. Είναι 55 ετών και εργάζεται ως μηχανικός. Το όνομα της μητέρας μου είναι Νουρ. Είναι 50 ετών και είναι δασκάλα. Έχω μια αδερφή. Την λ��νε Σάρα και είναι 20 ετών. Σπουδάζει ιατρική. Ζούμε όλοι μαζί σε ένα μεγάλο διαμέρισμα στο Αμβούργο. Τα Σαββατοκύριακα τρώμε μαζί και μιλάμε πολύ. Η οικογένειά μου είναι πολύ σημαντική για μένα.",
+      "writingTips": [
+        "Χρησιμοποιήστε «mein» για αρσενικό/ουδέτερο και «meine» για θηλυκό/πληθυντικό",
+        "Αναφέρετε πρώτα το όνομα, μετά την ηλικία και μετά το επάγγελμα για κάθε μέλος",
+        "Χρησιμοποιήστε το 'und' για να συνδέσετε σύντομες προτάσεις",
+        "Μην ξεχνάτε κόμματα μεταξύ αριθμών και λεπτομερειών"
+      ],
+      "selfCheckList": [
+        "Περιέγραψες πόσα άτομα είναι στην οικογένειά σου;",
+        "Αναφέρατε το όνομα, την ηλικία και τη δουλειά κάθε μέλους;",
+        "Χρησιμοποίησες σωστά το mein/meine;",
+        "Ανέφερες πού μένει η οικογένειά σου;",
+        "Προσθέσατε μια συναισθηματική πρόταση στο τέλος;",
+        "Όλα τα ονόματα των ανθρώπων γράφονται με κεφαλαία;"
+      ]
+    },
+    "3": {
+      "title": "Το Διαμέρισμά μου",
+      "type": "Περιγραφή",
+      "description": "Μάθετε πώς να περιγράφετε το διαμέρισμα ή το σπίτι σας - δωμάτια, έπιπλα, ενοίκιο και τοποθεσία.",
+      "keyVocabulary": [
+        "διαμέρισμα / σπίτι",
+        "δωμάτιο",
+        "καθιστικό",
+        "υπνοδωμάτιο",
+        "κουζίνα",
+        "τουαλέτα",
+        "μπαλκόνι",
+        "ενοίκιο",
+        "όροφος / ισόγειο",
+        "μεγάλο / μικρό / φωτεινό / σκοτεινό",
+        "καναπές / κρεβάτι / τραπέζι",
+        "κήπος"
+      ],
+      "usefulPhrases": [
+        "Μένω σε ένα διαμέρισμα / ένα σπίτι.",
+        "Το διαμέρισμα διαθέτει ... δωμάτια.",
+        "Το διαμέρισμα είναι ... τετραγωνικά μέτρα.",
+        "Βρίσκεται στον ... όροφο.",
+        "Το ενοίκιο είναι ... ευρώ.",
+        "Στο σαλόνι υπάρχει...",
+        "Μου αρέσει το διαμέρισμά μου γιατί...",
+        "Το διαμέρισμα βρίσκεται κοντά σε..."
+      ],
+      "grammarFocus": [
+        "es gibt = υπάρχει / υπάρχουν (για περιγραφή)",
+        "σε + Dativ: im Wohnzimmer, in der Küche",
+        "Επίθετα: Die Wohnung ist groß/hell/schön",
+        "Προθέσεις: auf dem Tisch, neben dem Sofa, vor dem Fenster"
+      ],
+      "structure": [
+        {
+          "step": "Εισαγωγή - Είδος κατοικίας & τοποθεσία",
+          "tip": "Ξεκινήστε με τον τύπο της κατοικίας (διαμέρισμα/σπίτι) και τη θέση της στην πόλη"
+        },
+        {
+          "step": "Περιγραφή του Διαμερίσματος - Μέγεθος & Δωμάτια",
+          "tip": "Περιγράψτε τον αριθμό των δωματίων, το μέγεθος και το ενοίκιο"
+        },
+        {
+          "step": "Περιγραφή Δωματίων & Επίπλων",
+          "tip": "Περιγράψτε τι υπάρχει σε κάθε δωμάτιο"
+        },
+        {
+          "step": "Η γνώμη σας",
+          "tip": "Αναφέρετε τι σας αρέσει και τι δεν σας αρέσει στο διαμέρισμά σας"
+        }
+      ],
+      "exampleEssayTranslation": "Το διαμέρισμά μου δεν είναι πολύ μεγάλο. Διαθέτει 3 δωμάτια: ένα σαλόνι, ένα υπνοδωμάτιο και ένα παιδικό δωμάτιο. Είναι 75 τετραγωνικά μέτρα. Το ενοίκιο είναι 900 ευρώ το μήνα. Στο σαλόνι υπάρχει καναπές, τηλεόραση και μεγάλο τραπέζι. Το υπνοδωμάτιο είναι μικρό αλλά άνετο. �� κουζίνα είναι μοντέρνα και φωτεινή. Έχουμε και μπαλκόνι. Μου αρέσει πολύ το διαμέρισμά μου γιατί είναι φωτεινό και ήσυχο. Το μπαλκόνι είναι το αγαπημένο μου μέρος.",
+      "writingTips": [
+        "Θυμηθείτε ότι τα δωμάτια στα γερμανικά έχουν διαφορετικά φύλα: das Wohnzimmer, die Küche, der Balkon",
+        "Χρησιμοποιήστε το «es gibt» ακολουθούμενο από πεζό κατηγορούμενο (π.χ. einen Fernseher, ein Sofa)",
+        "Ελέγξτε την κεφαλαιοποίηση των ουσιαστικών: Wohnung, Zimmer, Küche"
+      ],
+      "selfCheckList": [
+        "Αναφέρατε πόσα δωμάτια έχει το διαμέρισμά σας;",
+        "Προσδιόρισες το μέγεθος σε τετραγωνικά μέτρα;",
+        "Ανέφερες το ενοίκιο;",
+        "Περιγράψατε τα έπιπλα σε τουλάχιστον ένα δωμάτιο;",
+        "Χρησιμοποιήσατε σωστά το «es gibt» με το κατηγορούμενο;",
+        "Είπατε τη γνώμη σας για το διαμέρισμα;"
+      ]
+    },
+    "4": {
+      "title": "Η καθημερινή μου ρουτίνα",
+      "type": "Χρονολογική Παράγραφος",
+      "description": "Μάθετε πώς να περιγράφετε την τυπική σας μέρα - ξύπνημα, φαγητό, εργασία, μελέτη και ελεύθερος χρόνος.",
+      "keyVocabulary": [
+        "καθημερινότητα",
+        "να ξυπνήσει / να σηκωθεί",
+        "να φάει πρωινό",
+        "για να ξεκινήσετε / ξεκινήσετε",
+        "να εργαστεί / σπουδάσει",
+        "μεσημεριανό / δείπνο",
+        "ελεύθερο χρόνο",
+        "να δει τηλεόραση",
+        "να καθαρίσει",
+        "να πάω για ύπνο",
+        "ώρα / ώρα",
+        "πάντα / συχνά / μερικές φορές"
+      ],
+      "usefulPhrases": [
+        "Η μέρα μου ξεκινάει στις ... η ώρα.",
+        "Πρώτα, σηκώνομαι και τρώω πρωινό.",
+        "Μετά πηγαίνω στη δουλειά / στο σχολείο.",
+        "Στις ... η ώρα τρώω μεσημεριανό.",
+        "Το απόγευμα κάνω...",
+        "Το βράδυ βλέπω τηλεόραση ή διαβάζω.",
+        "Πάω για ύπνο στις ... η ώρα."
+      ],
+      "grammarFocus": [
+        "Διαχωρίσιμα ρήματα: aufstehen (ich stehe auf), einkaufen (ich kaufe ein)",
+        "Ενδείξεις ώρας με 'um': um 8 Uhr",
+        "Σειρά λέξεων: όταν ξεκινάμε με το χρόνο, ακολουθεί το ρήμα (π.χ. Um 8 Uhr frühstücke ich)"
+      ],
+      "structure": [
+        {
+          "step": "Πρωινή ρουτίνα",
+          "tip": "Περιγράψτε την ώρα που ξυπνάτε, ξυπνάτε και τρώτε πρωινό"
+        },
+        {
+          "step": "Κύριες Δραστηριότητες (Ημέρα)",
+          "tip": "Περιγράψτε τις ώρες εργασίας, σχολείου ή μαθημάτων σας"
+        },
+        {
+          "step": "Βραδινή ρουτίνα",
+          "tip": "Περιγράψτε τις δραστηριότητες του ελεύθερου χρόνου σας, το δείπνο και το καθάρισμα"
+        },
+        {
+          "step": "Συμπέρασμα - Ώρα για ύπνο",
+          "tip": "Αναφέρετε τι ώρα πηγαίνετε για ύπνο"
+        }
+      ],
+      "exampleEssayTranslation": "Η μέρα μου ξεκινάει πολύ νωρίς. Σηκώνομαι στις 6:30. Πρώτα, πίνω έναν καφέ και τρώω πρωινό. Στις 7:45 πηγαίνω στο μάθημα γερμανικών. Το μάθημα ξεκινά στις 8:30 και τελειώνει στις 12:00. Στις 13:00 τρώω μεσημεριανό στο σπίτι. Το απόγευμα καθαρίζω το διαμέρισμα και μαθαίνω γερμανικά για δύο ώρες. Το βράδυ, μαγειρεύω δείπνο για την οικογένειά μου. Τρώμε στις 19:00. Μετά βλέπουμε τηλεόραση μαζί. Πάω για ύπνο στις 22:30.",
+      "writingTips": [
+        "Προσοχή με τα διαχωρίσιμα ρήματα: aufstehen → ich stehe... auf",
+        "Αλλάξτε τις συνδέσεις σας: Zuerst, Dann, Danach, Später",
+        "Κρατήστε το ρήμα στη δεύτερη θέση ακόμα και όταν ξεκινάτε με χρονική έκφραση"
+      ],
+      "selfCheckList": [
+        "Δήλωσες πότε ξεκινά η μέρα σου;",
+        "Χρησιμοποιήσατε σωστά διαχωρίσιμα ρήματα;",
+        "Τοποθετήσατε τα ρήματα στη 2η θέση μετά τις εκφράσεις του χρόνου;",
+        "Αναφέρατε το μάθημα ή την εργασία σας στα γερμανικά;",
+        "Το ανέφερες πότε πηγαίνεις για ύπνο;",
+        "Χρησιμοποιήσατε μεταβατικές λέξεις (Zuerst, Dann, Danach);"
+      ]
+    },
+    "5": {
+      "title": "Το χόμπι μου",
+      "type": "Περιγραφή / Γνώμη",
+      "description": "Μάθετε πώς να γράφετε για τα χόμπι, τα αθλήματα, τη μουσική και πώς περνάτε τον ελεύθερο χρόνο σας.",
+      "keyVocabulary": [
+        "χόμπι / χόμπι",
+        "ελεύθερο χρόνο",
+        "να παίξει ποδόσφαιρο / τένις",
+        "να διαβάζουν βιβλία",
+        "να ακούσετε μουσική",
+        "να μαγειρέψουν / ψήνουν",
+        "να συναντήσω φίλους",
+        "να ταξιδέψει",
+        "τα Σαββατοκύριακα",
+        "διασκέδαση",
+        "αγαπημένο χόμπι"
+      ],
+      "usefulPhrases": [
+        "Τα χόμπι μου είναι...",
+        "Στον ελεύθερο μου χρόνο μου αρέσει να...",
+        "Παίζω ποδόσφαιρο κάθε Σάββατο.",
+        "Μου αρέσει να διαβάζω γιατί είναι χαλαρωτικό.",
+        "Το αγαπημένο μου χόμπι είναι...",
+        "Τα Σαββατοκύριακα συναντώ συχνά φίλους.",
+        "... είναι πολύ διασκεδαστικό."
+      ],
+      "grammarFocus": [
+        "Χρήση του «gern» για την έκφραση συμπάθειας: Ich spiele gern Fußball. Ich lese gern.",
+        "Πληθυντικός αριθμός: das Hobby → die Hobbys",
+        "Σύζευξη ρημάτων: spielen, lesen (du liest, er liest), treffen (ich treffe, du triffst)"
+      ],
+      "structure": [
+        {
+          "step": "Εισαγωγή - Ελεύθερος χρόνος",
+          "tip": "Δηλώστε γενικά πόσο ελεύθερο χρόνο έχετε και αν σας αρέσουν τα χόμπι"
+        },
+        {
+          "step": "Τα κύρια χόμπι σας",
+          "tip": "Περιγράψτε 2-3 χόμπι που ασκείτε τακτικά"
+        },
+        {
+          "step": "Λεπτομέρειες & Συχνότητα",
+          "tip": "Εξηγήστε πότε και με ποιον ασκείτε αυτά τα χόμπι"
+        },
+        {
+          "step": "Συμπέρασμα - Προτίμηση",
+          "tip": "Δηλώστε το απόλυτο αγαπημένο σας χόμπι και γιατί"
+        }
+      ],
+      "exampleEssayTranslation": "Έχω πολύ ελεύθερο χρόνο τα Σαββατοκύριακα. Τα χόμπι μου είναι να παίζω ποδόσφαιρο, να διαβάζω και να ακούω μουσική. Κάθε Σάββατο πρωί παίζω ποδόσφαιρο με τους φίλους μου στο πάρκο. Αυτό είναι πολύ διασκεδαστικό. Το βράδυ μου αρέσει να διαβάζω βιβλία ή να βλέπω μια ταινία. Το αγαπημένο μου χόμπι είναι η μαγειρική. Μου αρέσει να μαγειρεύω ιταλικό φαγητό για την οικογένειά μου. Τα χόμπι είναι πολύ σημαντικά για μένα γιατί με βοηθούν να χαλαρώσω.",
+      "writingTips": [
+        "Τοποθετήστε το «gern» αμέσως μετά το συζευγμένο ρήμα: Ich schwimme gern",
+        "Δώστε προσοχή στο ακανόνιστο ρήμα 'lesen': ich lese, du liest, er/sie liest",
+        "Δώστε προσοχή στην ορθογραφία: Χόμπι (με 'y', όχι 'ies' όπως στα αγγλικά)"
+      ],
+      "selfCheckList": [
+        "Αναφέρατε τα χόμπι σας;",
+        "Χρησιμοποιήσατε σωστά το «gern» μετά τα ρήματα;",
+        "Προσδιόρισες πόσο συχνά κάνεις τα χόμπι σου;",
+        "Ανέφερες με ποιον τα κάνεις;",
+        "Δήλωσες το αγαπημένο σου χόμπι;",
+        "Είναι σωστή η ορθογραφία του «Χόμπι»;"
+      ]
+    },
+    "6": {
+      "title": "Γράφοντας ένα email",
+      "type": "Επίσημη & Άτυπη Επιστολή",
+      "description": "Μάθετε πώς να γράφετε επίσημα και ανεπίσημα email επιπέδου Α1 (προσκλήσεις, συγγνώμη, αιτήματα).",
+      "keyVocabulary": [
+        "email / επιστολή",
+        "πρόσκληση",
+        "απολογία",
+        "αίτηση",
+        "αποστολέας / παραλήπτης",
+        "θέμα",
+        "ημερομηνία / ώρα",
+        "να προσκαλέσει",
+        "δυστυχώς",
+        "δεν μπορεί να έρθει",
+        "με εκτίμηση",
+        "αγαπητός"
+      ],
+      "usefulPhrases": [
+        "Αγαπητέ κύριε/κα. ... (επίσημο)",
+        "Αγαπητέ ... (ανεπίσημη)",
+        "Θα ήθελα να σας προσκαλέσω να...",
+        "Δυστυχώς δεν μπορώ να έρθω γιατί...",
+        "Παρακαλώ απαντήστε με...",
+        "Γράφω αυτό το email γιατί...",
+        "Με εκτίμηση,"
+      ],
+      "grammarFocus": [
+        "Τύποι χαιρετισμού και κλεισίματος (επίσημος εναντίον ανεπίσημος)",
+        "Αντωνυμίες προσφώνησης: Sie/Ihnen (επίσημη, κεφαλαία) vs du/dir (ανεπίσημη)",
+        "Δευτερεύουσες προτάσεις με «weil» (ρήμα στο τέλος)"
+      ],
+      "structure": [
+        {
+          "step": "Χαιρετισμός",
+          "tip": "Επιλέξτε επίσημο (Sehr geehrte/r...) ή ανεπίσημο (Liebe/r...) ανάλογα με τον παραλήπτη"
+        },
+        {
+          "step": "Λόγος συγγραφής",
+          "tip": "Δηλώστε ξεκάθαρα γιατί γράφετε στην πρώτη πρόταση"
+        },
+        {
+          "step": "Λεπτομέρειες / Πληροφορίες",
+          "tip": "Προσθέστε λεπτομέρειες: ημερομηνία, ώρα, λόγο ή συγγνώμη"
+        },
+        {
+          "step": "Παρότρυνση για δράση / Κλείσιμο",
+          "tip": "Ζητήστε απάντηση και χρησιμοποιήστε μια κατάλληλη φόρμουλα αποσύνδεσης"
+        }
+      ],
+      "exampleEssayTranslation": "Αγαπητέ κύριε Müller, γράφω αυτό το email γιατί δεν μπορώ να έρθω αύριο στο μάθημα γερμανικών. Είμαι άρρωστος και πρέπει να πάω στο γιατρό. Ελπίζω να μπορέσω να επιστρέψω τη Δευτέρα. Μπορείτε να μου στείλετε την εργασία; Σας ευχαριστώ πολύ για τη βοήθειά σας. Με εκτίμηση, Ahmad Al-Hassan.",
+      "writingTips": [
+        "Να γράφετε πάντα Sie, Ihr, Ihnen με κεφαλαίο γράμμα σε γράμματα/email",
+        "Εάν ο χαιρετισμός τελειώνει με κόμμα, η πρώτη λέξη της επόμενης γραμμής αρχίζει με πεζό γράμμα",
+        "Ταιριάξτε τον χαιρετισμό στο τέλος με τον χαιρετισμό στην αρχή"
+      ],
+      "selfCheckList": [
+        "Διαλέξατε τον σωστό χαιρετισμό (επίσημος/άτυπος);",
+        "Η πρώτη πρόταση μετά τον χαιρετισμό ξεκίνησε με πεζό γράμμα;",
+        "Δήλωσες τον λόγο που έγραψες;",
+        "Γράψατε το «Sie/Ihnen» με κεφαλαία γράμματα αν είναι επίσημο;",
+        "Χρησιμοποιήσατε σωστή φόρμουλα κλεισίματος (π.χ. Mit freundlichen Grüßen);",
+        "Υπέγραψες το όνομά σου στο τέλος;"
+      ]
+    },
+    "7": {
+      "title": "Στο Γιατρό",
+      "type": "Περιγραφή / Αναφορά ασθένειας",
+      "description": "Μάθετε πώς να περιγράφετε συμπτώματα υγείας, μέρη του σώματος, πόνο και να γράφετε μια δικαιολογία για την εργασία.",
+      "keyVocabulary": [
+        "σώμα",
+        "κεφάλι / στομάχι / πλάτη",
+        "πόνος / πόνος",
+        "πυρετός",
+        "βήχας / κρυολόγημα",
+        "γιατρός",
+        "ραντεβού",
+        "αναρρωτική άδεια",
+        "φάρμακο / χάπι",
+        "συνταγή",
+        "υγιής",
+        "να πονέσει"
+      ],
+      "usefulPhrases": [
+        "Νιώθω άρρωστος / αδιαθεσία.",
+        "Το κεφάλι μου πονάει. / Έχω πονοκέφαλο.",
+        "Έχω υψηλό πυρετό (39 βαθμούς).",
+        "Χρειάζομαι ένα ραντεβού σήμερα, παρακαλώ.",
+        "Δεν μπορώ να έρθω στη δουλειά σήμερα γιατί είμαι άρρωστος.",
+        "Ο γιατρός μου έδωσε μια συνταγή για χάπια."
+      ],
+      "grammarFocus": [
+        "Το ρήμα 'wehtun' (διαχωρίζεται): Mein Kopf tut weh / Meine Beine tun weh",
+        "Σύνθετα ουσιαστικά: Kopf + Schmerzen = Kopfschmerzen",
+        "Τροπικό ρήμα «müssen» (σύζευξη: ich muss, du musst, er muss)"
+      ],
+      "structure": [
+        {
+          "step": "Κρατική ασθένεια",
+          "tip": "Αναφέρετε ότι αισθάνεστε άσχημα και είστε άρρωστοι από χθες"
+        },
+        {
+          "step": "Περιγράψτε τα συμπτώματα",
+          "tip": "Εξηγήστε τι σας πονάει (κεφάλι, στομάχι, λαιμός) και αν έχετε πυρετό"
+        },
+        {
+          "step": "Επίσκεψη γιατρού / Δράση",
+          "tip": "Αναφέρετε ότι έχετε ραντεβού με γιατρό ή χρειάζεστε σημείωμα αναρρωτικής άδειας"
+        },
+        {
+          "step": "Αίτημα για εργασία/μάθημα",
+          "tip": "Ενημερώστε τον εργοδότη/δάσκαλό σας ότι δεν μπορείτε να έρθετε"
+        }
+      ],
+      "exampleEssayTranslation": "Αγαπητή κυρία Βέμπερ, δεν μπορώ να έρθω στη δουλειά σήμερα γιατί είμαι άρρωστη. Έχω έντονο πονοκέφαλο και πονόλαιμο από χθες το απόγευμα. Έχω και πυρετό. Έχω ραντεβού με γιατρό στις 10:00 σήμερα. Θα σου στείλω το πιστοποιητικό αναρρωτικής άδειας αργότερα. Ελπίζω να είμαι και πάλι υγιής μέχρι την Πέμπτη. Με εκτίμηση, Ahmad Al-Hassan.",
+      "writingTips": [
+        "Σημειώστε τον πληθυντικό στον πόνο: Kopfschmerzen, Bauchschmerzen (πάντα πληθυντικός)",
+        "wehtun είναι ενικός «tut weh» για ένα μέρος, πληθυντικός «tun weh» για πολλά μέρη",
+        "Το müssen είναι ένα τροπικό ρήμα, επομένως το δεύτερο ρήμα πηγαίνει στο τέλος σε αόριστο"
+      ],
+      "selfCheckList": [
+        "Ανέφερες ότι είσαι άρρωστος;",
+        "Προσδιορίσατε τα συμπτώματά σας (πονοκέφαλος, πυρετός κ.λπ.);",
+        "Δήλωσες ότι έχεις ραντεβού με γιατρό;",
+        "Είπατε στο αφεντικό/δάσκαλό σας ότι δεν μπορείτε να έρθετε;",
+        "Χρησιμοποιήσατε το «tut weh» ή το «tun weh» σωστά;",
+        "Ζητήσατε πιστοποιητικό ασθενείας (Kranksschreibung);"
+      ]
+    },
+    "8": {
+      "title": "Παραγγελία σε εστιατόριο",
+      "type": "Διάλογος / Περιγραφή",
+      "description": "Μάθετε πώς να παραγγείλετε φαγητό και ποτά, ζητήστε τον λογαριασμό και εκφράστε τη γνώμη σας για το φαγητό.",
+      "keyVocabulary": [
+        "εστιατόριο",
+        "μενού",
+        "σερβιτόρος",
+        "ορεκτικό / κύριο πιάτο / επιδόρπιο",
+        "σνίτσελ / σούπα",
+        "να παραγγείλετε",
+        "να πληρώσει / πληρώσει μετρητά / κάρτα",
+        "ο λογαριασμός",
+        "Κρατήστε τα ρέστα",
+        "άκρο",
+        "υπέροχος"
+      ],
+      "usefulPhrases": [
+        "Θα ήθελα να παραγγείλω, παρακαλώ.",
+        "Τι μου προτείνετε;",
+        "Για μένα ένα σνίτσελ με πατάτες, παρακαλώ.",
+        "Για να πιω, θα πάρω ένα νερό.",
+        "Μπορούμε να πληρώσουμε, παρακαλώ;",
+        "Μαζί ή χωριστά;",
+        "Ο λογαριασμός, παρακαλώ.",
+        "Ήταν πολύ νόστιμο."
+      ],
+      "grammarFocus": [
+        "Conditional 'möchte' για ευγενικές παραγγελίες: Ich möchte bestellen",
+        "Αιτητική περίπτωση για παραγγελίες φαγητού: Ich nehme einen Salat (αρσ.), ein Wasser (neut), eine Suppe (θηλυκό)",
+        "Πρόθεση 'mit' + Dativ: Σνίτσελ mit Kartoffeln"
+      ],
+      "structure": [
+        {
+          "step": "Παραγγελία Φαγητού & Ποτού",
+          "tip": "Χρησιμοποιήστε ευγενικές δομές όπως «Ich hätte gern» ή «Ich nehme»"
+        },
+        {
+          "step": "Ειδικά Αιτήματα",
+          "tip": "Ζητήστε κάτι επιπλέον, όπως νερό χωρίς πάγο ή σαλάτα με λάδι"
+        },
+        {
+          "step": "Πληρώνοντας τον λογαριασμό",
+          "tip": "Καλέστε τον σερβιτόρο και ζητήστε τον λογαριασμό, προσδιορίζοντας πώς θέλετε να πληρώσετε"
+        },
+        {
+          "step": "Συμβουλή / Αντίο",
+          "tip": "Δώσε μια συμβουλή και πες ευχαριστώ"
+        }
+      ],
+      "exampleEssayTranslation": "Καλησπέρα. Θα θέλαμε να παραγγείλουμε. Για αρχή, παίρνω μια ντοματόσουπα. Για κυρίως πιάτο, θα ήθελα ένα σνίτσελ με τηγανητές πατάτες. Η γυναίκα μου παίρνει μια ψαροσαλάτα. Για να πιούμε, παίρνουμε ένα μπουκάλι μεταλλικό νερό. (Αργότερα) Μπορούμε να πληρώσουμε, παρακαλώ; Θα θέλαμε να πληρώσουμε μαζί, σε μετρητά. Ο λογαριασμός είναι 36 ευρώ. Εδώ είναι 40 ευρώ. Κρατήστε τα ρέστα. Το φαγητό ήταν πολύ νόστιμο. Σας ευχαριστώ!",
+      "writingTips": [
+        "Να χρησιμοποιείτε πάντα «Ich hätte gern» ή «Ich möchte» αντί «Ich will» (αγενής)",
+        "Όταν πληρώνετε, πείτε \"Zahlen, bitte!\" ή «Ich möchte bezahlen, bitte»",
+        "Χρησιμοποιήστε το \"Stimmt so\" για να αφήσετε ένα φιλοδώρημα κατά την παράδοση των χρημάτων"
+      ],
+      "selfCheckList": [
+        "Χρησιμοποιήσατε ευγενικές εκφράσεις (Ich hätte gern... / Ich möchte...);",
+        "Παραγγείλατε και φαγητό και ποτό;",
+        "Χρησιμοποιήσατε σωστά τα κατηγορούμενα άρθρα (π.χ. einen Salat);",
+        "Ζήτησες τον λογαριασμό;",
+        "Έχετε καθορίσει τον τρόπο πληρωμής (μετρητά/κάρτα);",
+        "Ανέφερες να αφήσεις φιλοδώρημα;"
+      ]
+    },
+    "9": {
+      "title": "Το επάγγελμά μου / Η δουλειά μου",
+      "type": "Περιγραφή",
+      "description": "Μάθετε πώς να γράφετε για την τρέχουσα εργασία σας, τις καθημερινές σας εργασίες, τον χώρο εργασίας και τις ώρες εργασίας.",
+      "keyVocabulary": [
+        "επάγγελμα / δουλειά",
+        "χώρο εργασίας / γραφείο",
+        "ώρες εργασίας",
+        "καθήκοντα / καθήκοντα",
+        "συναδέλφους",
+        "μισθός",
+        "να εργαστεί ως",
+        "στο επάγγελμα",
+        "να αρέσει η δουλειά",
+        "πλήρους / μερικής απασχόλησης"
+      ],
+      "usefulPhrases": [
+        "Εργάζομαι ως...",
+        "Είμαι ... στο επάγγελμα.",
+        "Ο χώρος εργασίας μου είναι στο...",
+        "Δουλεύω 40 ώρες την εβδομάδα.",
+        "Τα καθήκοντά μου είναι...",
+        "Μου αρέσουν οι συνάδελφοί μου.",
+        "Το έργο είναι ενδιαφέρον / αγχωτικό.",
+        "Δουλεύω από τις 8 έως τις 17 το πρωί."
+      ],
+      "grammarFocus": [
+        "Προθέσεις για εργασία: arbeiten bei + Company (Dativ), arbeiten als + Επάγγελμα",
+        "Χρονικά εύρη: από ... bis ... (από 8 bis 17 Uhr)",
+        "Γυναικείο επάγγελμα επίθημα '-in': der Lehrer / die Lehrerin"
+      ],
+      "structure": [
+        {
+          "step": "Θέση & Τίτλος",
+          "tip": "Δηλώστε το επάγγελμά σας και πού εργάζεστε αυτήν τη στιγμή"
+        },
+        {
+          "step": "Ωρες εργασίας",
+          "tip": "Εξηγήστε τις ώρες εργασίας σας και πόσες ημέρες την εβδομάδα εργάζεστε"
+        },
+        {
+          "step": "Καθημερινές Εργασίες",
+          "tip": "Καταγράψτε 2-3 κύριες εργασίες που εκτελείτε κατά τη διάρκεια της εργασίας"
+        },
+        {
+          "step": "Γνώμη για την εργασία",
+          "tip": "Δηλώστε αν σας αρέσει η δουλειά σας, οι συνάδελφοί σας ή αν σας προκαλεί άγχος"
+        }
+      ],
+      "exampleEssayTranslation": "Εργάζομαι ως επιστήμονας υπολογιστών σε μια εταιρεία λογισμικού στο Μόναχο. Είμαι μηχανικός στο επάγγελμα. Εργάζομαι με πλήρη απασχόληση, 40 ώρες την εβδομάδα. Οι ώρες εργασίας μου είναι από τις 9:00 έως τις 17:30. Τα καθήκοντά μου είναι να γράφω προγράμματα και να βοηθάω τους πελάτες. Μου αρέσει πολύ η δουλειά μου γιατί είναι ενδιαφέρουσα. Οι συνάδελφοί μου είναι επίσης πολύ καλοί και εξυπηρετικοί. Το γραφείο είναι μοντέρνο και ήσυχο.",
+      "writingTips": [
+        "Οι γυναίκες πρέπει να προσθέσουν «-in» στον τίτλο εργασίας τους: ich arbeite als Verkäuferin",
+        "Θυμηθείτε τη διαφορά: «Beruf» είναι το επάγγελμα που σπούδασες, «Job» είναι η δουλειά που κάνεις",
+        "Χρησιμοποιήστε «bei» για το όνομα του εργοδότη (bei Siemens) και «als» για τον ρόλο της εργασίας (als Ingenieur)"
+      ],
+      "selfCheckList": [
+        "Δήλωσες το επάγγελμα και τον ρόλο σου;",
+        "Χρησιμοποιήσατε τη σωστή πρόθεση (bei/als);",
+        "Προσδιόρισες τις ώρες εργασίας σου;",
+        "Αναφέρατε τις κύριες εργασίες σας;",
+        "Είπατε τη γνώμη σας για τη δουλειά ή για συναδέλφους;",
+        "Χρησιμοποιήσατε το θηλυκό επίθημα '-in' αν είστε γυναίκα;"
+      ]
+    },
+    "10": {
+      "title": "Λίστα αγορών & Διάλογος",
+      "type": "Λίστα & Διάλογος Αγορών",
+      "description": "Μάθετε πώς να γράφετε μια λίστα αγορών και να γράφετε έναν διάλογο με έναν πωλητή στο σούπερ μάρκετ ή την αγορά.",
+      "keyVocabulary": [
+        "λίστα αγορών",
+        "σούπερ μάρκετ / αγορά",
+        "κιλό / γραμμάριο / μπουκάλι",
+        "τιμή",
+        "ακριβό / φτηνό",
+        "λαχανικά / φρούτα",
+        "τυρί / κρέας / ψωμί",
+        "φρέσκο",
+        "αυτό είναι όλο",
+        "τσάντα"
+      ],
+      "usefulPhrases": [
+        "Τι χρειάζεσαι;",
+        "Χρειάζομαι ένα κιλό ντομάτες.",
+        "Αυτό είναι όλο;",
+        "Ναι, αυτό είναι όλο, ευχαριστώ.",
+        "Πόσο κοστίζει ένα μπουκάλι λάδι;",
+        "Χρειαζόμαστε και ψωμί και τυρί.",
+        "Πού μπορώ να βρω γάλα;",
+        "Έχετε φρέσκο ​​ψάρι;"
+      ],
+      "grammarFocus": [
+        "Πληθυντικός αριθμός ουσιαστικών και μονάδων: 2 κιλά (όχι κιλά), 3 Flaschen (πληθυντικός)",
+        "Ποσοτικοποιητές: viel / viele (viele Tomaten, viel Brot)",
+        "Ζητώντας τιμές: Ήταν kostet...; / Ήταν ο kosten...;"
+      ],
+      "structure": [
+        {
+          "step": "Προετοιμασία λίστας αγορών",
+          "tip": "Σημειώστε τη λίστα με τα είδη που χρειάζεστε χρησιμοποιώντας ποσότητες (κιλό, μπουκάλι, συσκευασία)"
+        },
+        {
+          "step": "Διάλογος - Ζητώντας αντικείμενα",
+          "tip": "Ρωτήστε τον πωλητή εάν έχει φρέσκα προϊόντα ή πού να βρείτε αντικείμενα"
+        },
+        {
+          "step": "Ερώτηση τιμής",
+          "tip": "Ρωτήστε για την τιμή συγκεκριμένων αντικειμένων"
+        },
+        {
+          "step": "Ταμείο / Πληρωμή",
+          "tip": "Ολοκληρώστε τη συναλλαγή στο γκισέ"
+        }
+      ],
+      "exampleEssayTranslation": "Καλημέρα. Θα ήθελα να αγοράσω λαχανικά και φρούτα σήμερα. Χρειάζομαι δύο κιλά μήλα, ένα κιλό ντομάτες και ένα αγγούρι. Είναι οι ντομάτες φρέσκες; Ναι, είναι φρέσκα από σήμερα. Πόσο κοστίζουν τα μήλα; Το ένα κιλό κοστίζει 2,50 ευρώ. Εντάξει, θα πάρω δύο κιλά. Έχετε και τυρί; Ναι, εκεί. Αυτό είναι όλο, ευχαριστώ. Δηλαδή 8,20 ευρώ. Εδώ είναι 10 ευρώ. Σας ευχαριστώ πολύ.",
+      "writingTips": [
+        "Σημειώστε ότι οι μονάδες μέτρησης συνήθως παραμένουν ενικές μετά τους αριθμούς: 2 Kilo Äpfel, 3 Liter Milch",
+        "Χρησιμοποιήστε το \"Was kostet...\" για στοιχεία στον ενικό αριθμό και \"Was kosten...\" για στοιχεία στον πληθυντικό αριθμό",
+        "Ρωτήστε ευγενικά: \"Ich hätte gern...\" ή \"Ich brauche...\""
+      ],
+      "selfCheckList": [
+        "Συμπεριλάβατε ποσότητες και μονάδες (κιλό, λίτρο, συσκευασία);",
+        "Ρώτησες για την τιμή;",
+        "Ελέγξατε αν τα προϊόντα είναι φρέσκα;",
+        "Χρησιμοποιήσατε σωστά το 'Was kostet/Was kosten';",
+        "Χρησιμοποιήσατε ευγενικές εκφράσεις για να ζητήσετε αντικείμενα;",
+        "Έγραψες ένα λογικό κλείσιμο στην αλληλεπίδραση με τα ψώνια;"
+      ]
+    },
+    "11": {
+      "title": "Η πόλη μου",
+      "type": "Περιγραφή",
+      "description": "Μάθετε πώς να περιγράφετε την πόλη σας - τοποθεσία, μέγεθος, δημόσια συγκοινωνία, τουριστικά αξιοθέατα και ζωή.",
+      "keyVocabulary": [
+        "πόλη / πόλη",
+        "τοποθεσία / χώρα",
+        "κατοίκων",
+        "δημόσια συγκοινωνία",
+        "αξιοθέατα / αξιοθέατα",
+        "ήσυχο / απασχολημένο",
+        "πάρκα / μουσεία",
+        "καταστήματα",
+        "να αρέσει η πόλη",
+        "εδώ"
+      ],
+      "usefulPhrases": [
+        "Ζω σε ..., μια πόλη στο ...",
+        "Η πόλη έχει... κατοίκους.",
+        "Βρίσκεται στα βόρεια / νότια / ανατολικά / δυτικά.",
+        "Υπάρχουν πολλά αξιοθέατα, όπως...",
+        "Η δημόσια συγκοινωνία είναι πολύ καλή.",
+        "Μου αρέσει να ζω εδώ γιατί...",
+        "Το αγαπημένο μου μέρος είναι..."
+      ],
+      "grammarFocus": [
+        "Επιρρήματα τόπου: hier, dort, in der Nähe",
+        "Οδηγίες πυξίδας: im Norden, im Süden, im Osten, im Westen",
+        "Ρήμα «liegen» για τοποθεσία: München liegt im Süden von Deutschland"
+      ],
+      "structure": [
+        {
+          "step": "Τοποθεσία & Μέγεθος",
+          "tip": "Ονομάστε την πόλη, τη χώρα/περιοχή και τον αριθμό των κατοίκων"
+        },
+        {
+          "step": "Μέσα Μαζικής Μεταφοράς & Εγκαταστάσεων",
+          "tip": "Αναφέρετε πώς είναι τα μέσα μαζικής μεταφοράς και αν υπάρχουν σχολεία, πάρκα ή καταστήματα"
+        },
+        {
+          "step": "Αξιοθέατα & Αναψυχή",
+          "tip": "Καταγράψτε 2-3 αξιοθέατα ή πράγματα που μπορείτε να κάνετε στην πόλη"
+        },
+        {
+          "step": "Προσωπικό συμπέρασμα",
+          "tip": "Εξηγήστε γιατί σας αρέσει ή δεν σας αρέσει να ζείτε σε αυτή την πόλη"
+        }
+      ],
+      "exampleEssayTranslation": "Ζω στο Αμβούργο. Είναι μια μεγάλη πόλη στα βόρεια της Γερμανίας. Το Αμβούργο έχει περίπου 1,8 εκατομμύρια κατοίκους. Η πόλη βρίσκεται στον ποταμό Έλβα. Η δημόσια συγκοινωνία είναι πολύ καλή: υπάρχουν λεωφορεία, μετρό και πλοία. Υπάρχουν πολλά αξιοθέατα εδώ, όπως το λιμάνι και η Elbphilharmonie. Το Αμβούργο έχει πολλά όμορφα πάρκα και καταστήματα. Μου αρέσει να ζω εδώ γιατί η πόλη είναι όμορφη και ζωντανή. Το λιμάνι είναι το αγαπημένο μου μέρος.",
+      "writingTips": [
+        "Σημείωση κεφαλαίων: Norden, Süden, Osten, Westen γράφονται με κεφαλαία όταν ακολουθούν το \"im\"",
+        "Χρησιμοποιήστε το 'es gibt' για να απαριθμήσετε τι υπάρχει στην πόλη (με κατηγορούμενο)",
+        "Γράψτε \"in\" για πόλεις: στο Βερολίνο, στο Αμβούργο (χωρίς άρθρο)"
+      ],
+      "selfCheckList": [
+        "Δηλώσατε το όνομα της πόλης και την τοποθεσία της;",
+        "Αναφέρατε το μέγεθος ή τον πληθυσμό;",
+        "Ανέφερες τα μέσα μαζικής μεταφοράς;",
+        "Αναφέρατε κάποια αξιοθέατα ή αξιοθέατα;",
+        "Είπατε την προσωπική σας άποψη για την πόλη;",
+        "Χρησιμοποιήσατε σωστά τις οδηγίες της πυξίδας;"
+      ]
+    },
+    "12": {
+      "title": "Προσωπικό Προφίλ",
+      "type": "Ενημερωτικό Φύλλο / Έντυπο",
+      "description": "Μάθετε πώς να συμπληρώσετε μια φόρμα προσωπικών πληροφοριών και να γράψετε μια παράγραφο που συνοψίζει τα γεγονότα.",
+      "keyVocabulary": [
+        "όνομα",
+        "επώνυμο / επώνυμο",
+        "ημερομηνία γεννήσεως",
+        "τόπος γεννήσεως",
+        "ιθαγένεια",
+        "διεύθυνση / οδός",
+        "αριθμός τηλεφώνου",
+        "e-mail",
+        "γλώσσες",
+        "υπογραφή"
+      ],
+      "usefulPhrases": [
+        "Όνομα: ... / Επώνυμο: ...",
+        "Ημερομηνία γέννησης: ... σε ...",
+        "Εθνικότητα:...",
+        "Η διεύθυνσή μου είναι: ... Οδός, ... Πόλη.",
+        "Ο αριθμός τηλεφώνου μου είναι...",
+        "Μιλάω και..."
+      ],
+      "grammarFocus": [
+        "Η κεφαλαιοποίηση των ουσιαστικών σε μορφές",
+        "Ημερομηνίες μορφοποίησης: 12.05.1995 (ημέρα.μήνας.έτος)",
+        "Προθέσεις για διεύθυνση και προέλευση: σε (πόλη), aus (χώρα)"
+      ],
+      "structure": [
+        {
+          "step": "Δεδομένα Φόρμας",
+          "tip": "Καταγράψτε τα προσωπικά στοιχεία σε μια σαφή διάταξη φόρμας"
+        },
+        {
+          "step": "Παράγραφος περίληψης γεγονότων",
+          "tip": "Γράψτε ένα σύντομο κείμενο που συνδέει όλα αυτά τα γεγονότα σε πλήρεις προτάσεις"
+        }
+      ],
+      "exampleEssayTranslation": "Όνομα: Ahmad. Επώνυμο: Al-Hassan. Ημερομηνία γέννησης: 15.08.1998. Τόπος γέννησης: Χαλέπι. Εθνικότητα: Σύρος. Διεύθυνση: Hauptstraße 12, 10115 Βερολίνο. Τηλέφωνο: 0176-12345678. Email: ahmad@email.com. Γλώσσες: Αραβικά (μητρική γλώσσα), Γερμανικά (Α1), Αγγλικά (καλά). Αυτός είναι ο Ahmad Al-Hassan. Γεννήθηκε στο Χαλέπι της Συρίας. Τώρα ζει στο Βερολίνο. Μιλάει Αραβικά, Γερμανικά και Αγγλικά.",
+      "writingTips": [
+        "Οι φόρμες απαιτούν ακριβή ορθογραφία και σωστή μορφοποίηση αριθμών και συμβόλων",
+        "Στα γερμανικά, το όνομα του δρόμου έρχεται πάντα πρώτο, ακολουθούμενο από τον αριθμό του σπιτιού: Hauptstraße 12",
+        "Το επώνυμο (Nachname/Familienname) είναι διαφορετικό από το όνομα (Vorname)"
+      ],
+      "selfCheckList": [
+        "Συμπληρώσατε όλα τα υποχρεωτικά πεδία στη φόρμα;",
+        "Μορφοποιήσατε σωστά τη διεύθυνση (Οδός και μετά Αριθμός σπιτιού);",
+        "Μορφοποίησες σωστά την ημερομηνία γέννησης;",
+        "Γράψατε περιληπτικό κείμενο σε 3ο πρόσωπο (Αυτός/Αυτή);",
+        "Όλα τα ουσιαστικά γράφονται με κεφαλαία;",
+        "Προσδιόρισες τα επίπεδα γλώσσας σου;"
+      ]
+    },
+    "13": {
+      "title": "Ο Καιρός",
+      "type": "Περιγραφή / Αναφορά",
+      "description": "Μάθετε πώς να περιγράφετε διαφορετικές καιρικές συνθήκες, εποχές, θερμοκρασίες και δραστηριότητες.",
+      "keyVocabulary": [
+        "καιρός",
+        "ήλιος / βροχή / χιόνι / άνεμος",
+        "εποχή",
+        "άνοιξη / καλοκαίρι / φθινόπωρο / χειμώνας",
+        "θερμοκρασία / μοίρες",
+        "ζεστό / ζεστό / κρύο / δροσερό",
+        "συννεφιά / άνεμος / ηλιόλουστη",
+        "να λάμψει",
+        "κακοκαιρία",
+        "να παγώσει"
+      ],
+      "usefulPhrases": [
+        "Σήμερα ο καιρός είναι πολύ καλός / κακός.",
+        "Ο ήλιος λάμπει.",
+        "Βρέχει / χιονίζει.",
+        "Η θερμοκρασία είναι 22 βαθμοί.",
+        "Το καλοκαίρι κάνει πολύ ζέστη.",
+        "Το χειμώνα κάνει κρύο και χιονίζει.",
+        "Μου αρέσει ο ηλιόλουστος καιρός γιατί..."
+      ],
+      "grammarFocus": [
+        "Απρόσωπη αντωνυμία 'es': Es regnet. Es schneit. Es ist kalt.",
+        "Εκφράσεις θερμοκρασίας: Es sind 20 Grad. (πληθυντικός)",
+        "Προθέσεις για εποχές: im Sommer, im Winter, im Frühling, im Herbst"
+      ],
+      "structure": [
+        {
+          "step": "Τρέχον Καιρός",
+          "tip": "Περιγράψτε τον καιρό σήμερα: θερμοκρασία, ήλιος, σύννεφα ή βροχή"
+        },
+        {
+          "step": "Περιγραφή εποχών",
+          "tip": "Περιγράψτε πώς είναι ο καιρός την αγαπημένη σας εποχή"
+        },
+        {
+          "step": "Δραστηριότητες ανάλογα με τον καιρό",
+          "tip": "Εξηγήστε τι σας αρέσει να κάνετε όταν ο καιρός είναι καλός ή κακός"
+        },
+        {
+          "step": "Σύναψη",
+          "tip": "Δηλώστε τον αγαπημένο σας τύπο καιρού"
+        }
+      ],
+      "exampleEssayTranslation": "Σήμερα ο καιρός στο Μόναχο είναι πολύ όμορφος. Ο ήλιος λάμπει και δεν υπάρχουν σύννεφα. Είναι ζεστό, η θερμοκρασία είναι 24 βαθμοί. Μου αρέσει αυτός ο καιρός. Το καλοκαίρι, κάνει συχνά ζέστη στη Γερμανία. Το χειμώνα κάνει πολύ κρύο και χιονίζει συχνά. Όταν ο καιρός είναι όμορφος, πηγαίνω στο πάρκο ή παίζω ποδόσφαιρο. Όταν βρέχει, μένω σπίτι και διαβάζω. Η αγαπημένη μου εποχή είναι το καλοκαίρι.",
+      "writingTips": [
+        "Χρησιμοποιήστε το «Es ist...» με επίθετα: Es ist windig/sonnig/kalt",
+        "Χρησιμοποιήστε ρήματα για βροχή και χιόνι: Es regnet (βρέχει), Es schneit (χιονίζει)",
+        "Θερμοκρασία: πείτε \"Es sind ... Grad\" (χρησιμοποιήστε \"sind\" επειδή οι μοίρες είναι πληθυντικός)"
+      ],
+      "selfCheckList": [
+        "Περιέγραψες τον καιρό σήμερα;",
+        "Διευκρινίσατε τη θερμοκρασία σε βαθμούς;",
+        "Χρησιμοποιήσατε σωστά το 'es' (Es regnet / Es ist kalt);",
+        "Ανέφερες εποχές;",
+        "Περιγράψατε δραστηριότητες για καλό και κακό καιρό;",
+        "Δήλωσες την αγαπημένη σου εποχή;"
+      ]
+    },
+    "14": {
+      "title": "Περιγραφή ενός φίλου",
+      "type": "Περιγραφή / Βιογραφία",
+      "description": "Μάθετε πώς να περιγράφετε έναν φίλο - εμφάνιση, χαρακτήρα, χόμπι και πώς γνωριστήκατε.",
+      "keyVocabulary": [
+        "φίλος (άνδρας/θηλυκός)",
+        "εμφάνιση / εμφάνιση",
+        "μάτια / μαλλιά",
+        "χαρακτήρας / φιλικός / αστείος",
+        "χόμπι",
+        "να γνωρίσω / γνώρισα",
+        "από",
+        "συχνά μαζί",
+        "σπουδαίος",
+        "ο καλύτερος φίλος"
+      ],
+      "usefulPhrases": [
+        "Το όνομα της καλύτερής μου φίλης είναι...",
+        "Είναι ... χρονών.",
+        "Έχει καστανά μάτια και μαύρα μαλλιά.",
+        "Είναι πολύ φιλικός και αστείος.",
+        "Γνωριζόμαστε εδώ και ... χρόνια.",
+        "Παίζουμε συχνά ποδόσφαιρο μαζί.",
+        "Είναι ένα πολύ σημαντικό άτομο για μένα."
+      ],
+      "grammarFocus": [
+        "Αντωνυμίες σε 3ο ενικό πρόσωπο: er/sein (αρσ.) vs sie/ihr (θηλυκό)",
+        "Κτητικοί: sein Freund / ihre Freundin",
+        "Καταλήξεις επιθέτων μετά το 'ist' (χωρίς κατάληξη): Er ist nett. Sie ist groß."
+      ],
+      "structure": [
+        {
+          "step": "Εισαγωγή - Ποιος είναι ο φίλος σας;",
+          "tip": "Ονομάστε τον φίλο σας, την ηλικία του και πού μένει"
+        },
+        {
+          "step": "Εμφάνιση & Εμφάνιση",
+          "tip": "Περιγράψτε τα μάτια, τα μαλλιά, το ύψος και τη συνολική τους εμφάνιση"
+        },
+        {
+          "step": "Χαρακτήρας & Χαρακτηριστικά",
+          "tip": "Εξηγήστε την προσωπικότητά τους: αστεία, εξυπηρετικά, ήσυχα, δραστήρια"
+        },
+        {
+          "step": "Κοινές δραστηριότητες",
+          "tip": "Περιγράψτε τι κάνετε μαζί και πόσο καιρό γνωρίζετε ο ένας τον άλλον"
+        }
+      ],
+      "exampleEssayTranslation": "Ο καλύτερός μου φίλος λέγεται Κάρλος. Είναι 25 ετών και κατάγεται από την Ισπανία. Τώρα ζει στο Αμβούργο. Ο Carlos είναι ψηλός και έχει κοντά μαύρα μαλλιά και καστανά μάτια. Είναι πολύ φιλικός, αστείος και εξυπηρετικός. Γνωριζόμαστε δύο χρόνια, από τα γερμανικά μας. Συχνά παίζουμε τένις μαζί ή ακούμε μουσική τα Σαββατοκύριακα. Ο Κάρλος είναι πολύ καλός φίλος και πολύ σημαντικός για μένα.",
+      "writingTips": [
+        "Διατηρήστε τις αντωνυμίες συνεπείς: χρησιμοποιήστε «er» και «sein» για άντρες φίλους, «sie» και «ihr» για φίλες",
+        "Τα επίθετα μετά το «sein» (είναι/είναι) δεν παίρνουν καταλήξεις: Er ist nett (όχι Er ist netter)",
+        "Αναφέρετε πώς συναντηθήκατε για να προσθέσετε βάθος στο κείμενό σας"
+      ],
+      "selfCheckList": [
+        "Δήλωσες το όνομα και την ηλικία του φίλου σου;",
+        "Περιγράψατε τη φυσική τους εμφάνιση (μαλλιά, μάτια);",
+        "Αναφέρατε χαρακτηριστικά χαρακτήρα (φιλικά, αστεία);",
+        "Ανέφερες πώς γνωριστήκατε και πόσο καιρό γνωριζόσασταν;",
+        "Χρησιμοποιήσατε σωστές αντωνυμίες (er/sie, sein/ihr);",
+        "Περιέγραψες τι κάνετε μαζί;"
+      ]
+    },
+    "15": {
+      "title": "Το μάθημα γερμανικών μου",
+      "type": "Περιγραφή",
+      "description": "Μάθετε πώς να γράφετε για το μάθημά σας στα γερμανικά - συμμαθητές, δάσκαλο, πρόγραμμα και μεθόδους μελέτης.",
+      "keyVocabulary": [
+        "μάθημα γερμανικών",
+        "σχολείο / ινστιτούτο",
+        "δάσκαλος (άνδρας/γυναίκα)",
+        "συμμαθητές",
+        "μαθήματα",
+        "να μελετήσει / να μάθει",
+        "ώρα / πρόγραμμα",
+        "δύσκολο / εύκολο / ενδιαφέρον",
+        "διακοπή",
+        "σχολική εργασία στο σπίτι"
+      ],
+      "usefulPhrases": [
+        "Παρακολουθώ μαθήματα γερμανικών στο...",
+        "Η δασκάλα μας λέγεται κ./κυρία. ...",
+        "Το μάθημα είναι από Δευτέρα έως Παρασκευή.",
+        "Είμαστε 15 μαθητές στην τάξη.",
+        "Τα γερμανικά είναι δύσκολα αλλά ενδιαφέροντα.",
+        "Μαθαίνουμε γραμματική και μιλάμε πολύ.",
+        "Έχουμε διάλειμμα στις 10:00."
+      ],
+      "grammarFocus": [
+        "Σύζευξη ρημάτων: lernen, sprechen (wir sprechen, er spricht)",
+        "Χρονικά διαστήματα: από ... bis ... (από 9 bis 12 Uhr)",
+        "Πληθυντικός αριθμός σχολικών όρων: der Lehrer → die Lehrer, die Hausaufgabe → die Hausaufgaben"
+      ],
+      "structure": [
+        {
+          "step": "Πληροφορίες μαθήματος",
+          "tip": "Δηλώστε το όνομα του σχολείου και το επίπεδο του μαθήματός σας (A1)"
+        },
+        {
+          "step": "Πρόγραμμα & Διάρκεια",
+          "tip": "Αναφέρετε ποιες ημέρες και ποιες ώρες γίνεται το μάθημα"
+        },
+        {
+          "step": "Τάξη & Δάσκαλος",
+          "tip": "Περιγράψτε τον δάσκαλο και αναφέρετε από πού κατάγονται οι συμμαθητές σας"
+        },
+        {
+          "step": "Μαθήματα & Μέθοδοι",
+          "tip": "Εξηγήστε τι κάνετε στην τάξη (προφορική, γραφή, γραμματική) και τη γνώμη σας"
+        }
+      ],
+      "exampleEssayTranslation": "Παρακολουθώ μαθήματα γερμανικών στο Ινστιτούτο Γκαίτε στο Βερολίνο. Το μάθημα είναι επιπέδου Α1. Έχουμε μάθημα από Δευτέρα έως Παρασκευή, από τις 9:00 έως τις 12:30. Η δασκάλα μας λέγεται κυρία Σμιντ. Είναι πολύ φιλική και υπομονετική. Είμαστε 12 φοιτητές από διαφορετικές χώρες: Συρία, Τουρκία, Πολωνία και Ρουμανία. Μαθαίνουμε γραμματική, διαβάζουμε κείμενα και μιλάμε πολύ. Το μάθημα είναι ενδιαφέρον αλλά μερικές φορές δύσκολο. Κάνουμε κάθε μέρα την εργασία.",
+      "writingTips": [
+        "Θυμηθείτε ότι οι εθνικότητες και οι χώρες γράφονται με κεφαλαία: Syrien, Türkei, Polen",
+        "Μορφές δασκάλου: der Lehrer (άνδρας), die Lehrerin (θηλυκό)",
+        "Μάθημα γερμανικών: «der Deutschkurs» (μία σύνθετη λέξη)"
+      ],
+      "selfCheckList": [
+        "Ονομάσατε το επίπεδο της σχολής και του μαθήματος;",
+        "Προσδιόρισες τις ημέρες και τις ώρες του μαθήματος;",
+        "Αναφέρατε το όνομα και το φύλο της δασκάλας;",
+        "Δήλωσες από πού κατάγονται οι συμμαθητές σου;",
+        "Περιέγραψες τι σπουδάζεις στην τάξη;",
+        "Είπατε τη γνώμη σας για το μάθημα;"
+      ]
+    }
   }
 };
