@@ -383,15 +383,9 @@ function getWritingPromptText(wp) {
 }
 
 function getWritingHelpers(wp) {
-  if (currentLang === 'ar') return wp.helpers;
-  if (currentLang === 'tr') return wp.helpersTr || wp.helpersEn || wp.helpers;
-  if (currentLang === 'ro') return wp.helpersRo || wp.helpersEn || wp.helpers;
-  if (currentLang === 'bs') return wp.helpersBs || wp.helpersEn || [];
-  if (currentLang === 'es') return wp.helpersEs || wp.helpersEn || [];
-  if (currentLang === 'bg') return wp.helpersBg || wp.helpersEn || [];
-  if (currentLang === 'el') return wp.helpersEl || wp.helpersEn || [];
-  return wp.helpersEn || wp.helpers;
+  return wp.helpers || [];
 }
+
 
 // ── Sidebar Chapter links ─────────────────────────────────────
 function buildSidebarChapters() {
