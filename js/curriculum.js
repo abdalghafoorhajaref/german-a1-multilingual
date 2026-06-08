@@ -434,32 +434,32 @@ const CURRICULUM = [
             [
               "ich",
               "bin",
-              "أنا / I am / Ben / eu sunt / jesam / Soy / аз съм / είμαι"
+              "أنا / I am / Ben / eu sunt / Ja sam / Yo soy / Аз съм / Είμαι"
             ],
             [
               "du",
               "bist",
-              "أنت / You are / Sen / Tu ești / jesi / Eres / Вие сте / Είσθε"
+              "أنت / You are / Sen / Tu ești / Ti si / Tú eres / Ти си / Είσαι"
             ],
             [
               "er/sie/es",
               "ist",
-              "هو/هي / He/She/It is / O / El/Ea/Este / On/ona/jeste / Él/Ella/Eso es / Той/Тя/Това е / Αυτός/Αυτή/Είναι"
+              "هو/هي / He/She/It is / O / El/Ea/Este / On/Ona/Ono je / Él/Ella/Ello es / Той/Тя/То е / Αυτός/Αυτή/Αυτό είναι"
             ],
             [
               "wir",
               "sind",
-              "نحن / We are / Biz / Suntem / Jesmo / Somos / Ние сме / Είμαστε"
+              "نحن / We are / Biz / Suntem / Mi smo / Nosotros somos / Ние сме / Είμαστε"
             ],
             [
               "ihr",
               "seid",
-              "أنتم / You all are / Siz / Sunteți cu toții / Svi ste vi / todos ustedes son / Вие всички сте / Είστε όλοι"
+              "أنتم / You all are / Siz / Sunteți cu toții / Vi ste / Vosotros sois / Ustedes son / Вие сте / Είστε"
             ],
             [
               "sie/Sie",
               "sind",
-              "هم/حضرتك / They/You (formal) are / Onlar/Siz / Ei/Tu (formale) sunteți / Oni/Vi (formalno) jeste / Ellos/Tú (formal) eres / Те/Вие (формално) сте / Αυτοί/εσείς (επίσημα) είναι"
+              "هم/حضرتك / They/You (formal) are / Onlar/Siz / Ei/Tu (formale) sunteți / Oni/Vi (formalno) ste / Ellos/Usted (formal) son / Те/Вие (учтиво) сте / Αυτοί/Εσείς (επίσημα) είστε"
             ]
           ],
           "headersRo": [
@@ -782,7 +782,11 @@ const CURRICULUM = [
           "vin din...",
           "locuiesc in...",
           "Am... ani."
-        ]
+        ],
+        "promptBs": "Predstavite se na njemačkom! (3-4 rečenice)",
+        "promptEs": "¡Preséntate en alemán! (3-4 frases)",
+        "promptBg": "Представете се на немски! (3-4 изречения)",
+        "promptEl": "Συστηθείτε στα Γερμανικά! (3-4 προτάσεις)"
       }
     ],
     "speakingPhrases": [
@@ -1308,7 +1312,11 @@ const CURRICULUM = [
         "helpersRo": [
           "Numărul meu de telefon este...",
           "Numărul meu de mobil este..."
-        ]
+        ],
+        "promptBs": "Napišite svoj broj telefona na njemačkom jeziku",
+        "promptEs": "Escribe tu número de teléfono en alemán.",
+        "promptBg": "Напишете телефонния си номер на немски",
+        "promptEl": "Γράψτε τον αριθμό τηλεφώνου σας στα γερμανικά"
       }
     ],
     "speakingPhrases": [
@@ -1750,7 +1758,11 @@ const CURRICULUM = [
           "vreau sa cumpar...",
           "Asta costa...",
           "Asta este ieftin/scump."
-        ]
+        ],
+        "promptBs": "Opišite šta želite da kupite u prodavnici!",
+        "promptEs": "¡Describe lo que quieres comprar en la tienda!",
+        "promptBg": "Опишете какво искате да закупите от магазина!",
+        "promptEl": "Περιγράψτε τι θέλετε να αγοράσετε από το κατάστημα!"
       }
     ],
     "speakingPhrases": [
@@ -2074,7 +2086,11 @@ const CURRICULUM = [
           "ma trezesc la...",
           "La... ora...",
           "Dimineata/seara..."
-        ]
+        ],
+        "promptBs": "Opišite svoju dnevnu rutinu",
+        "promptEs": "Describe tu rutina diaria",
+        "promptBg": "Опишете ежедневието си",
+        "promptEl": "Περιγράψτε την καθημερινότητά σας"
       }
     ],
     "speakingPhrases": [
@@ -2382,7 +2398,11 @@ const CURRICULUM = [
           "am nevoie de...",
           "un kilogram de...",
           "500 de grame de..."
-        ]
+        ],
+        "promptBs": "Napišite sedmičnu listu za kupovinu namirnica",
+        "promptEs": "Escribe una lista de compras semanal",
+        "promptBg": "Напишете седмичен списък за пазаруване на хранителни стоки",
+        "promptEl": "Γράψτε μια εβδομαδιαία λίστα αγορών παντοπωλείου"
       }
     ],
     "speakingPhrases": [
@@ -2727,7 +2747,11 @@ const CURRICULUM = [
         "helpersRo": [
           "Familia mea este...",
           "Numele tatălui meu este..."
-        ]
+        ],
+        "promptBs": "Opišite svoju porodicu",
+        "promptEs": "Describe a tu familia",
+        "promptBg": "Опишете вашето семейство",
+        "promptEl": "Περιγράψτε την οικογένειά σας"
       }
     ],
     "speakingPhrases": [
@@ -3017,7 +3041,11 @@ const CURRICULUM = [
           "locuiesc in...",
           "Apartamentul meu are...",
           "Chiria este..."
-        ]
+        ],
+        "promptBs": "Opišite svoj stan ili kuću",
+        "promptEs": "Describe tu piso o casa",
+        "promptBg": "Опишете вашия апартамент или къща",
+        "promptEl": "Περιγράψτε το διαμέρισμα ή το σπίτι σας"
       }
     ],
     "speakingPhrases": [
@@ -3299,7 +3327,11 @@ const CURRICULUM = [
           "am...",
           "De... zile...",
           "Am nevoie de o programare..."
-        ]
+        ],
+        "promptBs": "Napišite poruku svom ljekaru u kojoj opišete svoje stanje",
+        "promptEs": "Escriba un mensaje a su médico describiendo su condición.",
+        "promptBg": "Напишете съобщение до Вашия лекар, в което опишете състоянието си",
+        "promptEl": "Γράψτε ένα μήνυμα στον γιατρό σας περιγράφοντας την κατάστασή σας"
       }
     ],
     "speakingPhrases": [
@@ -3572,7 +3604,11 @@ const CURRICULUM = [
         "helpersRo": [
           "Ia metroul...",
           "Viraj la stânga..."
-        ]
+        ],
+        "promptBs": "Napišite upute kako doći do vašeg mjesta",
+        "promptEs": "Escribe direcciones para llegar a tu lugar.",
+        "promptBg": "Напишете упътвания за достигане до вашето място",
+        "promptEl": "Γράψτε οδηγίες για να φτάσετε στη θέση σας"
       }
     ],
     "speakingPhrases": [
@@ -3848,7 +3884,11 @@ const CURRICULUM = [
         "helpersRo": [
           "Hobby-ul meu este...",
           "imi place sa ma joc..."
-        ]
+        ],
+        "promptBs": "Pišite o svojim hobijima i šta volite",
+        "promptEs": "Escribe sobre tus aficiones y lo que te gusta.",
+        "promptBg": "Пишете за вашите хобита и какво харесвате",
+        "promptEl": "Γράψε για τα χόμπι σου και τι σου αρέσει"
       }
     ],
     "speakingPhrases": [
@@ -4130,7 +4170,11 @@ const CURRICULUM = [
           "Sunt un... de profesie.",
           "Lucrez la...",
           "Slujba mea de vis este..."
-        ]
+        ],
+        "promptBs": "Opišite svoj posao ili posao iz snova",
+        "promptEs": "Describe tu trabajo o el trabajo de tus sueños.",
+        "promptBg": "Опишете вашата работа или мечтана работа",
+        "promptEl": "Περιγράψτε τη δουλειά σας ή τη δουλειά των ονείρων σας"
       }
     ],
     "speakingPhrases": [
@@ -4418,7 +4462,11 @@ const CURRICULUM = [
         "helpersRo": [
           "as vrea...",
           "Sa bea..."
-        ]
+        ],
+        "promptBs": "Napišite svoju narudžbu u restoranu",
+        "promptEs": "Escribe tu pedido en un restaurante",
+        "promptBg": "Напишете поръчката си в ресторант",
+        "promptEl": "Γράψτε την παραγγελία σας σε ένα εστιατόριο"
       }
     ],
     "speakingPhrases": [
