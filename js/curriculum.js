@@ -703,25 +703,45 @@ const CURRICULUM = [
             "de": "Guten Tag",
             "ar": "مرحباً/صباح الخير",
             "en": "Good day / Hello",
-            "tr": "İyi günler / Merhaba"
+            "tr": "İyi günler / Merhaba",
+            "ro": "Bună ziua",
+            "bs": "Dobar dan",
+            "es": "Buen día",
+            "bg": "Добър ден",
+            "el": "Καλημέρα"
           },
           {
             "de": "Danke",
             "ar": "شكراً",
             "en": "Thank you",
-            "tr": "Teşekkürler"
+            "tr": "Teşekkürler",
+            "ro": "Mulțumesc",
+            "bs": "Hvala",
+            "es": "Gracias",
+            "bg": "Благодаря",
+            "el": "Ευχαριστώ"
           },
           {
             "de": "Bitte",
             "ar": "من فضلك / عفواً",
             "en": "Please / You're welcome",
-            "tr": "Lütfen / Rica ederim"
+            "tr": "Lütfen / Rica ederim",
+            "ro": "Te rog / Cu plăcere",
+            "bs": "Molim",
+            "es": "Por favor",
+            "bg": "Моля",
+            "el": "Παρακαλώ"
           },
           {
             "de": "Tschüss",
             "ar": "مع السلامة",
             "en": "Goodbye",
-            "tr": "Hoşçakal / Görüşürüz"
+            "tr": "Hoşçakal / Görüşürüz",
+            "ro": "La revedere / Pa",
+            "bs": "Zbogom / Ćao",
+            "es": "Adiós",
+            "bg": "Довиждане",
+            "el": "Αντίο"
           }
         ],
         "questionRo": "Potriviți germană și traducere:",
