@@ -434,32 +434,32 @@ const CURRICULUM = [
             [
               "ich",
               "bin",
-              "أنا / I am / Ben / eu sunt"
+              "أنا / I am / Ben / eu sunt / jesam / Soy / аз съм / είμαι"
             ],
             [
               "du",
               "bist",
-              "أنت / You are / Sen / Tu ești"
+              "أنت / You are / Sen / Tu ești / jesi / Eres / Вие сте / Είσθε"
             ],
             [
               "er/sie/es",
               "ist",
-              "هو/هي / He/She/It is / O / El/Ea/Este"
+              "هو/هي / He/She/It is / O / El/Ea/Este / On/ona/jeste / Él/Ella/Eso es / Той/Тя/Това е / Αυτός/Αυτή/Είναι"
             ],
             [
               "wir",
               "sind",
-              "نحن / We are / Biz / Suntem"
+              "نحن / We are / Biz / Suntem / Jesmo / Somos / Ние сме / Είμαστε"
             ],
             [
               "ihr",
               "seid",
-              "أنتم / You all are / Siz / Sunteți cu toții"
+              "أنتم / You all are / Siz / Sunteți cu toții / Svi ste vi / todos ustedes son / Вие всички сте / Είστε όλοι"
             ],
             [
               "sie/Sie",
               "sind",
-              "هم/حضرتك / They/You (formal) are / Onlar/Siz / Ei/Tu (formale) sunteți"
+              "هم/حضرتك / They/You (formal) are / Onlar/Siz / Ei/Tu (formale) sunteți / Oni/Vi (formalno) jeste / Ellos/Tú (formal) eres / Те/Вие (формално) сте / Αυτοί/εσείς (επίσημα) είναι"
             ]
           ],
           "headersRo": [
@@ -791,35 +791,55 @@ const CURRICULUM = [
         "ar": "مرحباً! اسمي ...",
         "en": "Good day! My name is ...",
         "tr": "İyi günler! Benim adım ...",
-        "ro": "Bună ziua! Numele meu este ..."
+        "ro": "Bună ziua! Numele meu este ...",
+        "bs": "Dobar dan! moje ime je...",
+        "es": "¡Buen día! Mi nombre es ...",
+        "bg": "Добър ден! името ми е...",
+        "el": "Καλημέρα! Το όνομά μου είναι..."
       },
       {
         "de": "Ich komme aus ...",
         "ar": "أنا من ...",
         "en": "I come from ...",
         "tr": "...'den geliyorum.",
-        "ro": "eu vin din..."
+        "ro": "eu vin din...",
+        "bs": "dolazim iz...",
+        "es": "Yo vengo de...",
+        "bg": "идвам от...",
+        "el": "κατάγομαι από..."
       },
       {
         "de": "Wie heißen Sie?",
         "ar": "ما اسم حضرتك؟",
         "en": "What is your name (formal)?",
         "tr": "Adınız nedir?",
-        "ro": "Care este numele tău (formal)?"
+        "ro": "Care este numele tău (formal)?",
+        "bs": "Kako se zovete (formalno)?",
+        "es": "¿Cuál es tu nombre (formal)?",
+        "bg": "Как се казвате (официално)?",
+        "el": "Πώς είναι το όνομά σας (επίσημο);"
       },
       {
         "de": "Woher kommen Sie?",
         "ar": "من أين حضرتك؟",
         "en": "Where do you come from?",
         "tr": "Nereden geliyorsunuz?",
-        "ro": "De unde eşti?"
+        "ro": "De unde eşti?",
+        "bs": "odakle dolaziš?",
+        "es": "¿De dónde es?",
+        "bg": "от къде идваш",
+        "el": "Από πού κατάγεσαι;"
       },
       {
         "de": "Ich buchstabiere: M-A-R-I-A",
         "ar": "أتهجى: م-ا-ر-ي-ا",
         "en": "I spell: M-A-R-I-A",
         "tr": "Heceliyorum: M-A-R-I-A",
-        "ro": "Scriu: M-A-R-I-A"
+        "ro": "Scriu: M-A-R-I-A",
+        "bs": "Spelujem: M-A-R-I-A",
+        "es": "Deletreo: M-A-R-I-A",
+        "bg": "Изписвам: M-A-R-I-A",
+        "el": "συλλαβίζω: Μ-Α-Ρ-Ι-Α"
       }
     ],
     "titleRo": "Buna ziua! Cum te numești?",
@@ -1297,28 +1317,44 @@ const CURRICULUM = [
         "ar": "كيف حالك؟ (رسمي)",
         "en": "How are you? (formal)",
         "tr": "Nasılsınız? (resmi)",
-        "ro": "Ce mai faci? (formal)"
+        "ro": "Ce mai faci? (formal)",
+        "bs": "Kako si? (formalno)",
+        "es": "¿Cómo estás? (formal)",
+        "bg": "как си (официално)",
+        "el": "Τι κάνετε; (επίσημος)"
       },
       {
         "de": "Wie geht's?",
         "ar": "كيف حالك؟ (غير رسمي)",
         "en": "How's it going?",
         "tr": "Nasılsın? (samimi)",
-        "ro": "Cum stă treaba?"
+        "ro": "Cum stă treaba?",
+        "bs": "Kako ide?",
+        "es": "¿Cómo estás?",
+        "bg": "как върви",
+        "el": "Πώς πάει;"
       },
       {
         "de": "Gut, danke!",
         "ar": "بخير، شكراً!",
         "en": "Good, thanks!",
         "tr": "İyiyim, teşekkürler!",
-        "ro": "Bun, multumesc!"
+        "ro": "Bun, multumesc!",
+        "bs": "Dobro, hvala!",
+        "es": "¡Bien, gracias!",
+        "bg": "Добре, благодаря!",
+        "el": "Ωραία, ευχαριστώ!"
       },
       {
         "de": "Einen Kaffee, bitte.",
         "ar": "قهوة من فضلك.",
         "en": "A coffee, please.",
         "tr": "Bir kahve lütfen.",
-        "ro": "O cafea, te rog."
+        "ro": "O cafea, te rog.",
+        "bs": "Kafu, molim.",
+        "es": "Un café, por favor.",
+        "bg": "Едно кафе, моля.",
+        "el": "Ένας καφές, παρακαλώ."
       }
     ],
     "titleRo": "Ce mai faci?",
@@ -1605,19 +1641,19 @@ const CURRICULUM = [
           ],
           "rows": [
             [
-              "مذكر (Maskulinum) / Masculine (Maskulinum) / Eril (Maskulinum) / Masculin (Maskulinum)",
+              "مذكر (Maskulinum) / Masculine (Maskulinum) / Eril (Maskulinum) / Masculin (Maskulinum) / muški rod (Maskulinum) / Masculino (Maskulinum) / Мъжки (Maskulinum) / Αρσενικό (Maskulinum)",
               "der",
               "ein",
               "kein"
             ],
             [
-              "مؤنث (Femininum) / Feminine (Femininum) / Dişil (Femininum) / Feminin (Femininum)",
+              "مؤنث (Femininum) / Feminine (Femininum) / Dişil (Femininum) / Feminin (Femininum) / ženstveno (femininum) / Femenino (Femininum) / Женствен род (Femininum) / Θηλυκό (Feminum)",
               "die",
               "eine",
               "keine"
             ],
             [
-              "محايد (Neutrum) / Neuter (Neutrum) / Nötr (Neutrum) / Neutru (Neutrum)",
+              "محايد (Neutrum) / Neuter (Neutrum) / Nötr (Neutrum) / Neutru (Neutrum) / neuter (neutrum) / Neutro (neutro) / среден род (Neutrum) / Ουδέτερο (Neutrum)",
               "das",
               "ein",
               "kein"
@@ -1723,21 +1759,33 @@ const CURRICULUM = [
         "ar": "بكم هذا؟",
         "en": "How much is this?",
         "tr": "Bu ne kadar?",
-        "ro": "Cât de mult costă aceasta?"
+        "ro": "Cât de mult costă aceasta?",
+        "bs": "Koliko je ovo?",
+        "es": "¿Cuánto cuesta este?",
+        "bg": "колко е това",
+        "el": "Πόσο είναι αυτό;"
       },
       {
         "de": "Das kostet ... Euro.",
         "ar": "هذا يكلف ... يورو.",
         "en": "That costs ... Euros.",
         "tr": "Fiyatı ... Euro.",
-        "ro": "Asta costa... euro."
+        "ro": "Asta costa... euro.",
+        "bs": "To košta... evra.",
+        "es": "Eso cuesta... euros.",
+        "bg": "Това струва ... евро.",
+        "el": "Αυτό κοστίζει ... ευρώ."
       },
       {
         "de": "Ich nehme das.",
         "ar": "سآخذ هذا.",
         "en": "I'll take it.",
         "tr": "Bunu alıyorum.",
-        "ro": "O să-l iau."
+        "ro": "O să-l iau.",
+        "bs": "Ja ću uzeti.",
+        "es": "Me lo llevo.",
+        "bg": "аз ще го взема",
+        "el": "θα το πάρω."
       }
     ],
     "titleRo": "Cât este asta?",
@@ -2035,21 +2083,33 @@ const CURRICULUM = [
         "ar": "كم الساعة؟",
         "en": "What time is it?",
         "tr": "Saat kaç?",
-        "ro": "Cât este ceasul?"
+        "ro": "Cât este ceasul?",
+        "bs": "Koliko je sati?",
+        "es": "¿Qué hora es?",
+        "bg": "колко е часът",
+        "el": "Τι ώρα είναι;"
       },
       {
         "de": "Es ist halb vier.",
         "ar": "الساعة الثالثة والنصف.",
         "en": "It is half past three.",
         "tr": "Saat üç buçuk.",
-        "ro": "Este trei și jumătate."
+        "ro": "Este trei și jumătate.",
+        "bs": "Pola je tri.",
+        "es": "Son las tres y media.",
+        "bg": "Три и половина е.",
+        "el": "Η ώρα είναι τρεις και μισή."
       },
       {
         "de": "Wann beginnt der Kurs?",
         "ar": "متى يبدأ الدرس؟",
         "en": "When does the course begin?",
         "tr": "Kurs ne zaman başlıyor?",
-        "ro": "Când începe cursul?"
+        "ro": "Când începe cursul?",
+        "bs": "Kada počinje kurs?",
+        "es": "¿Cuándo comienza el curso?",
+        "bg": "Кога започва курсът?",
+        "el": "Πότε ξεκινά το μάθημα;"
       }
     ],
     "titleRo": "Cât este ceasul?",
@@ -2331,14 +2391,22 @@ const CURRICULUM = [
         "ar": "كيلو من فضلك.",
         "en": "A kilo, please.",
         "tr": "Bir kilo lütfen.",
-        "ro": "Un kilogram, te rog."
+        "ro": "Un kilogram, te rog.",
+        "bs": "Kilogram, molim.",
+        "es": "Un kilo, por favor.",
+        "bg": "Един килограм, моля.",
+        "el": "Ένα κιλό παρακαλώ."
       },
       {
         "de": "Guten Appetit!",
         "ar": "بالهناء والشفاء!",
         "en": "Enjoy your meal!",
         "tr": "Afiyet olsun!",
-        "ro": "Bucurați-vă de masă!"
+        "ro": "Bucurați-vă de masă!",
+        "bs": "Uživajte u obroku!",
+        "es": "¡Disfrute de su comida!",
+        "bg": "Приятно хранене!",
+        "el": "Απολαύστε το γεύμα σας!"
       }
     ],
     "titleRo": "Cumpărături și mâncare",
@@ -2668,14 +2736,22 @@ const CURRICULUM = [
         "ar": "كل عام وأنت بخير!",
         "en": "Congratulations!",
         "tr": "Tebrikler!",
-        "ro": "Felicitări!"
+        "ro": "Felicitări!",
+        "bs": "Čestitamo!",
+        "es": "¡Felicidades!",
+        "bg": "честито!",
+        "el": "Συγχαρητήρια!"
       },
       {
         "de": "Alles Gute zum Geburtstag!",
         "ar": "كل عام وأنت بخير! (عيد ميلاد)",
         "en": "Happy Birthday!",
         "tr": "Doğum günün kutlu olsun!",
-        "ro": "La mulți ani!"
+        "ro": "La mulți ani!",
+        "bs": "Sretan rođendan!",
+        "es": "¡Feliz cumpleaños!",
+        "bg": "честит рожден ден",
+        "el": "Χρόνια Πολλά!"
       }
     ],
     "titleRo": "Familia mea",
@@ -2950,14 +3026,22 @@ const CURRICULUM = [
         "ar": "كم الإيجار؟",
         "en": "How much is the rent?",
         "tr": "Kira ne kadar?",
-        "ro": "Cât este chiria?"
+        "ro": "Cât este chiria?",
+        "bs": "Koliko je kirija?",
+        "es": "¿A cuánto asciende el alquiler?",
+        "bg": "Колко е наемът?",
+        "el": "Πόσο είναι το ενοίκιο;"
       },
       {
         "de": "Wo ist ...?",
         "ar": "أين ...؟",
         "en": "Where is...?",
         "tr": "... nerede?",
-        "ro": "Unde este...?"
+        "ro": "Unde este...?",
+        "bs": "Gdje je...?",
+        "es": "Dónde es...?",
+        "bg": "Къде е...?",
+        "el": "Πού είναι...;"
       }
     ],
     "titleRo": "Locuind in Germania",
@@ -3224,14 +3308,22 @@ const CURRICULUM = [
         "ar": "عندي صداع.",
         "en": "I have a headache.",
         "tr": "Başım ağrıyor.",
-        "ro": "Mă doare capul."
+        "ro": "Mă doare capul.",
+        "bs": "Boli me glava.",
+        "es": "Me duele la cabeza.",
+        "bg": "имам главоболие",
+        "el": "έχω πονοκέφαλο."
       },
       {
         "de": "Ich muss zum Arzt gehen.",
         "ar": "يجب أن أذهب للطبيب.",
         "en": "I must go to the doctor.",
         "tr": "Doktora gitmeliyim.",
-        "ro": "Trebuie să merg la medic."
+        "ro": "Trebuie să merg la medic.",
+        "bs": "Moram ići kod doktora.",
+        "es": "Debo ir al médico.",
+        "bg": "Трябва да отида на лекар.",
+        "el": "Πρέπει να πάω στο γιατρό."
       }
     ],
     "titleRo": "Sanatate si Corp",
@@ -3489,14 +3581,22 @@ const CURRICULUM = [
         "ar": "عذراً، كيف أصل إلى محطة القطار؟",
         "en": "Excuse me, how do I get to the station?",
         "tr": "Affedersiniz, istasyona nasıl gidebilirim?",
-        "ro": "Scuză-mă, cum ajung la gară?"
+        "ro": "Scuză-mă, cum ajung la gară?",
+        "bs": "Izvinite, kako da dođem do stanice?",
+        "es": "Disculpe, ¿cómo llego a la estación?",
+        "bg": "Извинете, как да стигна до гарата?",
+        "el": "Με συγχωρείτε, πώς θα πάω στο σταθμό;"
       },
       {
         "de": "Von welchem Gleis?",
         "ar": "من أي رصيف؟",
         "en": "From which platform?",
         "tr": "Hangi perondan?",
-        "ro": "De pe ce platformă?"
+        "ro": "De pe ce platformă?",
+        "bs": "Sa koje platforme?",
+        "es": "¿Desde qué plataforma?",
+        "bg": "От коя платформа?",
+        "el": "Από ποια πλατφόρμα;"
       }
     ],
     "titleRo": "În mișcare",
@@ -3757,14 +3857,22 @@ const CURRICULUM = [
         "ar": "ماذا تحب أن تفعل؟",
         "en": "What do you like to do?",
         "tr": "Ne yapmaktan hoşlanırsın?",
-        "ro": "Ce îţi place să faci?"
+        "ro": "Ce îţi place să faci?",
+        "bs": "šta voliš da radiš?",
+        "es": "¿Qué te gusta hacer?",
+        "bg": "какво обичаш да правиш",
+        "el": "Τι σου αρέσει να κάνεις;"
       },
       {
         "de": "Das macht mir Spaß!",
         "ar": "هذا يسعدني!",
         "en": "That is fun for me!",
         "tr": "Bu bana keyif veriyor!",
-        "ro": "Este distractiv pentru mine!"
+        "ro": "Este distractiv pentru mine!",
+        "bs": "To mi je zabavno!",
+        "es": "¡Eso es divertido para mí!",
+        "bg": "Това е забавно за мен!",
+        "el": "Αυτό είναι διασκεδαστικό για μένα!"
       }
     ],
     "titleRo": "Timp liber și hobby-uri",
@@ -4031,14 +4139,22 @@ const CURRICULUM = [
         "ar": "مهنتي ...",
         "en": "I am a ... by profession.",
         "tr": "Mesleğim ...",
-        "ro": "Sunt un... de profesie."
+        "ro": "Sunt un... de profesie.",
+        "bs": "Ja sam ... po profesiji.",
+        "es": "Soy... de profesión.",
+        "bg": "По професия съм ...",
+        "el": "Είμαι ... στο επάγγελμα."
       },
       {
         "de": "Was sind Sie von Beruf?",
         "ar": "ما مهنتك؟",
         "en": "What is your profession?",
         "tr": "Mesleğiniz nedir?",
-        "ro": "Care este profesia ta?"
+        "ro": "Care este profesia ta?",
+        "bs": "Koja je tvoja profesija?",
+        "es": "¿Cuál es tu profesión?",
+        "bg": "каква си професия",
+        "el": "Ποιο είναι το επάγγελμά σας;"
       }
     ],
     "titleRo": "Muncă și profesie",
@@ -4311,14 +4427,22 @@ const CURRICULUM = [
         "ar": "الحساب من فضلك!",
         "en": "The bill, please!",
         "tr": "Hesap lütfen!",
-        "ro": "Factura, vă rog!"
+        "ro": "Factura, vă rog!",
+        "bs": "Račun, molim!",
+        "es": "¡La cuenta, por favor!",
+        "bg": "Сметката, моля!",
+        "el": "Ο λογαριασμός, παρακαλώ!"
       },
       {
         "de": "Stimmt so.",
         "ar": "احتفظ بالباقي.",
         "en": "Keep the change.",
         "tr": "Üstü kalsın.",
-        "ro": "Păstrați restul."
+        "ro": "Păstrați restul.",
+        "bs": "Zadrži kusur.",
+        "es": "Quédese con el cambio.",
+        "bg": "Запазете рестото.",
+        "el": "Κρατήστε τα ρέστα."
       }
     ],
     "titleRo": "Mâncat și băutură",

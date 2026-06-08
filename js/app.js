@@ -592,7 +592,7 @@ function renderTextTab(ch, container) {
       <h3 style="font-size:18px;font-weight:700;margin-bottom:16px">${getTranslation('speaking_exercises', '🗣️ تمارين التحدث')}</h3>
       <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px">
         ${ch.speakingPhrases.map((p,i) => {
-          const phraseTrans = currentLang === 'bs' ? (p.bs || p.en || '') : currentLang === 'ro' ? (p.ro || p.en || p.ar) : currentLang === 'tr' ? (p.tr || p.en || p.ar) : currentLang === 'en' ? (p.en || p.ar) : p.ar;
+          const phraseTrans = currentLang === 'bs' ? (p.bs || p.en || '') : currentLang === 'es' ? (p.es || p.en || '') : currentLang === 'bg' ? (p.bg || p.en || '') : currentLang === 'el' ? (p.el || p.en || '') : currentLang === 'ro' ? (p.ro || p.en || p.ar) : currentLang === 'tr' ? (p.tr || p.en || p.ar) : currentLang === 'en' ? (p.en || p.ar) : p.ar;
           return `
           <div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.07);border-radius:12px;padding:16px">
             <div style="font-size:16px;font-weight:700;color:var(--text-german);font-family:'Inter',sans-serif;margin-bottom:6px">${p.de}</div>
