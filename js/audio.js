@@ -4,7 +4,7 @@
 
 const AUDIO_TRACKS = [
   // ── CD1 Lernbuch ──────────────────────────────────────────
-  { id:'LB_CD1_01', ch:0,  file:'Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD1/01_langenschidt_-_vorspann.mp3',     label:'Vorspann (مقدمة)', labelAr:'مقدمة الكتاب' },
+  { id:'LB_CD1_01', ch:0,  file:'Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD1/01_langenschidt_-_vorspann.mp3',     label:'Vorspann', labelAr:'مقدمة الكتاب', labelEn:'Introduction', labelTr:'Giriş', labelRo:'Introducere', labelBs:'Uvod', labelEs:'Introducción', labelBg:'Въведение', labelEl:'Εισαγωγή' },
   { id:'LB_CD1_02', ch:1,  file:'Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD1/02_langenschidt_-_1.1b_-_die_kursliste.mp3',            label:'1.1b - Die Kursliste',             labelAr:'قائمة الطلاب' },
   { id:'LB_CD1_03', ch:1,  file:'Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD1/03_langenschidt_-_1.2a_-_sie_und_du.mp3',               label:'1.2a - Sie und du',                labelAr:'أنتَ الرسمي وغير الرسمي' },
   { id:'LB_CD1_04', ch:1,  file:'Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD1/04_langenschidt_-_1.3a_-_melodie_und_akzent.mp3',        label:'1.3a - Melodie und Akzent (1)',    labelAr:'لحن اللغة ونبرها' },
@@ -51,7 +51,7 @@ const AUDIO_TRACKS = [
   { id:'LB_CD1_53', ch:6,  file:'Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD1/53_langenschidt_-_6.7d_-_gluckwunsche.mp3',               label:'6.7d - Glückwünsche',             labelAr:'التهاني' },
 
   // ── CD2 Lernbuch ──────────────────────────────────────────
-  { id:'LB_CD2_01', ch:0,  file:'Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD2/01_langenschidt_-_vorspann.mp3',                                         label:'CD2 - Vorspann',                               labelAr:'مقدمة القرص الثاني' },
+  { id:'LB_CD2_01', ch:0,  file:'Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD2/01_langenschidt_-_vorspann.mp3',                                         label:'CD2 - Vorspann',                               labelAr:'مقدمة القرص الثاني', labelEn:'CD2 - Introduction', labelTr:'CD2 - Giriş', labelRo:'CD2 - Introducere', labelBs:'CD2 - Uvod', labelEs:'CD2 - Introducción', labelBg:'CD2 - Въведение', labelEl:'CD2 - Εισαγωγή' },
   { id:'LB_CD2_02', ch:9,  file:'Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD2/02_langenschidt_-_7.2_-_berlin_kennenlernen,_dialog_1.mp3',                label:'7.2 - Berlin kennenlernen (1)',                 labelAr:'التعرف على برلين - حوار 1' },
   { id:'LB_CD2_03', ch:9,  file:'Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD2/03_langenschidt_-_7.2_-_berlin_kennenlernen,_dialog_2.mp3',                label:'7.2 - Berlin kennenlernen (2)',                 labelAr:'التعرف على برلين - حوار 2' },
   { id:'LB_CD2_04', ch:9,  file:'Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD2/04_langenschidt_-_7.2_-_berlin_kennenlernen,_dialog_3.mp3',                label:'7.2 - Berlin kennenlernen (3)',                 labelAr:'التعرف على برلين - حوار 3' },

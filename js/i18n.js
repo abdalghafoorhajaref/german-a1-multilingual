@@ -17,6 +17,7 @@ const TRANSLATIONS = {
     nav_conversation: "ممارسة المحادثة",
     progress_label: "التقدم الإجمالي",
     select_language: "اختر اللغة:",
+    footer_credits: "تمت البرمجة بواسطة المهندس عبد الغفور حاج عارف",
 
     // Dashboard
     dashboard_welcome: "مرحباً بك في رحلة تعلم الألمانية! 🇩🇪",
@@ -322,6 +323,7 @@ const TRANSLATIONS = {
     nav_conversation: "Speaking Practice",
     progress_label: "Overall Progress",
     select_language: "Select Language:",
+    footer_credits: "Programmed by Eng. Abd Alghafoor Haj Aref",
 
     // Dashboard
     dashboard_welcome: "Welcome to your German learning journey! 🇩🇪",
@@ -627,6 +629,7 @@ const TRANSLATIONS = {
     nav_conversation: "Konuşma Alıştırması",
     progress_label: "Genel İlerleme",
     select_language: "Dil Seçin:",
+    footer_credits: "Mühendis Abd Alghafoor Haj Aref tarafından programlanmıştır",
 
     // Dashboard
     dashboard_welcome: "Almanca öğrenme yolculuğunuza hoş geldiniz! 🇩🇪",
@@ -931,6 +934,7 @@ const TRANSLATIONS = {
   "nav_conversation": "Practica vorbirii",
   "progress_label": "Progresul general",
   "select_language": "Selectați limba:",
+  "footer_credits": "Programat de Ing. Abd Alghafoor Haj Aref",
   "dashboard_welcome": "Bun venit în călătoria ta de învățare a limbii germane! 🇩🇪",
   "dashboard_sub": "Willkommen beim Deutschlernen! | Berliner Platz 1 Neu · Niveau A1",
   "dashboard_start_btn": "Începeți să învățați acum →",
@@ -1210,6 +1214,7 @@ const TRANSLATIONS = {
     nav_conversation: "Vježba govora",
     progress_label: "Ukupni napredak",
     select_language: "Odaberi jezik:",
+    footer_credits: "Programirao inž. Abd Alghafoor Haj Aref",
 
     // Dashboard
     dashboard_welcome: "Dobrodošli na vaše putovanje učenja njemačkog jezika! 🇩🇪",
@@ -1504,7 +1509,9 @@ const TRANSLATIONS = {
     nav_vocab: "Vocabulario", nav_grammar: "Gramática", nav_listening: "Escuchar",
     nav_quiz: "Exámenes", nav_flashcards: "Tarjetas de Estudio", nav_writing: "Práctica de Escritura",
     nav_conversation: "Práctica de Conversación", progress_label: "Progreso General",
-    select_language: "Seleccionar idioma:", dashboard_welcome: "¡Bienvenido a tu viaje de aprendizaje alemán! 🇩🇪",
+    select_language: "Seleccionar idioma:",
+    footer_credits: "Programado por Ing. Abd Alghafoor Haj Aref",
+    dashboard_welcome: "¡Bienvenido a tu viaje de aprendizaje alemán! 🇩🇪",
     dashboard_sub: "Willkommen beim Deutschlernen! | Berliner Platz 1 Neu · Niveau A1",
     dashboard_start_btn: "Comenzar a Aprender →", stat_words_learned: "Palabras Aprendidas",
     stat_lessons_completed: "Lecciones Completadas", stat_streak_days: "Días de Racha",
@@ -1642,7 +1649,9 @@ const TRANSLATIONS = {
     nav_vocab: "Речник", nav_grammar: "Граматика", nav_listening: "Слушане",
     nav_quiz: "Тестове", nav_flashcards: "Флашкарти", nav_writing: "Практика на Писане",
     nav_conversation: "Разговорна Практика", progress_label: "Общ Напредък",
-    select_language: "Изберете Език:", dashboard_welcome: "Добре дошли в обучението по немски! 🇩🇪",
+    select_language: "Изберете Език:",
+    footer_credits: "Програмирано от инж. Abd Alghafoor Haj Aref",
+    dashboard_welcome: "Добре дошли в обучението по немски! 🇩🇪",
     dashboard_sub: "Willkommen beim Deutschlernen! | Berliner Platz 1 Neu · Niveau A1",
     dashboard_start_btn: "Започнете да Учите →", stat_words_learned: "Научени Думи",
     stat_lessons_completed: "Завършени Уроци", stat_streak_days: "Дни Поред",
@@ -1777,7 +1786,9 @@ const TRANSLATIONS = {
     nav_vocab: "Λεξιλόγιο", nav_grammar: "Γραμματική", nav_listening: "Ακρόαση",
     nav_quiz: "Τεστ", nav_flashcards: "Κάρτες Μελέτης", nav_writing: "Γραπτή Άσκηση",
     nav_conversation: "Εξάσκηση Συνομιλίας", progress_label: "Συνολική Πρόοδος",
-    select_language: "Επιλογή Γλώσσας:", dashboard_welcome: "Καλώς ήρθατε στη μάθηση γερμανικών! 🇩🇪",
+    select_language: "Επιλογή Γλώσσας:",
+    footer_credits: "Προγραμματίστηκε από τον Μηχανικό Abd Alghafoor Haj Aref",
+    dashboard_welcome: "Καλώς ήρθατε στη μάθηση γερμανικών! 🇩🇪",
     dashboard_sub: "Willkommen beim Deutschlernen! | Berliner Platz 1 Neu · Niveau A1",
     dashboard_start_btn: "Ξεκινήστε τη Μάθηση →", stat_words_learned: "Λέξεις που Μάθατε",
     stat_lessons_completed: "Ολοκληρωμένα Μαθήματα", stat_streak_days: "Ημέρες Σερί",
