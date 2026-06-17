@@ -42,6 +42,15 @@
         </select>
       </div>
 
+      <!-- Level Selector -->
+      <div class="lang-selector-section" style="margin-top: 12px; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 12px;">
+        <label for="levelSelect" data-i18n="select_level" class="lang-label">اختر المستوى الدراسي:</label>
+        <select id="levelSelect" onchange="changeLevel(this.value)" class="lang-select">
+          <option value="A1" data-i18n="level_a1">المستوى A1 (Berliner Platz 1)</option>
+          <option value="A2" data-i18n="level_a2">المستوى A2 (Berliner Platz 2 - قريباً)</option>
+        </select>
+      </div>
+
       <div class="nav-section">
         <span class="nav-section-label" data-i18n="main_menu">القائمة الرئيسية</span>
         <div class="nav-item active" data-page="dashboard" id="nav-dashboard" onclick="navigateTo('dashboard')">
@@ -548,6 +557,36 @@
 
   <!-- Mobile Menu Toggle Button -->
   <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open Menu">☰</button>
+
+  <!-- Level Selection Overlay Modal -->
+  <div class="level-modal-overlay" id="levelModalOverlay">
+    <div class="level-modal-content">
+      <h2 data-i18n="level_modal_title" class="level-modal-title">اختر مستوى التعلم الخاص بك</h2>
+      <p data-i18n="level_modal_subtitle" class="level-modal-subtitle">للبدء، يرجى تحديد المستوى الدراسي الذي ترغب في مراجعته أو دراسته:</p>
+      
+      <div class="level-card-grid">
+        <!-- Level A1 Card -->
+        <div class="level-card" onclick="selectLevelFromModal('A1')">
+          <div class="level-card-icon">📚</div>
+          <div class="level-card-info">
+            <h3 data-i18n="level_a1" class="level-card-title">المستوى A1 (Berliner Platz 1)</h3>
+            <p data-i18n="level_desc_a1" class="level-card-desc">منهج مبتدئ كامل يحتوي على 12 وحدة تفاعلية مع المفردات والقواعد وممارسة المحادثة والكتابة.</p>
+          </div>
+          <button class="level-card-btn active" data-i18n="status_start">ابدأ الآن</button>
+        </div>
+        
+        <!-- Level A2 Card -->
+        <div class="level-card" onclick="selectLevelFromModal('A2')">
+          <div class="level-card-icon">🚀</div>
+          <div class="level-card-info">
+            <h3 data-i18n="level_a2" class="level-card-title">المستوى A2 (Berliner Platz 2 - قريباً)</h3>
+            <p data-i18n="level_desc_a2" class="level-card-desc">منهج المستوى الأساسي (قيد التطوير). يحتوي على الوحدات 13 إلى 24 وسيتم إطلاقها قريباً.</p>
+          </div>
+          <button class="level-card-btn outline" data-i18n="level_a2_full">المستوى A2</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="js/i18n.js"></script>
   <script src="js/curriculum.js"></script>

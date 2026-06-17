@@ -307,7 +307,17 @@ const TRANSLATIONS = {
     sum_german_word: "الكلمة الألمانية:",
     sum_bulk_title: "📝 إضافة جماعية للكلمات",
     sum_bulk_desc: "اكتب الكلمات الألمانية في المربع بالأسفل (كلمة واحدة في كل سطر). سيقوم النظام بتصنيفها واستخراج تصريفاتها وأدواتها تلقائياً!",
-    sum_bulk_submit: "تحليل وإضافة الكلمات"
+    sum_bulk_submit: "تحليل وإضافة الكلمات",
+    select_level: "اختر المستوى الدراسي:",
+    level_a1: "المستوى A1 (Berliner Platz 1)",
+    level_a2: "المستوى A2 (Berliner Platz 2 - قريباً)",
+    level_a2_full: "المستوى A2",
+    level_desc_a1: "منهج مبتدئ كامل يحتوي على 12 وحدة تفاعلية مع المفردات والقواعد وممارسة المحادثة والكتابة.",
+    level_desc_a2: "منهج المستوى الأساسي (قيد التطوير). يحتوي على الوحدات 13 إلى 24 وسيتم إطلاقها قريباً.",
+    level_modal_title: "اختر مستوى التعلم الخاص بك",
+    level_modal_subtitle: "للبدء، يرجى تحديد المستوى الدراسي الذي ترغب في مراجعته أو دراسته:",
+    level_a2_coming_soon: "المحتوى الخاص بالمستوى A2 (الوحدات 13-24) قيد التطوير حالياً وسنعمل على إطلاقه قريباً. يرجى استخدام المستوى A1 بالوقت الحالي.",
+    back_to_a1: "💡 العودة إلى المستوى A1"
   },
   en: {
     // Sidebar
@@ -613,7 +623,17 @@ const TRANSLATIONS = {
     sum_german_word: "German Word:",
     sum_bulk_title: "📝 Bulk Add Words",
     sum_bulk_desc: "Type German words in the box below (one word per line). The system will automatically classify them and extract their articles/conjugations!",
-    sum_bulk_submit: "Analyze & Add Words"
+    sum_bulk_submit: "Analyze & Add Words",
+    select_level: "Select Course Level:",
+    level_a1: "Level A1 (Berliner Platz 1)",
+    level_a2: "Level A2 (Berliner Platz 2 - Soon)",
+    level_a2_full: "Level A2",
+    level_desc_a1: "Full beginner curriculum containing 12 interactive chapters with vocabulary, grammar, and speaking practice.",
+    level_desc_a2: "Elementary curriculum (under development). Contains chapters 13 to 24, coming soon.",
+    level_modal_title: "Select your learning level",
+    level_modal_subtitle: "To get started, please choose the level you want to study:",
+    level_a2_coming_soon: "Level A2 content (Chapters 13-24) is currently under construction. Please use Level A1 in the meantime.",
+    back_to_a1: "💡 Go back to Level A1"
   },
   tr: {
     // Sidebar
@@ -919,7 +939,17 @@ const TRANSLATIONS = {
     sum_german_word: "Almanca Kelime:",
     sum_bulk_title: "📝 Toplu Kelime Ekle",
     sum_bulk_desc: "Aşağıdaki kutuya Almanca kelimeleri yazın (her satıra bir kelime). Sistem bunları otomatik olarak sınıflandıracak ve artikellerini/çekimlerini çıkaracaktır!",
-    sum_bulk_submit: "Analiz Et ve Ekle"
+    sum_bulk_submit: "Analiz Et ve Ekle",
+    select_level: "Kurs Seviyesini Seçin:",
+    level_a1: "A1 Seviyesi (Berliner Platz 1)",
+    level_a2: "A2 Seviyesi (Berliner Platz 2 - Yakında)",
+    level_a2_full: "A2 Seviyesi",
+    level_desc_a1: "Kelime bilgisi, dil bilgisi ve konuşma pratiği içeren 12 etkileşimli üniteden oluşan tam başlangıç müfredatı.",
+    level_desc_a2: "Temel Almanca müfredatı (geliştirme aşamasında). 13 ile 24 arasındaki üniteleri içerir, yakında hazır.",
+    level_modal_title: "Öğrenme seviyenizi seçin",
+    level_modal_subtitle: "Başlamak için lütfen çalışmak istediğiniz seviyeyi seçin:",
+    level_a2_coming_soon: "A2 seviyesi içeriği (13-24. Üniteler) şu anda yapım aşamasındadır. Lütfen şimdilik A1 seviyesini kullanın.",
+    back_to_a1: "💡 A1 Seviyesine Geri Dön"
   },
   ro: {
   "main_menu": "Meniul principal",
@@ -1198,7 +1228,17 @@ const TRANSLATIONS = {
   "sum_german_word": "Cuvânt german:",
   "sum_bulk_title": "📝 Adăugare cuvinte în masă",
   "sum_bulk_desc": "Scrieți cuvinte germane în caseta de mai jos (un cuvânt pe rând). Sistemul le va clasifica automat și va extrage articolele/conjugările lor!",
-  "sum_bulk_submit": "Analizează și adaugă cuvinte"
+  "sum_bulk_submit": "Analizează și adaugă cuvinte",
+  "select_level": "Selectează nivelul cursului:",
+  "level_a1": "Nivelul A1 (Berliner Platz 1)",
+  "level_a2": "Nivelul A2 (Berliner Platz 2 - În curând)",
+  "level_a2_full": "Nivelul A2",
+  "level_desc_a1": "Curriculum complet pentru începători ce conține 12 capitole interactive cu vocabular, gramatică și practică de vorbire.",
+  "level_desc_a2": "Curriculum elementar (în curs de dezvoltare). Conține capitolele 13 până la 24, în curând.",
+  "level_modal_title": "Selectează nivelul de învățare",
+  "level_modal_subtitle": "Pentru a începe, selectați nivelul de studiu dorit:",
+  "level_a2_coming_soon": "Conținutul pentru Nivelul A2 (Capitolele 13-24) este în prezent în curs de dezvoltare. Vă rugăm să folosiți Nivelul A1 între timp.",
+  "back_to_a1": "💡 Înapoi la Nivelul A1"
 },
   bs: {
     // Sidebar
@@ -1502,7 +1542,17 @@ const TRANSLATIONS = {
     sum_german_word: "Njemačka riječ:",
     sum_bulk_title: "📝 Masovno dodavanje riječi",
     sum_bulk_desc: "Upišite njemačke riječi u polje ispod (jedna riječ po liniji). Sistem će ih automatski klasifikovati i izvući njihove članove/konjugacije!",
-    sum_bulk_submit: "Analiziraj i dodaj riječi"
+    sum_bulk_submit: "Analiziraj i dodaj riječi",
+    select_level: "Odaberite nivo kursa:",
+    level_a1: "Nivo A1 (Berliner Platz 1)",
+    level_a2: "Nivo A2 (Berliner Platz 2 - Uskoro)",
+    level_a2_full: "Nivo A2",
+    level_desc_a1: "Kompletan početnički program koji sadrži 12 interaktivnih poglavlja sa vokabularom, gramatikom i vježbanjem govora.",
+    level_desc_a2: "Osnovni program (u razvoju). Sadrži poglavlja 13 do 24, uskoro dostupno.",
+    level_modal_title: "Odaberite nivo učenja",
+    level_modal_subtitle: "Za početak, odaberite nivo koji želite učiti:",
+    level_a2_coming_soon: "Sadržaj za Nivo A2 (poglavlja 13-24) je trenutno u fazi izrade. Molimo vas da za sada koristite Nivo A1.",
+    back_to_a1: "💡 Vrati se na Nivo A1"
   },
   es: {
     main_menu: "Menú Principal", chapters_menu: "Capítulos - Kapitel", nav_home: "Inicio",
@@ -1642,7 +1692,17 @@ const TRANSLATIONS = {
     sum_save: "Guardar Cambios", sum_edit_title: "Editar Palabra", sum_german_word: "Palabra Alemana:",
     sum_bulk_title: "📝 Añadir Palabras en Masa",
     sum_bulk_desc: "Escribe palabras alemanas (una por línea). ¡El sistema las clasificará automáticamente!",
-    sum_bulk_submit: "Analizar y Añadir Palabras"
+    sum_bulk_submit: "Analizar y Añadir Palabras",
+    select_level: "Selecciona el Nivel del Curso:",
+    level_a1: "Nivel A1 (Berliner Platz 1)",
+    level_a2: "Nivel A2 (Berliner Platz 2 - Pronto)",
+    level_a2_full: "Nivel A2",
+    level_desc_a1: "Plan de estudios completo para principiantes que contiene 12 capítulos interactivos con vocabulario, gramática y práctica de conversación.",
+    level_desc_a2: "Plan de estudios elemental (en desarrollo). Contiene los capítulos 13 al 24, próximamente.",
+    level_modal_title: "Selecciona tu nivel de aprendizaje",
+    level_modal_subtitle: "Para comenzar, elige el nivel que deseas estudiar:",
+    level_a2_coming_soon: "El contenido del Nivel A2 (capítulos 13-24) está actualmente en desarrollo. Utiliza el Nivel A1 por el momento.",
+    back_to_a1: "💡 Volver al Nivel A1"
   },
   bg: {
     main_menu: "Главно Меню", chapters_menu: "Глави - Kapitel", nav_home: "Начало",
@@ -1779,7 +1839,17 @@ const TRANSLATIONS = {
     sum_cancel: "Отказ", sum_save: "Запази", sum_edit_title: "Редактирай Дума", sum_german_word: "Немска Дума:",
     sum_bulk_title: "📝 Масово Добавяне",
     sum_bulk_desc: "Немски думи (по една на ред). Системата ги класифицира автоматично!",
-    sum_bulk_submit: "Анализирай и Добави"
+    sum_bulk_submit: "Анализирай и Добави",
+    select_level: "Изберете ниво на курса:",
+    level_a1: "Ниво A1 (Berliner Platz 1)",
+    level_a2: "Ниво A2 (Berliner Platz 2 - Скоро)",
+    level_a2_full: "Ниво A2",
+    level_desc_a1: "Пълна програма за начинаещи, съдържаща 12 интерактивни глави с речник, граматика и упражнения за говорене.",
+    level_desc_a2: "Основна програма (в процес на разработка). Съдържа глави от 13 до 24, очаквайте скоро.",
+    level_modal_title: "Изберете ниво на обучение",
+    level_modal_subtitle: "За да започнете, моля изберете нивото, което искате да учите:",
+    level_a2_coming_soon: "Съдържанието за Ниво A2 (Глави 13-24) в момента се разработва. Моля, използвайте Ниво A1 междувременно.",
+    back_to_a1: "💡 Обратно към Ниво A1"
   },
   el: {
     main_menu: "Κύριο Μενού", chapters_menu: "Κεφάλαια - Kapitel", nav_home: "Αρχική",
@@ -1915,7 +1985,17 @@ const TRANSLATIONS = {
     sum_cancel: "Ακύρωση", sum_save: "Αποθήκευση", sum_edit_title: "Επεξεργασία Λέξης",
     sum_german_word: "Γερμανική Λέξη:", sum_bulk_title: "📝 Μαζική Προσθήκη",
     sum_bulk_desc: "Γερμανικές λέξεις (μία ανά γραμμή). Αυτόματη ταξινόμηση!",
-    sum_bulk_submit: "Ανάλυση και Προσθήκη"
+    sum_bulk_submit: "Ανάλυση και Προσθήκη",
+    select_level: "Επιλέξτε Επίπεδο Μαθήματος:",
+    level_a1: "Επίπεδο A1 (Berliner Platz 1)",
+    level_a2: "Επίπεδο A2 (Berliner Platz 2 - Σύντομα)",
+    level_a2_full: "Επίπεδο A2",
+    level_desc_a1: "Πλήρες πρόγραμμα αρχαρίων που περιέχει 12 διαδραστικά κεφάλαια με λεξιλόγιο, γραμματική και εξάσκηση ομιλίας.",
+    level_desc_a2: "Βασικό πρόγραμμα σπουδών (υπό ανάπτυξη). Περιλαμβάνει τα κεφάλαια 13 έως 24, σύντομα διαθέσιμο.",
+    level_modal_title: "Επιλέξτε επίπεδο εκμάθησης",
+    level_modal_subtitle: "Για να ξεκινήσετε, επιλέξτε το επίπεδο που θέλετε να μελετήσετε:",
+    level_a2_coming_soon: "Το περιεχόμενο του Επιπέδου A2 (Κεφάλαια 13-24) είναι υπό κατασκευή. Παρακαλούμε χρησιμοποιήστε το Επίπεδο A1 προς το παρόν.",
+    back_to_a1: "💡 Επιστροφή στο Επίπεδο A1"
   }
 };
 
@@ -2014,7 +2094,8 @@ function setLanguage(lang) {
   }
 
   // Update document title
-  const appTitle = getTranslation('app_title', 'Deutsch Lernen A1 | تعلم الألمانية');
+  const levelStr = (typeof currentLevel !== 'undefined' && currentLevel) ? ' (' + currentLevel + ')' : '';
+  const appTitle = getTranslation('app_title', 'Deutsch Lernen | تعلم الألمانية') + levelStr;
   document.title = appTitle;
 
   // Re-render summarizer if page is active

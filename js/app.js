@@ -4,6 +4,7 @@
 // ============================================================
 
 // ── State ────────────────────────────────────────────────────
+let currentLevel = localStorage.getItem('german_learning_level') || null;
 let currentPage = 'dashboard';
 let currentLesson = null;
 let currentLessonTab = 'text';
@@ -30,10 +31,49 @@ document.addEventListener('DOMContentLoaded', () => {
   updateDashboardStats();
   loadVoices();
 
+  // Initialize level
+  if (!currentLevel) {
+    document.getElementById('levelModalOverlay')?.classList.add('active');
+  } else {
+    changeLevel(currentLevel);
+  }
+
   // Register sidebar listeners inside DOMContentLoaded
   document.getElementById('sidebarToggle')?.addEventListener('click', toggleSidebar);
   document.getElementById('mobileMenuBtn')?.addEventListener('click', toggleSidebar);
 });
+
+// ── Level Selection Helpers ────────────────────────────────────
+window.selectLevelFromModal = function(level) {
+  document.getElementById('levelModalOverlay')?.classList.remove('active');
+  changeLevel(level);
+};
+
+window.changeLevel = function(level) {
+  currentLevel = level;
+  localStorage.setItem('german_learning_level', level);
+  
+  // Sync dropdown selector
+  const levelSelect = document.getElementById('levelSelect');
+  if (levelSelect) levelSelect.value = level;
+  
+  // Update logo text
+  const logoTitle = document.querySelector('.logo-title');
+  if (logoTitle) logoTitle.textContent = 'Deutsch ' + level;
+  
+  // Update document title
+  const appTitle = getTranslation('app_title', 'Deutsch Lernen | تعلم الألمانية');
+  document.title = appTitle + ' (' + level + ')';
+  
+  // Refresh layout
+  buildSidebarChapters();
+  buildChaptersGrid();
+  setDailyContent();
+  updateDashboardStats();
+  
+  // Refresh current page
+  navigateTo(currentPage);
+};
 
 function loadVoices() {
   if (window.speechSynthesis) {
@@ -50,6 +90,7 @@ function navigateTo(page, data) {
 
   // Hide all pages
   document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  
   // Show target
   const pageEl = document.getElementById('page-' + page);
   if (!pageEl) return;
@@ -60,6 +101,39 @@ function navigateTo(page, data) {
   document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
   const navEl = document.getElementById('nav-' + page);
   if (navEl) navEl.classList.add('active');
+
+  // Clean up any previously injected A2 coming soon elements on this page
+  pageEl.querySelectorAll('.coming-soon-container').forEach(el => el.remove());
+  Array.from(pageEl.children).forEach(child => {
+    if (!child.classList.contains('coming-soon-container')) {
+      child.style.display = '';
+    }
+  });
+
+  // If in A2 mode and not on dashboard, show placeholder instead
+  if (currentLevel === 'A2' && page !== 'dashboard') {
+    // Hide all normal children
+    Array.from(pageEl.children).forEach(child => {
+      child.style.display = 'none';
+    });
+    
+    // Append coming soon card
+    const placeholder = document.createElement('div');
+    placeholder.className = 'coming-soon-container';
+    placeholder.innerHTML = `
+      <div class="coming-soon-icon">🚀</div>
+      <h2 class="coming-soon-title" data-i18n="level_a2_full">${getTranslation('level_a2_full', 'المستوى A2')}</h2>
+      <p class="coming-soon-text" data-i18n="level_a2_coming_soon">${getTranslation('level_a2_coming_soon', 'المحتوى قيد التطوير حالياً.')}</p>
+      <button class="coming-soon-btn" onclick="changeLevel('A1')">
+        <span data-i18n="back_to_a1">${getTranslation('back_to_a1', '💡 العودة إلى المستوى A1')}</span>
+      </button>
+    `;
+    pageEl.appendChild(placeholder);
+    
+    // Scroll to top and return early
+    document.getElementById('mainContent').scrollTop = 0;
+    return;
+  }
 
   // Page-specific init
   if (page === 'vocabulary') renderVocabGrid();
@@ -392,9 +466,10 @@ function buildSidebarChapters() {
   const container = document.getElementById('chaptersList');
   if (!container) return;
   const saved = getSavedProgress();
+  const list = (currentLevel === 'A2' && typeof CURRICULUM_A2 !== 'undefined') ? CURRICULUM_A2 : CURRICULUM;
 
-  container.innerHTML = CURRICULUM.map(ch => {
-    const prog = saved.chaptersProgress?.[ch.id] || 0;
+  container.innerHTML = list.map(ch => {
+    const prog = (currentLevel === 'A2') ? 0 : (saved.chaptersProgress?.[ch.id] || 0);
     const done = prog >= 100;
     const title = getChapterTitle(ch);
     return `
@@ -410,16 +485,22 @@ function buildChaptersGrid() {
   const container = document.getElementById('chaptersGrid');
   if (!container) return;
   const saved = getSavedProgress();
+  const list = (currentLevel === 'A2' && typeof CURRICULUM_A2 !== 'undefined') ? CURRICULUM_A2 : CURRICULUM;
 
-  container.innerHTML = CURRICULUM.map((ch, idx) => {
-    const prog = saved.chaptersProgress?.[ch.id] || 0;
+  container.innerHTML = list.map((ch, idx) => {
+    const prog = (currentLevel === 'A2') ? 0 : (saved.chaptersProgress?.[ch.id] || 0);
     const status = prog >= 100 ? 'done' : prog > 0 ? 'inprogress' : '';
     
     let statusLabel = getTranslation('status_start', 'ابدأ الآن');
-    if (prog >= 100) statusLabel = getTranslation('status_completed', '✓ مكتمل');
-    else if (prog > 0) statusLabel = getTranslation('status_in_progress', 'جاري...');
+    if (currentLevel === 'A2') {
+      statusLabel = getTranslation('level_a2_full', 'المستوى A2');
+    } else if (prog >= 100) {
+      statusLabel = getTranslation('status_completed', '✓ مكتمل');
+    } else if (prog > 0) {
+      statusLabel = getTranslation('status_in_progress', 'جاري...');
+    }
     
-    const locked = idx > 0 && (saved.chaptersProgress?.[CURRICULUM[idx-1].id] || 0) < 25;
+    const locked = (currentLevel === 'A2') ? false : (idx > 0 && (saved.chaptersProgress?.[list[idx-1].id] || 0) < 25);
     const title = getChapterTitle(ch);
     const topics = getChapterTopics(ch);
 
@@ -441,6 +522,11 @@ function buildChaptersGrid() {
 
 // ── Open Lesson ───────────────────────────────────────────────
 function openLesson(chapterId) {
+  if (currentLevel === 'A2' || chapterId >= 13) {
+    showToast(getTranslation('level_a2_coming_soon', 'محتوى المستوى A2 قيد التطوير حالياً.'), 'warning');
+    return;
+  }
+
   const ch = CURRICULUM.find(c => c.id === chapterId);
   if (!ch) return;
 
@@ -1326,8 +1412,8 @@ function checkDailyStreak() {
 
 function updateDashboardStats() {
   const progress = getSavedProgress();
-  const mastered = (progress.masteredWords || []).length;
-  const completed = Object.values(progress.chaptersProgress || {}).filter(p => p >= 100).length;
+  const mastered = (currentLevel === 'A2') ? 0 : (progress.masteredWords || []).length;
+  const completed = (currentLevel === 'A2') ? 0 : Object.values(progress.chaptersProgress || {}).filter(p => p >= 100).length;
   const streak = progress.streak || 0;
   const score = progress.totalScore || 0;
 
@@ -1338,8 +1424,8 @@ function updateDashboardStats() {
   el('totalScore', score);
 
   const bar = (id, pct) => { const e = document.getElementById(id); if(e) e.style.width = Math.min(100,pct)+'%'; };
-  bar('wordBar',   (mastered / VOCABULARY.length) * 100);
-  bar('lessonBar', (completed / 12) * 100);
+  bar('wordBar',   (currentLevel === 'A2') ? 0 : (mastered / VOCABULARY.length) * 100);
+  bar('lessonBar', (currentLevel === 'A2') ? 0 : (completed / 12) * 100);
   bar('streakBar', Math.min(100, streak * 10));
   bar('scoreBar',  Math.min(100, score / 10));
 
@@ -1348,8 +1434,8 @@ function updateDashboardStats() {
 
 function updateOverallProgress() {
   const progress = getSavedProgress();
-  const vals = Object.values(progress.chaptersProgress || {});
-  const avg = vals.length > 0 ? Math.round(vals.reduce((a,b) => a+b, 0) / 12) : 0;
+  const vals = (currentLevel === 'A2') ? [] : Object.values(progress.chaptersProgress || {});
+  const avg = (currentLevel === 'A2') ? 0 : (vals.length > 0 ? Math.round(vals.reduce((a,b) => a+b, 0) / 12) : 0);
   const fill = document.getElementById('overallProgress');
   const pct  = document.getElementById('overallProgressPct');
   if (fill) fill.style.width = avg + '%';
