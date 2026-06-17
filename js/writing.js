@@ -1347,6 +1347,153 @@ const WRITING_TOPICS = [
     },
     writingTips: ["ابدأ بمتى بدأت الدورة وأين", "صف معلمك بإيجابية", "اذكر ماذا تتعلمون في الدورة", "اختم بنجاحاتك ومشاعرك تجاه التعلم"],
     selfCheckList: ["هل ذكرت اسم مدرسة اللغة والمستوى؟", "هل ذكرت أوقات الدورة؟", "هل وصفت معلمك؟", "هل ذكرت جنسيات زملائك؟", "هل ذكرت ما تتعلمه؟", "هل ذكرت تقدمك في الألمانية؟"]
+  },
+  {
+    id: 16,
+    title: "Gesund leben",
+    titleAr: "العيش بصحة جيدة",
+    emoji: "🍎",
+    type: "Ratgeber / Aufsatz",
+    typeAr: "نصائح / موضوع تعبيري",
+    relatedChapter: 13,
+    targetLength: { min: 60, max: 100 },
+    description: "اكتب نصائح عن كيفية العيش بحياة صحية متوازنة، والتغذية السليمة، والرياضة والوقاية.",
+    keyVocabulary: [
+      { de: "sich ernähren", ar: "يتغذى" },
+      { de: "die Gesundheit", ar: "الصحة" },
+      { de: "sich bewegen", ar: "يتنقل / يتحرك" },
+      { de: "Sport treiben", ar: "يمارس الرياضة" },
+      { de: "vermeiden", ar: "يتجنب" },
+      { de: "der Stress", ar: "التوتر / الضغط" },
+      { de: "genug schlafen", ar: "ينام كفاية" },
+      { de: "das Gemüse / das Obst", ar: "الخضروات / الفواكه" },
+      { de: "frische Luft", ar: "هواء نقي" },
+      { de: "sich entspannen", ar: "يسترخي" }
+    ],
+    usefulPhrases: [
+      { de: "Um gesund zu bleiben, muss man...", ar: "لكي تبقى صحياً، يجب على المرء أن..." },
+      { de: "Man sollte sich gesund ernähren.", ar: "ينبغي على المرء أن يتغذى تغذية صحية." },
+      { de: "Es ist wichtig, Sport zu treiben.", ar: "من المهم ممارسة الرياضة." },
+      { de: "Ich trinke viel Wasser und esse Gemüse.", ar: "أشرب الكثير من الماء وآكل الخضروات." },
+      { de: "Man sollte Stress vermeiden und entspannen.", ar: "ينبغي تجنب التوتر والاسترخاء." },
+      { de: "Genug Schlaf ist sehr wichtig für den Körper.", ar: "النوم الكافي مهم جداً للجسم." }
+    ],
+    grammarFocus: [
+      "Verwendung von 'sollte' (Konjunktiv II) für Empfehlungen",
+      "Infinitiv mit 'zu' (Es ist wichtig, ... zu tun)",
+      "Reflexive Verben: sich bewegen, sich entspannen, sich ernähren"
+    ],
+    structure: [
+      { step: "المقدمة - تعريف الحياة الصحية", icon: "1️⃣", tip: "ابدأ بتعريف بسيط لأهمية الصحة", examples: ["Gesundheit ist das Wichtigste im Leben.", "Man kann viel tun, um gesund und fit zu bleiben."] },
+      { step: "التغذية والشراب", icon: "2️⃣", tip: "صف ما يجب أكله وشربه", examples: ["Man sollte täglich viel Wasser trinken und frisches Obst essen.", "Fast Food und Zucker sollte man vermeiden."] },
+      { step: "الرياضة والنشاط البدني", icon: "3️⃣", tip: "تحدث عن ممارسة الرياضة والتحرك", examples: ["Es ist wichtig, sich jeden Tag an der frischen Luft zu bewegen.", "Man kann Sport treiben oder einfach spazieren gehen."] },
+      { step: "النوم والراحة", icon: "4️⃣", tip: "تحدث عن النوم والاسترخاء", examples: ["Man muss genug schlafen, mindestens sieben Stunden pro Nacht.", "Entspannung hilft gegen Stress."] }
+    ],
+    exampleEssay: {
+      text: "Gesundheit ist das Wichtigste im Leben. Um gesund und fit zu bleiben, sollte man auf seine Ernährung achten. Man sollte täglich frisches Obst und Gemüse essen und viel Wasser trinken. Fast Food und Zucker sollte man vermeiden. Außerdem ist Bewegung sehr wichtig. Es ist gesund, dreimal pro Woche Sport zu treiben oder täglich spazieren zu gehen. Man muss auch genug schlafen, mindestens sieben Stunden pro Nacht. Entspannung hilft, Stress im Alltag zu reduzieren. Ich versuche, mich gesund zu ernähren und viel zu bewegen.",
+      translation: "الصحة هي أهم شيء في الحياة. لكي تبقى صحياً ولائقاً، ينبغي عليك الانتباه إلى تغذيتك. يجب تناول الفواكه والخضروات الطازجة يومياً وشرب الكثير من الماء. ينبغي تجنب الوجبات السريعة والسكر. بالإضافة إلى ذلك، الحركة مهمة جداً. من الصحي ممارسة الرياضة ثلاث مرات في الأسبوع أو المشي يومياً. يجب أيضاً النوم بشكل كافٍ، على الأقل سبع ساعات في الليلة. الاسترخاء يساعد على تقليل التوتر في الحياة اليومية. أحاول تناول طعام صحي والتحرك كثيراً.",
+      wordCount: 88
+    },
+    writingTips: ["استخدم الفعل soll أو sollte لتقديم النصيحة", "استخدم أدوات الربط مثل außerdem وdeshalb لربط الجمل", "اكتب جملاً واضحة مستخدماً أفعالاً انعكاسية بشكل صحيح"],
+    selfCheckList: ["هل ذكرت أهمية الغذاء الصحي؟", "هل تحدثت عن شرب الماء والرياضة؟", "هل استخدمت أفعالاً انعكاسية (sich bewegen)؟", "هل استخدمت تركيب Infinitiv mit zu؟", "هل نصحت بالنوم والاسترخاء؟"]
+  },
+  {
+    id: 17,
+    title: "Mein Traumjob",
+    titleAr: "وظيفة أحلامي",
+    emoji: "💼",
+    type: "Bewerbung / Aufsatz",
+    typeAr: "موضوع تعبيري",
+    relatedChapter: 21,
+    targetLength: { min: 70, max: 110 },
+    description: "صف وظيفة أحلامك المستقبلية، والمهارات المطلوبة لها، ولماذا ترغب بالعمل فيها.",
+    keyVocabulary: [
+      { de: "der Traumjob / die Traumstelle", ar: "وظيفة الأحلام" },
+      { de: "arbeiten als", ar: "يعمل كـ" },
+      { de: "die Erfahrung", ar: "الخبرة" },
+      { de: "die Ausbildung / das Studium", ar: "التدريب المهني / الدراسة الجامعية" },
+      { de: "verdienen (Geld verdienen)", ar: "يكسب (المال)" },
+      { de: "flexible Arbeitszeiten", ar: "sاعات عمل مرنة" },
+      { de: "die Karriere", ar: "المسار المهني / المستقبل الوظيفي" },
+      { de: "selbstständig", ar: "مستقل / عمل حر" },
+      { de: "der Kollege / die Kollegin", ar: "الزميل / الزميلة" },
+      { de: "verantwortungsvoll", ar: "ذو مسؤولية كبيرة" }
+    ],
+    usefulPhrases: [
+      { de: "Mein Traumjob ist...", ar: "وظيفة أحلامي هي..." },
+      { de: "Ich möchte als ... arbeiten, weil...", ar: "أود العمل كـ ... لأن..." },
+      { de: "Dafür braucht man eine gute Ausbildung.", ar: "لهذا الغرض يحتاج المرء لتدريب جيد." },
+      { de: "Ich möchte flexible Arbeitszeiten haben.", ar: "أريد الحصول على ساعات عمل مرنة." },
+      { de: "Es ist mir wichtig, nette Kollegen zu haben.", ar: "من المهم بالنسبة لي وجود زملاء لطيفين." },
+      { de: "Man can gutes Geld verdienen.", ar: "يمكن للمرء كسب مال جيد." }
+    ],
+    grammarFocus: [
+      "Nebensätze mit 'weil' (Verb am Ende)",
+      "Wunsch ausdrücken mit 'möchte' oder 'würde gern'",
+      "Präpositionen bei Berufen: arbeiten als + Beruf, arbeiten bei + Firma"
+    ],
+    structure: [
+      { step: "المقدمة - ما هي الوظيفة", icon: "1️⃣", tip: "اذكر اسم الوظيفة ولماذا تحبها", examples: ["Mein Traumjob ist Software-Entwickler.", "Ich möchte gern bei einer großen IT-Firma arbeiten, weil ich Computer love."] },
+      { step: "المتطلبات والدراسة", icon: "2️⃣", tip: "تحدث عن التعليم والمهارات اللازمة لها", examples: ["Für diesen Beruf muss man Informatik studieren.", "Man braucht auch Erfahrung und gute Englischkenntnisse."] },
+      { step: "ظروف العمل المفضلة", icon: "3️⃣", tip: "صف بيئة وساعات العمل والراتب", examples: ["Ich möchte flexible Arbeitszeiten haben und im Homeoffice arbeiten.", "Ein gutes Gehalt und nette Kollegen sind mir wichtig."] },
+      { step: "الخاتمة - المستقبل الوظيفي", icon: "4️⃣", tip: "تحدث عن خطتك لتحقيق هذا الهدف", examples: ["Ich mache jetzt meine Ausbildung und hoffe, dass ich bald meinen Traumjob finde.", "Dieser Beruf hat eine gute Zukunft."] }
+    ],
+    exampleEssay: {
+      text: "Mein Traumjob ist Software-Entwickler. Ich möchte gern bei einer großen IT-Firma arbeiten, weil ich Computer und Programmieren liebe. Für diesen Beruf braucht man ein Studium der Informatik oder eine gute Ausbildung. Man muss auch logisch denken können und gute Englischkenntnisse haben. In meinem Traumjob möchte ich flexible Arbeitszeiten haben und manchmal im Homeoffice arbeiten. Ein gutes Gehalt und nette Kollegen sind mir ebenfalls wichtig. Ich finde diesen Beruf sehr interessant und verantwortungsvoll. Ich lerne jeden Tag fleißig, um mein Ziel zu erreichen.",
+      translation: "وظيفة أحلامي هي مطور برمجيات. أود العمل في شركة تقنية كبيرة لأنني أحب الكمبيوتر والبرمجة. لهذه المهنة يحتاج المرء دراسة علم الحاسوب أو تدريباً مهنياً جيداً. يجب أيضاً القدرة على التفكير المنطقي وامتلاك معرفة جيدة بالإنجليزية. في وظيفة أحلامي أريد الحصول على ساعات عمل مرنة والعمل أحياناً من المنزل. الراتب الجيد والزملاء اللطيفين مهمين بالنسبة لي أيضاً. أجد هذه المهنة مثيرة للاهتمام وذات مسؤولية كبيرة. أدرس بجد كل يوم للوصول إلى هدفي.",
+      wordCount: 92
+    },
+    writingTips: ["اكتب جملاً فرعية مستخدماً weil وتذكر وضع الفعل في نهاية الجملة", "استخدم möchte للتعبير عن رغباتك المستقبلية", "نوع في الكلمات المستخدمة مثل ebenfalls وauch"],
+    selfCheckList: ["هل حددت وظيفة أحلامك بوضوح؟", "هل شرحت لماذا اخترت هذه الوظيفة (weil)؟", "هل ذكرت المهارات المطلوبة؟", "هل تحدثت عن ساعات العمل أو الراتب؟", "هل انتهت جمل weil بأفعال مصرفة؟"]
+  },
+  {
+    id: 18,
+    title: "Ein unvergessliches Erlebnis",
+    titleAr: "تجربة لا تُنسى",
+    emoji: "✈️",
+    type: "Erzählung / Aufsatz",
+    typeAr: "قصة / سرد أحداث",
+    relatedChapter: 20,
+    targetLength: { min: 60, max: 100 },
+    description: "اكتب قصة قصيرة عن رحلة أو عطلة أو حدث مميز حدث لك في الماضي باستخدام صيغة الماضي.",
+    keyVocabulary: [
+      { de: "reisen (ist gereist)", ar: "يسافر" },
+      { de: "besuchen (hat besucht)", ar: "يزور" },
+      { de: "sehen (hat gesehen)", ar: "يرى / شاهد" },
+      { de: "erleben (hat erlebt)", ar: "يعيش تجربة" },
+      { de: "unvergesslich", ar: "لا يُنسى" },
+      { de: "wunderschön", ar: "جميل جداً" },
+      { de: "das Abenteuer", ar: "المغامرة" },
+      { de: "die Ferien / der Urlaub", ar: "الإجازة / العطلة" },
+      { de: "letztes Jahr", ar: "العام الماضي" },
+      { de: "Spaß machen (hat Spaß gemacht)", ar: "ممتع / يجلب المتعة" }
+    ],
+    usefulPhrases: [
+      { de: "Letztes Jahr bin ich nach ... gereist.", ar: "في العام الماضي سافرت إلى..." },
+      { de: "Das war ein wunderschöner Urlaub.", ar: "كانت تلك عطلة جميلة جداً." },
+      { de: "Ich habe viele interessante Orte gesehen.", ar: "شاهدت الكثير من الأماكن المثيرة للاهتمام." },
+      { de: "Das Erlebnis war unvergesslich.", ar: "كانت التجربة لا تُنسى." },
+      { de: "Wir haben viel gelacht und fotografiert.", ar: "ضحكنا كثيراً والتقطنا صوراً." },
+      { de: "Die Reise hat mir sehr viel Spaß gemacht.", ar: "الرحلة كانت ممتعة جداً بالنسبة لي." }
+    ],
+    grammarFocus: [
+      "Verwendung des Perfekts für vergangene Ereignisse",
+      "Hilfsverben: 'sein' bei Bewegung (ist gereist), 'haben' bei Transitivität (hat besucht)",
+      "Zeitadverbien: letztes Jahr, im Sommer, an einem Tag"
+    ],
+    structure: [
+      { step: "المقدمة - متى وأين", icon: "1️⃣", tip: "حدد زمان ومكان الرحلة أو الحدث", examples: ["Letzten Sommer bin ich mit meiner Familie nach Paris gereist.", "Wir sind mit dem Zug gefahren."] },
+      { step: "ماذا فعلت هناك", icon: "2️⃣", tip: "سرد الأنشطة التي قمت بها بصيغة الماضي", examples: ["Wir haben den Eiffelturm besucht und viele Fotos gemacht.", "Das Wetter war super und wir haben im Restaurant gegessen."] },
+      { step: "حدث مميز أو مغامرة", icon: "3️⃣", tip: "صف شيئاً رائعاً أو غير متوقع حدث لك", examples: ["An einem Tag haben wir eine Bootsfahrt auf der Seine gemacht.", "Das Panorama war unglaublich schön."] },
+      { step: "الخاتمة - الانطباع الأخير", icon: "4️⃣", tip: "لخص شعورك وانطباعك عن هذا الحدث", examples: ["Diese Reise war ein unvergessliches Erlebnis für mich.", "Ich möchte gern wieder dorthin reisen."] }
+    ],
+    exampleEssay: {
+      text: "Letzten Sommer bin ich mit meiner Familie nach München gereist. Wir sind mit dem Auto gefahren. Das war ein wunderschöner Urlaub. Wir haben in einem kleinen Hotel gewohnt. In München haben wir viele Sehenswürdigkeiten besucht, wie das Schloss Nymphenburg und den Englischen Garten. Am besten hat mir der Englische Garten gefallen, dort haben wir ein Picknick gemacht. Wir haben auch das deutsche Essen probiert. Es hat uns sehr gut geschmeckt. Das Wetter war die ganze Woche warm und sonnig. Diese Reise war ein unvergessliches Erlebnis. Sie hat uns sehr viel Spaß gemacht.",
+      translation: "في الصيف الماضي سافرت مع عائلتي إلى ميونخ. ذهبنا بالسيارة. كانت تلك عطلة جميلة جداً. سكنا في فندق صغير. في ميونخ زرنا الكثير من المعالم السياحية مثل قصر نيمفنبورغ والحديقة الإنجليزية. أكثر ما أعجبني هو الحديقة الإنجليزية، حيث قمنا بنزهة هناك. جربنا أيضاً الطعام الألماني. لقد كان لذيذاً جداً بالنسبة لنا. كان الطقس دافئاً ومشمساً طوال الأسبوع. كانت هذه الرحلة تجربة لا تُنسى. لقد جلبت لنا الكثير من المتعة.",
+      wordCount: 94
+    },
+    writingTips: ["اكتب القصة كاملة بصيغة الماضي (Perfekt)", "تذكر وضع ge- في نهاية الجمل مع الأفعال المساعدة haben أو sein", "استخدم صفات جميلة مثل wunderschön وunvergesslich لوصف مشاعرك"],
+    selfCheckList: ["هل كتبت بصيغة الماضي (Perfekt) واستخدمت haben/sein بشكل صحيح؟", "هل حددت وقت ومكان الحدث？", "هل سردت الأنشطة بصيغة الماضي؟", "هل وضعت أفعال الماضي المصرفة في نهاية الجملة بعد haben/sein؟", "هل وصفت شعورك النهائي؟"]
   }
 ];
 
@@ -1567,11 +1714,23 @@ function buildWritingPage() {
   const saved = getSavedProgress();
   const savedWritings = saved.writings || {};
 
+  const levelTopics = WRITING_TOPICS.filter(t => {
+    return currentLevel === 'A2' ? t.relatedChapter >= 13 : t.relatedChapter <= 12;
+  });
+  const levelTopicIds = levelTopics.map(t => t.id);
+
+  const writtenCount = Object.keys(savedWritings).filter(id => levelTopicIds.includes(parseInt(id))).length;
+  const wordCountSum = Object.entries(savedWritings).reduce((a, [id, w]) => {
+    return levelTopicIds.includes(parseInt(id)) ? a + (w.wordCount || 0) : a;
+  }, 0);
+
+  const subtitle = getTranslation('writing_subtitle', 'مواضيع متكاملة لتطوير مهارة الكتابة بالألمانية A1').replace(/A1/g, currentLevel);
+
   container.innerHTML = `
     <div class="page-header">
       <div class="page-title-area">
         <h1 class="page-title">${getTranslation('writing_title', '✍️ كتابة المواضيع - Aufsatz-Training')}</h1>
-        <p class="page-subtitle">${getTranslation('writing_subtitle', '15 موضوعاً متكاملاً لتطوير مهارة الكتابة بالألمانية A1')}</p>
+        <p class="page-subtitle">${subtitle}</p>
       </div>
       <button class="btn btn-ghost" onclick="showSentenceBuilderModal()">${getTranslation('nav_sentences', '📐 جُمل مساعدة')}</button>
     </div>
@@ -1581,21 +1740,21 @@ function buildWritingPage() {
       <div class="stat-card">
         <div class="stat-icon">✍️</div>
         <div class="stat-info">
-          <span class="stat-value">${Object.keys(savedWritings).length}</span>
+          <span class="stat-value">${writtenCount}</span>
           <span class="stat-label">${getTranslation('stat_topics_written', 'مواضيع كتبتها')}</span>
         </div>
       </div>
       <div class="stat-card">
         <div class="stat-icon">📝</div>
         <div class="stat-info">
-          <span class="stat-value">${WRITING_TOPICS.length}</span>
+          <span class="stat-value">${levelTopics.length}</span>
           <span class="stat-label">${getTranslation('stat_topics_available', 'مواضيع متاحة')}</span>
         </div>
       </div>
       <div class="stat-card">
         <div class="stat-icon">🎯</div>
         <div class="stat-info">
-          <span class="stat-value">${Object.values(savedWritings).reduce((a,w) => a + (w.wordCount || 0), 0)}</span>
+          <span class="stat-value">${wordCountSum}</span>
           <span class="stat-label">${getTranslation('stat_words_written', 'كلمات كتبتها')}</span>
         </div>
       </div>
@@ -1615,7 +1774,7 @@ function buildWritingPage() {
 
     <!-- Topics Grid -->
     <div class="writing-topics-grid">
-      ${WRITING_TOPICS.map(topic => {
+      ${levelTopics.map(topic => {
         const localTopic = getLocalizedWritingTopic(topic);
         const hasSaved = savedWritings[topic.id];
         const savedWords = hasSaved ? savedWritings[topic.id].wordCount || 0 : 0;

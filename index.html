@@ -47,7 +47,7 @@
         <label for="levelSelect" data-i18n="select_level" class="lang-label">اختر المستوى الدراسي:</label>
         <select id="levelSelect" onchange="changeLevel(this.value)" class="lang-select">
           <option value="A1" data-i18n="level_a1">المستوى A1 (Berliner Platz 1)</option>
-          <option value="A2" data-i18n="level_a2">المستوى A2 (Berliner Platz 2 - قريباً)</option>
+          <option value="A2" data-i18n="level_a2">المستوى A2 (Berliner Platz 2)</option>
         </select>
       </div>
 
@@ -88,10 +88,6 @@
         <div class="nav-item" data-page="summarizer" id="nav-summarizer" onclick="navigateTo('summarizer')">
           <span class="nav-icon">📝</span>
           <span class="nav-label" data-i18n="nav_summarizer">ملخص دراستي</span>
-        </div>
-        <div class="nav-item" data-page="library" id="nav-library" onclick="navigateTo('library')">
-          <span class="nav-icon">📖</span>
-          <span class="nav-label" data-i18n="nav_library">الكتب الدراسية</span>
         </div>
       </div>
 
@@ -524,18 +520,7 @@
       </div>
     </div>
 
-    <!-- Library Page -->
-    <div class="page" id="page-library">
-      <div class="page-header">
-        <div class="page-title-area">
-          <h1 class="page-title" data-i18n="library_title">الكتب الدراسية - Lehrbücher</h1>
-          <p class="page-subtitle" data-i18n="library_subtitle">تحميل وقراءة الكتب المنهجية والمواد المساعدة</p>
-        </div>
-      </div>
-      <div class="library-grid" id="libraryGrid">
-        <!-- Dynamically populated by JS based on selected level -->
-      </div>
-    </div>
+
   </main>
 
   <!-- Toast Notifications -->
@@ -596,8 +581,8 @@
         <div class="level-card" onclick="selectLevelFromModal('A2')">
           <div class="level-card-icon">🚀</div>
           <div class="level-card-info">
-            <h3 data-i18n="level_a2" class="level-card-title">المستوى A2 (Berliner Platz 2 - قريباً)</h3>
-            <p data-i18n="level_desc_a2" class="level-card-desc">منهج المستوى الأساسي (قيد التطوير). يحتوي على الوحدات 13 إلى 24 وسيتم إطلاقها قريباً.</p>
+            <h3 data-i18n="level_a2" class="level-card-title">المستوى A2 (Berliner Platz 2)</h3>
+            <p data-i18n="level_desc_a2" class="level-card-desc">منهج المستوى الثاني الأساسي. يحتوي على الوحدات 13 إلى 24 مع المفردات والقواعد وممارسة المحادثة والكتابة.</p>
           </div>
           <button class="level-card-btn outline" data-i18n="level_a2_full">المستوى A2</button>
         </div>

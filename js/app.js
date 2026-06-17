@@ -110,30 +110,7 @@ function navigateTo(page, data) {
     }
   });
 
-  // If in A2 mode and not on dashboard or library, show placeholder instead
-  if (currentLevel === 'A2' && page !== 'dashboard' && page !== 'library') {
-    // Hide all normal children
-    Array.from(pageEl.children).forEach(child => {
-      child.style.display = 'none';
-    });
-    
-    // Append coming soon card
-    const placeholder = document.createElement('div');
-    placeholder.className = 'coming-soon-container';
-    placeholder.innerHTML = `
-      <div class="coming-soon-icon">🚀</div>
-      <h2 class="coming-soon-title" data-i18n="level_a2_full">${getTranslation('level_a2_full', 'المستوى A2')}</h2>
-      <p class="coming-soon-text" data-i18n="level_a2_coming_soon">${getTranslation('level_a2_coming_soon', 'المحتوى قيد التطوير حالياً.')}</p>
-      <button class="coming-soon-btn" onclick="changeLevel('A1')">
-        <span data-i18n="back_to_a1">${getTranslation('back_to_a1', '💡 العودة إلى المستوى A1')}</span>
-      </button>
-    `;
-    pageEl.appendChild(placeholder);
-    
-    // Scroll to top and return early
-    document.getElementById('mainContent').scrollTop = 0;
-    return;
-  }
+  
 
   // Page-specific init
   if (page === 'vocabulary') renderVocabGrid();
@@ -154,7 +131,7 @@ function navigateTo(page, data) {
   if (page === 'conversation') backToConvMenu();
   if (page === 'lesson' && data) openLesson(data);
   if (page === 'summarizer') initSummarizer();
-  if (page === 'library') renderLibrary();
+  
 
   // Scroll to top
   document.getElementById('mainContent').scrollTop = 0;
@@ -652,12 +629,13 @@ function renderTextTab(ch, container) {
   });
 
   // Audio Section
-  if (ch.audioFiles && ch.audioFiles.length > 0) {
+  const audioList = ch.audioFiles || ch.audio || [];
+  if (audioList && audioList.length > 0) {
     sections.push(`
       <div class="lesson-text-section">
         <h3 style="font-size:18px;font-weight:700;margin-bottom:16px">${getTranslation('listening_exercises', '🎧 تمارين الاستماع')}</h3>
         <div class="audio-list" style="gap:8px">
-          ${ch.audioFiles.map((af, i) => {
+          ${audioList.map((af, i) => {
             const afLabelTrans = getAudioLabelTrans(af);
             const chLabel = getTranslation('chapter_label', 'الوحدة') + ' ' + ch.id;
             return `
@@ -1522,187 +1500,4 @@ document.addEventListener('keydown', e => {
     if (e.key === '3' && fcFlipped) rateCard('easy');
   }
 });
-
-// ── Library & Textbook Manager ────────────────────────────────
-const LIBRARY_DATA = {
-  A1: [
-    {
-      titleDe: "Lemcke Ch., Rohrmann L., Scherling Th. - Berliner Platz 1 neu. A1 - 2011",
-      titleAr: "كتاب Berliner Platz 1 Neu (كتاب الطالب والتمارين)",
-      titleEn: "Berliner Platz 1 Neu textbook & workbook",
-      descDe: "Das offizielle Lehr- und Arbeitsbuch für das Niveau A1.",
-      descAr: "الكتاب الدراسي وكتاب التمارين الرسمي والمعتمد لمستوى A1.",
-      descEn: "The official coursebook and workbook for A1 level.",
-      file: "Berliner Platz 1 neu/Lemcke Ch., Rohrmann  L., Scherling Th. - Berliner Platz 1 neu. A1 - 2011.pdf",
-      size: "91.2 MB",
-      icon: "📘"
-    },
-    {
-      titleDe: "Berliner Platz Neu 1 Intensivtrainer",
-      titleAr: "كتاب التدريبات المكثفة Intensivtrainer A1",
-      titleEn: "Intensivtrainer A1 supplementary workbook",
-      descDe: "Zusätzliche Übungen zum selbstständigen Vertiefen von Grammatik und Wortschatz.",
-      descAr: "تمارين إضافية لتعميق فهم القواعد النحو والمفردات بشكل مستقل.",
-      descEn: "Supplementary exercises to deepen vocabulary and grammar skills independently.",
-      file: "Berliner Platz 1 neu/Berliner Platz Neu 1 Intensivtrainer.pdf",
-      size: "90.0 MB",
-      icon: "📙"
-    },
-    {
-      titleDe: "BP-1-neu Tafel Lehrerhandreichungen",
-      titleAr: "دليل المعلم لإرشادات السبورة والدرس A1",
-      titleEn: "Teacher's Guide and Blackboard Notes A1",
-      descDe: "Handreichungen für den Unterricht und Tipps für Lehrende.",
-      descAr: "دليل المعلم التوجيهي وطرق تدريس المنهج مع نصائح السبورة.",
-      descEn: "Teaching guide, lesson planning tips and blackboard directions.",
-      file: "Berliner Platz 1 neu/Extras/BP-1-neu_Tafel_Lehrerhandreichungen.pdf",
-      size: "5.1 MB",
-      icon: "⚙️"
-    },
-    {
-      titleDe: "BP1 Neu Kopiervorlagen LHR K7-12",
-      titleAr: "أوراق عمل وقوالب قابلة للنسخ للدروس 7-12",
-      titleEn: "Copy Templates and Handouts for Chapters 7-12",
-      descDe: "Arbeitsblätter und Vorlagen für Aktivitäten im Unterricht.",
-      descAr: "أوراق عمل تدريبية قابلة للطباعة لزيادة التفاعل بالصف للفصول 7-12.",
-      descEn: "Printable worksheet templates for classroom activities (Chapters 7-12).",
-      file: "Berliner Platz 1 neu/Extras/BP1_Neu_Kopiervorlagen_LHR_K72.pdf",
-      size: "1.7 MB",
-      icon: "📄"
-    },
-    {
-      titleDe: "Transkript zum Lehrbuchteil (Kapitel 1-6 & 7-12)",
-      titleAr: "نصوص الاستماع لكتاب الطالب (كاملة)",
-      titleEn: "Coursebook Audio Transcripts (Complete)",
-      descDe: "Alle Hörtexte des Lehrbuchteils zum Mitlesen und Kontrollieren.",
-      descAr: "النصوص المكتوبة لجميع المقاطع الصوتية في كتاب الطالب لمطابقتها أثناء الاستماع.",
-      descEn: "Complete written transcripts for all coursebook audio tracks.",
-      file: "Berliner Platz 1 neu/Extras/Transkript zum Lehrbuchteil, Kapitel 1-6.pdf",
-      size: "354 KB / 452 KB",
-      icon: "📝"
-    },
-    {
-      titleDe: "Lösungen zum Lehr- und Arbeitsbuchteil (Complete)",
-      titleAr: "حلول كتاب الطالب والتمارين (كاملة)",
-      titleEn: "Coursebook & Workbook Answer Keys (Complete)",
-      descDe: "Die offiziellen Lösungen für alle Aufgaben im Lehr- und Arbeitsbuch.",
-      descAr: "مفاتيح الحلول النموذجية لجميع تمارين كتاب الطالب وكتاب التمارين لمطابقة إجاباتك.",
-      descEn: "Official answer keys for all exercises in the textbook and workbook.",
-      file: "Berliner Platz 1 neu/Extras/Lösungen zum Lehrbuchteil, Kapitel 1-6.pdf",
-      size: "226 KB / 196 KB",
-      icon: "✅"
-    }
-  ],
-  A2: [
-    {
-      titleDe: "Berliner Platz 2 neu Teil 1 (Kapitel 13-18)",
-      titleAr: "كتاب Berliner Platz 2 Neu - الجزء الأول",
-      titleEn: "Berliner Platz 2 Neu - Part 1",
-      descDe: "Lehr- und Arbeitsbuch für das Niveau A2 (Kapitel 13 bis 18).",
-      descAr: "الكتاب الدراسي وكتاب التمارين الرسمي لمستوى A2 - الجزء الأول (الفصول 13-18).",
-      descEn: "Coursebook and workbook for A2 level - Part 1 (Chapters 13-18).",
-      file: "Berliner Platz 2 neu/Berliner Platz 2 neu Teil 1.pdf",
-      size: "184.1 MB",
-      icon: "📘"
-    },
-    {
-      titleDe: "Berliner Platz 2 neu Teil 2 (Kapitel 19-24)",
-      titleAr: "كتاب Berliner Platz 2 Neu - الجزء الثاني",
-      titleEn: "Berliner Platz 2 Neu - Part 2",
-      descDe: "Lehr- und Arbeitsbuch für das Niveau A2 (Kapitel 19 bis 24).",
-      descAr: "الكتاب الدراسي وكتاب التمارين الرسمي لمستوى A2 - الجزء الثاني (الفصول 19-24).",
-      descEn: "Coursebook and workbook for A2 level - Part 2 (Chapters 19-24).",
-      file: "Berliner Platz 2 neu/Berliner Platz 2 neu Teil 2.pdf",
-      size: "160.9 MB",
-      icon: "📘"
-    },
-    {
-      titleDe: "Berliner Platz Neu 2 Intensivtrainer",
-      titleAr: "كتاب التدريبات المكثفة Intensivtrainer A2",
-      titleEn: "Intensivtrainer A2 supplementary workbook",
-      descDe: "Zusätzliche Übungen zum Vertiefen von Grammatik und Wortschatz für A2.",
-      descAr: "تمارين إضافية لتعميق فهم القواعد والمفردات بشكل مستقل للمستوى الثاني.",
-      descEn: "Supplementary exercises to deepen vocabulary and grammar skills for A2.",
-      file: "Berliner Platz 2 neu/Berliner Platz Neu 2 Intensivtrainer.pdf",
-      size: "17.6 MB",
-      icon: "📙"
-    },
-    {
-      titleDe: "Berliner Platz 2 neu Lösungen (LB & AB)",
-      titleAr: "حلول كتاب الطالب وكتاب التمارين A2",
-      titleEn: "A2 Textbook & Workbook Answer Keys",
-      descDe: "Lösungen für Lehrbuch und Arbeitsbuch Kapitel 13-24.",
-      descAr: "مفاتيح الحلول لجميع تمارين كتاب الطالب والتمارين للفصول 13-24.",
-      descEn: "Complete answer keys for textbook and workbook (Chapters 13-24).",
-      file: "Berliner Platz 2 neu/Berliner Platz 2 neu_Neu_Loesungen_LB_K13-18.pdf",
-      size: "92 KB / 200 KB",
-      icon: "✅"
-    },
-    {
-      titleDe: "Berliner Platz 2 neu Transkripte (LB & AB)",
-      titleAr: "نصوص الاستماع لكتاب الطالب والتمارين A2",
-      titleEn: "A2 Audio Transcripts (Textbook & Workbook)",
-      descDe: "Alle Hörtexte des Lehrbuch- und Arbeitsbuchteils für das Niveau A2.",
-      descAr: "النصوص المكتوبة لجميع المقاطع الصوتية في كتاب الطالب والتمارين A2.",
-      descEn: "Complete written transcripts for all A2 audio tracks.",
-      file: "Berliner Platz 2 neu/Berliner Platz 2 neu_Neu_Transkript_LB_K13-182.pdf",
-      size: "150 KB / 338 KB",
-      icon: "📝"
-    },
-    {
-      titleDe: "BPN2 Glossar Deutsch-Englisch",
-      titleAr: "قاموس المفردات ألماني - إنجليزي A2",
-      titleEn: "BPN2 German-English Glossary",
-      descDe: "Vokabelglossar Deutsch-Englisch für das gesamte Lehrwerk Berliner Platz 2.",
-      descAr: "مسرد الكلمات والمصطلحات المترجمة من الألمانية للإنجليزية للمستوى الثاني.",
-      descEn: "German-English vocabulary glossary for the entire Berliner Platz 2 textbook.",
-      file: "Berliner Platz 2 neu/Berliner Platz 2 neu_glossary_german_english_978-3-468-47224-4_BPN2_G_EN11.pdf",
-      size: "797 KB",
-      icon: "📖"
-    }
-  ]
-};
-
-function renderLibrary() {
-  const grid = document.getElementById('libraryGrid');
-  if (!grid) return;
-
-  const books = LIBRARY_DATA[currentLevel] || [];
-  grid.innerHTML = '';
-
-  if (books.length === 0) {
-    grid.innerHTML = `<p style="grid-column: 1/-1; text-align: center; color: var(--text-secondary);" data-i18n="library_empty">لا توجد كتب متوفرة لهذا المستوى حالياً.</p>`;
-    return;
-  }
-
-  books.forEach(b => {
-    let title = b.titleEn;
-    let desc = b.descEn;
-    if (currentLang === 'ar') {
-      title = b.titleAr;
-      desc = b.descAr;
-    } else if (currentLang === 'de') {
-      title = b.titleDe;
-      desc = b.descDe;
-    } else {
-      title = b.titleEn || b.titleDe;
-      desc = b.descEn || b.descDe;
-    }
-
-    const card = document.createElement('div');
-    card.className = 'book-card';
-    card.innerHTML = `
-      <div class="book-icon-wrap">${b.icon || '📖'}</div>
-      <h3 class="book-title">${title}</h3>
-      <p class="book-desc">${desc}</p>
-      <div class="book-meta">
-        <span class="book-size">${b.size}</span>
-        <a href="../${b.file}" target="_blank" class="book-btn">
-          <span data-i18n="library_download">${getTranslation('library_download', 'فتح / تحميل 📥')}</span>
-        </a>
-      </div>
-    `;
-    grid.appendChild(card);
-  });
-}
 

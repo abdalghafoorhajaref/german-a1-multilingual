@@ -2735,12 +2735,14 @@ function saveCustomVocab(customVocab) {
 // ── UI Handlers ───────────────────────────────────────────────
 
 function initSummarizer() {
-  currentSumChapter = document.getElementById("sumChapterFilter")?.value || "1";
+  const defaultCh = (currentLevel === 'A2') ? "13" : "1";
+  currentSumChapter = document.getElementById("sumChapterFilter")?.value || defaultCh;
   
   const dropdown = document.getElementById("sumChapterFilter");
-  if (dropdown && dropdown.options.length <= 1) {
+  if (dropdown) {
     dropdown.innerHTML = "";
-    CURRICULUM.forEach(ch => {
+    const list = (currentLevel === 'A2' && typeof CURRICULUM_A2 !== 'undefined') ? CURRICULUM_A2 : CURRICULUM;
+    list.forEach(ch => {
       const opt = document.createElement("option");
       opt.value = ch.id;
       // Get translated chapter label
@@ -2749,6 +2751,11 @@ function initSummarizer() {
       opt.textContent = `${chLabel} ${ch.id}: ${title}`;
       dropdown.appendChild(opt);
     });
+    
+    const hasOpt = Array.from(dropdown.options).some(o => o.value === String(currentSumChapter));
+    if (!hasOpt && dropdown.options.length > 0) {
+      currentSumChapter = dropdown.options[0].value;
+    }
     dropdown.value = currentSumChapter;
   }
 
@@ -3483,7 +3490,8 @@ function importCustomVocab(event) {
 
 function printSummarizer() {
   const chId = parseInt(currentSumChapter);
-  const ch = CURRICULUM.find(c => c.id === chId);
+  const list = (currentLevel === 'A2' && typeof CURRICULUM_A2 !== 'undefined') ? CURRICULUM_A2 : CURRICULUM;
+  const ch = list.find(c => c.id === chId);
   const printTitleDe = ch ? ch.titleDe : `Kapitel ${chId}`;
   
   // Custom bilingually generated title for print header

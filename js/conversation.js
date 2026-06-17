@@ -587,6 +587,162 @@ const CONVERSATION_SCENARIOS = [
         ]
       }
     ]
+  },
+
+  // ── CHAPTER 13: Beim Hausarzt ──────────────────────────────
+  {
+    id: 13,
+    ch: 13,
+    title: "Beim Hausarzt",
+    titleAr: "زيارة طبيب الأسرة وشرح الأعراض",
+    emoji: "🏥",
+    difficulty: "Mittel",
+    turns: [
+      { speaker: "partner", textDe: "Guten Tag! Was fehlt Ihnen denn?", textAr: "نهارك سعيد! مما تشتكي؟", textEn: "Good day! What seems to be the problem?" },
+      {
+        speaker: "user",
+        prompt: "أجب بتحية الطبيب وقل له أنك مريض وتشعر بألم في رأسك وحلقك",
+        promptEn: "Greet the doctor and say that you are sick with a headache and sore throat.",
+        options: [
+          { textDe: "Guten Tag, Herr Doktor! Ich fühle mich sehr krank. Ich habe starke Kopfschmerzen und Halsschmerzen.", textAr: "نهارك سعيد يا دكتور! أشعر بالمرض الشديد. لدي صداع قوي وآلام في الحلق.", textEn: "Good day, doctor! I feel very sick. I have a severe headache and sore throat.", points: 15 },
+          { textDe: "Hallo Arzt. Ich habe Kopfschmerzen und Halsschmerzen.", textAr: "مرحباً يا دكتور. لدي صداع وآلام في الحلق.", textEn: "Hello doctor. I have a headache and sore throat.", points: 10 }
+        ]
+      },
+      { speaker: "partner", textDe: "Haben Sie auch Fieber? Seit wann haben Sie diese Symptome?", textAr: "هل لديك حمى أيضاً؟ ومنذ متى تعاني من هذه الأعراض؟", textEn: "Do you also have a fever? Since when do you have these symptoms?" },
+      {
+        speaker: "user",
+        prompt: "أخبره أن لديك حمى خفيفة (38.5) منذ يومين",
+        promptEn: "Tell him you have a mild fever (38.5) for two days.",
+        options: [
+          { textDe: "Ja, ich habe leichtes Fieber, etwa 38,5 Grad. Das habe ich seit zwei Tagen.", textAr: "نعم، لدي حمى خفيفة، حوالي 38.5 درجة. هذا لدي منذ يومين.", textEn: "Yes, I have a mild fever, about 38.5 degrees. I've had this for two days.", points: 15 },
+          { textDe: "Ich habe Fieber. 38,5 Grad seit zwei Tagen.", textAr: "لدي حمى. 38.5 درجة منذ يومين.", textEn: "I have a fever. 38.5 degrees for two days.", points: 10 }
+        ]
+      },
+      { speaker: "partner", textDe: "Das klingt nach einer Erkältung. Ich schreibe Ihnen ein Rezept. Sie sollten viel schlafen und Wasser trinken.", textAr: "يبدو هذا كنزلة برد. سأكتب لك وصفة طبية. يجب أن تنام كثيراً وتشرب الماء.", textEn: "That sounds like a cold. I will write you a prescription. You should sleep a lot and drink water." },
+      {
+        speaker: "user",
+        prompt: "اشكر الطبيب واسأله متى يجب تناول الدواء",
+        promptEn: "Thank the doctor and ask him when you should take the medicine.",
+        options: [
+          { textDe: "Vielen Dank! Wie oft am Tag soll ich die Medikamente einnehmen?", textAr: "شكراً جزيلاً! كم مرة في اليوم يجب علي تناول الأدوية؟", textEn: "Thank you very much! How many times a day should I take the medicine?", points: 15 },
+          { textDe: "Danke. Wann muss ich die Medizin nehmen?", textAr: "شكراً. متى يجب أن آخذ الدواء؟", textEn: "Thank you. When do I have to take the medicine?", points: 10 }
+        ]
+      },
+      { speaker: "partner", textDe: "Nehmen Sie die Tabletten dreimal täglich nach dem Essen. Gute Besserung!", textAr: "خذ الحبوب ثلاث مرات يومياً بعد الأكل. أتمنى لك الشفاء العاجل!", textEn: "Take the tablets three times a day after meals. Get well soon!" },
+      {
+        speaker: "user",
+        prompt: "اشكر الطبيب مرة أخرى وودعه",
+        promptEn: "Thank the doctor again and say goodbye.",
+        options: [
+          { textDe: "Herzlichen Dank, Herr Doktor! Auf Wiedersehen!", textAr: "شكراً جزيلاً يا دكتور! مع السلامة!", textEn: "Thank you very much, doctor! Goodbye!", points: 10 },
+          { textDe: "Danke schön! Tschüss!", textAr: "شكراً جزيلاً! مع السلامة!", textEn: "Thank you! Bye!", points: 10 }
+        ]
+      }
+    ]
+  },
+
+  // ── CHAPTER 21: Bewerbung & Beruf ──────────────────────────
+  {
+    id: 14,
+    ch: 21,
+    title: "Bewerbung & Beruf",
+    titleAr: "مقابلة العمل والحديث عن المهارات",
+    emoji: "💼",
+    difficulty: "Schwer",
+    turns: [
+      { speaker: "partner", textDe: "Guten Tag! Erzählen Sie mir bitte etwas über Ihre Berufserfahrung.", textAr: "نهارك سعيد! يرجى إخباري بشيء عن خبرتك المهنية.", textEn: "Good day! Please tell me something about your professional experience." },
+      {
+        speaker: "user",
+        prompt: "قل أنك عملت كمطور برمجيات لثلاث سنوات في شركة تقنية",
+        promptEn: "Say that you worked as a software developer for three years at a tech company.",
+        options: [
+          { textDe: "Guten Tag! Ich habe drei Jahre lang als Software-Entwickler bei einer großen IT-Firma gearbeitet.", textAr: "نهارك سعيد! لقد عملت كمطور برمجيات لمدة ثلاث سنوات في شركة تقنية كبيرة.", textEn: "Good day! I worked as a software developer for three years at a large IT company.", points: 15 },
+          { textDe: "Ich habe als Programmierer drei Jahre gearbeitet.", textAr: "عملت كمبرمج لمدة ثلاث سنوات.", textEn: "I worked as a programmer for three years.", points: 10 }
+        ]
+      },
+      { speaker: "partner", textDe: "Das ist interessant. Warum bewerben Sie sich bei uns?", textAr: "هذا مثير للاهتمام. لماذا تتقدم بطلب عمل لدينا؟", textEn: "That's interesting. Why are you applying to us?" },
+      {
+        speaker: "user",
+        prompt: "عبر عن رغبتك بالعمل لديهم لأن بيئة العمل ممتازة وتوفر ساعات مرنة",
+        promptEn: "Express your desire to work for them because the work environment is excellent and offers flexible hours.",
+        options: [
+          { textDe: "Ich möchte bei Ihnen arbeiten, weil Ihre Firma eine sehr gute Arbeitsatmosphäre und flexible Arbeitszeiten bietet.", textAr: "أود العمل لديكم لأن شركتكم توفر بيئة عمل جيدة جداً وساعات عمل مرنة.", textEn: "I would like to work for you because your company offers a very good working atmosphere and flexible working hours.", points: 15 },
+          { textDe: "Ihre Firma ist sehr gut. Ich möchte flexible Zeiten haben.", textAr: "شركتكم جيدة جداً. أود الحصول على ساعات عمل مرنة.", textEn: "Your company is very good. I want to have flexible hours.", points: 10 }
+        ]
+      },
+      { speaker: "partner", textDe: "Wir suchen jemanden mit guten Englischkenntnissen. Sprechen Sie Englisch?", textAr: "نحن نبحث عن شخص لديه معرفة جيدة بالإنجليزية. هل تتحدث الإنجليزية؟", textEn: "We are looking for someone with good English skills. Do you speak English?" },
+      {
+        speaker: "user",
+        prompt: "أكد أنك تتحدث الإنجليزية بطلاقة وتدرس الألمانية الآن",
+        promptEn: "Confirm that you speak fluent English and are currently studying German.",
+        options: [
+          { textDe: "Ja, ich spreche fließend Englisch und lerne jetzt fleißig Deutsch für Niveau A2.", textAr: "نعم، أتحدث الإنجليزية بطلاقة وأدرس الألمانية بجد الآن لمستوى A2.", textEn: "Yes, I speak fluent English and am currently studying German diligently for A2 level.", points: 15 },
+          { textDe: "Ja, mein Englisch ist sehr gut und ich lerne Deutsch.", textAr: "نعم، إنجليزيتي ممتازة وأنا أتعلم الألمانية.", textEn: "Yes, my English is very good and I am learning German.", points: 10 }
+        ]
+      },
+      { speaker: "partner", textDe: "Das klingt hervorragend! Wir melden uns nächste Woche bei Ihnen.", textAr: "هذا يبدو ممتازاً! سنقوم بالتواصل معك في الأسبوع المقبل.", textEn: "That sounds excellent! We will get in touch with you next week." },
+      {
+        speaker: "user",
+        prompt: "عبر عن شكرك وتمنياتك بيوم طيب",
+        promptEn: "Express your thanks and wish them a nice day.",
+        options: [
+          { textDe: "Vielen Dank für das Gespräch! Ich wünsche Ihnen einen schönen Tag!", textAr: "شكراً جزيلاً على هذه المقابلة! أتمنى لك يوماً طيباً!", textEn: "Thank you very much for the interview! I wish you a nice day!", points: 15 },
+          { textDe: "Vielen Dank! Schönen Tag noch!", textAr: "شكراً جزيلاً! يوم طيب!", textEn: "Thank you! Have a nice day!", points: 10 }
+        ]
+      }
+    ]
+  },
+
+  // ── CHAPTER 20: Ein unvergesslicher Urlaub ──────────────────
+  {
+    id: 15,
+    ch: 20,
+    title: "Ein unvergesslicher Urlaub",
+    titleAr: "التحدث عن عطلة ماضية وتجربة سفر",
+    emoji: "✈️",
+    difficulty: "Mittel",
+    turns: [
+      { speaker: "partner", textDe: "Hallo! Wohin bist du im letzten Urlaub gereist?", textAr: "مرحباً! إلى أين سافرت في العطلة الماضية؟", textEn: "Hello! Where did you travel to in your last vacation?" },
+      {
+        speaker: "user",
+        prompt: "أخبره أنك سافرت إلى ميونخ مع عائلتك بالسيارة",
+        promptEn: "Tell him you traveled to Munich with your family by car.",
+        options: [
+          { textDe: "Hallo! Im letzten Urlaub bin ich mit meiner Familie nach München gereist. Wir sind mit dem Auto gefahren.", textAr: "مرحباً! في العطلة الماضية سافرت مع عائلتي إلى ميونخ. لقد ذهبنا بالسيارة.", textEn: "Hello! On my last vacation I traveled to Munich with my family. We went by car.", points: 15 },
+          { textDe: "Ich bin mit der Familie nach München gefahren.", textAr: "سافرت مع العائلة إلى ميونخ.", textEn: "I went with my family to Munich.", points: 10 }
+        ]
+      },
+      { speaker: "partner", textDe: "München ist wunderschön! Was habt ihr dort gemacht?", textAr: "ميونخ جميلة جداً! ماذا فعلتم هناك؟", textEn: "Munich is beautiful! What did you do there?" },
+      {
+        speaker: "user",
+        prompt: "قل أنكم زرتم الحديقة الإنجليزية وقمتم بنزهة هناك",
+        promptEn: "Say that you visited the English Garden and had a picnic there.",
+        options: [
+          { textDe: "Wir haben viele Sehenswürdigkeiten besucht und im Englischen Garten ein Picknick gemacht.", textAr: "لقد زرنا الكثير من المعالم السياحية وقمنا بنزهة في الحديقة الإنجليزية.", textEn: "We visited many sights and had a picnic in the English Garden.", points: 15 },
+          { textDe: "Wir haben den Englischen Garten gesehen und dort gegessen.", textAr: "شاهدنا الحديقة الإنجليزية وأكلنا هناك.", textEn: "We saw the English Garden and ate there.", points: 10 }
+        ]
+      },
+      { speaker: "partner", textDe: "Toll! Wie war das deutsche Essen? Hat es geschmeckt?", textAr: "رائع! كيف كان الطعام الألماني؟ هل كان لذيذاً؟", textEn: "Great! How was the German food? Did you like it?" },
+      {
+        speaker: "user",
+        prompt: "أجب بأن الطعام كان لذيذاً جداً وخاصة الشنيتزل",
+        promptEn: "Answer that the food was very delicious, especially the Schnitzel.",
+        options: [
+          { textDe: "Ja, das deutsche Essen war wirklich lecker, besonders das Schnitzel hat uns super geschmeckt!", textAr: "نعم، الطعام الألماني كان لذيذاً حقاً، وخاصة الشنيتزل أعجبنا كثيراً!", textEn: "Yes, the German food was really delicious, especially the Schnitzel tasted great to us!", points: 15 },
+          { textDe: "Das Essen war gut. Das Schnitzel war lecker.", textAr: "الطعام كان جيداً. الشنيتزل كان لذيذاً.", textEn: "The food was good. The Schnitzel was delicious.", points: 10 }
+        ]
+      },
+      { speaker: "partner", textDe: "Das freut mich! Es war sicher eine unvergessliche Reise.", textAr: "يسرني ذلك! من المؤكد أنها كانت رحلة لا تُنسى.", textEn: "I'm glad! It must have been an unforgettable trip." },
+      {
+        speaker: "user",
+        prompt: "وافق على كلامه وقل أنها كانت تجربة رائعة",
+        promptEn: "Agree with him and say it was a great experience.",
+        options: [
+          { textDe: "Ja, absolut! Die Reise war ein unvergessliches Erlebnis für uns alle.", textAr: "نعم، تماماً! كانت الرحلة تجربة لا تُنسى لنا جميعاً.", textEn: "Yes, absolutely! The trip was an unforgettable experience for all of us.", points: 15 },
+          { textDe: "Ja, das war eine tolle Erfahrung.", textAr: "نعم، كانت تجربة رائعة.", textEn: "Yes, that was a great experience.", points: 10 }
+        ]
+      }
+    ]
   }
 ];
 
@@ -847,7 +1003,11 @@ function buildConversationSelection() {
   const lang = typeof currentLang !== 'undefined' ? currentLang : 'ar';
   const ui = CONV_LOCALIZED_UI[lang] || CONV_LOCALIZED_UI['ar'];
 
-  container.innerHTML = CONVERSATION_SCENARIOS.map(sc => {
+  const list = CONVERSATION_SCENARIOS.filter(sc => {
+    return currentLevel === 'A2' ? sc.ch >= 13 : sc.ch <= 12;
+  });
+
+  container.innerHTML = list.map(sc => {
     const bestScore = convScores[sc.id] || 0;
     const localizedTitle = getLocalizedScenarioText(sc.id, -1, 'title');
     const unitText = TRANSLATIONS[lang] && TRANSLATIONS[lang]['unit'] ? TRANSLATIONS[lang]['unit'] : 'وحدة';

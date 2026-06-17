@@ -262,14 +262,52 @@ function formatTime(secs) {
   return m + ':' + String(s).padStart(2, '0');
 }
 
+// ── Get Active Audio Tracks ─────────────────────────────────
+function getActiveAudioTracks() {
+  if (currentLevel === 'A2') {
+    if (typeof CURRICULUM_A2 === 'undefined') return [];
+    const tracks = [];
+    CURRICULUM_A2.forEach(ch => {
+      const audioList = ch.audio || [];
+      audioList.forEach((a, i) => {
+        tracks.push({
+          id: `A2_CH${ch.id}_${i}`,
+          ch: ch.id,
+          file: a.file,
+          label: a.label,
+          labelAr: a.labelAr,
+          labelEn: a.labelEn,
+          labelTr: a.labelTr,
+          labelRo: a.labelRo,
+          labelBs: a.labelBs,
+          labelEs: a.labelEs,
+          labelBg: a.labelBg,
+          labelEl: a.labelEl
+        });
+      });
+    });
+    return tracks;
+  }
+  return AUDIO_TRACKS;
+}
+
+function getChapterData(chId) {
+  const num = Number(chId);
+  if (num >= 13) {
+    return (typeof CURRICULUM_A2 !== 'undefined') ? CURRICULUM_A2.find(c => c.id === num) : null;
+  }
+  return CURRICULUM.find(c => c.id === num);
+}
+
 // ── Build Audio List HTML ───────────────────────────────────
 function buildAudioList(filterCh = 'all') {
   const container = document.getElementById('audioList');
   if (!container) return;
 
+  const activeTracks = getActiveAudioTracks();
   const tracks = filterCh === 'all'
-    ? AUDIO_TRACKS
-    : AUDIO_TRACKS.filter(t => String(t.ch) === String(filterCh));
+    ? activeTracks
+    : activeTracks.filter(t => String(t.ch) === String(filterCh));
 
   if (tracks.length === 0) {
     container.innerHTML = `<div style="text-align:center;color:var(--text-muted);padding:40px">${getTranslation('no_audio_files', 'لا توجد ملفات صوتية لهذه الوحدة')}</div>`;
@@ -277,7 +315,7 @@ function buildAudioList(filterCh = 'all') {
   }
 
   container.innerHTML = tracks.map(t => {
-    const chData = t.ch > 0 ? CURRICULUM[t.ch - 1] : null;
+    const chData = t.ch > 0 ? getChapterData(t.ch) : null;
     const chLabel = chData ? `${getTranslation('chapter_label', 'الوحدة')} ${t.ch}: ${getChapterTitle(chData)}` : getTranslation('audio_general', 'عام');
     return `
     <div class="audio-item" data-track-id="${t.id}" onclick="playTrack('${t.id}', '${t.file.replace(/'/g,"\\'")}', '${t.label.replace(/'/g,"\\'")}', '${chLabel}')">
@@ -301,10 +339,11 @@ function buildAudioChapterFilter() {
     sel.remove(1);
   }
 
-  const usedChapters = [...new Set(AUDIO_TRACKS.map(t => t.ch))].sort((a,b)=>a-b);
+  const activeTracks = getActiveAudioTracks();
+  const usedChapters = [...new Set(activeTracks.map(t => t.ch))].sort((a,b)=>a-b);
   usedChapters.forEach(ch => {
     if (ch === 0) return;
-    const chData = CURRICULUM[ch - 1];
+    const chData = getChapterData(ch);
     const opt = document.createElement('option');
     opt.value = ch;
     opt.textContent = `${getTranslation('chapter_label', 'الوحدة')} ${ch}: ${chData ? getChapterTitle(chData) : ''}`;

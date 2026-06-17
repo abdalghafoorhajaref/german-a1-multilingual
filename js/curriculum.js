@@ -4550,14 +4550,46 @@ const CURRICULUM_A2 = [
     "titleBg": "Здрави и във форма",
     "titleEl": "Υγιής και γυμνασμένος",
     "color": "#10b981",
-    "topics": ["الصحة والرياضة", "زيارة الطبيب", "أعضاء الجسم"],
-    "topicsEn": ["Health and Sport", "Doctor's Visit", "Body Parts"],
-    "topicsTr": ["Sağlık ve Spor", "Doktor Ziyareti", "Vücudun Bölümleri"],
-    "topicsRo": ["Sănătate și sport", "Vizita la medic", "Părțile corpului"],
-    "topicsBs": ["Zdravlje i sport", "Posjeta doktoru", "Dijelovi tijela"],
-    "topicsEs": ["Salud y deporte", "Visita al médico", "Partes del cuerpo"],
-    "topicsBg": ["Здраве и спорт", "Посещение при лекар", "Части на тялото"],
-    "topicsEl": ["Υγεία και αθλητισμός", "Επίσκεψη στον γιατρό", "Μέρη του σώματος"],
+    "topics": [
+      "الصحة والرياضة",
+      "زيارة الطبيب",
+      "أعضاء الجسم"
+    ],
+    "topicsEn": [
+      "Health and Sport",
+      "Doctor's Visit",
+      "Body Parts"
+    ],
+    "topicsTr": [
+      "Sağlık ve Spor",
+      "Doktor Ziyareti",
+      "Vücudun Bölümleri"
+    ],
+    "topicsRo": [
+      "Sănătate și sport",
+      "Vizita la medic",
+      "Părțile corpului"
+    ],
+    "topicsBs": [
+      "Zdravlje i sport",
+      "Posjeta doktoru",
+      "Dijelovi tijela"
+    ],
+    "topicsEs": [
+      "Salud y deporte",
+      "Visita al médico",
+      "Partes del cuerpo"
+    ],
+    "topicsBg": [
+      "Здраве и спорт",
+      "Посещение при лекар",
+      "Части на тялото"
+    ],
+    "topicsEl": [
+      "Υγεία και αθλητισμός",
+      "Επίσκεψη στον γιατρό",
+      "Μέρη του σώματος"
+    ],
     "canDo": "أستطيع التحدث عن الصحة وأعضاء الجسم ووصف الآلام للطبيب.",
     "canDoEn": "I can talk about health, body parts, and describe symptoms to a doctor.",
     "canDoTr": "Sağlık ve vücut bölümleri hakkında konuşabilir, doktora semptomları tarif edebilirim.",
@@ -4565,7 +4597,246 @@ const CURRICULUM_A2 = [
     "canDoBs": "Mogu razgovarati o zdravlju, dijelovima tijela i opisati simptome doktoru.",
     "canDoEs": "Puedo hablar sobre salud, partes del cuerpo y describir síntomas a un médico.",
     "canDoBg": "Мога да говоря за здравето, частите на тялото и да опиша симптомите на лекар.",
-    "canDoEl": "Μπορώ να μιλήσω για την υγεία, τα μέρη του σώματος και να περιγράψω συμπτώματα σε γιατρό."
+    "canDoEl": "Μπορώ να μιλήσω για την υγεία, τα μέρη του σώματος και να περιγράψω συμπτώματα σε γιατρό.",
+    "audio": [
+      {
+        "file": "Berliner Platz 2 neu/Berliner Platz 2 neu Audio/Berliner Platz 2 neu - A2 Lernbuch 13-18/- Track01.mp3",
+        "label": "13.1 - Fit sein",
+        "labelAr": "كن لائقاً وصحياً",
+        "labelEn": "13.1 - Being fit",
+        "labelTr": "13.1 - Zinde olmak",
+        "labelRo": "13.1 - A fi în formă",
+        "labelBs": "13.1 - Biti fit",
+        "labelEs": "13.1 - Estar en forma",
+        "labelBg": "13.1 - Да бъдеш във форма",
+        "labelEl": "13.1 - Να είσαι σε φόρμα"
+      },
+      {
+        "file": "Berliner Platz 2 neu/Berliner Platz 2 neu Audio/Berliner Platz 2 neu - A2 Lernbuch 13-18/- Track02.mp3",
+        "label": "13.2 - Beim Arzt",
+        "labelAr": "عند الطبيب",
+        "labelEn": "13.2 - At the doctor",
+        "labelTr": "13.2 - Doktorda",
+        "labelRo": "13.2 - La medic",
+        "labelBs": "13.2 - Kod doktora",
+        "labelEs": "13.2 - En el médico",
+        "labelBg": "13.2 - При лекаря",
+        "labelEl": "13.2 - Στον γιατρό"
+      }
+    ],
+    "dialogs": [
+      {
+        "speaker": "Arzt",
+        "text": "Was fehlt Ihnen denn?",
+        "translations": {
+          "ar": "ما الذي يؤلمك؟",
+          "en": "What is wrong with you?",
+          "tr": "Neyiniz var?",
+          "ro": "Ce vă doare?",
+          "bs": "Šta vas boli?",
+          "es": "¿Qué le pasa?",
+          "bg": "Какво ви боли?",
+          "el": "Τι έχετε;"
+        }
+      },
+      {
+        "speaker": "Patient",
+        "text": "Ich habe starke Kopfschmerzen und Fieber.",
+        "translations": {
+          "ar": "عندي صداع شديد وحمى.",
+          "en": "I have a severe headache and a fever.",
+          "tr": "Şiddetli baş ağrım ve ateşim var.",
+          "ro": "Am o durere de cap puternică și febră.",
+          "bs": "Imam jaku glavobolju i temperaturu.",
+          "es": "Tengo un fuerte dolor de cabeza y fiebre.",
+          "bg": "Имам силно главоболие и температура.",
+          "el": "Έχω έντονο πονοκέφαλο και πυρετό."
+        }
+      }
+    ],
+    "readings": [
+      {
+        "titleDe": "Gesund leben",
+        "titleAr": "العيش بصحة",
+        "titleEn": "Healthy living",
+        "titleTr": "Sağlıklı yaşamak",
+        "titleRo": "Viață sănătoasă",
+        "titleBs": "Zdrav život",
+        "titleEs": "Vida sana",
+        "titleBg": "Здравословен живот",
+        "titleEl": "Υγιεινή ζωή",
+        "textDe": "Regelmäßige Bewegung und gesundes Essen sind sehr wichtig für die Gesundheit. Man sollte täglich Wasser trinken und Sport treiben.",
+        "translations": {
+          "ar": "الحركة المنتظمة والأكل الصحي مهمان جداً للصحة. يجب على الشخص شرب الماء يومياً وممارسة الرياضة.",
+          "en": "Regular exercise and healthy food are very important for health. One should drink water daily and do sports.",
+          "tr": "Düzenli egzersiz ve sağlıklı beslenme sağlık için çok önemlidir. İnsan her gün su içmeli ve spor yapmalıdır.",
+          "ro": "Exercițiile fizice regulate și mâncarea sănătoasă sunt foarte importante pentru sănătate. Ar trebui să bei apă zilnic și să faci sport.",
+          "bs": "Redovno vježbanje i zdrava hrana su veoma važni za zdravlje. Treba svakodnevno piti vodu i baviti se sportom.",
+          "es": "El ejercicio regular y la comida sana son muy importantes para la salud. Se debe beber agua diariamente y hacer deporte.",
+          "bg": "Редовното движение и здравословната храна са много важни за здравето. Човек трябва да пие вода всеки ден и да спортува.",
+          "el": "Η τακτική άσκηση και το υγιεινό φαγητό είναι πολύ σημαντικά για την υγεία. Πρέπει να πίνει κανείς νερό καθημερινά και να αθλείται."
+        },
+        "questions": [
+          {
+            "qDe": "Was ist wichtig für die Gesundheit?",
+            "qAr": "ما هو المهم للصحة؟",
+            "qEn": "What is important for health?",
+            "qTr": "Sağlık için ne önemlidir?",
+            "qRo": "Ce este important pentru sănătate?",
+            "qBs": "Šta je važno za zdravlje?",
+            "qEs": "¿Qué es importante para la salud?",
+            "qBg": "Какво е важно за здравето?",
+            "qEl": "Τι είναι σημαντικό για την υγεία;",
+            "answerDe": "Regelmäßige Bewegung und gesundes Essen.",
+            "answerAr": "الحركة المنتظمة والأكل الصحي.",
+            "answerEn": "Regular exercise and healthy food.",
+            "answerTr": "Düzenli egzersiz ve sağlıklı beslenme.",
+            "answerRo": "Exercițiile fizice regulate și mâncarea sănătoasă.",
+            "answerBs": "Redovno vježbanje i zdrava hrana.",
+            "answerEs": "El ejercicio regular y la comida sana.",
+            "answerBg": "Редовното движение и здравословната храна.",
+            "answerEl": "Η τακτική άσκηση και το υγιεινό φαγητό."
+          }
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "titleDe": "Modalverben im Präteritum",
+        "titleAr": "الأفعال المساعدة في الماضي البسيط",
+        "titleEn": "Modal Verbs in Simple Past",
+        "titleTr": "Präteritum'da Modal Fiiller",
+        "titleRo": "Verbe modale la Präteritum",
+        "titleBs": "Modalni glagoli u prošlom vremenu",
+        "titleEs": "Verbos modales en pretérito",
+        "titleBg": "Модални глаголи в минало време",
+        "titleEl": "Βοηθητικά ρήματα στον Παρατατικό",
+        "explanationAr": "تستخدم الأفعال المساعدة في الماضي البسيط (Präteritum) للتعبير عن القدرة أو الإلزام في الماضي.",
+        "explanationEn": "Modal verbs in the Simple Past (Präteritum) are used to express ability or obligation in the past.",
+        "explanationTr": "Geçmişteki yetenek veya zorunluluğu ifade etmek için Präteritum'da modal fiiller kullanılır.",
+        "explanationRo": "Verbele modale la trecutul simplu (Präteritum) sunt folosite pentru a exprima abilitatea sau obligația în trecut.",
+        "explanationBs": "Modalni glagoli u prošlom vremenu (Präteritum) koriste se za izražavanje sposobnosti ili obaveze u prošlosti.",
+        "explanationEs": "Los verbos modales en pretérito (Präteritum) se usan para expresar capacidad u obligación en el pasado.",
+        "explanationBg": "Модалните глаголи в минало свършено време се използват за изразяване на способност или задължение в миналото.",
+        "explanationEl": "Τα βοηθητικά ρήματα στον Παρατατικό χρησιμοποιούνται για να εκφράσουν ικανότητα ή υποχρέωση στο παρελθόν.",
+        "rules": [
+          {
+            "example": "Ich musste gestern zum Arzt gehen.",
+            "translationAr": "كان يجب علي الذهاب إلى الطبيب أمس.",
+            "translationEn": "I had to go to the doctor yesterday.",
+            "translationTr": "Dün doktora gitmek zorundaydım.",
+            "translationRo": "Ieri a trebuit să merg la medic.",
+            "translationBs": "Morao sam juče ići doktoru.",
+            "translationEs": "Tuve que ir al médico ayer.",
+            "translationBg": "Вчера трябваше да отида на лекар.",
+            "translationEl": "Έπρεπε να πάω στον γιατρό χθες.",
+            "noteAr": "musste هي صيغة الماضي من müssen",
+            "noteEn": "musste is the past form of müssen",
+            "noteTr": "musste, müssen fiilinin geçmiş zaman halidir",
+            "noteRo": "musste este forma de trecut a lui müssen",
+            "noteBs": "musste je prošli oblik od müssen",
+            "noteEs": "musste es la forma pasada de müssen",
+            "noteBg": "musste е миналата форма на müssen",
+            "noteEl": "το musste είναι ο τύπος παρατατικού του müssen"
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "id": 1301,
+        "type": "mcq",
+        "questionDe": "Gestern ___ ich krank und konnte nicht arbeiten.",
+        "questionAr": "أمس ___ مريضاً ولم أستطع العمل.",
+        "questionEn": "Yesterday I ___ sick and couldn't work.",
+        "questionTr": "Dün hastaydım ve çalışamadım.",
+        "questionRo": "Ieri ___ bolnav și nu am putut lucra.",
+        "questionBs": "Juče ___ bolestan i nisam mogao raditi.",
+        "questionEs": "Ayer ___ enfermo y no pude trabajar.",
+        "questionBg": "Вчера ___ болен и не можех да работя.",
+        "questionEl": "Χθες ___ άρρωστος και δεν μπορούσα να δουλέψω.",
+        "options": [
+          {
+            "de": "war",
+            "ar": "كنت (war)",
+            "en": "was",
+            "tr": "idim",
+            "ro": "am fost",
+            "bs": "bio sam",
+            "es": "estaba",
+            "bg": "бях",
+            "el": "ήμουν"
+          },
+          {
+            "de": "habe",
+            "ar": "عندي",
+            "en": "have",
+            "tr": "sahip olmak",
+            "ro": "am",
+            "bs": "imam",
+            "es": "tengo",
+            "bg": "имам",
+            "el": "έχω"
+          },
+          {
+            "de": "bin",
+            "ar": "أكون",
+            "en": "am",
+            "tr": "olmak",
+            "ro": "sunt",
+            "bs": "sam",
+            "es": "soy",
+            "bg": "съм",
+            "el": "είμαι"
+          }
+        ],
+        "answer": "war",
+        "hintDe": "Präteritum von 'sein' für 'ich'",
+        "hintAr": "ماضي فعل sein للمتكلم ich",
+        "hintEn": "Simple past of 'sein' for 'ich'",
+        "hintTr": "'ich' için 'sein' fiilinin geçmiş zamanı",
+        "hintRo": "Trecutul simplu al lui 'sein' pentru 'ich'",
+        "hintBs": "Prošlo vrijeme od 'sein' za 'ich'",
+        "hintEs": "Pretérito de 'sein' para 'ich'",
+        "hintBg": "Минало време на 'sein' за 'ich'",
+        "hintEl": "Παρατατικός του 'sein' για το 'ich'"
+      }
+    ],
+    "writing": {
+      "titleDe": "Einen Entschuldigungsbrief schreiben",
+      "titleAr": "كتابة رسالة اعتذار بسبب المرض",
+      "titleEn": "Writing an excuse letter for sickness",
+      "titleTr": "Hastalık nedeniyle mazeret mektubu yazma",
+      "titleRo": "Scrierea unei scrisori de scuză pentru boală",
+      "titleBs": "Pisanje ispričnice zbog bolesti",
+      "titleEs": "Escribir una carta de disculpa por enfermedad",
+      "titleBg": "Писане на извинително писмо поради болест",
+      "titleEl": "Συγγραφή επιστολής δικαιολογίας για ασθένεια",
+      "promptAr": "اكتب رسالة إلى مديرك في العمل تعتذر فيها عن الحضور اليوم بسبب المرض وتذكر أنك ستذهب للطبيب.",
+      "promptEn": "Write a letter to your employer excusing yourself from work today because you are sick and going to the doctor.",
+      "promptTr": "İşvereninize bugün hasta olduğunuzu ve doktora gideceğinizi belirten bir mazeret mektubu yazın.",
+      "promptRo": "Scrieți o scrisoare angajatorului dumneavoastră prin care vă scuzați de la muncă astăzi pentru că sunteți bolnav și mergeți la medic.",
+      "promptBs": "Napišite pismo poslodavcu u kojem se ispričavate s posla danas jer ste bolesni i idete doktoru.",
+      "promptEs": "Escriba una carta a su empleador disculpándose por no asistir hoy al trabajo porque está enfermo y va al médico.",
+      "promptBg": "Напишете писмо до работодателя си, с което се извинявате, че днес не сте на работа, защото сте болен и отивате на лекар.",
+      "promptEl": "Γράψτε μια επιστολή στον εργοδότη σας δικαιολογώντας την απουσία σας από τη δουλειά σήμερα επειδή είστε άρρωστος και πάτε στον γιατρό."
+    },
+    "speaking": {
+      "promptAr": "قل للطبيب: أشعر بألم في حلقي وعندي حمى.",
+      "promptEn": "Say to the doctor: I have a sore throat and a fever.",
+      "promptTr": "Doktora söyleyin: Boğazım ağrıyor ve ateşim var.",
+      "promptRo": "Spuneți medicului: Mă doare gâtul și am febră.",
+      "promptBs": "Recite doktoru: Boli me grlo i imam temperaturu.",
+      "promptEs": "Dígale al médico: Me duele la garganta y tengo fiebre.",
+      "promptBg": "Кажете на лекаря: Боли ме гърлото и имам температура.",
+      "promptEl": "Πείτε στον γιατρό: Έχω πονόλαιμο και πυρετό.",
+      "phrases": [
+        {
+          "de": "Ich habe Halsschmerzen und Fieber.",
+          "ar": "عندي ألم في الحلق وحمى."
+        }
+      ]
+    }
   },
   {
     "id": 14,
@@ -4580,14 +4851,46 @@ const CURRICULUM_A2 = [
     "titleBg": "Училище и обучение",
     "titleEl": "Σχολείο και εκπαίδευση",
     "color": "#3b82f6",
-    "topics": ["التعليم المدرسي", "التدريب المهني", "الخطط المستقبلية"],
-    "topicsEn": ["School Education", "Vocational Training", "Future Plans"],
-    "topicsTr": ["Okul Eğitimi", "Mesleki Eğitim", "Gelecek Planları"],
-    "topicsRo": ["Educație școlară", "Formare profesională", "Planuri de viitor"],
-    "topicsBs": ["Školsko obrazovanje", "Stručno osposobljavanje", "Planovi za budućnost"],
-    "topicsEs": ["Educación escolar", "Formación profesional", "Planes de futuro"],
-    "topicsBg": ["Училищно образование", "Професионално обучение", "Планове за бъдещето"],
-    "topicsEl": ["Σχολική εκπαίδευση", "Επαγγελματική κατάρτιση", "Μελλοντικά σχέδια"],
+    "topics": [
+      "التعليم المدرسي",
+      "التدريب المهني",
+      "الخطط المستقبلية"
+    ],
+    "topicsEn": [
+      "School Education",
+      "Vocational Training",
+      "Future Plans"
+    ],
+    "topicsTr": [
+      "Okul Eğitimi",
+      "Mesleki Eğitim",
+      "Gelecek Planları"
+    ],
+    "topicsRo": [
+      "Educație școlară",
+      "Formare profesională",
+      "Planuri de viitor"
+    ],
+    "topicsBs": [
+      "Školsko obrazovanje",
+      "Stručno osposobljavanje",
+      "Planovi za budućnost"
+    ],
+    "topicsEs": [
+      "Educación escolar",
+      "Formación profesional",
+      "Planes de futuro"
+    ],
+    "topicsBg": [
+      "Училищно образование",
+      "Професионално обучение",
+      "Планове за бъдещето"
+    ],
+    "topicsEl": [
+      "Σχολική εκπαίδευση",
+      "Επαγγελματική κατάρτιση",
+      "Μελλοντικά σχέδια"
+    ],
     "canDo": "أستطيع وصف مسيرتي الدراسية وخططي للتعليم والتدريب المهني.",
     "canDoEn": "I can describe my school career and my plans for education or training.",
     "canDoTr": "Okul geçmişimi ve eğitim veya öğretim planlarımı tanımlayabilirim.",
@@ -4595,7 +4898,212 @@ const CURRICULUM_A2 = [
     "canDoBs": "Mogu opisati svoje školovanje i planove za obrazovanje ili obuku.",
     "canDoEs": "Puedo describir mi trayectoria escolar y mis planes de educación o formación.",
     "canDoBg": "Мога да опиша училищния си път и плановете си за образование или обучение.",
-    "canDoEl": "Μπορώ να περιγράψω τη σχολική μου πορεία και τα σχέδιά μου για εκπαίδευση ή κατάρτιση."
+    "canDoEl": "Μπορώ να περιγράψω τη σχολική μου πορεία και τα σχέδιά μου για εκπαίδευση ή κατάρτιση.",
+    "audio": [
+      {
+        "file": "Berliner Platz 2 neu/Berliner Platz 2 neu Audio/Berliner Platz 2 neu - A2 Lernbuch 13-18/- Track08.mp3",
+        "label": "14.1 - Mein Schulweg",
+        "labelAr": "طريقي إلى المدرسة",
+        "labelEn": "14.1 - My way to school",
+        "labelTr": "14.1 - My way to school",
+        "labelRo": "14.1 - My way to school",
+        "labelBs": "14.1 - My way to school",
+        "labelEs": "14.1 - My way to school",
+        "labelBg": "14.1 - My way to school",
+        "labelEl": "14.1 - My way to school"
+      }
+    ],
+    "dialogs": [
+      {
+        "speaker": "Person A",
+        "text": "Ich habe eine Ausbildung als Elektroniker abgeschlossen. Es war schwer, aber sehr nützlich.",
+        "translations": {
+          "ar": "أكملت تدريباً مهنياً كفني إلكترونيات. كان الأمر صعباً، لكنه مفيد جداً.",
+          "en": "I completed vocational training as an electronics technician. It was hard, but very useful.",
+          "tr": "I completed vocational training as an electronics technician. It was hard, but very useful.",
+          "ro": "I completed vocational training as an electronics technician. It was hard, but very useful.",
+          "bs": "I completed vocational training as an electronics technician. It was hard, but very useful.",
+          "es": "I completed vocational training as an electronics technician. It was hard, but very useful.",
+          "bg": "I completed vocational training as an electronics technician. It was hard, but very useful.",
+          "el": "I completed vocational training as an electronics technician. It was hard, but very useful."
+        }
+      }
+    ],
+    "readings": [
+      {
+        "titleDe": "Schule und Ausbildung",
+        "titleAr": "المدرسة والتعليم المهني",
+        "titleEn": "School and training",
+        "titleTr": "Okul ve eğitim",
+        "titleRo": "Școală și formare profesională",
+        "titleBs": "Škola i obrazovanje",
+        "titleEs": "Escuela y formación",
+        "titleBg": "Училище и обучение",
+        "titleEl": "Σχολείο και εκπαίδευση",
+        "textDe": "Ich habe eine Ausbildung als Elektroniker abgeschlossen. Es war schwer, aber sehr nützlich.",
+        "translations": {
+          "ar": "أكملت تدريباً مهنياً كفني إلكترونيات. كان الأمر صعباً، لكنه مفيد جداً.",
+          "en": "I completed vocational training as an electronics technician. It was hard, but very useful.",
+          "tr": "I completed vocational training as an electronics technician. It was hard, but very useful.",
+          "ro": "I completed vocational training as an electronics technician. It was hard, but very useful.",
+          "bs": "I completed vocational training as an electronics technician. It was hard, but very useful.",
+          "es": "I completed vocational training as an electronics technician. It was hard, but very useful.",
+          "bg": "I completed vocational training as an electronics technician. It was hard, but very useful.",
+          "el": "I completed vocational training as an electronics technician. It was hard, but very useful."
+        },
+        "questions": [
+          {
+            "qDe": "Was ist das Thema?",
+            "qAr": "ما هو الموضوع؟",
+            "qEn": "What is the topic?",
+            "qTr": "Konu nedir?",
+            "qRo": "Care este subiectul?",
+            "qBs": "Koja je tema?",
+            "qEs": "¿Cuál es el tema?",
+            "qBg": "Каква е темата?",
+            "qEl": "Ποιο είναι το θέμα;",
+            "answerDe": "Schule und Ausbildung",
+            "answerAr": "المدرسة والتعليم المهني",
+            "answerEn": "School and training",
+            "answerTr": "Okul ve eğitim",
+            "answerRo": "Școală și formare profesională",
+            "answerBs": "Škola i obrazovanje",
+            "answerEs": "Escuela y formación",
+            "answerBg": "Училище и обучение",
+            "answerEl": "Σχολείο και εκπαίδευση"
+          }
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "titleDe": "Weil-Sätze (Nebensätze)",
+        "titleAr": "جمل التعليل باستخدام Weil",
+        "titleEn": "Weil-Sätze (Nebensätze)",
+        "titleTr": "Weil-Sätze (Nebensätze)",
+        "titleRo": "Weil-Sätze (Nebensätze)",
+        "titleBs": "Weil-Sätze (Nebensätze)",
+        "titleEs": "Weil-Sätze (Nebensätze)",
+        "titleBg": "Weil-Sätze (Nebensätze)",
+        "titleEl": "Weil-Sätze (Nebensätze)",
+        "explanationAr": "تأتي أداة الربط weil بمعنى 'لأن' وتدفع الفعل المصرف إلى نهاية الجملة الفرعية.",
+        "explanationEn": "The conjunction weil means 'because' and pushes the conjugated verb to the end of the subordinate clause.",
+        "explanationTr": "The conjunction weil means 'because' and pushes the conjugated verb to the end of the subordinate clause.",
+        "explanationRo": "The conjunction weil means 'because' and pushes the conjugated verb to the end of the subordinate clause.",
+        "explanationBs": "The conjunction weil means 'because' and pushes the conjugated verb to the end of the subordinate clause.",
+        "explanationEs": "The conjunction weil means 'because' and pushes the conjugated verb to the end of the subordinate clause.",
+        "explanationBg": "The conjunction weil means 'because' and pushes the conjugated verb to the end of the subordinate clause.",
+        "explanationEl": "The conjunction weil means 'because' and pushes the conjugated verb to the end of the subordinate clause.",
+        "rules": [
+          {
+            "example": "Ich lerne Deutsch, weil ich in Deutschland studieren möchte.",
+            "translationAr": "تأتي أداة الربط weil بمعنى 'لأن' وتدفع الفعل المصرف إلى نهاية الجملة الفرعية.",
+            "translationEn": "The conjunction weil means 'because' and pushes the conjugated verb to the end of the subordinate clause.",
+            "translationTr": "The conjunction weil means 'because' and pushes the conjugated verb to the end of the subordinate clause.",
+            "translationRo": "The conjunction weil means 'because' and pushes the conjugated verb to the end of the subordinate clause.",
+            "translationBs": "The conjunction weil means 'because' and pushes the conjugated verb to the end of the subordinate clause.",
+            "translationEs": "The conjunction weil means 'because' and pushes the conjugated verb to the end of the subordinate clause.",
+            "translationBg": "The conjunction weil means 'because' and pushes the conjugated verb to the end of the subordinate clause.",
+            "translationEl": "The conjunction weil means 'because' and pushes the conjugated verb to the end of the subordinate clause."
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "id": 1401,
+        "type": "mcq",
+        "questionDe": "Warum lernst du Deutsch? - Weil ich in Berlin ___.",
+        "questionAr": "Warum lernst du Deutsch? - Weil ich in Berlin ___.",
+        "questionEn": "Warum lernst du Deutsch? - Weil ich in Berlin ___.",
+        "questionTr": "Warum lernst du Deutsch? - Weil ich in Berlin ___.",
+        "questionRo": "Warum lernst du Deutsch? - Weil ich in Berlin ___.",
+        "questionBs": "Warum lernst du Deutsch? - Weil ich in Berlin ___.",
+        "questionEs": "Warum lernst du Deutsch? - Weil ich in Berlin ___.",
+        "questionBg": "Warum lernst du Deutsch? - Weil ich in Berlin ___.",
+        "questionEl": "Warum lernst du Deutsch? - Weil ich in Berlin ___.",
+        "options": [
+          {
+            "de": "wohne",
+            "ar": "wohne",
+            "en": "wohne",
+            "tr": "wohne",
+            "ro": "wohne",
+            "bs": "wohne",
+            "es": "wohne",
+            "bg": "wohne",
+            "el": "wohne"
+          },
+          {
+            "de": "wohnen",
+            "ar": "wohnen",
+            "en": "wohnen",
+            "tr": "wohnen",
+            "ro": "wohnen",
+            "bs": "wohnen",
+            "es": "wohnen",
+            "bg": "wohnen",
+            "el": "wohnen"
+          },
+          {
+            "de": "gewohnt",
+            "ar": "gewohnt",
+            "en": "gewohnt",
+            "tr": "gewohnt",
+            "ro": "gewohnt",
+            "bs": "gewohnt",
+            "es": "gewohnt",
+            "bg": "gewohnt",
+            "el": "gewohnt"
+          }
+        ],
+        "answer": "wohne",
+        "hintDe": "A2 Grammatikregel",
+        "hintAr": "قاعدة A2 النحوية",
+        "hintEn": "A2 grammar rule",
+        "hintTr": "A2 dilbilgisi kuralı",
+        "hintRo": "regulă de gramatică A2",
+        "hintBs": "A2 gramatičko pravilo",
+        "hintEs": "regla gramatical A2",
+        "hintBg": "граматично правило A2",
+        "hintEl": "Γραμματικός κανόνας A2"
+      }
+    ],
+    "writing": {
+      "titleDe": "Schule und Ausbildung",
+      "titleAr": "المدرسة والتعليم المهني",
+      "titleEn": "School and training",
+      "titleTr": "Okul ve eğitim",
+      "titleRo": "Școală și formare profesională",
+      "titleBs": "Škola i obrazovanje",
+      "titleEs": "Escuela y formación",
+      "titleBg": "Училище и обучение",
+      "titleEl": "Σχολείο και εκπαίδευση",
+      "promptAr": "اكتب موضوعاً عن المدرسة والتعليم المهني باللغة الألمانية.",
+      "promptEn": "Write a topic about School and training in German.",
+      "promptTr": "Almanca olarak Okul ve eğitim hakkında bir konu yazın.",
+      "promptRo": "Scrieți un subiect despre Școală și formare profesională în germană.",
+      "promptBs": "Napišite temu o Škola i obrazovanje na njemačkom.",
+      "promptEs": "Escriba un tema sobre Escuela y formación en alemán.",
+      "promptBg": "Напишете тема за Училище и обучение на немски.",
+      "promptEl": "Γράψτε ένα θέμα για το Σχολείο και εκπαίδευση στα γερμανικά."
+    },
+    "speaking": {
+      "promptAr": "أستطيع وصف مسيرتي الدراسية وخططي للتعليم والتدريب المهني.",
+      "promptEn": "I can describe my school career and my plans for education or training.",
+      "promptTr": "Okul geçmişimi ve eğitim veya öğretim planlarımı tanımlayabilirim.",
+      "promptRo": "Îmi pot descrie parcursul școlar și planurile de educație sau formare.",
+      "promptBs": "Mogu opisati svoje školovanje i planove za obrazovanje ili obuku.",
+      "promptEs": "Puedo describir mi trayectoria escolar y mis planes de educación o formación.",
+      "promptBg": "Мога да опиша училищния си път и плановете си за образование или обучение.",
+      "promptEl": "Μπορώ να περιγράψω τη σχολική μου πορεία και τα σχέδιά μου για εκπαίδευση ή κατάρτιση.",
+      "phrases": [
+        {
+          "de": "Ich lerne Deutsch, weil ich in Deutschland studieren möchte.",
+          "ar": "أكملت تدريباً مهنياً كفني إلكترونيات. كان الأمر صعباً، لكنه مفيد جداً."
+        }
+      ]
+    }
   },
   {
     "id": 15,
@@ -4610,14 +5118,46 @@ const CURRICULUM_A2 = [
     "titleBg": "Житейски пътища",
     "titleEl": "Πορείες ζωής",
     "color": "#8b5cf6",
-    "topics": ["السيرة الذاتية", "الأحداث الهامة", "تجارب الماضي"],
-    "topicsEn": ["Biography", "Life Events", "Past Experiences"],
-    "topicsTr": ["Biyografi", "Hayat Olayları", "Geçmiş Deneyimler"],
-    "topicsRo": ["Biografie", "Evenimente din viață", "Experiențe din trecut"],
-    "topicsBs": ["Biografija", "Životni događaji", "Prošla iskustva"],
-    "topicsEs": ["Biografía", "Acontecimientos de la vida", "Experiencias pasadas"],
-    "topicsBg": ["Биография", "Житейски събития", "Минал опит"],
-    "topicsEl": ["Βιογραφία", "Γεγονότα ζωής", "Παρελθούσες εμπειρίες"],
+    "topics": [
+      "السيرة الذاتية",
+      "الأحداث الهامة",
+      "تجارب الماضي"
+    ],
+    "topicsEn": [
+      "Biography",
+      "Life Events",
+      "Past Experiences"
+    ],
+    "topicsTr": [
+      "Biyografi",
+      "Hayat Olayları",
+      "Geçmiş Deneyimler"
+    ],
+    "topicsRo": [
+      "Biografie",
+      "Evenimente din viață",
+      "Experiențe din trecut"
+    ],
+    "topicsBs": [
+      "Biografija",
+      "Životni događaji",
+      "Prošla iskustva"
+    ],
+    "topicsEs": [
+      "Biografía",
+      "Acontecimientos de la vida",
+      "Experiencias pasadas"
+    ],
+    "topicsBg": [
+      "Биография",
+      "Житейски събития",
+      "Минал опит"
+    ],
+    "topicsEl": [
+      "Βιογραφία",
+      "Γεγονότα ζωής",
+      "Παρελθούσες εμπειρίες"
+    ],
     "canDo": "أستطيع الحديث عن أحداث حياتي وسيرتي الذاتية وتجاربي الماضية.",
     "canDoEn": "I can talk about my life events, biography, and past experiences.",
     "canDoTr": "Hayat olaylarım, biyografim ve geçmiş deneyimlerim hakkında konuşabilirim.",
@@ -4625,7 +5165,212 @@ const CURRICULUM_A2 = [
     "canDoBs": "Mogu razgovarati o svojim životnim događajima, biografiji i prošlim iskustvima.",
     "canDoEs": "Puedo hablar sobre los acontecimientos de mi vida, mi biografía y mis experiencias pasadas.",
     "canDoBg": "Мога да говоря за моите житейски събития, биография и минал опит.",
-    "canDoEl": "Μπορώ να μιλήσω για τα γεγονότα της ζωής μου, τη βιογραφία μου και τις εμπειρίες μου από το παρελθόν."
+    "canDoEl": "Μπορώ να μιλήσω για τα γεγονότα της ζωής μου, τη βιογραφία μου και τις εμπειρίες μου από το παρελθόν.",
+    "audio": [
+      {
+        "file": "Berliner Platz 2 neu/Berliner Platz 2 neu Audio/Berliner Platz 2 neu - A2 Lernbuch 13-18/- Track15.mp3",
+        "label": "15.1 - Wichtige Lebensereignisse",
+        "labelAr": "أحداث الحياة الهامة",
+        "labelEn": "15.1 - Important life events",
+        "labelTr": "15.1 - Important life events",
+        "labelRo": "15.1 - Important life events",
+        "labelBs": "15.1 - Important life events",
+        "labelEs": "15.1 - Important life events",
+        "labelBg": "15.1 - Important life events",
+        "labelEl": "15.1 - Important life events"
+      }
+    ],
+    "dialogs": [
+      {
+        "speaker": "Person A",
+        "text": "Früher lebte ich in einer Kleinstadt, aber jetzt lebe ich in einer Großstadt.",
+        "translations": {
+          "ar": "في السابق عشت في بلدة صغيرة، ولكن الآن أعيش في مدينة كبيرة.",
+          "en": "Earlier I lived in a small town, but now I live in a big city.",
+          "tr": "Earlier I lived in a small town, but now I live in a big city.",
+          "ro": "Earlier I lived in a small town, but now I live in a big city.",
+          "bs": "Earlier I lived in a small town, but now I live in a big city.",
+          "es": "Earlier I lived in a small town, but now I live in a big city.",
+          "bg": "Earlier I lived in a small town, but now I live in a big city.",
+          "el": "Earlier I lived in a small town, but now I live in a big city."
+        }
+      }
+    ],
+    "readings": [
+      {
+        "titleDe": "Lebenswege",
+        "titleAr": "مسارات الحياة",
+        "titleEn": "Life paths",
+        "titleTr": "Hayat yolları",
+        "titleRo": "Căile vieții",
+        "titleBs": "Životni putevi",
+        "titleEs": "Caminos de la vida",
+        "titleBg": "Житейски пътища",
+        "titleEl": "Πορείες ζωής",
+        "textDe": "Früher lebte ich in einer Kleinstadt, aber jetzt lebe ich in einer Großstadt.",
+        "translations": {
+          "ar": "في السابق عشت في بلدة صغيرة، ولكن الآن أعيش في مدينة كبيرة.",
+          "en": "Earlier I lived in a small town, but now I live in a big city.",
+          "tr": "Earlier I lived in a small town, but now I live in a big city.",
+          "ro": "Earlier I lived in a small town, but now I live in a big city.",
+          "bs": "Earlier I lived in a small town, but now I live in a big city.",
+          "es": "Earlier I lived in a small town, but now I live in a big city.",
+          "bg": "Earlier I lived in a small town, but now I live in a big city.",
+          "el": "Earlier I lived in a small town, but now I live in a big city."
+        },
+        "questions": [
+          {
+            "qDe": "Was ist das Thema?",
+            "qAr": "ما هو الموضوع؟",
+            "qEn": "What is the topic?",
+            "qTr": "Konu nedir?",
+            "qRo": "Care este subiectul?",
+            "qBs": "Koja je tema?",
+            "qEs": "¿Cuál es el tema?",
+            "qBg": "Каква е темата?",
+            "qEl": "Ποιο είναι το θέμα;",
+            "answerDe": "Lebenswege",
+            "answerAr": "مسارات الحياة",
+            "answerEn": "Life paths",
+            "answerTr": "Hayat yolları",
+            "answerRo": "Căile vieții",
+            "answerBs": "Životni putevi",
+            "answerEs": "Caminos de la vida",
+            "answerBg": "Житейски пътища",
+            "answerEl": "Πορείες ζωής"
+          }
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "titleDe": "Als-Sätze (Temporalsätze)",
+        "titleAr": "جمل الزمن باستخدام als",
+        "titleEn": "Als-Sätze (Temporalsätze)",
+        "titleTr": "Als-Sätze (Temporalsätze)",
+        "titleRo": "Als-Sätze (Temporalsätze)",
+        "titleBs": "Als-Sätze (Temporalsätze)",
+        "titleEs": "Als-Sätze (Temporalsätze)",
+        "titleBg": "Als-Sätze (Temporalsätze)",
+        "titleEl": "Als-Sätze (Temporalsätze)",
+        "explanationAr": "تستخدم als للحديث عن حدث وقع مرة واحدة في الماضي وتدفع الفعل للنهاية.",
+        "explanationEn": "als is used to describe a single, completed event in the past and pushes the verb to the end.",
+        "explanationTr": "als is used to describe a single, completed event in the past and pushes the verb to the end.",
+        "explanationRo": "als is used to describe a single, completed event in the past and pushes the verb to the end.",
+        "explanationBs": "als is used to describe a single, completed event in the past and pushes the verb to the end.",
+        "explanationEs": "als is used to describe a single, completed event in the past and pushes the verb to the end.",
+        "explanationBg": "als is used to describe a single, completed event in the past and pushes the verb to the end.",
+        "explanationEl": "als is used to describe a single, completed event in the past and pushes the verb to the end.",
+        "rules": [
+          {
+            "example": "Als ich ein Kind war, spielten wir oft draußen.",
+            "translationAr": "تستخدم als للحديث عن حدث وقع مرة واحدة في الماضي وتدفع الفعل للنهاية.",
+            "translationEn": "als is used to describe a single, completed event in the past and pushes the verb to the end.",
+            "translationTr": "als is used to describe a single, completed event in the past and pushes the verb to the end.",
+            "translationRo": "als is used to describe a single, completed event in the past and pushes the verb to the end.",
+            "translationBs": "als is used to describe a single, completed event in the past and pushes the verb to the end.",
+            "translationEs": "als is used to describe a single, completed event in the past and pushes the verb to the end.",
+            "translationBg": "als is used to describe a single, completed event in the past and pushes the verb to the end.",
+            "translationEl": "als is used to describe a single, completed event in the past and pushes the verb to the end."
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "id": 1501,
+        "type": "mcq",
+        "questionDe": "___ ich 18 Jahre alt war, bin ich nach Deutschland gekommen.",
+        "questionAr": "___ ich 18 Jahre alt war, bin ich nach Deutschland gekommen.",
+        "questionEn": "___ ich 18 Jahre alt war, bin ich nach Deutschland gekommen.",
+        "questionTr": "___ ich 18 Jahre alt war, bin ich nach Deutschland gekommen.",
+        "questionRo": "___ ich 18 Jahre alt war, bin ich nach Deutschland gekommen.",
+        "questionBs": "___ ich 18 Jahre alt war, bin ich nach Deutschland gekommen.",
+        "questionEs": "___ ich 18 Jahre alt war, bin ich nach Deutschland gekommen.",
+        "questionBg": "___ ich 18 Jahre alt war, bin ich nach Deutschland gekommen.",
+        "questionEl": "___ ich 18 Jahre alt war, bin ich nach Deutschland gekommen.",
+        "options": [
+          {
+            "de": "Als",
+            "ar": "Als",
+            "en": "Als",
+            "tr": "Als",
+            "ro": "Als",
+            "bs": "Als",
+            "es": "Als",
+            "bg": "Als",
+            "el": "Als"
+          },
+          {
+            "de": "Wenn",
+            "ar": "Wenn",
+            "en": "Wenn",
+            "tr": "Wenn",
+            "ro": "Wenn",
+            "bs": "Wenn",
+            "es": "Wenn",
+            "bg": "Wenn",
+            "el": "Wenn"
+          },
+          {
+            "de": "Weil",
+            "ar": "Weil",
+            "en": "Weil",
+            "tr": "Weil",
+            "ro": "Weil",
+            "bs": "Weil",
+            "es": "Weil",
+            "bg": "Weil",
+            "el": "Weil"
+          }
+        ],
+        "answer": "Als",
+        "hintDe": "A2 Grammatikregel",
+        "hintAr": "قاعدة A2 النحوية",
+        "hintEn": "A2 grammar rule",
+        "hintTr": "A2 dilbilgisi kuralı",
+        "hintRo": "regulă de gramatică A2",
+        "hintBs": "A2 gramatičko pravilo",
+        "hintEs": "regla gramatical A2",
+        "hintBg": "граматично правило A2",
+        "hintEl": "Γραμματικός κανόνας A2"
+      }
+    ],
+    "writing": {
+      "titleDe": "Lebenswege",
+      "titleAr": "مسارات الحياة",
+      "titleEn": "Life paths",
+      "titleTr": "Hayat yolları",
+      "titleRo": "Căile vieții",
+      "titleBs": "Životni putevi",
+      "titleEs": "Caminos de la vida",
+      "titleBg": "Житейски пътища",
+      "titleEl": "Πορείες ζωής",
+      "promptAr": "اكتب موضوعاً عن مسارات الحياة باللغة الألمانية.",
+      "promptEn": "Write a topic about Life paths in German.",
+      "promptTr": "Almanca olarak Hayat yolları hakkında bir konu yazın.",
+      "promptRo": "Scrieți un subiect despre Căile vieții în germană.",
+      "promptBs": "Napišite temu o Životni putevi na njemačkom.",
+      "promptEs": "Escriba un tema sobre Caminos de la vida en alemán.",
+      "promptBg": "Напишете тема за Житейски пътища на немски.",
+      "promptEl": "Γράψτε ένα θέμα για το Πορείες ζωής στα γερμανικά."
+    },
+    "speaking": {
+      "promptAr": "أستطيع الحديث عن أحداث حياتي وسيرتي الذاتية وتجاربي الماضية.",
+      "promptEn": "I can talk about my life events, biography, and past experiences.",
+      "promptTr": "Hayat olaylarım, biyografim ve geçmiş deneyimlerim hakkında konuşabilirim.",
+      "promptRo": "Pot vorbi descpre evenimentele din viața mea, biografie și experiențe din trecut.",
+      "promptBs": "Mogu razgovarati o svojim životnim događajima, biografiji i prošlim iskustvima.",
+      "promptEs": "Puedo hablar sobre los acontecimientos de mi vida, mi biografía y mis experiencias pasadas.",
+      "promptBg": "Мога да говоря за моите житейски събития, биография и минал опит.",
+      "promptEl": "Μπορώ να μιλήσω για τα γεγονότα της ζωής μου, τη βιογραφία μου και τις εμπειρίες μου από το παρελθόν.",
+      "phrases": [
+        {
+          "de": "Als ich ein Kind war, spielten wir oft draußen.",
+          "ar": "في السابق عشت في بلدة صغيرة، ولكن الآن أعيش في مدينة كبيرة."
+        }
+      ]
+    }
   },
   {
     "id": 16,
@@ -4640,14 +5385,46 @@ const CURRICULUM_A2 = [
     "titleBg": "Изживейте културата",
     "titleEl": "Βιώστε τον πολιτισμό",
     "color": "#ec4899",
-    "topics": ["المسرح والسينما", "الموسيقى والفنون", "الأنشطة الثقافية"],
-    "topicsEn": ["Theater and Cinema", "Music and Arts", "Cultural Activities"],
-    "topicsTr": ["Tiyatro ve Sinema", "Müzik ve Sanat", "Kültürel Etkinlikler"],
-    "topicsRo": ["Teatru și cinema", "Muzică și arte", "Activitati culturale"],
-    "topicsBs": ["Pozorište i kino", "Muzika i umjetnost", "Kulturne aktivnosti"],
-    "topicsEs": ["Teatro y cine", "Música y artes", "Actividades culturales"],
-    "topicsBg": ["Театър и кино", "Музика и изкуства", "Културни дейности"],
-    "topicsEl": ["Θέατρο και κινηματογράφος", "Μουσική και τέχνες", "Πολιτιστικές δραστηριότητες"],
+    "topics": [
+      "المسرح والسينما",
+      "الموسيقى والفنون",
+      "الأنشطة الثقافية"
+    ],
+    "topicsEn": [
+      "Theater and Cinema",
+      "Music and Arts",
+      "Cultural Activities"
+    ],
+    "topicsTr": [
+      "Tiyatro ve Sinema",
+      "Müzik ve Sanat",
+      "Kültürel Etkinlikler"
+    ],
+    "topicsRo": [
+      "Teatru și cinema",
+      "Muzică și arte",
+      "Activitati culturale"
+    ],
+    "topicsBs": [
+      "Pozorište i kino",
+      "Muzika i umjetnost",
+      "Kulturne aktivnosti"
+    ],
+    "topicsEs": [
+      "Teatro y cine",
+      "Música y artes",
+      "Actividades culturales"
+    ],
+    "topicsBg": [
+      "Театър и кино",
+      "Музика и изкуства",
+      "Културни дейности"
+    ],
+    "topicsEl": [
+      "Θέατρο και κινηματογράφος",
+      "Μουσική και τέχνες",
+      "Πολιτιστικές δραστηριότητες"
+    ],
     "canDo": "أستطيع وصف الأنشطة الثقافية والتحدث عن اهتماماتي الفنية والموسيقية.",
     "canDoEn": "I can describe cultural activities and talk about my artistic and musical interests.",
     "canDoTr": "Kültürel etkinlikleri tanımlayabilir, sanatsal ve müzikal ilgi alanlarım hakkında konuşabilirim.",
@@ -4655,7 +5432,212 @@ const CURRICULUM_A2 = [
     "canDoBs": "Mogu opisati kulturne aktivnosti i razgovarati o svojim umjetničkim i muzičkim interesovanjima.",
     "canDoEs": "Puedo describir actividades culturales y hablar sobre mis intereses artísticos y musicales.",
     "canDoBg": "Мога да опиша културни дейности и да говоря за моите художествени и музикални интереси.",
-    "canDoEl": "Μπορώ να περιγράψω πολιτιστικές δραστηριότητες και να μιλήσω για τα καλλιτεχνικά και μουσικά μου ενδιαφέροντα."
+    "canDoEl": "Μπορώ να περιγράψω πολιτιστικές δραστηριότητες και να μιλήσω για τα καλλιτεχνικά και μουσικά μου ενδιαφέροντα.",
+    "audio": [
+      {
+        "file": "Berliner Platz 2 neu/Berliner Platz 2 neu Audio/Berliner Platz 2 neu - A2 Lernbuch 13-18/- Track21.mp3",
+        "label": "16.1 - Museumsbesuch",
+        "labelAr": "زيارة المتحف",
+        "labelEn": "16.1 - Museum visit",
+        "labelTr": "16.1 - Museum visit",
+        "labelRo": "16.1 - Museum visit",
+        "labelBs": "16.1 - Museum visit",
+        "labelEs": "16.1 - Museum visit",
+        "labelBg": "16.1 - Museum visit",
+        "labelEl": "16.1 - Museum visit"
+      }
+    ],
+    "dialogs": [
+      {
+        "speaker": "Person A",
+        "text": "Wir waren gestern im Theater und das Stück war fantastisch.",
+        "translations": {
+          "ar": "كنا بالأمس في المسرح وكانت المسرحية رائعة جداً.",
+          "en": "We were at the theater yesterday and the play was fantastic.",
+          "tr": "We were at the theater yesterday and the play was fantastic.",
+          "ro": "We were at the theater yesterday and the play was fantastic.",
+          "bs": "We were at the theater yesterday and the play was fantastic.",
+          "es": "We were at the theater yesterday and the play was fantastic.",
+          "bg": "We were at the theater yesterday and the play was fantastic.",
+          "el": "We were at the theater yesterday and the play was fantastic."
+        }
+      }
+    ],
+    "readings": [
+      {
+        "titleDe": "Kultur erleben",
+        "titleAr": "تجربة الثقافة",
+        "titleEn": "Experience culture",
+        "titleTr": "Kültürü deneyimlemek",
+        "titleRo": "Experimentarea culturii",
+        "titleBs": "Iskusite kulturu",
+        "titleEs": "Experimentar la cultura",
+        "titleBg": "Изживейте културата",
+        "titleEl": "Βιώστε τον πολιτισμό",
+        "textDe": "Wir waren gestern im Theater und das Stück war fantastisch.",
+        "translations": {
+          "ar": "كنا بالأمس في المسرح وكانت المسرحية رائعة جداً.",
+          "en": "We were at the theater yesterday and the play was fantastic.",
+          "tr": "We were at the theater yesterday and the play was fantastic.",
+          "ro": "We were at the theater yesterday and the play was fantastic.",
+          "bs": "We were at the theater yesterday and the play was fantastic.",
+          "es": "We were at the theater yesterday and the play was fantastic.",
+          "bg": "We were at the theater yesterday and the play was fantastic.",
+          "el": "We were at the theater yesterday and the play was fantastic."
+        },
+        "questions": [
+          {
+            "qDe": "Was ist das Thema?",
+            "qAr": "ما هو الموضوع؟",
+            "qEn": "What is the topic?",
+            "qTr": "Konu nedir?",
+            "qRo": "Care este subiectul?",
+            "qBs": "Koja je tema?",
+            "qEs": "¿Cuál es el tema?",
+            "qBg": "Каква е темата?",
+            "qEl": "Ποιο είναι το θέμα;",
+            "answerDe": "Kultur erleben",
+            "answerAr": "تجربة الثقافة",
+            "answerEn": "Experience culture",
+            "answerTr": "Kültürü deneyimlemek",
+            "answerRo": "Experimentarea culturii",
+            "answerBs": "Iskusite kulturu",
+            "answerEs": "Experimentar la cultura",
+            "answerBg": "Изживейте културата",
+            "answerEl": "Βιώστε τον πολιτισμό"
+          }
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "titleDe": "Verben mit Präpositionen",
+        "titleAr": "الأفعال مع حروف الجر",
+        "titleEn": "Verben mit Präpositionen",
+        "titleTr": "Verben mit Präpositionen",
+        "titleRo": "Verben mit Präpositionen",
+        "titleBs": "Verben mit Präpositionen",
+        "titleEs": "Verben mit Präpositionen",
+        "titleBg": "Verben mit Präpositionen",
+        "titleEl": "Verben mit Präpositionen",
+        "explanationAr": "بعض الأفعال ترتبط دائماً بحروف جر محددة وحالات إعرابية معينة (أكوزاتيف أو داتيف).",
+        "explanationEn": "Some verbs are always linked to specific prepositions and cases (accusative or dative).",
+        "explanationTr": "Some verbs are always linked to specific prepositions and cases (accusative or dative).",
+        "explanationRo": "Some verbs are always linked to specific prepositions and cases (accusative or dative).",
+        "explanationBs": "Some verbs are always linked to specific prepositions and cases (accusative or dative).",
+        "explanationEs": "Some verbs are always linked to specific prepositions and cases (accusative or dative).",
+        "explanationBg": "Some verbs are always linked to specific prepositions and cases (accusative or dative).",
+        "explanationEl": "Some verbs are always linked to specific prepositions and cases (accusative or dative).",
+        "rules": [
+          {
+            "example": "Ich warte auf meinen Freund.",
+            "translationAr": "بعض الأفعال ترتبط دائماً بحروف جر محددة وحالات إعرابية معينة (أكوزاتيف أو داتيف).",
+            "translationEn": "Some verbs are always linked to specific prepositions and cases (accusative or dative).",
+            "translationTr": "Some verbs are always linked to specific prepositions and cases (accusative or dative).",
+            "translationRo": "Some verbs are always linked to specific prepositions and cases (accusative or dative).",
+            "translationBs": "Some verbs are always linked to specific prepositions and cases (accusative or dative).",
+            "translationEs": "Some verbs are always linked to specific prepositions and cases (accusative or dative).",
+            "translationBg": "Some verbs are always linked to specific prepositions and cases (accusative or dative).",
+            "translationEl": "Some verbs are always linked to specific prepositions and cases (accusative or dative)."
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "id": 1601,
+        "type": "mcq",
+        "questionDe": "Ich freue mich ___ das Wochenende.",
+        "questionAr": "Ich freue mich ___ das Wochenende.",
+        "questionEn": "Ich freue mich ___ das Wochenende.",
+        "questionTr": "Ich freue mich ___ das Wochenende.",
+        "questionRo": "Ich freue mich ___ das Wochenende.",
+        "questionBs": "Ich freue mich ___ das Wochenende.",
+        "questionEs": "Ich freue mich ___ das Wochenende.",
+        "questionBg": "Ich freue mich ___ das Wochenende.",
+        "questionEl": "Ich freue mich ___ das Wochenende.",
+        "options": [
+          {
+            "de": "auf",
+            "ar": "auf",
+            "en": "auf",
+            "tr": "auf",
+            "ro": "auf",
+            "bs": "auf",
+            "es": "auf",
+            "bg": "auf",
+            "el": "auf"
+          },
+          {
+            "de": "für",
+            "ar": "für",
+            "en": "für",
+            "tr": "für",
+            "ro": "für",
+            "bs": "für",
+            "es": "für",
+            "bg": "für",
+            "el": "für"
+          },
+          {
+            "de": "an",
+            "ar": "an",
+            "en": "an",
+            "tr": "an",
+            "ro": "an",
+            "bs": "an",
+            "es": "an",
+            "bg": "an",
+            "el": "an"
+          }
+        ],
+        "answer": "auf",
+        "hintDe": "A2 Grammatikregel",
+        "hintAr": "قاعدة A2 النحوية",
+        "hintEn": "A2 grammar rule",
+        "hintTr": "A2 dilbilgisi kuralı",
+        "hintRo": "regulă de gramatică A2",
+        "hintBs": "A2 gramatičko pravilo",
+        "hintEs": "regla gramatical A2",
+        "hintBg": "граматично правило A2",
+        "hintEl": "Γραμματικός κανόνας A2"
+      }
+    ],
+    "writing": {
+      "titleDe": "Kultur erleben",
+      "titleAr": "تجربة الثقافة",
+      "titleEn": "Experience culture",
+      "titleTr": "Kültürü deneyimlemek",
+      "titleRo": "Experimentarea culturii",
+      "titleBs": "Iskusite kulturu",
+      "titleEs": "Experimentar la cultura",
+      "titleBg": "Изживейте културата",
+      "titleEl": "Βιώστε τον πολιτισμό",
+      "promptAr": "اكتب موضوعاً عن تجربة الثقافة باللغة الألمانية.",
+      "promptEn": "Write a topic about Experience culture in German.",
+      "promptTr": "Almanca olarak Kültürü deneyimlemek hakkında bir konu yazın.",
+      "promptRo": "Scrieți un subiect despre Experimentarea culturii în germană.",
+      "promptBs": "Napišite temu o Iskusite kulturu na njemačkom.",
+      "promptEs": "Escriba un tema sobre Experimentar la cultura en alemán.",
+      "promptBg": "Напишете тема за Изживейте културата на немски.",
+      "promptEl": "Γράψτε ένα θέμα για το Βιώστε τον πολιτισμό στα γερμανικά."
+    },
+    "speaking": {
+      "promptAr": "أستطيع وصف الأنشطة الثقافية والتحدث عن اهتماماتي الفنية والموسيقية.",
+      "promptEn": "I can describe cultural activities and talk about my artistic and musical interests.",
+      "promptTr": "Kültürel etkinlikleri tanımlayabilir, sanatsal ve müzikal ilgi alanlarım hakkında konuşabilirim.",
+      "promptRo": "Pot descrie activitățile culturale și pot vorbi despre interesele mele artistice și muzicale.",
+      "promptBs": "Mogu opisati kulturne aktivnosti i razgovarati o svojim umjetničkim i muzičkim interesovanjima.",
+      "promptEs": "Puedo describir actividades culturales y hablar sobre mis intereses artísticos y musicales.",
+      "promptBg": "Мога да опиша културни дейности и да говоря за моите художествени и музикални интереси.",
+      "promptEl": "Μπορώ να περιγράψω πολιτιστικές δραστηριότητες και να μιλήσω για τα καλλιτεχνικά και μουσικά μου ενδιαφέροντα.",
+      "phrases": [
+        {
+          "de": "Ich warte auf meinen Freund.",
+          "ar": "كنا بالأمس في المسرح وكانت المسرحية رائعة جداً."
+        }
+      ]
+    }
   },
   {
     "id": 17,
@@ -4670,14 +5652,46 @@ const CURRICULUM_A2 = [
     "titleBg": "Работен свят",
     "titleEl": "Κόσμος της εργασίας",
     "color": "#f59e0b",
-    "topics": ["البحث عن وظيفة", "الحياة المكتبية", "الزملاء والتواصل"],
-    "topicsEn": ["Job Search", "Office Life", "Colleagues and Communication"],
-    "topicsTr": ["İş Arama", "Ofis Hayatı", "Meslektaşlar ve İletişim"],
-    "topicsRo": ["Căutarea unui loc de muncă", "Viața la birou", "Colegi și comunicare"],
-    "topicsBs": ["Traženje posla", "Kancelarijski život", "Kolege i komunikacija"],
-    "topicsEs": ["Búsqueda de empleo", "Vida de oficina", "Colegas y comunicación"],
-    "topicsBg": ["Търсене на работа", "Офис живот", "Колеги и комуникация"],
-    "topicsEl": ["Αναζήτηση εργασίας", "Ζωή στο γραφείο", "Συνάδελφοι και επικοινωνία"],
+    "topics": [
+      "البحث عن وظيفة",
+      "الحياة المكتبية",
+      "الزملاء والتواصل"
+    ],
+    "topicsEn": [
+      "Job Search",
+      "Office Life",
+      "Colleagues and Communication"
+    ],
+    "topicsTr": [
+      "İş Arama",
+      "Ofis Hayatı",
+      "Meslektaşlar ve İletişim"
+    ],
+    "topicsRo": [
+      "Căutarea unui loc de muncă",
+      "Viața la birou",
+      "Colegi și comunicare"
+    ],
+    "topicsBs": [
+      "Traženje posla",
+      "Kancelarijski život",
+      "Kolege i komunikacija"
+    ],
+    "topicsEs": [
+      "Búsqueda de empleo",
+      "Vida de oficina",
+      "Colegas y comunicación"
+    ],
+    "topicsBg": [
+      "Търсене на работа",
+      "Офис живот",
+      "Колеги и комуникация"
+    ],
+    "topicsEl": [
+      "Αναζήτηση εργασίας",
+      "Ζωή στο γραφείο",
+      "Συνάδελφοι και επικοινωνία"
+    ],
     "canDo": "أستطيع فهم إعلانات الوظائف والتقدم للعمل ووصف مهامي المكتبية اليومية.",
     "canDoEn": "I can understand job ads, apply for work, and describe daily office tasks.",
     "canDoTr": "İş ilanlarını anlayabilir, iş başvurusunda bulunabilir og günlük ofis görevlerini tanımlayabilirim.",
@@ -4685,7 +5699,212 @@ const CURRICULUM_A2 = [
     "canDoBs": "Mogu razumjeti oglase za posao, prijaviti se za posao i opisati svakodnevne kancelarijske zadatke.",
     "canDoEs": "Puedo entender anuncios de trabajo, solicitar empleo y describir las tareas diarias de oficina.",
     "canDoBg": "Мога да разбирам обяви за работа, да кандидатствам за работа и да опиша ежедневните офис задачи.",
-    "canDoEl": "Μπορώ να κατανοήσω αγγελίες εργασίας, να κάνω αίτηση για δουλειά και να περιγράψω καθημερινές εργασίες γραφείου."
+    "canDoEl": "Μπορώ να κατανοήσω αγγελίες εργασίας, να κάνω αίτηση για δουλειά και να περιγράψω καθημερινές εργασίες γραφείου.",
+    "audio": [
+      {
+        "file": "Berliner Platz 2 neu/Berliner Platz 2 neu Audio/Berliner Platz 2 neu - A2 Lernbuch 13-18/- Track27.mp3",
+        "label": "17.1 - Vorstellungsgespräch",
+        "labelAr": "مقابلة العمل",
+        "labelEn": "17.1 - Job interview",
+        "labelTr": "17.1 - Job interview",
+        "labelRo": "17.1 - Job interview",
+        "labelBs": "17.1 - Job interview",
+        "labelEs": "17.1 - Job interview",
+        "labelBg": "17.1 - Job interview",
+        "labelEl": "17.1 - Job interview"
+      }
+    ],
+    "dialogs": [
+      {
+        "speaker": "Person A",
+        "text": "Ich suche eine neue Stelle als Softwareentwickler mit flexiblen Arbeitszeiten.",
+        "translations": {
+          "ar": "أبحث عن وظيفة جديدة كمطور برمجيات مع ساعات عمل مرنة.",
+          "en": "I am looking for a new position as a software developer with flexible working hours.",
+          "tr": "I am looking for a new position as a software developer with flexible working hours.",
+          "ro": "I am looking for a new position as a software developer with flexible working hours.",
+          "bs": "I am looking for a new position as a software developer with flexible working hours.",
+          "es": "I am looking for a new position as a software developer with flexible working hours.",
+          "bg": "I am looking for a new position as a software developer with flexible working hours.",
+          "el": "I am looking for a new position as a software developer with flexible working hours."
+        }
+      }
+    ],
+    "readings": [
+      {
+        "titleDe": "Arbeitswelt",
+        "titleAr": "عالم العمل",
+        "titleEn": "Work world",
+        "titleTr": "İş dünyası",
+        "titleRo": "Lumea muncii",
+        "titleBs": "Svijet rada",
+        "titleEs": "Mundo laboral",
+        "titleBg": "Работен свят",
+        "titleEl": "Κόσμος της εργασίας",
+        "textDe": "Ich suche eine neue Stelle als Softwareentwickler mit flexiblen Arbeitszeiten.",
+        "translations": {
+          "ar": "أبحث عن وظيفة جديدة كمطور برمجيات مع ساعات عمل مرنة.",
+          "en": "I am looking for a new position as a software developer with flexible working hours.",
+          "tr": "I am looking for a new position as a software developer with flexible working hours.",
+          "ro": "I am looking for a new position as a software developer with flexible working hours.",
+          "bs": "I am looking for a new position as a software developer with flexible working hours.",
+          "es": "I am looking for a new position as a software developer with flexible working hours.",
+          "bg": "I am looking for a new position as a software developer with flexible working hours.",
+          "el": "I am looking for a new position as a software developer with flexible working hours."
+        },
+        "questions": [
+          {
+            "qDe": "Was ist das Thema?",
+            "qAr": "ما هو الموضوع؟",
+            "qEn": "What is the topic?",
+            "qTr": "Konu nedir?",
+            "qRo": "Care este subiectul?",
+            "qBs": "Koja je tema?",
+            "qEs": "¿Cuál es el tema?",
+            "qBg": "Каква е темата?",
+            "qEl": "Ποιο είναι το θέμα;",
+            "answerDe": "Arbeitswelt",
+            "answerAr": "عالم العمل",
+            "answerEn": "Work world",
+            "answerTr": "İş dünyası",
+            "answerRo": "Lumea muncii",
+            "answerBs": "Svijet rada",
+            "answerEs": "Mundo laboral",
+            "answerBg": "Работен свят",
+            "answerEl": "Κόσμος της εργασίας"
+          }
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "titleDe": "Nebensätze mit dass",
+        "titleAr": "الجمل الفرعية باستخدام dass",
+        "titleEn": "Nebensätze mit dass",
+        "titleTr": "Nebensätze mit dass",
+        "titleRo": "Nebensätze mit dass",
+        "titleBs": "Nebensätze mit dass",
+        "titleEs": "Nebensätze mit dass",
+        "titleBg": "Nebensätze mit dass",
+        "titleEl": "Nebensätze mit dass",
+        "explanationAr": "تربط dass الجملة الفرعية بالجملة الرئيسية وتدفع الفعل في النهاية.",
+        "explanationEn": "dass connects the subordinate clause to the main clause and pushes the verb to the end.",
+        "explanationTr": "dass connects the subordinate clause to the main clause and pushes the verb to the end.",
+        "explanationRo": "dass connects the subordinate clause to the main clause and pushes the verb to the end.",
+        "explanationBs": "dass connects the subordinate clause to the main clause and pushes the verb to the end.",
+        "explanationEs": "dass connects the subordinate clause to the main clause and pushes the verb to the end.",
+        "explanationBg": "dass connects the subordinate clause to the main clause and pushes the verb to the end.",
+        "explanationEl": "dass connects the subordinate clause to the main clause and pushes the verb to the end.",
+        "rules": [
+          {
+            "example": "Ich hoffe, dass ich die Stelle bekomme.",
+            "translationAr": "تربط dass الجملة الفرعية بالجملة الرئيسية وتدفع الفعل في النهاية.",
+            "translationEn": "dass connects the subordinate clause to the main clause and pushes the verb to the end.",
+            "translationTr": "dass connects the subordinate clause to the main clause and pushes the verb to the end.",
+            "translationRo": "dass connects the subordinate clause to the main clause and pushes the verb to the end.",
+            "translationBs": "dass connects the subordinate clause to the main clause and pushes the verb to the end.",
+            "translationEs": "dass connects the subordinate clause to the main clause and pushes the verb to the end.",
+            "translationBg": "dass connects the subordinate clause to the main clause and pushes the verb to the end.",
+            "translationEl": "dass connects the subordinate clause to the main clause and pushes the verb to the end."
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "id": 1701,
+        "type": "mcq",
+        "questionDe": "Der Chef sagt, dass er morgen nicht ___.",
+        "questionAr": "Der Chef sagt, dass er morgen nicht ___.",
+        "questionEn": "Der Chef sagt, dass er morgen nicht ___.",
+        "questionTr": "Der Chef sagt, dass er morgen nicht ___.",
+        "questionRo": "Der Chef sagt, dass er morgen nicht ___.",
+        "questionBs": "Der Chef sagt, dass er morgen nicht ___.",
+        "questionEs": "Der Chef sagt, dass er morgen nicht ___.",
+        "questionBg": "Der Chef sagt, dass er morgen nicht ___.",
+        "questionEl": "Der Chef sagt, dass er morgen nicht ___.",
+        "options": [
+          {
+            "de": "kommt",
+            "ar": "kommt",
+            "en": "kommt",
+            "tr": "kommt",
+            "ro": "kommt",
+            "bs": "kommt",
+            "es": "kommt",
+            "bg": "kommt",
+            "el": "kommt"
+          },
+          {
+            "de": "kommen",
+            "ar": "kommen",
+            "en": "kommen",
+            "tr": "kommen",
+            "ro": "kommen",
+            "bs": "kommen",
+            "es": "kommen",
+            "bg": "kommen",
+            "el": "kommen"
+          },
+          {
+            "de": "gekommen",
+            "ar": "gekommen",
+            "en": "gekommen",
+            "tr": "gekommen",
+            "ro": "gekommen",
+            "bs": "gekommen",
+            "es": "gekommen",
+            "bg": "gekommen",
+            "el": "gekommen"
+          }
+        ],
+        "answer": "kommt",
+        "hintDe": "A2 Grammatikregel",
+        "hintAr": "قاعدة A2 النحوية",
+        "hintEn": "A2 grammar rule",
+        "hintTr": "A2 dilbilgisi kuralı",
+        "hintRo": "regulă de gramatică A2",
+        "hintBs": "A2 gramatičko pravilo",
+        "hintEs": "regla gramatical A2",
+        "hintBg": "граматично правило A2",
+        "hintEl": "Γραμματικός κανόνας A2"
+      }
+    ],
+    "writing": {
+      "titleDe": "Arbeitswelt",
+      "titleAr": "عالم العمل",
+      "titleEn": "Work world",
+      "titleTr": "İş dünyası",
+      "titleRo": "Lumea muncii",
+      "titleBs": "Svijet rada",
+      "titleEs": "Mundo laboral",
+      "titleBg": "Работен свят",
+      "titleEl": "Κόσμος της εργασίας",
+      "promptAr": "اكتب موضوعاً عن عالم العمل باللغة الألمانية.",
+      "promptEn": "Write a topic about Work world in German.",
+      "promptTr": "Almanca olarak İş dünyası hakkında bir konu yazın.",
+      "promptRo": "Scrieți un subiect despre Lumea muncii în germană.",
+      "promptBs": "Napišite temu o Svijet rada na njemačkom.",
+      "promptEs": "Escriba un tema sobre Mundo laboral en alemán.",
+      "promptBg": "Напишете тема за Работен свят на немски.",
+      "promptEl": "Γράψτε ένα θέμα για το Κόσμος της εργασίας στα γερμανικά."
+    },
+    "speaking": {
+      "promptAr": "أستطيع فهم إعلانات الوظائف والتقدم للعمل ووصف مهامي المكتبية اليومية.",
+      "promptEn": "I can understand job ads, apply for work, and describe daily office tasks.",
+      "promptTr": "İş ilanlarını anlayabilir, iş başvurusunda bulunabilir og günlük ofis görevlerini tanımlayabilirim.",
+      "promptRo": "Pot înțelege anunțurile de angajare, pot aplica pentru un loc de muncă și pot descrie sarcinile zilnice de birou.",
+      "promptBs": "Mogu razumjeti oglase za posao, prijaviti se za posao i opisati svakodnevne kancelarijske zadatke.",
+      "promptEs": "Puedo entender anuncios de trabajo, solicitar empleo y describir las tareas diarias de oficina.",
+      "promptBg": "Мога да разбирам обяви за работа, да кандидатствам за работа и да опиша ежедневните офис задачи.",
+      "promptEl": "Μπορώ να κατανοήσω αγγελίες εργασίας, να κάνω αίτηση για δουλειά και να περιγράψω καθημερινές εργασίες γραφείου.",
+      "phrases": [
+        {
+          "de": "Ich hoffe, dass ich die Stelle bekomme.",
+          "ar": "أبحث عن وظيفة جديدة كمطور برمجيات مع ساعات عمل مرنة."
+        }
+      ]
+    }
   },
   {
     "id": 18,
@@ -4698,106 +5917,849 @@ const CURRICULUM_A2 = [
     "titleBs": "Na putu",
     "titleEs": "En camino",
     "titleBg": "На път",
-    "titleEl": "Στον δρόμο",
-    "color": "#06b6d4",
-    "topics": ["وسائل النقل", "السفر والاتجاهات", "حجز الفنادق"],
-    "topicsEn": ["Means of Transport", "Travel and Directions", "Hotel Booking"],
-    "topicsTr": ["Ulaşım Araçları", "Seyahat ve Yönler", "Otel Rezervasyonu"],
-    "topicsRo": ["Mijloace de transport", "Călătorii și direcții", "Rezervare la hotel"],
-    "topicsBs": ["Prevozna sredstva", "Putovanja i smjerovi", "Rezervacija hotela"],
-    "topicsEs": ["Medios de transporte", "Viajes y direcciones", "Reserva de hotel"],
-    "topicsBg": ["Транспортни средства", "Пътуване и посоки", "Хотелска резервация"],
-    "topicsEl": ["Μεταφορικά μέσα", "Ταξίδι και κατευθύνσεις", "Κράτηση ξενοδοχείου"],
-    "canDo": "أستطيع الاستفسار عن الاتجاهات وشراء تذاكر السفر وحجز غرفة في فندق.",
-    "canDoEn": "I can ask for directions, buy travel tickets, and book a hotel room.",
-    "canDoTr": "Yol tarifi isteyebilir, seyahat biletleri alabilir ve otel odası rezervasyonu yapabilirim.",
-    "canDoRo": "Pot cere indicații, pot cumpăra bilete de călătorie și pot rezerva o cameră de hotel.",
-    "canDoBs": "Mogu pitati za smjer, kupiti karte za putovanje i rezervisati hotelsku sobu.",
-    "canDoEs": "Puedo pedir direcciones, comprar billetes de viaje y reservar una habitación de hotel.",
-    "canDoBg": "Мога да попитам за посоката, да купя билети за пътуване и да резервирам хотелска стая.",
-    "canDoEl": "Μπορώ να ζητήσω οδηγίες, να αγοράσω εισιτήρια ταξιδιού και να κλείσω δωμάτιο σε ξενοδοχείο."
+    "titleEl": "Καθ' οδόν",
+    "color": "#14b8a6",
+    "topics": [
+      "حجز التذاكر",
+      "وسائل النقل",
+      "الاتجاهات"
+    ],
+    "topicsEn": [
+      "Booking Tickets",
+      "Means of Transport",
+      "Directions"
+    ],
+    "topicsTr": [
+      "Bilet Rezervasyonu",
+      "Ulaşım Araçları",
+      "Yol Tarifi"
+    ],
+    "topicsRo": [
+      "Rezervare bilete",
+      "Mijloace de transport",
+      "Directii"
+    ],
+    "topicsBs": [
+      "Rezervacija karata",
+      "Prevozna sredstva",
+      "Smjerovi"
+    ],
+    "topicsEs": [
+      "Reserva de billetes",
+      "Medios de transporte",
+      "Direcciones"
+    ],
+    "topicsBg": [
+      "Резервиране на билети",
+      "Транспортни средства",
+      "Посоки"
+    ],
+    "topicsEl": [
+      "Κράτηση εισιτηρίων",
+      "Μέσα μεταφοράς",
+      "Κατευθύνσεις"
+    ],
+    "canDo": "أستطيع الاستفسار عن مواعيد القطارات وحجز التذاكر ووصف الطريق.",
+    "canDoEn": "I can ask about train schedules, book tickets, and describe directions.",
+    "canDoTr": "Tren saatlerini sorabilir, bilet rezerve edebilir ve yol tarifi yapabilirim.",
+    "canDoRo": "Pot întreba despre mersul trenurilor, pot rezerva bilete și pot descrie indicațiile de orientare.",
+    "canDoBs": "Mogu se raspitati o redu vožnje vozova, rezervisati karte i opisati pravce.",
+    "canDoEs": "Puedo preguntar por los horarios de los trenes, reservar billetes y describir direcciones.",
+    "canDoBg": "Мога да попитам за разписанията на влаковете, да резервирам билети и да опиша посоките.",
+    "canDoEl": "Μπορώ να ρωτήσω για τα δρομολόγια των τρένων, να κλείσω εισιτήρια και να περιγράψω κατευθύνσεις.",
+    "audio": [
+      {
+        "file": "Berliner Platz 2 neu/Berliner Platz 2 neu Audio/Berliner Platz 2 neu - A2 Lernbuch 13-18/- Track33.mp3",
+        "label": "18.1 - Fahrkarte kaufen",
+        "labelAr": "شراء التذكرة",
+        "labelEn": "18.1 - Buying a ticket",
+        "labelTr": "18.1 - Buying a ticket",
+        "labelRo": "18.1 - Buying a ticket",
+        "labelBs": "18.1 - Buying a ticket",
+        "labelEs": "18.1 - Buying a ticket",
+        "labelBg": "18.1 - Buying a ticket",
+        "labelEl": "18.1 - Buying a ticket"
+      }
+    ],
+    "dialogs": [
+      {
+        "speaker": "Person A",
+        "text": "Ich reise lieber mit der Bahn, weil es umweltfreundlicher und entspannter ist.",
+        "translations": {
+          "ar": "أفضل السفر بالقطار لأنه أكثر ملاءمة للبيئة وراحة.",
+          "en": "I prefer travelling by train because it is more environmentally friendly and relaxing.",
+          "tr": "I prefer travelling by train because it is more environmentally friendly and relaxing.",
+          "ro": "I prefer travelling by train because it is more environmentally friendly and relaxing.",
+          "bs": "I prefer travelling by train because it is more environmentally friendly and relaxing.",
+          "es": "I prefer travelling by train because it is more environmentally friendly and relaxing.",
+          "bg": "I prefer travelling by train because it is more environmentally friendly and relaxing.",
+          "el": "I prefer travelling by train because it is more environmentally friendly and relaxing."
+        }
+      }
+    ],
+    "readings": [
+      {
+        "titleDe": "Unterwegs",
+        "titleAr": "في الطريق",
+        "titleEn": "On the way / Travelling",
+        "titleTr": "Yolda",
+        "titleRo": "Pe drum",
+        "titleBs": "Na putu",
+        "titleEs": "En camino",
+        "titleBg": "На път",
+        "titleEl": "Καθ' οδόν",
+        "textDe": "Ich reise lieber mit der Bahn, weil es umweltfreundlicher und entspannter ist.",
+        "translations": {
+          "ar": "أفضل السفر بالقطار لأنه أكثر ملاءمة للبيئة وراحة.",
+          "en": "I prefer travelling by train because it is more environmentally friendly and relaxing.",
+          "tr": "I prefer travelling by train because it is more environmentally friendly and relaxing.",
+          "ro": "I prefer travelling by train because it is more environmentally friendly and relaxing.",
+          "bs": "I prefer travelling by train because it is more environmentally friendly and relaxing.",
+          "es": "I prefer travelling by train because it is more environmentally friendly and relaxing.",
+          "bg": "I prefer travelling by train because it is more environmentally friendly and relaxing.",
+          "el": "I prefer travelling by train because it is more environmentally friendly and relaxing."
+        },
+        "questions": [
+          {
+            "qDe": "Was ist das Thema?",
+            "qAr": "ما هو الموضوع؟",
+            "qEn": "What is the topic?",
+            "qTr": "Konu nedir?",
+            "qRo": "Care este subiectul?",
+            "qBs": "Koja je tema?",
+            "qEs": "¿Cuál es el tema?",
+            "qBg": "Каква е темата?",
+            "qEl": "Ποιο είναι το θέμα;",
+            "answerDe": "Unterwegs",
+            "answerAr": "في الطريق",
+            "answerEn": "On the way / Travelling",
+            "answerTr": "Yolda",
+            "answerRo": "Pe drum",
+            "answerBs": "Na putu",
+            "answerEs": "En camino",
+            "answerBg": "На път",
+            "answerEl": "Καθ' οδόν"
+          }
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "titleDe": "Indirekte Fragen mit ob",
+        "titleAr": "الأسئلة غير المباشرة باستخدام ob",
+        "titleEn": "Indirekte Fragen mit ob",
+        "titleTr": "Indirekte Fragen mit ob",
+        "titleRo": "Indirekte Fragen mit ob",
+        "titleBs": "Indirekte Fragen mit ob",
+        "titleEs": "Indirekte Fragen mit ob",
+        "titleBg": "Indirekte Fragen mit ob",
+        "titleEl": "Indirekte Fragen mit ob",
+        "explanationAr": "تستخدم ob للاسئلة بنعم/لا غير المباشرة وتضع الفعل في نهاية الجملة الفرعية.",
+        "explanationEn": "ob is used for indirect yes/no questions and puts the verb at the end of the subordinate clause.",
+        "explanationTr": "ob is used for indirect yes/no questions and puts the verb at the end of the subordinate clause.",
+        "explanationRo": "ob is used for indirect yes/no questions and puts the verb at the end of the subordinate clause.",
+        "explanationBs": "ob is used for indirect yes/no questions and puts the verb at the end of the subordinate clause.",
+        "explanationEs": "ob is used for indirect yes/no questions and puts the verb at the end of the subordinate clause.",
+        "explanationBg": "ob is used for indirect yes/no questions and puts the verb at the end of the subordinate clause.",
+        "explanationEl": "ob is used for indirect yes/no questions and puts the verb at the end of the subordinate clause.",
+        "rules": [
+          {
+            "example": "Ich möchte wissen, ob der Zug pünktlich ist.",
+            "translationAr": "تستخدم ob للاسئلة بنعم/لا غير المباشرة وتضع الفعل في نهاية الجملة الفرعية.",
+            "translationEn": "ob is used for indirect yes/no questions and puts the verb at the end of the subordinate clause.",
+            "translationTr": "ob is used for indirect yes/no questions and puts the verb at the end of the subordinate clause.",
+            "translationRo": "ob is used for indirect yes/no questions and puts the verb at the end of the subordinate clause.",
+            "translationBs": "ob is used for indirect yes/no questions and puts the verb at the end of the subordinate clause.",
+            "translationEs": "ob is used for indirect yes/no questions and puts the verb at the end of the subordinate clause.",
+            "translationBg": "ob is used for indirect yes/no questions and puts the verb at the end of the subordinate clause.",
+            "translationEl": "ob is used for indirect yes/no questions and puts the verb at the end of the subordinate clause."
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "id": 1801,
+        "type": "mcq",
+        "questionDe": "Können Sie mir sagen, ob das Ticket ___ ist?",
+        "questionAr": "Können Sie mir sagen, ob das Ticket ___ ist?",
+        "questionEn": "Können Sie mir sagen, ob das Ticket ___ ist?",
+        "questionTr": "Können Sie mir sagen, ob das Ticket ___ ist?",
+        "questionRo": "Können Sie mir sagen, ob das Ticket ___ ist?",
+        "questionBs": "Können Sie mir sagen, ob das Ticket ___ ist?",
+        "questionEs": "Können Sie mir sagen, ob das Ticket ___ ist?",
+        "questionBg": "Können Sie mir sagen, ob das Ticket ___ ist?",
+        "questionEl": "Können Sie mir sagen, ob das Ticket ___ ist?",
+        "options": [
+          {
+            "de": "gültig",
+            "ar": "gültig",
+            "en": "gültig",
+            "tr": "gültig",
+            "ro": "gültig",
+            "bs": "gültig",
+            "es": "gültig",
+            "bg": "gültig",
+            "el": "gültig"
+          },
+          {
+            "de": "gelten",
+            "ar": "gelten",
+            "en": "gelten",
+            "tr": "gelten",
+            "ro": "gelten",
+            "bs": "gelten",
+            "es": "gelten",
+            "bg": "gelten",
+            "el": "gelten"
+          },
+          {
+            "de": "gilt",
+            "ar": "gilt",
+            "en": "gilt",
+            "tr": "gilt",
+            "ro": "gilt",
+            "bs": "gilt",
+            "es": "gilt",
+            "bg": "gilt",
+            "el": "gilt"
+          }
+        ],
+        "answer": "gültig",
+        "hintDe": "A2 Grammatikregel",
+        "hintAr": "قاعدة A2 النحوية",
+        "hintEn": "A2 grammar rule",
+        "hintTr": "A2 dilbilgisi kuralı",
+        "hintRo": "regulă de gramatică A2",
+        "hintBs": "A2 gramatičko pravilo",
+        "hintEs": "regla gramatical A2",
+        "hintBg": "граматично правило A2",
+        "hintEl": "Γραμματικός κανόνας A2"
+      }
+    ],
+    "writing": {
+      "titleDe": "Unterwegs",
+      "titleAr": "في الطريق",
+      "titleEn": "On the way / Travelling",
+      "titleTr": "Yolda",
+      "titleRo": "Pe drum",
+      "titleBs": "Na putu",
+      "titleEs": "En camino",
+      "titleBg": "На път",
+      "titleEl": "Καθ' οδόν",
+      "promptAr": "اكتب موضوعاً عن في الطريق باللغة الألمانية.",
+      "promptEn": "Write a topic about On the way / Travelling in German.",
+      "promptTr": "Almanca olarak Yolda hakkında bir konu yazın.",
+      "promptRo": "Scrieți un subiect despre Pe drum în germană.",
+      "promptBs": "Napišite temu o Na putu na njemačkom.",
+      "promptEs": "Escriba un tema sobre En camino en alemán.",
+      "promptBg": "Напишете тема за На път на немски.",
+      "promptEl": "Γράψτε ένα θέμα για το Καθ' οδόν στα γερμανικά."
+    },
+    "speaking": {
+      "promptAr": "أستطيع الاستفسار عن مواعيد القطارات وحجز التذاكر ووصف الطريق.",
+      "promptEn": "I can ask about train schedules, book tickets, and describe directions.",
+      "promptTr": "Tren saatlerini sorabilir, bilet rezerve edebilir ve yol tarifi yapabilirim.",
+      "promptRo": "Pot întreba despre mersul trenurilor, pot rezerva bilete și pot descrie indicațiile de orientare.",
+      "promptBs": "Mogu se raspitati o redu vožnje vozova, rezervisati karte i opisati pravce.",
+      "promptEs": "Puedo preguntar por los horarios de los trenes, reservar billetes y describir direcciones.",
+      "promptBg": "Мога да попитам за разписанията на влаковете, да резервирам билети и да опиша посоките.",
+      "promptEl": "Μπορώ να ρωτήσω για τα δρομολόγια των τρένων, να κλείσω εισιτήρια και να περιγράψω κατευθύνσεις.",
+      "phrases": [
+        {
+          "de": "Ich möchte wissen, ob der Zug pünktlich ist.",
+          "ar": "أفضل السفر بالقطار لأنه أكثر ملاءمة للبيئة وراحة."
+        }
+      ]
+    }
   },
   {
     "id": 19,
-    "emoji": "✈️",
-    "titleDe": "Ausland",
-    "titleAr": "في الخارج",
-    "titleEn": "Abroad",
-    "titleTr": "Yurtdışı",
-    "titleRo": "În străinătate",
-    "titleBs": "U inostranstvu",
-    "titleEs": "En el extranjero",
-    "titleBg": "В чужбина",
-    "titleEl": "Στο εξωτερικό",
-    "color": "#14b8a6",
-    "topics": ["الهجرة واللجوء", "تعدد الثقافات", "التأقلم والمعيشة"],
-    "topicsEn": ["Migration and Asylum", "Multiculturalism", "Integration and Living"],
-    "topicsTr": ["Göç ve İltica", "Çok Kültürlülük", "Uyum ve Yaşam"],
-    "topicsRo": ["Migrație și azil", "Multiculturalism", "Integrare și viață"],
-    "topicsBs": ["Migracije i azil", "Multikulturalizam", "Integracija i život"],
-    "topicsEs": ["Migración y asilo", "Multiculturalidad", "Integración y vida"],
-    "topicsBg": ["Миграция и убежище", "Мултикултурализъм", "Интеграция и живот"],
-    "topicsEl": ["Μετανάστευση και άσυλο", "Πολυπολιτισμικότητα", "Ένταξη και ζωή"],
-    "canDo": "أستطيع الحديث عن تجارب العيش في الخارج والتحديات الثقافية.",
-    "canDoEn": "I can talk about experiences of living abroad and cultural challenges.",
-    "canDoTr": "Yurtdışında yaşama deneyimleri ve kültürel zorluklar hakkında konuşabilirim.",
-    "canDoRo": "Pot vorbi despre experiențele de viață în străinătate și provocările culturale.",
-    "canDoBs": "Mogu razgovarati o iskustvima života u inostranstvu i kulturnim izazovima.",
-    "canDoEs": "Puedo hablar sobre experiencias de vivir en el extranjero y desafíos culturales.",
-    "canDoBg": "Мога да говоря за опита от живота в чужбина и културните предизвикателства.",
-    "canDoEl": "Μπορώ να μιλήσω για εμπειρίες ζωής στο εξωτερικό και πολιτισμικές προκλήσεις."
+    "emoji": "💭",
+    "titleDe": "Träume und Pläne",
+    "titleAr": "الأحلام والخطط",
+    "titleEn": "Dreams and plans",
+    "titleTr": "Hayaller ve planlar",
+    "titleRo": "Visuri și planuri",
+    "titleBs": "Snovi i planovi",
+    "titleEs": "Sueños y planes",
+    "titleBg": "Мечти и планове",
+    "titleEl": "Όνειρα και σχέδια",
+    "color": "#6366f1",
+    "topics": [
+      "الأهداف المهنية",
+      "السفر والاستكشاف",
+      "الحياة المستقبلية"
+    ],
+    "topicsEn": [
+      "Career Goals",
+      "Travel and Exploration",
+      "Future Life"
+    ],
+    "topicsTr": [
+      "Kariyer Hedefleri",
+      "Seyahat ve Keşif",
+      "Gelecekteki Yaşam"
+    ],
+    "topicsRo": [
+      "Obiective de carieră",
+      "Călătorii și explorări",
+      "Viața viitoare"
+    ],
+    "topicsBs": [
+      "Karijerni ciljevi",
+      "Putovanja i istraživanja",
+      "Budući život"
+    ],
+    "topicsEs": [
+      "Objetivos profesionales",
+      "Viajes y exploración",
+      "Vida futura"
+    ],
+    "topicsBg": [
+      "Кариерни цели",
+      "Пътуване и изследване",
+      "Бъдещ живот"
+    ],
+    "topicsEl": [
+      "Επαγγελματικοί στόχοι",
+      "Ταξίδια και εξερεύνηση",
+      "Μελλοντική ζωή"
+    ],
+    "canDo": "أستطيع التحدث عن أحلامي وخططي المستقبلية وأهدافي المهنية.",
+    "canDoEn": "I can talk about my dreams, future plans, and career goals.",
+    "canDoTr": "Hayallerim, gelecek planlarım ve kariyer hedeflerim hakkında konuşabilirim.",
+    "canDoRo": "Pot vorbi despre visurile mele, planurile de viitor și obiectivele de carieră.",
+    "canDoBs": "Mogu razgovarati o svojim snovima, planovima za budućnost i karijernim ciljevima.",
+    "canDoEs": "Puedo hablar de mis sueños, planes futuros y metas profesionales.",
+    "canDoBg": "Мога да говоря за мечтите си, бъдещите си планове и кариерните си цели.",
+    "canDoEl": "Μπορώ να μιλήσω για τα όνειρά μου, τα μελλοντικά μου σχέδια και τους επαγγελματικούς μου στόχους.",
+    "audio": [
+      {
+        "file": "Berliner Platz 2 neu/Berliner Platz 2 neu Audio/Berliner Platz 2 neu - A2 Lernbuch 19-24/- Track01.mp3",
+        "label": "19.1 - Zukunftspläne",
+        "labelAr": "خطط المستقبل",
+        "labelEn": "19.1 - Future plans",
+        "labelTr": "19.1 - Future plans",
+        "labelRo": "19.1 - Future plans",
+        "labelBs": "19.1 - Future plans",
+        "labelEs": "19.1 - Future plans",
+        "labelBg": "19.1 - Future plans",
+        "labelEl": "19.1 - Future plans"
+      }
+    ],
+    "dialogs": [
+      {
+        "speaker": "Person A",
+        "text": "Wenn ich genug Geld habe, werde ich eine Weltreise machen und viele Länder besuchen.",
+        "translations": {
+          "ar": "إذا كان لدي ما يكفي من المال، سأقوم برحلة حول العالم وأزور العديد من البلدان.",
+          "en": "If I have enough money, I will make a trip around the world and visit many countries.",
+          "tr": "If I have enough money, I will make a trip around the world and visit many countries.",
+          "ro": "If I have enough money, I will make a trip around the world and visit many countries.",
+          "bs": "If I have enough money, I will make a trip around the world and visit many countries.",
+          "es": "If I have enough money, I will make a trip around the world and visit many countries.",
+          "bg": "If I have enough money, I will make a trip around the world and visit many countries.",
+          "el": "If I have enough money, I will make a trip around the world and visit many countries."
+        }
+      }
+    ],
+    "readings": [
+      {
+        "titleDe": "Träume und Pläne",
+        "titleAr": "الأحلام والخطط",
+        "titleEn": "Dreams and plans",
+        "titleTr": "Hayaller ve planlar",
+        "titleRo": "Visuri și planuri",
+        "titleBs": "Snovi i planovi",
+        "titleEs": "Sueños y planes",
+        "titleBg": "Мечти и планове",
+        "titleEl": "Όνειρα και σχέδια",
+        "textDe": "Wenn ich genug Geld habe, werde ich eine Weltreise machen und viele Länder besuchen.",
+        "translations": {
+          "ar": "إذا كان لدي ما يكفي من المال، سأقوم برحلة حول العالم وأزور العديد من البلدان.",
+          "en": "If I have enough money, I will make a trip around the world and visit many countries.",
+          "tr": "If I have enough money, I will make a trip around the world and visit many countries.",
+          "ro": "If I have enough money, I will make a trip around the world and visit many countries.",
+          "bs": "If I have enough money, I will make a trip around the world and visit many countries.",
+          "es": "If I have enough money, I will make a trip around the world and visit many countries.",
+          "bg": "If I have enough money, I will make a trip around the world and visit many countries.",
+          "el": "If I have enough money, I will make a trip around the world and visit many countries."
+        },
+        "questions": [
+          {
+            "qDe": "Was ist das Thema?",
+            "qAr": "ما هو الموضوع؟",
+            "qEn": "What is the topic?",
+            "qTr": "Konu nedir?",
+            "qRo": "Care este subiectul?",
+            "qBs": "Koja je tema?",
+            "qEs": "¿Cuál es el tema?",
+            "qBg": "Каква е темата?",
+            "qEl": "Ποιο είναι το θέμα;",
+            "answerDe": "Träume und Pläne",
+            "answerAr": "الأحلام والخطط",
+            "answerEn": "Dreams and plans",
+            "answerTr": "Hayaller ve planlar",
+            "answerRo": "Visuri și planuri",
+            "answerBs": "Snovi i planovi",
+            "answerEs": "Sueños y planes",
+            "answerBg": "Мечти и планове",
+            "answerEl": "Όνειρα και σχέδια"
+          }
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "titleDe": "Konditionalsätze mit wenn",
+        "titleAr": "الجمل الشرطية باستخدام wenn",
+        "titleEn": "Konditionalsätze mit wenn",
+        "titleTr": "Konditionalsätze mit wenn",
+        "titleRo": "Konditionalsätze mit wenn",
+        "titleBs": "Konditionalsätze mit wenn",
+        "titleEs": "Konditionalsätze mit wenn",
+        "titleBg": "Konditionalsätze mit wenn",
+        "titleEl": "Konditionalsätze mit wenn",
+        "explanationAr": "تربط wenn جملة الشرط بالنتيجة وتدفع الفعل في الجملة الفرعية إلى النهاية.",
+        "explanationEn": "wenn connects the condition to the result and pushes the verb to the end of the subordinate clause.",
+        "explanationTr": "wenn connects the condition to the result and pushes the verb to the end of the subordinate clause.",
+        "explanationRo": "wenn connects the condition to the result and pushes the verb to the end of the subordinate clause.",
+        "explanationBs": "wenn connects the condition to the result and pushes the verb to the end of the subordinate clause.",
+        "explanationEs": "wenn connects the condition to the result and pushes the verb to the end of the subordinate clause.",
+        "explanationBg": "wenn connects the condition to the result and pushes the verb to the end of the subordinate clause.",
+        "explanationEl": "wenn connects the condition to the result and pushes the verb to the end of the subordinate clause.",
+        "rules": [
+          {
+            "example": "Wenn das Wetter schön ist, gehen wir spazieren.",
+            "translationAr": "تربط wenn جملة الشرط بالنتيجة وتدفع الفعل في الجملة الفرعية إلى النهاية.",
+            "translationEn": "wenn connects the condition to the result and pushes the verb to the end of the subordinate clause.",
+            "translationTr": "wenn connects the condition to the result and pushes the verb to the end of the subordinate clause.",
+            "translationRo": "wenn connects the condition to the result and pushes the verb to the end of the subordinate clause.",
+            "translationBs": "wenn connects the condition to the result and pushes the verb to the end of the subordinate clause.",
+            "translationEs": "wenn connects the condition to the result and pushes the verb to the end of the subordinate clause.",
+            "translationBg": "wenn connects the condition to the result and pushes the verb to the end of the subordinate clause.",
+            "translationEl": "wenn connects the condition to the result and pushes the verb to the end of the subordinate clause."
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "id": 1901,
+        "type": "mcq",
+        "questionDe": "___ es regnet, bleibe ich zu Hause.",
+        "questionAr": "___ es regnet, bleibe ich zu Hause.",
+        "questionEn": "___ es regnet, bleibe ich zu Hause.",
+        "questionTr": "___ es regnet, bleibe ich zu Hause.",
+        "questionRo": "___ es regnet, bleibe ich zu Hause.",
+        "questionBs": "___ es regnet, bleibe ich zu Hause.",
+        "questionEs": "___ es regnet, bleibe ich zu Hause.",
+        "questionBg": "___ es regnet, bleibe ich zu Hause.",
+        "questionEl": "___ es regnet, bleibe ich zu Hause.",
+        "options": [
+          {
+            "de": "Wenn",
+            "ar": "Wenn",
+            "en": "Wenn",
+            "tr": "Wenn",
+            "ro": "Wenn",
+            "bs": "Wenn",
+            "es": "Wenn",
+            "bg": "Wenn",
+            "el": "Wenn"
+          },
+          {
+            "de": "Als",
+            "ar": "Als",
+            "en": "Als",
+            "tr": "Als",
+            "ro": "Als",
+            "bs": "Als",
+            "es": "Als",
+            "bg": "Als",
+            "el": "Als"
+          },
+          {
+            "de": "Weil",
+            "ar": "Weil",
+            "en": "Weil",
+            "tr": "Weil",
+            "ro": "Weil",
+            "bs": "Weil",
+            "es": "Weil",
+            "bg": "Weil",
+            "el": "Weil"
+          }
+        ],
+        "answer": "Wenn",
+        "hintDe": "A2 Grammatikregel",
+        "hintAr": "قاعدة A2 النحوية",
+        "hintEn": "A2 grammar rule",
+        "hintTr": "A2 dilbilgisi kuralı",
+        "hintRo": "regulă de gramatică A2",
+        "hintBs": "A2 gramatičko pravilo",
+        "hintEs": "regla gramatical A2",
+        "hintBg": "граматично правило A2",
+        "hintEl": "Γραμματικός κανόνας A2"
+      }
+    ],
+    "writing": {
+      "titleDe": "Träume und Pläne",
+      "titleAr": "الأحلام والخطط",
+      "titleEn": "Dreams and plans",
+      "titleTr": "Hayaller ve planlar",
+      "titleRo": "Visuri și planuri",
+      "titleBs": "Snovi i planovi",
+      "titleEs": "Sueños y planes",
+      "titleBg": "Мечти и планове",
+      "titleEl": "Όνειρα και σχέδια",
+      "promptAr": "اكتب موضوعاً عن الأحلام والخطط باللغة الألمانية.",
+      "promptEn": "Write a topic about Dreams and plans in German.",
+      "promptTr": "Almanca olarak Hayaller ve planlar hakkında bir konu yazın.",
+      "promptRo": "Scrieți un subiect despre Visuri și planuri în germană.",
+      "promptBs": "Napišite temu o Snovi i planovi na njemačkom.",
+      "promptEs": "Escriba un tema sobre Sueños y planes en alemán.",
+      "promptBg": "Напишете тема за Мечти и планове на немски.",
+      "promptEl": "Γράψτε ένα θέμα για το Όνειρα και σχέδια στα γερμανικά."
+    },
+    "speaking": {
+      "promptAr": "أستطيع التحدث عن أحلامي وخططي المستقبلية وأهدافي المهنية.",
+      "promptEn": "I can talk about my dreams, future plans, and career goals.",
+      "promptTr": "Hayallerim, gelecek planlarım ve kariyer hedeflerim hakkında konuşabilirim.",
+      "promptRo": "Pot vorbi despre visurile mele, planurile de viitor și obiectivele de carieră.",
+      "promptBs": "Mogu razgovarati o svojim snovima, planovima za budućnost i karijernim ciljevima.",
+      "promptEs": "Puedo hablar de mis sueños, planes futuros y metas profesionales.",
+      "promptBg": "Мога да говоря за мечтите си, бъдещите си планове и кариерните си цели.",
+      "promptEl": "Μπορώ να μιλήσω για τα όνειρά μου, τα μελλοντικά μου σχέδια και τους επαγγελματικούς μου στόχους.",
+      "phrases": [
+        {
+          "de": "Wenn das Wetter schön ist, gehen wir spazieren.",
+          "ar": "إذا كان لدي ما يكفي من المال، سأقوم برحلة حول العالم وأزور العديد من البلدان."
+        }
+      ]
+    }
   },
   {
     "id": 20,
-    "emoji": "📱",
-    "titleDe": "Medien im Alltag",
-    "titleAr": "وسائل الإعلام في الحياة اليومية",
-    "titleEn": "Media in everyday life",
-    "titleTr": "Günlük yaşamda medya",
-    "titleRo": "Media în viața de zi cu zi",
-    "titleBs": "Mediji u svakodnevnom životu",
-    "titleEs": "Medios en la vida diaria",
-    "titleBg": "Медиите в ежедневието",
-    "titleEl": "Μέσα ενημέρωσης στην καθημερινότητα",
-    "color": "#6366f1",
-    "topics": ["الإنترنت والشبكات", "الهواتف والتطبيقات", "استهلاك الإعلام"],
-    "topicsEn": ["Internet and Networks", "Phones and Apps", "Media Consumption"],
-    "topicsTr": ["İnternet ve Ağlar", "Telefonlar ve Uygulamalar", "Medya Tüketimi"],
-    "topicsRo": ["Internet și rețele", "Telefoane și aplicații", "Consumul media"],
-    "topicsBs": ["Internet i mreže", "Telefoni i aplikacije", "Potrošnja medija"],
-    "topicsEs": ["Internet y redes", "Teléfonos y aplicaciones", "Consumo de medios"],
-    "topicsBg": ["Интернет и мрежи", "Телефони и приложения", "Медийна консумация"],
-    "topicsEl": ["Διαδίκτυο και δίκτυα", "Τηλέφωνα και εφαρμογές", "Κατανάλωση μέσων"],
-    "canDo": "أستطيع التعبير عن رأيي في استخدام الهواتف والوسائل الرقمية وتصفح الإنترنت.",
-    "canDoEn": "I can express my opinion on using phones, digital media, and surfing the web.",
-    "canDoTr": "Telefon kullanımı, dijital medya ve internette gezinme hakkındaki düşüncelerimi ifade edebilirim.",
-    "canDoRo": "Îmi pot exprima opinia despre utilizarea telefoanelor, a mediei digitale și a navigării pe web.",
-    "canDoBs": "Mogu izraziti svoje mišljenje o korištenju telefona, digitalnih medija i surfanju internetom.",
-    "canDoEs": "Puedo expresar mi opinión sobre el uso de teléfonos, medios digitales y navegar por la web.",
-    "canDoBg": "Мога да изразя мнението си за използването на телефони, дигитални медии и сърфирането в мрежата.",
-    "canDoEl": "Μπορώ να εκφράσω τη γνώμη μου για τη χρήση τηλεφώνων, ψηφιακών μέσων και την περιήγηση στο διαδίκτυο."
+    "emoji": "💰",
+    "titleDe": "Geld und Konsum",
+    "titleAr": "المال والاستهلاك",
+    "titleEn": "Money and consumption",
+    "titleTr": "Para ve tüketim",
+    "titleRo": "Bani și consum",
+    "titleBs": "Novac i potrošnja",
+    "titleEs": "Dinero y consumo",
+    "titleBg": "Пари и потребление",
+    "titleEl": "Χρήματα και κατανάλωση",
+    "color": "#eab308",
+    "topics": [
+      "التسوق والشراء",
+      "إدارة الأموال",
+      "البنوك والادخار"
+    ],
+    "topicsEn": [
+      "Shopping and Buying",
+      "Money Management",
+      "Banks and Savings"
+    ],
+    "topicsTr": [
+      "Alışveriş ve Satın Alma",
+      "Para Yönetimi",
+      "Bankalar ve Tasarruf"
+    ],
+    "topicsRo": [
+      "Cumpărături și cumpărare",
+      "Gestionarea banilor",
+      "Bănci și economii"
+    ],
+    "topicsBs": [
+      "Kupovina i kupovina",
+      "Upravljanje novcem",
+      "Banke i štednja"
+    ],
+    "topicsEs": [
+      "Compras y adquisición",
+      "Gestión del dinero",
+      "Bancos y ahorros"
+    ],
+    "topicsBg": [
+      "Пазаруване и купуване",
+      "Управление на пари",
+      "Банки и спестявания"
+    ],
+    "topicsEl": [
+      "Ψώνια και αγορές",
+      "Διαχείριση χρημάτων",
+      "Τράπεζες και αποταμιεύσεις"
+    ],
+    "canDo": "أستطيع فتح حساب بنكي والتسوق ومقارنة الأسعار وإبداء رأيي في المشتريات.",
+    "canDoEn": "I can open a bank account, shop, compare prices, and express opinions on purchases.",
+    "canDoTr": "Banka hesabı açabilir, alışveriş yapabilir, fiyatları karşılaştırabilir ve satın almalar hakkında görüş belirtebilirim.",
+    "canDoRo": "Pot deschide un cont bancar, pot face cumpărături, pot compara prețurile și pot exprima opinii despre achiziții.",
+    "canDoBs": "Mogu otvoriti bankovni račun, kupovati, upoređivati cijene i izraziti mišljenje o kupovini.",
+    "canDoEs": "Puedo abrir una cuenta bancaria, comprar, comparar precios y expresar opiniones sobre las compras.",
+    "canDoBg": "Мога да отворя банкова сметка, да пазарувам, да сравнявам цени и да изразявам мнение за покупки.",
+    "canDoEl": "Μπορώ να ανοίξω τραπεζικό λογαριασμό, να ψωνίσω, να συγκρίνω τιμές και να εκφράσω γνώμη για αγορές.",
+    "audio": [
+      {
+        "file": "Berliner Platz 2 neu/Berliner Platz 2 neu Audio/Berliner Platz 2 neu - A2 Lernbuch 19-24/- Track06.mp3",
+        "label": "20.1 - Girokonto eröffnen",
+        "labelAr": "فتح حساب جاري",
+        "labelEn": "20.1 - Opening a checking account",
+        "labelTr": "20.1 - Opening a checking account",
+        "labelRo": "20.1 - Opening a checking account",
+        "labelBs": "20.1 - Opening a checking account",
+        "labelEs": "20.1 - Opening a checking account",
+        "labelBg": "20.1 - Opening a checking account",
+        "labelEl": "20.1 - Opening a checking account"
+      }
+    ],
+    "dialogs": [
+      {
+        "speaker": "Person A",
+        "text": "Ich möchte ein Girokonto eröffnen, um meine Rechnungen online zu bezahlen.",
+        "translations": {
+          "ar": "أود فتح حساب جاري لدفع فواتيري عبر الإنترنت.",
+          "en": "I would like to open a checking account to pay my bills online.",
+          "tr": "I would like to open a checking account to pay my bills online.",
+          "ro": "I would like to open a checking account to pay my bills online.",
+          "bs": "I would like to open a checking account to pay my bills online.",
+          "es": "I would like to open a checking account to pay my bills online.",
+          "bg": "I would like to open a checking account to pay my bills online.",
+          "el": "I would like to open a checking account to pay my bills online."
+        }
+      }
+    ],
+    "readings": [
+      {
+        "titleDe": "Geld und Konsum",
+        "titleAr": "المال والاستهلاك",
+        "titleEn": "Money and consumption",
+        "titleTr": "Para ve tüketim",
+        "titleRo": "Bani și consum",
+        "titleBs": "Novac i potrošnja",
+        "titleEs": "Dinero y consumo",
+        "titleBg": "Пари и потребление",
+        "titleEl": "Χρήματα και κατανάλωση",
+        "textDe": "Ich möchte ein Girokonto eröffnen, um meine Rechnungen online zu bezahlen.",
+        "translations": {
+          "ar": "أود فتح حساب جاري لدفع فواتيري عبر الإنترنت.",
+          "en": "I would like to open a checking account to pay my bills online.",
+          "tr": "I would like to open a checking account to pay my bills online.",
+          "ro": "I would like to open a checking account to pay my bills online.",
+          "bs": "I would like to open a checking account to pay my bills online.",
+          "es": "I would like to open a checking account to pay my bills online.",
+          "bg": "I would like to open a checking account to pay my bills online.",
+          "el": "I would like to open a checking account to pay my bills online."
+        },
+        "questions": [
+          {
+            "qDe": "Was ist das Thema?",
+            "qAr": "ما هو الموضوع؟",
+            "qEn": "What is the topic?",
+            "qTr": "Konu nedir?",
+            "qRo": "Care este subiectul?",
+            "qBs": "Koja je tema?",
+            "qEs": "¿Cuál es el tema?",
+            "qBg": "Каква е темата?",
+            "qEl": "Ποιο είναι το θέμα;",
+            "answerDe": "Geld und Konsum",
+            "answerAr": "المال والاستهلاك",
+            "answerEn": "Money and consumption",
+            "answerTr": "Para ve tüketim",
+            "answerRo": "Bani și consum",
+            "answerBs": "Novac i potrošnja",
+            "answerEs": "Dinero y consumo",
+            "answerBg": "Пари и потребление",
+            "answerEl": "Χρήματα και κατανάλωση"
+          }
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "titleDe": "Komp- und Superlativ",
+        "titleAr": "صيغ المقارنة والتفضيل للمقارنة",
+        "titleEn": "Komp- und Superlativ",
+        "titleTr": "Komp- und Superlativ",
+        "titleRo": "Komp- und Superlativ",
+        "titleBs": "Komp- und Superlativ",
+        "titleEs": "Komp- und Superlativ",
+        "titleBg": "Komp- und Superlativ",
+        "titleEl": "Komp- und Superlativ",
+        "explanationAr": "تستخدم صيغ المقارنة (Komparativ) والتفضيل (Superlativ) لمقارنة الخصائص والأسعار.",
+        "explanationEn": "Comparative and superlative forms are used to compare characteristics and prices.",
+        "explanationTr": "Comparative and superlative forms are used to compare characteristics and prices.",
+        "explanationRo": "Comparative and superlative forms are used to compare characteristics and prices.",
+        "explanationBs": "Comparative and superlative forms are used to compare characteristics and prices.",
+        "explanationEs": "Comparative and superlative forms are used to compare characteristics and prices.",
+        "explanationBg": "Comparative and superlative forms are used to compare characteristics and prices.",
+        "explanationEl": "Comparative and superlative forms are used to compare characteristics and prices.",
+        "rules": [
+          {
+            "example": "Dieses Auto ist schneller als jenes, aber das Zugticket ist am billigsten.",
+            "translationAr": "تستخدم صيغ المقارنة (Komparativ) والتفضيل (Superlativ) لمقارنة الخصائص والأسعار.",
+            "translationEn": "Comparative and superlative forms are used to compare characteristics and prices.",
+            "translationTr": "Comparative and superlative forms are used to compare characteristics and prices.",
+            "translationRo": "Comparative and superlative forms are used to compare characteristics and prices.",
+            "translationBs": "Comparative and superlative forms are used to compare characteristics and prices.",
+            "translationEs": "Comparative and superlative forms are used to compare characteristics and prices.",
+            "translationBg": "Comparative and superlative forms are used to compare characteristics and prices.",
+            "translationEl": "Comparative and superlative forms are used to compare characteristics and prices."
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "id": 2001,
+        "type": "mcq",
+        "questionDe": "Mein neues Fahrrad ist ___ als mein altes.",
+        "questionAr": "Mein neues Fahrrad ist ___ als mein altes.",
+        "questionEn": "Mein neues Fahrrad ist ___ als mein altes.",
+        "questionTr": "Mein neues Fahrrad ist ___ als mein altes.",
+        "questionRo": "Mein neues Fahrrad ist ___ als mein altes.",
+        "questionBs": "Mein neues Fahrrad ist ___ als mein altes.",
+        "questionEs": "Mein neues Fahrrad ist ___ als mein altes.",
+        "questionBg": "Mein neues Fahrrad ist ___ als mein altes.",
+        "questionEl": "Mein neues Fahrrad ist ___ als mein altes.",
+        "options": [
+          {
+            "de": "schneller",
+            "ar": "schneller",
+            "en": "schneller",
+            "tr": "schneller",
+            "ro": "schneller",
+            "bs": "schneller",
+            "es": "schneller",
+            "bg": "schneller",
+            "el": "schneller"
+          },
+          {
+            "de": "schnell",
+            "ar": "schnell",
+            "en": "schnell",
+            "tr": "schnell",
+            "ro": "schnell",
+            "bs": "schnell",
+            "es": "schnell",
+            "bg": "schnell",
+            "el": "schnell"
+          },
+          {
+            "de": "am schnellsten",
+            "ar": "am schnellsten",
+            "en": "am schnellsten",
+            "tr": "am schnellsten",
+            "ro": "am schnellsten",
+            "bs": "am schnellsten",
+            "es": "am schnellsten",
+            "bg": "am schnellsten",
+            "el": "am schnellsten"
+          }
+        ],
+        "answer": "schneller",
+        "hintDe": "A2 Grammatikregel",
+        "hintAr": "قاعدة A2 النحوية",
+        "hintEn": "A2 grammar rule",
+        "hintTr": "A2 dilbilgisi kuralı",
+        "hintRo": "regulă de gramatică A2",
+        "hintBs": "A2 gramatičko pravilo",
+        "hintEs": "regla gramatical A2",
+        "hintBg": "граматично правило A2",
+        "hintEl": "Γραμματικός κανόνας A2"
+      }
+    ],
+    "writing": {
+      "titleDe": "Geld und Konsum",
+      "titleAr": "المال والاستهلاك",
+      "titleEn": "Money and consumption",
+      "titleTr": "Para ve tüketim",
+      "titleRo": "Bani și consum",
+      "titleBs": "Novac i potrošnja",
+      "titleEs": "Dinero y consumo",
+      "titleBg": "Пари и потребление",
+      "titleEl": "Χρήματα και κατανάλωση",
+      "promptAr": "اكتب موضوعاً عن المال والاستهلاك باللغة الألمانية.",
+      "promptEn": "Write a topic about Money and consumption in German.",
+      "promptTr": "Almanca olarak Para ve tüketim hakkında bir konu yazın.",
+      "promptRo": "Scrieți un subiect despre Bani și consum în germană.",
+      "promptBs": "Napišite temu o Novac i potrošnja na njemačkom.",
+      "promptEs": "Escriba un tema sobre Dinero y consumo en alemán.",
+      "promptBg": "Напишете тема за Пари и потребление на немски.",
+      "promptEl": "Γράψτε ένα θέμα για το Χρήματα και κατανάλωση στα γερμανικά."
+    },
+    "speaking": {
+      "promptAr": "أستطيع فتح حساب بنكي والتسوق ومقارنة الأسعار وإبداء رأيي في المشتريات.",
+      "promptEn": "I can open a bank account, shop, compare prices, and express opinions on purchases.",
+      "promptTr": "Banka hesabı açabilir, alışveriş yapabilir, fiyatları karşılaştırabilir ve satın almalar hakkında görüş belirtebilirim.",
+      "promptRo": "Pot deschide un cont bancar, pot face cumpărături, pot compara prețurile și pot exprima opinii despre achiziții.",
+      "promptBs": "Mogu otvoriti bankovni račun, kupovati, upoređivati cijene i izraziti mišljenje o kupovini.",
+      "promptEs": "Puedo abrir una cuenta bancaria, comprar, comparar precios y expresar opiniones sobre las compras.",
+      "promptBg": "Мога да отворя банкова сметка, да пазарувам, да сравнявам цени и да изразявам мнение за покупки.",
+      "promptEl": "Μπορώ να ανοίξω τραπεζικό λογαριασμό, να ψωνίσω, να συγκρίνω τιμές και να εκφράσω γνώμη για αγορές.",
+      "phrases": [
+        {
+          "de": "Dieses Auto ist schneller als jenes, aber das Zugticket ist am billigsten.",
+          "ar": "أود فتح حساب جاري لدفع فواتيري عبر الإنترنت."
+        }
+      ]
+    }
   },
   {
     "id": 21,
-    "emoji": "🏙️",
-    "titleDe": "Großstadtleben",
-    "titleAr": "حياة المدن الكبرى",
-    "titleEn": "Big city life",
-    "titleTr": "Büyük şehir hayatı",
-    "titleRo": "Viața la marele oraș",
-    "titleBs": "Život u velikom gradu",
-    "titleEs": "Vida en la gran ciudad",
-    "titleBg": "Животът в големия град",
-    "titleEl": "Ζωή στη μεγάλη πόλη",
-    "color": "#a855f7",
-    "topics": ["السكن والإيجارات", "المرافق والخدمات", "مزايا وعيوب المدينة"],
-    "topicsEn": ["Housing and Renting", "Facilities and Services", "Pros and Cons of City Life"],
-    "topicsTr": ["Konut ve Kiralama", "Tesisler ve Hizmetler", "Şehir Hayatının Artıları ve Eksileri"],
-    "topicsRo": ["Locuințe și închiriere", "Facilități și servicii", "Avantajele și dezavantajele vieții la oraș"],
-    "topicsBs": ["Stanovanje i iznajmljivanje", "Sadržaji i usluge", "Prednosti i mane gradskog života"],
-    "topicsEs": ["Vivienda y alquiler", "Instalaciones y servicios", "Ventajas y desventajas de la vida en la ciudad"],
-    "topicsBg": ["Жилище и наеми", "Удобства и услуги", "Плюсове и минуси на градския живот"],
-    "topicsEl": ["Στέγαση και ενοικίαση", "Εγκαταστάσεις και υπηρεσίες", "Υπέρ και κατά της ζωής στην πόλη"],
+    "emoji": "🏠",
+    "titleDe": "Wohnwelten",
+    "titleAr": "عوالم السكن",
+    "titleEn": "Housing worlds",
+    "titleTr": "Konut dünyaları",
+    "titleRo": "Lumea locuințelor",
+    "titleBs": "Svijet stanovanja",
+    "titleEs": "Mundos de la vivienda",
+    "titleBg": "Жилищен свят",
+    "titleEl": "Κόσμος της κατοικίας",
+    "color": "#f97316",
+    "topics": [
+      "البحث عن شقة",
+      "المرافق والخدمات",
+      "مقارنة السكن بالمدينة والريف"
+    ],
+    "topicsEn": [
+      "Apartment Search",
+      "Facilities and Services",
+      "City vs. Country Housing"
+    ],
+    "topicsTr": [
+      "Daire Arama",
+      "Tesisler ve Hizmetler",
+      "Şehir ve Kır Konutu"
+    ],
+    "topicsRo": [
+      "Căutarea unui apartament",
+      "Facilități și servicii",
+      "Locuințe la oraș vs. la țară"
+    ],
+    "topicsBs": [
+      "Traženje stana",
+      "Sadržaji i usluge",
+      "Gradsko vs. seosko stanovanje"
+    ],
+    "topicsEs": [
+      "Búsqueda de vivienda",
+      "Instalaciones y servicios",
+      "Vivienda urbana frente a rural"
+    ],
+    "topicsBg": [
+      "Търсене на апартамент",
+      "Удобства и услуги",
+      "Градско срещу селско жилище"
+    ],
+    "topicsEl": [
+      "Αναζήτηση διαμερίσματος",
+      "Εγκαταστάσεις και υπηρεσίες",
+      "Αστική έναντι αγροτικής κατοικίας"
+    ],
     "canDo": "أستطيع البحث عن شقة ووصف السكن ومقارنة الحياة بين المدينة والريف.",
     "canDoEn": "I can search for an apartment, describe housing, and compare city versus country life.",
     "canDoTr": "Daire arayebilir, konutu tanımlayabilir ve şehir hayatı ile köy hayatını karşılaştırabilirim.",
@@ -4805,7 +6767,212 @@ const CURRICULUM_A2 = [
     "canDoBs": "Mogu tražiti stan, opisati smještaj i uporediti život u gradu sa životom na selu.",
     "canDoEs": "Puedo buscar un apartamento, describir la vivienda y comparar la vida en la ciudad con la del campo.",
     "canDoBg": "Мога да търся апартамент, да опиша жилището и да сравня живота в града с този на село.",
-    "canDoEl": "Μπορώ να αναζητήσω διαμέρισμα, να περιγράψω την κατοικία και να συγκρίνω τη ζωή στην πόλη με τη ζωή στην ύπαιθρο."
+    "canDoEl": "Μπορώ να αναζητήσω διαμέρισμα, να περιγράψω την κατοικία και να συγκρίνω τη ζωή στην πόλη με τη ζωή στην ύπαιθρο.",
+    "audio": [
+      {
+        "file": "Berliner Platz 2 neu/Berliner Platz 2 neu Audio/Berliner Platz 2 neu - A2 Lernbuch 19-24/- Track12.mp3",
+        "label": "21.1 - Wohnungsanzeige",
+        "labelAr": "إعلان شقة سكنية",
+        "labelEn": "21.1 - Apartment ad",
+        "labelTr": "21.1 - Apartment ad",
+        "labelRo": "21.1 - Apartment ad",
+        "labelBs": "21.1 - Apartment ad",
+        "labelEs": "21.1 - Apartment ad",
+        "labelBg": "21.1 - Apartment ad",
+        "labelEl": "21.1 - Apartment ad"
+      }
+    ],
+    "dialogs": [
+      {
+        "speaker": "Person A",
+        "text": "Ich wohne lieber auf dem Land, weil es dort ruhig ist und viel Natur gibt.",
+        "translations": {
+          "ar": "أفضل السكن في الريف لأنه هادئ وهناك الكثير من الطبيعة.",
+          "en": "I prefer living in the country because it is quiet and there is a lot of nature.",
+          "tr": "I prefer living in the country because it is quiet and there is a lot of nature.",
+          "ro": "I prefer living in the country because it is quiet and there is a lot of nature.",
+          "bs": "I prefer living in the country because it is quiet and there is a lot of nature.",
+          "es": "I prefer living in the country because it is quiet and there is a lot of nature.",
+          "bg": "I prefer living in the country because it is quiet and there is a lot of nature.",
+          "el": "I prefer living in the country because it is quiet and there is a lot of nature."
+        }
+      }
+    ],
+    "readings": [
+      {
+        "titleDe": "Wohnwelten",
+        "titleAr": "عوالم السكن",
+        "titleEn": "Housing worlds",
+        "titleTr": "Konut dünyaları",
+        "titleRo": "Lumea locuințelor",
+        "titleBs": "Svijet stanovanja",
+        "titleEs": "Mundos de la vivienda",
+        "titleBg": "Жилищен свят",
+        "titleEl": "Κόσμος της κατοικίας",
+        "textDe": "Ich wohne lieber auf dem Land, weil es dort ruhig ist und viel Natur gibt.",
+        "translations": {
+          "ar": "أفضل السكن في الريف لأنه هادئ وهناك الكثير من الطبيعة.",
+          "en": "I prefer living in the country because it is quiet and there is a lot of nature.",
+          "tr": "I prefer living in the country because it is quiet and there is a lot of nature.",
+          "ro": "I prefer living in the country because it is quiet and there is a lot of nature.",
+          "bs": "I prefer living in the country because it is quiet and there is a lot of nature.",
+          "es": "I prefer living in the country because it is quiet and there is a lot of nature.",
+          "bg": "I prefer living in the country because it is quiet and there is a lot of nature.",
+          "el": "I prefer living in the country because it is quiet and there is a lot of nature."
+        },
+        "questions": [
+          {
+            "qDe": "Was ist das Thema?",
+            "qAr": "ما هو الموضوع؟",
+            "qEn": "What is the topic?",
+            "qTr": "Konu nedir?",
+            "qRo": "Care este subiectul?",
+            "qBs": "Koja je tema?",
+            "qEs": "¿Cuál es el tema?",
+            "qBg": "Каква е темата?",
+            "qEl": "Ποιο είναι το θέμα;",
+            "answerDe": "Wohnwelten",
+            "answerAr": "عوالم السكن",
+            "answerEn": "Housing worlds",
+            "answerTr": "Konut dünyaları",
+            "answerRo": "Lumea locuințelor",
+            "answerBs": "Svijet stanovanja",
+            "answerEs": "Mundos de la vivienda",
+            "answerBg": "Жилищен свят",
+            "answerEl": "Κόσμος της κατοικίας"
+          }
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "titleDe": "Lokale Präpositionen (Dativ/Akk)",
+        "titleAr": "حروف الجر المكانية (داتيف وأكوزاتيف)",
+        "titleEn": "Lokale Präpositionen (Dativ/Akk)",
+        "titleTr": "Lokale Präpositionen (Dativ/Akk)",
+        "titleRo": "Lokale Präpositionen (Dativ/Akk)",
+        "titleBs": "Lokale Präpositionen (Dativ/Akk)",
+        "titleEs": "Lokale Präpositionen (Dativ/Akk)",
+        "titleBg": "Lokale Präpositionen (Dativ/Akk)",
+        "titleEl": "Lokale Präpositionen (Dativ/Akk)",
+        "explanationAr": "حروف الجر المشتركة تأخذ حالة الداتيف عند السكون والثبات، والأكوزاتيف عند الحركة والاتجاه.",
+        "explanationEn": "Two-way prepositions take dative for location (where) and accusative for direction (whereto).",
+        "explanationTr": "Two-way prepositions take dative for location (where) and accusative for direction (whereto).",
+        "explanationRo": "Two-way prepositions take dative for location (where) and accusative for direction (whereto).",
+        "explanationBs": "Two-way prepositions take dative for location (where) and accusative for direction (whereto).",
+        "explanationEs": "Two-way prepositions take dative for location (where) and accusative for direction (whereto).",
+        "explanationBg": "Two-way prepositions take dative for location (where) and accusative for direction (whereto).",
+        "explanationEl": "Two-way prepositions take dative for location (where) and accusative for direction (whereto).",
+        "rules": [
+          {
+            "example": "Das Buch liegt auf dem Tisch. Ich lege das Buch auf den Tisch.",
+            "translationAr": "حروف الجر المشتركة تأخذ حالة الداتيف عند السكون والثبات، والأكوزاتيف عند الحركة والاتجاه.",
+            "translationEn": "Two-way prepositions take dative for location (where) and accusative for direction (whereto).",
+            "translationTr": "Two-way prepositions take dative for location (where) and accusative for direction (whereto).",
+            "translationRo": "Two-way prepositions take dative for location (where) and accusative for direction (whereto).",
+            "translationBs": "Two-way prepositions take dative for location (where) and accusative for direction (whereto).",
+            "translationEs": "Two-way prepositions take dative for location (where) and accusative for direction (whereto).",
+            "translationBg": "Two-way prepositions take dative for location (where) and accusative for direction (whereto).",
+            "translationEl": "Two-way prepositions take dative for location (where) and accusative for direction (whereto)."
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "id": 2101,
+        "type": "mcq",
+        "questionDe": "Ich gehe in ___ Garten (der Garten).",
+        "questionAr": "Ich gehe in ___ Garten (der Garten).",
+        "questionEn": "Ich gehe in ___ Garten (der Garten).",
+        "questionTr": "Ich gehe in ___ Garten (der Garten).",
+        "questionRo": "Ich gehe in ___ Garten (der Garten).",
+        "questionBs": "Ich gehe in ___ Garten (der Garten).",
+        "questionEs": "Ich gehe in ___ Garten (der Garten).",
+        "questionBg": "Ich gehe in ___ Garten (der Garten).",
+        "questionEl": "Ich gehe in ___ Garten (der Garten).",
+        "options": [
+          {
+            "de": "den",
+            "ar": "den",
+            "en": "den",
+            "tr": "den",
+            "ro": "den",
+            "bs": "den",
+            "es": "den",
+            "bg": "den",
+            "el": "den"
+          },
+          {
+            "de": "dem",
+            "ar": "dem",
+            "en": "dem",
+            "tr": "dem",
+            "ro": "dem",
+            "bs": "dem",
+            "es": "dem",
+            "bg": "dem",
+            "el": "dem"
+          },
+          {
+            "de": "der",
+            "ar": "der",
+            "en": "der",
+            "tr": "der",
+            "ro": "der",
+            "bs": "der",
+            "es": "der",
+            "bg": "der",
+            "el": "der"
+          }
+        ],
+        "answer": "den",
+        "hintDe": "A2 Grammatikregel",
+        "hintAr": "قاعدة A2 النحوية",
+        "hintEn": "A2 grammar rule",
+        "hintTr": "A2 dilbilgisi kuralı",
+        "hintRo": "regulă de gramatică A2",
+        "hintBs": "A2 gramatičko pravilo",
+        "hintEs": "regla gramatical A2",
+        "hintBg": "граматично правило A2",
+        "hintEl": "Γραμματικός κανόνας A2"
+      }
+    ],
+    "writing": {
+      "titleDe": "Wohnwelten",
+      "titleAr": "عوالم السكن",
+      "titleEn": "Housing worlds",
+      "titleTr": "Konut dünyaları",
+      "titleRo": "Lumea locuințelor",
+      "titleBs": "Svijet stanovanja",
+      "titleEs": "Mundos de la vivienda",
+      "titleBg": "Жилищен свят",
+      "titleEl": "Κόσμος της κατοικίας",
+      "promptAr": "اكتب موضوعاً عن عوالم السكن باللغة الألمانية.",
+      "promptEn": "Write a topic about Housing worlds in German.",
+      "promptTr": "Almanca olarak Konut dünyaları hakkında bir konu yazın.",
+      "promptRo": "Scrieți un subiect despre Lumea locuințelor în germană.",
+      "promptBs": "Napišite temu o Svijet stanovanja na njemačkom.",
+      "promptEs": "Escriba un tema sobre Mundos de la vivienda en alemán.",
+      "promptBg": "Напишете тема за Жилищен свят на немски.",
+      "promptEl": "Γράψτε ένα θέμα για το Κόσμος της κατοικίας στα γερμανικά."
+    },
+    "speaking": {
+      "promptAr": "أستطيع البحث عن شقة ووصف السكن ومقارنة الحياة بين المدينة والريف.",
+      "promptEn": "I can search for an apartment, describe housing, and compare city versus country life.",
+      "promptTr": "Daire arayebilir, konutu tanımlayabilir ve şehir hayatı ile köy hayatını karşılaştırabilirim.",
+      "promptRo": "Pot căuta un apartament, pot descrie locuința și pot compara viața la oraș cu cea de la țară.",
+      "promptBs": "Mogu tražiti stan, opisati smještaj i uporediti život u gradu sa životom na selu.",
+      "promptEs": "Puedo buscar un apartamento, describir la vivienda y comparar la vida en la ciudad con la del campo.",
+      "promptBg": "Мога да търся апартамент, да опиша жилището и да сравня живота в града с този на село.",
+      "promptEl": "Μπορώ να αναζητήσω διαμέρισμα, να περιγράψω την κατοικία και να συγκρίνω τη ζωή στην πόλη με τη ζωή στην ύπαιθρο.",
+      "phrases": [
+        {
+          "de": "Das Buch liegt auf dem Tisch. Ich lege das Buch auf den Tisch.",
+          "ar": "أفضل السكن في الريف لأنه هادئ وهناك الكثير من الطبيعة."
+        }
+      ]
+    }
   },
   {
     "id": 22,
@@ -4820,14 +6987,46 @@ const CURRICULUM_A2 = [
     "titleBg": "Околна среда и климат",
     "titleEl": "Περιβάλλον και κλίμα",
     "color": "#10b981",
-    "topics": ["حماية البيئة", "الطقس والفصول", "الطاقة المستدامة"],
-    "topicsEn": ["Environmental Protection", "Weather and Seasons", "Sustainable Energy"],
-    "topicsTr": ["Çevre Koruma", "Hava Durumu ve Mevsimler", "Sürdürülebilir Enerji"],
-    "topicsRo": ["Protecția mediului", "Vremea și anotimpurile", "Energie durabilă"],
-    "topicsBs": ["Zaštita okoliša", "Vrijeme i godišnja doba", "Održiva energija"],
-    "topicsEs": ["Protección del medio ambiente", "Clima y estaciones", "Energía sostenible"],
-    "topicsBg": ["Опазване на околната среда", "Време и сезони", "Устойчива енергия"],
-    "topicsEl": ["Προστασία του περιβάλλοντος", "Καιρός και εποχές", "Βιώσιμη ενέργεια"],
+    "topics": [
+      "حماية البيئة",
+      "الطقس والفصول",
+      "الطاقة المستدامة"
+    ],
+    "topicsEn": [
+      "Environmental Protection",
+      "Weather and Seasons",
+      "Sustainable Energy"
+    ],
+    "topicsTr": [
+      "Çevre Koruma",
+      "Hava Durumu ve Mevsimler",
+      "Sürdürülebilir Enerji"
+    ],
+    "topicsRo": [
+      "Protecția mediului",
+      "Vremea și anotimpurile",
+      "Energie durabilă"
+    ],
+    "topicsBs": [
+      "Zaštita okoliša",
+      "Vrijeme i godišnja doba",
+      "Održiva energija"
+    ],
+    "topicsEs": [
+      "Protección del medio ambiente",
+      "Clima y estaciones",
+      "Energía sostenible"
+    ],
+    "topicsBg": [
+      "Опазване на околната среда",
+      "Време и сезони",
+      "Устойчива енергия"
+    ],
+    "topicsEl": [
+      "Προστασία του περιβάλλοντος",
+      "Καιρός και εποχές",
+      "Βιώσιμη ενέργεια"
+    ],
     "canDo": "أستطيع الحديث عن الطقس وأهمية حماية البيئة وإعادة التدوير.",
     "canDoEn": "I can talk about the weather, environmental protection, and recycling.",
     "canDoTr": "Hava durumu, çevre koruma ve geri dönüşüm hakkında konuşabilirim.",
@@ -4835,7 +7034,212 @@ const CURRICULUM_A2 = [
     "canDoBs": "Mogu razgovarati o vremenu, zaštiti okoliša i recikliranju.",
     "canDoEs": "Puedo hablar sobre el clima, la protección del medio ambiente y el reciclaje.",
     "canDoBg": "Мога да говоря за времето, опазването на околната среда и рециклирането.",
-    "canDoEl": "Μπορώ να μιλήσω για τον καιρό, την προστασία του περιβάλλοντος και την ανακύκλωση."
+    "canDoEl": "Μπορώ να μιλήσω για τον καιρό, την προστασία του περιβάλλοντος και την ανακύκλωση.",
+    "audio": [
+      {
+        "file": "Berliner Platz 2 neu/Berliner Platz 2 neu Audio/Berliner Platz 2 neu - A2 Lernbuch 19-24/- Track18.mp3",
+        "label": "22.1 - Wetterbericht",
+        "labelAr": "نشرة الطقس",
+        "labelEn": "22.1 - Weather report",
+        "labelTr": "22.1 - Weather report",
+        "labelRo": "22.1 - Weather report",
+        "labelBs": "22.1 - Weather report",
+        "labelEs": "22.1 - Weather report",
+        "labelBg": "22.1 - Weather report",
+        "labelEl": "22.1 - Weather report"
+      }
+    ],
+    "dialogs": [
+      {
+        "speaker": "Person A",
+        "text": "Mülltrennung ist wichtig, um wertvolle Rohstoffe wiederzuverwenden und die Umwelt zu schonen.",
+        "translations": {
+          "ar": "فرز النفايات مهم لإعادة استخدام المواد الخام القيمة وحماية البيئة.",
+          "en": "Waste separation is important to reuse valuable raw materials and protect the environment.",
+          "tr": "Waste separation is important to reuse valuable raw materials and protect the environment.",
+          "ro": "Waste separation is important to reuse valuable raw materials and protect the environment.",
+          "bs": "Waste separation is important to reuse valuable raw materials and protect the environment.",
+          "es": "Waste separation is important to reuse valuable raw materials and protect the environment.",
+          "bg": "Waste separation is important to reuse valuable raw materials and protect the environment.",
+          "el": "Waste separation is important to reuse valuable raw materials and protect the environment."
+        }
+      }
+    ],
+    "readings": [
+      {
+        "titleDe": "Umwelt und Klima",
+        "titleAr": "البيئة والمناخ",
+        "titleEn": "Environment and climate",
+        "titleTr": "Çevre ve iklim",
+        "titleRo": "Mediu și climă",
+        "titleBs": "Okoliš i klima",
+        "titleEs": "Medio ambiente y clima",
+        "titleBg": "Околна среда и климат",
+        "titleEl": "Περιβάλλον και κλίμα",
+        "textDe": "Mülltrennung ist wichtig, um wertvolle Rohstoffe wiederzuverwenden und die Umwelt zu schonen.",
+        "translations": {
+          "ar": "فرز النفايات مهم لإعادة استخدام المواد الخام القيمة وحماية البيئة.",
+          "en": "Waste separation is important to reuse valuable raw materials and protect the environment.",
+          "tr": "Waste separation is important to reuse valuable raw materials and protect the environment.",
+          "ro": "Waste separation is important to reuse valuable raw materials and protect the environment.",
+          "bs": "Waste separation is important to reuse valuable raw materials and protect the environment.",
+          "es": "Waste separation is important to reuse valuable raw materials and protect the environment.",
+          "bg": "Waste separation is important to reuse valuable raw materials and protect the environment.",
+          "el": "Waste separation is important to reuse valuable raw materials and protect the environment."
+        },
+        "questions": [
+          {
+            "qDe": "Was ist das Thema?",
+            "qAr": "ما هو الموضوع؟",
+            "qEn": "What is the topic?",
+            "qTr": "Konu nedir?",
+            "qRo": "Care este subiectul?",
+            "qBs": "Koja je tema?",
+            "qEs": "¿Cuál es el tema?",
+            "qBg": "Каква е темата?",
+            "qEl": "Ποιο είναι το θέμα;",
+            "answerDe": "Umwelt und Klima",
+            "answerAr": "البيئة والمناخ",
+            "answerEn": "Environment and climate",
+            "answerTr": "Çevre ve iklim",
+            "answerRo": "Mediu și climă",
+            "answerBs": "Okoliš i klima",
+            "answerEs": "Medio ambiente y clima",
+            "answerBg": "Околна среда и климат",
+            "answerEl": "Περιβάλλον και κλίμα"
+          }
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "titleDe": "Um...zu Infinitivsätze",
+        "titleAr": "جمل الغاية باستخدام um...zu",
+        "titleEn": "Um...zu Infinitivsätze",
+        "titleTr": "Um...zu Infinitivsätze",
+        "titleRo": "Um...zu Infinitivsätze",
+        "titleBs": "Um...zu Infinitivsätze",
+        "titleEs": "Um...zu Infinitivsätze",
+        "titleBg": "Um...zu Infinitivsätze",
+        "titleEl": "Um...zu Infinitivsätze",
+        "explanationAr": "تستخدم um...zu للتعبير عن الهدف أو الغاية من القيام بفعل ما، ويكون الفعل في النهاية بصيغة المصدر.",
+        "explanationEn": "um...zu is used to express intent or purpose, placing the verb at the end in the infinitive form.",
+        "explanationTr": "um...zu is used to express intent or purpose, placing the verb at the end in the infinitive form.",
+        "explanationRo": "um...zu is used to express intent or purpose, placing the verb at the end in the infinitive form.",
+        "explanationBs": "um...zu is used to express intent or purpose, placing the verb at the end in the infinitive form.",
+        "explanationEs": "um...zu is used to express intent or purpose, placing the verb at the end in the infinitive form.",
+        "explanationBg": "um...zu is used to express intent or purpose, placing the verb at the end in the infinitive form.",
+        "explanationEl": "um...zu is used to express intent or purpose, placing the verb at the end in the infinitive form.",
+        "rules": [
+          {
+            "example": "Ich lerne Deutsch, um in Deutschland zu arbeiten.",
+            "translationAr": "تستخدم um...zu للتعبير عن الهدف أو الغاية من القيام بفعل ما، ويكون الفعل في النهاية بصيغة المصدر.",
+            "translationEn": "um...zu is used to express intent or purpose, placing the verb at the end in the infinitive form.",
+            "translationTr": "um...zu is used to express intent or purpose, placing the verb at the end in the infinitive form.",
+            "translationRo": "um...zu is used to express intent or purpose, placing the verb at the end in the infinitive form.",
+            "translationBs": "um...zu is used to express intent or purpose, placing the verb at the end in the infinitive form.",
+            "translationEs": "um...zu is used to express intent or purpose, placing the verb at the end in the infinitive form.",
+            "translationBg": "um...zu is used to express intent or purpose, placing the verb at the end in the infinitive form.",
+            "translationEl": "um...zu is used to express intent or purpose, placing the verb at the end in the infinitive form."
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "id": 2201,
+        "type": "mcq",
+        "questionDe": "Man treibt Sport, ___ fit zu bleiben.",
+        "questionAr": "Man treibt Sport, ___ fit zu bleiben.",
+        "questionEn": "Man treibt Sport, ___ fit zu bleiben.",
+        "questionTr": "Man treibt Sport, ___ fit zu bleiben.",
+        "questionRo": "Man treibt Sport, ___ fit zu bleiben.",
+        "questionBs": "Man treibt Sport, ___ fit zu bleiben.",
+        "questionEs": "Man treibt Sport, ___ fit zu bleiben.",
+        "questionBg": "Man treibt Sport, ___ fit zu bleiben.",
+        "questionEl": "Man treibt Sport, ___ fit zu bleiben.",
+        "options": [
+          {
+            "de": "um",
+            "ar": "um",
+            "en": "um",
+            "tr": "um",
+            "ro": "um",
+            "bs": "um",
+            "es": "um",
+            "bg": "um",
+            "el": "um"
+          },
+          {
+            "de": "damit",
+            "ar": "damit",
+            "en": "damit",
+            "tr": "damit",
+            "ro": "damit",
+            "bs": "damit",
+            "es": "damit",
+            "bg": "damit",
+            "el": "damit"
+          },
+          {
+            "de": "weil",
+            "ar": "weil",
+            "en": "weil",
+            "tr": "weil",
+            "ro": "weil",
+            "bs": "weil",
+            "es": "weil",
+            "bg": "weil",
+            "el": "weil"
+          }
+        ],
+        "answer": "um",
+        "hintDe": "A2 Grammatikregel",
+        "hintAr": "قاعدة A2 النحوية",
+        "hintEn": "A2 grammar rule",
+        "hintTr": "A2 dilbilgisi kuralı",
+        "hintRo": "regulă de gramatică A2",
+        "hintBs": "A2 gramatičko pravilo",
+        "hintEs": "regla gramatical A2",
+        "hintBg": "граматично правило A2",
+        "hintEl": "Γραμματικός κανόνας A2"
+      }
+    ],
+    "writing": {
+      "titleDe": "Umwelt und Klima",
+      "titleAr": "البيئة والمناخ",
+      "titleEn": "Environment and climate",
+      "titleTr": "Çevre ve iklim",
+      "titleRo": "Mediu și climă",
+      "titleBs": "Okoliš i klima",
+      "titleEs": "Medio ambiente y clima",
+      "titleBg": "Околна среда и климат",
+      "titleEl": "Περιβάλλον και κλίμα",
+      "promptAr": "اكتب موضوعاً عن البيئة والمناخ باللغة الألمانية.",
+      "promptEn": "Write a topic about Environment and climate in German.",
+      "promptTr": "Almanca olarak Çevre ve iklim hakkında bir konu yazın.",
+      "promptRo": "Scrieți un subiect despre Mediu și climă în germană.",
+      "promptBs": "Napišite temu o Okoliš i klima na njemačkom.",
+      "promptEs": "Escriba un tema sobre Medio ambiente y clima en alemán.",
+      "promptBg": "Напишете тема за Околна среда и климат на немски.",
+      "promptEl": "Γράψτε ένα θέμα για το Περιβάλλον και κλίμα στα γερμανικά."
+    },
+    "speaking": {
+      "promptAr": "أستطيع الحديث عن الطقس وأهمية حماية البيئة وإعادة التدوير.",
+      "promptEn": "I can talk about the weather, environmental protection, and recycling.",
+      "promptTr": "Hava durumu, çevre koruma ve geri dönüşüm hakkında konuşabilirim.",
+      "promptRo": "Pot vorbi despre vreme, protecția mediului și reciclare.",
+      "promptBs": "Mogu razgovarati o vremenu, zaštiti okoliša i recikliranju.",
+      "promptEs": "Puedo hablar sobre el clima, la protección del medio ambiente y el reciclaje.",
+      "promptBg": "Мога да говоря за времето, опазването на околната среда и рециклирането.",
+      "promptEl": "Μπορώ να μιλήσω για τον καιρό, την προστασία του περιβάλλοντος και την ανακύκλωση.",
+      "phrases": [
+        {
+          "de": "Ich lerne Deutsch, um in Deutschland zu arbeiten.",
+          "ar": "فرز النفايات مهم لإعادة استخدام المواد الخام القيمة وحماية البيئة."
+        }
+      ]
+    }
   },
   {
     "id": 23,
@@ -4850,14 +7254,46 @@ const CURRICULUM_A2 = [
     "titleBg": "Взаимоотношения",
     "titleEl": "Σχέσεις",
     "color": "#f43f5e",
-    "topics": ["العائلة والأصدقاء", "المشاعر والتعبير عنها", "الزواج والمناسبات"],
-    "topicsEn": ["Family and Friends", "Feelings and Expression", "Marriage and Celebrations"],
-    "topicsTr": ["Aile ve Arkadaşlar", "Duygular ve İfade", "Evlilik ve Kutlamalar"],
-    "topicsRo": ["Familie și prieteni", "Sentimente și exprimare", "Căsătorie și sărbători"],
-    "topicsBs": ["Porodica i prijatelji", "Osjećaji i izražavanje", "Brak i proslave"],
-    "topicsEs": ["Familia y amigos", "Sentimientos y expresión", "Matrimonio y celebraciones"],
-    "topicsBg": ["Семейство и приятели", "Чувства и изразяване", "Брак и празненства"],
-    "topicsEl": ["Οικογένεια και φίλοι", "Συναισθήματα και έκφραση", "Γάμος και εορτασμοί"],
+    "topics": [
+      "العائلة والأصدقاء",
+      "المشاعر والتعبير عنها",
+      "الزواج والمناسبات"
+    ],
+    "topicsEn": [
+      "Family and Friends",
+      "Feelings and Expression",
+      "Marriage and Celebrations"
+    ],
+    "topicsTr": [
+      "Aile ve Arkadaşlar",
+      "Duygular ve İfade",
+      "Evlilik ve Kutlamalar"
+    ],
+    "topicsRo": [
+      "Familie și prieteni",
+      "Sentimente și exprimare",
+      "Căsătorie și sărbători"
+    ],
+    "topicsBs": [
+      "Porodica i prijatelji",
+      "Osjećaji i izražavanje",
+      "Brak i proslave"
+    ],
+    "topicsEs": [
+      "Familia y amigos",
+      "Sentimientos y expresión",
+      "Matrimonio y celebraciones"
+    ],
+    "topicsBg": [
+      "Семейство и приятели",
+      "Чувства и изразяване",
+      "Брак и празненства"
+    ],
+    "topicsEl": [
+      "Οικογένεια και φίλοι",
+      "Συναισθήματα και έκφραση",
+      "Γάμος και εορτασμοί"
+    ],
     "canDo": "أستطيع التحدث عن العلاقات العائلية، ووصف مشاعري، وتهنئة الآخرين بالمناسبات.",
     "canDoEn": "I can talk about family relationships, describe my feelings, and congratulate others on special events.",
     "canDoTr": "Aile ilişkileri hakkında konuşabilir, duygularımı tanımlayabilir ve özel günlerde başkalarını tebrik edebilirim.",
@@ -4865,7 +7301,212 @@ const CURRICULUM_A2 = [
     "canDoBs": "Mogu razgovarati o porodičnim odnosima, opisati svoja osjećanja i čestitati drugima na posebnim događajima.",
     "canDoEs": "Puedo hablar de relaciones familiares, describir mis sentimientos y felicitar a otros en eventos especiales.",
     "canDoBg": "Мога да говоря за семейни отношения, да опиша чувствата си и да поздравя другите за специални събития.",
-    "canDoEl": "Μπορώ να μιλήσω για οικογενειακές σχέσεις, να περιγράψω τα συναισθήματά μου και να συγχαρώ άλλους σε ειδικές εκδηλώσεις."
+    "canDoEl": "Μπορώ να μιλήσω για οικογενειακές σχέσεις, να περιγράψω τα συναισθήματά μου και να συγχαρώ άλλους σε ειδικές εκδηλώσεις.",
+    "audio": [
+      {
+        "file": "Berliner Platz 2 neu/Berliner Platz 2 neu Audio/Berliner Platz 2 neu - A2 Lernbuch 19-24/- Track24.mp3",
+        "label": "23.1 - Hochzeitsfeier",
+        "labelAr": "حفل الزفاف",
+        "labelEn": "23.1 - Wedding celebration",
+        "labelTr": "23.1 - Wedding celebration",
+        "labelRo": "23.1 - Wedding celebration",
+        "labelBs": "23.1 - Wedding celebration",
+        "labelEs": "23.1 - Wedding celebration",
+        "labelBg": "23.1 - Wedding celebration",
+        "labelEl": "23.1 - Wedding celebration"
+      }
+    ],
+    "dialogs": [
+      {
+        "speaker": "Person A",
+        "text": "Familie ist mir sehr wichtig, weil wir uns gegenseitig in schweren Zeiten helfen.",
+        "translations": {
+          "ar": "العائلة مهمة جداً بالنسبة لي لأننا نساعد بعضنا البعض في الأوقات الصعبة.",
+          "en": "Family is very important to me because we help each other in difficult times.",
+          "tr": "Family is very important to me because we help each other in difficult times.",
+          "ro": "Family is very important to me because we help each other in difficult times.",
+          "bs": "Family is very important to me because we help each other in difficult times.",
+          "es": "Family is very important to me because we help each other in difficult times.",
+          "bg": "Family is very important to me because we help each other in difficult times.",
+          "el": "Family is very important to me because we help each other in difficult times."
+        }
+      }
+    ],
+    "readings": [
+      {
+        "titleDe": "Beziehungen",
+        "titleAr": "العلاقات",
+        "titleEn": "Relationships",
+        "titleTr": "İlişkiler",
+        "titleRo": "Relații",
+        "titleBs": "Veze / Odnosi",
+        "titleEs": "Relaciones",
+        "titleBg": "Взаимоотношения",
+        "titleEl": "Σχέσεις",
+        "textDe": "Familie ist mir sehr wichtig, weil wir uns gegenseitig in schweren Zeiten helfen.",
+        "translations": {
+          "ar": "العائلة مهمة جداً بالنسبة لي لأننا نساعد بعضنا البعض في الأوقات الصعبة.",
+          "en": "Family is very important to me because we help each other in difficult times.",
+          "tr": "Family is very important to me because we help each other in difficult times.",
+          "ro": "Family is very important to me because we help each other in difficult times.",
+          "bs": "Family is very important to me because we help each other in difficult times.",
+          "es": "Family is very important to me because we help each other in difficult times.",
+          "bg": "Family is very important to me because we help each other in difficult times.",
+          "el": "Family is very important to me because we help each other in difficult times."
+        },
+        "questions": [
+          {
+            "qDe": "Was ist das Thema?",
+            "qAr": "ما هو الموضوع؟",
+            "qEn": "What is the topic?",
+            "qTr": "Konu nedir?",
+            "qRo": "Care este subiectul?",
+            "qBs": "Koja je tema?",
+            "qEs": "¿Cuál es el tema?",
+            "qBg": "Каква е темата?",
+            "qEl": "Ποιο είναι το θέμα;",
+            "answerDe": "Beziehungen",
+            "answerAr": "العلاقات",
+            "answerEn": "Relationships",
+            "answerTr": "İlişkiler",
+            "answerRo": "Relații",
+            "answerBs": "Veze / Odnosi",
+            "answerEs": "Relaciones",
+            "answerBg": "Взаимоотношения",
+            "answerEl": "Σχέσεις"
+          }
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "titleDe": "Reziproke Pronomen (einander)",
+        "titleAr": "ضمائر التبادل (einander)",
+        "titleEn": "Reziproke Pronomen (einander)",
+        "titleTr": "Reziproke Pronomen (einander)",
+        "titleRo": "Reziproke Pronomen (einander)",
+        "titleBs": "Reziproke Pronomen (einander)",
+        "titleEs": "Reziproke Pronomen (einander)",
+        "titleBg": "Reziproke Pronomen (einander)",
+        "titleEl": "Reziproke Pronomen (einander)",
+        "explanationAr": "تستخدم einander للإشارة إلى أن الفعل متبادل وموجه بين طرفين أو أكثر.",
+        "explanationEn": "einander is used to indicate that the action is mutual between two or more parties.",
+        "explanationTr": "einander is used to indicate that the action is mutual between two or more parties.",
+        "explanationRo": "einander is used to indicate that the action is mutual between two or more parties.",
+        "explanationBs": "einander is used to indicate that the action is mutual between two or more parties.",
+        "explanationEs": "einander is used to indicate that the action is mutual between two or more parties.",
+        "explanationBg": "einander is used to indicate that the action is mutual between two or more parties.",
+        "explanationEl": "einander is used to indicate that the action is mutual between two or more parties.",
+        "rules": [
+          {
+            "example": "Sie helfen einander bei den Hausaufgaben.",
+            "translationAr": "تستخدم einander للإشارة إلى أن الفعل متبادل وموجه بين طرفين أو أكثر.",
+            "translationEn": "einander is used to indicate that the action is mutual between two or more parties.",
+            "translationTr": "einander is used to indicate that the action is mutual between two or more parties.",
+            "translationRo": "einander is used to indicate that the action is mutual between two or more parties.",
+            "translationBs": "einander is used to indicate that the action is mutual between two or more parties.",
+            "translationEs": "einander is used to indicate that the action is mutual between two or more parties.",
+            "translationBg": "einander is used to indicate that the action is mutual between two or more parties.",
+            "translationEl": "einander is used to indicate that the action is mutual between two or more parties."
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "id": 2301,
+        "type": "mcq",
+        "questionDe": "Sie lieben ___ und wollen heiraten.",
+        "questionAr": "Sie lieben ___ und wollen heiraten.",
+        "questionEn": "Sie lieben ___ und wollen heiraten.",
+        "questionTr": "Sie lieben ___ und wollen heiraten.",
+        "questionRo": "Sie lieben ___ und wollen heiraten.",
+        "questionBs": "Sie lieben ___ und wollen heiraten.",
+        "questionEs": "Sie lieben ___ und wollen heiraten.",
+        "questionBg": "Sie lieben ___ und wollen heiraten.",
+        "questionEl": "Sie lieben ___ und wollen heiraten.",
+        "options": [
+          {
+            "de": "einander",
+            "ar": "einander",
+            "en": "einander",
+            "tr": "einander",
+            "ro": "einander",
+            "bs": "einander",
+            "es": "einander",
+            "bg": "einander",
+            "el": "einander"
+          },
+          {
+            "de": "sich",
+            "ar": "sich",
+            "en": "sich",
+            "tr": "sich",
+            "ro": "sich",
+            "bs": "sich",
+            "es": "sich",
+            "bg": "sich",
+            "el": "sich"
+          },
+          {
+            "de": "uns",
+            "ar": "uns",
+            "en": "uns",
+            "tr": "uns",
+            "ro": "uns",
+            "bs": "uns",
+            "es": "uns",
+            "bg": "uns",
+            "el": "uns"
+          }
+        ],
+        "answer": "einander",
+        "hintDe": "A2 Grammatikregel",
+        "hintAr": "قاعدة A2 النحوية",
+        "hintEn": "A2 grammar rule",
+        "hintTr": "A2 dilbilgisi kuralı",
+        "hintRo": "regulă de gramatică A2",
+        "hintBs": "A2 gramatičko pravilo",
+        "hintEs": "regla gramatical A2",
+        "hintBg": "граматично правило A2",
+        "hintEl": "Γραμματικός κανόνας A2"
+      }
+    ],
+    "writing": {
+      "titleDe": "Beziehungen",
+      "titleAr": "العلاقات",
+      "titleEn": "Relationships",
+      "titleTr": "İlişkiler",
+      "titleRo": "Relații",
+      "titleBs": "Veze / Odnosi",
+      "titleEs": "Relaciones",
+      "titleBg": "Взаимоотношения",
+      "titleEl": "Σχέσεις",
+      "promptAr": "اكتب موضوعاً عن العلاقات باللغة الألمانية.",
+      "promptEn": "Write a topic about Relationships in German.",
+      "promptTr": "Almanca olarak İlişkiler hakkında bir konu yazın.",
+      "promptRo": "Scrieți un subiect despre Relații în germană.",
+      "promptBs": "Napišite temu o Veze / Odnosi na njemačkom.",
+      "promptEs": "Escriba un tema sobre Relaciones en alemán.",
+      "promptBg": "Напишете тема за Взаимоотношения на немски.",
+      "promptEl": "Γράψτε ένα θέμα για το Σχέσεις στα γερμανικά."
+    },
+    "speaking": {
+      "promptAr": "أستطيع التحدث عن العلاقات العائلية، ووصف مشاعري، وتهنئة الآخرين بالمناسبات.",
+      "promptEn": "I can talk about family relationships, describe my feelings, and congratulate others on special events.",
+      "promptTr": "Aile ilişkileri hakkında konuşabilir, duygularımı tanımlayabilir ve özel günlerde başkalarını tebrik edebilirim.",
+      "promptRo": "Pot vorbi despre relațiile de familie, îmi pot descrie sentimentele și pot felicita pe alții cu ocazia evenimentelor speciale.",
+      "promptBs": "Mogu razgovarati o porodičnim odnosima, opisati svoja osjećanja i čestitati drugima na posebnim događajima.",
+      "promptEs": "Puedo hablar de relaciones familiares, describir mis sentimientos y felicitar a otros en eventos especiales.",
+      "promptBg": "Мога да говоря за семейни отношения, да опиша чувствата си и да поздравя другите за специални събития.",
+      "promptEl": "Μπορώ να μιλήσω για οικογενειακές σχέσεις, να περιγράψω τα συναισθήματά μου και να συγχαρώ άλλους σε ειδικές εκδηλώσεις.",
+      "phrases": [
+        {
+          "de": "Sie helfen einander bei den Hausaufgaben.",
+          "ar": "العائلة مهمة جداً بالنسبة لي لأننا نساعد بعضنا البعض في الأوقات الصعبة."
+        }
+      ]
+    }
   },
   {
     "id": 24,
@@ -4880,14 +7521,46 @@ const CURRICULUM_A2 = [
     "titleBg": "Политика и общество",
     "titleEl": "Πολιτική και κοινωνία",
     "color": "#6b7280",
-    "topics": ["الدولة والمؤسسات", "القوانين والحقوق", "المشاركة المجتمعية"],
-    "topicsEn": ["State and Institutions", "Laws and Rights", "Civic Participation"],
-    "topicsTr": ["Devlet ve Kurumlar", "Yasalar ve Haklar", "Sivil Katılım"],
-    "topicsRo": ["Statul și instituțiile", "Legi și drepturi", "Participare civică"],
-    "topicsBs": ["Država i institucije", "Zakoni i prava", "Građansko učešće"],
-    "topicsEs": ["Estado e instituciones", "Leyes y derechos", "Participación ciudadana"],
-    "topicsBg": ["Държава и институции", "Закони и права", "Гражданско участие"],
-    "topicsEl": ["Κράτος και θεσμοί", "Νόμοι και δικαιώματα", "Συμμετοχή στα κοινά"],
+    "topics": [
+      "الدولة والمؤسسات",
+      "القوانين والحقوق",
+      "المشاركة المجتمعية"
+    ],
+    "topicsEn": [
+      "State and Institutions",
+      "Laws and Rights",
+      "Civic Participation"
+    ],
+    "topicsTr": [
+      "Devlet ve Kurumlar",
+      "Yasalar ve Haklar",
+      "Sivil Katılım"
+    ],
+    "topicsRo": [
+      "Statul și instituțiile",
+      "Legi și drepturi",
+      "Participare civică"
+    ],
+    "topicsBs": [
+      "Država i institucije",
+      "Zakoni i prava",
+      "Građansko učešće"
+    ],
+    "topicsEs": [
+      "Estado e instituciones",
+      "Leyes y derechos",
+      "Participación ciudadana"
+    ],
+    "topicsBg": [
+      "Държава и институции",
+      "Закони и права",
+      "Гражданско участие"
+    ],
+    "topicsEl": [
+      "Κράτος και θεσμοί",
+      "Νόμοι και δικαιώματα",
+      "Συμμετοχή στα κοινά"
+    ],
     "canDo": "أستطيع فهم المبادئ السياسية الأساسية وحقوق المواطنة والواجبات الاجتماعية.",
     "canDoEn": "I can understand basic political principles, citizenship rights, and social responsibilities.",
     "canDoTr": "Temel siyasi ilkeleri, vatandaşlık haklarını ve sosyal sorumlulukları anlayabilirim.",
@@ -4895,7 +7568,211 @@ const CURRICULUM_A2 = [
     "canDoBs": "Mogu razumjeti osnovne političke principe, građanska prava i društvene odgovornosti.",
     "canDoEs": "Puedo entender principios políticos básicos, derechos de ciudadanía y responsabilidades sociales.",
     "canDoBg": "Мога да разбера основните политически принципи, правата на гражданство и социалните отговорности.",
-    "canDoEl": "Μπορώ να κατανοήσω βασικές πολιτικές αρχές, δικαιώματα του πολίτη και κοινωνικές ευθύνες."
+    "canDoEl": "Μπορώ να κατανοήσω βασικές πολιτικές αρχές, δικαιώματα του πολίτη και κοινωνικές ευθύνες.",
+    "audio": [
+      {
+        "file": "Berliner Platz 2 neu/Berliner Platz 2 neu Audio/Berliner Platz 2 neu - A2 Lernbuch 19-24/- Track30.mp3",
+        "label": "24.1 - Das Wahlsystem",
+        "labelAr": "النظام الانتخابي",
+        "labelEn": "24.1 - The voting system",
+        "labelTr": "24.1 - The voting system",
+        "labelRo": "24.1 - The voting system",
+        "labelBs": "24.1 - The voting system",
+        "labelEs": "24.1 - The voting system",
+        "labelBg": "24.1 - The voting system",
+        "labelEl": "24.1 - The voting system"
+      }
+    ],
+    "dialogs": [
+      {
+        "speaker": "Person A",
+        "text": "Jeder Bürger hat das Recht zu wählen und die Demokratie im Land zu unterstützen.",
+        "translations": {
+          "ar": "كل مواطن له الحق في الانتخاب ودعم الديمقراطية في البلاد.",
+          "en": "Every citizen has the right to vote and support democracy in the country.",
+          "tr": "Every citizen has the right to vote and support democracy in the country.",
+          "ro": "Every citizen has the right to vote and support democracy in the country.",
+          "bs": "Every citizen has the right to vote and support democracy in the country.",
+          "es": "Every citizen has the right to vote and support democracy in the country.",
+          "bg": "Every citizen has the right to vote and support democracy in the country.",
+          "el": "Every citizen has the right to vote and support democracy in the country."
+        }
+      }
+    ],
+    "readings": [
+      {
+        "titleDe": "Politik und Gesellschaft",
+        "titleAr": "السياسة والمجتمع",
+        "titleEn": "Politics and society",
+        "titleTr": "Politika ve toplum",
+        "titleRo": "Politică și societate",
+        "titleBs": "Politika i društvo",
+        "titleEs": "Política y sociedad",
+        "titleBg": "Политика и общество",
+        "titleEl": "Πολιτική και κοινωνία",
+        "textDe": "Jeder Bürger hat das Recht zu wählen und die Demokratie im Land zu unterstützen.",
+        "translations": {
+          "ar": "كل مواطن له الحق في الانتخاب ودعم الديمقراطية في البلاد.",
+          "en": "Every citizen has the right to vote and support democracy in the country.",
+          "tr": "Every citizen has the right to vote and support democracy in the country.",
+          "ro": "Every citizen has the right to vote and support democracy in the country.",
+          "bs": "Every citizen has the right to vote and support democracy in the country.",
+          "es": "Every citizen has the right to vote and support democracy in the country.",
+          "bg": "Every citizen has the right to vote and support democracy in the country.",
+          "el": "Every citizen has the right to vote and support democracy in the country."
+        },
+        "questions": [
+          {
+            "qDe": "Was ist das Thema?",
+            "qAr": "ما هو الموضوع؟",
+            "qEn": "What is the topic?",
+            "qTr": "Konu nedir?",
+            "qRo": "Care este subiectul?",
+            "qBs": "Koja je tema?",
+            "qEs": "¿Cuál es el tema?",
+            "qBg": "Каква е темата?",
+            "qEl": "Ποιο είναι το θέμα;",
+            "answerDe": "Politik und Gesellschaft",
+            "answerAr": "السياسة والمجتمع",
+            "answerEn": "Politics and society",
+            "answerTr": "Politika ve toplum",
+            "answerRo": "Politică și societate",
+            "answerBs": "Politika i društvo",
+            "answerEs": "Política y sociedad",
+            "answerBg": "Политика и общество",
+            "answerEl": "Πολιτική και κοινωνία"
+          }
+        ]
+      }
+    ],
+    "grammar": [
+      {
+        "titleDe": "Passiv Präsens",
+        "titleAr": "المبني للمجهول في المضارع",
+        "titleEn": "Passiv Präsens",
+        "titleTr": "Passiv Präsens",
+        "titleRo": "Passiv Präsens",
+        "titleBs": "Passiv Präsens",
+        "titleEs": "Passiv Präsens",
+        "titleBg": "Passiv Präsens",
+        "titleEl": "Passiv Präsens",
+        "explanationAr": "يتكون المبني للمجهول (Passiv) من الفعل werden المصرف مع اسم المفعول Partizip II في نهاية الجملة.",
+        "explanationEn": "The passive voice (Passiv) is formed with the auxiliary werden and the past participle (Partizip II) at the end.",
+        "explanationTr": "The passive voice (Passiv) is formed with the auxiliary werden and the past participle (Partizip II) at the end.",
+        "explanationRo": "The passive voice (Passiv) is formed with the auxiliary werden and the past participle (Partizip II) at the end.",
+        "explanationBs": "The passive voice (Passiv) is formed with the auxiliary werden and the past participle (Partizip II) at the end.",
+        "explanationEs": "The passive voice (Passiv) is formed with the auxiliary werden and the past participle (Partizip II) at the end.",
+        "explanationBg": "The passive voice (Passiv) is formed with the auxiliary werden and the past participle (Partizip II) at the end.",
+        "explanationEl": "The passive voice (Passiv) is formed with the auxiliary werden and the past participle (Partizip II) at the end.",
+        "rules": [
+          {
+            "example": "Der Müll wird sortiert. (von uns)",
+            "translationAr": "يتكون المبني للمجهول (Passiv) من الفعل werden المصرف مع اسم المفعول Partizip II في نهاية الجملة.",
+            "translationEn": "The passive voice (Passiv) is formed with the auxiliary werden and the past participle (Partizip II) at the end.",
+            "translationTr": "The passive voice (Passiv) is formed with the auxiliary werden and the past participle (Partizip II) at the end.",
+            "translationRo": "The passive voice (Passiv) is formed with the auxiliary werden and the past participle (Partizip II) at the end.",
+            "translationBs": "The passive voice (Passiv) is formed with the auxiliary werden and the past participle (Partizip II) at the end.",
+            "translationEs": "The passive voice (Passiv) is formed with the auxiliary werden and the past participle (Partizip II) at the end.",
+            "translationBg": "The passive voice (Passiv) is formed with the auxiliary werden and the past participle (Partizip II) at the end.",
+            "translationEl": "The passive voice (Passiv) is formed with the auxiliary werden and the past participle (Partizip II) at the end."
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "id": 2401,
+        "type": "mcq",
+        "questionDe": "Hier ___ Deutsch gesprochen.",
+        "questionAr": "Hier ___ Deutsch gesprochen.",
+        "questionEn": "Hier ___ Deutsch gesprochen.",
+        "questionTr": "Hier ___ Deutsch gesprochen.",
+        "questionRo": "Hier ___ Deutsch gesprochen.",
+        "questionBs": "Hier ___ Deutsch gesprochen.",
+        "questionEs": "Hier ___ Deutsch gesprochen.",
+        "questionBg": "Hier ___ Deutsch gesprochen.",
+        "questionEl": "Hier ___ Deutsch gesprochen.",
+        "options": [
+          {
+            "de": "wird",
+            "ar": "wird",
+            "en": "wird",
+            "tr": "wird",
+            "ro": "wird",
+            "bs": "wird",
+            "es": "wird",
+            "bg": "wird",
+            "el": "wird"
+          },
+          {
+            "de": "werden",
+            "ar": "werden",
+            "en": "werden",
+            "tr": "werden",
+            "ro": "werden",
+            "bs": "werden",
+            "es": "werden",
+            "bg": "werden",
+            "el": "werden"
+          },
+          {
+            "de": "ist",
+            "ar": "ist",
+            "en": "ist",
+            "tr": "ist",
+            "ro": "ist",
+            "bs": "ist",
+            "es": "ist",
+            "bg": "ist",
+            "el": "ist"
+          }
+        ],
+        "answer": "wird",
+        "hintDe": "A2 Grammatikregel",
+        "hintAr": "قاعدة A2 النحوية",
+        "hintEn": "A2 grammar rule",
+        "hintTr": "A2 dilbilgisi kuralı",
+        "hintRo": "regulă de gramatică A2",
+        "hintBs": "A2 gramatičko pravilo",
+        "hintEs": "regla gramatical A2",
+        "hintBg": "граматично правило A2",
+        "hintEl": "Γραμματικός κανόνας A2"
+      }
+    ],
+    "writing": {
+      "titleDe": "Politik und Gesellschaft",
+      "titleAr": "السياسة والمجتمع",
+      "titleEn": "Politics and society",
+      "titleTr": "Politika ve toplum",
+      "titleRo": "Politică și societate",
+      "titleBs": "Politika i društvo",
+      "titleEs": "Política y sociedad",
+      "titleBg": "Политика и общество",
+      "titleEl": "Πολιτική και κοινωνία",
+      "promptAr": "اكتب موضوعاً عن السياسة والمجتمع باللغة الألمانية.",
+      "promptEn": "Write a topic about Politics and society in German.",
+      "promptTr": "Almanca olarak Politika ve toplum hakkında bir konu yazın.",
+      "promptRo": "Scrieți un subiect despre Politică și societate în germană.",
+      "promptBs": "Napišite temu o Politika i društvo na njemačkom.",
+      "promptEs": "Escriba un tema sobre Política y sociedad en alemán.",
+      "promptBg": "Напишете тема за Политика и общество на немски.",
+      "promptEl": "Γράψτε ένα θέμα για το Πολιτική και κοινωνία στα γερμανικά."
+    },
+    "speaking": {
+      "promptAr": "أستطيع فهم المبادئ السياسية الأساسية وحقوق المواطنة والواجبات الاجتماعية.",
+      "promptEn": "I can understand basic political principles, citizenship rights, and social responsibilities.",
+      "promptTr": "Temel siyasi ilkeleri, vatandaşlık haklarını ve sosyal sorumlulukları anlayabilirim.",
+      "promptRo": "Pot înțelege principiile politice de bază, drepturile de cetățenie și responsabilitățile sociale.",
+      "promptBs": "Mogu razumjeti osnovne političke principe, građanska prava i društvene odgovornosti.",
+      "promptEs": "Puedo entender principios políticos básicos, derechos de ciudadanía y responsabilidades sociales.",
+      "promptBg": "Мога да разбера основните политически принципи, правата на гражданство и социалните отговорности.",
+      "promptEl": "Μπορώ να κατανοήσω βασικές πολιτικές αρχές, δικαιώματα του πολίτη και κοινωνικές ευθύνες.",
+      "phrases": [
+        {
+          "de": "Der Müll wird sortiert. (von uns)",
+          "ar": "كل مواطن له الحق في الانتخاب ودعم الديمقراطية في البلاد."
+        }
+      ]
+    }
   }
 ];
-

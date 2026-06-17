@@ -28,8 +28,9 @@ function buildQuizSelection() {
   if (!container) return;
 
   const saved = getSavedProgress();
+  const list = (currentLevel === 'A2' && typeof CURRICULUM_A2 !== 'undefined') ? CURRICULUM_A2 : CURRICULUM;
 
-  container.innerHTML = CURRICULUM.map(ch => {
+  container.innerHTML = list.map(ch => {
     const best = saved.quizScores?.[ch.id] || 0;
     const stars = best >= 80 ? '⭐⭐⭐' : best >= 60 ? '⭐⭐' : best >= 40 ? '⭐' : '';
     const chapterTitle = getChapterTitle(ch);
@@ -48,12 +49,13 @@ function buildQuizSelection() {
 
 // ── Generate Questions for Chapter ─────────────────────────
 function generateQuizQuestions(chapterId) {
-  const ch = CURRICULUM.find(c => c.id === chapterId);
+  const list = (currentLevel === 'A2' && typeof CURRICULUM_A2 !== 'undefined') ? CURRICULUM_A2 : CURRICULUM;
+  const ch = list.find(c => c.id === chapterId);
   if (!ch) return [];
 
   const questions = [];
   const chVocab = VOCABULARY.filter(v => v.ch === chapterId);
-  const allVocab = VOCABULARY;
+  const allVocab = (currentLevel === 'A2') ? VOCABULARY.filter(v => v.ch >= 13) : VOCABULARY.filter(v => v.ch <= 12);
 
   // Q1-Q3: Vocabulary MCQ (German → Translation)
   const shuffledVocab = shuffle([...chVocab]).slice(0, 5);
@@ -391,7 +393,8 @@ function showQuizResults() {
   else if (pct >= 50) msg = getTranslation('quiz_msg_passing', 'جيد! راجع المفردات الضعيفة 📚');
   else msg = getTranslation('quiz_msg_fail', 'راجع الوحدة مرة أخرى 💪');
 
-  const chData = CURRICULUM.find(c => c.id === quizState.chapter);
+  const list = (currentLevel === 'A2' && typeof CURRICULUM_A2 !== 'undefined') ? CURRICULUM_A2 : CURRICULUM;
+  const chData = list.find(c => c.id === quizState.chapter);
   const chName = getChapterTitle(chData);
 
   const summaryText = getTranslation('quiz_result_summary')
