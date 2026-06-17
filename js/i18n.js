@@ -317,7 +317,11 @@ const TRANSLATIONS = {
     level_modal_title: "اختر مستوى التعلم الخاص بك",
     level_modal_subtitle: "للبدء، يرجى تحديد المستوى الدراسي الذي ترغب في مراجعته أو دراسته:",
     level_a2_coming_soon: "المحتوى الخاص بالمستوى A2 (الوحدات 13-24) قيد التطوير حالياً وسنعمل على إطلاقه قريباً. يرجى استخدام المستوى A1 بالوقت الحالي.",
-    back_to_a1: "💡 العودة إلى المستوى A1"
+    back_to_a1: "💡 العودة إلى المستوى A1",
+    nav_library: "الكتب الدراسية",
+    library_title: "الكتب الدراسية - Lehrbücher",
+    library_subtitle: "تحميل وقراءة الكتب المنهجية والمواد المساعدة لـ Berliner Platz",
+    library_download: "فتح / تحميل 📥"
   },
   en: {
     // Sidebar
@@ -633,7 +637,11 @@ const TRANSLATIONS = {
     level_modal_title: "Select your learning level",
     level_modal_subtitle: "To get started, please choose the level you want to study:",
     level_a2_coming_soon: "Level A2 content (Chapters 13-24) is currently under construction. Please use Level A1 in the meantime.",
-    back_to_a1: "💡 Go back to Level A1"
+    back_to_a1: "💡 Go back to Level A1",
+    nav_library: "Textbooks",
+    library_title: "Textbooks - Lehrbücher",
+    library_subtitle: "Download and read textbooks and supplementary materials for Berliner Platz",
+    library_download: "Open / Download 📥"
   },
   tr: {
     // Sidebar
@@ -949,7 +957,11 @@ const TRANSLATIONS = {
     level_modal_title: "Öğrenme seviyenizi seçin",
     level_modal_subtitle: "Başlamak için lütfen çalışmak istediğiniz seviyeyi seçin:",
     level_a2_coming_soon: "A2 seviyesi içeriği (13-24. Üniteler) şu anda yapım aşamasındadır. Lütfen şimdilik A1 seviyesini kullanın.",
-    back_to_a1: "💡 A1 Seviyesine Geri Dön"
+    back_to_a1: "💡 A1 Seviyesine Geri Dön",
+    nav_library: "Ders Kitapları",
+    library_title: "Ders Kitapları - Lehrbücher",
+    library_subtitle: "Berliner Platz ders kitaplarını ve ek materyallerini indirin ve okuyun",
+    library_download: "Aç / İndir 📥"
   },
   ro: {
   "main_menu": "Meniul principal",
@@ -1238,7 +1250,11 @@ const TRANSLATIONS = {
   "level_modal_title": "Selectează nivelul de învățare",
   "level_modal_subtitle": "Pentru a începe, selectați nivelul de studiu dorit:",
   "level_a2_coming_soon": "Conținutul pentru Nivelul A2 (Capitolele 13-24) este în prezent în curs de dezvoltare. Vă rugăm să folosiți Nivelul A1 între timp.",
-  "back_to_a1": "💡 Înapoi la Nivelul A1"
+  "back_to_a1": "💡 Înapoi la Nivelul A1",
+    "nav_library": "Manuale",
+    "library_title": "Manuale - Lehrbücher",
+    "library_subtitle": "Descărcați și citiți manualele și materialele suplimentare pentru Berliner Platz",
+    "library_download": "Deschide / Descarcă 📥"
 },
   bs: {
     // Sidebar
@@ -1552,7 +1568,11 @@ const TRANSLATIONS = {
     level_modal_title: "Odaberite nivo učenja",
     level_modal_subtitle: "Za početak, odaberite nivo koji želite učiti:",
     level_a2_coming_soon: "Sadržaj za Nivo A2 (poglavlja 13-24) je trenutno u fazi izrade. Molimo vas da za sada koristite Nivo A1.",
-    back_to_a1: "💡 Vrati se na Nivo A1"
+    back_to_a1: "💡 Vrati se na Nivo A1",
+    nav_library: "Udžbenici",
+    library_title: "Udžbenici - Lehrbücher",
+    library_subtitle: "Preuzmite i čitajte udžbenike i dodatne materijale za Berliner Platz",
+    library_download: "Otvori / Preuzmi 📥"
   },
   es: {
     main_menu: "Menú Principal", chapters_menu: "Capítulos - Kapitel", nav_home: "Inicio",
@@ -1702,7 +1722,11 @@ const TRANSLATIONS = {
     level_modal_title: "Selecciona tu nivel de aprendizaje",
     level_modal_subtitle: "Para comenzar, elige el nivel que deseas estudiar:",
     level_a2_coming_soon: "El contenido del Nivel A2 (capítulos 13-24) está actualmente en desarrollo. Utiliza el Nivel A1 por el momento.",
-    back_to_a1: "💡 Volver al Nivel A1"
+    back_to_a1: "💡 Volver al Nivel A1",
+    nav_library: "Libros de texto",
+    library_title: "Libros de texto - Lehrbücher",
+    library_subtitle: "Descarga y lee los libros de texto y materiales complementarios de Berliner Platz",
+    library_download: "Abrir / Descargar 📥"
   },
   bg: {
     main_menu: "Главно Меню", chapters_menu: "Глави - Kapitel", nav_home: "Начало",
@@ -1849,7 +1873,11 @@ const TRANSLATIONS = {
     level_modal_title: "Изберете ниво на обучение",
     level_modal_subtitle: "За да започнете, моля изберете нивото, което искате да учите:",
     level_a2_coming_soon: "Съдържанието за Ниво A2 (Глави 13-24) в момента се разработва. Моля, използвайте Ниво A1 междувременно.",
-    back_to_a1: "💡 Обратно към Ниво A1"
+    back_to_a1: "💡 Обратно към Ниво A1",
+    nav_library: "Учебници",
+    library_title: "Учебници - Lehrbücher",
+    library_subtitle: "Изтеглете и прочетете учебниците и допълнителните материали за Berliner Platz",
+    library_download: "Отвори / Изтегли 📥"
   },
   el: {
     main_menu: "Κύριο Μενού", chapters_menu: "Κεφάλαια - Kapitel", nav_home: "Αρχική",
@@ -1995,7 +2023,11 @@ const TRANSLATIONS = {
     level_modal_title: "Επιλέξτε επίπεδο εκμάθησης",
     level_modal_subtitle: "Για να ξεκινήσετε, επιλέξτε το επίπεδο που θέλετε να μελετήσετε:",
     level_a2_coming_soon: "Το περιεχόμενο του Επιπέδου A2 (Κεφάλαια 13-24) είναι υπό κατασκευή. Παρακαλούμε χρησιμοποιήστε το Επίπεδο A1 προς το παρόν.",
-    back_to_a1: "💡 Επιστροφή στο Επίπεδο A1"
+    back_to_a1: "💡 Επιστροφή στο Επίπεδο A1",
+    nav_library: "Εγχειρίδια",
+    library_title: "Εγχειρίδια - Lehrbücher",
+    library_subtitle: "Κατεβάστε και διαβάστε τα εγχειρίδια και το συμπληρωματικό υλικό για το Berliner Platz",
+    library_download: "Άνοιγμα / Λήψη 📥"
   }
 };
 
