@@ -1,7 +1,3 @@
-// ============================================================
-// CONVERSATION TRANSLATIONS DATABASE - Multilingual
-// ============================================================
-
 const CONVERSATION_TRANSLATIONS = {
   "en": {
     "1": {
@@ -550,6 +546,141 @@ const CONVERSATION_TRANSLATIONS = {
           "options": [
             "Here are 30 Euros. Keep the change!",
             "Keep the change. Make it 30 Euros."
+          ]
+        }
+      ]
+    },
+    "13": {
+      "title": "Visit your family doctor and explain your symptoms",
+      "turns": [
+        {
+          "text": "Good day! What seems to be the problem?"
+        },
+        {
+          "prompt": "Greet the doctor and say that you are sick with a headache and sore throat.",
+          "options": [
+            "Good day, doctor! I feel very sick. I have a severe headache and sore throat.",
+            "Hello doctor. I have a headache and sore throat."
+          ]
+        },
+        {
+          "text": "Do you also have a fever? Since when do you have these symptoms?"
+        },
+        {
+          "prompt": "Tell him you have a mild fever (38.5) for two days.",
+          "options": [
+            "Yes, I have a mild fever, about 38.5 degrees. I've had this for two days.",
+            "I have a fever. 38.5 degrees for two days."
+          ]
+        },
+        {
+          "text": "That sounds like a cold. I will write you a prescription. You should sleep a lot and drink water."
+        },
+        {
+          "prompt": "Thank the doctor and ask him when you should take the medicine.",
+          "options": [
+            "Thank you very much! How many times a day should I take the medicine?",
+            "Thank you. When do I have to take the medicine?"
+          ]
+        },
+        {
+          "text": "Take the tablets three times a day after meals. Get well soon!"
+        },
+        {
+          "prompt": "Thank the doctor again and say goodbye.",
+          "options": [
+            "Thank you very much, doctor! Goodbye!",
+            "Thank you! Bye!"
+          ]
+        }
+      ]
+    },
+    "14": {
+      "title": "Job interview and talk about skills",
+      "turns": [
+        {
+          "text": "Good day! Please tell me something about your professional experience."
+        },
+        {
+          "prompt": "Say that you worked as a software developer for three years at a tech company.",
+          "options": [
+            "Good day! I worked as a software developer for three years at a large IT company.",
+            "I worked as a programmer for three years."
+          ]
+        },
+        {
+          "text": "That's interesting. Why are you applying to us?"
+        },
+        {
+          "prompt": "Express your desire to work for them because the work environment is excellent and offers flexible hours.",
+          "options": [
+            "I would like to work for you because your company offers a very good working atmosphere and flexible working hours.",
+            "Your company is very good. I want to have flexible hours."
+          ]
+        },
+        {
+          "text": "We are looking for someone with good English skills. Do you speak English?"
+        },
+        {
+          "prompt": "Confirm that you speak fluent English and are currently studying German.",
+          "options": [
+            "Yes, I speak fluent English and am currently studying German diligently for A2 level.",
+            "Yes, my English is very good and I am learning German."
+          ]
+        },
+        {
+          "text": "That sounds excellent! We will get in touch with you next week."
+        },
+        {
+          "prompt": "Express your thanks and wish them a nice day.",
+          "options": [
+            "Thank you very much for the interview! I wish you a nice day!",
+            "Thank you! Have a nice day!"
+          ]
+        }
+      ]
+    },
+    "15": {
+      "title": "Talk about a past vacation and travel experience",
+      "turns": [
+        {
+          "text": "Hello! Where did you travel to in your last vacation?"
+        },
+        {
+          "prompt": "Tell him you traveled to Munich with your family by car.",
+          "options": [
+            "Hello! On my last vacation I traveled to Munich with my family. We went by car.",
+            "I went with my family to Munich."
+          ]
+        },
+        {
+          "text": "Munich is beautiful! What did you do there?"
+        },
+        {
+          "prompt": "Say that you visited the English Garden and had a picnic there.",
+          "options": [
+            "We visited many sights and had a picnic in the English Garden.",
+            "We saw the English Garden and ate there."
+          ]
+        },
+        {
+          "text": "Great! How was the German food? Did you like it?"
+        },
+        {
+          "prompt": "Answer that the food was very delicious, especially the Schnitzel.",
+          "options": [
+            "Yes, the German food was really delicious, especially the Schnitzel tasted great to us!",
+            "The food was good. The Schnitzel was delicious."
+          ]
+        },
+        {
+          "text": "I'm glad! It must have been an unforgettable trip."
+        },
+        {
+          "prompt": "Agree with him and say it was a great experience.",
+          "options": [
+            "Yes, absolutely! The trip was an unforgettable experience for all of us.",
+            "Yes, that was a great experience."
           ]
         }
       ]
@@ -1105,6 +1236,141 @@ const CONVERSATION_TRANSLATIONS = {
           ]
         }
       ]
+    },
+    "13": {
+      "title": "Bir butikten kıyafet alışverişi",
+      "turns": [
+        {
+          "text": "İyi günler! Yardımcı olabilir miyim?"
+        },
+        {
+          "prompt": "Görevliyi selamlayın ve mavi bir ceket aradığınızı söyleyin.",
+          "options": [
+            "İyi günler! Evet lütfen. Mavi bir ceket arıyorum.",
+            "Merhaba! Mavi ceketiniz var mı?"
+          ]
+        },
+        {
+          "text": "Kaç beden giyiyorsun?"
+        },
+        {
+          "prompt": "Ona genellikle M beden giydiğinizi söyleyin ve deneyip deneyemeyeceğinizi sorun.",
+          "options": [
+            "Genelde M beden giyiyorum. Bunu deneyebilir miyim?",
+            "M beden. Bunu nerede deneyebilirim?"
+          ]
+        },
+        {
+          "text": "Evet elbette. Soyunma odası arka tarafta. Ceket nasıl oluyor?"
+        },
+        {
+          "prompt": "Diyelim ki ceket tam oldu ama fiyatı biraz yüksek buluyorsunuz ve indirim var mı diye soruyorsunuz.",
+          "options": [
+            "Ceket tam oldu ama fiyatı biraz yüksek buldum. İndirim var mı?",
+            "İyi uyuyor, ancak pahalı. İndirim var mı?"
+          ]
+        },
+        {
+          "text": "Bugün tüm ceketlerde %10 indirimimiz var. Rengi de sana çok yakışıyor!"
+        },
+        {
+          "prompt": "Mutluluğunuzu ifade edin, alacağınızı söyleyin ve kasada ödeyin.",
+          "options": [
+            "Süper! O zaman onu alacağım. Ödemeyi kasada yapacağım.",
+            "Bu harika! Ceketi satın alacağım."
+          ]
+        }
+      ]
+    },
+    "14": {
+      "title": "İş görüşmesi ve beceriler hakkında konuşma",
+      "turns": [
+        {
+          "text": "İyi günler! Lütfen bana mesleki deneyiminiz hakkında bir şeyler söyleyin."
+        },
+        {
+          "prompt": "Bir teknoloji şirketinde üç yıl yazılım geliştirici olarak çalıştığınızı varsayalım.",
+          "options": [
+            "İyi günler! Büyük bir bilişim şirketinde üç yıl yazılım geliştirici olarak çalıştım.",
+            "Üç yıl programcı olarak çalıştım."
+          ]
+        },
+        {
+          "text": "İlginç. Neden bize başvuruyorsunuz?"
+        },
+        {
+          "prompt": "Çalışma ortamının mükemmel olması ve esnek çalışma saatleri sunması nedeniyle onlar için çalışma arzunuzu ifade edin.",
+          "options": [
+            "Sizinle çalışmak isterim çünkü şirketiniz çok iyi bir çalışma ortamı ve esnek çalışma saatleri sunuyor.",
+            "Şirketiniz çok iyi. Esnek çalışma saatlerine sahip olmak istiyorum."
+          ]
+        },
+        {
+          "text": "İyi derecede İngilizce bilen birini arıyoruz. İngilizce biliyor musunuz?"
+        },
+        {
+          "prompt": "Akıcı İngilizce konuştuğunuzu ve şu anda Almanca öğrenmekte olduğunuzu doğrulayın.",
+          "options": [
+            "Evet, akıcı İngilizce konuşuyorum ve şu anda A2 seviyesi için özenle Almanca çalışıyorum.",
+            "Evet İngilizcem çok iyi ve Almanca öğreniyorum."
+          ]
+        },
+        {
+          "text": "Kulağa mükemmel geliyor! Gelecek hafta sizinle iletişime geçeceğiz."
+        },
+        {
+          "prompt": "Teşekkürlerinizi iletin ve onlara iyi günler dileyin.",
+          "options": [
+            "Röportaj için çok teşekkür ederim! Size güzel bir gün diliyorum!",
+            "Teşekkür ederim! İyi günler!"
+          ]
+        }
+      ]
+    },
+    "15": {
+      "title": "Geçmiş bir tatil ve seyahat deneyimi hakkında konuşun",
+      "turns": [
+        {
+          "text": "Merhaba! Son tatilinizde nereye seyahat ettiniz?"
+        },
+        {
+          "prompt": "Ona ailenizle birlikte arabayla Münih'e gittiğinizi söyleyin.",
+          "options": [
+            "Merhaba! Son tatilimde ailemle birlikte Münih'e gittim. Arabayla gittik.",
+            "Ailemle birlikte Münih'e gittim."
+          ]
+        },
+        {
+          "text": "Münih çok güzel! Orada ne yaptın?"
+        },
+        {
+          "prompt": "Diyelim ki İngiliz Bahçesi'ni ziyaret ettiniz ve orada piknik yaptınız.",
+          "options": [
+            "Birçok turistik yeri ziyaret ettik ve İngiliz Bahçesi'nde piknik yaptık.",
+            "İngiliz Bahçesi'ni gördük ve orada yemek yedik."
+          ]
+        },
+        {
+          "text": "Harika! Alman yemekleri nasıldı? Hoşuna gitti mi?"
+        },
+        {
+          "prompt": "Yemeğin çok lezzetli olduğunu, özellikle de Schnitzel'in olduğunu söyleyin.",
+          "options": [
+            "Evet, Alman yemekleri gerçekten çok lezzetliydi, özellikle Schnitzel bize çok lezzetli geldi!",
+            "Yemek iyiydi. Schnitzel çok lezzetliydi."
+          ]
+        },
+        {
+          "text": "Memnun oldum! Unutulmaz bir gezi olsa gerek."
+        },
+        {
+          "prompt": "Onunla aynı fikirdeyim ve bunun harika bir deneyim olduğunu söylüyorum.",
+          "options": [
+            "Evet, kesinlikle! Gezi hepimiz için unutulmaz bir deneyimdi.",
+            "Evet, bu harika bir deneyimdi."
+          ]
+        }
+      ]
     }
   },
   "ro": {
@@ -1654,6 +1920,141 @@ const CONVERSATION_TRANSLATIONS = {
           "options": [
             "Aici sunt 30 de euro. Păstrați restul!",
             "Păstrați restul. Fă-o 30 de euro."
+          ]
+        }
+      ]
+    },
+    "13": {
+      "title": "Cumpărături pentru haine într-un butic",
+      "turns": [
+        {
+          "text": "Bună ziua! Vă pot ajuta?"
+        },
+        {
+          "prompt": "Salutați funcționarul și spuneți că sunteți în căutarea unui sacou albastru.",
+          "options": [
+            "Bună ziua! Da, te rog. Caut o jacheta albastra.",
+            "Buna ziua! Aveți jachete în albastru?"
+          ]
+        },
+        {
+          "text": "Ce marime porti?"
+        },
+        {
+          "prompt": "Spune-i că porți de obicei mărimea M și întreabă-l dacă o poți încerca.",
+          "options": [
+            "De obicei port mărimea M. Pot să-l încerc pe acesta?",
+            "Mărimea M. Unde pot încerca asta?"
+          ]
+        },
+        {
+          "text": "Da, desigur. Vestiarul este acolo înapoi. Cum se potrivește jacheta?"
+        },
+        {
+          "prompt": "Spune că jacheta se potrivește perfect, dar prețul ți se pare cam mare și întreabă dacă există o reducere.",
+          "options": [
+            "Jacheta se potrivește perfect, dar prețul mi se pare cam mare. Există o reducere?",
+            "Se potrivește bine, dar e scump. Există o reducere?"
+          ]
+        },
+        {
+          "text": "Astăzi avem 10% reducere la toate jachetele. Culoarea ti se potriveste foarte bine!"
+        },
+        {
+          "prompt": "Exprimați fericirea, spuneți că o veți lua și plătiți la casa de marcat.",
+          "options": [
+            "Super! Atunci o voi lua. Voi plăti la registru.",
+            "Grozav! O să cumpăr jacheta."
+          ]
+        }
+      ]
+    },
+    "14": {
+      "title": "Interviu de angajare și discutați despre abilități",
+      "turns": [
+        {
+          "text": "Bună ziua! Vă rog să-mi spuneți ceva despre experiența dumneavoastră profesională."
+        },
+        {
+          "prompt": "Spuneți că ați lucrat ca dezvoltator de software timp de trei ani la o companie de tehnologie.",
+          "options": [
+            "Bună ziua! Am lucrat ca dezvoltator de software timp de trei ani la o mare companie IT.",
+            "Am lucrat ca programator timp de trei ani."
+          ]
+        },
+        {
+          "text": "E interesant. De ce aplicați la noi?"
+        },
+        {
+          "prompt": "Exprimă-ți dorința de a lucra pentru ei, deoarece mediul de lucru este excelent și oferă ore flexibile.",
+          "options": [
+            "Aș dori să lucrez pentru dvs. deoarece compania dumneavoastră oferă o atmosferă de lucru foarte bună și un program de lucru flexibil.",
+            "Compania ta este foarte buna. Vreau să am un orar flexibil."
+          ]
+        },
+        {
+          "text": "Cautam pe cineva cu bune cunostinte de limba engleza. Vorbiți engleză?"
+        },
+        {
+          "prompt": "Confirmați că vorbiți fluent engleza și că în prezent studiați germana.",
+          "options": [
+            "Da, vorbesc fluent engleza și în prezent studiez germana cu sârguință pentru nivelul A2.",
+            "Da, engleza mea este foarte bună și învăț germana."
+          ]
+        },
+        {
+          "text": "Sună excelent! Vă vom contacta săptămâna viitoare."
+        },
+        {
+          "prompt": "Exprimă-ți mulțumirile și urează-le o zi bună.",
+          "options": [
+            "Multumesc mult pentru interviu! Va doresc o zi buna!",
+            "Multumesc! O zi plăcută!"
+          ]
+        }
+      ]
+    },
+    "15": {
+      "title": "Vorbiți despre o vacanță trecută și o experiență de călătorie",
+      "turns": [
+        {
+          "text": "Buna ziua! Unde ai călătorit în ultima ta vacanță?"
+        },
+        {
+          "prompt": "Spune-i că ai călătorit la Munchen cu familia ta cu mașina.",
+          "options": [
+            "Buna ziua! În ultima mea vacanță am călătorit la Munchen cu familia. Am mers cu mașina.",
+            "Am fost cu familia la Munchen."
+          ]
+        },
+        {
+          "text": "Munchen este frumos! Ce ai făcut acolo?"
+        },
+        {
+          "prompt": "Spuneți că ați vizitat Grădina Engleză și ați făcut un picnic acolo.",
+          "options": [
+            "Am vizitat multe obiective turistice și am făcut un picnic în Grădina Engleză.",
+            "Am văzut Grădina Engleză și am mâncat acolo."
+          ]
+        },
+        {
+          "text": "Mare! Cum a fost mâncarea germană? Ți-a plăcut?"
+        },
+        {
+          "prompt": "Răspundeți că mâncarea a fost foarte delicioasă, în special șnițelul.",
+          "options": [
+            "Da, mâncarea germană a fost cu adevărat delicioasă, mai ales șnițelul a avut un gust grozav pentru noi!",
+            "Mâncarea a fost bună. Schnitzelul a fost delicios."
+          ]
+        },
+        {
+          "text": "Mă bucur! Trebuie să fi fost o călătorie de neuitat."
+        },
+        {
+          "prompt": "Sunt de acord cu el și spune că a fost o experiență grozavă.",
+          "options": [
+            "Da, absolut! Călătoria a fost o experiență de neuitat pentru noi toți.",
+            "Da, a fost o experiență grozavă."
           ]
         }
       ]
@@ -2209,6 +2610,141 @@ const CONVERSATION_TRANSLATIONS = {
           ]
         }
       ]
+    },
+    "13": {
+      "title": "Kupovina odjeće u butiku",
+      "turns": [
+        {
+          "text": "Dobar dan! Mogu li vam pomoći?"
+        },
+        {
+          "prompt": "Pozdravite službenika i recite da tražite plavu jaknu.",
+          "options": [
+            "Dobar dan! Da, molim. Tražim plavu jaknu.",
+            "Zdravo! Imate li plave jakne?"
+          ]
+        },
+        {
+          "text": "Koju veličinu nosiš?"
+        },
+        {
+          "prompt": "Recite mu da obično nosite veličinu M i pitajte da li možete da je isprobate.",
+          "options": [
+            "Obično nosim veličinu M. Mogu li probati ovu?",
+            "Veličina M. Gdje mogu ovo isprobati?"
+          ]
+        },
+        {
+          "text": "Da, naravno. Svlačionica je tamo pozadi. Kako pristaje jakna?"
+        },
+        {
+          "prompt": "Recimo da vam jakna savršeno stoji, ali da vam je cijena malo visoka, pa pitajte ima li popusta.",
+          "options": [
+            "Jakna savršeno stoji, ali smatram da je cijena malo previsoka. Ima li popusta?",
+            "Dobro stoji, ali je skupo. Ima li popusta?"
+          ]
+        },
+        {
+          "text": "Danas imamo 10% popusta na sve jakne. Boja vam takođe odlično stoji!"
+        },
+        {
+          "prompt": "Izrazite sreću, recite da ćete uzeti i platiti na kasi.",
+          "options": [
+            "Super! Onda ću je uzeti. Platiću na registru.",
+            "To je super! Ja ću kupiti jaknu."
+          ]
+        }
+      ]
+    },
+    "14": {
+      "title": "Intervju za posao i razgovor o vještinama",
+      "turns": [
+        {
+          "text": "Dobar dan! Recite mi nešto o svom profesionalnom iskustvu."
+        },
+        {
+          "prompt": "Recimo da ste tri godine radili kao programer softvera u tehnološkoj kompaniji.",
+          "options": [
+            "Dobar dan! Radio sam kao softverski programer tri godine u velikoj IT kompaniji.",
+            "Radio sam kao programer tri godine."
+          ]
+        },
+        {
+          "text": "To je zanimljivo. Zašto se prijavljujete kod nas?"
+        },
+        {
+          "prompt": "Izrazite želju da radite za njih jer je radno okruženje odlično i nudi fleksibilno radno vrijeme.",
+          "options": [
+            "Voleo bih da radim za vas jer vaša kompanija nudi veoma dobru radnu atmosferu i fleksibilno radno vreme.",
+            "Vaše društvo je jako dobro. Želim da imam fleksibilno radno vrijeme."
+          ]
+        },
+        {
+          "text": "Tražimo nekoga sa dobrim znanjem engleskog jezika. Govorite li engleski?"
+        },
+        {
+          "prompt": "Potvrdite da govorite tečno engleski i da trenutno učite njemački.",
+          "options": [
+            "Da, tečno govorim engleski i trenutno marljivo učim njemački za A2 nivo.",
+            "Da, moj engleski je jako dobar i učim njemački."
+          ]
+        },
+        {
+          "text": "That sounds excellent! Javit ćemo Vam se sljedeće sedmice."
+        },
+        {
+          "prompt": "Izrazite svoju zahvalnost i poželite im ugodan dan.",
+          "options": [
+            "Hvala vam puno na intervjuu! Želim vam prijatan dan!",
+            "Hvala vam! ugodan dan!"
+          ]
+        }
+      ]
+    },
+    "15": {
+      "title": "Razgovarajte o prošlom odmoru i iskustvu putovanja",
+      "turns": [
+        {
+          "text": "Zdravo! Gdje ste putovali na svom posljednjem odmoru?"
+        },
+        {
+          "prompt": "Recite mu da ste putovali u Minhen sa svojom porodicom automobilom.",
+          "options": [
+            "Zdravo! Na posljednjem odmoru otputovao sam sa porodicom u Minhen. Išli smo autom.",
+            "Otišao sam sa porodicom u Minhen."
+          ]
+        },
+        {
+          "text": "Minhen je prelep! sta si radio tamo?"
+        },
+        {
+          "prompt": "Recite da ste posjetili Englesku baštu i tamo imali piknik.",
+          "options": [
+            "Obišli smo mnoge znamenitosti i napravili piknik u Engleskoj bašti.",
+            "Vidjeli smo Englesku baštu i tamo jeli."
+          ]
+        },
+        {
+          "text": "Odlično! Kakva je bila njemačka hrana? Da li ti se svidelo?"
+        },
+        {
+          "prompt": "Odgovorite da je hrana bila veoma ukusna, posebno šnicel.",
+          "options": [
+            "Da, njemačka hrana je bila zaista ukusna, posebno nam je šnicel bio odličan!",
+            "Hrana je bila dobra. Šnicla je bila ukusna."
+          ]
+        },
+        {
+          "text": "drago mi je! Mora da je to bilo nezaboravno putovanje."
+        },
+        {
+          "prompt": "Složite se s njim i recite da je to bilo sjajno iskustvo.",
+          "options": [
+            "Da, apsolutno! Putovanje je bilo nezaboravno iskustvo za sve nas.",
+            "Da, to je bilo sjajno iskustvo."
+          ]
+        }
+      ]
     }
   },
   "es": {
@@ -2758,6 +3294,141 @@ const CONVERSATION_TRANSLATIONS = {
           "options": [
             "Aquí tienes 30 euros. ¡Quédese con el cambio!",
             "Quédese con el cambio. Que sean 30 euros."
+          ]
+        }
+      ]
+    },
+    "13": {
+      "title": "Comprando ropa en una boutique",
+      "turns": [
+        {
+          "text": "¡Buen día! ¿Puedo ayudarle?"
+        },
+        {
+          "prompt": "Salude al empleado y dígale que está buscando una chaqueta azul.",
+          "options": [
+            "¡Buen día! Sí, por favor. Busco una chaqueta azul.",
+            "¡Hola! ¿Tienes chaquetas en azul?"
+          ]
+        },
+        {
+          "text": "¿Qué talla usas?"
+        },
+        {
+          "prompt": "Dile que normalmente usas talla M y pregúntale si puedes probártela.",
+          "options": [
+            "Normalmente uso talla M. ¿Puedo probarme este?",
+            "Talla M. ¿Dónde puedo probarme esto?"
+          ]
+        },
+        {
+          "text": "Sí, claro. El vestuario está ahí atrás. ¿Cómo le queda la chaqueta?"
+        },
+        {
+          "prompt": "Digamos que la chaqueta le queda perfecta, pero el precio le parece un poco alto y pregunta si hay algún descuento.",
+          "options": [
+            "La chaqueta me queda perfecta, pero el precio me parece un poco elevado. ¿Hay algún descuento?",
+            "Encaja bien, pero es caro. ¿Hay algún descuento?"
+          ]
+        },
+        {
+          "text": "Hoy tenemos 10% de descuento en todas las chaquetas. ¡El color también te sienta muy bien!"
+        },
+        {
+          "prompt": "Expresa felicidad, di que lo tomarás y pagarás en la caja registradora.",
+          "options": [
+            "¡Súper! Entonces lo tomaré. Pagaré en caja.",
+            "¡Genial! Compraré la chaqueta."
+          ]
+        }
+      ]
+    },
+    "14": {
+      "title": "Entrevista de trabajo y charla sobre habilidades.",
+      "turns": [
+        {
+          "text": "¡Buen día! Por favor cuéntame algo sobre tu experiencia profesional."
+        },
+        {
+          "prompt": "Supongamos que trabajó como desarrollador de software durante tres años en una empresa de tecnología.",
+          "options": [
+            "¡Buen día! Trabajé como desarrollador de software durante tres años en una gran empresa de TI.",
+            "Trabajé como programador durante tres años."
+          ]
+        },
+        {
+          "text": "Es interesante. ¿Por qué nos postulas?"
+        },
+        {
+          "prompt": "Exprese su deseo de trabajar para ellos porque el ambiente laboral es excelente y ofrece horarios flexibles.",
+          "options": [
+            "Me gustaría trabajar para usted porque su empresa ofrece un muy buen ambiente de trabajo y horarios de trabajo flexibles.",
+            "Tu empresa es muy buena. Quiero tener horarios flexibles."
+          ]
+        },
+        {
+          "text": "Buscamos a alguien con buenos conocimientos de inglés. ¿Hablas inglés?"
+        },
+        {
+          "prompt": "Confirma que hablas inglés con fluidez y que actualmente estás estudiando alemán.",
+          "options": [
+            "Sí, hablo inglés con fluidez y actualmente estoy estudiando alemán con diligencia para obtener el nivel A2.",
+            "Sí, mi inglés es muy bueno y estoy aprendiendo alemán."
+          ]
+        },
+        {
+          "text": "¡Eso suena excelente! Nos pondremos en contacto contigo la próxima semana."
+        },
+        {
+          "prompt": "Expresa tu agradecimiento y deséales un buen día.",
+          "options": [
+            "¡Muchas gracias por la entrevista! ¡Te deseo un buen día!",
+            "¡Gracias! ¡Que tenga un lindo día!"
+          ]
+        }
+      ]
+    },
+    "15": {
+      "title": "Hablar de una experiencia de viaje y vacaciones pasadas.",
+      "turns": [
+        {
+          "text": "¡Hola! ¿A dónde viajaste en tus últimas vacaciones?"
+        },
+        {
+          "prompt": "Dígale que viajó a Munich con su familia en coche.",
+          "options": [
+            "¡Hola! En mis últimas vacaciones viajé a Munich con mi familia. Fuimos en coche.",
+            "Fui con mi familia a Munich."
+          ]
+        },
+        {
+          "text": "Múnich es preciosa! ¿Qué hiciste allí?"
+        },
+        {
+          "prompt": "Digamos que visitaste el Jardín Inglés y hiciste un picnic allí.",
+          "options": [
+            "Visitamos muchos lugares de interés y hicimos un picnic en el Jardín Inglés.",
+            "Vimos el Jardín Inglés y comimos allí."
+          ]
+        },
+        {
+          "text": "¡Excelente! ¿Cómo estuvo la comida alemana? ¿Te gustó?"
+        },
+        {
+          "prompt": "Responde que la comida estuvo muy rica, especialmente el Schnitzel.",
+          "options": [
+            "Sí, la comida alemana estaba realmente deliciosa, ¡especialmente el Schnitzel nos supo delicioso!",
+            "La comida era buena. El Schnitzel estaba delicioso."
+          ]
+        },
+        {
+          "text": "¡Me alegro! Debió ser un viaje inolvidable."
+        },
+        {
+          "prompt": "Estoy de acuerdo con él y digo que fue una gran experiencia.",
+          "options": [
+            "¡Sí, absolutamente! El viaje fue una experiencia inolvidable para todos nosotros.",
+            "Sí, esa fue una gran experiencia."
           ]
         }
       ]
@@ -3313,6 +3984,141 @@ const CONVERSATION_TRANSLATIONS = {
           ]
         }
       ]
+    },
+    "13": {
+      "title": "Пазаруване на дрехи в бутик",
+      "turns": [
+        {
+          "text": "Добър ден! мога ли да ти помогна"
+        },
+        {
+          "prompt": "Поздравете служителя и кажете, че търсите синьо яке.",
+          "options": [
+            "Добър ден! да моля Търся синьо яке.",
+            "здравей Имате ли якета в синьо?"
+          ]
+        },
+        {
+          "text": "какъв размер носиш"
+        },
+        {
+          "prompt": "Кажете му, че обикновено носите размер М, и попитайте дали можете да го пробвате.",
+          "options": [
+            "Обикновено нося размер M. Мога ли да пробвам този?",
+            "Размер M. Къде мога да го пробвам?"
+          ]
+        },
+        {
+          "text": "да разбира се Съблекалнята е там отзад. Как стои якето?"
+        },
+        {
+          "prompt": "Кажете, че якето стои идеално, но намирате цената за малко висока и попитайте дали има отстъпка.",
+          "options": [
+            "Якето стои идеално, но ми се струва малко висока цената. Има ли отстъпка?",
+            "Стои добре, но е скъпо. Има ли отстъпка?"
+          ]
+        },
+        {
+          "text": "Днес имаме 10% намаление на всички якета. Цветът също много ти отива!"
+        },
+        {
+          "prompt": "Изразете щастието, кажете, че ще го вземете и платете на касата.",
+          "options": [
+            "Супер! Тогава ще го взема. Ще платя на касата.",
+            "Това е страхотно! Ще купя якето."
+          ]
+        }
+      ]
+    },
+    "14": {
+      "title": "Интервю за работа и разговор за умения",
+      "turns": [
+        {
+          "text": "Добър ден! Моля, кажете ми нещо за вашия професионален опит."
+        },
+        {
+          "prompt": "Кажете, че сте работили като разработчик на софтуер в продължение на три години в технологична компания.",
+          "options": [
+            "Добър ден! Работих като софтуерен разработчик три години в голяма IT компания.",
+            "Три години работих като програмист."
+          ]
+        },
+        {
+          "text": "Това е интересно. Защо кандидатствате при нас?"
+        },
+        {
+          "prompt": "Изразете желанието си да работите за тях, защото работната среда е отлична и предлага гъвкаво работно време.",
+          "options": [
+            "Бих искал да работя за вас, защото вашата компания предлага много добра работна атмосфера и гъвкаво работно време.",
+            "Компанията ви е много добра. Искам да имам гъвкаво работно време."
+          ]
+        },
+        {
+          "text": "Търсим човек с добри познания по английски език. говориш ли английски"
+        },
+        {
+          "prompt": "Потвърдете, че говорите свободно английски и в момента изучавате немски.",
+          "options": [
+            "Да, говоря свободно английски и в момента усърдно уча немски за ниво A2.",
+            "Да, английският ми е много добър и уча немски."
+          ]
+        },
+        {
+          "text": "Това звучи отлично! Ще се свържем с вас следващата седмица."
+        },
+        {
+          "prompt": "Изразете своята благодарност и им пожелайте приятен ден.",
+          "options": [
+            "Много благодаря за интервюто! Хубав ден ви пожелавам!",
+            "благодаря ви приятен ден!"
+          ]
+        }
+      ]
+    },
+    "15": {
+      "title": "Говорете за минала ваканция и опит в пътуването",
+      "turns": [
+        {
+          "text": "здравей Къде пътувахте през последната си ваканция?"
+        },
+        {
+          "prompt": "Кажете му, че сте пътували до Мюнхен със семейството си с кола.",
+          "options": [
+            "здравей На последната ми ваканция пътувах до Мюнхен със семейството си. Тръгнахме с кола.",
+            "Отидох със семейството си в Мюнхен."
+          ]
+        },
+        {
+          "text": "Мюнхен е красив! какво направи там"
+        },
+        {
+          "prompt": "Кажете, че сте посетили Английската градина и сте направили пикник там.",
+          "options": [
+            "Посетихме много забележителности и си направихме пикник в Английската градина.",
+            "Видяхме Английската градина и ядохме там."
+          ]
+        },
+        {
+          "text": "Страхотно! Как беше немската храна? Хареса ли ти"
+        },
+        {
+          "prompt": "Отговорете, че храната е много вкусна, особено шницелът.",
+          "options": [
+            "Да, немската храна беше наистина вкусна, особено шницелът беше страхотен за нас!",
+            "Храната беше добра. Шницелът беше вкусен."
+          ]
+        },
+        {
+          "text": "радвам се! Трябва да е било незабравимо пътуване."
+        },
+        {
+          "prompt": "Съгласете се с него и кажете, че беше страхотно преживяване.",
+          "options": [
+            "Да, абсолютно! Пътуването беше едно незабравимо преживяване за всички нас.",
+            "Да, това беше страхотно преживяване."
+          ]
+        }
+      ]
     }
   },
   "el": {
@@ -3862,6 +4668,141 @@ const CONVERSATION_TRANSLATIONS = {
           "options": [
             "Εδώ είναι 30 ευρώ. Κρατήστε τα ρέστα!",
             "Κρατήστε τα ρέστα. Κάντε το 30 ευρώ."
+          ]
+        }
+      ]
+    },
+    "13": {
+      "title": "Αγορά ρούχων σε μπουτίκ",
+      "turns": [
+        {
+          "text": "Καλημέρα! Μπορώ να σε βοηθήσω;"
+        },
+        {
+          "prompt": "Χαιρετίστε τον υπάλληλο και πείτε ότι ψάχνετε για ένα μπλε σακάκι.",
+          "options": [
+            "Καλημέρα! Ναι, παρακαλώ. Ψάχνω για μπλε σακάκι.",
+            "Γειά σου! Έχεις μπουφάν σε μπλε χρώμα;"
+          ]
+        },
+        {
+          "text": "Τι νούμερο φοράς;"
+        },
+        {
+          "prompt": "Πείτε του ότι φοράτε συνήθως νούμερο Μ και ρωτήστε αν μπορείτε να το δοκιμάσετε.",
+          "options": [
+            "Συνήθως φοράω νούμερο M. Μπορώ να το δοκιμάσω;",
+            "Μέγεθος M. Πού μπορώ να το δοκιμάσω;"
+          ]
+        },
+        {
+          "text": "Ναι, φυσικά. Τα αποδυτήρια είναι πίσω εκεί. Πώς ταιριάζει το σακάκι;"
+        },
+        {
+          "prompt": "Πείτε ότι το σακάκι ταιριάζει τέλεια, αλλά βρίσκετε την τιμή λίγο υψηλή και ρωτήστε αν υπάρχει έκπτωση.",
+          "options": [
+            "Το σακάκι ταιριάζει τέλεια, αλλά βρίσκω την τιμή λίγο υψηλή. Υπάρχει έκπτωση;",
+            "Ταιριάζει καλά, αλλά είναι ακριβό. Υπάρχει έκπτωση;"
+          ]
+        },
+        {
+          "text": "Σήμερα έχουμε 10% έκπτωση σε όλα τα μπουφάν. Σου πάει πολύ και το χρώμα!"
+        },
+        {
+          "prompt": "Εκφράστε την ευτυχία, πείτε ότι θα το πάρετε και θα πληρώσετε στο ταμείο.",
+          "options": [
+            "Σούπερ! Τότε θα το πάρω. Θα πληρώσω στο μητρώο.",
+            "Αυτό είναι υπέροχο! Θα αγοράσω το σακάκι."
+          ]
+        }
+      ]
+    },
+    "14": {
+      "title": "Συνέντευξη για δουλειά και συζήτηση για δεξιότητες",
+      "turns": [
+        {
+          "text": "Καλημέρα! Πείτε μου κάτι για την επαγγελματική σας εμπειρία."
+        },
+        {
+          "prompt": "Πείτε ότι δουλέψατε ως προγραμματιστής λογισμικού για τρία χρόνια σε μια εταιρεία τεχνολογίας.",
+          "options": [
+            "Καλημέρα! Εργάστηκα ως προγραμματιστής λογισμικού για τρία χρόνια σε μια μεγάλη εταιρεία πληροφορικής.",
+            "Εργάστηκα ως προγραμματιστής για τρία χρόνια."
+          ]
+        },
+        {
+          "text": "Αυτό είναι ενδιαφέρον. Γιατί μας κάνετε αίτηση;"
+        },
+        {
+          "prompt": "Εκφράστε την επιθυμία σας να δουλέψετε για αυτούς γιατί το εργασιακό περιβάλλον είναι εξαιρετικό και προσφέρει ευέλικτο ωράριο.",
+          "options": [
+            "Θα ήθελα να δουλέψω για εσάς γιατί η εταιρεία σας προσφέρει πολύ καλή ατμόσφαιρα και ευέλικτο ωράριο εργασίας.",
+            "Η παρέα σου είναι πολύ καλή. Θέλω να έχω ευέλικτο ωράριο."
+          ]
+        },
+        {
+          "text": "Αναζητούμε άτομο με καλές γνώσεις αγγλικών. Μιλάτε αγγλικά;"
+        },
+        {
+          "prompt": "Επιβεβαιώστε ότι μιλάτε άπταιστα αγγλικά και ότι αυτή τη στιγμή σπουδάζετε γερμανικά.",
+          "options": [
+            "Ναι, μιλάω άπταιστα αγγλικά και αυτή τη στιγμή μελετώ επιμελώς γερμανικά για επίπεδο Α2.",
+            "Ναι, τα αγγλικά μου είναι πολύ καλά και μαθαίνω γερμανικά."
+          ]
+        },
+        {
+          "text": "Αυτό ακούγεται εξαιρετικό! Θα επικοινωνήσουμε μαζί σας την επόμενη εβδομάδα."
+        },
+        {
+          "prompt": "Εκφράστε τις ευχαριστίες σας και ευχηθείτε μια καλή μέρα.",
+          "options": [
+            "Ευχαριστώ πολύ για τη συνέντευξη! Καλή σου μέρα εύχομαι!",
+            "Σας ευχαριστώ! Καλή σας μέρα!"
+          ]
+        }
+      ]
+    },
+    "15": {
+      "title": "Μιλήστε για προηγούμενες διακοπές και ταξιδιωτική εμπειρία",
+      "turns": [
+        {
+          "text": "Γειά σου! Πού ταξίδεψες στις τελευταίες σου διακοπές;"
+        },
+        {
+          "prompt": "Πες του ότι ταξίδεψες στο Μόναχο με την οικογένειά σου με αυτοκίνητο.",
+          "options": [
+            "Γειά σου! Στις τελευταίες μου διακοπές ταξίδεψα στο Μόναχο με την οικογένειά μου. Πήγαμε με αυτοκίνητο.",
+            "Πήγα με την οικογένειά μου στο Μόναχο."
+          ]
+        },
+        {
+          "text": "Το Μόναχο είναι όμορφο! Τι έκανες εκεί;"
+        },
+        {
+          "prompt": "Πείτε ότι επισκεφτήκατε τον Αγγλικό Κήπο και κάνατε ένα πικνίκ εκεί.",
+          "options": [
+            "Επισκεφθήκαμε πολλά αξιοθέατα και κάναμε ένα πικνίκ στον Αγγλικό Κήπο.",
+            "Είδαμε τον αγγλικό κήπο και φάγαμε εκεί."
+          ]
+        },
+        {
+          "text": "Μεγάλος! Πώς ήταν το γερμανικό φαγητό; Σας άρεσε;"
+        },
+        {
+          "prompt": "Απάντησε ότι το φαγητό ήταν πολύ νόστιμο, ειδικά το σνίτσελ.",
+          "options": [
+            "Ναι, το γερμανικό φαγητό ήταν πραγματικά νόστιμο, ειδικά το σνίτσελ μας είχε υπέροχη γεύση!",
+            "Το φαγητό ήταν καλό. Το σνίτσελ ήταν νόστιμο."
+          ]
+        },
+        {
+          "text": "χαίρομαι! Πρέπει να ήταν ένα αξέχαστο ταξίδι."
+        },
+        {
+          "prompt": "Συμφωνώ μαζί του και πες ότι ήταν μια εξαιρετική εμπειρία.",
+          "options": [
+            "Ναι, απολύτως! Το ταξίδι ήταν μια αξέχαστη εμπειρία για όλους μας.",
+            "Ναι, ήταν μια μεγάλη εμπειρία."
           ]
         }
       ]

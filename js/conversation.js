@@ -591,55 +591,222 @@ const CONVERSATION_SCENARIOS = [
 
   // ── CHAPTER 13: Beim Hausarzt ──────────────────────────────
   {
-    id: 13,
-    ch: 13,
-    title: "Beim Hausarzt",
-    titleAr: "زيارة طبيب الأسرة وشرح الأعراض",
-    emoji: "🏥",
-    difficulty: "Mittel",
-    turns: [
-      { speaker: "partner", textDe: "Guten Tag! Was fehlt Ihnen denn?", textAr: "نهارك سعيد! مما تشتكي؟", textEn: "Good day! What seems to be the problem?" },
-      {
-        speaker: "user",
-        prompt: "أجب بتحية الطبيب وقل له أنك مريض وتشعر بألم في رأسك وحلقك",
-        promptEn: "Greet the doctor and say that you are sick with a headache and sore throat.",
-        options: [
-          { textDe: "Guten Tag, Herr Doktor! Ich fühle mich sehr krank. Ich habe starke Kopfschmerzen und Halsschmerzen.", textAr: "نهارك سعيد يا دكتور! أشعر بالمرض الشديد. لدي صداع قوي وآلام في الحلق.", textEn: "Good day, doctor! I feel very sick. I have a severe headache and sore throat.", points: 15 },
-          { textDe: "Hallo Arzt. Ich habe Kopfschmerzen und Halsschmerzen.", textAr: "مرحباً يا دكتور. لدي صداع وآلام في الحلق.", textEn: "Hello doctor. I have a headache and sore throat.", points: 10 }
-        ]
-      },
-      { speaker: "partner", textDe: "Haben Sie auch Fieber? Seit wann haben Sie diese Symptome?", textAr: "هل لديك حمى أيضاً؟ ومنذ متى تعاني من هذه الأعراض؟", textEn: "Do you also have a fever? Since when do you have these symptoms?" },
-      {
-        speaker: "user",
-        prompt: "أخبره أن لديك حمى خفيفة (38.5) منذ يومين",
-        promptEn: "Tell him you have a mild fever (38.5) for two days.",
-        options: [
-          { textDe: "Ja, ich habe leichtes Fieber, etwa 38,5 Grad. Das habe ich seit zwei Tagen.", textAr: "نعم، لدي حمى خفيفة، حوالي 38.5 درجة. هذا لدي منذ يومين.", textEn: "Yes, I have a mild fever, about 38.5 degrees. I've had this for two days.", points: 15 },
-          { textDe: "Ich habe Fieber. 38,5 Grad seit zwei Tagen.", textAr: "لدي حمى. 38.5 درجة منذ يومين.", textEn: "I have a fever. 38.5 degrees for two days.", points: 10 }
-        ]
-      },
-      { speaker: "partner", textDe: "Das klingt nach einer Erkältung. Ich schreibe Ihnen ein Rezept. Sie sollten viel schlafen und Wasser trinken.", textAr: "يبدو هذا كنزلة برد. سأكتب لك وصفة طبية. يجب أن تنام كثيراً وتشرب الماء.", textEn: "That sounds like a cold. I will write you a prescription. You should sleep a lot and drink water." },
-      {
-        speaker: "user",
-        prompt: "اشكر الطبيب واسأله متى يجب تناول الدواء",
-        promptEn: "Thank the doctor and ask him when you should take the medicine.",
-        options: [
-          { textDe: "Vielen Dank! Wie oft am Tag soll ich die Medikamente einnehmen?", textAr: "شكراً جزيلاً! كم مرة في اليوم يجب علي تناول الأدوية؟", textEn: "Thank you very much! How many times a day should I take the medicine?", points: 15 },
-          { textDe: "Danke. Wann muss ich die Medizin nehmen?", textAr: "شكراً. متى يجب أن آخذ الدواء؟", textEn: "Thank you. When do I have to take the medicine?", points: 10 }
-        ]
-      },
-      { speaker: "partner", textDe: "Nehmen Sie die Tabletten dreimal täglich nach dem Essen. Gute Besserung!", textAr: "خذ الحبوب ثلاث مرات يومياً بعد الأكل. أتمنى لك الشفاء العاجل!", textEn: "Take the tablets three times a day after meals. Get well soon!" },
-      {
-        speaker: "user",
-        prompt: "اشكر الطبيب مرة أخرى وودعه",
-        promptEn: "Thank the doctor again and say goodbye.",
-        options: [
-          { textDe: "Herzlichen Dank, Herr Doktor! Auf Wiedersehen!", textAr: "شكراً جزيلاً يا دكتور! مع السلامة!", textEn: "Thank you very much, doctor! Goodbye!", points: 10 },
-          { textDe: "Danke schön! Tschüss!", textAr: "شكراً جزيلاً! مع السلامة!", textEn: "Thank you! Bye!", points: 10 }
-        ]
-      }
-    ]
-  },
+  "id": 13,
+  "ch": 13,
+  "title": "In der Kleiderboutique",
+  "titleAr": "في محل الملابس",
+  "titleEn": "Shopping for clothes in a boutique",
+  "emoji": "👕",
+  "difficulty": "Mittel",
+  "titleTr": "Bir butikten kıyafet alışverişi",
+  "titleRo": "Cumpărături pentru haine într-un butic",
+  "titleBs": "Kupovina odjeće u butiku",
+  "titleEs": "Comprando ropa en una boutique",
+  "titleBg": "Пазаруване на дрехи в бутик",
+  "titleEl": "Αγορά ρούχων σε μπουτίκ",
+  "turns": [
+    {
+      "speaker": "partner",
+      "textDe": "Guten Tag! Kann ich Ihnen helfen?",
+      "textEn": "Good day! Can I help you?",
+      "textAr": "يوم جيد! أيمكنني مساعدتك؟",
+      "textTr": "İyi günler! Yardımcı olabilir miyim?",
+      "textRo": "Bună ziua! Vă pot ajuta?",
+      "textBs": "Dobar dan! Mogu li vam pomoći?",
+      "textEs": "¡Buen día! ¿Puedo ayudarle?",
+      "textBg": "Добър ден! мога ли да ти помогна",
+      "textEl": "Καλημέρα! Μπορώ να σε βοηθήσω;"
+    },
+    {
+      "speaker": "user",
+      "prompt": "أجب بالتحية وقل للبائع أنك تبحث عن سترة (جاكيت) زرقاء",
+      "promptEn": "Greet the clerk and say that you are looking for a blue jacket.",
+      "promptAr": "أجب بالتحية وقل للبائع أنك تبحث عن سترة (جاكيت) زرقاء",
+      "promptTr": "Görevliyi selamlayın ve mavi bir ceket aradığınızı söyleyin.",
+      "promptRo": "Salutați funcționarul și spuneți că sunteți în căutarea unui sacou albastru.",
+      "promptBs": "Pozdravite službenika i recite da tražite plavu jaknu.",
+      "promptEs": "Salude al empleado y dígale que está buscando una chaqueta azul.",
+      "promptBg": "Поздравете служителя и кажете, че търсите синьо яке.",
+      "promptEl": "Χαιρετίστε τον υπάλληλο και πείτε ότι ψάχνετε για ένα μπλε σακάκι.",
+      "options": [
+        {
+          "textDe": "Guten Tag! Ja, bitte. Ich suche eine blaue Jacke.",
+          "textEn": "Good day! Yes, please. I am looking for a blue jacket.",
+          "textAr": "يوم جيد! نعم من فضلك. أنا أبحث عن سترة زرقاء.",
+          "points": 15,
+          "textTr": "İyi günler! Evet lütfen. Mavi bir ceket arıyorum.",
+          "textRo": "Bună ziua! Da, te rog. Caut o jacheta albastra.",
+          "textBs": "Dobar dan! Da, molim. Tražim plavu jaknu.",
+          "textEs": "¡Buen día! Sí, por favor. Busco una chaqueta azul.",
+          "textBg": "Добър ден! да моля Търся синьо яке.",
+          "textEl": "Καλημέρα! Ναι, παρακαλώ. Ψάχνω για μπλε σακάκι."
+        },
+        {
+          "textDe": "Hallo! Haben Sie Jacken in Blau?",
+          "textEn": "Hello! Do you have jackets in blue?",
+          "textAr": "مرحبًا! هل لديكم سترات باللون الأزرق؟",
+          "points": 10,
+          "textTr": "Merhaba! Mavi ceketiniz var mı?",
+          "textRo": "Buna ziua! Aveți jachete în albastru?",
+          "textBs": "Zdravo! Imate li plave jakne?",
+          "textEs": "¡Hola! ¿Tienes chaquetas en azul?",
+          "textBg": "здравей Имате ли якета в синьо?",
+          "textEl": "Γειά σου! Έχεις μπουφάν σε μπλε χρώμα;"
+        }
+      ]
+    },
+    {
+      "speaker": "partner",
+      "textDe": "Welche Größe tragen Sie denn?",
+      "textEn": "What size do you wear?",
+      "textAr": "ما الحجم الذي ترتديه؟",
+      "textTr": "Kaç beden giyiyorsun?",
+      "textRo": "Ce marime porti?",
+      "textBs": "Koju veličinu nosiš?",
+      "textEs": "¿Qué talla usas?",
+      "textBg": "какъв размер носиш",
+      "textEl": "Τι νούμερο φοράς;"
+    },
+    {
+      "speaker": "user",
+      "prompt": "قل له أنك ترتدي مقاس M عادةً، واسأله إذا كان بإمكانك قياسها",
+      "promptEn": "Tell him you usually wear size M, and ask if you can try it on.",
+      "promptAr": "قل له أنك ترتدي مقاس M عادةً، واسأله إذا كان بإمكانك قياسها",
+      "promptTr": "Ona genellikle M beden giydiğinizi söyleyin ve deneyip deneyemeyeceğinizi sorun.",
+      "promptRo": "Spune-i că porți de obicei mărimea M și întreabă-l dacă o poți încerca.",
+      "promptBs": "Recite mu da obično nosite veličinu M i pitajte da li možete da je isprobate.",
+      "promptEs": "Dile que normalmente usas talla M y pregúntale si puedes probártela.",
+      "promptBg": "Кажете му, че обикновено носите размер М, и попитайте дали можете да го пробвате.",
+      "promptEl": "Πείτε του ότι φοράτε συνήθως νούμερο Μ και ρωτήστε αν μπορείτε να το δοκιμάσετε.",
+      "options": [
+        {
+          "textDe": "Ich trage normalerweise Größe M. Kann ich diese hier anprobieren?",
+          "textEn": "I usually wear size M. Can I try this one on?",
+          "textAr": "أرتدي عادةً المقاس M. هل يمكنني تجربة هذا المقاس؟",
+          "points": 15,
+          "textTr": "Genelde M beden giyiyorum. Bunu deneyebilir miyim?",
+          "textRo": "De obicei port mărimea M. Pot să-l încerc pe acesta?",
+          "textBs": "Obično nosim veličinu M. Mogu li probati ovu?",
+          "textEs": "Normalmente uso talla M. ¿Puedo probarme este?",
+          "textBg": "Обикновено нося размер M. Мога ли да пробвам този?",
+          "textEl": "Συνήθως φοράω νούμερο M. Μπορώ να το δοκιμάσω;"
+        },
+        {
+          "textDe": "Größe M. Wo kann ich das anprobieren?",
+          "textEn": "Size M. Where can I try this on?",
+          "textAr": "الحجم M. أين يمكنني تجربة ذلك؟",
+          "points": 10,
+          "textTr": "M beden. Bunu nerede deneyebilirim?",
+          "textRo": "Mărimea M. Unde pot încerca asta?",
+          "textBs": "Veličina M. Gdje mogu ovo isprobati?",
+          "textEs": "Talla M. ¿Dónde puedo probarme esto?",
+          "textBg": "Размер M. Къде мога да го пробвам?",
+          "textEl": "Μέγεθος M. Πού μπορώ να το δοκιμάσω;"
+        }
+      ]
+    },
+    {
+      "speaker": "partner",
+      "textDe": "Ja, natürlich. Die Umkleidekabine ist dort hinten. Wie passt die Jacke?",
+      "textEn": "Yes, of course. The changing room is back there. How does the jacket fit?",
+      "textAr": "نعم بالطبع. غرفة تغيير الملابس عادت إلى هناك كيف تناسب السترة؟",
+      "textTr": "Evet elbette. Soyunma odası arka tarafta. Ceket nasıl oluyor?",
+      "textRo": "Da, desigur. Vestiarul este acolo înapoi. Cum se potrivește jacheta?",
+      "textBs": "Da, naravno. Svlačionica je tamo pozadi. Kako pristaje jakna?",
+      "textEs": "Sí, claro. El vestuario está ahí atrás. ¿Cómo le queda la chaqueta?",
+      "textBg": "да разбира се Съблекалнята е там отзад. Как стои якето?",
+      "textEl": "Ναι, φυσικά. Τα αποδυτήρια είναι πίσω εκεί. Πώς ταιριάζει το σακάκι;"
+    },
+    {
+      "speaker": "user",
+      "prompt": "قل له أن الجاكيت مناسب تماماً، لكنك تجد السعر مرتفعاً قليلاً، واسأله إن كان هناك خصم",
+      "promptEn": "Say the jacket fits perfectly, but you find the price a bit high, and ask if there is a discount.",
+      "promptAr": "قل له أن الجاكيت مناسب تماماً، لكنك تجد السعر مرتفعاً قليلاً، واسأله إن كان هناك خصم",
+      "promptTr": "Diyelim ki ceket tam oldu ama fiyatı biraz yüksek buluyorsunuz ve indirim var mı diye soruyorsunuz.",
+      "promptRo": "Spune că jacheta se potrivește perfect, dar prețul ți se pare cam mare și întreabă dacă există o reducere.",
+      "promptBs": "Recimo da vam jakna savršeno stoji, ali da vam je cijena malo visoka, pa pitajte ima li popusta.",
+      "promptEs": "Digamos que la chaqueta le queda perfecta, pero el precio le parece un poco alto y pregunta si hay algún descuento.",
+      "promptBg": "Кажете, че якето стои идеално, но намирате цената за малко висока и попитайте дали има отстъпка.",
+      "promptEl": "Πείτε ότι το σακάκι ταιριάζει τέλεια, αλλά βρίσκετε την τιμή λίγο υψηλή και ρωτήστε αν υπάρχει έκπτωση.",
+      "options": [
+        {
+          "textDe": "Die Jacke passt perfekt, aber ich finde den Preis ein bisschen hoch. Gibt es einen Rabatt?",
+          "textEn": "The jacket fits perfectly, but I find the price a bit high. Is there a discount?",
+          "textAr": "السترة مناسبة تمامًا، لكني أجد السعر مرتفعًا بعض الشيء. هل هناك خصم؟",
+          "points": 15,
+          "textTr": "Ceket tam oldu ama fiyatı biraz yüksek buldum. İndirim var mı?",
+          "textRo": "Jacheta se potrivește perfect, dar prețul mi se pare cam mare. Există o reducere?",
+          "textBs": "Jakna savršeno stoji, ali smatram da je cijena malo previsoka. Ima li popusta?",
+          "textEs": "La chaqueta me queda perfecta, pero el precio me parece un poco elevado. ¿Hay algún descuento?",
+          "textBg": "Якето стои идеално, но ми се струва малко висока цената. Има ли отстъпка?",
+          "textEl": "Το σακάκι ταιριάζει τέλεια, αλλά βρίσκω την τιμή λίγο υψηλή. Υπάρχει έκπτωση;"
+        },
+        {
+          "textDe": "Sie passt gut, aber sie ist teuer. Gibt es Rabatt?",
+          "textEn": "It fits well, but it's expensive. Is there a discount?",
+          "textAr": "تناسبها بشكل جيد، ولكنها مكلفة. هل هناك خصم؟",
+          "points": 10,
+          "textTr": "İyi uyuyor, ancak pahalı. İndirim var mı?",
+          "textRo": "Se potrivește bine, dar e scump. Există o reducere?",
+          "textBs": "Dobro stoji, ali je skupo. Ima li popusta?",
+          "textEs": "Encaja bien, pero es caro. ¿Hay algún descuento?",
+          "textBg": "Стои добре, но е скъпо. Има ли отстъпка?",
+          "textEl": "Ταιριάζει καλά, αλλά είναι ακριβό. Υπάρχει έκπτωση;"
+        }
+      ]
+    },
+    {
+      "speaker": "partner",
+      "textDe": "Heute haben wir 10% Rabatt auf alle Jacken. Die Farbe steht Ihnen auch sehr gut!",
+      "textEn": "Today we have 10% discount on all jackets. The color also suits you very well!",
+      "textAr": "اليوم لدينا خصم 10% على جميع السترات. اللون يناسبك أيضًا بشكل جيد جدًا!",
+      "textTr": "Bugün tüm ceketlerde %10 indirimimiz var. Rengi de sana çok yakışıyor!",
+      "textRo": "Astăzi avem 10% reducere la toate jachetele. Culoarea ti se potriveste foarte bine!",
+      "textBs": "Danas imamo 10% popusta na sve jakne. Boja vam takođe odlično stoji!",
+      "textEs": "Hoy tenemos 10% de descuento en todas las chaquetas. ¡El color también te sienta muy bien!",
+      "textBg": "Днес имаме 10% намаление на всички якета. Цветът също много ти отива!",
+      "textEl": "Σήμερα έχουμε 10% έκπτωση σε όλα τα μπουφάν. Σου πάει πολύ και το χρώμα!"
+    },
+    {
+      "speaker": "user",
+      "prompt": "عبر عن سعادتك، وقل أنك ستأخذها وستدفع عند الصندوق",
+      "promptEn": "Express happiness, say you will take it and pay at the cash register.",
+      "promptAr": "عبر عن سعادتك، وقل أنك ستأخذها وستدفع عند الصندوق",
+      "promptTr": "Mutluluğunuzu ifade edin, alacağınızı söyleyin ve kasada ödeyin.",
+      "promptRo": "Exprimați fericirea, spuneți că o veți lua și plătiți la casa de marcat.",
+      "promptBs": "Izrazite sreću, recite da ćete uzeti i platiti na kasi.",
+      "promptEs": "Expresa felicidad, di que lo tomarás y pagarás en la caja registradora.",
+      "promptBg": "Изразете щастието, кажете, че ще го вземете и платете на касата.",
+      "promptEl": "Εκφράστε την ευτυχία, πείτε ότι θα το πάρετε και θα πληρώσετε στο ταμείο.",
+      "options": [
+        {
+          "textDe": "Super! Dann nehme ich sie. Ich bezahle an der Kasse.",
+          "textEn": "Super! Then I'll take it. I will pay at the register.",
+          "textAr": "ممتاز! ثم سوف أعتبر. سأدفع في السجل.",
+          "points": 10,
+          "textTr": "Süper! O zaman onu alacağım. Ödemeyi kasada yapacağım.",
+          "textRo": "Super! Atunci o voi lua. Voi plăti la registru.",
+          "textBs": "Super! Onda ću je uzeti. Platiću na registru.",
+          "textEs": "¡Súper! Entonces lo tomaré. Pagaré en caja.",
+          "textBg": "Супер! Тогава ще го взема. Ще платя на касата.",
+          "textEl": "Σούπερ! Τότε θα το πάρω. Θα πληρώσω στο μητρώο."
+        },
+        {
+          "textDe": "Das ist toll! Ich kaufe die Jacke.",
+          "textEn": "That's great! I'll buy the jacket.",
+          "textAr": "هذا عظيم! سأشتري السترة.",
+          "points": 10,
+          "textTr": "Bu harika! Ceketi satın alacağım.",
+          "textRo": "Grozav! O să cumpăr jacheta.",
+          "textBs": "To je super! Ja ću kupiti jaknu.",
+          "textEs": "¡Genial! Compraré la chaqueta.",
+          "textBg": "Това е страхотно! Ще купя якето.",
+          "textEl": "Αυτό είναι υπέροχο! Θα αγοράσω το σακάκι."
+        }
+      ]
+    }
+  ]
+},
 
   // ── CHAPTER 21: Bewerbung & Beruf ──────────────────────────
   {

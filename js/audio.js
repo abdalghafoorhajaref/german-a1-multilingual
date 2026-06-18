@@ -268,7 +268,7 @@ function getActiveAudioTracks() {
     if (typeof CURRICULUM_A2 === 'undefined') return [];
     const tracks = [];
     CURRICULUM_A2.forEach(ch => {
-      const audioList = ch.audio || [];
+      const audioList = ch.audioFiles || ch.audio || [];
       audioList.forEach((a, i) => {
         tracks.push({
           id: `A2_CH${ch.id}_${i}`,

@@ -1,7 +1,3 @@
-// ============================================================
-// WRITING TRANSLATIONS DATABASE - Multilingual
-// ============================================================
-
 const WRITING_TRANSLATIONS = {
   "en": {
     "1": {
@@ -968,6 +964,189 @@ const WRITING_TRANSLATIONS = {
         "Did you state where your classmates come from?",
         "Did you describe what you study in class?",
         "Did you express your opinion on the course?"
+      ]
+    },
+    "16": {
+      "title": "Live healthy",
+      "type": "Tips/expressive topic",
+      "description": "Write tips on how to live a healthy, balanced life, proper nutrition, exercise and prevention.",
+      "keyVocabulary": [
+        "He feeds",
+        "health",
+        "Moving / moving",
+        "He exercises",
+        "Avoids",
+        "Tension/pressure",
+        "He sleeps enough",
+        "Vegetables/fruits",
+        "Fresh air",
+        "Relax"
+      ],
+      "usefulPhrases": [
+        "To stay healthy, one must...",
+        "One should eat healthy nutrition.",
+        "It is important to exercise.",
+        "I drink a lot of water and eat vegetables.",
+        "Stress and relaxation should be avoided.",
+        "Adequate sleep is very important for the body."
+      ],
+      "grammarFocus": [
+        "Use of 'should' (subjunctive II) for recommendations",
+        "Infinitive with 'to' (It is important to do...)",
+        "Reflexive verbs: move, relax, feed"
+      ],
+      "structure": [
+        {
+          "step": "Introduction - Definition of healthy living",
+          "tip": "Start with a simple definition of the importance of health"
+        },
+        {
+          "step": "Nutrition and drink",
+          "tip": "Describe what to eat and drink"
+        },
+        {
+          "step": "Sports and physical activity",
+          "tip": "Talk about exercising and moving"
+        },
+        {
+          "step": "Sleep and rest",
+          "tip": "Talk about sleep and relaxation"
+        }
+      ],
+      "exampleEssayTranslation": "Health is the most important thing in life. To stay healthy and fit, you should pay attention to your nutrition. You should eat fresh fruits and vegetables daily and drink plenty of water. Fast food and sugar should be avoided. In addition, movement is very important. It is healthy to exercise three times a week or walk daily. You should also sleep adequately, at least seven hours a night. Relaxation helps reduce stress in daily life. I try to eat healthy and move a lot.",
+      "writingTips": [
+        "Use the verb soll or sollte to give advice",
+        "Use conjunctions such as außerdem and deshalb to connect the sentences",
+        "Write clear sentences using reflexive verbs correctly"
+      ],
+      "selfCheckList": [
+        "Did I mention the importance of healthy food?",
+        "Did you talk about drinking water and exercise?",
+        "Did you use reflexive verbs (sich bewegen)?",
+        "Have you used Infinitiv mit zu installation?",
+        "Have you been advised to sleep and relax?"
+      ]
+    },
+    "17": {
+      "title": "My dream job",
+      "type": "Expressive theme",
+      "description": "Describe your future dream job, the skills required, and why you want to work there.",
+      "keyVocabulary": [
+        "Dream job",
+        "Works as",
+        "Experience",
+        "Vocational training/university studies",
+        "earn (money)",
+        "Flexible working hours",
+        "Career path/future career",
+        "Freelance/freelancing",
+        "Colleague/colleague",
+        "With great responsibility"
+      ],
+      "usefulPhrases": [
+        "My dream job is...",
+        "I would like to work as... because...",
+        "For this purpose one needs good training.",
+        "I want to have flexible working hours.",
+        "It is important for me to have nice colleagues.",
+        "One can earn good money."
+      ],
+      "grammarFocus": [
+        "Subordinate clauses with 'because' (verb at the end)",
+        "Expressing a wish with 'would like' or 'would like'",
+        "Prepositions for professions: work as + profession, work at + company"
+      ],
+      "structure": [
+        {
+          "step": "Introduction - What is the job?",
+          "tip": "State the name of the job and why you like it"
+        },
+        {
+          "step": "Requirements and study",
+          "tip": "Talk about the education and skills needed for her"
+        },
+        {
+          "step": "Preferred working conditions",
+          "tip": "Describe the work environment, hours, and salary"
+        },
+        {
+          "step": "Conclusion - future career",
+          "tip": "Talk about your plan to achieve this goal"
+        }
+      ],
+      "exampleEssayTranslation": "My dream job is a software developer. I would like to work in a big technology company because I love computers and programming. For this profession, one needs to study computer science or have good professional training. You must also be able to think logically and have a good knowledge of English. In my dream job I want to have flexible hours and sometimes work from home. الراتب الجيد والزملاء اللطيفين مهمين بالنسبة لي أيضاً. I find this profession very interesting and responsible. I study hard every day to reach my goal.",
+      "writingTips": [
+        "Write sub-sentences using weil and remember to put the verb at the end of the sentence",
+        "Use möchte to express your future wishes",
+        "Type in words used such as ebenfalls and auch"
+      ],
+      "selfCheckList": [
+        "Have you clearly defined your dream job?",
+        "Did you explain why you chose this job (weil)?",
+        "Did I mention the skills required?",
+        "Did you talk about working hours or salary?",
+        "Do weil sentences end with conjugated verbs?"
+      ]
+    },
+    "18": {
+      "title": "An unforgettable experience",
+      "type": "Story/narration of events",
+      "description": "Write a short story about a trip, holiday or special event that happened to you in the past using the past tense.",
+      "keyVocabulary": [
+        "He travels",
+        "Visit",
+        "See / see",
+        "Live an experience",
+        "unforgettable",
+        "Very beautiful",
+        "Adventure",
+        "Vacation/holiday",
+        "last year",
+        "Pleasant / brings pleasure"
+      ],
+      "usefulPhrases": [
+        "Last year I traveled to...",
+        "That was a very nice vacation.",
+        "Saw a lot of interesting places.",
+        "The experience was unforgettable.",
+        "We laughed a lot and took pictures.",
+        "The trip was very enjoyable for me."
+      ],
+      "grammarFocus": [
+        "Using the perfect tense for past events",
+        "Auxiliary verbs: 'to be' with movement (has traveled), 'to have' with transitivity (has visited)",
+        "Adverbs of time: last year, in the summer, on a day"
+      ],
+      "structure": [
+        {
+          "step": "Introduction - when and where",
+          "tip": "Specify the time and location of the trip or event"
+        },
+        {
+          "step": "What did you do there?",
+          "tip": "List the activities you did in the past tense"
+        },
+        {
+          "step": "A special event or adventure",
+          "tip": "Describe something wonderful or unexpected that happened to you"
+        },
+        {
+          "step": "Conclusion - the last impression",
+          "tip": "Summarize your feeling and impression about this event"
+        }
+      ],
+      "exampleEssayTranslation": "Last summer I traveled with my family to Munich. We went by car. That was a very nice vacation. We stayed in a small hotel. In Munich we visited a lot of sights like Nymphenburg Palace and the English Garden. What I liked the most was the English Garden, we had a picnic there. We also tried German food. It was very delicious for us. The weather has been warm and sunny all week. This trip was an unforgettable experience. You brought us so much pleasure.",
+      "writingTips": [
+        "Write the entire story in the past tense (Perfekt)",
+        "Remember to put ge- at the end of sentences with the auxiliary verbs haben or sein",
+        "Use beautiful adjectives such as wunderschön and unvergesslich to describe your feelings"
+      ],
+      "selfCheckList": [
+        "Did you write in the past tense (Perfekt) and use haben/sein correctly?",
+        "Have you determined the time and location of the event?",
+        "Did you list the activities in the past tense?",
+        "Did you put past conjugated verbs at the end of the sentence after haben/sein?",
+        "Did you describe your final feeling?"
       ]
     }
   },
@@ -1937,6 +2116,164 @@ const WRITING_TRANSLATIONS = {
         "Derste neler çalıştığınızı tarif ettiniz mi?",
         "Kurs hakkındaki fikrinizi yazdınız mı?"
       ]
+    },
+    "16": {
+      "title": "En sevdiğin kıyafetleri anlat",
+      "type": "Açıklayıcı konu",
+      "description": "En sevdiğiniz kıyafetlerinizi yazın. Neyi, hangi renkte ve neden giymeyi seversiniz?",
+      "keyVocabulary": [
+        "favori kıyafetler",
+        "giymek",
+        "renk",
+        "mavi kot pantolon",
+        "beyaz tişört",
+        "sıcak ceket",
+        "rahat",
+        "şık / stil sahibi",
+        "sığdırmak",
+        "uygun olmak"
+      ],
+      "usefulPhrases": [
+        "En sevdiğim kıyafet...",
+        "Kot pantolon ve tişört giymeyi seviyorum.",
+        "Kışın sıcak tutan bir ceket giyiyorum.",
+        "Kıyafetler çok rahat.",
+        "Renk bana çok yakışıyor.",
+        "Kıyafetlerimi bir mağazadan alıyorum."
+      ],
+      "grammarFocus": [
+        "Belirsiz artikellerden sonra sıfat sonları (ein blauer Rock)",
+        "'Weil' ile sebep vermek (çünkü)",
+        "Modal fiil 'möchte' kullanımı (isterdim)"
+      ],
+      "checklist": [
+        "Hangi kıyafetleri giydiğini tarif ettin mi?",
+        "Renklerden bahsettiniz mi?",
+        "Neden onları sevdiğinizi açıkladınız mı?",
+        "Doğru sıfat çekimlerini kullandınız mı?"
+      ]
+    },
+    "17": {
+      "title": "Hayalimdeki iş",
+      "type": "Etkileyici tema",
+      "description": "Gelecekteki hayalinizdeki işi, gerekli becerileri ve neden orada çalışmak istediğinizi açıklayın.",
+      "keyVocabulary": [
+        "Hayalimdeki iş",
+        "Olarak çalışır",
+        "Deneyim",
+        "Mesleki eğitim/üniversite çalışmaları",
+        "(para) kazanmak",
+        "Esnek çalışma saatleri",
+        "Kariyer yolu/gelecekteki kariyer",
+        "Serbest/serbest çalışma",
+        "Meslektaş/meslektaş",
+        "Büyük sorumlulukla"
+      ],
+      "usefulPhrases": [
+        "Hayalimdeki meslek...",
+        "Ben... olarak çalışmak isterim çünkü...",
+        "Bunun için iyi bir eğitime ihtiyaç vardır.",
+        "Esnek çalışma saatlerine sahip olmak istiyorum.",
+        "İyi meslektaşlarımın olması benim için önemli.",
+        "İnsan iyi para kazanabilir."
+      ],
+      "grammarFocus": [
+        "'Çünkü' içeren yan cümleler (fiil sonda)",
+        "Bir dileği 'isterdim' veya 'isterdim' ile ifade etmek",
+        "Meslekler için edatlar: + meslek olarak çalışmak, + şirkette çalışmak"
+      ],
+      "structure": [
+        {
+          "step": "Giriş - İş nedir?",
+          "tip": "İşin adını ve onu neden sevdiğinizi belirtin"
+        },
+        {
+          "step": "Gereksinimler ve çalışma",
+          "tip": "Onun için gereken eğitim ve beceriler hakkında konuşun"
+        },
+        {
+          "step": "Tercih edilen çalışma koşulları",
+          "tip": "Çalışma ortamını, saatlerini ve maaşını açıklayın"
+        },
+        {
+          "step": "Sonuç - gelecekteki kariyer",
+          "tip": "Bu hedefe ulaşma planınız hakkında konuşun"
+        }
+      ],
+      "exampleEssayTranslation": "Hayalimdeki iş yazılımcıdır. Büyük bir teknoloji şirketinde çalışmak isterim çünkü bilgisayarları ve programlamayı seviyorum. Bu meslek için kişinin bilgisayar bilimi eğitimi alması veya iyi bir mesleki eğitim alması gerekir. Ayrıca mantıklı düşünebilmeli ve iyi derecede İngilizce bilgisine sahip olmalısınız. Hayalimdeki işte esnek çalışma saatlerine sahip olmak ve bazen evden çalışmak istiyorum. İyi maaş ve iyi çalışma arkadaşları da benim için önemlidir. Bu mesleği çok ilginç ve sorumlu buluyorum. Hedefime ulaşmak için her gün çok çalışıyorum.",
+      "writingTips": [
+        "Weil kullanarak alt cümleler yazın ve fiili cümlenin sonuna koymayı unutmayın",
+        "Gelecekteki dileklerinizi ifade etmek için möchte kullanın",
+        "Ebenfalls ve auch gibi kullanılan kelimeleri yazın"
+      ],
+      "selfCheckList": [
+        "Hayalinizdeki işi açıkça tanımladınız mı?",
+        "Bu işi neden seçtiğinizi açıkladınız mı (weil)?",
+        "Gerekli becerilerden bahsetmiş miydim?",
+        "Çalışma saatleri veya maaş hakkında konuştunuz mu?",
+        "Weil cümleleri konjuge fiillerle mi bitiyor?"
+      ]
+    },
+    "18": {
+      "title": "Unutulmaz bir deneyim",
+      "type": "Olayların hikayesi/anlatımı",
+      "description": "Geçmişte başınıza gelen bir gezi, tatil veya özel bir olay hakkında geçmiş zamanı kullanarak kısa bir hikaye yazın.",
+      "keyVocabulary": [
+        "O seyahat ediyor",
+        "Ziyaret etmek",
+        "Gör / gör",
+        "Bir deneyim yaşayın",
+        "unutulmaz",
+        "Çok güzel",
+        "Macera",
+        "Tatil/tatil",
+        "geçen sene",
+        "Hoş / zevk getirir"
+      ],
+      "usefulPhrases": [
+        "Geçen yıl seyahat ettim...",
+        "Çok güzel bir tatildi.",
+        "Çok ilginç yerler gördüm.",
+        "Deneyim unutulmazdı.",
+        "Çok güldük, fotoğraf çektirdik.",
+        "Yolculuk benim için çok keyifliydi."
+      ],
+      "grammarFocus": [
+        "Geçmiş olaylar için mükemmel zaman kullanma",
+        "Yardımcı fiiller: 'olmak' hareketle (seyahat etti), 'sahip olmak' geçişlilikle (ziyaret etti)",
+        "Zaman zarfları: geçen yıl, yazın, bir günde"
+      ],
+      "structure": [
+        {
+          "step": "Giriş - ne zaman ve nerede",
+          "tip": "Gezinin veya etkinliğin saatini ve yerini belirtin"
+        },
+        {
+          "step": "Orada ne yaptın?",
+          "tip": "Geçmiş zamanda yaptığınız etkinlikleri listeleyin"
+        },
+        {
+          "step": "Özel bir etkinlik veya macera",
+          "tip": "Başınıza gelen harika veya beklenmedik bir şeyi anlatın"
+        },
+        {
+          "step": "Sonuç - son izlenim",
+          "tip": "Bu olayla ilgili duygularınızı ve izlenimlerinizi özetleyin"
+        }
+      ],
+      "exampleEssayTranslation": "Geçen yaz ailemle birlikte Münih'e seyahat ettim. Arabayla gittik. Çok güzel bir tatildi. Küçük bir otelde kaldık. Münih'te Nymphenburg Sarayı ve İngiliz Bahçesi gibi pek çok turistik yeri ziyaret ettik. En çok İngiliz Bahçesi hoşuma gitti, orada piknik yaptık. Alman yemeklerini de denedik. Bizim için çok lezzetliydi. Hafta boyunca hava sıcak ve güneşliydi. Bu gezi unutulmaz bir deneyimdi. Bize çok büyük mutluluk yaşattın.",
+      "writingTips": [
+        "Hikayenin tamamını geçmiş zamanda yazın (Perfekt)",
+        "Haben veya sein yardımcı fiilleriyle birlikte cümlelerin sonuna ge- koymayı unutmayın",
+        "Duygularınızı tanımlamak için wunderschön ve unvergesslich gibi güzel sıfatlar kullanın"
+      ],
+      "selfCheckList": [
+        "Geçmiş zamanı (Perfekt) yazıp haben/sein'i doğru kullandınız mı?",
+        "Etkinliğin zamanını ve yerini belirlediniz mi?",
+        "Faaliyetleri geçmiş zamanda listelediniz mi?",
+        "Geçmiş çekimli fiilleri haben/sein'den sonra cümlenin sonuna koydunuz mu?",
+        "Son duygunuzu tarif ettiniz mi?"
+      ]
     }
   },
   "ro": {
@@ -2904,6 +3241,164 @@ const WRITING_TRANSLATIONS = {
         "Ai precizat de unde provin colegii tăi?",
         "Ai descris ce ai studiat la clasă?",
         "Ți-ai exprimat părerea despre curs?"
+      ]
+    },
+    "16": {
+      "title": "Descrie hainele preferate",
+      "type": "Subiect descriptiv",
+      "description": "Scrie despre hainele tale preferate. Ce iti place sa porti, in ce culoare si de ce?",
+      "keyVocabulary": [
+        "hainele preferate",
+        "a purta",
+        "culoare",
+        "blugi albaștri",
+        "tricou alb",
+        "jachetă caldă",
+        "confortabil",
+        "sic / stilat",
+        "a se potrivi",
+        "a se potrivi"
+      ],
+      "usefulPhrases": [
+        "Hainele mele preferate sunt...",
+        "Îmi place să port blugi și un tricou.",
+        "Port un sacou cald iarna.",
+        "Hainele sunt foarte comode.",
+        "Culoarea mi se potrivește bine.",
+        "Îmi cumpăr hainele dintr-un magazin."
+      ],
+      "grammarFocus": [
+        "Terminații adjectivale după articole nedefinite (ein blauer Rock)",
+        "A da motive cu „weil” (pentru că)",
+        "Folosind verbul modal „möchte” (ar dori)"
+      ],
+      "checklist": [
+        "Ai descris ce haine porți?",
+        "Ai menționat culorile?",
+        "I-ai explicat de ce iti plac?",
+        "Ați folosit corect declinațiile adjective?"
+      ]
+    },
+    "17": {
+      "title": "Slujba mea de vis",
+      "type": "Temă expresivă",
+      "description": "Descrie viitorul tău job de vis, abilitățile necesare și de ce vrei să lucrezi acolo.",
+      "keyVocabulary": [
+        "Job de vis",
+        "Funcționează ca",
+        "Experienţă",
+        "Formare profesională/studii universitare",
+        "câștiga (bani)",
+        "Program de lucru flexibil",
+        "Calea de carieră/cariera viitoare",
+        "Independent/independent",
+        "Coleg/coleg",
+        "Cu mare responsabilitate"
+      ],
+      "usefulPhrases": [
+        "Slujba mea de vis este...",
+        "Mi-ar plăcea să lucrez ca... pentru că...",
+        "În acest scop, este nevoie de o pregătire bună.",
+        "Vreau sa am un program de lucru flexibil.",
+        "Este important pentru mine să am colegi drăguți.",
+        "Se pot câștiga bani buni."
+      ],
+      "grammarFocus": [
+        "Propoziții subordonate cu „deoarece” (verb la sfârșit)",
+        "Exprimarea unei dorințe cu „ar dori” sau „ar dori”",
+        "Prepozitii pentru profesii: work as + profesie, work at + company"
+      ],
+      "structure": [
+        {
+          "step": "Introducere - Care este jobul?",
+          "tip": "Spuneți numele postului și de ce vă place"
+        },
+        {
+          "step": "Cerințe și studiu",
+          "tip": "Vorbește despre educația și abilitățile necesare pentru ea"
+        },
+        {
+          "step": "Condiții de lucru preferate",
+          "tip": "Descrieți mediul de lucru, orele și salariul"
+        },
+        {
+          "step": "Concluzie - viitoare carieră",
+          "tip": "Vorbește despre planul tău pentru a atinge acest obiectiv"
+        }
+      ],
+      "exampleEssayTranslation": "Jobul meu de vis este un dezvoltator de software. Mi-ar plăcea să lucrez într-o mare companie de tehnologie pentru că îmi plac computerele și programarea. Pentru această profesie, trebuie să studiezi informatica sau să ai o bună pregătire profesională. De asemenea, trebuie să fii capabil să gândești logic și să ai o bună cunoaștere a limbii engleze. În jobul meu de vis vreau să am un program flexibil și uneori să lucrez de acasă. Pentru mine contează și un salariu bun și colegii drăguți. Mi se pare foarte interesantă și responsabilă această profesie. Studiez din greu în fiecare zi pentru a-mi atinge scopul.",
+      "writingTips": [
+        "Scrieți subpropoziții folosind weil și amintiți-vă să puneți verbul la sfârșitul propoziției",
+        "Folosiți möchte pentru a vă exprima dorințele viitoare",
+        "Introduceți cuvintele folosite, cum ar fi ebenfalls și auch"
+      ],
+      "selfCheckList": [
+        "Ți-ai definit clar jobul de vis?",
+        "Ai explicat de ce ai ales acest job (weil)?",
+        "Am menționat abilitățile necesare?",
+        "Ai vorbit despre programul de lucru sau salariu?",
+        "Propozițiile weil se termină cu verbe conjugate?"
+      ]
+    },
+    "18": {
+      "title": "O experiență de neuitat",
+      "type": "Povestea/povestirea evenimentelor",
+      "description": "Scrie o poveste scurtă despre o călătorie, vacanță sau eveniment special care ți s-a întâmplat în trecut, folosind timpul trecut.",
+      "keyVocabulary": [
+        "Călătorește",
+        "Vizita",
+        "Vezi / vezi",
+        "Traieste o experienta",
+        "de neuitat",
+        "Foarte frumos",
+        "Aventură",
+        "Vacanta/vacanta",
+        "anul trecut",
+        "Plăcut / aduce plăcere"
+      ],
+      "usefulPhrases": [
+        "Anul trecut am calatorit in...",
+        "A fost o vacanță foarte frumoasă.",
+        "Am văzut o mulțime de locuri interesante.",
+        "Experiența a fost de neuitat.",
+        "Am râs mult și am făcut poze.",
+        "Călătoria a fost foarte plăcută pentru mine."
+      ],
+      "grammarFocus": [
+        "Folosind timpul perfect pentru evenimentele trecute",
+        "Verbe auxiliare: „a fi” cu mișcare (a călătorit), „a avea” cu tranzitivitate (a vizitat)",
+        "Adverbe de timp: anul trecut, vara, într-o zi"
+      ],
+      "structure": [
+        {
+          "step": "Introducere - când și unde",
+          "tip": "Specificați ora și locația călătoriei sau evenimentului"
+        },
+        {
+          "step": "Ce ai făcut acolo?",
+          "tip": "Enumerați activitățile pe care le-ați făcut la timpul trecut"
+        },
+        {
+          "step": "Un eveniment sau o aventură specială",
+          "tip": "Descrie ceva minunat sau neașteptat care ți s-a întâmplat"
+        },
+        {
+          "step": "Concluzie - ultima impresie",
+          "tip": "Rezumați-vă sentimentele și impresiile despre acest eveniment"
+        }
+      ],
+      "exampleEssayTranslation": "Vara trecută am călătorit cu familia la Munchen. Am mers cu mașina. A fost o vacanță foarte frumoasă. Ne-am cazat într-un mic hotel. În München am vizitat o mulțime de atracții precum Palatul Nymphenburg și Grădina Engleză. Cel mai mult mi-a plăcut Grădina Engleză, am făcut un picnic acolo. Am încercat și mâncare germană. A fost foarte delicios pentru noi. Vremea a fost caldă și însorită toată săptămâna. Această călătorie a fost o experiență de neuitat. Ne-ai adus atât de multă plăcere.",
+      "writingTips": [
+        "Scrie întreaga poveste la timpul trecut (perfect)",
+        "Nu uitați să puneți ge- la sfârșitul propozițiilor cu verbele auxiliare haben sau sein",
+        "Folosiți adjective frumoase, cum ar fi wunderschön și unvergesslich, pentru a vă descrie sentimentele"
+      ],
+      "selfCheckList": [
+        "Ai scris la timpul trecut (Perfekt) și ai folosit corect haben/sein?",
+        "Ați stabilit ora și locul evenimentului?",
+        "Ai enumerat activitățile la timpul trecut?",
+        "Ai pus verbe conjugate trecute la sfârșitul propoziției după haben/sein?",
+        "Ți-ai descris sentimentul final?"
       ]
     }
   },
@@ -3873,6 +4368,164 @@ const WRITING_TRANSLATIONS = {
         "Da li ste opisali šta učite na času?",
         "Da li ste izrazili svoje mišljenje o kursu?"
       ]
+    },
+    "16": {
+      "title": "Opišite omiljenu odjeću",
+      "type": "Opisna tema",
+      "description": "Pišite o svojoj omiljenoj odjeći. Šta voliš da nosiš, u kojoj boji i zašto?",
+      "keyVocabulary": [
+        "omiljena odeća",
+        "nositi",
+        "boja",
+        "plave farmerke",
+        "bijela majica",
+        "topla jakna",
+        "udobno",
+        "šik / sa stilom",
+        "to fit",
+        "odgovarati"
+      ],
+      "usefulPhrases": [
+        "Moja omiljena odeća je...",
+        "Volim da nosim farmerke i majicu.",
+        "Zimi nosim toplu jaknu.",
+        "Odjeća je vrlo udobna.",
+        "Boja mi dobro stoji.",
+        "Odeću kupujem u radnji."
+      ],
+      "grammarFocus": [
+        "Završeci pridjeva nakon neodređenih članova (ein blauer Rock)",
+        "Navođenje razloga sa 'weil' (jer)",
+        "Korištenje modalnog glagola 'möchte' (želio bih)"
+      ],
+      "checklist": [
+        "Jeste li opisali koju odjeću nosite?",
+        "Jeste li spomenuli boje?",
+        "Jeste li objasnili zašto vam se sviđaju?",
+        "Jeste li koristili ispravne deklinacije pridjeva?"
+      ]
+    },
+    "17": {
+      "title": "Moj posao iz snova",
+      "type": "Ekspresivna tema",
+      "description": "Opišite svoj budući posao iz snova, potrebne vještine i zašto želite tamo raditi.",
+      "keyVocabulary": [
+        "Posao iz snova",
+        "Radi kao",
+        "Iskustvo",
+        "Stručno usavršavanje/univerzitetske studije",
+        "zaraditi (novac)",
+        "Fleksibilno radno vrijeme",
+        "Karijera/buduća karijera",
+        "Freelance/freelancing",
+        "Kolega/kolega",
+        "Sa velikom odgovornošću"
+      ],
+      "usefulPhrases": [
+        "Moj posao iz snova je...",
+        "Voleo bih da radim kao... jer...",
+        "Za tu svrhu potrebna je dobra obuka.",
+        "Želim da imam fleksibilno radno vrijeme.",
+        "Važno mi je da imam dobre kolege.",
+        "Može se dobro zaraditi."
+      ],
+      "grammarFocus": [
+        "Podređene rečenice sa 'jer' (glagol na kraju)",
+        "Izražavanje želje sa 'volio' ili 'htjeo'",
+        "Predlozi za zanimanja: rad kao + profesija, rad u + firmi"
+      ],
+      "structure": [
+        {
+          "step": "Uvod - Šta je posao?",
+          "tip": "Navedite naziv posla i zašto vam se sviđa"
+        },
+        {
+          "step": "Zahtjevi i studija",
+          "tip": "Razgovarajte o obrazovanju i vještinama koje su joj potrebne"
+        },
+        {
+          "step": "Poželjni uslovi rada",
+          "tip": "Opišite radno okruženje, radno vrijeme i platu"
+        },
+        {
+          "step": "Zaključak - buduća karijera",
+          "tip": "Razgovarajte o svom planu za postizanje ovog cilja"
+        }
+      ],
+      "exampleEssayTranslation": "Moj posao iz snova je programer softvera. Voleo bih da radim u velikoj tehnološkoj kompaniji jer volim računare i programiranje. Za ovu profesiju potrebno je studirati informatiku ili imati dobru stručnu spremu. Takođe morate biti u stanju da logično razmišljate i dobro poznajete engleski jezik. U svom poslu iz snova želim imati fleksibilno radno vrijeme i ponekad raditi od kuće. Bitna mi je i dobra plata i dobre kolege. Smatram da je ovo zanimanje veoma zanimljivo i odgovorno. Svaki dan vrijedno učim kako bih postigao svoj cilj.",
+      "writingTips": [
+        "Napišite podrečenice koristeći weil i zapamtite da glagol stavite na kraj rečenice",
+        "Koristite möchte da izrazite svoje buduće želje",
+        "Upišite riječi koje se koriste kao što su ebenfalls i auch"
+      ],
+      "selfCheckList": [
+        "Da li ste jasno definisali svoj posao iz snova?",
+        "Jeste li objasnili zašto ste odabrali ovaj posao (weil)?",
+        "Jesam li spomenuo potrebne vještine?",
+        "Da li ste pričali o radnom vremenu ili plati?",
+        "Da li se weil rečenice završavaju konjugiranim glagolima?"
+      ]
+    },
+    "18": {
+      "title": "Nezaboravno iskustvo",
+      "type": "Priča/naracija događaja",
+      "description": "Napišite kratku priču o putovanju, odmoru ili posebnom događaju koji vam se dogodio u prošlosti koristeći prošlo vrijeme.",
+      "keyVocabulary": [
+        "On putuje",
+        "Posjetite",
+        "Vidi / vidi",
+        "Živite iskustvo",
+        "nezaboravno",
+        "Vrlo lijepa",
+        "Avantura",
+        "Odmor/odmor",
+        "prošle godine",
+        "Prijatan / donosi zadovoljstvo"
+      ],
+      "usefulPhrases": [
+        "Prošle godine sam putovao u...",
+        "Bio je to jako lijep odmor.",
+        "Videla mnogo zanimljivih mesta.",
+        "Iskustvo je bilo nezaboravno.",
+        "Puno smo se smijali i slikali.",
+        "Putovanje mi je bilo veoma prijatno."
+      ],
+      "grammarFocus": [
+        "Upotreba savršenog vremena za prošle događaje",
+        "Pomoćni glagoli: 'biti' s kretanjem (putovao), 'imati' s prijelaznošću (posjetio)",
+        "Prilozi vremena: prošle godine, ljeti, na dan"
+      ],
+      "structure": [
+        {
+          "step": "Uvod - kada i gdje",
+          "tip": "Navedite vrijeme i lokaciju putovanja ili događaja"
+        },
+        {
+          "step": "sta si radio tamo?",
+          "tip": "Navedite aktivnosti koje ste radili u prošlom vremenu"
+        },
+        {
+          "step": "Poseban događaj ili avantura",
+          "tip": "Opišite nešto divno ili neočekivano što vam se dogodilo"
+        },
+        {
+          "step": "Zaključak - posljednji utisak",
+          "tip": "Sumirajte svoje osjećaje i utiske o ovom događaju"
+        }
+      ],
+      "exampleEssayTranslation": "Prošlog ljeta sam putovao sa porodicom u Minhen. Išli smo autom. Bio je to jako lijep odmor. Odsjeli smo u malom hotelu. U Minhenu smo posjetili mnogo znamenitosti poput palače Nymphenburg i Engleske bašte. Ono što mi se najviše dopalo je Engleska bašta, tamo smo imali piknik. Probali smo i njemačku hranu. Nama je bilo jako ukusno. Vrijeme je bilo toplo i sunčano tokom cijele sedmice. Ovo putovanje je bilo nezaboravno iskustvo. Donijeli ste nam toliko zadovoljstva.",
+      "writingTips": [
+        "Napišite cijelu priču u prošlom vremenu (Savršeno)",
+        "Ne zaboravite staviti ge- na kraj rečenica s pomoćnim glagolima haben ili sein",
+        "Koristite lijepe prideve kao što su wunderschön i unvergesslich da opišete svoja osjećanja"
+      ],
+      "selfCheckList": [
+        "Da li ste pisali u prošlom vremenu (Perfekt) i pravilno upotrebili haben/sein?",
+        "Jeste li odredili vrijeme i mjesto događaja?",
+        "Da li ste naveli aktivnosti u prošlom vremenu?",
+        "Jeste li stavili prošle konjugirane glagole na kraj rečenice nakon haben/sein?",
+        "Jeste li opisali svoj posljednji osjećaj?"
+      ]
     }
   },
   "es": {
@@ -4840,6 +5493,164 @@ const WRITING_TRANSLATIONS = {
         "¿Dijiste de dónde vienen tus compañeros de clase?",
         "¿Describiste lo que estudias en clase?",
         "¿Expresaste tu opinión sobre el curso?"
+      ]
+    },
+    "16": {
+      "title": "Describe tu ropa favorita",
+      "type": "Tema descriptivo",
+      "description": "Escribe sobre tu ropa favorita. ¿Qué te gusta usar, de qué color y por qué?",
+      "keyVocabulary": [
+        "ropa favorita",
+        "usar",
+        "color",
+        "pantalones vaqueros azules",
+        "camiseta blanca",
+        "chaqueta abrigada",
+        "cómodo",
+        "chic / con estilo",
+        "encajar",
+        "para adaptarse"
+      ],
+      "usefulPhrases": [
+        "Mi ropa favorita es...",
+        "Me gusta usar jeans y una camiseta.",
+        "Llevo una chaqueta abrigada en invierno.",
+        "La ropa es muy cómoda.",
+        "El color me queda bien.",
+        "Compro mi ropa en una tienda."
+      ],
+      "grammarFocus": [
+        "Terminaciones de adjetivo después de artículos indefinidos (ein blauer Rock)",
+        "Dar razones con 'weil' (porque)",
+        "Usar el verbo modal 'möchte' (me gustaría)"
+      ],
+      "checklist": [
+        "¿Describiste qué ropa usas?",
+        "¿Mencionaste los colores?",
+        "¿Explicaste por qué te gustan?",
+        "¿Usaste declinaciones correctas de adjetivos?"
+      ]
+    },
+    "17": {
+      "title": "el trabajo de mis sueños",
+      "type": "Tema expresivo",
+      "description": "Describe el futuro trabajo de tus sueños, las habilidades requeridas y por qué quieres trabajar allí.",
+      "keyVocabulary": [
+        "Trabajo de ensueño",
+        "Funciona como",
+        "Experiencia",
+        "Formación profesional/estudios universitarios",
+        "ganar (dinero)",
+        "Horarios de trabajo flexibles",
+        "Trayectoria profesional/futura carrera",
+        "Independiente/trabajador independiente",
+        "colega/colega",
+        "Con gran responsabilidad"
+      ],
+      "usefulPhrases": [
+        "El trabajo de mis sueños es...",
+        "Me gustaría trabajar como... porque...",
+        "Para ello se necesita una buena formación.",
+        "Quiero tener horarios de trabajo flexibles.",
+        "Para mí es importante tener buenos compañeros.",
+        "Se puede ganar buen dinero."
+      ],
+      "grammarFocus": [
+        "Oraciones subordinadas con 'porque' (verbo al final)",
+        "Expresar un deseo con 'me gustaría' o 'me gustaría'",
+        "Preposiciones para profesiones: trabajar como + profesión, trabajar en + empresa"
+      ],
+      "structure": [
+        {
+          "step": "Introducción - ¿Qué es el trabajo?",
+          "tip": "Di el nombre del trabajo y por qué te gusta."
+        },
+        {
+          "step": "Requisitos y estudio",
+          "tip": "Hable sobre la educación y las habilidades necesarias para ella."
+        },
+        {
+          "step": "Condiciones de trabajo preferidas",
+          "tip": "Describir el ambiente de trabajo, horarios y salario."
+        },
+        {
+          "step": "Conclusión - carrera futura",
+          "tip": "Hable sobre su plan para lograr este objetivo."
+        }
+      ],
+      "exampleEssayTranslation": "El trabajo de mis sueños es desarrollador de software. Me gustaría trabajar en una gran empresa de tecnología porque me encantan las computadoras y la programación. Para esta profesión es necesario estudiar informática o tener una buena formación profesional. También debes poder pensar de forma lógica y tener un buen conocimiento del inglés. En el trabajo de mis sueños quiero tener horarios flexibles y, a veces, trabajar desde casa. Para mí también son importantes un buen salario y buenos compañeros. Esta profesión me parece muy interesante y responsable. Estudio mucho todos los días para alcanzar mi meta.",
+      "writingTips": [
+        "Escribe suboraciones usando weil y recuerda poner el verbo al final de la oración.",
+        "Utilice möchte para expresar sus deseos futuros",
+        "Escriba las palabras utilizadas como ebenfalls y auch"
+      ],
+      "selfCheckList": [
+        "¿Has definido claramente el trabajo de tus sueños?",
+        "¿Explicaste por qué elegiste este trabajo (weil)?",
+        "¿Mencioné las habilidades requeridas?",
+        "¿Hablaste de jornada laboral o salario?",
+        "¿Las oraciones weil terminan con verbos conjugados?"
+      ]
+    },
+    "18": {
+      "title": "Una experiencia inolvidable",
+      "type": "Historia/narración de eventos",
+      "description": "Escribe una historia corta sobre un viaje, vacaciones o evento especial que te haya sucedido en el pasado usando el tiempo pasado.",
+      "keyVocabulary": [
+        "el viaja",
+        "Visita",
+        "ver / ver",
+        "Vive una experiencia",
+        "inolvidable",
+        "Muy hermoso",
+        "Aventura",
+        "Vacaciones/vacaciones",
+        "el año pasado",
+        "Agradable / trae placer"
+      ],
+      "usefulPhrases": [
+        "El año pasado viajé a...",
+        "Fueron unas vacaciones muy agradables.",
+        "Vi muchos lugares interesantes.",
+        "La experiencia fue inolvidable.",
+        "Nos reímos mucho y nos hicimos fotos.",
+        "El viaje fue muy agradable para mí."
+      ],
+      "grammarFocus": [
+        "Usar el tiempo perfecto para eventos pasados",
+        "Verbos auxiliares: 'to be' con movimiento (ha viajado), 'to have' con transitividad (ha visitado)",
+        "Adverbios de tiempo: el año pasado, en el verano, en un día"
+      ],
+      "structure": [
+        {
+          "step": "Introducción: cuándo y dónde",
+          "tip": "Especificar la hora y el lugar del viaje o evento."
+        },
+        {
+          "step": "¿Qué hiciste allí?",
+          "tip": "Enumera las actividades que hiciste en tiempo pasado."
+        },
+        {
+          "step": "Un evento o aventura especial",
+          "tip": "Describe algo maravilloso o inesperado que te haya sucedido."
+        },
+        {
+          "step": "Conclusión: la última impresión.",
+          "tip": "Resume tu sentimiento e impresión sobre este evento."
+        }
+      ],
+      "exampleEssayTranslation": "El verano pasado viajé con mi familia a Munich. Fuimos en coche. Fueron unas vacaciones muy agradables. Nos alojamos en un pequeño hotel. En Munich visitamos muchos lugares de interés como el Palacio de Nymphenburg y el Jardín Inglés. Lo que más me gustó fue el Jardín Inglés, allí hicimos un picnic. También probamos la comida alemana. Fue muy delicioso para nosotros. El clima ha sido cálido y soleado toda la semana. Este viaje fue una experiencia inolvidable. Nos trajiste mucho placer.",
+      "writingTips": [
+        "Escribe toda la historia en tiempo pasado (Perfekt)",
+        "Recuerda poner ge- al final de las oraciones con los verbos auxiliares haben o sein.",
+        "Utilice hermosos adjetivos como wunderschön y unvergesslich para describir sus sentimientos."
+      ],
+      "selfCheckList": [
+        "¿Escribiste en tiempo pasado (Perfekt) y usaste haben/sein correctamente?",
+        "¿Ha determinado la hora y el lugar del evento?",
+        "¿Enumeraste las actividades en tiempo pasado?",
+        "¿Pusiste verbos conjugados en pasado al final de la oración después de haben/sein?",
+        "¿Describiste tu sentimiento final?"
       ]
     }
   },
@@ -5809,6 +6620,164 @@ const WRITING_TRANSLATIONS = {
         "Описахте ли какво изучавате в клас?",
         "Изразихте ли мнението си за курса?"
       ]
+    },
+    "16": {
+      "title": "Опишете любимите дрехи",
+      "type": "Описателна тема",
+      "description": "Пишете за любимите си дрехи. Какво обичате да носите, в кой цвят и защо?",
+      "keyVocabulary": [
+        "любими дрехи",
+        "да се носят",
+        "цвят",
+        "сини дънки",
+        "бяла тениска",
+        "топло яке",
+        "удобно",
+        "шик / стилен",
+        "да пасне",
+        "да отговарят"
+      ],
+      "usefulPhrases": [
+        "Любимото ми облекло е...",
+        "Обичам да нося дънки и тениска.",
+        "През зимата нося топло яке.",
+        "Дрехите са много удобни.",
+        "Цветът ми отива.",
+        "Дрехите си ги купувам от магазин."
+      ],
+      "grammarFocus": [
+        "Окончания на прилагателни след неопределени членове (ein blauer Rock)",
+        "Посочване на причини с \"weil\" (защото)",
+        "Използване на модален глагол „möchte“ (бих искал)"
+      ],
+      "checklist": [
+        "Описахте ли какви дрехи носите?",
+        "Споменахте ли цветовете?",
+        "Обясни ли защо ги харесваш?",
+        "Използвахте ли правилни склонения на прилагателни?"
+      ]
+    },
+    "17": {
+      "title": "Моята мечтана работа",
+      "type": "Експресивна тема",
+      "description": "Опишете бъдещата мечтана работа, необходимите умения и защо искате да работите там.",
+      "keyVocabulary": [
+        "Мечтана работа",
+        "Работи като",
+        "опит",
+        "Професионално обучение/университетско обучение",
+        "печеля (пари)",
+        "Гъвкаво работно време",
+        "Кариерен път/бъдеща кариера",
+        "На свободна практика/на свободна практика",
+        "Колега/колега",
+        "С голяма отговорност"
+      ],
+      "usefulPhrases": [
+        "Мечтаната ми работа е...",
+        "Бих искал да работя като... защото...",
+        "За тази цел е необходима добра подготовка.",
+        "Искам да имам гъвкаво работно време.",
+        "За мен е важно да имам хубави колеги.",
+        "Човек може да спечели добри пари."
+      ],
+      "grammarFocus": [
+        "Подчинени изречения с „защото“ (глагол в края)",
+        "Изразяване на желание с „бих искал“ или „бих искал“",
+        "Предлози за професии: работа като + професия, работа в + компания"
+      ],
+      "structure": [
+        {
+          "step": "Въведение - Какво представлява работата?",
+          "tip": "Посочете името на работата и защо я харесвате"
+        },
+        {
+          "step": "Изисквания и проучване",
+          "tip": "Говорете за образованието и уменията, необходими за нея"
+        },
+        {
+          "step": "Предпочитани условия на работа",
+          "tip": "Опишете работната среда, работното време и заплатата"
+        },
+        {
+          "step": "Заключение - бъдеща кариера",
+          "tip": "Говорете за вашия план за постигане на тази цел"
+        }
+      ],
+      "exampleEssayTranslation": "Мечтаната ми работа е софтуерен разработчик. Бих искал да работя в голяма технологична компания, защото обичам компютрите и програмирането. За тази професия човек трябва да учи компютърни науки или да има добра професионална подготовка. Освен това трябва да можете да мислите логично и да имате добри познания по английски език. В моята мечтана работа искам да имам гъвкаво работно време и понякога да работя от вкъщи. За мен също са важни доброто заплащане и добрите колеги. Намирам тази професия за много интересна и отговорна. Уча усилено всеки ден, за да постигна целта си.",
+      "writingTips": [
+        "Напишете подизречения с помощта на weil и не забравяйте да поставите глагола в края на изречението",
+        "Използвайте möchte, за да изразите бъдещите си желания",
+        "Въведете използвани думи като ebenfalls и auch"
+      ],
+      "selfCheckList": [
+        "Дефинирахте ли ясно вашата мечтана работа?",
+        "Обяснихте ли защо избрахте тази работа (weil)?",
+        "Споменах ли необходимите умения?",
+        "Говорихте ли за работно време или заплата?",
+        "Weil изреченията завършват ли със спрегнати глаголи?"
+      ]
+    },
+    "18": {
+      "title": "Едно незабравимо преживяване",
+      "type": "Разказ/разказ за събития",
+      "description": "Напишете кратка история за пътуване, празник или специално събитие, което ви се е случило в миналото, като използвате минало време.",
+      "keyVocabulary": [
+        "Той пътува",
+        "Посетете",
+        "Вижте / вижте",
+        "Изживейте преживяване",
+        "незабравим",
+        "Много красиво",
+        "Приключение",
+        "Ваканция/почивка",
+        "миналата година",
+        "Приятно / носи удоволствие"
+      ],
+      "usefulPhrases": [
+        "Миналата година пътувах до...",
+        "Това беше много хубава ваканция.",
+        "Видях много интересни места.",
+        "Преживяването беше незабравимо.",
+        "Много се смяхме и се снимахме.",
+        "Пътуването беше много приятно за мен."
+      ],
+      "grammarFocus": [
+        "Използване на идеалното време за минали събития",
+        "Спомагателни глаголи: „да бъда“ с движение (е пътувал), „да имам“ с преходност (е посетил)",
+        "Наречия за време: миналата година, през лятото, на ден"
+      ],
+      "structure": [
+        {
+          "step": "Въведение – кога и къде",
+          "tip": "Посочете часа и мястото на пътуването или събитието"
+        },
+        {
+          "step": "какво направи там",
+          "tip": "Избройте дейностите, които сте извършили в миналото време"
+        },
+        {
+          "step": "Специално събитие или приключение",
+          "tip": "Опишете нещо прекрасно или неочаквано, което ви се е случило"
+        },
+        {
+          "step": "Заключение - последно впечатление",
+          "tip": "Обобщете усещането и впечатлението си от това събитие"
+        }
+      ],
+      "exampleEssayTranslation": "Миналото лято пътувах със семейството си до Мюнхен. Тръгнахме с кола. Това беше много хубава ваканция. Настанихме се в малък хотел. В Мюнхен посетихме много забележителности като двореца Нимфенбург и Английската градина. Най-много ми хареса Английската градина, там си направихме пикник. Опитахме и немска храна. Беше ни много вкусно. През цялата седмица времето беше топло и слънчево. Това пътуване беше едно незабравимо преживяване. Доставихте ни толкова много удоволствие.",
+      "writingTips": [
+        "Напишете цялата история в минало време (Perfekt)",
+        "Не забравяйте да поставите ge- в края на изреченията със спомагателните глаголи haben или sein",
+        "Използвайте красиви прилагателни като wunderschön и unvergesslich, за да опишете чувствата си"
+      ],
+      "selfCheckList": [
+        "Написахте ли в минало време (Perfekt) и правилно ли използвате haben/sein?",
+        "Определихте ли часа и мястото на събитието?",
+        "Изброихте ли дейностите в минало време?",
+        "Поставихте ли спрегнати глаголи в миналото в края на изречението след haben/sein?",
+        "Описахте ли последното си усещане?"
+      ]
     }
   },
   "el": {
@@ -6776,6 +7745,164 @@ const WRITING_TRANSLATIONS = {
         "Δήλωσες από πού κατάγονται οι συμμαθητές σου;",
         "Περιέγραψες τι σπουδάζεις στην τάξη;",
         "Είπατε τη γνώμη σας για το μάθημα;"
+      ]
+    },
+    "16": {
+      "title": "Περιγράψτε τα αγαπημένα σας ρούχα",
+      "type": "Περιγραφικό θέμα",
+      "description": "Γράψε για τα αγαπημένα σου ρούχα. Τι σου αρέσει να φοράς, σε ποιο χρώμα και γιατί;",
+      "keyVocabulary": [
+        "αγαπημένα ρούχα",
+        "να φορέσει",
+        "χρώμα",
+        "μπλουτζήν",
+        "λευκό μπλουζάκι",
+        "ζεστό σακάκι",
+        "άνετος",
+        "κομψό / κομψό",
+        "να χωρέσει",
+        "να ταιριάζει"
+      ],
+      "usefulPhrases": [
+        "My favorite clothing is...",
+        "Μου αρέσει να φοράω τζιν και μπλουζάκι.",
+        "Φοράω ένα ζεστό σακάκι τον χειμώνα.",
+        "Τα ρούχα είναι πολύ άνετα.",
+        "Το χρώμα μου ταιριάζει πολύ.",
+        "Αγοράζω τα ρούχα μου σε ένα κατάστημα."
+      ],
+      "grammarFocus": [
+        "Καταλήξεις επιθέτων μετά από αόριστα άρθρα (ein blauer Rock)",
+        "Δίνοντας λόγους με «weil» (επειδή)",
+        "Χρήση τροπικού ρήματος «möchte» (θα ήθελα)"
+      ],
+      "checklist": [
+        "Περιέγραψες τι ρούχα φοράς;",
+        "Ανέφερες τα χρώματα;",
+        "Εξήγησες γιατί σου αρέσουν;",
+        "Χρησιμοποιήσατε σωστές κλίσεις επιθέτων;"
+      ]
+    },
+    "17": {
+      "title": "Η δουλειά των ονείρων μου",
+      "type": "Εκφραστικό θέμα",
+      "description": "Περιγράψτε τη μελλοντική δουλειά των ονείρων σας, τις δεξιότητες που απαιτούνται και γιατί θέλετε να εργαστείτε εκεί.",
+      "keyVocabulary": [
+        "Ονειρεμένη δουλειά",
+        "Λειτουργεί ως",
+        "Εμπειρία",
+        "Επαγγελματική κατάρτιση/πανεπιστημιακές σπουδές",
+        "κερδίζω (χρήματα)",
+        "Ευέλικτο ωράριο εργασίας",
+        "Σταδιοδρομία/μελλοντική σταδιοδρομία",
+        "Ελεύθερος/ελεύθερος επαγγελματίας",
+        "Συνάδελφος/συνάδελφος",
+        "Με μεγάλη ευθύνη"
+      ],
+      "usefulPhrases": [
+        "Η δουλειά των ονείρων μου είναι...",
+        "Θα ήθελα να εργαστώ ως... γιατί...",
+        "Για το σκοπό αυτό χρειάζεται κανείς καλή εκπαίδευση.",
+        "Θέλω να έχω ευέλικτο ωράριο.",
+        "Είναι σημαντικό για μένα να έχω καλούς συναδέλφους.",
+        "Μπορεί κανείς να κερδίσει καλά χρήματα."
+      ],
+      "grammarFocus": [
+        "Δευτερεύουσες προτάσεις με «επειδή» (ρήμα στο τέλος)",
+        "Εκφράζοντας μια επιθυμία με «θα ήθελα» ή «θα ήθελα»",
+        "Προθέσεις για επαγγέλματα: εργασία ως + επάγγελμα, εργασία σε + εταιρεία"
+      ],
+      "structure": [
+        {
+          "step": "Εισαγωγή - Τι είναι η δουλειά;",
+          "tip": "Δηλώστε το όνομα της εργασίας και γιατί σας αρέσει"
+        },
+        {
+          "step": "Απαιτήσεις και μελέτη",
+          "tip": "Μιλήστε για την εκπαίδευση και τις δεξιότητες που χρειάζονται για αυτήν"
+        },
+        {
+          "step": "Προτιμώμενες συνθήκες εργασίας",
+          "tip": "Περιγράψτε το εργασιακό περιβάλλον, τις ώρες και τον μισθό"
+        },
+        {
+          "step": "Συμπέρασμα - μελλοντική καριέρα",
+          "tip": "Μιλήστε για το σχέδιό σας για την επίτευξη αυτού του στόχου"
+        }
+      ],
+      "exampleEssayTranslation": "Η δουλειά των ονείρων μου είναι προγραμματιστής λογισμικού. Θα ήθελα να δουλέψω σε μια μεγάλη εταιρεία τεχνολογίας γιατί αγαπώ τους υπολογιστές και τον προγραμματισμό. Για αυτό το επάγγελμα χρειάζεται κάποιος να σπουδάσει πληροφορική ή να έχει καλή επαγγελματική κατάρτιση. Πρέπει επίσης να είστε σε θέση να σκέφτεστε λογικά και να έχετε καλή γνώση της αγγλικής γλώσσας. Στη δουλειά των ονείρων μου θέλω να έχω ευέλικτο ωράριο και μερικές φορές να δουλεύω από το σπίτι. Ο καλός μισθός και οι καλοί συνάδελφοι είναι επίσης σημαντικοί για μένα. Βρίσκω αυτό το επάγγελμα πολύ ενδιαφέρον και υπεύθυνο. Μελετάω σκληρά κάθε μέρα για να φτάσω στο στόχο μου.",
+      "writingTips": [
+        "Γράψτε δευτερεύουσες προτάσεις χρησιμοποιώντας weil και θυμηθείτε να βάλετε το ρήμα στο τέλος της πρότασης",
+        "Χρησιμοποιήστε möchte για να εκφράσετε τις μελλοντικές σας επιθυμίες",
+        "Πληκτρολογήστε λέξεις που χρησιμοποιούνται όπως ebenfalls και auch"
+      ],
+      "selfCheckList": [
+        "Έχετε ορίσει ξεκάθαρα τη δουλειά των ονείρων σας;",
+        "Εξήγησες γιατί επέλεξες αυτή τη δουλειά (weil);",
+        "Ανέφερα τις απαιτούμενες δεξιότητες;",
+        "Μίλησες για ώρες εργασίας ή μισθό;",
+        "Οι προτάσεις weil τελειώνουν με συζευγμένα ρήματα;"
+      ]
+    },
+    "18": {
+      "title": "Μια αξέχαστη εμπειρία",
+      "type": "Ιστορία/αφήγηση γεγονότων",
+      "description": "Γράψτε μια σύντομη ιστορία για ένα ταξίδι, διακοπές ή ειδικό γεγονός που σας συνέβη στο παρελθόν χρησιμοποιώντας τον παρελθόντα χρόνο.",
+      "keyVocabulary": [
+        "Ταξιδεύει",
+        "Επίσκεψη",
+        "Δείτε / δείτε",
+        "Ζήστε μια εμπειρία",
+        "αξέχαστος",
+        "Πολύ όμορφο",
+        "Περιπέτεια",
+        "Διακοπές/διακοπές",
+        "πέρυσι",
+        "Ευχάριστο / φέρνει ευχαρίστηση"
+      ],
+      "usefulPhrases": [
+        "Πέρυσι ταξίδεψα στο...",
+        "Ήταν πολύ όμορφες διακοπές.",
+        "Είδα πολλά ενδιαφέροντα μέρη.",
+        "Η εμπειρία ήταν αξέχαστη.",
+        "Γελάσαμε πολύ και βγάλαμε φωτογραφίες.",
+        "Το ταξίδι ήταν πολύ ευχάριστο για μένα."
+      ],
+      "grammarFocus": [
+        "Χρησιμοποιώντας τον τέλειο χρόνο για γεγονότα του παρελθόντος",
+        "Βοηθητικά ρήματα: «να είναι» με κίνηση (έχει ταξιδέψει), «έχει» με μεταβατικότητα (έχει επισκεφθεί)",
+        "Επιρρήματα χρόνου: πέρυσι, το καλοκαίρι, ημέρα"
+      ],
+      "structure": [
+        {
+          "step": "Εισαγωγή - πότε και πού",
+          "tip": "Καθορίστε την ώρα και την τοποθεσία του ταξιδιού ή της εκδήλωσης"
+        },
+        {
+          "step": "Τι έκανες εκεί;",
+          "tip": "Καταγράψτε τις δραστηριότητες που κάνατε στον παρελθόντα χρόνο"
+        },
+        {
+          "step": "Ένα ιδιαίτερο γεγονός ή περιπέτεια",
+          "tip": "Περιγράψτε κάτι υπέροχο ή απροσδόκητο που σας συνέβη"
+        },
+        {
+          "step": "Συμπέρασμα - η τελευταία εντύπωση",
+          "tip": "Συνοψίστε τα συναισθήματα και τις εντυπώσεις σας για αυτό το γεγονός"
+        }
+      ],
+      "exampleEssayTranslation": "Το περασμένο καλοκαίρι ταξίδεψα με την οικογένειά μου στο Μόναχο. Πήγαμε με αυτοκίνητο. Ήταν πολύ όμορφες διακοπές. Μείναμε σε ένα μικρό ξενοδοχείο. Στο Μόναχο επισκεφτήκαμε πολλά αξιοθέατα όπως το παλάτι Nymphenburg και τον αγγλικό κήπο. Αυτό που μου άρεσε περισσότερο ήταν ο Αγγλικός Κήπος, κάναμε ένα πικνίκ εκεί. Δοκιμάσαμε επίσης γερμανικό φαγητό. Ήταν πολύ νόστιμο για εμάς. Ο καιρός ήταν ζεστός και ηλιόλουστος όλη την εβδομάδα. Αυτό το ταξίδι ήταν μια αξέχαστη εμπειρία. Μας έφερες τόση χαρά.",
+      "writingTips": [
+        "Γράψτε ολόκληρη την ιστορία σε παρελθόντα χρόνο (Perfekt)",
+        "Θυμηθείτε να βάλετε ge- στο τέλος των προτάσεων με τα βοηθητικά ρήματα haben ή sein",
+        "Χρησιμοποιήστε όμορφα επίθετα όπως wunderschön και unvergesslich για να περιγράψετε τα συναισθήματά σας"
+      ],
+      "selfCheckList": [
+        "Έγραψες σε παρελθόντα χρόνο (Perfekt) και χρησιμοποίησες σωστά το haben/sein;",
+        "Έχετε καθορίσει την ώρα και την τοποθεσία της εκδήλωσης;",
+        "Αναφέρατε τις δραστηριότητες σε παρελθόντα χρόνο;",
+        "Βάλατε περασμένα συζευγμένα ρήματα στο τέλος της πρότασης μετά το haben/sein;",
+        "Περιέγραψες το τελευταίο σου συναίσθημα;"
       ]
     }
   }

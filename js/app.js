@@ -71,6 +71,15 @@ window.changeLevel = function(level) {
   setDailyContent();
   updateDashboardStats();
   
+  // Refresh level-specific state/filters on active pages
+  if (typeof buildVocabFilters === 'function') buildVocabFilters();
+  if (typeof buildAudioChapterFilter === 'function') buildAudioChapterFilter();
+  if (typeof populateGrammarPage === 'function') populateGrammarPage();
+  if (typeof setupFlashcards === 'function') setupFlashcards();
+  if (typeof buildQuizSelection === 'function') buildQuizSelection();
+  if (typeof buildWritingPage === 'function') buildWritingPage();
+  if (typeof backToConvMenu === 'function') backToConvMenu();
+  
   // Refresh current page
   navigateTo(currentPage);
 };
@@ -114,7 +123,10 @@ function navigateTo(page, data) {
 
   // Page-specific init
   if (page === 'vocabulary') renderVocabGrid();
-  if (page === 'listening') buildAudioList();
+  if (page === 'listening') {
+    buildAudioChapterFilter();
+    buildAudioList();
+  }
   if (page === 'quiz') {
     // Reset quiz to selection screen
     const qs = document.getElementById('quizSelection');
@@ -447,7 +459,7 @@ function buildSidebarChapters() {
   const list = (currentLevel === 'A2' && typeof CURRICULUM_A2 !== 'undefined') ? CURRICULUM_A2 : CURRICULUM;
 
   container.innerHTML = list.map(ch => {
-    const prog = (currentLevel === 'A2') ? 0 : (saved.chaptersProgress?.[ch.id] || 0);
+    const prog = saved.chaptersProgress?.[ch.id] || 0;
     const done = prog >= 100;
     const title = getChapterTitle(ch);
     return `
@@ -466,16 +478,16 @@ function buildChaptersGrid() {
   const list = (currentLevel === 'A2' && typeof CURRICULUM_A2 !== 'undefined') ? CURRICULUM_A2 : CURRICULUM;
 
   container.innerHTML = list.map((ch, idx) => {
-    const prog = (currentLevel === 'A2') ? 0 : (saved.chaptersProgress?.[ch.id] || 0);
+    const prog = saved.chaptersProgress?.[ch.id] || 0;
     const status = prog >= 100 ? 'done' : prog > 0 ? 'inprogress' : '';
     
     let statusLabel = getTranslation('status_start', 'ابدأ الآن');
-    if (currentLevel === 'A2') {
-      statusLabel = getTranslation('level_a2_full', 'المستوى A2');
-    } else if (prog >= 100) {
+    if (prog >= 100) {
       statusLabel = getTranslation('status_completed', '✓ مكتمل');
     } else if (prog > 0) {
       statusLabel = getTranslation('status_in_progress', 'جاري...');
+    } else if (currentLevel === 'A2') {
+      statusLabel = getTranslation('level_a2_full', 'المستوى A2');
     }
     
     const locked = (currentLevel === 'A2') ? false : (idx > 0 && (saved.chaptersProgress?.[list[idx-1].id] || 0) < 25);
@@ -500,12 +512,8 @@ function buildChaptersGrid() {
 
 // ── Open Lesson ───────────────────────────────────────────────
 function openLesson(chapterId) {
-  if (currentLevel === 'A2' || chapterId >= 13) {
-    showToast(getTranslation('level_a2_coming_soon', 'محتوى المستوى A2 قيد التطوير حالياً.'), 'warning');
-    return;
-  }
-
-  const ch = CURRICULUM.find(c => c.id === chapterId);
+  const list = (currentLevel === 'A2' && typeof CURRICULUM_A2 !== 'undefined') ? CURRICULUM_A2 : CURRICULUM;
+  const ch = list.find(c => c.id === chapterId);
   if (!ch) return;
 
   currentLesson = ch;
@@ -964,7 +972,8 @@ function buildVocabFilters() {
   const sel = document.getElementById('chapterFilter');
   if (!sel) return;
   sel.innerHTML = `<option value="all">${getTranslation('vocab_all_chapters', 'جميع الوحدات')}</option>`;
-  CURRICULUM.forEach(ch => {
+  const activeCurriculum = currentLevel === 'A2' ? (typeof CURRICULUM_A2 !== 'undefined' ? CURRICULUM_A2 : []) : CURRICULUM;
+  activeCurriculum.forEach(ch => {
     const opt = document.createElement('option');
     opt.value = ch.id;
     opt.textContent = `${getTranslation('chapter_label', 'الوحدة')} ${ch.id}: ${getChapterTitle(ch)}`;
@@ -991,7 +1000,7 @@ function renderVocabGrid(filter = null) {
   const type = document.getElementById('typeFilter')?.value || 'all';
   const saved = getSavedProgress();
 
-  let vocab = VOCABULARY;
+  let vocab = VOCABULARY.filter(v => currentLevel === 'A2' ? v.ch >= 13 : v.ch <= 12);
   if (ch !== 'all') vocab = vocab.filter(v => String(v.ch) === ch);
   if (type !== 'all') vocab = vocab.filter(v => v.type === type);
   if (search) {
@@ -1063,7 +1072,8 @@ function populateGrammarPage() {
   if (!container) return;
 
   const allGrammar = [];
-  CURRICULUM.forEach(ch => {
+  const activeCurriculum = currentLevel === 'A2' ? (typeof CURRICULUM_A2 !== 'undefined' ? CURRICULUM_A2 : []) : CURRICULUM;
+  activeCurriculum.forEach(ch => {
     ch.grammar.forEach(g => allGrammar.push({ ...g, chapter: ch.id, chapterTitle: getChapterTitle(ch) }));
   });
 
@@ -1103,7 +1113,8 @@ function setupFlashcards() {
   // Build chapter options
   if (sel) {
     sel.innerHTML = `<option value="all">${getTranslation('vocab_all_chapters', 'جميع الوحدات')}</option>`;
-    CURRICULUM.forEach(c => {
+    const activeCurriculum = currentLevel === 'A2' ? (typeof CURRICULUM_A2 !== 'undefined' ? CURRICULUM_A2 : []) : CURRICULUM;
+    activeCurriculum.forEach(c => {
       const opt = document.createElement('option');
       opt.value = c.id;
       opt.textContent = `${getTranslation('chapter_label', 'الوحدة')} ${c.id}: ${getChapterTitle(c)}`;
@@ -1116,7 +1127,8 @@ function setupFlashcards() {
   }
 
   const ch = sel ? sel.value : 'all';
-  let vocab = ch === 'all' ? [...VOCABULARY] : VOCABULARY.filter(v => String(v.ch) === ch);
+  let vocab = VOCABULARY.filter(v => currentLevel === 'A2' ? v.ch >= 13 : v.ch <= 12);
+  if (ch !== 'all') vocab = vocab.filter(v => String(v.ch) === ch);
   vocab = shuffle(vocab);
   fcDeck = vocab;
   fcIndex = 0;
@@ -1217,8 +1229,9 @@ function setDailyContent() {
   const dayOfYear = Math.floor((Date.now() - new Date(new Date().getFullYear(), 0, 0)) / 86400000);
 
   // Daily word
-  const wordIdx = dayOfYear % VOCABULARY.length;
-  const dailyWord = VOCABULARY[wordIdx];
+  const activeVocab = VOCABULARY.filter(v => currentLevel === 'A2' ? v.ch >= 13 : v.ch <= 12);
+  const wordIdx = dayOfYear % activeVocab.length;
+  const dailyWord = activeVocab[wordIdx];
   const dwEl = document.getElementById('dailyWord');
   if (dwEl && dailyWord) {
     const trans = currentLang === 'bs' ? (dailyWord.bs || dailyWord.en || '') : currentLang === 'es' ? (dailyWord.es || dailyWord.en || '') : currentLang === 'bg' ? (dailyWord.bg || dailyWord.en || '') : currentLang === 'el' ? (dailyWord.el || dailyWord.en || '') : currentLang === 'ro' ? (dailyWord.ro || dailyWord.en) : currentLang === 'tr' ? (dailyWord.tr || dailyWord.en) : currentLang === 'en' ? dailyWord.en : dailyWord.ar;
@@ -1235,7 +1248,8 @@ function setDailyContent() {
   }
 
   // Daily sentence - pick from speaking phrases
-  const allPhrases = CURRICULUM.flatMap(c => c.speakingPhrases);
+  const activeCurriculum = currentLevel === 'A2' ? (typeof CURRICULUM_A2 !== 'undefined' ? CURRICULUM_A2 : []) : CURRICULUM;
+  const allPhrases = activeCurriculum.flatMap(c => c.speakingPhrases);
   const phraseIdx = dayOfYear % allPhrases.length;
   const phrase = allPhrases[phraseIdx];
   const dsEl = document.getElementById('dailySentence');
@@ -1391,8 +1405,17 @@ function checkDailyStreak() {
 
 function updateDashboardStats() {
   const progress = getSavedProgress();
-  const mastered = (currentLevel === 'A2') ? 0 : (progress.masteredWords || []).length;
-  const completed = (currentLevel === 'A2') ? 0 : Object.values(progress.chaptersProgress || {}).filter(p => p >= 100).length;
+  const activeVocab = VOCABULARY.filter(v => currentLevel === 'A2' ? v.ch >= 13 : v.ch <= 12);
+  const activeVocabIds = activeVocab.map(v => v.id);
+  const mastered = (progress.masteredWords || []).filter(id => activeVocabIds.includes(id)).length;
+  
+  const activeChIds = currentLevel === 'A2' 
+    ? (typeof CURRICULUM_A2 !== 'undefined' ? CURRICULUM_A2.map(c => c.id) : [])
+    : CURRICULUM.map(c => c.id);
+    
+  const completed = Object.entries(progress.chaptersProgress || {})
+    .filter(([chId, val]) => activeChIds.includes(parseInt(chId)) && val >= 100).length;
+    
   const streak = progress.streak || 0;
   const score = progress.totalScore || 0;
 
@@ -1403,8 +1426,8 @@ function updateDashboardStats() {
   el('totalScore', score);
 
   const bar = (id, pct) => { const e = document.getElementById(id); if(e) e.style.width = Math.min(100,pct)+'%'; };
-  bar('wordBar',   (currentLevel === 'A2') ? 0 : (mastered / VOCABULARY.length) * 100);
-  bar('lessonBar', (currentLevel === 'A2') ? 0 : (completed / 12) * 100);
+  bar('wordBar',   activeVocab.length > 0 ? (mastered / activeVocab.length) * 100 : 0);
+  bar('lessonBar', (completed / 12) * 100);
   bar('streakBar', Math.min(100, streak * 10));
   bar('scoreBar',  Math.min(100, score / 10));
 
@@ -1413,8 +1436,17 @@ function updateDashboardStats() {
 
 function updateOverallProgress() {
   const progress = getSavedProgress();
-  const vals = (currentLevel === 'A2') ? [] : Object.values(progress.chaptersProgress || {});
-  const avg = (currentLevel === 'A2') ? 0 : (vals.length > 0 ? Math.round(vals.reduce((a,b) => a+b, 0) / 12) : 0);
+  const activeChIds = currentLevel === 'A2' 
+    ? (typeof CURRICULUM_A2 !== 'undefined' ? CURRICULUM_A2.map(c => c.id) : [])
+    : CURRICULUM.map(c => c.id);
+    
+  const vals = Object.entries(progress.chaptersProgress || {})
+    .filter(([chId]) => activeChIds.includes(parseInt(chId)))
+    .map(([,val]) => val);
+    
+  const sum = vals.reduce((a,b) => a+b, 0);
+  const avg = activeChIds.length > 0 ? Math.round(sum / activeChIds.length) : 0;
+  
   const fill = document.getElementById('overallProgress');
   const pct  = document.getElementById('overallProgressPct');
   if (fill) fill.style.width = avg + '%';
@@ -1423,11 +1455,13 @@ function updateOverallProgress() {
 
 function startLearning() {
   const progress = getSavedProgress();
-  const inProgress = Object.entries(progress.chaptersProgress || {}).find(([,v]) => v > 0 && v < 100);
+  const list = (currentLevel === 'A2') ? (typeof CURRICULUM_A2 !== 'undefined' ? CURRICULUM_A2 : []) : CURRICULUM;
+  const listIds = list.map(c => c.id);
+  const inProgress = Object.entries(progress.chaptersProgress || {}).find(([k,v]) => listIds.includes(parseInt(k)) && v > 0 && v < 100);
   if (inProgress) {
     openLesson(parseInt(inProgress[0]));
   } else {
-    openLesson(1);
+    openLesson(list[0] ? list[0].id : 1);
   }
 }
 
