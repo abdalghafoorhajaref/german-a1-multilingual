@@ -305,50 +305,50 @@ function getAudioLabelTrans(af) {
 
 function getGrammarTitle(g) {
   if (!g) return '';
-  if (currentLang === 'ar') return g.title;
-  if (currentLang === 'tr') return g.titleTr || g.titleEn || g.titleDe || g.title;
-  if (currentLang === 'ro') return g.titleRo || g.titleEn || g.titleDe || g.title;
-  if (currentLang === 'bs') return g.titleBs || g.titleEn || g.titleDe || g.title || '';
-  if (currentLang === 'es') return g.titleEs || g.titleEn || g.titleDe || g.title || '';
-  if (currentLang === 'bg') return g.titleBg || g.titleEn || g.titleDe || g.title || '';
-  if (currentLang === 'el') return g.titleEl || g.titleEn || g.titleDe || g.title || '';
-  return g.titleEn || g.titleDe || g.title;
+  if (currentLang === 'ar') return g.title || g.titleAr || '';
+  if (currentLang === 'tr') return g.titleTr || g.titleEn || g.titleDe || g.title || g.titleAr || '';
+  if (currentLang === 'ro') return g.titleRo || g.titleEn || g.titleDe || g.title || g.titleAr || '';
+  if (currentLang === 'bs') return g.titleBs || g.titleEn || g.titleDe || g.title || g.titleAr || '';
+  if (currentLang === 'es') return g.titleEs || g.titleEn || g.titleDe || g.title || g.titleAr || '';
+  if (currentLang === 'bg') return g.titleBg || g.titleEn || g.titleDe || g.title || g.titleAr || '';
+  if (currentLang === 'el') return g.titleEl || g.titleEn || g.titleDe || g.title || g.titleAr || '';
+  return g.titleEn || g.titleDe || g.title || g.titleAr || '';
 }
 
 function getGrammarExplanation(g) {
   if (!g) return '';
-  if (currentLang === 'ar') return g.explanation;
-  if (currentLang === 'tr') return g.explanationTr || g.explanationEn || g.explanation;
-  if (currentLang === 'ro') return g.explanationRo || g.explanationEn || g.explanation;
-  if (currentLang === 'bs') return g.explanationBs || g.explanationEn || g.explanation || '';
-  if (currentLang === 'es') return g.explanationEs || g.explanationEn || g.explanation || '';
-  if (currentLang === 'bg') return g.explanationBg || g.explanationEn || g.explanation || '';
-  if (currentLang === 'el') return g.explanationEl || g.explanationEn || g.explanation || '';
-  return g.explanationEn || g.explanation;
+  if (currentLang === 'ar') return g.explanation || g.explanationAr || '';
+  if (currentLang === 'tr') return g.explanationTr || g.explanationEn || g.explanation || g.explanationAr || '';
+  if (currentLang === 'ro') return g.explanationRo || g.explanationEn || g.explanation || g.explanationAr || '';
+  if (currentLang === 'bs') return g.explanationBs || g.explanationEn || g.explanation || g.explanationAr || '';
+  if (currentLang === 'es') return g.explanationEs || g.explanationEn || g.explanation || g.explanationAr || '';
+  if (currentLang === 'bg') return g.explanationBg || g.explanationEn || g.explanation || g.explanationAr || '';
+  if (currentLang === 'el') return g.explanationEl || g.explanationEn || g.explanation || g.explanationAr || '';
+  return g.explanationEn || g.explanation || g.explanationAr || '';
 }
 
 function getRuleTranslation(r) {
   if (!r) return '';
-  if (currentLang === 'ar') return r.translation;
-  if (currentLang === 'tr') return r.translationTr || r.translationEn || r.translation;
-  if (currentLang === 'ro') return r.translationRo || r.translationEn || r.translation;
-  if (currentLang === 'bs') return r.translationBs || r.translationEn || '';
-  if (currentLang === 'es') return r.translationEs || r.translationEn || '';
-  if (currentLang === 'bg') return r.translationBg || r.translationEn || '';
-  if (currentLang === 'el') return r.translationEl || r.translationEn || '';
-  return r.translationEn || r.translation;
+  if (currentLang === 'ar') return r.translation || r.translationAr || '';
+  if (currentLang === 'tr') return r.translationTr || r.translationEn || r.translation || r.translationAr || '';
+  if (currentLang === 'ro') return r.translationRo || r.translationEn || r.translation || r.translationAr || '';
+  if (currentLang === 'bs') return r.translationBs || r.translationEn || r.translationAr || '';
+  if (currentLang === 'es') return r.translationEs || r.translationEn || r.translationAr || '';
+  if (currentLang === 'bg') return r.translationBg || r.translationEn || r.translationAr || '';
+  if (currentLang === 'el') return r.translationEl || r.translationEn || r.translationAr || '';
+  return r.translationEn || r.translation || r.translationAr || '';
 }
 
 function getRuleNote(r) {
   if (!r) return '';
-  if (currentLang === 'ar') return r.note || '';
-  if (currentLang === 'tr') return r.noteTr || r.noteEn || r.note || '';
-  if (currentLang === 'ro') return r.noteRo || r.noteEn || r.note || '';
-  if (currentLang === 'bs') return r.noteBs || r.noteEn || '';
-  if (currentLang === 'es') return r.noteEs || r.noteEn || '';
-  if (currentLang === 'bg') return r.noteBg || r.noteEn || '';
-  if (currentLang === 'el') return r.noteEl || r.noteEn || '';
-  return r.noteEn || r.note || '';
+  if (currentLang === 'ar') return r.note || r.noteAr || '';
+  if (currentLang === 'tr') return r.noteTr || r.noteEn || r.note || r.noteAr || '';
+  if (currentLang === 'ro') return r.noteRo || r.noteEn || r.note || r.noteAr || '';
+  if (currentLang === 'bs') return r.noteBs || r.noteEn || r.noteAr || '';
+  if (currentLang === 'es') return r.noteEs || r.noteEn || r.noteAr || '';
+  if (currentLang === 'bg') return r.noteBg || r.noteEn || r.noteAr || '';
+  if (currentLang === 'el') return r.noteEl || r.noteEn || r.noteAr || '';
+  return r.noteEn || r.note || r.noteAr || '';
 }
 
 function getTableHeader(idx, table) {
@@ -401,14 +401,14 @@ function getExerciseQuestionTranslation(ex) {
 }
 
 function getExerciseHintText(ex) {
-  if (currentLang === 'ar') return ex.hint || '';
-  if (currentLang === 'tr') return ex.hintTr || ex.hintEn || ex.hint || '';
-  if (currentLang === 'ro') return ex.hintRo || ex.hintEn || ex.hint || '';
-  if (currentLang === 'bs') return ex.hintBs || ex.hintEn || '';
-  if (currentLang === 'es') return ex.hintEs || ex.hintEn || '';
-  if (currentLang === 'bg') return ex.hintBg || ex.hintEn || '';
-  if (currentLang === 'el') return ex.hintEl || ex.hintEn || '';
-  return ex.hintEn || ex.hint || '';
+  if (currentLang === 'ar') return ex.hint || ex.hintAr || '';
+  if (currentLang === 'tr') return ex.hintTr || ex.hintEn || ex.hint || ex.hintAr || '';
+  if (currentLang === 'ro') return ex.hintRo || ex.hintEn || ex.hint || ex.hintAr || '';
+  if (currentLang === 'bs') return ex.hintBs || ex.hintEn || ex.hintAr || '';
+  if (currentLang === 'es') return ex.hintEs || ex.hintEn || ex.hintAr || '';
+  if (currentLang === 'bg') return ex.hintBg || ex.hintEn || ex.hintAr || '';
+  if (currentLang === 'el') return ex.hintEl || ex.hintEn || ex.hintAr || '';
+  return ex.hintEn || ex.hint || ex.hintAr || '';
 }
 
 function getExerciseOption(opt, ex, index) {
@@ -421,7 +421,11 @@ function getExerciseOption(opt, ex, index) {
     if (currentLang === 'en' && ex.optionsEn && ex.optionsEn[index]) return ex.optionsEn[index];
     if (currentLang === 'ro' && ex.optionsRo && ex.optionsRo[index]) return ex.optionsRo[index];
   }
-  if (opt && opt.includes(' / ')) {
+  if (opt && typeof opt === 'object') {
+    if (currentLang === 'ar') return opt.de;
+    return opt[currentLang] || opt.en || opt.de;
+  }
+  if (opt && typeof opt === 'string' && opt.includes(' / ')) {
     const parts = opt.split(' / ');
     if (currentLang === 'ar') return parts[0];
     if (currentLang === 'en') return parts[1] || parts[0];
@@ -436,14 +440,15 @@ function getExerciseOption(opt, ex, index) {
 }
 
 function getWritingPromptText(wp) {
-  if (currentLang === 'ar') return wp.prompt;
-  if (currentLang === 'tr') return wp.promptTr || wp.promptEn || wp.prompt;
-  if (currentLang === 'ro') return wp.promptRo || wp.promptEn || wp.prompt;
-  if (currentLang === 'bs') return wp.promptBs || wp.promptEn || '';
-  if (currentLang === 'es') return wp.promptEs || wp.promptEn || '';
-  if (currentLang === 'bg') return wp.promptBg || wp.promptEn || '';
-  if (currentLang === 'el') return wp.promptEl || wp.promptEn || '';
-  return wp.promptEn || wp.prompt;
+  if (!wp) return '';
+  if (currentLang === 'ar') return wp.prompt || wp.promptAr || '';
+  if (currentLang === 'tr') return wp.promptTr || wp.promptEn || wp.prompt || wp.promptAr || '';
+  if (currentLang === 'ro') return wp.promptRo || wp.promptEn || wp.prompt || wp.promptAr || '';
+  if (currentLang === 'bs') return wp.promptBs || wp.promptEn || wp.promptAr || '';
+  if (currentLang === 'es') return wp.promptEs || wp.promptEn || wp.promptAr || '';
+  if (currentLang === 'bg') return wp.promptBg || wp.promptEn || wp.promptAr || '';
+  if (currentLang === 'el') return wp.promptEl || wp.promptEn || wp.promptAr || '';
+  return wp.promptEn || wp.prompt || wp.promptAr || '';
 }
 
 function getWritingHelpers(wp) {
