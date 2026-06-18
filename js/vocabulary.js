@@ -6080,3 +6080,127 @@ const VOCABULARY = [
         "el": "καλωσόρισμα"
     }
 ];
+
+// Type labels for display
+const TYPE_LABELS = {
+  "noun": {
+    "ar": "اسم",
+    "en": "Noun",
+    "tr": "İsim",
+    "de": "Nomen",
+    "ro": "Substantiv",
+    "bs": "Imenica",
+    "es": "Sustantivo",
+    "bg": "Съществително",
+    "el": "Ουσιαστικό",
+    "color": "#4f8ef7"
+  },
+  "verb": {
+    "ar": "فعل",
+    "en": "Verb",
+    "tr": "Fiil",
+    "de": "Verb",
+    "ro": "Verb",
+    "bs": "Glagol",
+    "es": "Verbo",
+    "bg": "Глагол",
+    "el": "Ρήμα",
+    "color": "#f59e0b"
+  },
+  "adj": {
+    "ar": "صفة",
+    "en": "Adjective",
+    "tr": "Sıfat",
+    "de": "Adjektiv",
+    "ro": "Adjectiv",
+    "bs": "Pridjev",
+    "es": "Adjetivo",
+    "bg": "Прилагателно",
+    "el": "Επίθετο",
+    "color": "#34d399"
+  },
+  "phrase": {
+    "ar": "عبارة",
+    "en": "Phrase",
+    "tr": "Kalıp",
+    "de": "Ausdruck",
+    "ro": "Expresie",
+    "bs": "Izraz",
+    "es": "Frase",
+    "bg": "Фраза",
+    "el": "Φράση",
+    "color": "#a78bfa"
+  },
+  "pronoun": {
+    "ar": "ضمير",
+    "en": "Pronoun",
+    "tr": "Zamir",
+    "de": "Pronomen",
+    "ro": "Pronume",
+    "bs": "Zamjenica",
+    "es": "Pronombre",
+    "bg": "Местоимение",
+    "el": "Αντωνυμία",
+    "color": "#60a5fa"
+  },
+  "number": {
+    "ar": "رقم",
+    "en": "Number",
+    "tr": "Sayı",
+    "de": "Zahl",
+    "ro": "Număr",
+    "bs": "Broj",
+    "es": "Número",
+    "bg": "Число",
+    "el": "Αριθμός",
+    "color": "#fbbf24"
+  },
+  "grammar": {
+    "ar": "قاعدة",
+    "en": "Grammar",
+    "tr": "Dilbilgisi",
+    "de": "Grammatik",
+    "ro": "Gramatică",
+    "bs": "Gramatika",
+    "es": "Gramática",
+    "bg": "Граматика",
+    "el": "Γραμματική",
+    "color": "#f87171"
+  },
+  "adv": {
+    "ar": "ظرف",
+    "en": "Adverb",
+    "tr": "Zarf",
+    "de": "Adverb",
+    "ro": "Adverb",
+    "bs": "Prilog",
+    "es": "Adverbio",
+    "bg": "Наречие",
+    "el": "Επίρρημα",
+    "color": "#34d399"
+  },
+  "prep": {
+    "ar": "حرف جر",
+    "en": "Preposition",
+    "tr": "Edat",
+    "de": "Präposition",
+    "ro": "Prepoziție",
+    "bs": "Prijedlog",
+    "es": "Preposición",
+    "bg": "Предлог",
+    "el": "Πρόθεση",
+    "color": "#fb923c"
+  },
+  "time": {
+    "ar": "وقت",
+    "en": "Time",
+    "tr": "Zaman",
+    "de": "Zeit",
+    "ro": "Timp",
+    "bs": "Vrijeme",
+    "es": "Tiempo",
+    "bg": "Време",
+    "el": "Χρόνος",
+    "color": "#a78bfa"
+  }
+};
