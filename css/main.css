@@ -1941,24 +1941,28 @@ html[dir="rtl"] .global-audio-player {
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   display: none;
-  align-items: center;
-  justify-content: center;
   z-index: 10000;
   animation: fadeIn 0.4s ease forwards;
   direction: rtl; /* Use RTL by default since app is mainly Arabic/multilingual */
+  overflow-y: auto; /* Enable vertical scroll */
+  box-sizing: border-box;
+  padding: 20px;
 }
 
 .level-modal-overlay.active {
   display: flex;
+  align-items: flex-start; /* Avoid top cut-off when content overflows */
+  justify-content: center;
 }
 
 .level-modal-content {
+  margin: auto; /* Vertically and horizontally center when there is space, scrollable otherwise */
   background: var(--bg-card);
   border: var(--border-subtle);
   border-radius: var(--radius-lg);
   padding: 40px;
   max-width: 800px;
-  width: 90%;
+  width: 100%;
   box-shadow: var(--shadow-card);
   display: flex;
   flex-direction: column;
@@ -1966,6 +1970,7 @@ html[dir="rtl"] .global-audio-player {
   text-align: center;
   border-top: 4px solid var(--accent-primary);
   animation: scaleUp 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+  box-sizing: border-box;
 }
 
 .level-modal-title {
