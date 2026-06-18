@@ -1,3 +1,8 @@
+// ============================================================
+// CURRICULUM DATABASE - Complete A1 & A2 Syllabus (Multilingual)
+// Berliner Platz 1 & 2 Neu - All 24 Chapters
+// ============================================================
+
 const CURRICULUM = [
   {
     "id": 1,
@@ -492,7 +497,81 @@ const CURRICULUM = [
             "translationEl": "Είμαστε εδώ.",
             "noteEl": "Με το σύρμα χρησιμοποιούμε άμμο"
           }
-        ]
+        ],
+        "table": {
+          "headers": [
+            "الضمير",
+            "التصريف",
+            "المعنى"
+          ],
+          "headersEn": [
+            "Pronoun",
+            "Conjugation",
+            "Meaning"
+          ],
+          "headersTr": [
+            "Zamir",
+            "Çekim",
+            "Anlam"
+          ],
+          "headersRo": [
+            "Pronume",
+            "Conjugare",
+            "Sens"
+          ],
+          "headersBs": [
+            "Zamjenica",
+            "Konjugacija",
+            "Značenje"
+          ],
+          "headersEs": [
+            "Pronombre",
+            "Conjugación",
+            "Significado"
+          ],
+          "headersBg": [
+            "Местоимение",
+            "Спрежение",
+            "Значение"
+          ],
+          "headersEl": [
+            "Αντωνυμία",
+            "Κλίση",
+            "Σημασία"
+          ],
+          "rows": [
+            [
+              "ich",
+              "bin",
+              "أنا / I / ben / eu / ja / yo / аз / εγώ"
+            ],
+            [
+              "du",
+              "bist",
+              "أنتَ / you / sen / tu / ti / tú / ти / εσύ"
+            ],
+            [
+              "er/sie/es",
+              "ist",
+              "هو/هي/إنه / he/she/it / o / el/ea / on/ona/ono / él/ella/ello / той/тя/то / αυτός/αυτή/αυτό"
+            ],
+            [
+              "wir",
+              "sind",
+              "نحن / we / biz / noi / mi / nosotros / ние / εμείς"
+            ],
+            [
+              "ihr",
+              "seid",
+              "أنتم / you (plural) / siz / voi / vi / vosotros / ви / εσείς"
+            ],
+            [
+              "sie/Sie",
+              "sind",
+              "هم/حضرتك / they/You (formal) / onlar/Siz / ei/ele/Dvs. / oni/Vi / ellos/Usted / те/Вие / αυτοί/Εσείς"
+            ]
+          ]
+        }
       },
       {
         "id": "verb-heissen",
@@ -571,7 +650,67 @@ const CURRICULUM = [
             "translationEl": "Το όνομά του είναι Θωμάς.",
             "noteEl": "Για τους απόντες"
           }
-        ]
+        ],
+        "table": {
+          "headers": [
+            "الضمير",
+            "التصريف"
+          ],
+          "headersEn": [
+            "Pronoun",
+            "Conjugation"
+          ],
+          "headersTr": [
+            "Zamir",
+            "Çekim"
+          ],
+          "headersRo": [
+            "Pronume",
+            "Conjugare"
+          ],
+          "headersBs": [
+            "Zamjenica",
+            "Konjugacija"
+          ],
+          "headersEs": [
+            "Pronombre",
+            "Conjugación"
+          ],
+          "headersBg": [
+            "Местоимение",
+            "Спрежение"
+          ],
+          "headersEl": [
+            "Αντωνυμία",
+            "Κλίση"
+          ],
+          "rows": [
+            [
+              "ich",
+              "heiße"
+            ],
+            [
+              "du",
+              "heißt"
+            ],
+            [
+              "er/sie/es",
+              "heißt"
+            ],
+            [
+              "wir",
+              "heißen"
+            ],
+            [
+              "ihr",
+              "heißt"
+            ],
+            [
+              "sie/Sie",
+              "heißen"
+            ]
+          ]
+        }
       },
       {
         "id": "formal-informal",
@@ -1224,7 +1363,95 @@ const CURRICULUM = [
             "translationEl": "Πίνει",
             "noteEl": "Κανονικό ρήμα"
           }
-        ]
+        ],
+        "table": {
+          "headers": [
+            "الضمير",
+            "kommen",
+            "arbeiten",
+            "trinken"
+          ],
+          "headersEn": [
+            "Pronoun",
+            "kommen",
+            "arbeiten",
+            "trinken"
+          ],
+          "headersTr": [
+            "Zamir",
+            "kommen",
+            "arbeiten",
+            "trinken"
+          ],
+          "headersRo": [
+            "Pronume",
+            "kommen",
+            "arbeiten",
+            "trinken"
+          ],
+          "headersBs": [
+            "Zamjenica",
+            "kommen",
+            "arbeiten",
+            "trinken"
+          ],
+          "headersEs": [
+            "Pronombre",
+            "kommen",
+            "arbeiten",
+            "trinken"
+          ],
+          "headersBg": [
+            "Местоимение",
+            "kommen",
+            "arbeiten",
+            "trinken"
+          ],
+          "headersEl": [
+            "Αντωνυμία",
+            "kommen",
+            "arbeiten",
+            "trinken"
+          ],
+          "rows": [
+            [
+              "ich",
+              "komme",
+              "arbeite",
+              "trinke"
+            ],
+            [
+              "du",
+              "kommst",
+              "arbeitest",
+              "trinkst"
+            ],
+            [
+              "er/sie/es",
+              "kommt",
+              "arbeitet",
+              "trinkt"
+            ],
+            [
+              "wir",
+              "kommen",
+              "arbeiten",
+              "trinken"
+            ],
+            [
+              "ihr",
+              "kommt",
+              "arbeitet",
+              "trinkt"
+            ],
+            [
+              "sie/Sie",
+              "kommen",
+              "arbeiten",
+              "trinken"
+            ]
+          ]
+        }
       },
       {
         "id": "numbers",
@@ -1915,7 +2142,83 @@ const CURRICULUM = [
             "translationEl": "Άρνηση: καμία",
             "noteEl": "Η άρνηση ακολουθεί το ίδιο μοτίβο με το ein"
           }
-        ]
+        ],
+        "table": {
+          "headers": [
+            "الجنس",
+            "التعريف",
+            "التنكير",
+            "النفي"
+          ],
+          "headersEn": [
+            "Gender",
+            "Definite",
+            "Indefinite",
+            "Negative"
+          ],
+          "headersTr": [
+            "Cinsiyet",
+            "Belirli",
+            "Belirsiz",
+            "Olumsuz"
+          ],
+          "headersRo": [
+            "Gen",
+            "Hotărât",
+            "Nedefinit",
+            "Negativ"
+          ],
+          "headersBs": [
+            "Rod",
+            "Određeni",
+            "Neodređeni",
+            "Negativni"
+          ],
+          "headersEs": [
+            "Género",
+            "Definido",
+            "Indefinido",
+            "Negativo"
+          ],
+          "headersBg": [
+            "Род",
+            "Определителен",
+            "Неопределителен",
+            "Отрицателен"
+          ],
+          "headersEl": [
+            "Γένος",
+            "Οριστικό",
+            "Αόριστο",
+            "Αρνητικό"
+          ],
+          "rows": [
+            [
+              "مذكر (Maskulinum) / Masculine (Maskulinum) / Eril (Maskulinum) / Masculin / Muški rod / Masculino / Мъжки род / Αρσενικό",
+              "der",
+              "ein",
+              "kein"
+            ],
+            [
+              "مؤنث (Femininum) / Feminine (Femininum) / Dişil (Femininum) / Feminin / Ženski rod / Femenino / Женски род / Θηλυκό",
+              "die",
+              "eine",
+              "keine"
+            ],
+            [
+              "محايد (Neutrum) / Neuter (Neutrum) / Nötr (Neutrum) / Neutru / Srednji rod / Neutro / Среден род / Ουδέτερο",
+              "das",
+              "ein",
+              "kein"
+            ],
+            [
+              "جمع (Plural) / Plural / Çoğul (Plural) / Plural / Množina / Plural / Множествено число / Πληθυντικός",
+              "die",
+              "–",
+              "keine"
+            ]
+          ]
+        }
       },
       {
         "id": "akkusativ",
@@ -3662,7 +3965,83 @@ const CURRICULUM = [
             "translationEl": "Ο γιος του/της",
             "noteEl": ""
           }
-        ]
+        ],
+        "table": {
+          "headers": [
+            "الضمير",
+            "مذكر",
+            "مؤنث",
+            "محايد"
+          ],
+          "headersEn": [
+            "Pronoun",
+            "Masculine",
+            "Feminine",
+            "Neutral"
+          ],
+          "headersTr": [
+            "Zamir",
+            "Eril",
+            "Dişil",
+            "Nötr"
+          ],
+          "headersRo": [
+            "Pronume",
+            "Masculin",
+            "Feminin",
+            "Neutru"
+          ],
+          "headersBs": [
+            "Zamjenica",
+            "Muški rod",
+            "Ženski rod",
+            "Srednji rod"
+          ],
+          "headersEs": [
+            "Pronombre",
+            "Masculino",
+            "Femenino",
+            "Neutro"
+          ],
+          "headersBg": [
+            "Местоимение",
+            "Мъжки род",
+            "Женски род",
+            "Среден род"
+          ],
+          "headersEl": [
+            "Αντωνυμία",
+            "Αρσενικό",
+            "Θηλυκό",
+            "Ουδέτερο"
+          ],
+          "rows": [
+            [
+              "ich",
+              "mein",
+              "meine",
+              "mein"
+            ],
+            [
+              "du",
+              "dein",
+              "deine",
+              "dein"
+            ],
+            [
+              "er",
+              "sein",
+              "seine",
+              "sein"
+            ],
+            [
+              "sie",
+              "ihr",
+              "ihre",
+              "ihr"
+            ]
+          ]
+        }
       }
     ],
     "exercises": [
@@ -6743,7 +7122,88 @@ const CURRICULUM_A2 = [
             "noteBg": "Мъжки винителен падеж приема -en.",
             "noteEl": "Αρσενικό Κατηγορούμενο παίρνει -en."
           }
-        ]
+        ],
+        "table": {
+          "headers": [
+            "الحالة / الجنس",
+            "مذكر (Maskulin)",
+            "محايد (Neutral)",
+            "مؤنث (Feminin)",
+            "الجمع (Plural)"
+          ],
+          "headersEn": [
+            "Case / Gender",
+            "Masculine (Maskulin)",
+            "Neuter (Neutral)",
+            "Feminine (Feminin)",
+            "Plural"
+          ],
+          "headersTr": [
+            "Durum / Cinsiyet",
+            "Eril (Maskulin)",
+            "Nötr (Neutral)",
+            "Dişil (Feminin)",
+            "Çoğul (Plural)"
+          ],
+          "headersRo": [
+            "Caz / Gen",
+            "Masculin",
+            "Neutru",
+            "Feminin",
+            "Plural"
+          ],
+          "headersBs": [
+            "Padež / Rod",
+            "Muški",
+            "Srednji",
+            "Ženski",
+            "Množina"
+          ],
+          "headersEs": [
+            "Caso / Género",
+            "Masculino",
+            "Neutro",
+            "Femenino",
+            "Plural"
+          ],
+          "headersBg": [
+            "Падеж / Род",
+            "Мъжки род",
+            "Среден род",
+            "Женски род",
+            "Множествено число"
+          ],
+          "headersEl": [
+            "Πτώση / Γένος",
+            "Αρσενικό",
+            "Ουδέτερο",
+            "Θηλυκό",
+            "Πληθυντικός"
+          ],
+          "rows": [
+            [
+              "الرفع (Nominativ) / Nominative / Yalın (Nominativ) / Nominativ / Nominativ / Nominativo / Именителен падеж / Ονομαστική",
+              "ein blauer Rock",
+              "ein grünes Hemd",
+              "eine rote Hose",
+              "keine neuen Schuhe"
+            ],
+            [
+              "النصب (Akkusativ) / Accusative / -i Hali (Akkusativ) / Acuzativ / Akuzativ / Acusativo / Винителен падеж / Αιτιατική",
+              "einen blauen Rock",
+              "ein grünes Hemd",
+              "eine rote Hose",
+              "keine neuen Schuhe"
+            ],
+            [
+              "الجر (Dativ) / Dative / -e Hali (Dativ) / Dativ / Dativ / Dativo / Дателен падеж / Доτική",
+              "einem blauen Rock",
+              "einem grünen Hemd",
+              "einer roten Hose",
+              "keinen neuen Schuhen"
+            ]
+          ]
+        }
       },
       {
         "id": "adjektivdeklination-bestimmt",
@@ -6784,7 +7244,88 @@ const CURRICULUM_A2 = [
             "translationEl": "Μου αρέσει το μπλε παλτό.",
             "noteEl": "Ονομαστική αρσενική με οριστικό άρθρο παίρνει -ε."
           }
-        ]
+        ],
+        "table": {
+          "headers": [
+            "الحالة / الجنس",
+            "مذكر (Maskulin)",
+            "محايد (Neutral)",
+            "مؤنث (Feminin)",
+            "الجمع (Plural)"
+          ],
+          "headersEn": [
+            "Case / Gender",
+            "Masculine (Maskulin)",
+            "Neuter (Neutral)",
+            "Feminine (Feminin)",
+            "Plural"
+          ],
+          "headersTr": [
+            "Durum / Cinsiyet",
+            "Eril (Maskulin)",
+            "Nötr (Neutral)",
+            "Dişil (Feminin)",
+            "Çoğul (Plural)"
+          ],
+          "headersRo": [
+            "Caz / Gen",
+            "Masculin",
+            "Neutru",
+            "Feminin",
+            "Plural"
+          ],
+          "headersBs": [
+            "Padež / Rod",
+            "Muški",
+            "Srednji",
+            "Ženski",
+            "Množina"
+          ],
+          "headersEs": [
+            "Caso / Género",
+            "Masculino",
+            "Neutro",
+            "Femenino",
+            "Plural"
+          ],
+          "headersBg": [
+            "Падеж / Род",
+            "Мъжки род",
+            "Среден род",
+            "Женски род",
+            "Множествено число"
+          ],
+          "headersEl": [
+            "Πτώση / Γένος",
+            "Αρσενικό",
+            "Ουδέτερο",
+            "Θηλυκό",
+            "Πληθυντικός"
+          ],
+          "rows": [
+            [
+              "الرفع (Nominativ) / Nominative / Yalın (Nominativ) / Nominativ / Nominativ / Nominativo / Именителен падеж / Ονομαστική",
+              "der blaue Rock",
+              "das grüne Hemd",
+              "die rote Hose",
+              "die neuen Schuhe"
+            ],
+            [
+              "النصب (Akkusativ) / Accusative / -i Hali (Akkusativ) / Acuzativ / Akuzativ / Acusativo / Винителен падеж / Αιτιατική",
+              "den blauen Rock",
+              "das grüne Hemd",
+              "die rote Hose",
+              "die neuen Schuhe"
+            ],
+            [
+              "الجر (Dativ) / Dative / -e Hali (Dativ) / Dativ / Dativ / Dativo / Дателен падеж / Доτική",
+              "dem blauen Rock",
+              "dem grünen Hemd",
+              "der roten Hose",
+              "den neuen Schuhen"
+            ]
+          ]
+        }
       }
     ],
     "exercises": [
@@ -7616,7 +8157,83 @@ const CURRICULUM_A2 = [
             "translationEl": "Ανυπομονώ για το πάρτι.",
             "noteEl": "sich freuen auf + Κατηγορούμενο (μελλοντικό συμβάν)."
           }
-        ]
+        ],
+        "table": {
+          "headers": [
+            "الفعل",
+            "حرف الجر",
+            "الحالة الإعرابية",
+            "مثال"
+          ],
+          "headersEn": [
+            "Verb",
+            "Preposition",
+            "Case",
+            "Example"
+          ],
+          "headersTr": [
+            "Fiil",
+            "Edat",
+            "Durum",
+            "Örnek"
+          ],
+          "headersRo": [
+            "Verb",
+            "Prepoziție",
+            "Caz",
+            "Exemplu"
+          ],
+          "headersBs": [
+            "Glagol",
+            "Prijedlog",
+            "Padež",
+            "Primjer"
+          ],
+          "headersEs": [
+            "Verbo",
+            "Preposición",
+            "Caso",
+            "Ejemplo"
+          ],
+          "headersBg": [
+            "Глагол",
+            "Предлог",
+            "Падеж",
+            "Пример"
+          ],
+          "headersEl": [
+            "Ρήμα",
+            "Πρόθεση",
+            "Πτώση",
+            "Παράδειγμα"
+          ],
+          "rows": [
+            [
+              "warten / warten / beklemek / aștepta / čekati / esperar / чакам / περιμένω",
+              "auf",
+              "Akkusativ",
+              "Ich warte auf dich."
+            ],
+            [
+              "denken / denken / düşünmek / a se gândi / misliti / pensar / мисля / σκέφτομαι",
+              "an",
+              "Akkusativ",
+              "Ich denke an meine Familie."
+            ],
+            [
+              "träumen / träumen / rüya görmek / a visa / sanjati / soñar / сънувам / ονειρεύομαι",
+              "von",
+              "Dativ",
+              "Ich träume von einem Haus."
+            ],
+            [
+              "sich freuen / sich freuen / sevinmek / a se bucura / radovati se / alegrarse / радвам се / χαίρομαι",
+              "auf / über",
+              "Akkusativ",
+              "Ich freue mich auf die Party."
+            ]
+          ]
+        }
       }
     ],
     "exercises": [
@@ -8448,7 +9065,99 @@ const CURRICULUM_A2 = [
             "translationEl": "Ακουμπάω το βιβλίο στο τραπέζι. / Το βιβλίο είναι ξαπλωμένο στο τραπέζι.",
             "noteEl": "legen (δράση) εναντίον liegen (κατάσταση)."
           }
-        ]
+        ],
+        "table": {
+          "headers": [
+            "فعل الحركة (اتجاه)",
+            "الحالة",
+            "مثال",
+            "فعل السكون (موقع)",
+            "الحالة",
+            "مثال"
+          ],
+          "headersEn": [
+            "Direction Verb (Aktion)",
+            "Case",
+            "Example",
+            "Position Verb (Zustand)",
+            "Case",
+            "Example"
+          ],
+          "headersTr": [
+            "Yön Yönelim Fiili",
+            "Durum",
+            "Örnek",
+            "Konum Durum Fiili",
+            "Durum",
+            "Örnek"
+          ],
+          "headersRo": [
+            "Verb de direcție (Acțiune)",
+            "Caz",
+            "Exemplu",
+            "Verb de poziție (Stare)",
+            "Caz",
+            "Exemplu"
+          ],
+          "headersBs": [
+            "Glagol kretanja (Akcija)",
+            "Padež",
+            "Primjer",
+            "Glagol stanja (Pozicija)",
+            "Padež",
+            "Primjer"
+          ],
+          "headersEs": [
+            "Verbo de dirección (Acción)",
+            "Caso",
+            "Ejemplo",
+            "Verbo de posición (Estado)",
+            "Caso",
+            "Ejemplo"
+          ],
+          "headersBg": [
+            "Глагол за посока (Действие)",
+            "Падеж",
+            "Пример",
+            "Глагол за състояние (Положение)",
+            "Падеж",
+            "Пример"
+          ],
+          "headersEl": [
+            "Ρήμα κατεύθυνσης (Ενέργεια)",
+            "Πτώση",
+            "Παράδειγμα",
+            "Ρήμα θέσης (Κατάσταση)",
+            "Πτώση",
+            "Παράδειγμα"
+          ],
+          "rows": [
+            [
+              "legen (يضع أفقياً) / legen (to lay flat) / legen / a așeza culcat / položiti / colocar horizontal / поставям легнал / τοποθετώ οριζόντια",
+              "Akkusativ",
+              "Ich lege das Buch auf den Tisch.",
+              "liegen (يستلقي أفقياً) / liegen (to lie flat) / liegen / a sta culcat / ležati / estar tumbado / лежа / κείτομαι",
+              "Dativ",
+              "Das Buch liegt auf dem Tisch."
+            ],
+            [
+              "stellen (يضع عمودياً) / stellen (to stand up) / stellen / a pune în picioare / staviti / colocar vertical / поставям изправен / τοποθετώ όρθιο",
+              "Akkusativ",
+              "Ich stelle das Glas ins Regal.",
+              "stehen (يقف عمودياً) / stehen (to stand) / stehen / a sta în picioare / stajati / estar de pie / стоя изправен / στέκομαι",
+              "Dativ",
+              "Das Glas steht im Regal."
+            ],
+            [
+              "setzen (يجلس شخصاً) / setzen (to seat) / setzen / a așeza / posaditi / sentar / поставям седнал / καθίζω",
+              "Akkusativ",
+              "Ich setze mich auf den Stuhl.",
+              "sitzen (يجلس) / sitzen (to be seated) / sitzen / a sta așezat / sjediti / estar sentado / седя / κάθομαι",
+              "Dativ",
+              "Ich sitze auf dem Stuhl."
+            ]
+          ]
+        }
       }
     ],
     "exercises": [
@@ -9280,7 +9989,88 @@ const CURRICULUM_A2 = [
             "translationEl": "Δημιουργικοί καλλιτέχνες ζωγραφίζουν πολύχρωμες εικόνες.",
             "noteEl": "Ονομαστική πληθυντικού χωρίς άρθρο παίρνει -ε."
           }
-        ]
+        ],
+        "table": {
+          "headers": [
+            "الحالة / الجنس",
+            "مذكر (Maskulin)",
+            "محايد (Neutral)",
+            "مؤنث (Feminin)",
+            "الجمع (Plural)"
+          ],
+          "headersEn": [
+            "Case / Gender",
+            "Masculine (Maskulin)",
+            "Neuter (Neutral)",
+            "Feminine (Feminin)",
+            "Plural"
+          ],
+          "headersTr": [
+            "Durum / Cinsiyet",
+            "Eril (Maskulin)",
+            "Nötr (Neutral)",
+            "Dişil (Feminin)",
+            "Çoğul (Plural)"
+          ],
+          "headersRo": [
+            "Caz / Gen",
+            "Masculin",
+            "Neutru",
+            "Feminin",
+            "Plural"
+          ],
+          "headersBs": [
+            "Padež / Rod",
+            "Muški",
+            "Srednji",
+            "Ženski",
+            "Množina"
+          ],
+          "headersEs": [
+            "Caso / Género",
+            "Masculino",
+            "Neutro",
+            "Femenino",
+            "Plural"
+          ],
+          "headersBg": [
+            "Падеж / Род",
+            "Мъжки род",
+            "Среден род",
+            "Женски род",
+            "Множествено число"
+          ],
+          "headersEl": [
+            "Πτώση / Γένος",
+            "Αρσενικό",
+            "Ουδέτερο",
+            "Θηλυκό",
+            "Πληθυντικός"
+          ],
+          "rows": [
+            [
+              "الرفع (Nominativ) / Nominative / Yalın (Nominativ) / Nominativ / Nominativ / Nominativo / Именителен падеж / Ονομαστική",
+              "kalter Tee",
+              "frisches Wasser",
+              "heiße Milch",
+              "süße Früchte"
+            ],
+            [
+              "النصب (Akkusativ) / Accusative / -i Hali (Akkusativ) / Acuzativ / Akuzativ / Acusativo / Винителен падеж / Αιτιατική",
+              "kalten Tee",
+              "frisches Wasser",
+              "heiße Milch",
+              "süße Früchte"
+            ],
+            [
+              "الجر (Dativ) / Dative / -e Hali (Dativ) / Dativ / Dativ / Dativo / Дателен падеж / Доτική",
+              "kaltem Tee",
+              "frischem Wasser",
+              "heißer Milch",
+              "süßen Früchten"
+            ]
+          ]
+        }
       }
     ],
     "exercises": [
@@ -9696,7 +10486,95 @@ const CURRICULUM_A2 = [
             "translationEl": "Θα ήθελα να έρθω αν είχα χρόνο.",
             "noteEl": "würde + αόριστος, και hätte (από το haben)."
           }
-        ]
+        ],
+        "table": {
+          "headers": [
+            "الضمير",
+            "haben ➔ hätte (التمني)",
+            "sein ➔ wäre (التمني)",
+            "werden ➔ würde + Infinitiv"
+          ],
+          "headersEn": [
+            "Pronoun",
+            "haben ➔ hätte (wishes)",
+            "sein ➔ wäre (wishes)",
+            "werden ➔ würde + Infinitiv"
+          ],
+          "headersTr": [
+            "Zamir",
+            "haben ➔ hätte",
+            "sein ➔ wäre",
+            "werden ➔ würde + Infinitiv"
+          ],
+          "headersRo": [
+            "Pronume",
+            "haben ➔ hätte",
+            "sein ➔ wäre",
+            "werden ➔ würde + Infinitiv"
+          ],
+          "headersBs": [
+            "Zamjenica",
+            "haben ➔ hätte",
+            "sein ➔ wäre",
+            "werden ➔ würde + Infinitiv"
+          ],
+          "headersEs": [
+            "Pronombre",
+            "haben ➔ hätte",
+            "sein ➔ wäre",
+            "werden ➔ würde + infinitivo"
+          ],
+          "headersBg": [
+            "Местоимение",
+            "haben ➔ hätte",
+            "sein ➔ wäre",
+            "werden ➔ würde + инфинитив"
+          ],
+          "headersEl": [
+            "Αντωνυμία",
+            "haben ➔ hätte",
+            "sein ➔ wäre",
+            "werden ➔ würde + απαρέμφατο"
+          ],
+          "rows": [
+            [
+              "ich",
+              "hätte",
+              "wäre",
+              "würde ..."
+            ],
+            [
+              "du",
+              "hättest",
+              "wärest",
+              "würdest ..."
+            ],
+            [
+              "er/sie/es",
+              "hätte",
+              "wäre",
+              "würde ..."
+            ],
+            [
+              "wir",
+              "hätten",
+              "wären",
+              "würden ..."
+            ],
+            [
+              "ihr",
+              "hättet",
+              "wäret",
+              "würdet ..."
+            ],
+            [
+              "sie/Sie",
+              "hätten",
+              "wären",
+              "würden ..."
+            ]
+          ]
+        }
       }
     ],
     "exercises": [
@@ -10112,7 +10990,83 @@ const CURRICULUM_A2 = [
             "translationEl": "Εκεί είναι το γραφείο του αφεντικού.",
             "noteEl": "des Chefs (αρσενικό γένος)."
           }
-        ]
+        ],
+        "table": {
+          "headers": [
+            "الجنس",
+            "أداة التعريف",
+            "نهاية الاسم",
+            "مثال"
+          ],
+          "headersEn": [
+            "Gender",
+            "Definite Article",
+            "Noun Ending",
+            "Example"
+          ],
+          "headersTr": [
+            "Cinsiyet",
+            "Belirli Artikel",
+            "İsim Takısı",
+            "Örnek"
+          ],
+          "headersRo": [
+            "Gen",
+            "Articol hotărât",
+            "Terminație substantiv",
+            "Exemplu"
+          ],
+          "headersBs": [
+            "Rod",
+            "Određeni član",
+            "Nastavak imenice",
+            "Primjer"
+          ],
+          "headersEs": [
+            "Género",
+            "Artículo definido",
+            "Terminación sustantivo",
+            "Ejemplo"
+          ],
+          "headersBg": [
+            "Род",
+            "Определителен член",
+            "Окончание на съществително",
+            "Пример"
+          ],
+          "headersEl": [
+            "Γένος",
+            "Οριστικό άρθρο",
+            "Κατάληξη ουσιαστικού",
+            "Παράδειγμα"
+          ],
+          "rows": [
+            [
+              "مذكر (Maskulinum) / Masculine / Eril / Masculin / Muški / Masculino / Мъжки / Αρσενικό",
+              "des",
+              "-s / -es",
+              "des Vaters / des Mannes"
+            ],
+            [
+              "محايد (Neutrum) / Neuter / Nötr / Neutru / Srednji / Neutro / Среден / Ουδέτερο",
+              "des",
+              "-s / -es",
+              "des Kindes / des Hauses"
+            ],
+            [
+              "مؤنث (Femininum) / Feminine / Dişil / Feminin / Ženski / Femenino / Женски / Θηλυκό",
+              "der",
+              "–",
+              "der Mutter / der Frau"
+            ],
+            [
+              "جمع (Plural) / Plural / Çoğul / Plural / Množina / Plural / Множествено число / Πληθυντικός",
+              "der",
+              "–",
+              "der Kinder / der Freunde"
+            ]
+          ]
+        }
       }
     ],
     "exercises": [
