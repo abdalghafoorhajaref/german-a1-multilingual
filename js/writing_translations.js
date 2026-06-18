@@ -1148,6 +1148,515 @@ const WRITING_TRANSLATIONS = {
         "Did you put past conjugated verbs at the end of the sentence after haben/sein?",
         "Did you describe your final feeling?"
       ]
+    },
+    "19": {
+      "title": "Invitation to a birthday party",
+      "type": "Email/call",
+      "description": "Write an email inviting your friend to your birthday party, explaining when, where and what he or she should attend.",
+      "keyVocabulary": [
+        "He calls",
+        "birthday party",
+        "celebrates",
+        "Saturday",
+        "Six o'clock in the evening",
+        "takes place / happens",
+        "He brings with him",
+        "The gift",
+        "He answers / responds",
+        "friends"
+      ],
+      "usefulPhrases": [
+        "I cordially invite you to my birthday party.",
+        "The party takes place on Saturday at 6 p.m.",
+        "We will celebrate in my garden.",
+        "Can you bring pasta salad with you?",
+        "Please let me know your response by Thursday."
+      ],
+      "grammarFocus": [
+        "Use of the separate verb einladen (Ich lade dich ein)",
+        "Temporal prepositions: am, um",
+        "Spatial prepositions: in meinem Garten (Dativ)"
+      ],
+      "structure": [
+        {
+          "step": "Greetings and reason",
+          "tip": "Start with a friendly greeting and state the reason for writing (the invitation)."
+        },
+        {
+          "step": "Time and place",
+          "tip": "Specify the date, time and location of the party in detail."
+        },
+        {
+          "step": "What to bring and order",
+          "tip": "Ask the friend to bring something (such as a salad) and respond to confirm attendance."
+        },
+        {
+          "step": "Conclusion",
+          "tip": "End with a friendly message and a signature of your name."
+        }
+      ],
+      "exampleEssayTranslation": "Dear Max, I cordially invite you to my birthday party. I will celebrate my birthday next Saturday. The party is held in my garden and starts at 6pm. Lots of friends will come too. We want to barbecue and listen to music. Can you bring some salad or drinks with you? Please let me know by Thursday if you can come. I look forward to seeing you! Best regards, Ahmed",
+      "writingTips": [
+        "Use an informal address form: Lieber [Name] for the masculine or Liebe [Name] for the feminine.",
+        "Remember to put a comma after the vocative and start the next sentence with a lowercase letter.",
+        "Use conjunctions such as und and oder to connect sentences."
+      ],
+      "selfCheckList": [
+        "Did you use an appropriate friendly greeting? (Lieber...)",
+        "Have you timed the party accurately? (am Samstag um...)",
+        "Did you mention where the party will be held?",
+        "Did you ask him to bring something?",
+        "Did you ask him to respond to confirm attendance?",
+        "Did you end with the appropriate salutation and your name?"
+      ]
+    },
+    "20": {
+      "title": "Email to neighbor",
+      "type": "Email/apology",
+      "description": "Write an email to your neighbors in the building to apologize in advance for the noise caused by a party you are having at your apartment.",
+      "keyVocabulary": [
+        "Neighbor",
+        "House Regulations/Order",
+        "Noise/nuisance",
+        "The party",
+        "celebrates",
+        "He apologizes",
+        "Quiet/low voice",
+        "It bothers",
+        "Understanding",
+        "Rest time"
+      ],
+      "usefulPhrases": [
+        "I would like to apologize for the noise.",
+        "I'm having a little party on Saturday.",
+        "We will be quiet starting at 10pm.",
+        "I hope we won't bother you.",
+        "Thank you very much for your understanding."
+      ],
+      "grammarFocus": [
+        "Use of reflexive verbs (sich entschuldigen)",
+        "Prepositions: für + Akkusativ, über + Akkusativ"
+      ],
+      "structure": [
+        {
+          "step": "Greetings",
+          "tip": "Start with a formal greeting to all neighbors (Liebe Nachbarinnen und Nachbarn)."
+        },
+        {
+          "step": "Announcement of the party",
+          "tip": "Tell them when the party is and why."
+        },
+        {
+          "step": "Time to rest and apologize",
+          "tip": "We apologize for any possible inconvenience and assure you that you will remain quiet after 22:00."
+        },
+        {
+          "step": "Thanks and conclusion",
+          "tip": "Thank them for their understanding and end with formal greetings."
+        }
+      ],
+      "exampleEssayTranslation": "Dear friends and neighbors, I live on the second floor. Next Saturday I will celebrate my birthday and have a small party in my apartment. Some guests will come. It might get a little noisy. I apologize in advance for the noise. Starting at 10pm, we will lower the music volume to respect the break time. I hope you understand. Thank you very much! Best regards, Ahmed Al-Hassan",
+      "writingTips": [
+        "He addressed the neighbors in the formal plural form: Ihr (your understanding = Ihr Verständnis).",
+        "Write in a polite and respectful manner to build a good relationship with neighbors."
+      ],
+      "selfCheckList": [
+        "Did you write the group greeting correctly?",
+        "Have you identified your apartment or floor on which you live?",
+        "Did you mention the date of the party?",
+        "Did you promise to turn down the volume after 10pm?",
+        "Did you thank them for understanding?",
+        "Did you sign with your full name and formal salutation?"
+      ]
+    },
+    "21": {
+      "title": "My school certificate and vocational training",
+      "type": "Description/topic of an expression",
+      "description": "Write a text describing your school diploma from your country and your current vocational training or the profession you would like to learn in Germany.",
+      "keyVocabulary": [
+        "the school",
+        "School certificate",
+        "Vocational training",
+        "He studies at the university",
+        "Dream career",
+        "Works as",
+        "Finish / complete",
+        "important",
+        "Certificate/school clearance",
+        "Learn / study"
+      ],
+      "usefulPhrases": [
+        "I got my school certificate in Syria.",
+        "My dream career is an informatics expert.",
+        "I am doing vocational training as an electrician.",
+        "Vocational training lasts for three years.",
+        "A good career is very important to me."
+      ],
+      "grammarFocus": [
+        "Using the simple past and the past perfect (Perfekt: habe gemacht)",
+        "Prepositions: als + Beruf (als Elektriker, als Arzt)"
+      ],
+      "structure": [
+        {
+          "step": "School period at home",
+          "tip": "Talk about your school in your country, when you finished it, and what degree you obtained."
+        },
+        {
+          "step": "Vocational training/professional security",
+          "tip": "Explain what you are doing now in Germany or what vocational training you want."
+        },
+        {
+          "step": "Future plans",
+          "tip": "Talk about your plan after completing your training and working in Germany."
+        }
+      ],
+      "exampleEssayTranslation": "I spent my school years in Syria and obtained my school certificate there in 2018. My certificate was very good. Now I live in Germany. My dream profession is auto mechanic. So for a year I have been doing vocational training as an auto mechanic in a large workshop. I like the work very much, but vocational school is sometimes difficult. After training I would like to work permanently as a mechanic and start a family of my own.",
+      "writingTips": [
+        "Use the past perfect tense to talk about school in your country.",
+        "Use sentence connectives such as deshalb (therefore) and weil (because) to explain your career choices."
+      ],
+      "selfCheckList": [
+        "Did you mention where and when you finished school?",
+        "Did you describe your school certificate?",
+        "Did you mention your current occupation or professional training?",
+        "Did you mention where you do your vocational training?",
+        "Have you written about your plans after graduation?",
+        "Have you checked the conjugation of verbs in the past and present?"
+      ]
+    },
+    "22": {
+      "title": "Description of my dream apartment",
+      "type": "a description",
+      "description": "Write an essay describing your dream apartment: how many rooms it has, where it is located, how you want to furnish it, and how much it costs.",
+      "keyVocabulary": [
+        "Dream apartment",
+        "The room",
+        "Veranda/balcony",
+        "Rent",
+        "Side expenses",
+        "Luminous/bright",
+        "calm",
+        "Furnished/equipped with furniture",
+        "the kitchen",
+        "Living room"
+      ],
+      "usefulPhrases": [
+        "My dream apartment is located in the city center.",
+        "The apartment consists of four rooms and a balcony.",
+        "All rooms are very large and bright.",
+        "I would like to furnish the apartment in a modern way.",
+        "The rent should not be too high."
+      ],
+      "grammarFocus": [
+        "Use of the wishful expression Konjunktiv II (ich möchte, wäre, hätte)",
+        "Proper adjectives and endings"
+      ],
+      "structure": [
+        {
+          "step": "Location and space",
+          "tip": "Describe where the apartment is located, how many rooms and its total area."
+        },
+        {
+          "step": "Fittings and furnishings",
+          "tip": "Talk about the kitchen, bathroom, balcony and how you want to furnish the rooms."
+        },
+        {
+          "step": "Costs",
+          "tip": "State the maximum rent you are willing to pay, including side expenses."
+        }
+      ],
+      "exampleEssayTranslation": "My dream apartment is large, bright and located on a quiet street near the city center. It consists of three rooms: a large living room, a bedroom and an office room. The apartment also has a modern kitchen and a beautiful balcony with a view. I would like to furnish the rooms with modern wooden furniture. The total rent must not exceed a maximum of 800 euros per month. I also like to have nice neighbors in the building. That would be perfect!",
+      "writingTips": [
+        "Use appropriate adjectives to describe rooms (hell, groß, gemütlich).",
+        "Remember that the subject and the predicate are identical in type and number."
+      ],
+      "selfCheckList": [
+        "Have you described the location of your dream apartment?",
+        "Did you mention the number of rooms?",
+        "Did you talk about the balcony or the kitchen?",
+        "Did I mention how you want it brushed?",
+        "Have you set the right price for you?",
+        "Did you use appropriate linguistic structures for wishing?"
+      ]
+    },
+    "23": {
+      "title": "Write a route description",
+      "type": "Email / Route Description",
+      "description": "Write an email to a friend visiting you for the first time, describing the route from the main train station to your apartment.",
+      "keyVocabulary": [
+        "Train station",
+        "Route description",
+        "Straight/straight ahead",
+        "Turn right/left",
+        "The intersection",
+        "Traffic light",
+        "take (the bus)",
+        "Get off the bus/train",
+        "Station/position",
+        "vs. for"
+      ],
+      "usefulPhrases": [
+        "From the main station take subway line 3.",
+        "Ride for three stops and get off at the 'Museum' stop.",
+        "Walk straight until the traffic light and turn left.",
+        "My house is located directly opposite the bakery.",
+        "The path is very easy to find."
+      ],
+      "grammarFocus": [
+        "Use the sympathetic imperative (nimm, gehe, biege ab)",
+        "Spatial prepositions: gegenüber von + Dativ, an der Haltestelle"
+      ],
+      "structure": [
+        {
+          "step": "Greetings and welcome",
+          "tip": "Welcome your friend and express your happiness at his visit."
+        },
+        {
+          "step": "Starting from the station",
+          "tip": "Explain to him which means of transportation he takes from the station and its number."
+        },
+        {
+          "step": "Description of walking",
+          "tip": "Describe the route on foot from the station to the door (turns, signals)."
+        },
+        {
+          "step": "Select the access point",
+          "tip": "Identify a distinctive sign for the house (such as opposite a bakery or supermarket)."
+        }
+      ],
+      "exampleEssayTranslation": "Hi Leo, I'm so glad you visited this weekend! Here is the route description: From the main station it is preferable to take the U2 metro line towards Westend. You ride to four stops and get off at the 'Tsar Street' stop. Then walk straight down the street until the intersection. At the traffic light, turn right. My house is number 15 and is located directly opposite the post office. The path is very easy. See you Saturday! Best regards, Ahmed",
+      "writingTips": [
+        "Use the familiar personal imperative (du): nimm (take), gehe (go), steige aus (come down).",
+        "Clearly specify the direction of transportation (in Richtung...)."
+      ],
+      "selfCheckList": [
+        "Did you wish him a happy trip and express your aspiration to visit him?",
+        "Have you specified the train/bus line number and direction?",
+        "Did you mention the name of the station where he gets off?",
+        "Have you described walking using (right/left/forward)?",
+        "Did you mention the house number and its distinctive sign?",
+        "Did you end with a salutation and name?"
+      ]
+    },
+    "24": {
+      "title": "My favorite painting",
+      "type": "Description/topic of an expression",
+      "description": "Describe a painting or artwork that you like very much: what you see in it, what colors are used, and how you feel when you see it.",
+      "keyVocabulary": [
+        "Painting/artwork",
+        "Artist",
+        "the color",
+        "Colourful/delightful colours",
+        "Light/dark",
+        "See",
+        "feel",
+        "nature",
+        "Psychological state/general atmosphere",
+        "Like/like"
+      ],
+      "usefulPhrases": [
+        "My favorite painting is called 'Sunflower'.",
+        "In the painting one sees beautiful nature.",
+        "The painter uses bright and warm colors.",
+        "This artwork gives me a feeling of calm.",
+        "I find this painting very interesting."
+      ],
+      "grammarFocus": [
+        "Using adjectives to link feelings to colors (warme Farben, ein schönes Gefühl)",
+        "Liking structures: gefällt mir (I like it), finde ich (I find it)"
+      ],
+      "structure": [
+        {
+          "step": "Name and artist",
+          "tip": "State the name of the painting, who painted it, and when you first saw it."
+        },
+        {
+          "step": "Description of the painting",
+          "tip": "Describe the contents of the painting in detail (people, nature, things) and its dominant colors."
+        },
+        {
+          "step": "Feelings and conclusion",
+          "tip": "Explain why you particularly like the painting and how you feel when you look at it."
+        }
+      ],
+      "exampleEssayTranslation": "My favorite painting is 'The Starry Night' by Vincent Van Gogh. I saw it in a book about art. In the painting, one sees a blue night sky with many yellow stars and a bright crescent. In the foreground stands a dark tree and in the background lies a small village. The painter uses a lot of blue and yellow colors. When I look at this painting, I feel calm and happy. I find the painting very beautiful.",
+      "writingTips": [
+        "Divide the description into two parts: objective description (what you see) and subjective description (what you feel).",
+        "Use directional expressions such as im Vordergrund (in the foreground) and im Hintergrund (in the background)."
+      ],
+      "selfCheckList": [
+        "Did you mention the name of the painting and the artist?",
+        "Did you describe the colors used?",
+        "Have you described the contents of the painting in detail?",
+        "Did you use expressions like 'im Vordergrund'?",
+        "Did you express your feelings about the painting?",
+        "Have you checked the grammar to match adjectives?"
+      ]
+    },
+    "25": {
+      "title": "Use of media in daily life",
+      "type": "Description/topic of an expression",
+      "description": "Write a text expressing how you use different media (smartphone, computer, television, Internet) in your day.",
+      "keyVocabulary": [
+        "Media",
+        "Smartphone",
+        "He uses / uses",
+        "daily",
+        "Social media",
+        "Browsing the Internet",
+        "News/message",
+        "reads/sees",
+        "important",
+        "Time consuming"
+      ],
+      "usefulPhrases": [
+        "I use my smartphone every day for several hours.",
+        "I read on the Internet news from my country.",
+        "I use the laptop for my work and learning.",
+        "Social media helps me stay in touch with friends.",
+        "Sometimes I spend a lot of time online."
+      ],
+      "grammarFocus": [
+        "Using prepositions with media: auf dem Smartphone, im Internet, am Computer",
+        "Connect sentences to show contradiction: aber (but), obwohl (although)"
+      ],
+      "structure": [
+        {
+          "step": "the introduction",
+          "tip": "Start by mentioning the importance of media in your modern life."
+        },
+        {
+          "step": "Preferred devices and usage",
+          "tip": "Talk about the devices you use daily (phone, laptop) and why (work, communication, learning)."
+        },
+        {
+          "step": "Critical opinion and conclusion",
+          "tip": "Mention the pros and cons, and do you think you spend a lot of time online?"
+        }
+      ],
+      "exampleEssayTranslation": "Media is very important in my daily life. I use my smartphone every day for many things: talking on the phone, reading the news and checking my email. I also use social media to keep in touch with my family. In the evening, I mostly surf the Internet on my laptop or watch movies. I find the Internet very useful for learning, but sometimes I spend too much time online. One must beware of addiction.",
+      "writingTips": [
+        "Mention specific actions you do online (schreiben, lesen, sehen, lernen).",
+        "Use words that express repetition such as täglich (daily), oft (often), manchmal (sometimes)."
+      ],
+      "selfCheckList": [
+        "Did you mention the media you use?",
+        "Have you described your smartphone use?",
+        "Did I mention using the computer or TV?",
+        "Did you talk about communicating with family and friends?",
+        "Did you express the negatives (wasting time)?",
+        "Have you checked the correctness of the prepositions (im Internet...)?"
+      ]
+    },
+    "26": {
+      "title": "Why voting is important",
+      "type": "Article/expression of opinion",
+      "description": "Write a short essay expressing your opinion on elections and the importance of political participation and voting in a democratic society.",
+      "keyVocabulary": [
+        "Elect/vote",
+        "Elections",
+        "Democracy",
+        "Electoral vote",
+        "Citizen",
+        "Opinion",
+        "Decide",
+        "the government",
+        "Right",
+        "the future"
+      ],
+      "usefulPhrases": [
+        "In a democratic system, citizens have the right to vote.",
+        "Voting is an important right and duty.",
+        "Every vote matters for the future.",
+        "Citizens decide who rules the country.",
+        "I think one should express one's opinion."
+      ],
+      "grammarFocus": [
+        "Using linking sentences dass (Ich denke, dass...)",
+        "Using auxiliary verbs (sollte, kann)"
+      ],
+      "structure": [
+        {
+          "step": "the introduction",
+          "tip": "Definition of elections and their general importance in the country."
+        },
+        {
+          "step": "Arguments and reasons",
+          "tip": "Explain why every citizen should participate by voting (changing laws, deciding the future)."
+        },
+        {
+          "step": "Conclusion and your personal opinion",
+          "tip": "Summarize your opinion clearly in a concluding sentence."
+        }
+      ],
+      "exampleEssayTranslation": "Voting is an essential element of democracy. Every election gives citizens the opportunity to actively contribute to shaping their future. I believe that voting is not only a right, but also an important duty. If one does not vote, others decide policy and laws. With our votes we can choose the government and express our opinions. So every citizen must go to vote. This is just how a free society works.",
+      "writingTips": [
+        "Use the conjunction dass to put the verb at the end of the sentence.",
+        "Use persuasive words such as wichtig (important), Pflicht (duty), Möglichkeit (opportunity)."
+      ],
+      "selfCheckList": [
+        "Did you start with a clear definition of the importance of election?",
+        "Have you made at least two arguments for the importance of voting?",
+        "Did you use the conjunction 'dass' correctly?",
+        "Have you written about the role of the citizen in democracy?",
+        "Did you end with a strong conclusion?",
+        "Have you checked your spelling and punctuation?"
+      ]
+    },
+    "27": {
+      "title": "Culture and holidays in my country",
+      "type": "Description/topic of an expression",
+      "description": "Write an essay describing a traditional holiday or cultural custom in your country of origin, and how you celebrate it with family and friends.",
+      "keyVocabulary": [
+        "Homeland",
+        "Eid/celebration",
+        "Culture",
+        "traditional",
+        "celebrates",
+        "Family",
+        "Food/eating",
+        "Visit",
+        "Habit",
+        "together"
+      ],
+      "usefulPhrases": [
+        "In my country, we celebrate Eid al-Fitr every year.",
+        "This is a large and important family celebration.",
+        "We visit relatives and eat traditional sweets.",
+        "Everyone wears new clothes and gives the children money.",
+        "I love this custom very much because it connects people together."
+      ],
+      "grammarFocus": [
+        "Use weil clauses to put the verb at the end",
+        "Using adverbs of time to arrange (zuerst, danach, am Ende)"
+      ],
+      "structure": [
+        {
+          "step": "The name of the holiday and its definition",
+          "tip": "Mention the name of the holiday and approximately when you celebrate it in your country."
+        },
+        {
+          "step": "Celebration steps",
+          "tip": "Describe in detail what you do on the morning of Eid, the food, the visits, the clothes."
+        },
+        {
+          "step": "Importance and personal feeling",
+          "tip": "Explain what this holiday means to you and why you love it."
+        }
+      ],
+      "exampleEssayTranslation": "In my country, Syria, we celebrate Eid al-Fitr every year after Ramadan. It is a big traditional holiday for the whole family. In the first morning we first go to the mosque. After that, we all eat breakfast together at my grandparents’ house. We eat very delicious sweets and drink coffee. Children receive new clothes and small gifts. I love this holiday very much because all the relatives come together and we laugh a lot. There is a beautiful atmosphere.",
+      "writingTips": [
+        "Use order words to sequence events: zuerst (first), danach (afterward), am Nachmittag (in the afternoon).",
+        "Describe feelings, smells and foods to make the text lively."
+      ],
+      "selfCheckList": [
+        "Did you mention the name of the holiday and your country?",
+        "Did you clarify when it is celebrated?",
+        "Have you described morning activities and visits?",
+        "Did I mention the holiday foods or sweets?",
+        "Have you expressed your feelings and why you love this holiday?",
+        "Have you checked the word order after the conjunctions?"
+      ]
     }
   },
   "tr": {
@@ -2273,6 +2782,515 @@ const WRITING_TRANSLATIONS = {
         "Faaliyetleri geçmiş zamanda listelediniz mi?",
         "Geçmiş çekimli fiilleri haben/sein'den sonra cümlenin sonuna koydunuz mu?",
         "Son duygunuzu tarif ettiniz mi?"
+      ]
+    },
+    "19": {
+      "title": "Doğum günü partisine davet",
+      "type": "E-posta/arama",
+      "description": "Arkadaşınızı doğum günü partinize davet eden ve ne zaman, nerede ve neye katılması gerektiğini açıklayan bir e-posta yazın.",
+      "keyVocabulary": [
+        "O arıyor",
+        "doğum günü partisi",
+        "kutluyor",
+        "Cumartesi",
+        "Akşam saat altıda",
+        "gerçekleşir / olur",
+        "Yanında getiriyor",
+        "Hediye",
+        "O cevap verir / yanıt verir",
+        "Arkadaşlar"
+      ],
+      "usefulPhrases": [
+        "Seni doğum günü partime içtenlikle davet ediyorum.",
+        "Parti cumartesi günü saat 18.00'de gerçekleşecek.",
+        "Bahçemde kutlayacağız.",
+        "Yanınızda makarna salatası getirebilir misiniz?",
+        "Lütfen yanıtınızı Perşembe gününe kadar bana bildirin."
+      ],
+      "grammarFocus": [
+        "Ayrı fiil einladen'in kullanımı (Ich lade dich ein)",
+        "Zamansal edatlar: am, um",
+        "Uzamsal edatlar: meinem Garten'de (Dativ)"
+      ],
+      "structure": [
+        {
+          "step": "Selamlar ve sebep",
+          "tip": "Dostça bir selamlamayla başlayın ve yazma nedenini (davetiye) belirtin."
+        },
+        {
+          "step": "Zaman ve yer",
+          "tip": "Partinin tarihini, saatini ve yerini ayrıntılı olarak belirtin."
+        },
+        {
+          "step": "Ne getirilmeli ve sipariş edilmeli",
+          "tip": "Arkadaşınızdan bir şeyler (salata gibi) getirmesini isteyin ve katılımı onaylamak için yanıt verin."
+        },
+        {
+          "step": "Çözüm",
+          "tip": "Dostça bir mesaj ve adınızın imzasıyla bitirin."
+        }
+      ],
+      "exampleEssayTranslation": "Sevgili Max, seni doğum günü partime içtenlikle davet ediyorum. Gelecek cumartesi doğum günümü kutlayacağım. Parti bahçemde yapılıyor ve akşam 6'da başlıyor. Bir sürü arkadaş da gelecek. Barbekü yapmak ve müzik dinlemek istiyoruz. Yanınıza biraz salata veya içecek getirebilir misiniz? Gelebilirseniz perşembeye kadar bana haber verin lütfen. Seni görmeyi sabırsızlıkla bekliyorum! Saygılarımla Ahmet",
+      "writingTips": [
+        "Resmi olmayan bir adres formu kullanın: Eril için Lieber [İsim] veya dişi için Liebe [İsim].",
+        "Vokatiften sonra virgül koymayı ve sonraki cümleye küçük harfle başlamayı unutmayın.",
+        "Cümleleri birbirine bağlamak için und ve oder gibi bağlaçları kullanın."
+      ],
+      "selfCheckList": [
+        "Uygun, dostane bir selamlama kullandınız mı? (Lieber...)",
+        "Partinin zamanını doğru ayarladınız mı? (Ben Samstag'ım...)",
+        "Partinin nerede yapılacağını söylediniz mi?",
+        "Ondan bir şey getirmesini istedin mi?",
+        "Katılımı onaylamak için yanıt vermesini istediniz mi?",
+        "Uygun selamlama ve isminizle bitirdiniz mi?"
+      ]
+    },
+    "20": {
+      "title": "Komşuya e-posta",
+      "type": "E-posta/özür",
+      "description": "Dairenizde verdiğiniz partinin neden olacağı gürültüden dolayı önceden özür dilemek için binadaki komşularınıza bir e-posta yazın.",
+      "keyVocabulary": [
+        "Komşu",
+        "Ev Düzenlemeleri/Düzen",
+        "Gürültü/sıkıntı",
+        "Parti",
+        "kutluyor",
+        "Özür diliyor",
+        "Sessiz/düşük ses",
+        "Rahatsız ediyor",
+        "Anlamak",
+        "Dinlenme zamanı"
+      ],
+      "usefulPhrases": [
+        "Gürültü için özür dilemek istiyorum.",
+        "Cumartesi günü küçük bir parti veriyorum.",
+        "Saat 22.00'den itibaren sessiz olacağız.",
+        "Umarım sizi rahatsız etmeyiz.",
+        "Anlayışınız için çok teşekkür ederiz."
+      ],
+      "grammarFocus": [
+        "Dönüşlü fiillerin kullanımı (sich entschuldigen)",
+        "Edatlar: für + Akkusativ, über + Akkusativ"
+      ],
+      "structure": [
+        {
+          "step": "Selamlar",
+          "tip": "Tüm komşulara resmi bir selamlama ile başlayın (Liebe Nachbarinnen und Nachbarn)."
+        },
+        {
+          "step": "Partinin duyurusu",
+          "tip": "Onlara partinin ne zaman olduğunu ve nedenini söyleyin."
+        },
+        {
+          "step": "Dinlenme ve özür dileme zamanı",
+          "tip": "Olası rahatsızlıktan dolayı özür dileriz ve saat 22:00'den sonra sessiz kalacağınızı garanti ederiz."
+        },
+        {
+          "step": "Teşekkürler ve sonuç",
+          "tip": "Anlayışları için onlara teşekkür edin ve resmi selamlamalarla bitirin."
+        }
+      ],
+      "exampleEssayTranslation": "Sevgili dostlarım ve komşularım, ikinci katta oturuyorum. Gelecek cumartesi doğum günümü kutlayacağım ve dairemde küçük bir parti vereceğim. Bazı misafirler gelecek. Biraz gürültülü olabilir. Gürültü için şimdiden özür dilerim. Saat 22:00'den itibaren mola zamanına uymak için müzik sesini azaltacağız. Umarım anlarsın. Çok teşekkür ederim! Saygılarımla, Ahmed Al-Hassan",
+      "writingTips": [
+        "Komşulara resmi çoğul biçimde hitap ediyordu: Ihr (anlayışınız = Ihr Verständnis).",
+        "Komşularla iyi ilişkiler kurmak için kibar ve saygılı bir şekilde yazın."
+      ],
+      "selfCheckList": [
+        "Grup selamını doğru yazdınız mı?",
+        "Yaşadığınız daireyi veya katı belirlediniz mi?",
+        "Partinin tarihini söylediniz mi?",
+        "Akşam 22.00'den sonra sesi kısacağınıza söz verdiniz mi?",
+        "Anlayışları için onlara teşekkür ettiniz mi?",
+        "Tam adınızı ve resmi selamlamanızı imzaladınız mı?"
+      ]
+    },
+    "21": {
+      "title": "Okul sertifikam ve mesleki eğitimim",
+      "type": "Bir ifadenin açıklaması/konusu",
+      "description": "Ülkenizdeki okul diplomanızı ve Almanya'da mevcut mesleki eğitiminizi veya öğrenmek istediğiniz mesleği anlatan bir metin yazın.",
+      "keyVocabulary": [
+        "okul",
+        "Okul sertifikası",
+        "Mesleki eğitim",
+        "Üniversitede okuyor",
+        "Hayalimdeki kariyer",
+        "Olarak çalışır",
+        "Bitir / tamamla",
+        "önemli",
+        "Sertifika/okul izni",
+        "Öğrenin / çalışın"
+      ],
+      "usefulPhrases": [
+        "Okul sertifikamı Suriye'de aldım.",
+        "Hayalimdeki kariyer bilişim uzmanıdır.",
+        "Elektrikçi olarak mesleki eğitim yapıyorum.",
+        "Mesleki eğitim üç yıl sürer.",
+        "İyi bir kariyer benim için çok önemlidir."
+      ],
+      "grammarFocus": [
+        "Basit geçmiş ve geçmiş mükemmelin kullanımı (Perfekt: habe gemacht)",
+        "Edatlar: als + Beruf (als Elektriker, als Arzt)"
+      ],
+      "structure": [
+        {
+          "step": "Evde okul dönemi",
+          "tip": "Ülkenizdeki okulunuz, onu ne zaman bitirdiğiniz ve hangi dereceyi aldığınız hakkında konuşun."
+        },
+        {
+          "step": "Mesleki eğitim/mesleki güvenlik",
+          "tip": "Şu anda Almanya'da ne yaptığınızı veya hangi mesleki eğitimi istediğinizi açıklayın."
+        },
+        {
+          "step": "Gelecek planları",
+          "tip": "Almanya'daki eğitiminizi ve çalışmanızı tamamladıktan sonra planınız hakkında konuşun."
+        }
+      ],
+      "exampleEssayTranslation": "Okul yıllarımı Suriye'de geçirdim ve 2018 yılında okul sertifikamı orada aldım. Sertifikam çok iyiydi. Şimdi Almanya'da yaşıyorum. Hayalimdeki meslek oto tamircisi. Yani bir yıldır büyük bir atölyede oto tamircisi olarak mesleki eğitim yapıyorum. İşi çok seviyorum ama meslek okulu bazen zor oluyor. Eğitimden sonra kalıcı olarak tamirci olarak çalışmak ve kendi ailemi kurmak istiyorum.",
+      "writingTips": [
+        "Ülkenizdeki okul hakkında konuşmak için geçmiş mükemmel zamanı kullanın.",
+        "Kariyer seçimlerinizi açıklamak için deshalb (bu nedenle) ve weil (çünkü) gibi cümle bağlaçlarını kullanın."
+      ],
+      "selfCheckList": [
+        "Okulu nerede ve ne zaman bitirdiğinizden bahsettiniz mi?",
+        "Okul sertifikanızı tarif ettiniz mi?",
+        "Şu anki mesleğinizden veya mesleki eğitiminizden bahsettiniz mi?",
+        "Mesleki eğitiminizi nerede yaptığınızdan bahsettiniz mi?",
+        "Mezuniyet sonrası planlarınızı yazdınız mı?",
+        "Geçmişteki ve şimdiki fiillerin çekimlerini kontrol ettiniz mi?"
+      ]
+    },
+    "22": {
+      "title": "Hayalimdeki dairenin açıklaması",
+      "type": "bir açıklama",
+      "description": "Hayalinizdeki daireyi anlatan bir makale yazın: kaç odası var, nerede bulunuyor, nasıl döşemek istiyorsunuz ve maliyeti ne kadar.",
+      "keyVocabulary": [
+        "Rüya dairesi",
+        "oda",
+        "Veranda/balkon",
+        "Kira",
+        "Yan masraflar",
+        "Aydınlık/parlak",
+        "sakinlik",
+        "Mobilyalı/mobilyalı",
+        "mutfak",
+        "Oturma odası"
+      ],
+      "usefulPhrases": [
+        "Hayalimdeki daire şehir merkezinde bulunuyor.",
+        "Daire dört oda ve bir balkondan oluşmaktadır.",
+        "Tüm odalar oldukça geniş ve aydınlıktır.",
+        "Daireyi modern bir şekilde döşemek istiyorum.",
+        "Kiranın çok yüksek olmaması gerekiyor."
+      ],
+      "grammarFocus": [
+        "Konjunktiv II (ich möchte, wäre, hätte) dilek ifadesinin kullanımı",
+        "Uygun sıfatlar ve sonlar"
+      ],
+      "structure": [
+        {
+          "step": "Konum ve mekan",
+          "tip": "Dairenin nerede olduğunu, kaç odalı olduğunu ve toplam alanını açıklayın."
+        },
+        {
+          "step": "Bağlantı parçaları ve mobilyalar",
+          "tip": "Mutfak, banyo, balkon ve odaların nasıl döşenmesini istediğiniz hakkında konuşun."
+        },
+        {
+          "step": "Maliyetler",
+          "tip": "Yan masraflar da dahil olmak üzere ödemeye hazır olduğunuz maksimum kira tutarını belirtin."
+        }
+      ],
+      "exampleEssayTranslation": "Hayalimdeki daire geniş, aydınlık ve şehir merkezine yakın sakin bir sokakta yer alıyor. Üç odadan oluşur: geniş bir oturma odası, bir yatak odası ve bir ofis odası. Dairede ayrıca modern bir mutfak ve manzaralı güzel bir balkon bulunmaktadır. Odaları modern ahşap mobilyalarla donatmak istiyorum. Toplam kira ayda maksimum 800 Euro'yu geçmemelidir. Ayrıca binada güzel komşuların olmasını da seviyorum. Bu mükemmel olurdu!",
+      "writingTips": [
+        "Odaları tanımlamak için uygun sıfatları kullanın (cehennem, groß, gemütlich).",
+        "Özne ve yüklemin tür ve sayı bakımından aynı olduğunu unutmayın."
+      ],
+      "selfCheckList": [
+        "Hayalinizdeki dairenin yerini tarif ettiniz mi?",
+        "Oda sayısından bahsettiniz mi?",
+        "Balkondan mı yoksa mutfaktan mı bahsettiniz?",
+        "Nasıl fırçalanmasını istediğini söylemiş miydim?",
+        "Kendinize uygun fiyatı belirlediniz mi?",
+        "Dilek dilemek için uygun dilsel yapıları kullandınız mı?"
+      ]
+    },
+    "23": {
+      "title": "Bir rota açıklaması yazın",
+      "type": "E-posta / Rota Açıklaması",
+      "description": "Sizi ilk kez ziyaret eden bir arkadaşınıza, ana tren istasyonundan dairenize giden rotayı anlatan bir e-posta yazın.",
+      "keyVocabulary": [
+        "Tren istasyonu",
+        "Rota açıklaması",
+        "Düz/düz ileri",
+        "Sağa/sola dön",
+        "Kavşak",
+        "Trafik ışığı",
+        "(otobüse) binmek",
+        "Otobüsten/trenden inin",
+        "İstasyon/pozisyon",
+        "vs. için"
+      ],
+      "usefulPhrases": [
+        "Ana istasyondan 3 numaralı metro hattına binin.",
+        "Üç durak boyunca ilerleyin ve 'Müze' durağında inin.",
+        "Trafik ışığına kadar düz yürüyün ve sola dönün.",
+        "Evim fırının tam karşısında.",
+        "Yolu bulmak çok kolaydır."
+      ],
+      "grammarFocus": [
+        "Sempatik emir kipini kullanın (nimm, gehe, biege ab)",
+        "Uzamsal edatlar: gegenüber von + Dativ, an der Haltestelle"
+      ],
+      "structure": [
+        {
+          "step": "Selamlar ve hoş geldiniz",
+          "tip": "Arkadaşınızı hoş karşılayın ve ziyaretinden duyduğunuz mutluluğu dile getirin."
+        },
+        {
+          "step": "İstasyondan başlayarak",
+          "tip": "İstasyondan hangi ulaşım aracına bineceğini ve numarasını ona açıklayın."
+        },
+        {
+          "step": "Yürüyüş açıklaması",
+          "tip": "İstasyondan kapıya kadar olan rotayı (dönüşler, sinyaller) açıklayın."
+        },
+        {
+          "step": "Erişim noktasını seçin",
+          "tip": "Ev için ayırt edici bir işaret belirleyin (bir fırının veya süpermarketin karşısı gibi)."
+        }
+      ],
+      "exampleEssayTranslation": "Merhaba Leo, bu hafta sonu ziyaretine çok sevindim! Güzergah açıklaması şu şekildedir: Ana istasyondan Westend yönüne doğru U2 metro hattını kullanmak tercih edilir. Dört durağa binip 'Çar Caddesi' durağında iniyorsunuz. Daha sonra kavşağa kadar caddeden aşağı doğru yürüyün. Trafik ışıklarından sağa dönün. Evim 15 numara ve postanenin tam karşısında. Yol çok kolaydır. Cumartesi görüşürüz! Saygılarımla Ahmet",
+      "writingTips": [
+        "Tanıdık kişisel emir kipini (du) kullanın: nimm (al), gehe (git), steige aus (aşağı gel).",
+        "Taşıma yönünü açıkça belirtin (Richtung'da...)."
+      ],
+      "selfCheckList": [
+        "Ona mutlu bir yolculuk dilediniz mi ve onu ziyaret etme arzunuzu dile getirdiniz mi?",
+        "Tren/otobüs hattı numarasını ve yönünü belirttiniz mi?",
+        "İndiği istasyonun adını söyledin mi?",
+        "(Sağ/sol/ileri) kullanarak yürümeyi tanımladınız mı?",
+        "Ev numarasından ve ayırt edici işaretinden bahsettiniz mi?",
+        "Bir selamlama ve isim ile bitirdiniz mi?"
+      ]
+    },
+    "24": {
+      "title": "En sevdiğim tablo",
+      "type": "Bir ifadenin açıklaması/konusu",
+      "description": "Çok beğendiğiniz bir tabloyu veya sanat eserini anlatın: İçinde ne görüyorsunuz, hangi renklerin kullanıldığı ve onu gördüğünüzde nasıl hissettiğiniz.",
+      "keyVocabulary": [
+        "Resim/sanat eseri",
+        "Sanatçı",
+        "renk",
+        "Renkli/hoş renkler",
+        "Açık/koyu",
+        "Görmek",
+        "hissetmek",
+        "doğa",
+        "Psikolojik durum/genel atmosfer",
+        "Beğen/beğen"
+      ],
+      "usefulPhrases": [
+        "En sevdiğim tablonun adı 'Ayçiçeği'.",
+        "Resimde güzel doğa görülüyor.",
+        "Ressam parlak ve sıcak renkler kullanıyor.",
+        "Bu sanat eseri bana sakinlik hissi veriyor.",
+        "Bu tabloyu çok ilginç buluyorum."
+      ],
+      "grammarFocus": [
+        "Duyguları renklerle ilişkilendirmek için sıfatları kullanmak (warme Farben, ein schönes Gefühl)",
+        "Beğenilen yapılar: gefällt mir (beğendim), finde ich (buldum)"
+      ],
+      "structure": [
+        {
+          "step": "İsim ve sanatçı",
+          "tip": "Tablonun adını, onu kimin yaptığını ve onu ilk ne zaman gördüğünüzü söyleyin."
+        },
+        {
+          "step": "Resmin açıklaması",
+          "tip": "Resmin içeriğini (insanlar, doğa, nesneler) ve baskın renklerini ayrıntılı olarak tanımlayın."
+        },
+        {
+          "step": "Duygular ve sonuç",
+          "tip": "Tabloyu neden özellikle beğendiğinizi ve ona baktığınızda nasıl hissettiğinizi açıklayın."
+        }
+      ],
+      "exampleEssayTranslation": "En sevdiğim tablo Vincent Van Gogh'un 'Yıldızlı Gece' tablosu. Sanatla ilgili bir kitapta görmüştüm. Resimde birçok sarı yıldız ve parlak bir hilalden oluşan mavi bir gece gökyüzü görülüyor. Ön planda koyu renkli bir ağaç, arka planda ise küçük bir köy yer alıyor. Ressam çok fazla mavi ve sarı renk kullanıyor. Bu tabloya baktığımda kendimi sakin ve mutlu hissediyorum. Tabloyu çok güzel buluyorum.",
+      "writingTips": [
+        "Açıklamayı iki bölüme ayırın: nesnel açıklama (ne görüyorsunuz) ve öznel açıklama (ne hissediyorsunuz).",
+        "im Vordergrund (ön planda) ve im Hintergrund (arka planda) gibi yön ifadelerini kullanın."
+      ],
+      "selfCheckList": [
+        "Tablonun ve sanatçının adını söylediniz mi?",
+        "Kullanılan renkleri tarif ettiniz mi?",
+        "Tablonun içeriğini ayrıntılı olarak anlattınız mı?",
+        "'im Vordergrund' gibi ifadeler kullandınız mı?",
+        "Resimle ilgili duygularınızı ifade ettiniz mi?",
+        "Sıfatlarla eşleşecek şekilde dilbilgisini kontrol ettiniz mi?"
+      ]
+    },
+    "25": {
+      "title": "Medyanın günlük yaşamda kullanımı",
+      "type": "Bir ifadenin açıklaması/konusu",
+      "description": "Gün içerisinde farklı medyaları (akıllı telefon, bilgisayar, televizyon, internet) nasıl kullandığınızı ifade eden bir metin yazın.",
+      "keyVocabulary": [
+        "Medya",
+        "Akıllı telefon",
+        "Kullanıyor / kullanıyor",
+        "günlük",
+        "Sosyal medya",
+        "İnternette gezinmek",
+        "Haberler/mesaj",
+        "okur / görür",
+        "önemli",
+        "Zaman tükeniyor"
+      ],
+      "usefulPhrases": [
+        "Akıllı telefonumu her gün birkaç saat kullanıyorum.",
+        "İnternetten ülkemden haberler okudum.",
+        "Dizüstü bilgisayarımı iş ve öğrenim amaçlı kullanıyorum.",
+        "Sosyal medya arkadaşlarımla iletişimde kalmama yardımcı oluyor.",
+        "Bazen internette çok fazla zaman geçiriyorum."
+      ],
+      "grammarFocus": [
+        "Edatları medyayla kullanma: auf dem Smartphone, im Internet, am Computer",
+        "Çelişkiyi göstermek için cümleleri bağlayın: aber (ama), obwohl (rağmen)"
+      ],
+      "structure": [
+        {
+          "step": "giriş",
+          "tip": "Medyanın modern yaşamınızdaki öneminden bahsederek başlayın."
+        },
+        {
+          "step": "Tercih edilen cihazlar ve kullanım",
+          "tip": "Günlük kullandığınız cihazlar (telefon, dizüstü bilgisayar) ve nedenleri (iş, iletişim, öğrenme) hakkında konuşun."
+        },
+        {
+          "step": "Eleştirel görüş ve sonuç",
+          "tip": "Artılarını ve eksilerini söyleyin ve internette çok fazla zaman geçirdiğinizi mi düşünüyorsunuz?"
+        }
+      ],
+      "exampleEssayTranslation": "Medya günlük yaşamımda çok önemli. Akıllı telefonumu her gün birçok şey için kullanıyorum: telefonda konuşmak, haberleri okumak ve e-postalarımı kontrol etmek. Ailemle iletişim kurmak için de sosyal medyayı kullanıyorum. Akşamları çoğunlukla dizüstü bilgisayarımda internette geziniyorum veya film izliyorum. İnterneti öğrenme açısından çok faydalı buluyorum ancak bazen internette çok fazla zaman geçiriyorum. Bağımlılığa karşı dikkatli olunmalıdır.",
+      "writingTips": [
+        "Çevrimiçi yaptığınız belirli eylemlerden bahsedin (schreiben, lesen, sehen, lernen).",
+        "Täglich (günlük), oft (sık sık), manchmal (bazen) gibi tekrarı ifade eden sözcükler kullanın."
+      ],
+      "selfCheckList": [
+        "Kullandığınız medyadan bahsettiniz mi?",
+        "Akıllı telefon kullanımınızı anlattınız mı?",
+        "Bilgisayarı veya televizyonu kullanmaktan bahsetmiş miydim?",
+        "Aileniz ve arkadaşlarınızla iletişim kurmaktan bahsettiniz mi?",
+        "Olumsuzlukları (zaman kaybı) dile getirdiniz mi?",
+        "Edatların doğruluğunu kontrol ettiniz mi (im Internet...)?"
+      ]
+    },
+    "26": {
+      "title": "Oy vermek neden önemlidir?",
+      "type": "Makale/görüş beyanı",
+      "description": "Seçimler ve demokratik bir toplumda siyasi katılım ve oy vermenin önemi hakkındaki düşüncelerinizi ifade eden kısa bir makale yazın.",
+      "keyVocabulary": [
+        "Seç/oy ver",
+        "Seçimler",
+        "Demokrasi",
+        "Seçim oyu",
+        "Vatandaş",
+        "Fikir",
+        "Karar vermek",
+        "hükümet",
+        "Sağ",
+        "gelecek"
+      ],
+      "usefulPhrases": [
+        "Demokratik bir sistemde vatandaşların oy kullanma hakkı vardır.",
+        "Oy vermek önemli bir hak ve görevdir.",
+        "Her oy gelecek için önemlidir.",
+        "Ülkeyi kimin yöneteceğine vatandaşlar karar veriyor.",
+        "Bence insan kendi fikrini ifade etmeli."
+      ],
+      "grammarFocus": [
+        "Bağlantı cümlelerini kullanma dass (Ich denke, dass...)",
+        "Yardımcı fiillerin kullanımı (sollte, kann)"
+      ],
+      "structure": [
+        {
+          "step": "giriş",
+          "tip": "Seçimlerin tanımı ve ülkedeki genel önemi."
+        },
+        {
+          "step": "Argümanlar ve nedenler",
+          "tip": "Neden her vatandaşın oy vererek katılması gerektiğini açıklayın (yasaların değiştirilmesi, geleceğe karar verilmesi)."
+        },
+        {
+          "step": "Sonuç ve kişisel görüşünüz",
+          "tip": "Fikrinizi bir sonuç cümlesiyle açıkça özetleyin."
+        }
+      ],
+      "exampleEssayTranslation": "Oy vermek demokrasinin vazgeçilmez bir unsurudur. Her seçim vatandaşlara geleceklerini şekillendirmeye aktif olarak katkıda bulunma fırsatı verir. Oy vermenin sadece bir hak değil aynı zamanda önemli bir görev olduğuna inanıyorum. Biri oy kullanmazsa politika ve yasalara başkaları karar verir. Oylarımızla hükümeti seçebilir ve fikirlerimizi ifade edebiliriz. Bu nedenle her vatandaşın oy kullanmaya gitmesi gerekiyor. Özgür bir toplum böyle işler.",
+      "writingTips": [
+        "Fiili cümlenin sonuna koymak için dass bağlacını kullanın.",
+        "wichtig (önemli), Pflicht (görev), Möglichkeit (fırsat) gibi ikna edici sözcükler kullanın."
+      ],
+      "selfCheckList": [
+        "Seçimin önemini net bir şekilde tanımlayarak mı başladınız?",
+        "Oy vermenin önemine ilişkin en az iki argüman öne sürdünüz mü?",
+        "'Dass' bağlacını doğru kullandınız mı?",
+        "Demokraside vatandaşın rolü hakkında yazdınız mı?",
+        "Güçlü bir sonuçla mı bitirdiniz?",
+        "Yazım ve noktalama işaretlerini kontrol ettiniz mi?"
+      ]
+    },
+    "27": {
+      "title": "Ülkemdeki kültür ve tatiller",
+      "type": "Bir ifadenin açıklaması/konusu",
+      "description": "Kendi ülkenizdeki geleneksel bir tatili veya kültürel geleneği ve bunu aileniz ve arkadaşlarınızla nasıl kutladığınızı anlatan bir makale yazın.",
+      "keyVocabulary": [
+        "Vatan",
+        "Bayram/kutlama",
+        "Kültür",
+        "geleneksel",
+        "kutluyor",
+        "Aile",
+        "Yemek/yemek",
+        "Ziyaret etmek",
+        "Alışkanlık",
+        "birlikte"
+      ],
+      "usefulPhrases": [
+        "Benim ülkemde her yıl Ramazan Bayramı kutlanır.",
+        "Bu büyük ve önemli bir aile kutlamasıdır.",
+        "Akrabaları ziyaret ediyoruz ve geleneksel tatlılar yiyoruz.",
+        "Herkes yeni kıyafetler giyiyor ve çocuklara para veriyor.",
+        "Bu geleneği çok seviyorum çünkü insanları birbirine bağlıyor."
+      ],
+      "grammarFocus": [
+        "Fiili sonuna koymak için weil cümleciklerini kullanın",
+        "Düzenlemek için zaman zarflarını kullanma (zuerst, danach, am Ende)"
+      ],
+      "structure": [
+        {
+          "step": "Tatilin adı ve tanımı",
+          "tip": "Tatilin adını ve yaklaşık olarak ülkenizde kutladığınız zamanı belirtin."
+        },
+        {
+          "step": "Kutlama adımları",
+          "tip": "Bayram sabahı neler yaptığınızı, yemekleri, ziyaretleri, kıyafetleri detaylı bir şekilde anlatın."
+        },
+        {
+          "step": "Önem ve kişisel duygu",
+          "tip": "Bu tatilin sizin için ne anlama geldiğini ve onu neden sevdiğinizi açıklayın."
+        }
+      ],
+      "exampleEssayTranslation": "Benim ülkem Suriye'de her yıl Ramazan Bayramı'ndan sonra Ramazan Bayramı'nı kutlarız. Bu, tüm aile için büyük bir geleneksel tatildir. İlk sabah ilk olarak camiye gidiyoruz. Daha sonra hep birlikte dedemin evinde kahvaltı yapıyoruz. Çok lezzetli tatlılar yiyoruz, kahve içiyoruz. Çocuklara yeni kıyafetler ve küçük hediyeler verilir. Bu bayramı çok seviyorum çünkü tüm akrabalar bir araya geliyor ve çok gülüyoruz. Çok güzel bir atmosfer var.",
+      "writingTips": [
+        "Olayları sıralamak için sıralama sözcüklerini kullanın: zuerst (ilk), danach (sonra), am Nachmittag (öğleden sonra).",
+        "Metni canlı kılmak için duyguları, kokuları ve yiyecekleri tanımlayın."
+      ],
+      "selfCheckList": [
+        "Tatilin ve ülkenizin adını söylediniz mi?",
+        "Ne zaman kutlanacağını açıkladınız mı?",
+        "Sabah aktivitelerini ve ziyaretlerini anlattınız mı?",
+        "Bayram yiyeceklerinden, tatlılarından bahsetmiş miydim?",
+        "Duygularınızı ve bu tatili neden sevdiğinizi ifade ettiniz mi?",
+        "Bağlaçlardan sonra kelime sırasını kontrol ettiniz mi?"
       ]
     }
   },
@@ -3400,6 +4418,515 @@ const WRITING_TRANSLATIONS = {
         "Ai pus verbe conjugate trecute la sfârșitul propoziției după haben/sein?",
         "Ți-ai descris sentimentul final?"
       ]
+    },
+    "19": {
+      "title": "Invitație la o petrecere de naștere",
+      "type": "E-mail/apel",
+      "description": "Scrieți un e-mail prin care vă invităm prietenul la petrecerea de naștere, explicând când, unde și la ce ar trebui să participe.",
+      "keyVocabulary": [
+        "El sună",
+        "petrecere aniversară",
+        "sărbătorește",
+        "sâmbătă",
+        "Ora șase seara",
+        "are loc / se întâmplă",
+        "El aduce cu el",
+        "Darul",
+        "El răspunde/răspunde",
+        "prieteni"
+      ],
+      "usefulPhrases": [
+        "Vă invit cu drag la petrecerea mea de naștere.",
+        "Petrecerea are loc sâmbătă la ora 18.00.",
+        "Vom sărbători în grădina mea.",
+        "Poți să aduci salată de paste cu tine?",
+        "Vă rog să-mi spuneți răspunsul dumneavoastră până joi."
+      ],
+      "grammarFocus": [
+        "Utilizarea verbului separat einladen (Ich lade dich ein)",
+        "Prepoziții temporale: am, um",
+        "Prepoziții spațiale: în meinem Garten (Dativ)"
+      ],
+      "structure": [
+        {
+          "step": "Salutări și motiv",
+          "tip": "Începeți cu un salut prietenesc și precizați motivul scrisului (invitația)."
+        },
+        {
+          "step": "Timp și loc",
+          "tip": "Specificați în detaliu data, ora și locul petrecerii."
+        },
+        {
+          "step": "Ce să aduci și să comanzi",
+          "tip": "Cereți prietenului să aducă ceva (cum ar fi o salată) și răspundeți pentru a confirma prezența."
+        },
+        {
+          "step": "Concluzie",
+          "tip": "Încheiați cu un mesaj prietenos și o semnătură a numelui dumneavoastră."
+        }
+      ],
+      "exampleEssayTranslation": "Dragă Max, te invit cu drag la petrecerea mea de naștere. Îmi voi sărbători ziua de naștere sâmbăta viitoare. Petrecerea are loc în grădina mea și începe la ora 18.00. Vor veni și mulți prieteni. Vrem să facem grătar și să ascultăm muzică. Poți să aduci salată sau băuturi cu tine? Vă rog să-mi spuneți până joi dacă puteți veni. Aștept cu nerăbdare să te văd! Salutări, Ahmed",
+      "writingTips": [
+        "Utilizați o formă de adresă informală: Lieber [Nume] pentru masculin sau Liebe [Nume] pentru feminin.",
+        "Nu uitați să puneți o virgulă după vocativ și să începeți următoarea propoziție cu o literă mică.",
+        "Utilizați conjuncții precum und și oder pentru a conecta propoziții."
+      ],
+      "selfCheckList": [
+        "Ați folosit un salut prietenos adecvat? (Lieber...)",
+        "Ai programat petrecerea cu exactitate? (sunt Samstag um...)",
+        "Ai spus unde va avea loc petrecerea?",
+        "I-ai cerut să aducă ceva?",
+        "I-ai cerut să răspundă pentru a confirma prezența?",
+        "Ai terminat cu salutul potrivit și cu numele tău?"
+      ]
+    },
+    "20": {
+      "title": "E-mail către vecin",
+      "type": "E-mail/scuze",
+      "description": "Scrieți un e-mail vecinilor din clădire pentru a vă cere scuze în avans pentru zgomotul provocat de o petrecere pe care o organizați în apartament.",
+      "keyVocabulary": [
+        "Vecin",
+        "Regulamente/Ordinul Casei",
+        "Zgomot/pacoste",
+        "Petrecerea",
+        "sărbătorește",
+        "Își cere scuze",
+        "Voce liniștită/joasă",
+        "Deranjează",
+        "Înţelegere",
+        "Timp de odihnă"
+      ],
+      "usefulPhrases": [
+        "Aș dori să-mi cer scuze pentru zgomot.",
+        "Am o mică petrecere sâmbătă.",
+        "Vom fi liniștiți începând cu ora 22.00.",
+        "Sper că nu vă vom deranja.",
+        "Vă mulțumesc foarte mult pentru înțelegere."
+      ],
+      "grammarFocus": [
+        "Utilizarea verbelor reflexive (sich entschuldigen)",
+        "Prepoziții: für + Akkusativ, über + Akkusativ"
+      ],
+      "structure": [
+        {
+          "step": "Salutări",
+          "tip": "Începeți cu un salut formal către toți vecinii (Liebe Nachbarinnen und Nachbarn)."
+        },
+        {
+          "step": "Anuntul petrecerii",
+          "tip": "Spune-le când are loc petrecerea și de ce."
+        },
+        {
+          "step": "E timpul să te odihnești și să-ți ceri scuze",
+          "tip": "Ne cerem scuze pentru eventualele neplăceri și vă asigurăm că veți rămâne liniștiți după ora 22:00."
+        },
+        {
+          "step": "Multumesc si concluzie",
+          "tip": "Mulțumiți-le pentru înțelegere și încheiați cu salutări formale."
+        }
+      ],
+      "exampleEssayTranslation": "Dragi prieteni și vecini, locuiesc la etajul doi. Sâmbăta viitoare îmi voi sărbători ziua de naștere și voi avea o mică petrecere în apartamentul meu. Vor veni niște oaspeți. S-ar putea să devină puțin zgomotos. Îmi cer scuze anticipat pentru zgomot. Începând cu ora 22, vom reduce volumul muzicii pentru a respecta timpul de pauză. Sper că înțelegi. Mulțumesc foarte mult! Salutări, Ahmed Al-Hassan",
+      "writingTips": [
+        "S-a adresat vecinilor la forma formală de plural: Ihr (înțelegerea ta = Ihr Verständnis).",
+        "Scrieți într-un mod politicos și respectuos pentru a construi o relație bună cu vecinii."
+      ],
+      "selfCheckList": [
+        "Ai scris corect salutul de grup?",
+        "Ți-ai identificat apartamentul sau etajul pe care locuiești?",
+        "Ai menționat data petrecerii?",
+        "Ai promis că vei reduce volumul după ora 22:00?",
+        "Le-ați mulțumit pentru înțelegere?",
+        "Ai semnat cu numele tău complet și salutul formal?"
+      ]
+    },
+    "21": {
+      "title": "Certificatul meu școlar și pregătirea profesională",
+      "type": "Descrierea/tema unei expresii",
+      "description": "Scrieți un text care să descrie diploma de școală din țara dumneavoastră și pregătirea profesională actuală sau profesia pe care ați dori să o învățați în Germania.",
+      "keyVocabulary": [
+        "scoala",
+        "Certificat scolar",
+        "Formare profesională",
+        "Studiază la universitate",
+        "Cariera de vis",
+        "Funcționează ca",
+        "Terminare / completare",
+        "important",
+        "Certificat/autorizație școlară",
+        "Învață / studiază"
+      ],
+      "usefulPhrases": [
+        "Mi-am luat certificatul școlar în Siria.",
+        "Cariera mea de vis este un expert în informatică.",
+        "Fac formare profesională ca electrician.",
+        "Formarea profesională durează trei ani.",
+        "O carieră bună este foarte importantă pentru mine."
+      ],
+      "grammarFocus": [
+        "Folosind trecutul simplu și trecutul perfect (Perfect: habe gemacht)",
+        "Prepoziții: als + Beruf (als Elektriker, als Arzt)"
+      ],
+      "structure": [
+        {
+          "step": "Perioada școlară acasă",
+          "tip": "Vorbește despre școala ta din țara ta, când ai terminat-o și ce diplomă ai obținut."
+        },
+        {
+          "step": "Formare profesională/securitate profesională",
+          "tip": "Explicați ce faceți acum în Germania sau ce pregătire profesională doriți."
+        },
+        {
+          "step": "Planuri de viitor",
+          "tip": "Vorbește despre planul tău după ce ai terminat formarea și ai lucrat în Germania."
+        }
+      ],
+      "exampleEssayTranslation": "Mi-am petrecut anii de școală în Siria și am obținut certificatul școlar acolo în 2018. Certificatul meu a fost foarte bun. Acum locuiesc in Germania. Profesia mea de vis este mecanic auto. Așa că de un an fac pregătire profesională ca mecanic auto într-un atelier mare. Îmi place foarte mult munca, dar școala profesională este uneori dificilă. După antrenament aș vrea să lucrez permanent ca mecanic și să-mi întemeiez o familie proprie.",
+      "writingTips": [
+        "Folosește timpul perfect pentru a vorbi despre școala din țara ta.",
+        "Folosiți conexiuni de propoziție precum deshalb (prin urmare) și weil (pentru că) pentru a explica alegerile dvs. de carieră."
+      ],
+      "selfCheckList": [
+        "Ai menționat unde și când ai terminat școala?",
+        "Ți-ai descris certificatul școlar?",
+        "Ați menționat ocupația actuală sau pregătirea profesională?",
+        "Ai menționat unde îți faci formarea profesională?",
+        "Ai scris despre planurile tale după absolvire?",
+        "Ai verificat conjugarea verbelor în trecut și prezent?"
+      ]
+    },
+    "22": {
+      "title": "Descrierea apartamentului meu de vis",
+      "type": "o descriere",
+      "description": "Scrieți un eseu în care descrieți apartamentul de vis: câte camere are, unde se află, cum doriți să-l mobilați și cât costă.",
+      "keyVocabulary": [
+        "Apartament de vis",
+        "Camera",
+        "Verandă/balcon",
+        "Chirie",
+        "Cheltuieli secundare",
+        "Luminos/luminos",
+        "calm",
+        "Mobilat/dotat cu mobilier",
+        "bucataria",
+        "Camera de zi"
+      ],
+      "usefulPhrases": [
+        "Apartamentul meu de vis este situat în centrul orașului.",
+        "Apartamentul este format din patru camere si un balcon.",
+        "Toate camerele sunt foarte mari si luminoase.",
+        "As dori sa amenajez apartamentul intr-un mod modern.",
+        "Chiria nu trebuie să fie prea mare."
+      ],
+      "grammarFocus": [
+        "Utilizarea expresiei de dorință Konjunktiv II (ich möchte, wäre, hätte)",
+        "Adjective și terminații adecvate"
+      ],
+      "structure": [
+        {
+          "step": "Locație și spațiu",
+          "tip": "Descrieți unde se află apartamentul, câte camere și suprafața totală a acestuia."
+        },
+        {
+          "step": "Amenajări și mobilier",
+          "tip": "Vorbește despre bucătărie, baie, balcon și despre cum vrei să amenajezi camerele."
+        },
+        {
+          "step": "Costuri",
+          "tip": "Indicați chiria maximă pe care sunteți dispus să o plătiți, inclusiv cheltuielile secundare."
+        }
+      ],
+      "exampleEssayTranslation": "Apartamentul meu de vis este mare, luminos si situat pe o strada linistita in apropierea centrului orasului. Este compus din trei camere: un living mare, un dormitor si o camera de birou. Apartamentul are, de asemenea, o bucătărie modernă și un balcon frumos cu vedere. As dori sa amenajez camerele cu mobilier modern din lemn. Chiria totală nu trebuie să depășească maxim 800 de euro pe lună. De asemenea, îmi place să am vecini drăguți în clădire. Ar fi perfect!",
+      "writingTips": [
+        "Folosiți adjective adecvate pentru a descrie camerele (infern, groß, gemütlich).",
+        "Amintiți-vă că subiectul și predicatul sunt identice ca tip și număr."
+      ],
+      "selfCheckList": [
+        "Ați descris locația apartamentului de vis?",
+        "Ai menționat numărul de camere?",
+        "Ai vorbit despre balcon sau bucătărie?",
+        "Ți-am menționat cum vrei să fie periat?",
+        "Ai stabilit prețul potrivit pentru tine?",
+        "Ați folosit structuri lingvistice adecvate pentru dorință?"
+      ]
+    },
+    "23": {
+      "title": "Scrieți o descriere a rutei",
+      "type": "E-mail/Descriere rută",
+      "description": "Scrieți un e-mail unui prieten care vă vizitează pentru prima dată, descriind traseul de la gara principală la apartamentul dvs.",
+      "keyVocabulary": [
+        "Gară",
+        "Descrierea traseului",
+        "Drept/drept înainte",
+        "Virați la dreapta/la stânga",
+        "Intersecția",
+        "Semafor",
+        "ia (autobuzul)",
+        "Coborâți din autobuz/tren",
+        "Stație/poziție",
+        "vs pentru"
+      ],
+      "usefulPhrases": [
+        "Din gara principală luați metroul pe linia 3.",
+        "Călătoriți timp de trei opriri și coborâți la stația „Muzeu”.",
+        "Mergeți drept până la semafor și faceți stânga.",
+        "Casa mea este situată chiar vizavi de brutărie.",
+        "Drumul este foarte ușor de găsit."
+      ],
+      "grammarFocus": [
+        "Folosește imperativul simpatic (nimm, gehe, biege ab)",
+        "Prepoziții spațiale: gegenüber von + Dativ, an der Haltestelle"
+      ],
+      "structure": [
+        {
+          "step": "Salutari si bun venit",
+          "tip": "Bun venit prietenului tău și exprimă-ți fericirea la vizita lui."
+        },
+        {
+          "step": "Incepand de la statie",
+          "tip": "Explicați-i ce mijloc de transport ia de la stație și numărul acesteia."
+        },
+        {
+          "step": "Descrierea mersului pe jos",
+          "tip": "Descrieți traseul pe jos de la gară până la ușă (viraj, semnalizare)."
+        },
+        {
+          "step": "Selectați punctul de acces",
+          "tip": "Identificați un semn distinctiv pentru casă (cum ar fi vizavi de o brutărie sau un supermarket)."
+        }
+      ],
+      "exampleEssayTranslation": "Bună Leo, mă bucur că ai fost în acest weekend! Iată descrierea traseului: De la gara principală este de preferat să luați linia de metrou U2 spre Westend. Mergi la patru stații și cobori la stația „Tsar Street”. Apoi mergeți drept pe stradă până la intersecție. La semafor, faceți dreapta. Casa mea este numărul 15 și este situată chiar vizavi de oficiul poștal. Calea este foarte usoara. Ne vedem sâmbătă! Salutări, Ahmed",
+      "writingTips": [
+        "Folosește imperativul personal familiar (du): nimm (ia), gehe (du-te), steige aus (coboară).",
+        "Specificați clar direcția de transport (în Richtung...)."
+      ],
+      "selfCheckList": [
+        "I-ați urat o călătorie fericită și i-ați exprimat aspirația de a-l vizita?",
+        "Ați specificat numărul și direcția liniei de tren/autobuz?",
+        "Ai menționat numele stației de unde coboară?",
+        "Ați descris mersul folosind (dreapta/stânga/înainte)?",
+        "Ai menționat numărul casei și semnul său distinctiv?",
+        "Ai terminat cu un salut și un nume?"
+      ]
+    },
+    "24": {
+      "title": "Tabloul meu preferat",
+      "type": "Descrierea/tema unei expresii",
+      "description": "Descrieți o pictură sau o operă de artă care vă place foarte mult: ce vedeți în ea, ce culori sunt folosite și cum vă simțiți când o vedeți.",
+      "keyVocabulary": [
+        "Pictură/opera de artă",
+        "Artist",
+        "culoarea",
+        "Culori colorate/încântătoare",
+        "Lumină/întunecată",
+        "Vedea",
+        "simt",
+        "natură",
+        "Stare psihologică/atmosfera generală",
+        "Like/like"
+      ],
+      "usefulPhrases": [
+        "Tabloul meu preferat se numește „Floarea soarelui”.",
+        "În pictură se vede o natură frumoasă.",
+        "Pictorul folosește culori luminoase și calde.",
+        "Această opera de artă îmi dă un sentiment de calm.",
+        "Mi se pare foarte interesant acest tablou."
+      ],
+      "grammarFocus": [
+        "Folosirea adjectivelor pentru a lega sentimentele de culori (warme Farben, ein schönes Gefühl)",
+        "Structuri care plac: gefällt mir (îmi place), finde ich (găsesc)"
+      ],
+      "structure": [
+        {
+          "step": "Nume și artist",
+          "tip": "Spuneți numele tabloului, cine l-a pictat și când l-ați văzut pentru prima dată."
+        },
+        {
+          "step": "Descrierea picturii",
+          "tip": "Descrieți în detaliu conținutul tabloului (oameni, natură, lucruri) și culorile sale dominante."
+        },
+        {
+          "step": "Sentimente și concluzie",
+          "tip": "Explicați de ce vă place în mod deosebit tabloul și cum vă simțiți când îl priviți."
+        }
+      ],
+      "exampleEssayTranslation": "Tabloul meu preferat este „Noaptea înstelată” de Vincent Van Gogh. Am văzut-o într-o carte despre artă. În pictură, se vede un cer albastru de noapte cu multe stele galbene și o semilună strălucitoare. În prim plan se află un copac întunecat, iar în fundal se află un mic sat. Pictorul folosește o mulțime de culori albastre și galbene. Când mă uit la acest tablou, mă simt calm și fericit. Mi se pare foarte frumos tabloul.",
+      "writingTips": [
+        "Împărțiți descrierea în două părți: descrierea obiectivă (ceea ce vedeți) și descrierea subiectivă (ceea ce simțiți).",
+        "Utilizați expresii direcționale precum im Vordergrund (în prim-plan) și im Hintergrund (în fundal)."
+      ],
+      "selfCheckList": [
+        "Ai menționat numele tabloului și al artistului?",
+        "Ai descris culorile folosite?",
+        "Ați descris în detaliu conținutul tabloului?",
+        "Ați folosit expresii precum „im Vordergrund”?",
+        "Ți-ai exprimat sentimentele despre pictură?",
+        "Ați verificat gramatica pentru a se potrivi cu adjectivele?"
+      ]
+    },
+    "25": {
+      "title": "Utilizarea mass-media în viața de zi cu zi",
+      "type": "Descrierea/tema unei expresii",
+      "description": "Scrieți un text care exprimă modul în care utilizați diferite mijloace media (smartphone, computer, televizor, internet) în ziua dvs.",
+      "keyVocabulary": [
+        "Media",
+        "Smartphone",
+        "El folosește / folosește",
+        "zilnic",
+        "Rețelele de socializare",
+        "Navigarea pe Internet",
+        "Stiri/mesaj",
+        "citeste/vede",
+        "important",
+        "Consumă timp"
+      ],
+      "usefulPhrases": [
+        "Îmi folosesc smartphone-ul în fiecare zi timp de câteva ore.",
+        "Am citit pe internet știri din țara mea.",
+        "Folosesc laptopul pentru munca și învățarea mea.",
+        "Rețelele sociale mă ajută să rămân în contact cu prietenii.",
+        "Uneori petrec mult timp online."
+      ],
+      "grammarFocus": [
+        "Folosirea prepozițiilor cu media: auf dem Smartphone, im Internet, am Computer",
+        "Conectați propoziții pentru a arăta contradicția: aber (dar), obwohl (deși)"
+      ],
+      "structure": [
+        {
+          "step": "introducerea",
+          "tip": "Începeți prin a menționa importanța mass-media în viața ta modernă."
+        },
+        {
+          "step": "Dispozitive și utilizare preferate",
+          "tip": "Vorbește despre dispozitivele pe care le folosești zilnic (telefon, laptop) și de ce (muncă, comunicare, învățare)."
+        },
+        {
+          "step": "Opinie critică și concluzie",
+          "tip": "Menționați argumentele pro și contra și credeți că petreceți mult timp online?"
+        }
+      ],
+      "exampleEssayTranslation": "Mass-media este foarte importantă în viața mea de zi cu zi. Îmi folosesc smartphone-ul în fiecare zi pentru multe lucruri: să vorbesc la telefon, să citesc știrile și să-mi verific e-mailul. De asemenea, folosesc rețelele sociale pentru a păstra legătura cu familia mea. Seara, navighez în mare parte pe internet pe laptop sau mă uit la filme. Internetul mi se pare foarte util pentru învățare, dar uneori petrec prea mult timp online. Trebuie să te ferești de dependență.",
+      "writingTips": [
+        "Menționați acțiuni specifice pe care le faceți online (schreiben, lesen, sehen, lernen).",
+        "Folosiți cuvinte care exprimă repetiție, cum ar fi täglich (zilnic), oft (deseori), manchmal (uneori)."
+      ],
+      "selfCheckList": [
+        "Ați menționat media pe care o utilizați?",
+        "Ți-ai descris utilizarea smartphone-ului tău?",
+        "Am menționat că am folosit computerul sau televizorul?",
+        "Ai vorbit despre comunicarea cu familia și prietenii?",
+        "Ai exprimat negativul (pierderea de timp)?",
+        "Ai verificat corectitudinea prepozițiilor (im Internet...)?"
+      ]
+    },
+    "26": {
+      "title": "De ce votul este important",
+      "type": "Articolul/exprimarea opiniei",
+      "description": "Scrieți un scurt eseu în care vă exprimați opinia despre alegeri și importanța participării politice și a votului într-o societate democratică.",
+      "keyVocabulary": [
+        "Alegeți/votați",
+        "Alegeri",
+        "Democraţie",
+        "Votul electoral",
+        "Cetăţean",
+        "Opinie",
+        "Decide",
+        "guvernul",
+        "Corect",
+        "viitorul"
+      ],
+      "usefulPhrases": [
+        "Într-un sistem democratic, cetățenii au dreptul la vot.",
+        "Votul este un drept și o datorie importantă.",
+        "Fiecare vot contează pentru viitor.",
+        "Cetăţenii decid cine conduce ţara.",
+        "Cred că ar trebui să-și exprime părerea."
+      ],
+      "grammarFocus": [
+        "Folosind propoziții de legătură dass (Ich denke, dass...)",
+        "Folosirea verbelor auxiliare (sollte, kann)"
+      ],
+      "structure": [
+        {
+          "step": "introducerea",
+          "tip": "Definirea alegerilor și importanța lor generală în țară."
+        },
+        {
+          "step": "Argumente și motive",
+          "tip": "Explicați de ce fiecare cetățean ar trebui să participe prin vot (schimbarea legilor, deciderea viitorului)."
+        },
+        {
+          "step": "Concluzie și părerea ta personală",
+          "tip": "Rezumați-vă opinia în mod clar într-o propoziție finală."
+        }
+      ],
+      "exampleEssayTranslation": "Votul este un element esențial al democrației. Fiecare alegere oferă cetățenilor oportunitatea de a contribui activ la modelarea viitorului lor. Consider că votul nu este doar un drept, ci și o datorie importantă. Dacă unul nu votează, alții decid politicile și legile. Cu voturile noastre putem alege guvernul și ne putem exprima opiniile. Deci fiecare cetățean trebuie să meargă la vot. Așa funcționează o societate liberă.",
+      "writingTips": [
+        "Folosește conjuncția dass pentru a pune verbul la sfârșitul propoziției.",
+        "Folosiți cuvinte persuasive precum wichtig (important), Pflicht (datorie), Möglichkeit (oportunitate)."
+      ],
+      "selfCheckList": [
+        "Ați început cu o definiție clară a importanței alegerilor?",
+        "Ați făcut cel puțin două argumente pentru importanța votului?",
+        "Ai folosit corect conjuncția „dass”?",
+        "Ați scris despre rolul cetățeanului în democrație?",
+        "Ai terminat cu o concluzie puternică?",
+        "Ți-ai verificat ortografia și punctuația?"
+      ]
+    },
+    "27": {
+      "title": "Cultură și sărbători în țara mea",
+      "type": "Descrierea/tema unei expresii",
+      "description": "Scrieți un eseu care descrie o sărbătoare tradițională sau un obicei cultural din țara de origine și cum o sărbătorești cu familia și prietenii.",
+      "keyVocabulary": [
+        "Patrie",
+        "Eid/sărbătoare",
+        "Cultură",
+        "tradiţional",
+        "sărbătorește",
+        "Familial",
+        "Mâncare/mâncare",
+        "Vizita",
+        "Obicei",
+        "împreună"
+      ],
+      "usefulPhrases": [
+        "În țara mea, sărbătorim Eid al-Fitr în fiecare an.",
+        "Aceasta este o mare și importantă sărbătoare de familie.",
+        "Vizităm rudele și mâncăm dulciuri tradiționale.",
+        "Toată lumea poartă haine noi și le oferă copiilor bani.",
+        "Îmi place foarte mult acest obicei pentru că leagă oamenii împreună."
+      ],
+      "grammarFocus": [
+        "Folosiți propoziții weil pentru a pune verbul la sfârșit",
+        "Folosirea adverbelor de timp pentru a aranja (zuerst, danach, am Ende)"
+      ],
+      "structure": [
+        {
+          "step": "Numele sărbătorii și definiția ei",
+          "tip": "Menționați numele sărbătorii și aproximativ când o sărbătorești în țara ta."
+        },
+        {
+          "step": "Pași de sărbătoare",
+          "tip": "Descrieți în detaliu ce faceți în dimineața de Eid, mâncarea, vizitele, hainele."
+        },
+        {
+          "step": "Importanță și sentiment personal",
+          "tip": "Explică ce înseamnă această sărbătoare pentru tine și de ce o iubești."
+        }
+      ],
+      "exampleEssayTranslation": "În țara mea, Siria, sărbătorim Eid al-Fitr în fiecare an după Ramadan. Este o mare sărbătoare tradițională pentru întreaga familie. În prima dimineață mergem mai întâi la moschee. După aceea, luăm micul dejun împreună la bunicii mei. Mâncăm dulciuri foarte delicioase și bem cafea. Copiii primesc haine noi și mici cadouri. Îmi place foarte mult această sărbătoare pentru că toate rudele se adună și râdem mult. Este o atmosferă frumoasă.",
+      "writingTips": [
+        "Folosiți cuvinte de ordine pentru a ordona evenimente: zuerst (întâi), danach (după), am Nachmittag (după-amiaza).",
+        "Descrieți sentimente, mirosuri și alimente pentru a face textul plin de viață."
+      ],
+      "selfCheckList": [
+        "Ai menționat numele sărbătorii și țara ta?",
+        "Ai lamurit cand se sarbatoreste?",
+        "Ați descris activitățile și vizitele de dimineață?",
+        "Am menționat alimentele sau dulciurile de sărbători?",
+        "Ți-ai exprimat sentimentele și de ce îți place această sărbătoare?",
+        "Ai verificat ordinea cuvintelor după conjuncții?"
+      ]
     }
   },
   "bs": {
@@ -4525,6 +6052,515 @@ const WRITING_TRANSLATIONS = {
         "Da li ste naveli aktivnosti u prošlom vremenu?",
         "Jeste li stavili prošle konjugirane glagole na kraj rečenice nakon haben/sein?",
         "Jeste li opisali svoj posljednji osjećaj?"
+      ]
+    },
+    "19": {
+      "title": "Pozivnica na rođendansku zabavu",
+      "type": "E-mail/poziv",
+      "description": "Napišite e-poruku kojom pozovite svog prijatelja na rođendansku zabavu, objašnjavajući kada, gdje i čemu on ili ona treba prisustvovati.",
+      "keyVocabulary": [
+        "On zove",
+        "rođendanska zabava",
+        "slavi",
+        "Subota",
+        "Šest sati uveče",
+        "odvija / dešava se",
+        "On donosi sa sobom",
+        "Poklon",
+        "On odgovara / odgovara",
+        "prijatelji"
+      ],
+      "usefulPhrases": [
+        "Srdačno vas pozivam na moju rođendansku zabavu.",
+        "Žurka se održava u subotu u 18h.",
+        "Proslavićemo u mojoj bašti.",
+        "Možete li ponijeti salatu od tjestenine?",
+        "Javite mi svoj odgovor do četvrtka."
+      ],
+      "grammarFocus": [
+        "Upotreba zasebnog glagola einladen (Ich lade dich ein)",
+        "Temporalni prijedlozi: am, um",
+        "Prostorni prijedlozi: in meinem Garten (Dativ)"
+      ],
+      "structure": [
+        {
+          "step": "Pozdrav i razlog",
+          "tip": "Počnite prijateljskim pozdravom i navedite razlog za pisanje (poziv)."
+        },
+        {
+          "step": "Vrijeme i mjesto",
+          "tip": "Detaljno navedite datum, vrijeme i lokaciju zabave."
+        },
+        {
+          "step": "Šta poneti i naručiti",
+          "tip": "Zamolite prijatelja da donese nešto (kao što je salata) i odgovorite da potvrdite prisustvo."
+        },
+        {
+          "step": "Zaključak",
+          "tip": "Završite prijateljskom porukom i potpisom vašeg imena."
+        }
+      ],
+      "exampleEssayTranslation": "Dragi Max, srdačno te pozivam na moju rođendansku zabavu. Sljedeće subote slavim rođendan. Žurka se održava u mojoj bašti i počinje u 18 sati. Doći će i puno prijatelja. Želimo roštiljati i slušati muziku. Možete li ponijeti salatu ili piće? Javite mi do četvrtka ako možete doći. Jedva čekam da te vidim! Srdačan pozdrav, Ahmed",
+      "writingTips": [
+        "Koristite neformalni obrazac za adresu: Lieber [ime] za muški rod ili Liebe [ime] za ženski rod.",
+        "Ne zaboravite staviti zarez iza vokativa i sljedeću rečenicu započeti malim slovom.",
+        "Koristite veznike kao što su und i oder da povežete rečenice."
+      ],
+      "selfCheckList": [
+        "Da li ste koristili odgovarajući prijateljski pozdrav? (Liber...)",
+        "Jeste li tačno odredili vrijeme zabave? (sam Samstag hm...)",
+        "Jeste li spomenuli gdje će se zabava održati?",
+        "Jeste li ga zamolili da donese nešto?",
+        "Jeste li ga zamolili da odgovori da potvrdi prisustvo?",
+        "Jeste li završili odgovarajućim pozdravom i svojim imenom?"
+      ]
+    },
+    "20": {
+      "title": "Pošaljite e-poštu susjedu",
+      "type": "E-mail/izvinjenje",
+      "description": "Napišite e-mail svojim susjedima u zgradi da se unaprijed ispričate za buku koju je izazvala zabava koju pravite u svom stanu.",
+      "keyVocabulary": [
+        "Komšija",
+        "Kućni propisi/naredba",
+        "Buka/smetnja",
+        "Zabava",
+        "slavi",
+        "On se izvinjava",
+        "Tihi/tihi glas",
+        "Smeta",
+        "Razumijevanje",
+        "Vrijeme odmora"
+      ],
+      "usefulPhrases": [
+        "Želio bih da se izvinim zbog buke.",
+        "Imam malu zabavu u subotu.",
+        "Mi ćemo biti tihi počevši od 22 sata.",
+        "Nadam se da vam nećemo smetati.",
+        "Hvala vam puno na razumijevanju."
+      ],
+      "grammarFocus": [
+        "Upotreba povratnih glagola (sich entschuldigen)",
+        "Prijedlozi: für + Akkusativ, über + Akkusativ"
+      ],
+      "structure": [
+        {
+          "step": "Pozdrav",
+          "tip": "Započnite formalnim pozdravom svim susjedima (Liebe Nachbarinnen und Nachbarn)."
+        },
+        {
+          "step": "Najava zabave",
+          "tip": "Recite im kada je zabava i zašto."
+        },
+        {
+          "step": "Vrijeme je za odmor i izvinjenje",
+          "tip": "Izvinjavamo se zbog eventualnih neugodnosti i uvjeravamo vas da ćete ostati tihi nakon 22:00 sata."
+        },
+        {
+          "step": "Hvala i zaključak",
+          "tip": "Zahvalite im se na razumijevanju i završite svečanim pozdravima."
+        }
+      ],
+      "exampleEssayTranslation": "Dragi prijatelji i komšije, živim na drugom spratu. Sljedeće subote ću proslaviti rođendan i napraviti malu zabavu u stanu. Doći će neki gosti. Moglo bi biti malo bučno. Unaprijed se izvinjavam na buci. Počevši od 22h, smanjićemo jačinu muzike kako bismo ispoštovali vrijeme pauze. Nadam se da razumete. Hvala vam puno! Srdačan pozdrav, Ahmed Al-Hassane",
+      "writingTips": [
+        "Obraćao se susjedima u formalnom obliku množine: Ihr (vaše razumijevanje = Ihr Verständnis).",
+        "Pišite na ljubazan i pun poštovanja kako biste izgradili dobar odnos sa komšijama."
+      ],
+      "selfCheckList": [
+        "Da li ste ispravno napisali grupni pozdrav?",
+        "Jeste li identificirali svoj stan ili sprat na kojem živite?",
+        "Jeste li spomenuli datum zabave?",
+        "Da li ste obećali da ćete stišati zvuk nakon 22:00?",
+        "Jeste li im zahvalili na razumijevanju?",
+        "Da li ste se potpisali punim imenom i prezimenom i službenim pozdravom?"
+      ]
+    },
+    "21": {
+      "title": "Moja školska svedočanstva i stručna sprema",
+      "type": "Opis/tema izraza",
+      "description": "Napišite tekst koji opisuje vašu školsku diplomu iz vaše zemlje i vašu trenutnu stručnu spremu ili profesiju koju biste željeli naučiti u Njemačkoj.",
+      "keyVocabulary": [
+        "škola",
+        "Školski sertifikat",
+        "Stručna obuka",
+        "Studira na univerzitetu",
+        "Karijera iz snova",
+        "Radi kao",
+        "Završi / dovrši",
+        "važno",
+        "Certifikat/školska dozvola",
+        "Uči / uči"
+      ],
+      "usefulPhrases": [
+        "Dobio sam školsku svjedodžbu u Siriji.",
+        "Moja karijera iz snova je stručnjak za informatiku.",
+        "Ja sam na stručnom osposobljavanju za električara.",
+        "Stručno osposobljavanje traje tri godine.",
+        "Dobra karijera mi je veoma važna."
+      ],
+      "grammarFocus": [
+        "Korištenje jednostavne prošlosti i savršene prošlosti (Perfekt: habe gemacht)",
+        "Prijedlozi: als + Beruf (als Elektriker, als Arzt)"
+      ],
+      "structure": [
+        {
+          "step": "Školski period kod kuće",
+          "tip": "Razgovarajte o vašoj školi u vašoj zemlji, kada ste je završili i koju ste diplomu stekli."
+        },
+        {
+          "step": "Stručna obuka/profesionalno osiguranje",
+          "tip": "Objasnite šta trenutno radite u Njemačkoj ili koju stručnu obuku želite."
+        },
+        {
+          "step": "Buduci planovi",
+          "tip": "Razgovarajte o svom planu nakon završetka obuke i rada u Njemačkoj."
+        }
+      ],
+      "exampleEssayTranslation": "Školske godine sam proveo u Siriji i tamo stekao školsku svjedodžbu 2018. godine. Svjedočanstvo mi je bilo jako dobro. Sada živim u Njemačkoj. Moja profesija iz snova je automehaničar. Tako već godinu dana radim stručnu obuku za automehaničara u velikoj radionici. Jako volim posao, ali stručna škola je ponekad teška. Nakon školovanja želio bih stalno raditi kao mehaničar i osnovati svoju porodicu.",
+      "writingTips": [
+        "Koristite prošlo savršeno vrijeme da razgovarate o školi u svojoj zemlji.",
+        "Koristite rečenične veznike kao što su deshalb (dakle) i weil (jer) da objasnite svoje izbore u karijeri."
+      ],
+      "selfCheckList": [
+        "Da li ste spomenuli gdje i kada ste završili školu?",
+        "Jeste li opisali svoju školsku svjedodžbu?",
+        "Da li ste spomenuli svoje trenutno zanimanje ili stručnu spremu?",
+        "Da li ste spomenuli gdje obavljate stručnu obuku?",
+        "Da li ste pisali o svojim planovima nakon diplomiranja?",
+        "Jeste li provjerili konjugaciju glagola u prošlosti i sadašnjosti?"
+      ]
+    },
+    "22": {
+      "title": "Opis mog stana iz snova",
+      "type": "opis",
+      "description": "Napišite esej koji opisuje vaš stan iz snova: koliko soba ima, gdje se nalazi, kako želite da ga opremite i koliko košta.",
+      "keyVocabulary": [
+        "Stan iz snova",
+        "Soba",
+        "Veranda/balkon",
+        "Najam",
+        "Sporedni troškovi",
+        "Svjetlo/svijetlo",
+        "mirno",
+        "Namješten/opremljen namještajem",
+        "kuhinja",
+        "Dnevni boravak"
+      ],
+      "usefulPhrases": [
+        "Moj stan iz snova nalazi se u centru grada.",
+        "Apartman se sastoji od četiri sobe i balkona.",
+        "Sve sobe su veoma velike i svetle.",
+        "Želio bih da opremim stan na moderan način.",
+        "Najam ne bi trebao biti previsok."
+      ],
+      "grammarFocus": [
+        "Upotreba izraza želje Konjunktiv II (ich möchte, wäre, hätte)",
+        "Pravi pridevi i završeci"
+      ],
+      "structure": [
+        {
+          "step": "Lokacija i prostor",
+          "tip": "Opišite gdje se stan nalazi, koliko soba i njegovu ukupnu površinu."
+        },
+        {
+          "step": "Oprema i namještaj",
+          "tip": "Razgovarajte o kuhinji, kupatilu, balkonu i kako želite da opremite sobe."
+        },
+        {
+          "step": "Troškovi",
+          "tip": "Navedite maksimalnu najamninu koju ste spremni platiti, uključujući dodatne troškove."
+        }
+      ],
+      "exampleEssayTranslation": "Moj stan iz snova je veliki, svetao i nalazi se u mirnoj ulici u blizini centra grada. Sastoji se od tri prostorije: velikog dnevnog boravka, spavaće sobe i kancelarijske sobe. Apartman također ima modernu kuhinju i prekrasan balkon sa pogledom. Želio bih da sobe opremim modernim drvenim namještajem. Ukupna zakupnina ne smije prelaziti maksimalno 800 eura mjesečno. Takođe volim da imam dobre komšije u zgradi. To bi bilo savršeno!",
+      "writingTips": [
+        "Koristite odgovarajuće prideve da opišete sobe (pakao, groß, gemütlich).",
+        "Zapamtite da su subjekt i predikat identični po vrsti i broju."
+      ],
+      "selfCheckList": [
+        "Jeste li opisali lokaciju vašeg stana iz snova?",
+        "Jeste li spomenuli broj soba?",
+        "Jeste li pričali o balkonu ili kuhinji?",
+        "Jesam li spomenuo kako želite da se češlja?",
+        "Da li ste odredili pravu cijenu za vas?",
+        "Da li ste koristili odgovarajuće jezičke strukture za želje?"
+      ]
+    },
+    "23": {
+      "title": "Napišite opis rute",
+      "type": "Email / Opis rute",
+      "description": "Napišite e-mail prijatelju koji vas prvi put posjećuje, opišite rutu od glavne željezničke stanice do vašeg stana.",
+      "keyVocabulary": [
+        "Željeznička stanica",
+        "Opis rute",
+        "Pravo/pravo",
+        "Skrenite desno/lijevo",
+        "Raskrsnica",
+        "Semafor",
+        "uzeti (autobus)",
+        "Izađite iz autobusa/voza",
+        "Stanica/pozicija",
+        "vs. for"
+      ],
+      "usefulPhrases": [
+        "Sa glavne stanice idite podzemnom linijom 3.",
+        "Vozite se tri stanice i izađite na stanici 'Muzej'.",
+        "Hodajte pravo do semafora i skrenite lijevo.",
+        "Moja kuća se nalazi direktno preko puta pekare.",
+        "Put je vrlo lako pronaći."
+      ],
+      "grammarFocus": [
+        "Koristite simpatički imperativ (nimm, gehe, biege ab)",
+        "Prostorni prijedlozi: gegenüber von + Dativ, an der Haltestelle"
+      ],
+      "structure": [
+        {
+          "step": "Pozdrav i dobrodošli",
+          "tip": "Poželite dobrodošlicu svom prijatelju i izrazite svoju sreću njegovom posjetom."
+        },
+        {
+          "step": "Polazeći od stanice",
+          "tip": "Objasnite mu kojim prevoznim sredstvom ide sa stanice i njen broj."
+        },
+        {
+          "step": "Opis hodanja",
+          "tip": "Opišite rutu pješice od stanice do vrata (skretanja, signalizacija)."
+        },
+        {
+          "step": "Odaberite pristupnu tačku",
+          "tip": "Identificirajte prepoznatljiv znak za kuću (kao što je nasuprot pekare ili supermarketa)."
+        }
+      ],
+      "exampleEssayTranslation": "Zdravo Leo, tako mi je drago što si posjetio ovaj vikend! Evo opisa rute: Od glavne stanice poželjno je ići metro linijom U2 prema Westendu. Vozite se do četiri stanice i izlazite na stanici 'Carska ulica'. Zatim hodajte ravno ulicom do raskrsnice. Na semaforu skrenite desno. Moja kuća je broj 15 i nalazi se direktno preko puta pošte. Put je veoma lak. Vidimo se u subotu! Srdačan pozdrav, Ahmed",
+      "writingTips": [
+        "Koristite poznati lični imperativ (du): nimm (uzmi), gehe (idi), steige aus (siđi).",
+        "Jasno navedite smjer prijevoza (u Richtungu...)."
+      ],
+      "selfCheckList": [
+        "Jeste li mu poželjeli sretan put i izrazili želju da ga posjetite?",
+        "Da li ste naveli broj i pravac linije voza/autobusa?",
+        "Jeste li spomenuli ime stanice na kojoj izlazi?",
+        "Jeste li opisali hodanje koristeći (desno/lijevo/naprijed)?",
+        "Jeste li spomenuli kućni broj i njegov prepoznatljiv znak?",
+        "Jeste li završili sa pozdravom i imenom?"
+      ]
+    },
+    "24": {
+      "title": "Moja omiljena slika",
+      "type": "Opis/tema izraza",
+      "description": "Opišite sliku ili umjetničko djelo koje vam se jako sviđaju: šta vidite na njoj, koje boje se koriste i kako se osjećate kada ih vidite.",
+      "keyVocabulary": [
+        "Slikarstvo/umjetničko djelo",
+        "Artist",
+        "boja",
+        "Šarene / divne boje",
+        "Svetlo/tamno",
+        "Vidi",
+        "osjetiti",
+        "priroda",
+        "Psihološko stanje/opća atmosfera",
+        "Lajk/lajk"
+      ],
+      "usefulPhrases": [
+        "Moja omiljena slika se zove 'Suncokret'.",
+        "Na slici se vidi prelepa priroda.",
+        "Slikar koristi jarke i tople boje.",
+        "Ovo umjetničko djelo mi daje osjećaj smirenosti.",
+        "Smatram da je ova slika veoma zanimljiva."
+      ],
+      "grammarFocus": [
+        "Upotreba prideva za povezivanje osjećaja s bojama (warme Farben, ein schönes Gefühl)",
+        "Sviđaju se strukture: gefällt mir (sviđa mi se), finde ich (nalazim)"
+      ],
+      "structure": [
+        {
+          "step": "Ime i umjetnik",
+          "tip": "Navedite naziv slike, ko ju je naslikao i kada ste je prvi put vidjeli."
+        },
+        {
+          "step": "Opis slike",
+          "tip": "Detaljno opišite sadržaj slike (ljudi, priroda, stvari) i njene dominantne boje."
+        },
+        {
+          "step": "Osjećaji i zaključak",
+          "tip": "Objasnite zašto vam se slika posebno sviđa i kako se osjećate kada je gledate."
+        }
+      ],
+      "exampleEssayTranslation": "Moja omiljena slika je 'Zvjezdana noć' Vincenta Van Gogha. Video sam to u knjizi o umetnosti. Na slici se vidi plavo noćno nebo sa mnogo žutih zvezda i sjajnim polumesecom. U prvom planu stoji tamno drvo, au pozadini malo selo. Slikar koristi mnogo plavih i žutih boja. Kada pogledam ovu sliku, osećam se smireno i srećno. Smatram da je slika veoma lepa.",
+      "writingTips": [
+        "Podijelite opis na dva dijela: objektivni opis (ono što vidite) i subjektivni opis (ono što osjećate).",
+        "Koristite izraze usmjerenja kao što su im Vordergrund (u prvom planu) i im Hintergrund (u pozadini)."
+      ],
+      "selfCheckList": [
+        "Jeste li spomenuli ime slike i umjetnika?",
+        "Jeste li opisali korištene boje?",
+        "Jeste li detaljno opisali sadržaj slike?",
+        "Jeste li koristili izraze poput 'im Vordergrund'?",
+        "Da li ste izrazili svoja osećanja prema slici?",
+        "Da li ste provjerili gramatiku da se podudaraju pridjevi?"
+      ]
+    },
+    "25": {
+      "title": "Upotreba medija u svakodnevnom životu",
+      "type": "Opis/tema izraza",
+      "description": "Napišite tekst koji izražava kako koristite različite medije (pametni telefon, računar, televiziju, internet) u svom danu.",
+      "keyVocabulary": [
+        "Mediji",
+        "Smartphone",
+        "On koristi / koristi",
+        "dnevno",
+        "Društveni mediji",
+        "Pretraživanje interneta",
+        "Vijesti/poruka",
+        "čita/vidi",
+        "važno",
+        "Dugotrajno"
+      ],
+      "usefulPhrases": [
+        "Koristim svoj pametni telefon svaki dan po nekoliko sati.",
+        "Čitam na internetu vijesti iz moje zemlje.",
+        "Laptop koristim za rad i učenje.",
+        "Društveni mediji mi pomažu da ostanem u kontaktu sa prijateljima.",
+        "Ponekad provodim dosta vremena na internetu."
+      ],
+      "grammarFocus": [
+        "Upotreba prijedloga s medijima: auf dem Smartphone, im Internet, am Computer",
+        "Povežite rečenice da pokažete kontradikciju: aber (ali), obwohl (iako)"
+      ],
+      "structure": [
+        {
+          "step": "uvod",
+          "tip": "Počnite spominjanjem važnosti medija u vašem modernom životu."
+        },
+        {
+          "step": "Preferirani uređaji i upotreba",
+          "tip": "Razgovarajte o uređajima koje svakodnevno koristite (telefon, laptop) i zašto (posao, komunikacija, učenje)."
+        },
+        {
+          "step": "Kritičko mišljenje i zaključak",
+          "tip": "Navedite prednosti i nedostatke, i mislite li da provodite puno vremena na internetu?"
+        }
+      ],
+      "exampleEssayTranslation": "Mediji su veoma važni u mom svakodnevnom životu. Svaki dan koristim svoj pametni telefon za mnoge stvari: razgovaram telefonom, čitam vijesti i provjeravam e-poštu. Takođe koristim društvene mreže da bih bio u kontaktu sa svojom porodicom. Uveče uglavnom surfam internetom na laptopu ili gledam filmove. Smatram da je internet veoma koristan za učenje, ali ponekad provodim previše vremena na internetu. Čovjek se mora čuvati ovisnosti.",
+      "writingTips": [
+        "Navedite konkretne radnje koje radite na mreži (schreiben, lesen, sehen, lernen).",
+        "Koristite riječi koje izražavaju ponavljanje kao što su täglich (svakodnevno), često (često), manchmal (ponekad)."
+      ],
+      "selfCheckList": [
+        "Jeste li spomenuli medije koje koristite?",
+        "Jeste li opisali upotrebu svog pametnog telefona?",
+        "Jesam li spomenuo korištenje kompjutera ili TV-a?",
+        "Da li ste razgovarali o komunikaciji sa porodicom i prijateljima?",
+        "Da li ste izrazili negativnosti (gubljenje vremena)?",
+        "Jeste li provjerili ispravnost prijedloga (im Internet...)?"
+      ]
+    },
+    "26": {
+      "title": "Zašto je glasanje važno",
+      "type": "Članak/izraz mišljenja",
+      "description": "Napišite kratak esej u kojem izražavate svoje mišljenje o izborima i važnosti političkog učešća i glasanja u demokratskom društvu.",
+      "keyVocabulary": [
+        "Izaberite/glasajte",
+        "Izbori",
+        "Demokratija",
+        "Izborno glasanje",
+        "Citizen",
+        "Mišljenje",
+        "Odlučite se",
+        "vladu",
+        "U redu",
+        "budućnost"
+      ],
+      "usefulPhrases": [
+        "U demokratskom sistemu građani imaju pravo glasa.",
+        "Glasanje je važno pravo i dužnost.",
+        "Svaki glas je bitan za budućnost.",
+        "Građani odlučuju ko vlada državom.",
+        "Mislim da treba izraziti svoje mišljenje."
+      ],
+      "grammarFocus": [
+        "Korištenje veznih rečenica dass (Ich denke, dass...)",
+        "Upotreba pomoćnih glagola (sollte, kann)"
+      ],
+      "structure": [
+        {
+          "step": "uvod",
+          "tip": "Definicija izbora i njihov opšti značaj u zemlji."
+        },
+        {
+          "step": "Argumenti i razlozi",
+          "tip": "Objasnite zašto svaki građanin treba da učestvuje glasanjem (promena zakona, odlučivanje o budućnosti)."
+        },
+        {
+          "step": "Zaključak i Vaše lično mišljenje",
+          "tip": "Jasno sažmite svoje mišljenje u završnoj rečenici."
+        }
+      ],
+      "exampleEssayTranslation": "Glasanje je suštinski element demokratije. Svaki izbor građanima daje priliku da aktivno doprinose oblikovanju svoje budućnosti. Vjerujem da glasanje nije samo pravo, već i važna dužnost. Ako jedan ne glasa, drugi odlučuju o politici i zakonima. Svojim glasovima možemo izabrati vladu i izraziti svoje mišljenje. Dakle, svaki građanin mora izaći da glasa. Tako funkcionira slobodno društvo.",
+      "writingTips": [
+        "Koristite veznik das da stavite glagol na kraj rečenice.",
+        "Koristite uvjerljive riječi kao što su wichtig (važan), Pflicht (dužnost), Möglichkeit (prilika)."
+      ],
+      "selfCheckList": [
+        "Da li ste počeli sa jasnom definicijom važnosti izbora?",
+        "Da li ste izneli barem dva argumenta za važnost glasanja?",
+        "Da li ste pravilno upotrebili veznik 'das'?",
+        "Da li ste pisali o ulozi građana u demokratiji?",
+        "Jeste li završili čvrstim zaključkom?",
+        "Jeste li provjerili pravopis i interpunkciju?"
+      ]
+    },
+    "27": {
+      "title": "Kultura i praznici u mojoj zemlji",
+      "type": "Opis/tema izraza",
+      "description": "Napišite esej koji opisuje tradicionalni praznik ili kulturni običaj u vašoj zemlji porijekla i kako ga slavite sa porodicom i prijateljima.",
+      "keyVocabulary": [
+        "Domovina",
+        "Bajram/proslava",
+        "Kultura",
+        "tradicionalna",
+        "slavi",
+        "Porodica",
+        "Hrana/jedenje",
+        "Posjetite",
+        "Navika",
+        "zajedno"
+      ],
+      "usefulPhrases": [
+        "U mojoj zemlji svake godine slavimo Ramazanski bajram.",
+        "Ovo je velika i važna porodična proslava.",
+        "Posjećujemo rodbinu i jedemo tradicionalne slatkiše.",
+        "Svi nose novu odjeću i daju djeci novac.",
+        "Jako volim ovaj običaj jer povezuje ljude."
+      ],
+      "grammarFocus": [
+        "Koristite weil klauze da stavite glagol na kraj",
+        "Upotreba priloga za vrijeme za sređivanje (zuerst, danach, am Ende)"
+      ],
+      "structure": [
+        {
+          "step": "Naziv praznika i njegova definicija",
+          "tip": "Navedite naziv praznika i otprilike kada ga slavite u svojoj zemlji."
+        },
+        {
+          "step": "Koraci za proslavu",
+          "tip": "Detaljno opišite šta radite na bajramsko jutro, hranu, posjete, odjeću."
+        },
+        {
+          "step": "Važnost i lični osećaj",
+          "tip": "Objasnite šta vam ovaj praznik znači i zašto ga volite."
+        }
+      ],
+      "exampleEssayTranslation": "U mojoj zemlji, Siriji, slavimo Ramazanski bajram svake godine nakon Ramazana. To je veliki tradicionalni praznik za cijelu porodicu. Prvo jutro prvo idemo u džamiju. Nakon toga, svi zajedno doručkujemo u kući moje bake i dede. Jedemo veoma ukusne slatkiše i pijemo kafu. Djeca dobijaju novu odjeću i male poklone. Mnogo volim ovaj praznik jer se svi rođaci okupljaju i mnogo se smejemo. Prekrasna je atmosfera.",
+      "writingTips": [
+        "Koristite riječi za redoslijed događaja: zuerst (prvi), danach (poslije), am Nachmittag (poslijepodne).",
+        "Opišite osjećaje, mirise i hranu kako biste tekst učinili živahnijim."
+      ],
+      "selfCheckList": [
+        "Da li ste spomenuli naziv praznika i svoju zemlju?",
+        "Jeste li razjasnili kada se slavi?",
+        "Jeste li opisali jutarnje aktivnosti i posjete?",
+        "Jesam li spomenuo prazničnu hranu ili slatkiše?",
+        "Da li ste izrazili svoja osećanja i zašto volite ovaj praznik?",
+        "Jeste li provjerili red riječi nakon veznika?"
       ]
     }
   },
@@ -5652,6 +7688,515 @@ const WRITING_TRANSLATIONS = {
         "¿Pusiste verbos conjugados en pasado al final de la oración después de haben/sein?",
         "¿Describiste tu sentimiento final?"
       ]
+    },
+    "19": {
+      "title": "Invitación a una fiesta de cumpleaños",
+      "type": "correo electrónico/llamada",
+      "description": "Escribe un correo electrónico invitando a tu amigo a tu fiesta de cumpleaños, explicándole cuándo, dónde y a qué debe asistir.",
+      "keyVocabulary": [
+        "el llama",
+        "fiesta de cumpleaños",
+        "celebra",
+        "Sábado",
+        "Las seis de la tarde",
+        "ocurre / sucede",
+        "el trae con el",
+        "el regalo",
+        "Él responde / responde",
+        "amigos"
+      ],
+      "usefulPhrases": [
+        "Te invito cordialmente a mi fiesta de cumpleaños.",
+        "La fiesta tendrá lugar el sábado a las 18 horas.",
+        "Lo celebraremos en mi jardín.",
+        "¿Puedes traer ensalada de pasta contigo?",
+        "Por favor déjame saber tu respuesta antes del jueves."
+      ],
+      "grammarFocus": [
+        "Uso del verbo separado einladen (Ich lade dich ein)",
+        "Preposiciones temporales: am, um",
+        "Preposiciones espaciales: in meinem Garten (Dativ)"
+      ],
+      "structure": [
+        {
+          "step": "saludos y razon",
+          "tip": "Comience con un saludo amistoso y exponga el motivo de la escritura (la invitación)."
+        },
+        {
+          "step": "Hora y lugar",
+          "tip": "Especifique la fecha, hora y lugar de la fiesta en detalle."
+        },
+        {
+          "step": "Que traer y ordenar",
+          "tip": "Pídale al amigo que traiga algo (como una ensalada) y responda para confirmar la asistencia."
+        },
+        {
+          "step": "Conclusión",
+          "tip": "Termine con un mensaje amistoso y una firma de su nombre."
+        }
+      ],
+      "exampleEssayTranslation": "Querido Max, te invito cordialmente a mi fiesta de cumpleaños. Celebraré mi cumpleaños el próximo sábado. La fiesta se realiza en mi jardín y comienza a las 6 de la tarde. También vendrán muchos amigos. Queremos hacer barbacoa y escuchar música. ¿Puedes traer ensalada o bebidas? Por favor avísame antes del jueves si puedes venir. ¡Espero verte! Saludos cordiales, Ahmed.",
+      "writingTips": [
+        "Utilice una forma de dirección informal: Lieber [Nombre] para el masculino o Liebe [Nombre] para el femenino.",
+        "Recuerda poner una coma después del vocativo y empezar la siguiente frase con una letra minúscula.",
+        "Utilice conjunciones como und y oder para conectar oraciones."
+      ],
+      "selfCheckList": [
+        "¿Utilizó un saludo amistoso apropiado? (Liber...)",
+        "¿Has cronometrado la fiesta con precisión? (soy Samstag um...)",
+        "¿Mencionaste dónde se llevará a cabo la fiesta?",
+        "¿Le pediste que trajera algo?",
+        "¿Le pediste que respondiera para confirmar la asistencia?",
+        "¿Terminaste con el saludo apropiado y tu nombre?"
+      ]
+    },
+    "20": {
+      "title": "correo electrónico al vecino",
+      "type": "Correo electrónico/disculpa",
+      "description": "Escribe un email a tus vecinos del edificio para disculparte de antemano por el ruido provocado por una fiesta que estás celebrando en tu apartamento.",
+      "keyVocabulary": [
+        "Vecino",
+        "Reglamento/orden de la casa",
+        "Ruido/molestias",
+        "la fiesta",
+        "celebra",
+        "el se disculpa",
+        "Voz tranquila/baja",
+        "molesta",
+        "Comprensión",
+        "tiempo de descanso"
+      ],
+      "usefulPhrases": [
+        "Me gustaría disculparme por el ruido.",
+        "Voy a tener una pequeña fiesta el sábado.",
+        "Estaremos en silencio a partir de las 22:00 horas.",
+        "Espero que no te molestemos.",
+        "Muchas gracias por su comprensión."
+      ],
+      "grammarFocus": [
+        "Uso de verbos reflexivos (sich entschuldigen)",
+        "Preposiciones: für + Akkusativ, über + Akkusativ"
+      ],
+      "structure": [
+        {
+          "step": "Saludos",
+          "tip": "Comience con un saludo formal a todos los vecinos (Liebe Nachbarinnen und Nachbarn)."
+        },
+        {
+          "step": "Anuncio de la fiesta.",
+          "tip": "Dígales cuándo es la fiesta y por qué."
+        },
+        {
+          "step": "Es hora de descansar y disculparse.",
+          "tip": "Le pedimos disculpas por cualquier posible inconveniente y le aseguramos que permanecerá en silencio después de las 22:00 horas."
+        },
+        {
+          "step": "gracias y conclusión",
+          "tip": "Agradézcales su comprensión y finalice con un saludo formal."
+        }
+      ],
+      "exampleEssayTranslation": "Queridos amigos y vecinos, vivo en el segundo piso. El próximo sábado celebraré mi cumpleaños y haré una pequeña fiesta en mi apartamento. Vendrán algunos invitados. Puede que haga un poco de ruido. Pido disculpas de antemano por el ruido. A partir de las 22:00 horas bajaremos el volumen de la música para respetar el horario de descanso. Espero que lo entiendas. ¡Muchas gracias! Saludos cordiales, Ahmed Al-Hassan",
+      "writingTips": [
+        "Se dirigió a los vecinos en plural formal: Ihr (su comprensión = Ihr Verständnis).",
+        "Escriba de manera educada y respetuosa para construir una buena relación con los vecinos."
+      ],
+      "selfCheckList": [
+        "¿Escribiste correctamente el saludo grupal?",
+        "¿Has identificado tu apartamento o piso en el que vives?",
+        "¿Mencionaste la fecha de la fiesta?",
+        "¿Prometiste bajar el volumen después de las 10 de la noche?",
+        "¿Les agradeciste su comprensión?",
+        "¿Firmó con su nombre completo y saludo formal?"
+      ]
+    },
+    "21": {
+      "title": "Mi certificado escolar y formación profesional.",
+      "type": "Descripción/tema de una expresión",
+      "description": "Escriba un texto que describa su título escolar de su país y su formación profesional actual o la profesión que le gustaría aprender en Alemania.",
+      "keyVocabulary": [
+        "la escuela",
+        "Certificado escolar",
+        "formación profesional",
+        "El estudia en la universidad",
+        "carrera de ensueño",
+        "Funciona como",
+        "Terminar / completar",
+        "importante",
+        "Certificado/autorización escolar",
+        "aprender / estudiar"
+      ],
+      "usefulPhrases": [
+        "Obtuve mi certificado escolar en Siria.",
+        "La carrera de mis sueños es la de experto en informática.",
+        "Estoy haciendo formación profesional como electricista.",
+        "La formación profesional tiene una duración de tres años.",
+        "Una buena carrera es muy importante para mí."
+      ],
+      "grammarFocus": [
+        "Usando el pasado simple y el pasado perfecto (Perfekt: habe gemacht)",
+        "Preposiciones: als + Beruf (als Elektriker, als Arzt)"
+      ],
+      "structure": [
+        {
+          "step": "Periodo escolar en casa.",
+          "tip": "Habla sobre tu escuela en tu país, cuándo la terminaste y qué título obtuviste."
+        },
+        {
+          "step": "Formación profesional/seguridad profesional",
+          "tip": "Explique qué está haciendo actualmente en Alemania o qué formación profesional desea."
+        },
+        {
+          "step": "Planes futuros",
+          "tip": "Hable sobre su plan después de completar su formación y trabajar en Alemania."
+        }
+      ],
+      "exampleEssayTranslation": "Pasé mis años escolares en Siria y obtuve mi certificado escolar allí en 2018. Mi certificado fue muy bueno. Ahora vivo en Alemania. La profesión de mis sueños es la de mecánico de automóviles. Así que desde hace un año hago formación profesional como mecánico de automóviles en un gran taller. Me gusta mucho el trabajo, pero la escuela vocacional a veces es difícil. Después de la formación me gustaría trabajar permanentemente como mecánico y formar mi propia familia.",
+      "writingTips": [
+        "Usa el pasado perfecto para hablar sobre la escuela en tu país.",
+        "Utilice oraciones conectivas como deshalb (por lo tanto) y weil (porque) para explicar sus elecciones profesionales."
+      ],
+      "selfCheckList": [
+        "¿Mencionaste dónde y cuándo terminaste la escuela?",
+        "¿Describiste tu certificado escolar?",
+        "¿Mencionó su ocupación actual o formación profesional?",
+        "¿Mencionaste dónde realizas tu formación vocacional?",
+        "¿Has escrito sobre tus planes después de graduarte?",
+        "¿Has comprobado la conjugación de los verbos en pasado y presente?"
+      ]
+    },
+    "22": {
+      "title": "Descripción del apartamento de mis sueños.",
+      "type": "una descripción",
+      "description": "Escribe un ensayo que describa el apartamento de tus sueños: cuántas habitaciones tiene, dónde está ubicado, cómo quieres amueblarlo y cuánto cuesta.",
+      "keyVocabulary": [
+        "Apartamento de ensueño",
+        "la habitacion",
+        "Terraza/balcón",
+        "Alquilar",
+        "Gastos secundarios",
+        "Luminoso/brillante",
+        "calma",
+        "Amueblado/equipado con muebles.",
+        "la cocina",
+        "Sala de estar"
+      ],
+      "usefulPhrases": [
+        "El apartamento de mis sueños está situado en el centro de la ciudad.",
+        "El apartamento consta de cuatro habitaciones y un balcón.",
+        "Todas las habitaciones son muy grandes y luminosas.",
+        "Me gustaría amueblar el apartamento de forma moderna.",
+        "El alquiler no debería ser demasiado alto."
+      ],
+      "grammarFocus": [
+        "Uso de la expresión ilusoria Konjunktiv II (ich möchte, wäre, hätte)",
+        "Adjetivos y terminaciones adecuados"
+      ],
+      "structure": [
+        {
+          "step": "Ubicación y espacio",
+          "tip": "Describe dónde está ubicado el apartamento, cuántas habitaciones y su superficie total."
+        },
+        {
+          "step": "Accesorios y mobiliario",
+          "tip": "Habla sobre la cocina, el baño, el balcón y cómo quieres amueblar las habitaciones."
+        },
+        {
+          "step": "Costos",
+          "tip": "Indique el alquiler máximo que está dispuesto a pagar, incluidos los gastos adicionales."
+        }
+      ],
+      "exampleEssayTranslation": "El apartamento de mis sueños es grande, luminoso y está situado en una calle tranquila cerca del centro de la ciudad. Consta de tres estancias: un gran salón, un dormitorio y un despacho. El apartamento también cuenta con una cocina moderna y un hermoso balcón con vista. Me gustaría amueblar las habitaciones con muebles de madera modernos. El alquiler total no debe superar un máximo de 800 euros al mes. También me gusta tener vecinos agradables en el edificio. ¡Eso sería perfecto!",
+      "writingTips": [
+        "Utilice adjetivos apropiados para describir habitaciones (hell, groß, gemütlich).",
+        "Recuerda que el sujeto y el predicado son idénticos en tipo y número."
+      ],
+      "selfCheckList": [
+        "¿Ha descrito la ubicación del apartamento de sus sueños?",
+        "¿Mencionaste el número de habitaciones?",
+        "¿Hablaste del balcón o de la cocina?",
+        "¿Mencioné cómo quieres que te lo cepillen?",
+        "¿Ha fijado el precio adecuado para usted?",
+        "¿Utilizó estructuras lingüísticas apropiadas para desear?"
+      ]
+    },
+    "23": {
+      "title": "Escribe una descripción de ruta.",
+      "type": "Correo electrónico/Descripción de ruta",
+      "description": "Escribe un correo electrónico a un amigo que te visite por primera vez, describiéndole la ruta desde la estación principal de tren hasta tu apartamento.",
+      "keyVocabulary": [
+        "Estación de tren",
+        "Descripción de la ruta",
+        "Recto/recto",
+        "Girar a la derecha/izquierda",
+        "la intersección",
+        "semáforo",
+        "tomar (el autobús)",
+        "Bajarse del autobús/tren",
+        "Estación/posición",
+        "vs para"
+      ],
+      "usefulPhrases": [
+        "Desde la estación principal tome la línea 3 del metro.",
+        "Realice tres paradas y bájese en la parada 'Museo'.",
+        "Camine recto hasta el semáforo y gire a la izquierda.",
+        "Mi casa está ubicada justo enfrente de la panadería.",
+        "El camino es muy fácil de encontrar."
+      ],
+      "grammarFocus": [
+        "Utilice el imperativo simpático (nimm, gehe, biege ab)",
+        "Preposiciones espaciales: gegenüber von + Dativ, an der Haltestelle"
+      ],
+      "structure": [
+        {
+          "step": "Saludos y bienvenido",
+          "tip": "Da la bienvenida a tu amigo y expresa tu alegría por su visita."
+        },
+        {
+          "step": "Partiendo de la estación",
+          "tip": "Explícale qué medio de transporte toma desde la estación y su número."
+        },
+        {
+          "step": "Descripción de caminar",
+          "tip": "Describe el recorrido a pie desde la estación hasta la puerta (giros, señales)."
+        },
+        {
+          "step": "Seleccione el punto de acceso",
+          "tip": "Identificar un signo distintivo de la casa (como frente a una panadería o supermercado)."
+        }
+      ],
+      "exampleEssayTranslation": "Hola Leo, ¡me alegra mucho que hayas visitado este fin de semana! Aquí está la descripción de la ruta: Desde la estación principal es preferible tomar la línea de metro U2 en dirección Westend. Llega hasta cuatro paradas y te bajas en la parada 'Tsar Street'. Luego camine recto por la calle hasta el cruce. En el semáforo, gire a la derecha. Mi casa es el número 15 y está situada justo enfrente de la oficina de correos. El camino es muy fácil. ¡Nos vemos el sábado! Saludos cordiales, Ahmed.",
+      "writingTips": [
+        "Utilice el familiar imperativo personal (du): nimm (tomar), gehe (ir), steige aus (bajar).",
+        "Especifique claramente la dirección de transporte (en Richtung...)."
+      ],
+      "selfCheckList": [
+        "¿Le deseó un feliz viaje y expresó su aspiración de visitarlo?",
+        "¿Ha especificado el número y la dirección de la línea de tren/autobús?",
+        "¿Mencionaste el nombre de la estación donde baja?",
+        "¿Ha descrito cómo caminar usando (derecha/izquierda/adelante)?",
+        "¿Mencionaste el número de la casa y su signo distintivo?",
+        "¿Terminaste con un saludo y un nombre?"
+      ]
+    },
+    "24": {
+      "title": "mi pintura favorita",
+      "type": "Descripción/tema de una expresión",
+      "description": "Describe una pintura o una obra de arte que te guste mucho: qué ves en ella, qué colores se utilizan y cómo te sientes cuando la ves.",
+      "keyVocabulary": [
+        "Pintura/obra de arte",
+        "Artista",
+        "el color",
+        "Colores coloridos/encantadores",
+        "Claro/oscuro",
+        "Ver",
+        "sentir",
+        "naturaleza",
+        "Estado psicológico/atmósfera general.",
+        "Me gusta/me gusta"
+      ],
+      "usefulPhrases": [
+        "Mi cuadro favorito se llama 'Girasol'.",
+        "En el cuadro se ve una hermosa naturaleza.",
+        "El pintor utiliza colores vivos y cálidos.",
+        "Esta obra de arte me da una sensación de calma.",
+        "Me parece muy interesante este cuadro."
+      ],
+      "grammarFocus": [
+        "Usar adjetivos para vincular sentimientos con colores (warme Farben, ein schönes Gefühl)",
+        "Me gustan las estructuras: gefällt mir (me gusta), finde ich (lo encuentro)"
+      ],
+      "structure": [
+        {
+          "step": "Nombre y artista",
+          "tip": "Indique el nombre del cuadro, quién lo pintó y cuándo lo vio por primera vez."
+        },
+        {
+          "step": "Descripción de la pintura",
+          "tip": "Describe detalladamente el contenido del cuadro (personas, naturaleza, cosas) y sus colores dominantes."
+        },
+        {
+          "step": "Sentimientos y conclusión.",
+          "tip": "Explica por qué te gusta especialmente el cuadro y cómo te sientes cuando lo miras."
+        }
+      ],
+      "exampleEssayTranslation": "Mi cuadro favorito es 'La noche estrellada' de Vincent Van Gogh. Lo vi en un libro sobre arte. En el cuadro se ve un cielo nocturno azul con muchas estrellas amarillas y una brillante media luna. En primer plano se encuentra un árbol oscuro y al fondo un pequeño pueblo. El pintor utiliza muchos colores azules y amarillos. Cuando miro este cuadro, me siento tranquilo y feliz. El cuadro me parece muy bonito.",
+      "writingTips": [
+        "Divide la descripción en dos partes: descripción objetiva (lo que ves) y descripción subjetiva (lo que sientes).",
+        "Utilice expresiones direccionales como im Vordergrund (en primer plano) y im Hintergrund (en segundo plano)."
+      ],
+      "selfCheckList": [
+        "¿Mencionaste el nombre de la pintura y el artista?",
+        "¿Describiste los colores utilizados?",
+        "¿Ha descrito en detalle el contenido de la pintura?",
+        "¿Usaste expresiones como 'im Vordergrund'?",
+        "¿Expresaste tus sentimientos sobre la pintura?",
+        "¿Has revisado la gramática para que coincida con los adjetivos?"
+      ]
+    },
+    "25": {
+      "title": "Uso de los medios en la vida diaria.",
+      "type": "Descripción/tema de una expresión",
+      "description": "Escribe un texto expresando cómo utilizas los diferentes medios (smartphone, ordenador, televisión, Internet) en tu día a día.",
+      "keyVocabulary": [
+        "Medios de comunicación",
+        "teléfono inteligente",
+        "Él usa / usa",
+        "a diario",
+        "redes sociales",
+        "Navegando por Internet",
+        "Noticias/mensaje",
+        "lee/ve",
+        "importante",
+        "Pérdida de tiempo"
+      ],
+      "usefulPhrases": [
+        "Utilizo mi teléfono inteligente todos los días durante varias horas.",
+        "Leo en Internet noticias de mi país.",
+        "Utilizo la computadora portátil para mi trabajo y aprendizaje.",
+        "Las redes sociales me ayudan a mantenerme en contacto con amigos.",
+        "A veces paso mucho tiempo en línea."
+      ],
+      "grammarFocus": [
+        "Usar preposiciones con medios: auf dem Smartphone, im Internet, am Computer",
+        "Conecte oraciones para mostrar contradicción: aber (pero), obwohl (aunque)"
+      ],
+      "structure": [
+        {
+          "step": "la introducción",
+          "tip": "Comience mencionando la importancia de los medios en su vida moderna."
+        },
+        {
+          "step": "Dispositivos preferidos y uso",
+          "tip": "Hable sobre los dispositivos que usa a diario (teléfono, computadora portátil) y por qué (trabajo, comunicación, aprendizaje)."
+        },
+        {
+          "step": "Opinión crítica y conclusión.",
+          "tip": "Menciona los pros y los contras, ¿crees que pasas mucho tiempo online?"
+        }
+      ],
+      "exampleEssayTranslation": "Los medios son muy importantes en mi vida diaria. Utilizo mi teléfono inteligente todos los días para muchas cosas: hablar por teléfono, leer las noticias y consultar mi correo electrónico. También uso las redes sociales para mantenerme en contacto con mi familia. Por la noche, navego principalmente por Internet en mi portátil o veo películas. Internet me resulta muy útil para aprender, pero a veces paso demasiado tiempo conectado. Hay que tener cuidado con la adicción.",
+      "writingTips": [
+        "Mencione acciones específicas que realiza en línea (schreiben, lesen, sehen, lernen).",
+        "Utilice palabras que expresen repetición como täglich (diario), oft (a menudo), manchmal (a veces)."
+      ],
+      "selfCheckList": [
+        "¿Mencionaste los medios que utilizas?",
+        "¿Ha descrito el uso que hace de su teléfono inteligente?",
+        "¿Mencioné usar la computadora o la televisión?",
+        "¿Hablaste sobre comunicarse con familiares y amigos?",
+        "¿Expresaste lo negativo (pérdida de tiempo)?",
+        "¿Has comprobado la exactitud de las preposiciones (estoy en Internet...)?"
+      ]
+    },
+    "26": {
+      "title": "Por qué es importante votar",
+      "type": "Artículo/expresión de opinión",
+      "description": "Escriba un ensayo breve expresando su opinión sobre las elecciones y la importancia de la participación política y el voto en una sociedad democrática.",
+      "keyVocabulary": [
+        "elegir/votar",
+        "Elecciones",
+        "Democracia",
+        "Voto electoral",
+        "Ciudadano",
+        "Opinión",
+        "Decidir",
+        "el gobierno",
+        "Bien",
+        "el futuro"
+      ],
+      "usefulPhrases": [
+        "En un sistema democrático, los ciudadanos tienen derecho a votar.",
+        "Votar es un derecho y un deber importante.",
+        "Cada voto importa para el futuro.",
+        "Los ciudadanos deciden quién gobierna el país.",
+        "Creo que uno debería expresar su opinión."
+      ],
+      "grammarFocus": [
+        "Usar oraciones de enlace dass (Ich denke, dass...)",
+        "Usar verbos auxiliares (sollte, kann)"
+      ],
+      "structure": [
+        {
+          "step": "la introducción",
+          "tip": "Definición de elecciones y su importancia general en el país."
+        },
+        {
+          "step": "Argumentos y razones",
+          "tip": "Explique por qué todos los ciudadanos deberían participar votando (cambiando leyes, decidiendo el futuro)."
+        },
+        {
+          "step": "Conclusión y tu opinión personal.",
+          "tip": "Resume tu opinión claramente en una oración final."
+        }
+      ],
+      "exampleEssayTranslation": "El voto es un elemento esencial de la democracia. Cada elección brinda a los ciudadanos la oportunidad de contribuir activamente a dar forma a su futuro. Creo que votar no es sólo un derecho, sino también un deber importante. Si uno no vota, otros deciden las políticas y las leyes. Con nuestros votos podemos elegir el gobierno y expresar nuestras opiniones. Por eso todos los ciudadanos deben ir a votar. Así es como funciona una sociedad libre.",
+      "writingTips": [
+        "Usa la conjunción dass para poner el verbo al final de la oración.",
+        "Utilice palabras persuasivas como wichtig (importante), Pflicht (deber), Möglichkeit (oportunidad)."
+      ],
+      "selfCheckList": [
+        "¿Comenzó con una definición clara de la importancia de las elecciones?",
+        "¿Ha presentado al menos dos argumentos sobre la importancia de votar?",
+        "¿Usaste correctamente la conjunción 'dass'?",
+        "¿Ha escrito sobre el papel del ciudadano en la democracia?",
+        "¿Terminaste con una conclusión sólida?",
+        "¿Has revisado tu ortografía y puntuación?"
+      ]
+    },
+    "27": {
+      "title": "Cultura y vacaciones en mi país.",
+      "type": "Descripción/tema de una expresión",
+      "description": "Escribe un ensayo que describa una festividad tradicional o costumbre cultural en tu país de origen y cómo la celebras con familiares y amigos.",
+      "keyVocabulary": [
+        "Patria",
+        "Fiesta/celebración",
+        "Cultura",
+        "tradicional",
+        "celebra",
+        "Familia",
+        "comida/comer",
+        "Visita",
+        "Hábito",
+        "juntos"
+      ],
+      "usefulPhrases": [
+        "En mi país celebramos el Eid al-Fitr todos los años.",
+        "Esta es una celebración familiar grande e importante.",
+        "Visitamos a familiares y comemos dulces tradicionales.",
+        "Todos visten ropa nueva y les dan dinero a los niños.",
+        "Amo mucho esta costumbre porque conecta a las personas."
+      ],
+      "grammarFocus": [
+        "Utilice cláusulas weil para poner el verbo al final.",
+        "Usar adverbios de tiempo para organizar (zuerst, danach, am Ende)"
+      ],
+      "structure": [
+        {
+          "step": "El nombre de la festividad y su definición.",
+          "tip": "Menciona el nombre de la festividad y aproximadamente cuándo la celebras en tu país."
+        },
+        {
+          "step": "Pasos de celebración",
+          "tip": "Describe en detalle lo que haces en la mañana de Eid, la comida, las visitas, la ropa."
+        },
+        {
+          "step": "Importancia y sentimiento personal.",
+          "tip": "Explica qué significa esta festividad para ti y por qué te encanta."
+        }
+      ],
+      "exampleEssayTranslation": "En mi país, Siria, celebramos el Eid al-Fitr todos los años después del Ramadán. Es una gran fiesta tradicional para toda la familia. Por la mañana primero vamos a la mezquita. Después de eso, desayunamos todos juntos en casa de mis abuelos. Comemos dulces muy deliciosos y tomamos café. Los niños reciben ropa nueva y pequeños obsequios. Me encantan estas vacaciones porque todos los familiares se reúnen y nos reímos mucho. Hay un ambiente hermoso.",
+      "writingTips": [
+        "Utilice palabras de orden para secuenciar eventos: zuerst (primero), danach (después), am Nachmittag (por la tarde).",
+        "Describe sentimientos, olores y alimentos para darle vida al texto."
+      ],
+      "selfCheckList": [
+        "¿Mencionaste el nombre de la festividad y tu país?",
+        "¿Aclaraste cuándo se celebra?",
+        "¿Ha descrito las actividades y visitas de la mañana?",
+        "¿Mencioné las comidas o dulces navideños?",
+        "¿Has expresado tus sentimientos y por qué te encantan estas vacaciones?",
+        "¿Has comprobado el orden de las palabras después de las conjunciones?"
+      ]
     }
   },
   "bg": {
@@ -6778,6 +9323,515 @@ const WRITING_TRANSLATIONS = {
         "Поставихте ли спрегнати глаголи в миналото в края на изречението след haben/sein?",
         "Описахте ли последното си усещане?"
       ]
+    },
+    "19": {
+      "title": "Покана за рожден ден",
+      "type": "Имейл/обаждане",
+      "description": "Напишете имейл, с който поканите ваш приятел на партито за рождения ви ден, като обясните кога, къде и какво трябва да присъства той или тя.",
+      "keyVocabulary": [
+        "Той се обажда",
+        "рожден ден",
+        "празнува",
+        "Събота",
+        "Шест часа вечерта",
+        "случва се / случва се",
+        "Той носи със себе си",
+        "Подаръкът",
+        "Той отговаря / отговаря",
+        "приятели"
+      ],
+      "usefulPhrases": [
+        "Сърдечно ви каня на моя рожден ден.",
+        "Купонът е в събота от 18 часа.",
+        "Ще празнуваме в моята градина.",
+        "Можете ли да донесете салата с паста?",
+        "Моля, уведомете ме за отговора си до четвъртък."
+      ],
+      "grammarFocus": [
+        "Използване на отделния глагол einladen (Ich lade dich ein)",
+        "Времеви предлози: am, um",
+        "Пространствени предлози: in meinem Garten (Dativ)"
+      ],
+      "structure": [
+        {
+          "step": "Поздрави и разум",
+          "tip": "Започнете с приятелски поздрав и посочете причината за писане (поканата)."
+        },
+        {
+          "step": "Време и място",
+          "tip": "Посочете подробно датата, часа и мястото на партито."
+        },
+        {
+          "step": "Какво да донесете и поръчате",
+          "tip": "Помолете приятеля да донесе нещо (например салата) и отговорете, за да потвърдите присъствието."
+        },
+        {
+          "step": "Заключение",
+          "tip": "Завършете с приятелско съобщение и подпис на вашето име."
+        }
+      ],
+      "exampleEssayTranslation": "Скъпи Макс, най-сърдечно те каня на моя рожден ден. Ще празнувам рождения си ден следващата събота. Партито се провежда в моята градина и започва в 18 часа. Ще дойдат и много приятели. Искаме да правим барбекю и да слушаме музика. Можете ли да носите салата или напитки с вас? Моля, уведомете ме до четвъртък, ако можете да дойдете. Очаквам ви с нетърпение! С най-добри пожелания, Ахмед",
+      "writingTips": [
+        "Използвайте неформална форма за обръщение: Lieber [Име] за мъжки род или Liebe [Име] за женски род.",
+        "Не забравяйте да поставите запетая след вокатив и да започнете следващото изречение с малка буква.",
+        "Използвайте съюзи като und и oder за свързване на изречения."
+      ],
+      "selfCheckList": [
+        "Използвахте ли подходящ приятелски поздрав? (Либер...)",
+        "Намерихте ли точно времето за партито? (съм Самстаг хм...)",
+        "Споменахте ли къде ще се проведе партито?",
+        "Помоли ли го да донесе нещо?",
+        "Помолихте ли го да отговори, за да потвърди присъствието?",
+        "Завършихте ли с подходящия поздрав и вашето име?"
+      ]
+    },
+    "20": {
+      "title": "Имейл до съседа",
+      "type": "Имейл/извинение",
+      "description": "Напишете имейл до съседите си в сградата, за да се извините предварително за шума, причинен от партито, което организирате в апартамента си.",
+      "keyVocabulary": [
+        "Съсед",
+        "Домашен правилник/Заповед",
+        "Шум/неудобство",
+        "Партито",
+        "празнува",
+        "Той се извинява",
+        "Тих/нисък глас",
+        "Пречи",
+        "разбиране",
+        "Време за почивка"
+      ],
+      "usefulPhrases": [
+        "Бих искал да се извиня за шума.",
+        "Имам малко парти в събота.",
+        "Ще бъдем тихи от 22 часа.",
+        "Надявам се, че няма да ви притесняваме.",
+        "Благодаря ви много за разбирането."
+      ],
+      "grammarFocus": [
+        "Използване на възвратни глаголи (sich entschuldigen)",
+        "Предлози: für + Akkusativ, über + Akkusativ"
+      ],
+      "structure": [
+        {
+          "step": "поздрави",
+          "tip": "Започнете с официален поздрав към всички съседи (Liebe Nachbarinnen und Nachbarn)."
+        },
+        {
+          "step": "Анонс на партито",
+          "tip": "Кажете им кога е партито и защо."
+        },
+        {
+          "step": "Време е за почивка и извинение",
+          "tip": "Извиняваме се за евентуалното неудобство и ви уверяваме, че ще пазите тишина след 22:00 часа."
+        },
+        {
+          "step": "Благодаря и заключение",
+          "tip": "Благодарете им за разбирането и завършете с официални поздрави."
+        }
+      ],
+      "exampleEssayTranslation": "Скъпи приятели и съседи, живея на втория етаж. Следващата събота ще празнувам рождения си ден и ще направя малко парти в апартамента си. Ще дойдат гости. Може да стане малко шумно. Извинявам се предварително за шума. Започвайки от 22:00, ще намалим звука на музиката, за да спазим времето за почивка. надявам се разбираш Благодаря много! С най-добри пожелания, Ахмед Ал-Хасан",
+      "writingTips": [
+        "Той се обърна към съседите в формалната форма за множествено число: Ihr (вашето разбиране = Ihr Verständnis).",
+        "Пишете по учтив и уважителен начин, за да изградите добри отношения със съседите."
+      ],
+      "selfCheckList": [
+        "Правилно ли написахте груповия поздрав?",
+        "Идентифицирали ли сте вашия апартамент или етаж, на който живеете?",
+        "Споменахте ли датата на партито?",
+        "Обещахте ли да намалите звука след 22 часа?",
+        "Благодарихте ли им за разбирането?",
+        "Подписахте ли се с пълното си име и официален поздрав?"
+      ]
+    },
+    "21": {
+      "title": "Моето свидетелство за училище и професионално обучение",
+      "type": "Описание/тема на израз",
+      "description": "Напишете текст, който описва вашата училищна диплома от вашата страна и текущото ви професионално обучение или професията, която бихте искали да научите в Германия.",
+      "keyVocabulary": [
+        "училището",
+        "Училищно свидетелство",
+        "Професионално обучение",
+        "Учи в университета",
+        "Мечтана кариера",
+        "Работи като",
+        "Край / завършен",
+        "важно",
+        "Сертификат/училищно разрешение",
+        "Учете / изучавайте"
+      ],
+      "usefulPhrases": [
+        "Получих свидетелството си за училище в Сирия.",
+        "Моята мечтана кариера е експерт по информатика.",
+        "Завършвам професионално обучение за електротехник.",
+        "Професионалното обучение е с продължителност три години.",
+        "Добрата кариера е много важна за мен."
+      ],
+      "grammarFocus": [
+        "Използване на просто минало и минало перфектно (Perfekt: habe gemacht)",
+        "Предлози: als + Beruf (als Elektriker, als Arzt)"
+      ],
+      "structure": [
+        {
+          "step": "Учебен период у дома",
+          "tip": "Говорете за вашето училище във вашата страна, кога сте го завършили и каква степен сте получили."
+        },
+        {
+          "step": "Професионално обучение/професионална сигурност",
+          "tip": "Обяснете какво правите сега в Германия или какво професионално обучение искате."
+        },
+        {
+          "step": "Бъдещи планове",
+          "tip": "Говорете за вашия план след завършване на обучението и работа в Германия."
+        }
+      ],
+      "exampleEssayTranslation": "Прекарах ученическите си години в Сирия и получих дипломата си за училище през 2018 г. Сертификатът ми беше много добър. Сега живея в Германия. Мечтаната ми професия е автомонтьор. Така от една година се обучавах като автомонтьор в голям сервиз. Много харесвам работата, но професионалното училище понякога е трудно. След обучение бих искал да работя за постоянно като механик и да създам свое семейство.",
+      "writingTips": [
+        "Използвайте минало перфектно време, за да говорите за училище във вашата страна.",
+        "Използвайте свързващи елементи като deshalb (следователно) и weil (защото), за да обясните избора си на кариера."
+      ],
+      "selfCheckList": [
+        "Споменахте ли къде и кога сте завършили училище?",
+        "Описахте ли свидетелството си за училище?",
+        "Споменахте ли сегашната си професия или професионално обучение?",
+        "Споменахте ли къде провеждате професионалното си обучение?",
+        "Писал ли си за плановете си след дипломирането?",
+        "Проверихте ли спрежението на глаголите в миналото и настоящето?"
+      ]
+    },
+    "22": {
+      "title": "Описание на моя мечтан апартамент",
+      "type": "описание",
+      "description": "Напишете есе, в което опишете вашия мечтан апартамент: колко стаи има, къде се намира, как искате да го обзаведете и колко струва.",
+      "keyVocabulary": [
+        "Апартамент мечта",
+        "Стаята",
+        "Веранда/балкон",
+        "Наем",
+        "Странични разходи",
+        "Светещ/ярък",
+        "спокойствие",
+        "Обзаведен/оборудван с мебели",
+        "кухнята",
+        "Всекидневна"
+      ],
+      "usefulPhrases": [
+        "Моят мечтан апартамент се намира в центъра на града.",
+        "Жилището се състои от четири стаи и балкон.",
+        "Всички стаи са много големи и светли.",
+        "Бих искала да обзаведа апартамента модерно.",
+        "Наемът не трябва да е много висок."
+      ],
+      "grammarFocus": [
+        "Използване на пожелателния израз Konjunktiv II (ich möchte, wäre, hätte)",
+        "Правилни прилагателни и окончания"
+      ],
+      "structure": [
+        {
+          "step": "Местоположение и пространство",
+          "tip": "Опишете къде се намира апартамента, колко стаи и общата му площ."
+        },
+        {
+          "step": "Обков и обзавеждане",
+          "tip": "Говорете за кухнята, банята, балкона и как искате да обзаведете стаите."
+        },
+        {
+          "step": "Разходи",
+          "tip": "Посочете максималния наем, който сте готови да платите, включително страничните разходи."
+        }
+      ],
+      "exampleEssayTranslation": "Мечтаният от мен апартамент е голям, светъл и се намира на тиха улица близо до центъра на града. Състои се от три стаи: голяма всекидневна, спалня и кабинет. Апартаментът разполага и с модерна кухня и красив балкон с гледка. Бих искал да обзаведа стаите с модерни дървени мебели. Общият наем не трябва да надвишава максимум 800 евро на месец. Също така обичам да имам мили съседи в сградата. Това би било перфектно!",
+      "writingTips": [
+        "Използвайте подходящи прилагателни, за да опишете стаите (hell, groß, gemütlich).",
+        "Не забравяйте, че подлогът и сказуемото са еднакви по вид и число."
+      ],
+      "selfCheckList": [
+        "Описахте ли местоположението на вашия мечтан апартамент?",
+        "Споменахте ли броя на стаите?",
+        "За балкона ли говорихте или за кухнята?",
+        "Споменах ли как искате да го изчеткате?",
+        "Определихте ли правилната цена за вас?",
+        "Използвахте ли подходящи езикови структури за пожелание?"
+      ]
+    },
+    "23": {
+      "title": "Напишете описание на маршрута",
+      "type": "Имейл / Описание на маршрута",
+      "description": "Напишете имейл на приятел, който ви посещава за първи път, като опишете маршрута от централната жп гара до вашия апартамент.",
+      "keyVocabulary": [
+        "ЖП гара",
+        "Описание на маршрута",
+        "Направо/направо напред",
+        "Завийте надясно/наляво",
+        "Кръстовището",
+        "Светофар",
+        "вземете (автобуса)",
+        "Слезте от автобуса/влака",
+        "Станция/позиция",
+        "срещу за"
+      ],
+      "usefulPhrases": [
+        "От централната гара вземете линия 3 на метрото.",
+        "Карайте три спирки и слезте на спирка \"Музей\".",
+        "Вървете направо до светофара и завийте наляво.",
+        "Къщата ми се намира точно срещу пекарната.",
+        "Пътят е много лесен за намиране."
+      ],
+      "grammarFocus": [
+        "Използвайте симпатичния императив (nimm, gehe, biege ab)",
+        "Пространствени предлози: gegenüber von + Dativ, an der Haltestelle"
+      ],
+      "structure": [
+        {
+          "step": "Поздрави и добре дошли",
+          "tip": "Посрещнете своя приятел и изразете щастието си от неговото посещение."
+        },
+        {
+          "step": "Започвайки от гарата",
+          "tip": "Обяснете му кое транспортно средство взима от гарата и номера му."
+        },
+        {
+          "step": "Описание на ходенето",
+          "tip": "Опишете маршрута пеша от гарата до вратата (завои, сигнали)."
+        },
+        {
+          "step": "Изберете точката за достъп",
+          "tip": "Определете отличителен знак за къщата (например срещу пекарна или супермаркет)."
+        }
+      ],
+      "exampleEssayTranslation": "Здравей Лео, много се радвам, че ме посети този уикенд! Ето описанието на маршрута: От централната гара е за предпочитане да вземете линията на метрото U2 към Westend. Пътувате до четири спирки и слизате на спирка \"Улица Цар\". След това вървете направо по улицата до пресечката. На светофара завийте надясно. Къщата ми е номер 15 и се намира точно срещу пощата. Пътят е много лесен. Ще се видим в събота! С най-добри пожелания, Ахмед",
+      "writingTips": [
+        "Използвайте познатия личен императив (du): nimm (вземете), gehe (отидете), steige aus (слезте).",
+        "Посочете ясно посоката на транспортиране (в Richtung...)."
+      ],
+      "selfCheckList": [
+        "Пожелахте ли му щастливо пътуване и изразихте ли стремежа си да го посетите?",
+        "Посочили ли сте номера и посоката на линията на влака/автобуса?",
+        "Споменахте ли името на гарата, на която слиза?",
+        "Описахте ли ходенето с помощта на (надясно/наляво/напред)?",
+        "Споменахте ли номера на къщата и нейния отличителен знак?",
+        "Завършихте ли с поздрав и име?"
+      ]
+    },
+    "24": {
+      "title": "Любимата ми картина",
+      "type": "Описание/тема на израз",
+      "description": "Опишете картина или произведение на изкуството, което харесвате много: какво виждате в него, какви цветове са използвани и как се чувствате, когато го видите.",
+      "keyVocabulary": [
+        "Картина/изкуство",
+        "Художник",
+        "цвета",
+        "Цветни/възхитителни цветове",
+        "Светло/тъмно",
+        "Вижте",
+        "чувствам",
+        "природа",
+        "Психологическо състояние/обща атмосфера",
+        "Харесвам/харесвам"
+      ],
+      "usefulPhrases": [
+        "Любимата ми картина се казва \"Слънчоглед\".",
+        "В картината се вижда красива природа.",
+        "Художникът използва ярки и топли цветове.",
+        "Това произведение на изкуството ми дава усещане за спокойствие.",
+        "Намирам тази картина за много интересна."
+      ],
+      "grammarFocus": [
+        "Използване на прилагателни за свързване на чувствата с цветовете (warme Farben, ein schönes Gefühl)",
+        "Харесване на структури: gefällt mir (харесва ми), finde ich (намирам го)"
+      ],
+      "structure": [
+        {
+          "step": "Име и изпълнител",
+          "tip": "Посочете името на картината, кой я е нарисувал и кога сте я видели за първи път."
+        },
+        {
+          "step": "Описание на картината",
+          "tip": "Опишете подробно съдържанието на картината (хора, природа, неща) и доминиращите цветове."
+        },
+        {
+          "step": "Чувства и заключение",
+          "tip": "Обяснете защо особено харесвате картината и как се чувствате, когато я гледате."
+        }
+      ],
+      "exampleEssayTranslation": "Любимата ми картина е \"Звездна нощ\" на Винсент Ван Гог. Видях го в една книга за изкуството. На картината се вижда синьо нощно небе с много жълти звезди и ярък полумесец. На преден план стои тъмно дърво, а на заден план се крие малко селце. Художникът използва много сини и жълти цветове. Когато гледам тази картина, се чувствам спокоен и щастлив. Намирам картината за много красива.",
+      "writingTips": [
+        "Разделете описанието на две части: обективно описание (какво виждате) и субективно описание (какво чувствате).",
+        "Използвайте изрази за посока като im Vordergrund (на преден план) и im Hintergrund (на заден план)."
+      ],
+      "selfCheckList": [
+        "Споменахте ли името на картината и художника?",
+        "Описахте ли използваните цветове?",
+        "Описахте ли подробно съдържанието на картината?",
+        "Използвахте ли изрази като „im Vordergrund“?",
+        "Изразихте ли чувствата си към картината?",
+        "Проверихте ли граматиката за съответствие на прилагателните?"
+      ]
+    },
+    "25": {
+      "title": "Използване на медиите в ежедневието",
+      "type": "Описание/тема на израз",
+      "description": "Напишете текст, описващ как използвате различни медии (смартфон, компютър, телевизия, интернет) през деня си.",
+      "keyVocabulary": [
+        "Медия",
+        "Смартфон",
+        "Той използва / използва",
+        "ежедневно",
+        "Социални медии",
+        "Сърфиране в интернет",
+        "Новина/съобщение",
+        "чете/вижда",
+        "важно",
+        "Отнема много време"
+      ],
+      "usefulPhrases": [
+        "Използвам смартфона си всеки ден по няколко часа.",
+        "Чета в интернет новини от моята страна.",
+        "Използвам лаптопа за работа и обучение.",
+        "Социалните медии ми помагат да поддържам връзка с приятели.",
+        "Понякога прекарвам много време онлайн."
+      ],
+      "grammarFocus": [
+        "Използване на предлози с медии: auf dem Smartphone, im Internet, am Computer",
+        "Свържете изреченията, за да покажете противоречие: aber (но), obwohl (въпреки че)"
+      ],
+      "structure": [
+        {
+          "step": "въведението",
+          "tip": "Започнете, като споменете значението на медиите в съвременния ви живот."
+        },
+        {
+          "step": "Предпочитани устройства и употреба",
+          "tip": "Говорете за устройствата, които използвате ежедневно (телефон, лаптоп) и защо (работа, комуникация, учене)."
+        },
+        {
+          "step": "Критично мнение и заключение",
+          "tip": "Споменете плюсовете и минусите и смятате ли, че прекарвате много време онлайн?"
+        }
+      ],
+      "exampleEssayTranslation": "Медиите са много важни в ежедневието ми. Използвам смартфона си всеки ден за много неща: говоря по телефона, чета новини и проверявам имейла си. Използвам и социалните медии, за да поддържам връзка със семейството си. Вечер предимно сърфирам в интернет на лаптопа си или гледам филми. Намирам интернет за много полезен за учене, но понякога прекарвам твърде много време онлайн. Човек трябва да се пази от пристрастяване.",
+      "writingTips": [
+        "Споменете конкретни действия, които правите онлайн (schreiben, lesen, sehen, lernen).",
+        "Използвайте думи, които изразяват повторение, като täglich (ежедневно), oft (често), manchmal (понякога)."
+      ],
+      "selfCheckList": [
+        "Споменахте ли медиите, които използвате?",
+        "Описахте ли как използвате смартфона си?",
+        "Споменах ли използването на компютър или телевизор?",
+        "Говорихте ли за общуване със семейството и приятелите?",
+        "Изразихте ли негативите (губенето на време)?",
+        "Проверихте ли правилността на предлозите (im Internet...)?"
+      ]
+    },
+    "26": {
+      "title": "Защо гласуването е важно",
+      "type": "Статия/изразяване на мнение",
+      "description": "Напишете кратко есе, изразяващо вашето мнение относно изборите и важността на политическото участие и гласуването в едно демократично общество.",
+      "keyVocabulary": [
+        "Избирай/гласувай",
+        "Избори",
+        "демокрация",
+        "Електорален вот",
+        "Гражданин",
+        "Мнение",
+        "Решете",
+        "правителството",
+        "вярно",
+        "бъдещето"
+      ],
+      "usefulPhrases": [
+        "В една демократична система гражданите имат право на глас.",
+        "Гласуването е важно право и задължение.",
+        "Всеки глас има значение за бъдещето.",
+        "Гражданите решават кой да управлява държавата.",
+        "Мисля, че човек трябва да изрази мнението си."
+      ],
+      "grammarFocus": [
+        "Използване на свързващи изречения dass (Ich denke, dass...)",
+        "Използване на спомагателни глаголи (sollte, kann)"
+      ],
+      "structure": [
+        {
+          "step": "въведението",
+          "tip": "Дефиниция на изборите и общото им значение в страната."
+        },
+        {
+          "step": "Аргументи и мотиви",
+          "tip": "Обяснете защо всеки гражданин трябва да участва чрез гласуване (промяна на закони, решаване на бъдещето)."
+        },
+        {
+          "step": "Извод и вашето лично мнение",
+          "tip": "Обобщете ясно мнението си в заключително изречение."
+        }
+      ],
+      "exampleEssayTranslation": "Гласуването е основен елемент на демокрацията. Всеки избор дава възможност на гражданите да допринесат активно за оформянето на своето бъдеще. Вярвам, че гласуването е не само право, но и важно задължение. Ако един не гласува, други решават политиката и законите. С нашите гласове можем да избираме правителство и да изразяваме мнението си. Така че всеки гражданин трябва да отиде да гласува. Просто така работи едно свободно общество.",
+      "writingTips": [
+        "Използвайте съюза dass, за да поставите глагола в края на изречението.",
+        "Използвайте убедителни думи като wichtig (важно), Pflicht (задължение), Möglichkeit (възможност)."
+      ],
+      "selfCheckList": [
+        "Започнахте ли с ясна дефиниция на важността на изборите?",
+        "Изложил ли си поне два аргумента за важността на гласуването?",
+        "Използвахте ли правилно съюза \"dass\"?",
+        "Писал ли си за ролята на гражданина в демокрацията?",
+        "Завършихте ли със силно заключение?",
+        "Проверихте ли си правописа и пунктуацията?"
+      ]
+    },
+    "27": {
+      "title": "Култура и празници в моята страна",
+      "type": "Описание/тема на израз",
+      "description": "Напишете есе, описващо традиционен празник или културен обичай във вашата страна на произход и как го празнувате със семейството и приятелите.",
+      "keyVocabulary": [
+        "Родина",
+        "Байрам/празнуване",
+        "култура",
+        "традиционен",
+        "празнува",
+        "семейство",
+        "Храна/хранене",
+        "Посетете",
+        "навик",
+        "заедно"
+      ],
+      "usefulPhrases": [
+        "В моята страна празнуваме Ейд ал Фитр всяка година.",
+        "Това е голям и важен семеен празник.",
+        "Ходим на гости при роднини и хапваме традиционни сладки.",
+        "Всеки носи нови дрехи и дава на децата пари.",
+        "Много обичам този обичай, защото свързва хората."
+      ],
+      "grammarFocus": [
+        "Използвайте клаузи weil, за да поставите глагола в края",
+        "Използване на наречия за време за подреждане (zuerst, danach, am Ende)"
+      ],
+      "structure": [
+        {
+          "step": "Името на празника и неговото определение",
+          "tip": "Споменете името на празника и приблизително кога го празнувате във вашата страна."
+        },
+        {
+          "step": "Стъпки за празнуване",
+          "tip": "Опишете подробно какво правите сутринта на Байрам, храната, посещенията, дрехите."
+        },
+        {
+          "step": "Важност и лично усещане",
+          "tip": "Обяснете какво означава този празник за вас и защо го обичате."
+        }
+      ],
+      "exampleEssayTranslation": "В моята страна, Сирия, празнуваме Ейд ал Фитр всяка година след Рамадан. Това е голям традиционен празник за цялото семейство. В първата сутрин първо отиваме в джамията. След това всички закусваме заедно в къщата на баба ми и дядо ми. Ядем много вкусни сладки и пием кафе. Децата получават нови дрехи и малки подаръци. Много обичам този празник, защото всички роднини се събираме и много се смеем. Има красива атмосфера.",
+      "writingTips": [
+        "Използвайте подредени думи, за да подредите събитията: zuerst (първо), danach (след това), am Nachmittag (следобед).",
+        "Опишете чувства, миризми и храни, за да направите текста оживен."
+      ],
+      "selfCheckList": [
+        "Споменахте ли името на празника и вашата държава?",
+        "Уточнихте ли кога се празнува?",
+        "Описахте ли сутрешни дейности и посещения?",
+        "Споменах ли празничните храни или сладкиши?",
+        "Изразихте ли чувствата си и защо обичате този празник?",
+        "Проверихте ли словореда след съюзите?"
+      ]
     }
   },
   "el": {
@@ -7903,6 +10957,515 @@ const WRITING_TRANSLATIONS = {
         "Αναφέρατε τις δραστηριότητες σε παρελθόντα χρόνο;",
         "Βάλατε περασμένα συζευγμένα ρήματα στο τέλος της πρότασης μετά το haben/sein;",
         "Περιέγραψες το τελευταίο σου συναίσθημα;"
+      ]
+    },
+    "19": {
+      "title": "Πρόσκληση σε πάρτι γενεθλίων",
+      "type": "Email/κλήση",
+      "description": "Γράψτε ένα email προσκαλώντας τον φίλο σας στο πάρτι γενεθλίων σας, εξηγώντας πότε, πού και τι πρέπει να παρευρεθεί.",
+      "keyVocabulary": [
+        "Φωνάζει",
+        "πάρτι γενεθλίων",
+        "γιορτάζει",
+        "Σάββατο",
+        "Έξι το βράδυ",
+        "λαμβάνει χώρα / συμβαίνει",
+        "Φέρνει μαζί του",
+        "Το δώρο",
+        "Απαντά / απαντά",
+        "φίλοι"
+      ],
+      "usefulPhrases": [
+        "Σας προσκαλώ εγκάρδια στο πάρτι γενεθλίων μου.",
+        "Το πάρτι γίνεται το Σάββατο στις 6 μ.μ.",
+        "Θα γιορτάσουμε στον κήπο μου.",
+        "Μπορείτε να φέρετε μαζί σας σαλάτα ζυμαρικών;",
+        "Παρακαλώ ενημερώστε με την απάντησή σας μέχρι την Πέμπτη."
+      ],
+      "grammarFocus": [
+        "Χρήση του χωριστού ρήματος einladen (Ich lade dich ein)",
+        "Χρονικές προθέσεις: am, um",
+        "Χωρικές προθέσεις: in meinem Garten (Dativ)"
+      ],
+      "structure": [
+        {
+          "step": "Χαιρετισμούς και λόγο",
+          "tip": "Ξεκινήστε με έναν φιλικό χαιρετισμό και αναφέρετε τον λόγο που γράψατε (την πρόσκληση)."
+        },
+        {
+          "step": "Χρόνος και τόπος",
+          "tip": "Καθορίστε λεπτομερώς την ημερομηνία, την ώρα και την τοποθεσία του πάρτι."
+        },
+        {
+          "step": "Τι να φέρετε και να παραγγείλετε",
+          "tip": "Ζητήστε από τον φίλο να φέρει κάτι (όπως μια σαλάτα) και απαντήστε για να επιβεβαιώσετε την παρουσία."
+        },
+        {
+          "step": "Σύναψη",
+          "tip": "Τελειώστε με ένα φιλικό μήνυμα και μια υπογραφή με το όνομά σας."
+        }
+      ],
+      "exampleEssayTranslation": "Αγαπητέ Μαξ, σε προσκαλώ εγκάρδια στο πάρτι γενεθλίων μου. Θα γιορτάσω τα γενέθλιά μου το επόμενο Σάββατο. Το πάρτι γίνεται στον κήπο μου και ξεκινά στις 6 το απόγευμα. Θα έρθουν και πολλοί φίλοι. Θέλουμε να κάνουμε μπάρμπεκιου και να ακούμε μουσική. Μπορείτε να φέρετε λίγη σαλάτα ή ποτά μαζί σας; Παρακαλώ ενημερώστε με μέχρι την Πέμπτη αν μπορείτε να έρθετε. Ανυπομονώ να σε δω! Με εκτίμηση, Ahmed",
+      "writingTips": [
+        "Χρησιμοποιήστε μια άτυπη φόρμα διεύθυνσης: Lieber [Όνομα] για το αρσενικό ή Liebe [Όνομα] για το θηλυκό.",
+        "Θυμηθείτε να βάλετε κόμμα μετά την κλητική και να ξεκινήσετε την επόμενη πρόταση με πεζό γράμμα.",
+        "Χρησιμοποιήστε συνδέσμους όπως und και oder για να συνδέσετε προτάσεις."
+      ],
+      "selfCheckList": [
+        "Χρησιμοποιήσατε κατάλληλο φιλικό χαιρετισμό; (Λίμπερ...)",
+        "Έχετε μετρήσει με ακρίβεια το πάρτι; (Είμαι η Samstag εμ...)",
+        "Αναφέρατε πού θα γίνει το πάρτι;",
+        "Του ζήτησες να φέρει κάτι;",
+        "Του ζητήσατε να απαντήσει για να επιβεβαιώσετε την παρουσία;",
+        "Τελειώσατε με τον κατάλληλο χαιρετισμό και το όνομά σας;"
+      ]
+    },
+    "20": {
+      "title": "Email στον γείτονα",
+      "type": "Email/συγγνώμη",
+      "description": "Γράψτε ένα email στους γείτονές σας στο κτίριο για να ζητήσετε εκ των προτέρων συγγνώμη για τον θόρυβο που προκλήθηκε από ένα πάρτι που κάνετε στο διαμέρισμά σας.",
+      "keyVocabulary": [
+        "Γείτονας",
+        "Κανονισμοί/Διαταγή του Σώματος",
+        "Θόρυβος/ενόχληση",
+        "Το πάρτι",
+        "γιορτάζει",
+        "Ζητά συγγνώμη",
+        "Ήσυχη/χαμηλή φωνή",
+        "ενοχλεί",
+        "Κατανόηση",
+        "Χρόνος ανάπαυσης"
+      ],
+      "usefulPhrases": [
+        "Θα ήθελα να ζητήσω συγγνώμη για τον θόρυβο.",
+        "Έχω ένα μικρό πάρτι το Σάββατο.",
+        "Θα είμαστε ήσυχοι από τις 10 το βράδυ.",
+        "Ελπίζω να μην σας ενοχλήσουμε.",
+        "Σας ευχαριστούμε πολύ για την κατανόησή σας."
+      ],
+      "grammarFocus": [
+        "Χρήση αντανακλαστικών ρημάτων (sich entschuldigen)",
+        "Προθέσεις: für + Akkusativ, über + Akkusativ"
+      ],
+      "structure": [
+        {
+          "step": "Χαιρετίσματα",
+          "tip": "Ξεκινήστε με έναν επίσημο χαιρετισμό προς όλους τους γείτονες (Liebe Nachbarinnen und Nachbarn)."
+        },
+        {
+          "step": "Ανακοίνωση του πάρτι",
+          "tip": "Πείτε τους πότε είναι το πάρτι και γιατί."
+        },
+        {
+          "step": "Ώρα για ξεκούραση και συγγνώμη",
+          "tip": "Ζητούμε συγγνώμη για την τυχόν αναστάτωση και σας διαβεβαιώνουμε ότι θα παραμείνετε ήσυχοι μετά τις 22:00."
+        },
+        {
+          "step": "Ευχαριστώ και συμπέρασμα",
+          "tip": "Τους ευχαριστούμε για την κατανόησή τους και τελειώνουμε με επίσημους χαιρετισμούς."
+        }
+      ],
+      "exampleEssayTranslation": "Αγαπητοί φίλοι και γείτονες, μένω στον δεύτερο όροφο. Το επόμενο Σάββατο θα γιορτάσω τα γενέθλιά μου και θα κάνω ένα μικρό πάρτι στο διαμέρισμά μου. Θα έρθουν κάποιοι καλεσμένοι. Μπορεί να γίνει λίγο θορυβώδες. Ζητώ προκαταβολικά συγγνώμη για τον θόρυβο. Από τις 10 μ.μ., θα χαμηλώσουμε την ένταση της μουσικής για να σεβαστούμε την ώρα του διαλείμματος. Ελπίζω να καταλαβαίνεις. Σας ευχαριστώ πολύ! Με εκτίμηση, Ahmed Al-Hassan",
+      "writingTips": [
+        "Απευθύνθηκε στους γείτονες στον τυπικό πληθυντικό: Ihr (η κατανόησή σας = Ihr Verständnis).",
+        "Γράψτε με ευγενικό και σεβασμό για να χτίσετε μια καλή σχέση με τους γείτονες."
+      ],
+      "selfCheckList": [
+        "Γράψατε σωστά τον χαιρετισμό της ομάδας;",
+        "Έχετε αναγνωρίσει το διαμέρισμά σας ή τον όροφο στον οποίο ζείτε;",
+        "Ανέφερες την ημερομηνία του πάρτι;",
+        "Υποσχεθήκατε να χαμηλώσετε την ένταση μετά τις 10 το βράδυ;",
+        "Τους ευχαριστήσατε για την κατανόηση;",
+        "Υπέγραψες με το πλήρες όνομά σου και τον επίσημο χαιρετισμό σου;"
+      ]
+    },
+    "21": {
+      "title": "Το πιστοποιητικό του σχολείου μου και η επαγγελματική μου κατάρτιση",
+      "type": "Περιγραφή/θέμα μιας έκφρασης",
+      "description": "Γράψτε ένα κείμενο που να περιγράφει το απολυτήριο του σχολείου σας από τη χώρα σας και την τρέχουσα επαγγελματική σας κατάρτιση ή το επάγγελμα που θα θέλατε να μάθετε στη Γερμανία.",
+      "keyVocabulary": [
+        "το σχολείο",
+        "Σχολικό πιστοποιητικό",
+        "Επαγγελματική κατάρτιση",
+        "Σπουδάζει στο πανεπιστήμιο",
+        "Ονειρική καριέρα",
+        "Λειτουργεί ως",
+        "Ολοκλήρωση / Ολοκλήρωση",
+        "σπουδαίος",
+        "Πιστοποιητικό/σχολική άδεια",
+        "Μάθετε / μελετήστε"
+      ],
+      "usefulPhrases": [
+        "Πήρα το πτυχίο του σχολείου μου στη Συρία.",
+        "Η καριέρα των ονείρων μου είναι ειδικός στην πληροφορική.",
+        "Κάνω επαγγελματική εκπαίδευση ως ηλεκτρολόγος.",
+        "Η επαγγελματική κατάρτιση διαρκεί τρία χρόνια.",
+        "Μια καλή καριέρα είναι πολύ σημαντική για μένα."
+      ],
+      "grammarFocus": [
+        "Χρησιμοποιώντας το απλό παρελθόν και το περασμένο τέλειο (Perfekt: habe gemacht)",
+        "Προθέσεις: als + Beruf (als Elektriker, als Arzt)"
+      ],
+      "structure": [
+        {
+          "step": "Σχολική περίοδος στο σπίτι",
+          "tip": "Μιλήστε για το σχολείο σας στη χώρα σας, πότε το τελείωσες και ποιο πτυχίο αποκτήσατε."
+        },
+        {
+          "step": "Επαγγελματική κατάρτιση/επαγγελματική ασφάλεια",
+          "tip": "Εξηγήστε τι κάνετε τώρα στη Γερμανία ή ποια επαγγελματική κατάρτιση θέλετε."
+        },
+        {
+          "step": "Μελλοντικά σχέδια",
+          "tip": "Μιλήστε για το σχέδιό σας αφού ολοκληρώσετε την εκπαίδευσή σας και εργαστείτε στη Γερμανία."
+        }
+      ],
+      "exampleEssayTranslation": "Πέρασα τα σχολικά μου χρόνια στη Συρία και απέκτησα το απολυτήριο του σχολείου μου εκεί το 2018. Το πιστοποιητικό μου ήταν πολύ καλό. Τώρα ζω στη Γερμανία. Το επάγγελμα των ονείρων μου είναι ο μηχανικός αυτοκινήτων. Έτσι εδώ και ένα χρόνο κάνω επαγγελματική εκπαίδευση ως μηχανικός αυτοκινήτων σε ένα μεγάλο συνεργείο. Μου αρέσει πολύ η δουλειά, αλλά η επαγγελματική σχολή μερικές φορές είναι δύσκολη. Μετά την εκπαίδευση θα ήθελα να εργαστώ μόνιμα ως μηχανικός και να κάνω μια δική μου οικογένεια.",
+      "writingTips": [
+        "Χρησιμοποιήστε τον παρελθοντικό χρόνο για να μιλήσετε για το σχολείο στη χώρα σας.",
+        "Χρησιμοποιήστε συνδέσμους προτάσεων όπως deshalb (επομένως) και weil (επειδή) για να εξηγήσετε τις επιλογές σταδιοδρομίας σας."
+      ],
+      "selfCheckList": [
+        "Ανέφερες πού και πότε τελείωσες το σχολείο;",
+        "Περιγράψατε το πτυχίο του σχολείου σας;",
+        "Αναφέρατε το τρέχον επάγγελμά σας ή την επαγγελματική σας κατάρτιση;",
+        "Αναφέρατε πού κάνετε την επαγγελματική σας κατάρτιση;",
+        "Έχετε γράψει για τα σχέδιά σας μετά την αποφοίτηση;",
+        "Έχετε ελέγξει τη σύζευξη των ρημάτων στο παρελθόν και το παρόν;"
+      ]
+    },
+    "22": {
+      "title": "Περιγραφή του διαμερίσματος των ονείρων μου",
+      "type": "μια περιγραφή",
+      "description": "Γράψτε ένα δοκίμιο που να περιγράφει το διαμέρισμα των ονείρων σας: πόσα δωμάτια έχει, πού βρίσκεται, πώς θέλετε να το επιπλώσετε και πόσο κοστίζει.",
+      "keyVocabulary": [
+        "Ονειρικό διαμέρισμα",
+        "Το δωμάτιο",
+        "Βεράντα/μπαλκόνι",
+        "Ενοίκιο",
+        "Παράπλευρα έξοδα",
+        "Φωτεινό/φωτεινό",
+        "ηρεμία",
+        "Επιπλωμένο/εξοπλισμένο με έπιπλα",
+        "την κουζίνα",
+        "Καθιστικό"
+      ],
+      "usefulPhrases": [
+        "Το διαμέρισμα των ονείρων μου βρίσκεται στο κέντρο της πόλης.",
+        "Το διαμέρισμα αποτελείται από τέσσερα δωμάτια και μπαλκόνι.",
+        "Όλα τα δωμάτια είναι πολύ μεγάλα και φωτεινά.",
+        "Θα ήθελα να επιπλώσω το διαμέρισμα με μοντέρνο τρόπο.",
+        "Το ενοίκιο δεν πρέπει να είναι πολύ υψηλό."
+      ],
+      "grammarFocus": [
+        "Χρήση της ευσεβούς έκφρασης Konjunktiv II (ich möchte, wäre, hätte)",
+        "Σωστά επίθετα και καταλήξεις"
+      ],
+      "structure": [
+        {
+          "step": "Τοποθεσία και χώρος",
+          "tip": "Περιγράψτε πού βρίσκεται το διαμέρισμα, πόσα δωμάτια και τη συνολική του επιφάνεια."
+        },
+        {
+          "step": "Εξοπλισμός και επίπλωση",
+          "tip": "Μιλήστε για την κουζίνα, το μπάνιο, το μπαλκόνι και πώς θέλετε να επιπλώσετε τα δωμάτια."
+        },
+        {
+          "step": "Δικαστικά έξοδα",
+          "tip": "Δηλώστε το μέγιστο ενοίκιο που είστε διατεθειμένοι να πληρώσετε, συμπεριλαμβανομένων των παράπλευρων εξόδων."
+        }
+      ],
+      "exampleEssayTranslation": "Το διαμέρισμα των ονείρων μου είναι μεγάλο, φωτεινό και βρίσκεται σε έναν ήσυχο δρόμο κοντά στο κέντρο της πόλης. Αποτελείται από τρία δωμάτια: ένα μεγάλο σαλόνι, ένα υπνοδωμάτιο και ένα δωμάτιο γραφείου. Το διαμέρισμα διαθέτει επίσης μοντέρνα κουζίνα και όμορφο μπαλκόνι με θέα. Θα ήθελα να επιπλώσω τα δωμάτια με μοντέρνα ξύλινα έπιπλα. Το συνολικό ενοίκιο δεν πρέπει να υπερβαίνει τα 800 ευρώ το μήνα. Μου αρέσει επίσης να έχω καλούς γείτονες στο κτίριο. Αυτό θα ήταν τέλειο!",
+      "writingTips": [
+        "Χρησιμοποιήστε κατάλληλα επίθετα για να περιγράψετε δωμάτια (κόλαση, groß, gemütlich).",
+        "Θυμηθείτε ότι το υποκείμενο και το κατηγόρημα είναι πανομοιότυπα ως προς τον τύπο και τον αριθμό."
+      ],
+      "selfCheckList": [
+        "Περιγράψατε την τοποθεσία του διαμερίσματος των ονείρων σας;",
+        "Αναφέρατε τον αριθμό των δωματίων;",
+        "Μίλησες για το μπαλκόνι ή την κουζίνα;",
+        "Σας ανέφερα πώς θέλετε να το βουρτσίσετε;",
+        "Έχετε ορίσει τη σωστή τιμή για εσάς;",
+        "Χρησιμοποιήσατε κατάλληλες γλωσσικές δομές για την ευχή;"
+      ]
+    },
+    "23": {
+      "title": "Γράψτε μια περιγραφή διαδρομής",
+      "type": "Email / Περιγραφή διαδρομής",
+      "description": "Γράψτε ένα email σε έναν φίλο που σας επισκέπτεται για πρώτη φορά, περιγράφοντας τη διαδρομή από τον κεντρικό σιδηροδρομικό σταθμό στο διαμέρισμά σας.",
+      "keyVocabulary": [
+        "σιδηροδρομικός σταθμός",
+        "Περιγραφή διαδρομής",
+        "Ευθεία / ευθεία μπροστά",
+        "Στρίψτε δεξιά/αριστερά",
+        "Η διασταύρωση",
+        "Φανάρι",
+        "πάρε (το λεωφορείο)",
+        "Κατεβείτε από το λεωφορείο/τρένο",
+        "Σταθμός/θέση",
+        "έναντι για"
+      ],
+      "usefulPhrases": [
+        "Από τον κεντρικό σταθμό πάρτε τη γραμμή 3 του μετρό.",
+        "Οδηγήστε για τρεις στάσεις και κατεβείτε στη στάση «Μουσείο».",
+        "Περπατήστε ευθεία μέχρι το φανάρι και στρίψτε αριστερά.",
+        "Το σπίτι μου βρίσκεται ακριβώς απέναντι από το αρτοποιείο.",
+        "Το μονοπάτι είναι πολύ εύκολο να βρεθεί."
+      ],
+      "grammarFocus": [
+        "Χρησιμοποιήστε τη συμπαθητική προστακτική (nimm, gehe, biege ab)",
+        "Χωρικές προθέσεις: gegenüber von + Dativ, an der Haltestelle"
+      ],
+      "structure": [
+        {
+          "step": "Χαιρετισμούς και καλωσόρισμα",
+          "tip": "Καλωσορίστε τον φίλο σας και εκφράστε την ευτυχία σας στην επίσκεψή του."
+        },
+        {
+          "step": "Ξεκινώντας από τον σταθμό",
+          "tip": "Εξηγήστε του ποιο μεταφορικό μέσο παίρνει από το σταθμό και τον αριθμό του."
+        },
+        {
+          "step": "Περιγραφή του περπατήματος",
+          "tip": "Περιγράψτε τη διαδρομή με τα πόδια από το σταθμό μέχρι την πόρτα (στροφές, σήματα)."
+        },
+        {
+          "step": "Επιλέξτε το σημείο πρόσβασης",
+          "tip": "Προσδιορίστε ένα διακριτικό σημάδι για το σπίτι (όπως απέναντι από ένα αρτοποιείο ή σούπερ μάρκετ)."
+        }
+      ],
+      "exampleEssayTranslation": "Γεια Leo, χαίρομαι πολύ που το επισκεφτήκατε αυτό το Σαββατοκύριακο! Εδώ είναι η περιγραφή της διαδρομής: Από τον κεντρικό σταθμό είναι προτιμότερο να πάρετε τη γραμμή του μετρό U2 προς Westend. Οδηγείτε σε τέσσερις στάσεις και κατεβαίνετε στη στάση «Οδός Τσάρου». Στη συνέχεια περπατήστε ευθεία στο δρόμο μέχρι τη διασταύρωση. Στο φανάρι στρίψτε δεξιά. Το σπίτι μου είναι νούμερο 15 και βρίσκεται ακριβώς απέναντι από το ταχυδρομείο. Η διαδρομή είναι πολύ εύκολη. Τα λέμε το Σάββατο! Με εκτίμηση, Ahmed",
+      "writingTips": [
+        "Χρησιμοποιήστε τη γνωστή προσωπική προστακτική (du): nimm (πάρε), gehe (πάω), steige aus (κατέβα).",
+        "Καθορίστε ξεκάθαρα την κατεύθυνση μεταφοράς (στο Richtung...)."
+      ],
+      "selfCheckList": [
+        "Του ευχηθήκατε καλό ταξίδι και εκφράσατε την επιθυμία σας να τον επισκεφτείτε;",
+        "Έχετε καθορίσει τον αριθμό και την κατεύθυνση της γραμμής τρένου/λεωφορείου;",
+        "Ανέφερες το όνομα του σταθμού που κατεβαίνει;",
+        "Περιγράψατε το περπάτημα χρησιμοποιώντας (δεξιά/αριστερά/εμπρός);",
+        "Ανέφερες τον αριθμό του σπιτιού και το διακριτικό του σημάδι;",
+        "Τελείωσες με χαιρετισμό και όνομα;"
+      ]
+    },
+    "24": {
+      "title": "Ο αγαπημένος μου πίνακας",
+      "type": "Περιγραφή/θέμα μιας έκφρασης",
+      "description": "Περιγράψτε έναν πίνακα ή ένα έργο τέχνης που σας αρέσει πολύ: τι βλέπετε σε αυτό, ποια χρώματα χρησιμοποιούνται και πώς αισθάνεστε όταν το βλέπετε.",
+      "keyVocabulary": [
+        "Ζωγραφική/έργο τέχνης",
+        "Καλλιτέχνης",
+        "το χρώμα",
+        "Πολύχρωμα / απολαυστικά χρώματα",
+        "Φως/σκοτάδι",
+        "Βλέπω",
+        "αφή",
+        "φύση",
+        "Ψυχολογική κατάσταση/γενική ατμόσφαιρα",
+        "Μου αρέσει/μου αρέσει"
+      ],
+      "usefulPhrases": [
+        "Ο αγαπημένος μου πίνακας λέγεται «Ηλίανθος».",
+        "Στον πίνακα βλέπει κανείς όμορφη φύση.",
+        "Ο ζωγράφος χρησιμοποιεί έντονα και ζεστά χρώματα.",
+        "Αυτό το έργο τέχνης μου δίνει μια αίσθηση ηρεμίας.",
+        "Βρίσκω αυτόν τον πίνακα πολύ ενδιαφέρον."
+      ],
+      "grammarFocus": [
+        "Χρήση επιθέτων για τη σύνδεση των συναισθημάτων με τα χρώματα (ζεστό Farben, ein schönes Gefühl)",
+        "Δομές αρεστών: gefällt mir (μου αρέσει), finde ich (το βρίσκω)"
+      ],
+      "structure": [
+        {
+          "step": "Όνομα και καλλιτέχνης",
+          "tip": "Δηλώστε το όνομα του πίνακα, ποιος τον ζωγράφισε και πότε τον πρωτοείδατε."
+        },
+        {
+          "step": "Περιγραφή του πίνακα",
+          "tip": "Περιγράψτε αναλυτικά τα περιεχόμενα του πίνακα (άνθρωποι, φύση, πράγματα) και τα κυρίαρχα χρώματά του."
+        },
+        {
+          "step": "Συναισθήματα και συμπέρασμα",
+          "tip": "Εξηγήστε γιατί σας αρέσει ιδιαίτερα ο πίνακας και πώς νιώθετε όταν τον κοιτάτε."
+        }
+      ],
+      "exampleEssayTranslation": "Ο αγαπημένος μου πίνακας είναι «Η έναστρη νύχτα» του Βίνσεντ Βαν Γκογκ. Το είδα σε ένα βιβλίο για την τέχνη. Στον πίνακα, βλέπει κανείς έναν γαλάζιο νυχτερινό ουρανό με πολλά κίτρινα αστέρια και ένα φωτεινό μισοφέγγαρο. Στο πρώτο πλάνο στέκεται ένα σκούρο δέντρο και στο βάθος ένα μικρό χωριό. Ο ζωγράφος χρησιμοποιεί πολλά μπλε και κίτρινα χρώματα. Όταν κοιτάζω αυτόν τον πίνακα, νιώθω ήρεμος και χαρούμενος. Βρίσκω τον πίνακα πολύ όμορφο.",
+      "writingTips": [
+        "Χωρίστε την περιγραφή σε δύο μέρη: αντικειμενική περιγραφή (αυτό που βλέπετε) και υποκειμενική περιγραφή (τι αισθάνεστε).",
+        "Χρησιμοποιήστε εκφράσεις κατεύθυνσης όπως im Vordergrund (στο πρώτο πλάνο) και im Hintergrund (στο παρασκήνιο)."
+      ],
+      "selfCheckList": [
+        "Ανέφερες το όνομα του πίνακα και του καλλιτέχνη;",
+        "Περιγράψατε τα χρώματα που χρησιμοποιήθηκαν;",
+        "Περιγράψατε αναλυτικά το περιεχόμενο του πίνακα;",
+        "Χρησιμοποιήσατε εκφράσεις όπως \"im Vordergrund\";",
+        "Εξέφρασες τα συναισθήματά σου για τον πίνακα;",
+        "Έχετε ελέγξει τη γραμματική για να ταιριάζει με τα επίθετα;"
+      ]
+    },
+    "25": {
+      "title": "Χρήση των μέσων στην καθημερινή ζωή",
+      "type": "Περιγραφή/θέμα μιας έκφρασης",
+      "description": "Γράψτε ένα κείμενο που να εκφράζει πώς χρησιμοποιείτε διαφορετικά μέσα (smartphone, υπολογιστής, τηλεόραση, Διαδίκτυο) στην ημέρα σας.",
+      "keyVocabulary": [
+        "Μέσα ενημέρωσης",
+        "Smartphone",
+        "Χρησιμοποιεί / χρησιμοποιεί",
+        "καθημερινά",
+        "Μέσα κοινωνικής δικτύωσης",
+        "Περιήγηση στο Διαδίκτυο",
+        "Ειδήσεις/μήνυμα",
+        "διαβάζει/βλέπει",
+        "σπουδαίος",
+        "Χρονοβόρο"
+      ],
+      "usefulPhrases": [
+        "Χρησιμοποιώ το smartphone μου κάθε μέρα για αρκετές ώρες.",
+        "Διαβάζω στο Διαδίκτυο ειδήσεις από τη χώρα μου.",
+        "Χρησιμοποιώ το φορητό υπολογιστή για τη δουλειά και τη μάθησή μου.",
+        "Τα μέσα κοινωνικής δικτύωσης με βοηθούν να παραμένω σε επαφή με φίλους.",
+        "Μερικές φορές περνάω πολύ χρόνο στο διαδίκτυο."
+      ],
+      "grammarFocus": [
+        "Χρήση προθέσεων με μέσα: auf dem Smartphone, im Internet, am Computer",
+        "Συνδέστε τις προτάσεις για να δείξετε αντίφαση: aber (αλλά), obwohl (αν και)"
+      ],
+      "structure": [
+        {
+          "step": "η εισαγωγή",
+          "tip": "Ξεκινήστε αναφέροντας τη σημασία των μέσων ενημέρωσης στη σύγχρονη ζωή σας."
+        },
+        {
+          "step": "Προτιμώμενες συσκευές και χρήση",
+          "tip": "Μιλήστε για τις συσκευές που χρησιμοποιείτε καθημερινά (τηλέφωνο, φορητό υπολογιστή) και γιατί (εργασία, επικοινωνία, μάθηση)."
+        },
+        {
+          "step": "Κριτική γνώμη και συμπέρασμα",
+          "tip": "Αναφέρετε τα πλεονεκτήματα και τα μειονεκτήματα και πιστεύετε ότι περνάτε πολύ χρόνο στο διαδίκτυο;"
+        }
+      ],
+      "exampleEssayTranslation": "Τα μέσα ενημέρωσης είναι πολύ σημαντικά στην καθημερινότητά μου. Χρησιμοποιώ το smartphone μου καθημερινά για πολλά πράγματα: μιλάω στο τηλέφωνο, διαβάζω ειδήσεις και ελέγχω το email μου. Χρησιμοποιώ επίσης τα μέσα κοινωνικής δικτύωσης για να έχω επαφή με την οικογένειά μου. Το βράδυ, σερφάρω κυρίως στο Διαδίκτυο στο laptop μου ή βλέπω ταινίες. Θεωρώ ότι το Διαδίκτυο είναι πολύ χρήσιμο για μάθηση, αλλά μερικές φορές περνάω πάρα πολύ χρόνο στο διαδίκτυο. Πρέπει κανείς να προσέχει τον εθισμό.",
+      "writingTips": [
+        "Αναφέρετε συγκεκριμένες ενέργειες που κάνετε στο διαδίκτυο (schreiben, lesen, sehen, lernen).",
+        "Χρησιμοποιήστε λέξεις που εκφράζουν επανάληψη όπως täglich (καθημερινά), συχνά (συχνά), manchmal (μερικές φορές)."
+      ],
+      "selfCheckList": [
+        "Αναφέρατε τα μέσα που χρησιμοποιείτε;",
+        "Περιγράψατε τη χρήση του smartphone σας;",
+        "Ανέφερα τη χρήση του υπολογιστή ή της τηλεόρασης;",
+        "Μιλήσατε για την επικοινωνία με την οικογένεια και τους φίλους σας;",
+        "Εξέφρασες τα αρνητικά (χάσιμο χρόνου);",
+        "Έχετε ελέγξει την ορθότητα των προθέσεων (im Internet...);"
+      ]
+    },
+    "26": {
+      "title": "Γιατί η ψηφοφορία είναι σημαντική",
+      "type": "Άρθρο/έκφραση γνώμης",
+      "description": "Γράψτε ένα σύντομο δοκίμιο εκφράζοντας τη γνώμη σας για τις εκλογές και τη σημασία της πολιτικής συμμετοχής και της ψήφου σε μια δημοκρατική κοινωνία.",
+      "keyVocabulary": [
+        "Εκλογή/ψηφοφορία",
+        "Αρχαιρεσίες",
+        "Δημοκρατία",
+        "Εκλογική ψήφος",
+        "Πολίτης",
+        "Γνώμη",
+        "Αποφασίζω",
+        "η κυβέρνηση",
+        "Δικαίωμα",
+        "το μέλλον"
+      ],
+      "usefulPhrases": [
+        "Σε ένα δημοκρατικό σύστημα, οι πολίτες έχουν δικαίωμα ψήφου.",
+        "Η ψήφος είναι σημαντικό δικαίωμα και καθήκον.",
+        "Κάθε ψήφος έχει σημασία για το μέλλον.",
+        "Οι πολίτες αποφασίζουν ποιος κυβερνά τη χώρα.",
+        "Νομίζω ότι κάποιος πρέπει να εκφράσει τη γνώμη του."
+      ],
+      "grammarFocus": [
+        "Χρήση προτάσεων σύνδεσης dass (Ich denke, dass...)",
+        "Χρήση βοηθητικών ρημάτων (sollte, kann)"
+      ],
+      "structure": [
+        {
+          "step": "η εισαγωγή",
+          "tip": "Ορισμός των εκλογών και η γενικότερη σημασία τους στη χώρα."
+        },
+        {
+          "step": "Επιχειρήματα και λόγοι",
+          "tip": "Εξηγήστε γιατί κάθε πολίτης πρέπει να συμμετέχει ψηφίζοντας (αλλαγή νόμων, απόφαση για το μέλλον)."
+        },
+        {
+          "step": "Συμπέρασμα και προσωπική σας άποψη",
+          "tip": "Συνοψίστε τη γνώμη σας με σαφήνεια σε μια τελική πρόταση."
+        }
+      ],
+      "exampleEssayTranslation": "Η ψήφος είναι βασικό στοιχείο της δημοκρατίας. Κάθε εκλογές δίνει στους πολίτες την ευκαιρία να συμβάλουν ενεργά στη διαμόρφωση του μέλλοντός τους. Πιστεύω ότι η ψήφος δεν είναι μόνο δικαίωμα, αλλά και σημαντικό καθήκον. Αν κάποιος δεν ψηφίσει, άλλοι αποφασίζουν την πολιτική και τους νόμους. Με τις ψήφους μας μπορούμε να επιλέξουμε την κυβέρνηση και να εκφράσουμε τις απόψεις μας. Άρα κάθε πολίτης πρέπει να πάει να ψηφίσει. Έτσι ακριβώς λειτουργεί μια ελεύθερη κοινωνία.",
+      "writingTips": [
+        "Χρησιμοποιήστε τον σύνδεσμο dass για να βάλετε το ρήμα στο τέλος της πρότασης.",
+        "Χρησιμοποιήστε πειστικές λέξεις όπως wichtig (σημαντικό), Pflicht (καθήκον), Möglichkeit (ευκαιρία)."
+      ],
+      "selfCheckList": [
+        "Ξεκινήσατε με έναν σαφή ορισμό της σημασίας των εκλογών;",
+        "Έχετε προβάλει τουλάχιστον δύο επιχειρήματα για τη σημασία της ψήφου;",
+        "Χρησιμοποιήσατε σωστά τον σύνδεσμο «dass»;",
+        "Έχετε γράψει για το ρόλο του πολίτη στη δημοκρατία;",
+        "Τελειώσατε με ένα ισχυρό συμπέρασμα;",
+        "Έχετε ελέγξει την ορθογραφία και τη στίξη σας;"
+      ]
+    },
+    "27": {
+      "title": "Πολιτισμός και διακοπές στη χώρα μου",
+      "type": "Περιγραφή/θέμα μιας έκφρασης",
+      "description": "Γράψτε ένα δοκίμιο που να περιγράφει μια παραδοσιακή γιορτή ή πολιτιστικό έθιμο στη χώρα καταγωγής σας και πώς τις γιορτάζετε με την οικογένεια και τους φίλους σας.",
+      "keyVocabulary": [
+        "Πατρίδα",
+        "Eid/γιορτή",
+        "Καλλιέργεια",
+        "παραδοσιακός",
+        "γιορτάζει",
+        "Οικογένεια",
+        "Φαγητό/φαγητό",
+        "Επίσκεψη",
+        "Συνήθεια",
+        "μαζί"
+      ],
+      "usefulPhrases": [
+        "Στη χώρα μου, γιορτάζουμε το Eid al-Fitr κάθε χρόνο.",
+        "Αυτή είναι μια μεγάλη και σημαντική οικογενειακή γιορτή.",
+        "Επισκεπτόμαστε συγγενείς και τρώμε παραδοσιακά γλυκά.",
+        "Όλοι φοράνε καινούργια ρούχα και δίνουν χρήματα στα παιδιά.",
+        "Μου αρέσει πολύ αυτό το έθιμο γιατί συνδέει τους ανθρώπους."
+      ],
+      "grammarFocus": [
+        "Χρησιμοποιήστε ρήτρες weil για να βάλετε το ρήμα στο τέλος",
+        "Χρήση χρονικών επιρρημάτων για τακτοποίηση (zuerst, danach, am Ende)"
+      ],
+      "structure": [
+        {
+          "step": "Το όνομα της γιορτής και ο ορισμός της",
+          "tip": "Αναφέρετε το όνομα της γιορτής και περίπου πότε τη γιορτάζετε στη χώρα σας."
+        },
+        {
+          "step": "Βήματα γιορτής",
+          "tip": "Περιγράψτε αναλυτικά τι κάνετε το πρωί του Eid, το φαγητό, τις επισκέψεις, τα ρούχα."
+        },
+        {
+          "step": "Σημασία και προσωπικό συναίσθημα",
+          "tip": "Εξηγήστε τι σημαίνει για εσάς αυτές οι διακοπές και γιατί τις αγαπάτε."
+        }
+      ],
+      "exampleEssayTranslation": "Στη χώρα μου, τη Συρία, γιορτάζουμε το Eid al-Fitr κάθε χρόνο μετά το Ραμαζάνι. Είναι μια μεγάλη παραδοσιακή γιορτή για όλη την οικογένεια. Το πρώτο πρωί πηγαίνουμε πρώτα στο τζαμί. Μετά από αυτό, τρώμε όλοι μαζί πρωινό στο σπίτι του παππού και της γιαγιάς μου. Τρώμε πολύ νόστιμα γλυκά και πίνουμε καφέ. Τα παιδιά λαμβάνουν νέα ρούχα και μικρά δώρα. Αγαπώ πολύ αυτές τις διακοπές γιατί μαζεύονται όλοι οι συγγενείς και γελάμε πολύ. Υπάρχει μια όμορφη ατμόσφαιρα.",
+      "writingTips": [
+        "Χρησιμοποιήστε λέξεις σειράς για να ταξινομήσετε τα γεγονότα: zuerst (πρώτα), danach (μετά), am Nachmittag (το απόγευμα).",
+        "Περιγράψτε συναισθήματα, μυρωδιές και τροφές για να κάνετε το κείμενο ζωντανό."
+      ],
+      "selfCheckList": [
+        "Ανέφερες το όνομα της γιορτής και τη χώρα σου;",
+        "Ξεκαθάρισες πότε γιορτάζεται;",
+        "Περιγράψατε τις πρωινές δραστηριότητες και επισκέψεις;",
+        "Ανέφερα τα εορταστικά φαγητά ή γλυκά;",
+        "Έχετε εκφράσει τα συναισθήματά σας και γιατί αγαπάτε αυτές τις διακοπές;",
+        "Έχετε ελέγξει τη σειρά των λέξεων μετά τους συνδέσμους;"
       ]
     }
   }

@@ -910,6 +910,705 @@ const CONVERSATION_SCENARIOS = [
         ]
       }
     ]
+  },
+  {
+    "id": 16,
+    "ch": 14,
+    "title": "Eine Geburtstagsparty planen",
+    "titleAr": "التخطيط لحفلة عيد ميلاد",
+    "emoji": "🎉",
+    "difficulty": "Einfach",
+    "turns": [
+      {
+        "speaker": "partner",
+        "textDe": "Hallo! Mein Geburtstag ist nächste Woche. Hilfst du mir beim Planen?",
+        "textAr": "مرحباً! عيد ميلادي الأسبوع القادم. هل تساعدني في التخطيط؟"
+      },
+      {
+        "speaker": "user",
+        "prompt": "وافق بترحيب واقترح إقامة الحفلة يوم السبت",
+        "options": [
+          {
+            "textDe": "Hallo! Ja, gerne. Lass uns die Party am Samstag feiern.",
+            "textAr": "مرحباً! نعم، بكل سرور. لنحتفل بالحفلة يوم السبت.",
+            "points": 10
+          },
+          {
+            "textDe": "Klar helfe ich dir! Wir können am Samstag feiern.",
+            "textAr": "بالتأكيد سأساعدك! يمكننا الاحتفال يوم السبت.",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "speaker": "partner",
+        "textDe": "Super Idee! Sollen wir in meiner Wohnung oder im Park feiern?",
+        "textAr": "فكرة رائعة! هل نحتفل في شقتي أم في الحديقة؟"
+      },
+      {
+        "speaker": "user",
+        "prompt": "اقترح الحديقة لأن الطقس جميل",
+        "options": [
+          {
+            "textDe": "Ich schlage vor, wir feiern im Park, weil das Wetter schön ist.",
+            "textAr": "أقترح أن نحتفل في الحديقة لأن الطقس جميل.",
+            "points": 10
+          },
+          {
+            "textDe": "Im Park ist es besser. Das Wetter ist am Samstag super.",
+            "textAr": "في الحديقة أفضل. الطقس يوم السبت سيكون رائعاً.",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "speaker": "partner",
+        "textDe": "Abgemacht, im Park! Kannst du vielleicht einen Salat mitbringen?",
+        "textAr": "اتفقنا، في الحديقة! هل يمكنك جلب سلطة معك؟"
+      },
+      {
+        "speaker": "user",
+        "prompt": "وافق وأخبره بنوع السلطة التي ستحضرها",
+        "options": [
+          {
+            "textDe": "Ja, kein Problem. Ich mache einen leckeren Nudelsalat.",
+            "textAr": "نعم، لا مشكلة. سأصنع سلطة معكرونة لذيذة.",
+            "points": 10
+          },
+          {
+            "textDe": "Klar, ich bringe gerne einen Kartoffelsalat mit.",
+            "textAr": "بالتأكيد، سأجلب معي سلطة بطاطس بكل سرور.",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "speaker": "partner",
+        "textDe": "Vielen Dank! Ich lade jetzt die anderen Freunde ein. Bis dann!",
+        "textAr": "شكراً جزيلاً! سأدعو الآن الأصدقاء الآخرين. أراك لاحقاً!"
+      },
+      {
+        "speaker": "user",
+        "prompt": "ودّع صديقك وتمنّى له يوماً سعيداً",
+        "options": [
+          {
+            "textDe": "Tschüss! Bis Samstag und viel Spaß!",
+            "textAr": "مع السلامة! أراك السبت واستمتع بوقتك!",
+            "points": 10
+          },
+          {
+            "textDe": "Bis bald! Ich freue mich auf die Party.",
+            "textAr": "أراك قريباً! أنا متطلع للحفلة.",
+            "points": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "ch": 15,
+    "title": "Konflikt mit dem Nachbarn lösen",
+    "titleAr": "حل نزاع مع الجار",
+    "emoji": "🏢",
+    "difficulty": "Mittel",
+    "turns": [
+      {
+        "speaker": "partner",
+        "textDe": "Guten Tag. Ich bin Ihr Nachbar. Die Musik aus Ihrer Wohnung ist sehr laut.",
+        "textAr": "نهار سعيد. أنا جارك. الموسيقى من شقتك عالية جداً."
+      },
+      {
+        "speaker": "user",
+        "prompt": "اعتذر بلطف واشرح له أنك تنظف الشقة",
+        "options": [
+          {
+            "textDe": "Entschuldigung! Das tut mir leid. Ich putze gerade meine Wohnung.",
+            "textAr": "المعذرة! أنا آسف جداً. أنا أنظف شقتي حالياً.",
+            "points": 10
+          },
+          {
+            "textDe": "Oh, entschuldigen Sie bitte. Ich habe beim Putzen Musik gehört.",
+            "textAr": "أوه، أرجو المعذرة. كنت أستمع للموسيقى أثناء التنظيف.",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "speaker": "partner",
+        "textDe": "Verstehe, aber laut Hausordnung müssen wir ab 13 Uhr Mittagsruhe haben.",
+        "textAr": "أفهم ذلك، ولكن وفقاً للائحة البيت يجب أن نلتزم بفترة الراحة الظهرية بدءاً من الساعة الواحدة."
+      },
+      {
+        "speaker": "user",
+        "prompt": "أكد التزامك بلائحة البيت ووعده بإغلاق الموسيقى فوراً",
+        "options": [
+          {
+            "textDe": "Sie haben recht. Ich mache die Musik sofort aus.",
+            "textAr": "أنت على حق. سأغلق الموسيقى فوراً.",
+            "points": 15
+          },
+          {
+            "textDe": "Das wusste ich nicht. Ich mache die Musik natürlich sofort leiser.",
+            "textAr": "لم أكن أعلم ذلك. سأخفض صوت الموسيقى فوراً بالطبع.",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "speaker": "partner",
+        "textDe": "Vielen Dank für Ihr Verständnis. Ich arbeite im Homeoffice und brauche Ruhe.",
+        "textAr": "شكراً جزيلاً لتفهمك. أنا أعمل من المنزل وأحتاج للهدوء."
+      },
+      {
+        "speaker": "user",
+        "prompt": "عبّر عن تفهمك وتمنّى له عملاً موفقاً",
+        "options": [
+          {
+            "textDe": "Kein Problem, das verstehe ich gut. Frohes Schaffen!",
+            "textAr": "لا مشكلة، أنا أفهم ذلك جيداً. عمل موفق!",
+            "points": 10
+          },
+          {
+            "textDe": "Ich verstehe. Es tut mir nochmals leid. Einen schönen Arbeitstag noch!",
+            "textAr": "أنا أفهم. أنا آسف مجدداً. أتمنى لك يوم عمل سعيداً!",
+            "points": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "ch": 16,
+    "title": "Über die Ausbildung sprechen",
+    "titleAr": "التحدث عن التدريب المهني",
+    "emoji": "🎓",
+    "difficulty": "Einfach",
+    "turns": [
+      {
+        "speaker": "partner",
+        "textDe": "Hallo! Was machst du nach der Schule? Machst du eine Ausbildung?",
+        "textAr": "مرحباً! ماذا تفعل بعد المدرسة؟ هل تقوم بتدريب مهني؟"
+      },
+      {
+        "speaker": "user",
+        "prompt": "أجبه بنعم وأخبره أنك تقوم بتدريب مهني ككهربائي",
+        "options": [
+          {
+            "textDe": "Hallo! Ja, ich mache eine Ausbildung als Elektriker.",
+            "textAr": "مرحباً! نعم، أنا أقوم بتدريب مهني ككهربائي.",
+            "points": 10
+          },
+          {
+            "textDe": "Ja, genau. Ich lerne den Beruf Elektriker in einer Firma.",
+            "textAr": "نعم، تماماً. أنا أتعلم مهنة الكهربائي في شركة.",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "speaker": "partner",
+        "textDe": "Interessant! Wie lange dauert die Ausbildung und wie ist die Berufsschule?",
+        "textAr": "مثير للاهتمام! كم مدة التدريب المهني وكيف هي المدرسة المهنية؟"
+      },
+      {
+        "speaker": "user",
+        "prompt": "أخبره بمدة الدراسة وأن القواعد صعبة قليلاً",
+        "options": [
+          {
+            "textDe": "Die Ausbildung dauert drei Jahre. Die Schule ist gut, aber die Grammatik ist schwer.",
+            "textAr": "يستمر التدريب ثلاث سنوات. المدرسة جيدة، لكن القواعد صعبة.",
+            "points": 15
+          },
+          {
+            "textDe": "Sie dauert drei Jahre. Die Berufsschule ist interessant, aber manchmal schwer.",
+            "textAr": "يستمر ثلاث سنوات. المدرسة المهنية مثيرة للاهتمام، لكنها صعبة أحياناً.",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "speaker": "partner",
+        "textDe": "Das verstehe ich. Möchtest du nach der Ausbildung in der Firma bleiben?",
+        "textAr": "أنا أفهم ذلك. هل تود البقاء في الشركة بعد إنهاء التدريب؟"
+      },
+      {
+        "speaker": "user",
+        "prompt": "أكد رغبتك بالبقاء لأن زملاء العمل رائعون",
+        "options": [
+          {
+            "textDe": "Ja, ich möchte bleiben, weil die Kollegen sehr nett sind.",
+            "textAr": "نعم، أود البقاء لأن الزملاء لطفاء جداً.",
+            "points": 10
+          },
+          {
+            "textDe": "Ich hoffe es. Die Arbeitsatmosphäre und die Kollegen sind super.",
+            "textAr": "آمل ذلك. بيئة العمل والزملاء رائعون للغاية.",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "speaker": "partner",
+        "textDe": "Viel Erfolg dabei! Wir sehen uns später.",
+        "textAr": "بالتوفيق في ذلك! نراك لاحقاً."
+      },
+      {
+        "speaker": "user",
+        "prompt": "اشكره وودّعه",
+        "options": [
+          {
+            "textDe": "Danke schön! Bis bald, Tschüss!",
+            "textAr": "شكراً جزيلاً! أراك قريباً، مع السلامة!",
+            "points": 10
+          },
+          {
+            "textDe": "Vielen Dank! Mach's gut!",
+            "textAr": "شكراً جزيلاً! رافقتك السلامة!",
+            "points": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "ch": 17,
+    "title": "Wohnungsbesichtigung",
+    "titleAr": "معاينة شقة",
+    "emoji": "🏡",
+    "difficulty": "Mittel",
+    "turns": [
+      {
+        "speaker": "partner",
+        "textDe": "Guten Tag. Ich bin der Vermieter. Hier ist das Wohnzimmer. Wie gefällt es Ihnen?",
+        "textAr": "نهار سعيد. أنا المؤجر. هذه هي غرفة المعيشة. كيف تعجبكم؟"
+      },
+      {
+        "speaker": "user",
+        "prompt": "عبّر عن إعجابك بالغرفة لأنها كبيرة ومضيئة",
+        "options": [
+          {
+            "textDe": "Guten Tag! Das Wohnzimmer gefällt mir sehr. Es ist sehr groß und hell.",
+            "textAr": "نهار سعيد! غرفة المعيشة تعجبني كثيراً. إنها كبيرة ومضيئة جداً.",
+            "points": 10
+          },
+          {
+            "textDe": "Sehr schön! Der Raum ist wirklich groß und hat viel Licht.",
+            "textAr": "جميل جداً! الغرفة كبيرة حقاً وبها الكثير من الضوء.",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "speaker": "partner",
+        "textDe": "Ja, das stimmt. Die Wohnung hat auch einen Balkon. Wie hoch ist Ihr Budget?",
+        "textAr": "نعم، هذا صحيح. تحتوي الشقة أيضاً على شرفة. كم تبلغ ميزانيتك؟"
+      },
+      {
+        "speaker": "user",
+        "prompt": "اسأل عن الإيجار البارد والمصاريف الجانبية",
+        "options": [
+          {
+            "textDe": "Wie hoch ist die Kaltmiete und wie viel sind die Nebenkosten?",
+            "textAr": "كم يبلغ الإيجار البارد وكم تبلغ المصاريف الجانبية؟",
+            "points": 15
+          },
+          {
+            "textDe": "Was kostet die Wohnung warm im Monat?",
+            "textAr": "كم تكلفة الشقة شاملة التدفئة شهرياً؟",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "speaker": "partner",
+        "textDe": "Die Kaltmiete ist 500 Euro und die Nebenkosten sind 150 Euro. Die Kaution ist zwei Kaltmieten.",
+        "textAr": "الإيجار البارد 500 يورو والمصاريف الجانبية 150 يورو. التأمين هو قيمة إيجار بارد لشهرين."
+      },
+      {
+        "speaker": "user",
+        "prompt": "وافق على السعر واطلب توقيع العقد",
+        "options": [
+          {
+            "textDe": "Das passt gut in mein Budget. Wann kann ich den Mietvertrag unterschreiben?",
+            "textAr": "هذا يناسب ميزانيتي جيداً. متى يمكنني توقيع عقد الإيجار؟",
+            "points": 10
+          },
+          {
+            "textDe": "Der Preis ist okay. Ich möchte die Wohnung gerne mieten.",
+            "textAr": "السعر مناسب. أود استئجار الشقة بكل سرور.",
+            "points": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "ch": 18,
+    "title": "Nach dem Weg fragen",
+    "titleAr": "السؤال عن الطريق",
+    "emoji": "🗺️",
+    "difficulty": "Einfach",
+    "turns": [
+      {
+        "speaker": "partner",
+        "textDe": "Entschuldigung, kann ich Ihnen helfen? Suchen Sie etwas?",
+        "textAr": "المعذرة، هل يمكنني مساعدتك؟ هل تبحث عن شيء؟"
+      },
+      {
+        "speaker": "user",
+        "prompt": "رحب بالمار واسأله عن الطريق إلى محطة القطار الرئيسية",
+        "options": [
+          {
+            "textDe": "Hallo! Ja, bitte. Wie komme ich zum Hauptbahnhof?",
+            "textAr": "مرحباً! نعم، من فضلك. كيف أصل إلى محطة القطار الرئيسية؟",
+            "points": 10
+          },
+          {
+            "textDe": "Guten Tag. Entschuldigung, wo ist der Hauptbahnhof?",
+            "textAr": "نهار سعيد. المعذرة، أين تقع محطة القطار الرئيسية؟",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "speaker": "partner",
+        "textDe": "Gehen Sie geradeaus bis zur Ampel, dann links. Oder nehmen Sie die U-Bahn.",
+        "textAr": "سر بشكل مستقيم حتى الإشارة الضوئية، ثم يساراً. أو استقل مترو الأنفاق."
+      },
+      {
+        "speaker": "user",
+        "prompt": "اسأل عن أقرب محطة مترو أنفاق",
+        "options": [
+          {
+            "textDe": "Wo ist die nächste U-Bahn-Haltestelle?",
+            "textAr": "أين تقع أقرب محطة لمترو الأنفاق؟",
+            "points": 15
+          },
+          {
+            "textDe": "Gibt es eine U-Bahn-Station in der Nähe?",
+            "textAr": "هل توجد محطة مترو أنفاق بالقرب من هنا؟",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "speaker": "partner",
+        "textDe": "Die Station ist direkt da drüben, hinter der Bäckerei. Nur zwei Minuten zu Fuß.",
+        "textAr": "المحطة هناك تماماً، خلف المخبز. دقيقتان فقط سيراً على الأقدام."
+      },
+      {
+        "speaker": "user",
+        "prompt": "اشكر المار بلطف وودّعه",
+        "options": [
+          {
+            "textDe": "Vielen Dank für Ihre Hilfe! Auf Wiedersehen.",
+            "textAr": "شكراً جزيلاً لمساعدتك! إلى اللقاء.",
+            "points": 10
+          },
+          {
+            "textDe": "Super, danke schön! Einen schönen Tag noch!",
+            "textAr": "رائع، شكراً جزيلاً! أتمنى لك يوماً سعيداً!",
+            "points": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "ch": 19,
+    "title": "Im Kunstmuseum",
+    "titleAr": "في متحف الفن",
+    "emoji": "🎨",
+    "difficulty": "Mittel",
+    "turns": [
+      {
+        "speaker": "partner",
+        "textDe": "Dieses Gemälde hier ist sehr interessant. Wie gefällt es dir?",
+        "textAr": "هذه اللوحة هنا مثيرة جداً للاهتمام. كيف تعجبك؟"
+      },
+      {
+        "speaker": "user",
+        "prompt": "أجبه بأنها تعجبك كثيراً بسبب الألوان الزاهية",
+        "options": [
+          {
+            "textDe": "Mir gefällt das Bild sehr gut, weil die Farben sehr bunt und hell sind.",
+            "textAr": "تعجبني اللوحة كثيراً لأن ألوانها زاهية ومضيئة للغاية.",
+            "points": 10
+          },
+          {
+            "textDe": "Ich finde es wunderschön. Die bunten Farben sind toll.",
+            "textAr": "أجدها رائعة الجمال. الألوان الزاهية رائعة.",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "speaker": "partner",
+        "textDe": "Stimmt, der Stil ist sehr modern. Weißt du, wer der Künstler ist?",
+        "textAr": "صحيح، الأسلوب حديث جداً. هل تعرف من هو الفنان؟"
+      },
+      {
+        "speaker": "user",
+        "prompt": "أخبره أنه فنان ألماني مشهور ورأيت معرضه من قبل",
+        "options": [
+          {
+            "textDe": "Ja, das ist ein berühmter deutscher Künstler. Ich kenne seine Ausstellung.",
+            "textAr": "نعم، هذا فنان ألماني مشهور. أنا أعرف معرضه.",
+            "points": 15
+          },
+          {
+            "textDe": "Das Bild ist von einem bekannten Maler. Ich habe seine Kunstwerke schon gesehen.",
+            "textAr": "اللوحة لرسام معروف. لقد رأيت أعماله الفنية من قبل.",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "speaker": "partner",
+        "textDe": "Interessant! Wollen wir noch in den nächsten Raum gehen?",
+        "textAr": "مثير للاهتمام! هل نذهب إلى الغرفة التالية؟"
+      },
+      {
+        "speaker": "user",
+        "prompt": "وافق واقترح شرب قهوة بعد ذلك",
+        "options": [
+          {
+            "textDe": "Ja, gerne. Und danach können wir im Café einen Kaffee trinken.",
+            "textAr": "نعم، بكل سرور. وبعد ذلك يمكننا شرب القهوة في المقهى.",
+            "points": 10
+          },
+          {
+            "textDe": "Gute Idee! Lass uns weitergehen und später Kuchen essen.",
+            "textAr": "فكرة طيبة! لنكمل السير ونأكل الكعك لاحقاً.",
+            "points": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "ch": 22,
+    "title": "Probleme mit dem Computer",
+    "titleAr": "مشاكل في الكمبيوتر",
+    "emoji": "💻",
+    "difficulty": "Mittel",
+    "turns": [
+      {
+        "speaker": "partner",
+        "textDe": "Hallo. Du siehst gestresst aus. Funktioniert dein Computer nicht?",
+        "textAr": "مرحباً. تبدو متوتراً. هل الكمبيوتر الخاص بك لا يعمل؟"
+      },
+      {
+        "speaker": "user",
+        "prompt": "أكّد ذلك واشرح له أن الشاشة سوداء ولا يمكنك كتابة كلمة المرور",
+        "options": [
+          {
+            "textDe": "Hallo. Ja, der Bildschirm ist schwarz. Ich kann mein Passwort nicht eingeben.",
+            "textAr": "مرحباً. نعم، الشاشة سوداء. لا يمكنني إدخال كلمة المرور الخاصة بي.",
+            "points": 10
+          },
+          {
+            "textDe": "Stimmt, meine Tastatur reagiert nicht und der Bildschirm bleibt dunkel.",
+            "textAr": "صحيح، لوحة المفاتيح لا تستجيب وتظل الشاشة مظلمة.",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "speaker": "partner",
+        "textDe": "Hast du schon versucht, den Laptop neu zu starten?",
+        "textAr": "هل جربت بالفعل إعادة تشغيل اللابتوب؟"
+      },
+      {
+        "speaker": "user",
+        "prompt": "أجبه بأنك جربت ذلك ولم يتغير شيء، واسأله عن الحل",
+        "options": [
+          {
+            "textDe": "Ja, das habe ich versucht, aber es hilft nicht. Was soll ich tun?",
+            "textAr": "نعم، لقد جربت ذلك ولكن هذا لا يفيد. ماذا علي أن أفعل؟",
+            "points": 15
+          },
+          {
+            "textDe": "Ich habe ihn neu gestartet, aber nichts funktioniert. Hast du eine Idee?",
+            "textAr": "لقد أعدت تشغيله ولكن لا شيء يعمل. هل لديك فكرة؟",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "speaker": "partner",
+        "textDe": "Vielleicht ist der Akku leer. Schließe ihn mal an das Ladekabel an.",
+        "textAr": "ربما تكون البطارية فارغة. قم بتوصيله بكابل الشحن."
+      },
+      {
+        "speaker": "user",
+        "prompt": "جرب ذلك واشكر زميلك لأن الكمبيوتر بدأ يعمل",
+        "options": [
+          {
+            "textDe": "Oh, du hast recht! Jetzt läuft er wieder. Vielen Dank für deine Hilfe!",
+            "textAr": "أوه، أنت على حق! الآن يعمل مجدداً. شكراً جزيلاً لمساعدتك!",
+            "points": 10
+          },
+          {
+            "textDe": "Super, das war das Problem. Der Bildschirm geht an. Danke dir!",
+            "textAr": "رائع، هذه كانت المشكلة. الشاشة تعمل. شكراً لك!",
+            "points": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "ch": 23,
+    "title": "Über eine Wahl diskutieren",
+    "titleAr": "نقاش حول انتخابات",
+    "emoji": "🗳️",
+    "difficulty": "Mittel",
+    "turns": [
+      {
+        "speaker": "partner",
+        "textDe": "Hallo! Am Sonntag ist die Wahl. Gehst du wählen?",
+        "textAr": "مرحباً! يوم الأحد هناك انتخابات. هل ستذهب للتصويت؟"
+      },
+      {
+        "speaker": "user",
+        "prompt": "أكّد ذلك واشرح أن التصويت حق وواجب لكل مواطن",
+        "options": [
+          {
+            "textDe": "Hallo! Ja, natürlich. Ich denke, dass Wählen ein wichtiges Recht ist.",
+            "textAr": "مرحباً! نعم، بالطبع. أعتقد أن الانتخاب حق مهم.",
+            "points": 10
+          },
+          {
+            "textDe": "Auf jeden Fall. Jeder Bürger sollte zur Wahl gehen.",
+            "textAr": "بالتأكيد. يجب على كل مواطن الذهاب للتصويت.",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "speaker": "partner",
+        "textDe": "Ich weiß nicht. Ich finde, meine einzelne Stimme ändert sowieso nichts.",
+        "textAr": "لا أدري. أرى أن صوتي الفردي لن يغير شيئاً على أي حال."
+      },
+      {
+        "speaker": "user",
+        "prompt": "عارضه بلطف وبيّن له أن كل صوت يساهم في تحديد الحكومة والمستقبل",
+        "options": [
+          {
+            "textDe": "Das stimmt nicht. Jede Stimme zählt, um die Regierung und unsere Zukunft zu entscheiden.",
+            "textAr": "هذا غير صحيح. كل صوت يهم لتحديد الحكومة ومستقبلنا.",
+            "points": 15
+          },
+          {
+            "textDe": "Ich sehe das anders. Zusammen machen viele Stimmen einen großen Unterschied.",
+            "textAr": "أرى الأمر بشكل مختلف. معاً تشكل الأصوات الكثيرة فرقاً كبيراً.",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "speaker": "partner",
+        "textDe": "Hm, da hast du eigentlich recht. Vielleicht gehe ich am Sonntag doch mit dir mit.",
+        "textAr": "همم، أنت على حق في الواقع. ربما أذهب معك يوم الأحد في النهاية."
+      },
+      {
+        "speaker": "user",
+        "prompt": "عبّر عن سعادتك واقترح الذهاب معاً في الصباح",
+        "options": [
+          {
+            "textDe": "Das freut mich! Lass uns am Sonntagvormittag zusammen zum Wahllokal gehen.",
+            "textAr": "هذا يسعدني! لنذهب معاً صباح الأحد إلى مقر اللجنة الانتخابية.",
+            "points": 10
+          },
+          {
+            "textDe": "Super! Ich hole dich am Sonntag ab und wir gehen gemeinsam wählen.",
+            "textAr": "رائع! سأمر عليك الأحد ونذهب للتصويت معاً.",
+            "points": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "ch": 24,
+    "title": "Kulturen vergleichen",
+    "titleAr": "مقارنة الثقافات",
+    "emoji": "🌍",
+    "difficulty": "Mittel",
+    "turns": [
+      {
+        "speaker": "partner",
+        "textDe": "Hallo! Du lebst jetzt schon ein Jahr in Deutschland. Wie gefällt es dir?",
+        "textAr": "مرحباً! أنت تعيش الآن منذ عام في ألمانيا. كيف تعجبك؟"
+      },
+      {
+        "speaker": "user",
+        "prompt": "أجبه بأنها تعجبك كثيراً ولكن هناك اختلافات في العادات اليومية",
+        "options": [
+          {
+            "textDe": "Hallo! Es gefällt mir sehr gut, obwohl es viele Unterschiede bei den Gewohnheiten gibt.",
+            "textAr": "مرحباً! تعجبني كثيراً، على الرغم من وجود فروق كثيرة في العادات.",
+            "points": 10
+          },
+          {
+            "textDe": "Sehr gut! Aber das Leben hier ist ein bisschen anders als in meiner Heimat.",
+            "textAr": "جيد جداً! ولكن الحياة هنا مختلفة قليلاً عنها في وطني.",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "speaker": "partner",
+        "textDe": "Was ist denn der größte Unterschied zwischen Deutschland und deiner Heimat?",
+        "textAr": "ما هو الفرق الأكبر إذاً بين ألمانيا ووطنك؟"
+      },
+      {
+        "speaker": "user",
+        "prompt": "أخبره أن المواعيد في ألمانيا دقيقة جداً بينما في بلدك مرنة",
+        "options": [
+          {
+            "textDe": "In Deutschland sind alle sehr pünktlich. In meiner Heimat sind Termine flexibler.",
+            "textAr": "في ألمانيا الجميع دقيقون جداً بالمواعيد. في وطني المواعيد أكثر مرونة.",
+            "points": 15
+          },
+          {
+            "textDe": "Die Pünktlichkeit! Hier muss man immer genau zur Uhrzeit ankommen.",
+            "textAr": "الدقة في المواعيد! هنا يجب على المرء أن يصل دائماً في الوقت المحدد تماماً.",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "speaker": "partner",
+        "textDe": "Das stimmt, Pünktlichkeit ist uns sehr wichtig! Konntest du dich gut einleben?",
+        "textAr": "هذا صحيح، الدقة بالمواعيد مهمة جداً لنا! هل استطعت الاستقرار والاندماج جيداً؟"
+      },
+      {
+        "speaker": "user",
+        "prompt": "أكّد ذلك واشرح أن تعلم اللغة ساعدك كثيراً",
+        "options": [
+          {
+            "textDe": "Ja, ich habe mich gut eingelebt, weil ich fleißig Deutsch gelernt habe.",
+            "textAr": "نعم، لقد استقررت جيداً لأنني تعلمت الألمانية باجتهاد.",
+            "points": 10
+          },
+          {
+            "textDe": "Auf jeden Fall. Die Sprache zu sprechen ist der beste Weg zur Integration.",
+            "textAr": "بالتأكيد. التحدث باللغة هو أفضل طريق للاندماج.",
+            "points": 10
+          }
+        ]
+      }
+    ]
   }
 ];
 

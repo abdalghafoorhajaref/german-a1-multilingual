@@ -1494,6 +1494,1067 @@ const WRITING_TOPICS = [
     },
     writingTips: ["اكتب القصة كاملة بصيغة الماضي (Perfekt)", "تذكر وضع ge- في نهاية الجمل مع الأفعال المساعدة haben أو sein", "استخدم صفات جميلة مثل wunderschön وunvergesslich لوصف مشاعرك"],
     selfCheckList: ["هل كتبت بصيغة الماضي (Perfekt) واستخدمت haben/sein بشكل صحيح؟", "هل حددت وقت ومكان الحدث？", "هل سردت الأنشطة بصيغة الماضي؟", "هل وضعت أفعال الماضي المصرفة في نهاية الجملة بعد haben/sein؟", "هل وصفت شعورك النهائي؟"]
+  },
+  {
+    "id": 19,
+    "title": "Einladung zur Geburtstagsparty",
+    "titleAr": "دعوة لحفلة عيد ميلاد",
+    "emoji": "🎉",
+    "type": "E-Mail / Einladung",
+    "typeAr": "بريد إلكتروني / دعوة",
+    "relatedChapter": 14,
+    "targetLength": {
+      "min": 50,
+      "max": 90
+    },
+    "description": "اكتب بريداً إلكترونياً لدعوة صديقك لحفلة عيد ميلادك، موضحاً متى وأين وماذا يجب أن يحضر.",
+    "keyVocabulary": [
+      {
+        "de": "einladen",
+        "ar": "يدعو"
+      },
+      {
+        "de": "die Geburtstagsparty",
+        "ar": "حفلة عيد الميلاد"
+      },
+      {
+        "de": "feiern",
+        "ar": "يحتفل"
+      },
+      {
+        "de": "am Samstag",
+        "ar": "يوم السبت"
+      },
+      {
+        "de": "um 18 Uhr",
+        "ar": "الساعة السادسة مساءً"
+      },
+      {
+        "de": "stattfinden",
+        "ar": "يقام / يحدث"
+      },
+      {
+        "de": "mitbringen",
+        "ar": "يجلب معه"
+      },
+      {
+        "de": "das Geschenk",
+        "ar": "الهدية"
+      },
+      {
+        "de": "antworten",
+        "ar": "يجيب / يرد"
+      },
+      {
+        "de": "Freunde",
+        "ar": "أصدقاء"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "de": "Ich lade dich herzlich zu meiner Geburtstagsparty ein.",
+        "ar": "أدعوك بحرارة لحفلة عيد ميلادي."
+      },
+      {
+        "de": "Die Party findet am Samstag um 18 Uhr statt.",
+        "ar": "تقام الحفلة يوم السبت الساعة 6 مساءً."
+      },
+      {
+        "de": "Wir feiern in meinem Garten.",
+        "ar": "سنحتفل في حديقتي."
+      },
+      {
+        "de": "Kannst du vielleicht einen Nudelsalat mitbringen?",
+        "ar": "هل يمكنك جلب سلطة معكرونة معك؟"
+      },
+      {
+        "de": "Bitte gib mir bis Donnerstag Bescheid.",
+        "ar": "من فضلك أخبرني بردك بحلول يوم الخميس."
+      }
+    ],
+    "grammarFocus": [
+      "استخدام الفعل المنفصل einladen (Ich lade dich ein)",
+      "حروف الجر الزمنية: am, um",
+      "حروف الجر المكانية: in meinem Garten (Dativ)"
+    ],
+    "structure": [
+      {
+        "title": "Anrede & Grund",
+        "titleAr": "التحية والسبب",
+        "points": "ابدأ بتحية ودية واذكر سبب الكتابة (الدعوة)."
+      },
+      {
+        "title": "Zeit und Ort",
+        "titleAr": "الزمان والمكان",
+        "points": "حدد تاريخ ووقت الحفلة ومكان إقامتها بالتفصيل."
+      },
+      {
+        "title": "Mitbringen & Bitte",
+        "titleAr": "ما يجب إحضاره والطلب",
+        "points": "اطلب من الصديق إحضار شيء (مثل سلطة) والرد لتأكيد الحضور."
+      },
+      {
+        "title": "Schluss",
+        "titleAr": "الخاتمة",
+        "points": "أنهِ برسالة ودية وتوقيع باسمك."
+      }
+    ],
+    "exampleEssay": {
+      "text": "Lieber Max, ich lade dich herzlich zu meiner Geburtstagsparty ein. Ich feiere meinen Geburtstag am nächsten Samstag. Die Party findet in meinem Garten statt und beginnt um 18 Uhr. Viele Freunde kommen auch. Wir möchten grillen und Musik hören. Kannst du vielleicht einen Salat oder Getränke mitbringen? Bitte gib mir bis Donnerstag Bescheid, ob du kommen kannst. Ich freue mich auf dich! Viele Grüße, Ahmad",
+      "translation": "عزيزي ماكس، أدعوك بحرارة لحفلة عيد ميلادي. سأحتفل بعيد ميلادي السبت القادم. تقام الحفلة في حديقتي وتبدأ في الساعة السادسة مساءً. سيأتي الكثير من الأصدقاء أيضاً. نريد الشواء والاستماع إلى الموسيقى. هل يمكنك جلب بعض السلطة أو المشروبات معك؟ من فضلك أخبرني بحلول يوم الخميس إذا كان بإمكانك القدوم. أنا أتطلع لرؤيتك! تحياتي الحارة، أحمد",
+      "wordCount": 78
+    },
+    "writingTips": [
+      "استخدم صيغة منادى غير رسمية: Lieber [Name] للمذكر أو Liebe [Name] للمؤنث.",
+      "تذكر أن تضع فاصلة بعد المنادى وتبدأ الجملة التالية بحرف صغير.",
+      "استخدم أدوات الربط مثل und و oder لربط الجمل."
+    ],
+    "selfCheckList": [
+      "هل استخدمت تحية ودية مناسبة؟ (Lieber...)",
+      "هل حددت وقت الحفلة بدقة؟ (am Samstag um...)",
+      "هل ذكرت أين ستقام الحفلة؟",
+      "هل طلبت منه إحضار شيء؟",
+      "هل طلبت منه الرد لتأكيد الحضور؟",
+      "هل أنهيت بالتحية المناسبة واسمك؟"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Eine E-Mail an den Nachbarn",
+    "titleAr": "بريد إلكتروني إلى الجار",
+    "emoji": "🏢",
+    "type": "E-Mail / Entschuldigung",
+    "typeAr": "بريد إلكتروني / اعتذار",
+    "relatedChapter": 15,
+    "targetLength": {
+      "min": 50,
+      "max": 90
+    },
+    "description": "اكتب بريداً إلكترونياً إلى جيرانك في المبنى للاعتذار مسبقاً عن الضوضاء بسبب حفلة ستقيمها في شقتك.",
+    "keyVocabulary": [
+      {
+        "de": "der Nachbar",
+        "ar": "الجار"
+      },
+      {
+        "de": "die Hausordnung",
+        "ar": "لائحة البيت / النظام"
+      },
+      {
+        "de": "der Lärm",
+        "ar": "الضوضاء / الإزعاج"
+      },
+      {
+        "de": "die Party",
+        "ar": "الحفلة"
+      },
+      {
+        "de": "feiern",
+        "ar": "يحتفل"
+      },
+      {
+        "de": "sich entschuldigen",
+        "ar": "يعتذر"
+      },
+      {
+        "de": "leise",
+        "ar": "هادئ / بصوت منخفض"
+      },
+      {
+        "de": "stören",
+        "ar": "يزعج"
+      },
+      {
+        "de": "das Verständnis",
+        "ar": "التفهم"
+      },
+      {
+        "de": "die Ruhezeit",
+        "ar": "وقت الراحة"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "de": "Ich möchte mich für den Lärm entschuldigen.",
+        "ar": "أود أن أعتذر عن الضوضاء."
+      },
+      {
+        "de": "Ich feiere am Samstag eine kleine Party.",
+        "ar": "سأقيم حفلة صغيرة يوم السبت."
+      },
+      {
+        "de": "Wir werden ab 22 Uhr leise sein.",
+        "ar": "سنكون هادئين بدءاً من الساعة العاشرة مساءً."
+      },
+      {
+        "de": "Ich hoffe, wir stören Sie nicht.",
+        "ar": "آمل ألا نضايقكم."
+      },
+      {
+        "de": "Vielen Dank für Ihr Verständnis.",
+        "ar": "شكراً جزيلاً لتفهمكم."
+      }
+    ],
+    "grammarFocus": [
+      "استخدام الأفعال المنعكسة (sich entschuldigen)",
+      "حروف الجر: für + Akkusativ, über + Akkusativ"
+    ],
+    "structure": [
+      {
+        "title": "Anrede",
+        "titleAr": "التحية",
+        "points": "ابدأ بتحية رسمية لجميع الجيران (Liebe Nachbarinnen und Nachbarn)."
+      },
+      {
+        "title": "Ankündigung der Party",
+        "titleAr": "الإعلان عن الحفلة",
+        "points": "أخبرهم بموعد الحفلة وسببها."
+      },
+      {
+        "title": "Ruhezeit & Entschuldigung",
+        "titleAr": "وقت الراحة والاعتذار",
+        "points": "اعتذر عن أي إزعاج محتمل وأكد التزامك بالهدوء بعد الساعة 22:00."
+      },
+      {
+        "title": "Dank & Schluss",
+        "titleAr": "الشكر والخاتمة",
+        "points": "اشكرهم على تفهمهم وأنهِ بالتحيات الرسمية."
+      }
+    ],
+    "exampleEssay": {
+      "text": "Liebe Nachbarinnen und Nachbarn, ich wohne im zweiten Stock. Am nächsten Samstag feiere ich meinen Geburtstag und mache eine kleine Party in meiner Wohnung. Es kommen einige Gäste. Es kann ein bisschen laut werden. Ich entschuldige mich im Voraus für den Lärm. Ab 22 Uhr werden wir die Musik leiser machen, um die Ruhezeit zu respektieren. Ich hoffe auf Ihr Verständnis. Vielen Dank! Mit freundlichen Grüßen, Ahmad Al-Hassan",
+      "translation": "عزيزاتي وأعزائي الجيران، أنا أسكن في الطابق الثاني. السبت القادم سأحتفل بعيد ميلادي وأقيم حفلة صغيرة في شقتي. سيأتي بعض الضيوف. قد يصبح الأمر صاخباً بعض الشيء. أعتذر مسبقاً عن الضوضاء. بدءاً من الساعة العاشرة مساءً سنخفض صوت الموسيقى لاحترام وقت الراحة. آمل تفهمكم. شكراً جزيلاً! مع أطيب التحيات، أحمد الحسن",
+      "wordCount": 77
+    },
+    "writingTips": [
+      "خاطب الجيران بصيغة الجمع الرسمية: Ihr (تفهمكم = Ihr Verständnis).",
+      "اكتب بأسلوب مهذب ومحترم لبناء علاقة طيبة مع الجيران."
+    ],
+    "selfCheckList": [
+      "هل كتبت التحية الجماعية بشكل صحيح؟",
+      "هل حددت شقتك أو الطابق الذي تسكن فيه؟",
+      "هل ذكرت موعد الحفلة؟",
+      "هل وعدت بخفض الصوت بعد العاشرة مساءً؟",
+      "هل شكرتهم على التفهم؟",
+      "هل وقعت باسمك الكامل والتحية الرسمية؟"
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Mein Schulabschluss und meine Ausbildung",
+    "titleAr": "شهادتي المدرسية وتدريبي المهني",
+    "emoji": "🎓",
+    "type": "Beschreibung / Aufsatz",
+    "typeAr": "وصف / موضوع تعبير",
+    "relatedChapter": 16,
+    "targetLength": {
+      "min": 50,
+      "max": 90
+    },
+    "description": "اكتب نصاً تصف فيه شهادتك المدرسية من بلدك وتدريبك المهني الحالي أو المهنة التي ترغب في تعلمها في ألمانيا.",
+    "keyVocabulary": [
+      {
+        "de": "die Schule",
+        "ar": "المدرسة"
+      },
+      {
+        "de": "der Schulabschluss",
+        "ar": "الشهادة المدرسية"
+      },
+      {
+        "de": "die Ausbildung",
+        "ar": "التدريب المهني"
+      },
+      {
+        "de": "studieren",
+        "ar": "يدرس في الجامعة"
+      },
+      {
+        "de": "der Traumberuf",
+        "ar": "مهنة الأحلام"
+      },
+      {
+        "de": "arbeiten als",
+        "ar": "يعمل كـ"
+      },
+      {
+        "de": "beenden",
+        "ar": "ينهي / يكمل"
+      },
+      {
+        "de": "wichtig",
+        "ar": "مهم"
+      },
+      {
+        "de": "das Zeugnis",
+        "ar": "الشهادة / الجلاء المدرسي"
+      },
+      {
+        "de": "lernen",
+        "ar": "يتعلم / يدرس"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "de": "Ich habe meinen Schulabschluss in Syrien gemacht.",
+        "ar": "لقد حصلت على شهادتي المدرسية في سوريا."
+      },
+      {
+        "de": "Mein Traumberuf ist Informatiker.",
+        "ar": "مهنة أحلامي هي خبير معلوماتية."
+      },
+      {
+        "de": "Ich mache eine Ausbildung als Elektriker.",
+        "ar": "أقوم بتدريب مهني ككهربائي."
+      },
+      {
+        "de": "Die Ausbildung dauert drei Jahre.",
+        "ar": "يستمر التدريب المهني لمدة ثلاث سنوات."
+      },
+      {
+        "de": "Ein guter Beruf ist sehr wichtig für mich.",
+        "ar": "المهنة الجيدة مهمة جداً بالنسبة لي."
+      }
+    ],
+    "grammarFocus": [
+      "استخدام الماضي البسيط والماضي التام (Perfekt: habe gemacht)",
+      "حروف الجر: als + Beruf (als Elektriker, als Arzt)"
+    ],
+    "structure": [
+      {
+        "title": "Schulzeit in der Heimat",
+        "titleAr": "فترة المدرسة في الوطن",
+        "points": "تحدث عن مدرستك في بلدك ومتى أنهيتها والشهادة التي حصلت عليها."
+      },
+      {
+        "title": "Ausbildung / Berufswunsch",
+        "titleAr": "التدريب المهني / الأمنية المهنية",
+        "points": "اشرح ماذا تفعل الآن في ألمانيا أو التدريب المهني الذي تريده."
+      },
+      {
+        "title": "Zukunftspläne",
+        "titleAr": "الخطط المستقبلية",
+        "points": "تحدث عن خطتك بعد إنهاء التدريب والعمل في ألمانيا."
+      }
+    ],
+    "exampleEssay": {
+      "text": "Ich habe meine Schulzeit in Syrien verbracht und dort im Jahr 2018 meinen Schulabschluss gemacht. Mein Zeugnis war sehr gut. Jetzt lebe ich in Deutschland. Mein Traumberuf ist Automechaniker. Deshalb mache ich seit einem Jahr eine Ausbildung als Automechaniker in einer großen Werkstatt. Die Arbeit gefällt mir sehr, aber die Berufsschule ist manchmal schwer. Nach der Ausbildung möchte ich fest als Mechaniker arbeiten und eine eigene Familie gründen.",
+      "translation": "لقد قضيت سنوات دراستي في سوريا وحصلت هناك على شهادتي المدرسية في عام 2018. كانت شهادتي جيدة جداً. الآن أعيش في ألمانيا. مهنة أحلامي هي ميكانيكي سيارات. لذلك أقوم منذ عام بتدريب مهني كميكانيكي سيارات في ورشة كبيرة. العمل يعجبني كثيراً، لكن المدرسة المهنية تكون صعبة أحياناً. بعد التدريب أود العمل بشكل دائم كميكانيكي وتأسيس عائلة خاصة بي.",
+      "wordCount": 79
+    },
+    "writingTips": [
+      "استخدم صيغة الماضي التام (Perfekt) للحديث عن المدرسة في بلدك.",
+      "استخدم روابط الجمل مثل deshalb (لذلك) و weil (لأن) لشرح اختياراتك المهنية."
+    ],
+    "selfCheckList": [
+      "هل ذكرت أين ومتى أنهيت المدرسة؟",
+      "هل وصفت شهادتك المدرسية؟",
+      "هل ذكرت مهنتك الحالية أو تدريبك المهني؟",
+      "هل ذكرت أين تقوم بالتدريب المهني؟",
+      "هل كتبت عن خطتك بعد التخرج؟",
+      "هل تحققت من تصريف الأفعال في الماضي والحاضر؟"
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Meine Traumwohnung beschreiben",
+    "titleAr": "وصف شقة أحلامي",
+    "emoji": "🏡",
+    "type": "Beschreibung",
+    "typeAr": "وصف",
+    "relatedChapter": 17,
+    "targetLength": {
+      "min": 50,
+      "max": 90
+    },
+    "description": "اكتب مقالاً تصف فيه شقة أحلامك: كم غرفة تحتوي، أين تقع، كيف تريد تأثيثها، وكم تبلغ تكلفتها.",
+    "keyVocabulary": [
+      {
+        "de": "die Traumwohnung",
+        "ar": "شقة الأحلام"
+      },
+      {
+        "de": "das Zimmer",
+        "ar": "الغرفة"
+      },
+      {
+        "de": "der Balkon",
+        "ar": "الشرفة / البلكون"
+      },
+      {
+        "de": "die Miete",
+        "ar": "الإيجار"
+      },
+      {
+        "de": "die Nebenkosten",
+        "ar": "المصاريف الجانبية"
+      },
+      {
+        "de": "hell",
+        "ar": "مضيء / مشرق"
+      },
+      {
+        "de": "ruhig",
+        "ar": "هادئ"
+      },
+      {
+        "de": "einrichten",
+        "ar": "يؤثث / يجهز بالفرش"
+      },
+      {
+        "de": "die Küche",
+        "ar": "المطبخ"
+      },
+      {
+        "de": "das Wohnzimmer",
+        "ar": "غرفة المعيشة"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "de": "Meine Traumwohnung liegt im Stadtzentrum.",
+        "ar": "تقع شقة أحلامي في وسط المدينة."
+      },
+      {
+        "de": "Die Wohnung hat vier Zimmer und einen Balkon.",
+        "ar": "تتكون الشقة من أربع غرف وشرفة."
+      },
+      {
+        "de": "Alle Räume sind sehr groß und hell.",
+        "ar": "جميع الغرف كبيرة جداً ومضيئة."
+      },
+      {
+        "de": "Ich möchte die Wohnung modern einrichten.",
+        "ar": "أود تأثيث الشقة بشكل حديث."
+      },
+      {
+        "de": "Die Miete darf nicht zu hoch sein.",
+        "ar": "يجب ألا يكون الإيجار مرتفعاً جداً."
+      }
+    ],
+    "grammarFocus": [
+      "استخدام صيغة التمني Konjunktiv II (ich möchte, wäre, hätte)",
+      "الصفات والنهايات المناسبة (eine große Wohnung, ein schöner Balkon)"
+    ],
+    "structure": [
+      {
+        "title": "Lage und Größe",
+        "titleAr": "الموقع والمساحة",
+        "points": "اصف أين تقع الشقة وعدد الغرف ومساحتها الإجمالية."
+      },
+      {
+        "title": "Ausstattung",
+        "titleAr": "التجهيزات والفرش",
+        "points": "تحدث عن المطبخ، الحمام، الشرفة وكيف تريد تأثيث الغرف."
+      },
+      {
+        "title": "Kosten",
+        "titleAr": "التكاليف",
+        "points": "اذكر الإيجار الأقصى الذي ترغب في دفعه شاملاً المصاريف الجانبية."
+      }
+    ],
+    "exampleEssay": {
+      "text": "Meine Traumwohnung ist groß, hell und liegt in einer ruhigen Straße nahe dem Stadtzentrum. Sie hat drei Zimmer: ein großes Wohnzimmer, ein Schlafzimmer und ein Arbeitszimmer. Die Wohnung hat auch eine moderne Küche und einen schönen Balkon mit Aussicht. Ich möchte die Zimmer mit modernen Holzmöbeln einrichten. Die Warmmiete darf maximal 800 Euro im Monat betragen. Ich hätte gerne auch nette Nachbarn im Haus. Das wäre perfekt!",
+      "translation": "شقة أحلامي كبيرة، مضيئة وتقع في شارع هادئ بالقرب من وسط المدينة. تتكون من ثلاث غرف: غرفة معيشة كبيرة، غرفة نوم وغرفة مكتب. تحتوي الشقة أيضاً على مطبخ حديث وشرفة جميلة ذات إطلالة. أود تأثيث الغرف بأثاث خشبي حديث. يجب ألا يتجاوز الإيجار الشامل 800 يورو شهرياً كحد أقصى. كما أود أن يكون لدي جيران لطفاء في المبنى. سيكون ذلك مثالياً!",
+      "wordCount": 78
+    },
+    "writingTips": [
+      "استخدم الصفات المناسبة لوصف الغرف (hell, groß, gemütlich).",
+      "تذكر أن المبتدأ والخبر يتطابقان في النوع والعدد."
+    ],
+    "selfCheckList": [
+      "هل وصفت موقع شقة أحلامك؟",
+      "هل ذكرت عدد الغرف؟",
+      "هل تحدثت عن الشرفة أو المطبخ؟",
+      "هل ذكرت كيف تريد فرشها؟",
+      "هل حددت السعر المناسب لك؟",
+      "هل استخدمت التراكيب اللغوية المناسبة للتمني؟"
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Eine Wegbeschreibung schreiben",
+    "titleAr": "كتابة وصف طريق",
+    "emoji": "🗺️",
+    "type": "E-Mail / Beschreibung",
+    "typeAr": "بريد إلكتروني / وصف طريق",
+    "relatedChapter": 18,
+    "targetLength": {
+      "min": 50,
+      "max": 90
+    },
+    "description": "اكتب بريداً إلكترونياً لصديق يزورك لأول مرة، تصف له فيه الطريق من محطة القطار الرئيسية إلى شقتك.",
+    "keyVocabulary": [
+      {
+        "de": "der Bahnhof",
+        "ar": "محطة القطار"
+      },
+      {
+        "de": "die Wegbeschreibung",
+        "ar": "وصف الطريق"
+      },
+      {
+        "de": "geradeaus",
+        "ar": "مستقيم / إلى الأمام مباشرة"
+      },
+      {
+        "de": "rechts / links abbiegen",
+        "ar": "ينعطف يميناً / يساراً"
+      },
+      {
+        "de": "die Kreuzung",
+        "ar": "التقاطع"
+      },
+      {
+        "de": "die Ampel",
+        "ar": "الإشارة الضوئية"
+      },
+      {
+        "de": "nehmen (den Bus)",
+        "ar": "يأخذ (الحافلة)"
+      },
+      {
+        "de": "aussteigen",
+        "ar": "ينزل من الحافلة/القطار"
+      },
+      {
+        "de": "die Haltestelle",
+        "ar": "المحطة / الموقف"
+      },
+      {
+        "de": "gegenüber von",
+        "ar": "مقابل لـ"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "de": "Vom Hauptbahnhof nimmst du die U-Bahn Linie 3.",
+        "ar": "من المحطة الرئيسية تأخذ خط مترو الأنفاق رقم 3."
+      },
+      {
+        "de": "Fahre drei Stationen und steige an der Haltestelle 'Museum' aus.",
+        "ar": "اركب لثلاث محطات وانزل في موقف 'المتحف'."
+      },
+      {
+        "de": "Gehe geradeaus bis zur Ampel und biege dann links ab.",
+        "ar": "سر بشكل مستقيم حتى الإشارة الضوئية ثم انعطف يساراً."
+      },
+      {
+        "de": "Mein Haus liegt direkt gegenüber von der Bäckerei.",
+        "ar": "يقع منزلي مقابل المخبز تماماً."
+      },
+      {
+        "de": "Der Weg ist ganz einfach zu finden.",
+        "ar": "الطريق سهل جداً للعثور عليه."
+      }
+    ],
+    "grammarFocus": [
+      "استخدام صيغة الأمر الودي (nimm, gehe, biege ab)",
+      "حروف الجر المكانية: gegenüber von + Dativ, an der Haltestelle"
+    ],
+    "structure": [
+      {
+        "title": "Anrede & Begrüßung",
+        "titleAr": "التحية والترحيب",
+        "points": "رحب بصديقك وعبر عن سعادتك بزيارته."
+      },
+      {
+        "title": "Start am Bahnhof",
+        "titleAr": "البداية من المحطة",
+        "points": "اشرح له أي وسيلة مواصلات يركبها من المحطة ورقمها."
+      },
+      {
+        "title": "Fußweg beschreiben",
+        "titleAr": "وصف السير على الأقدام",
+        "points": "صف له الطريق سيراً على الأقدام من المحطة حتى الباب (الانعطاف، الإشارات)."
+      },
+      {
+        "title": "Zielpunkt markieren",
+        "titleAr": "تحديد نقطة الوصول",
+        "points": "حدد علامة مميزة للمنزل (مثل مقابل مخبز أو سوبرماركت)."
+      }
+    ],
+    "exampleEssay": {
+      "text": "Hallo Leo, ich freue mich sehr auf deinen Besuch am Wochenende! Hier ist die Wegbeschreibung: Vom Hauptbahnhof nimmst du am besten die U-Bahn Linie U2 in Richtung Westend. Du fährst vier Stationen und steigst an der Haltestelle 'Kaiserstraße' aus. Gehe dann die Straße geradeaus bis zur Kreuzung. An der Ampel biegst du rechts ab. Mein Haus hat die Nummer 15 und liegt direkt gegenüber von der Post. Der Weg ist ganz einfach. Bis Samstag! Viele Grüße, Ahmad",
+      "translation": "مرحباً ليو، أنا سعيد جداً بزيارتك في عطلة نهاية الأسبوع! إليك وصف الطريق: من المحطة الرئيسية يفضل أن تأخذ خط المترو U2 باتجاه Westend. تركب لأربع محطات وتنزل في موقف 'شارع القيصر'. سر بعد ذلك في الشارع بشكل مستقيم حتى التقاطع. عند الإشارة الضوئية انعطف يميناً. منزلي يحمل رقم 15 ويقع مقابل مكتب البريد مباشرة. الطريق سهل للغاية. أراك السبت! تحياتي الحارة، أحمد",
+      "wordCount": 86
+    },
+    "writingTips": [
+      "استخدم صيغة الأمر الشخصي المألوف (du): nimm (خذ)، gehe (اذهب)، steige aus (انزل).",
+      "حدد اتجاه المواصلات بوضوح (in Richtung...)."
+    ],
+    "selfCheckList": [
+      "هل تمنيت له رحلة سعيدة وعبرت عن تطلعك لزيارته؟",
+      "هل حددت رقم خط القطار/الحافلة والاتجاه؟",
+      "هل ذكرت اسم المحطة التي ينزل فيها؟",
+      "هل وصفت السير على الأقدام مستخدماً (يمين/يسار/إلى الأمام)؟",
+      "هل ذكرت رقم المنزل وعلامة مميزة له؟",
+      "هل أنهيت بالتحية والاسم؟"
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Mein Lieblingsbild",
+    "titleAr": "لوحتي المفضلة",
+    "emoji": "🎨",
+    "type": "Beschreibung / Aufsatz",
+    "typeAr": "وصف / موضوع تعبير",
+    "relatedChapter": 19,
+    "targetLength": {
+      "min": 50,
+      "max": 90
+    },
+    "description": "صف لوحة أو عملاً فنياً يعجبك كثيراً: ماذا ترى فيه، ما هي الألوان المستخدمة، وبماذا تشعر عندما تراه.",
+    "keyVocabulary": [
+      {
+        "de": "das Bild / Gemälde",
+        "ar": "اللوحة / العمل الفني"
+      },
+      {
+        "de": "der Künstler",
+        "ar": "الفنان"
+      },
+      {
+        "de": "die Farbe",
+        "ar": "اللون"
+      },
+      {
+        "de": "bunt",
+        "ar": "ملون / مبهج الألوان"
+      },
+      {
+        "de": "hell / dunkel",
+        "ar": "مضيء / مظلم"
+      },
+      {
+        "de": "sehen",
+        "ar": "يرى"
+      },
+      {
+        "de": "fühlen",
+        "ar": "يشعر"
+      },
+      {
+        "de": "die Natur",
+        "ar": "الطبيعة"
+      },
+      {
+        "de": "die Stimmung",
+        "ar": "الحالة النفسية / الجو العام"
+      },
+      {
+        "de": "gefallen",
+        "ar": "يعجب / يروق لـ"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "de": "Mein Lieblingsgemälde heißt 'Sonnenblumen'.",
+        "ar": "لوحتي المفضلة تسمى 'دوار الشمس'."
+      },
+      {
+        "de": "Auf dem Bild sieht man eine schöne Landschaft.",
+        "ar": "في اللوحة يرى المرء طبيعة جميلة."
+      },
+      {
+        "de": "Der Maler benutzt helle und warme Farben.",
+        "ar": "يستخدم الرسام ألواناً زاهية ودافئة."
+      },
+      {
+        "de": "Dieses Kunstwerk gibt mir ein Gefühl von Ruhe.",
+        "ar": "هذا العمل الفني يمنحني شعوراً بالهدوء."
+      },
+      {
+        "de": "Ich finde dieses Bild sehr interessant.",
+        "ar": "أجد هذه اللوحة مثيرة جداً للاهتمام."
+      }
+    ],
+    "grammarFocus": [
+      "استخدام الصفات لربط المشاعر بالألوان (warme Farben, ein schönes Gefühl)",
+      "تراكيب الإعجاب: gefällt mir (تعجبني), finde ich (أجدها)"
+    ],
+    "structure": [
+      {
+        "title": "Name & Künstler",
+        "titleAr": "الاسم والفنان",
+        "points": "اذكر اسم اللوحة ومن رسمها ومتى رأيتها لأول مرة."
+      },
+      {
+        "title": "Bildbeschreibung",
+        "titleAr": "وصف اللوحة",
+        "points": "صف محتويات اللوحة بالتفصيل (أشخاص، طبيعة، أشياء) والألوان الغالبة عليها."
+      },
+      {
+        "title": "Gefühle & Fazit",
+        "titleAr": "المشاعر والخلاصة",
+        "points": "اشرح لماذا تعجبك اللوحة تحديداً وما هو شعورك عندما تتأملها."
+      }
+    ],
+    "exampleEssay": {
+      "text": "Mein Lieblingsbild ist das Gemälde 'Die Sternennacht' von Vincent van Gogh. Ich habe es in einem Buch über Kunst gesehen. Auf dem Bild sieht man einen blauen Nachthimmel mit vielen gelben Sternen und einem hellen Mond. Im Vordergrund steht ein dunkler Baum und im Hintergrund liegt ein kleines Dorf. Der Maler benutzt sehr viele blaue und gelbe Farben. Wenn ich dieses Bild ansehe, fühle ich mich ruhig und glücklich. Ich finde das Bild wunderschön.",
+      "translation": "لوحتي المفضلة هي لوحة 'ليلة النجوم' للفنان فنسنت فان جوخ. لقد رأيتها في كتاب عن الفن. يرى المرء في اللوحة سماء ليلية زرقاء بها الكثير من النجوم الصفراء وهلالاً مضيئاً. في المقدمة تقف شجرة مظلمة وفي الخلفية تقع قرية صغيرة. يستخدم الرسام الكثير من الألوان الزرقاء والصفراء. عندما أنظر إلى هذه اللوحة، أشعر بالهدوء والسعادة. أجد اللوحة رائعة الجمال.",
+      "wordCount": 81
+    },
+    "writingTips": [
+      "قسّم الوصف إلى جزأين: الوصف الموضوعي (ماذا ترى) والوصف الذاتي (بماذا تشعر).",
+      "استخدم تعابير الاتجاه مثل im Vordergrund (في المقدمة) و im Hintergrund (في الخلفية)."
+    ],
+    "selfCheckList": [
+      "هل ذكرت اسم اللوحة والرسام؟",
+      "هل وصفت الألوان المستخدمة؟",
+      "هل وصفت محتويات اللوحة بالتفصيل؟",
+      "هل استخدمت تعابير مثل 'im Vordergrund'؟",
+      "هل عبرت عن مشاعرك تجاه اللوحة؟",
+      "هل راجعت القواعد اللغوية لتطابق الصفات؟"
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Mediennutzung im Alltag",
+    "titleAr": "استخدام وسائل الإعلام في الحياة اليومية",
+    "emoji": "📱",
+    "type": "Beschreibung / Aufsatz",
+    "typeAr": "وصف / موضوع تعبير",
+    "relatedChapter": 22,
+    "targetLength": {
+      "min": 50,
+      "max": 90
+    },
+    "description": "اكتب نصاً تعبر فيه عن كيفية استخدامك لوسائل الإعلام المختلفة (الهاتف الذكي، الكمبيوتر، التلفاز، الإنترنت) في يومك.",
+    "keyVocabulary": [
+      {
+        "de": "die Medien",
+        "ar": "وسائل الإعلام"
+      },
+      {
+        "de": "das Smartphone / Handy",
+        "ar": "الهاتف الذكي"
+      },
+      {
+        "de": "nutzen / benutzen",
+        "ar": "يستخدم / يستعمل"
+      },
+      {
+        "de": "täglich",
+        "ar": "يومياً"
+      },
+      {
+        "de": "soziale Medien",
+        "ar": "وسائل التواصل الاجتماعي"
+      },
+      {
+        "de": "surfen im Internet",
+        "ar": "يتصفح الإنترنت"
+      },
+      {
+        "de": "die Nachricht",
+        "ar": "الخبر / الرسالة"
+      },
+      {
+        "de": "lesen / sehen",
+        "ar": "يقرأ / يرى"
+      },
+      {
+        "de": "wichtig",
+        "ar": "مهم"
+      },
+      {
+        "de": "zeitaufwendig",
+        "ar": "يستهلك الوقت"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "de": "Ich nutze mein Smartphone täglich mehrere Stunden.",
+        "ar": "أستخدم هاتفي الذكي يومياً لعدة ساعات."
+      },
+      {
+        "de": "Im Internet lese ich die Nachrichten aus meiner Heimat.",
+        "ar": "أقرأ في الإنترنت الأخبار من بلدي."
+      },
+      {
+        "de": "Ich benutze den Laptop für meine Arbeit und zum Lernen.",
+        "ar": "أستخدم اللابتوب لعملي وللتعلم."
+      },
+      {
+        "de": "Soziale Medien helfen mir, mit Freunden in Kontakt zu bleiben.",
+        "ar": "تساعدني وسائل التواصل الاجتماعي في البقاء على اتصال مع الأصدقاء."
+      },
+      {
+        "de": "Manchmal verbringe ich zu viel Zeit online.",
+        "ar": "أحياناً أقضي الكثير من الوقت متصلاً بالإنترنت."
+      }
+    ],
+    "grammarFocus": [
+      "استخدام حروف الجر مع وسائط الإعلام: auf dem Smartphone, im Internet, am Computer",
+      "روابط الجمل لإظهار التناقض: aber (ولكن), obwohl (على الرغم من أن)"
+    ],
+    "structure": [
+      {
+        "title": "Einleitung",
+        "titleAr": "المقدمة",
+        "points": "ابدأ بذكر أهمية وسائل الإعلام في حياتك الحديثة."
+      },
+      {
+        "title": "Lieblingsgeräte",
+        "titleAr": "الأجهزة المفضلة والاستخدام",
+        "points": "تحدث عن الأجهزة التي تستخدمها يومياً (الهاتف، اللابتوب) ولماذا (العمل، التواصل، التعلم)."
+      },
+      {
+        "title": "Kritische Meinung",
+        "titleAr": "رأي نقدي والخاتمة",
+        "points": "اذكر الإيجابيات والسلبيات، وهل تعتقد أنك تقضي وقتاً طويلاً أونلاين."
+      }
+    ],
+    "exampleEssay": {
+      "text": "Medien sind in meinem Alltag sehr wichtig. Ich nutze mein Smartphone täglich für viele Dinge: Ich telefoniere, lese Nachrichten und checke meine E-Mails. Ich benutze auch soziale Medien, um mit meiner Familie in Kontakt zu bleiben. Am Abend surfe ich oft am Laptop im Internet oder sehe Filme. Ich finde das Internet sehr nützlich zum Lernen, aber manchmal verbringe ich zu viel Zeit online. Man muss aufpassen, nicht süchtig zu werden.",
+      "translation": "وسائل الإعلام مهمة جداً في حياتي اليومية. أستخدم هاتفي الذكي يومياً لأشياء كثيرة: أتحدث بالهاتف، أقرأ الأخبار وأتحقق من بريدي الإلكتروني. كما أستخدم وسائل التواصل الاجتماعي للبقاء على اتصال مع عائلتي. في المساء أتصفح الإنترنت غالباً على اللابتوب أو أشاهد الأفلام. أجد الإنترنت مفيداً جداً للتعلم، لكنني أحياناً أقضي الكثير من الوقت متصلاً بالإنترنت. يجب على المرء أن يحذر من الإدمان.",
+      "wordCount": 78
+    },
+    "writingTips": [
+      "اذكر أفعالاً محددة تقوم بها أونلاين (schreiben, lesen, sehen, lernen).",
+      "استخدم كلمات تعبر عن التكرار مثل täglich (يومياً)، oft (غالباً)، manchmal (أحياناً)."
+    ],
+    "selfCheckList": [
+      "هل ذكرت وسائل الإعلام التي تستخدمها؟",
+      "هل وصفت استخدامك للهاتف الذكي؟",
+      "هل ذكرت استخدام الكمبيوتر أو التلفاز؟",
+      "هل تحدثت عن التواصل مع الأهل والأصدقاء؟",
+      "هل عبرت عن السلبيات (تضييع الوقت)؟",
+      "هل تحققت من صحة حروف الجر (im Internet...)؟"
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Warum Wählen wichtig ist",
+    "titleAr": "لماذا يعد التصويت مهماً",
+    "emoji": "🗳️",
+    "type": "Aufsatz / Meinung",
+    "typeAr": "مقال / تعبير عن الرأي",
+    "relatedChapter": 23,
+    "targetLength": {
+      "min": 50,
+      "max": 90
+    },
+    "description": "اكتب مقالاً قصيراً تعبر فيه عن رأيك في الانتخابات وأهمية المشاركة السياسية والتصويت في المجتمع الديمقراطي.",
+    "keyVocabulary": [
+      {
+        "de": "wählen",
+        "ar": "ينتخب / يصوت"
+      },
+      {
+        "de": "die Wahl",
+        "ar": "الانتخابات"
+      },
+      {
+        "de": "die Demokratie",
+        "ar": "الديمقراطية"
+      },
+      {
+        "de": "die Stimme",
+        "ar": "الصوت الانتخابي"
+      },
+      {
+        "de": "der Bürger",
+        "ar": "المواطن"
+      },
+      {
+        "de": "die Meinung",
+        "ar": "الرأي"
+      },
+      {
+        "de": "entscheiden",
+        "ar": "يقرر"
+      },
+      {
+        "de": "die Regierung",
+        "ar": "الحكومة"
+      },
+      {
+        "de": "das Recht",
+        "ar": "الحق"
+      },
+      {
+        "de": "die Zukunft",
+        "ar": "المستقبل"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "de": "In einer Demokratie haben die Bürger das Recht zu wählen.",
+        "ar": "في النظام الديمقراطي، يحق للمواطنين الانتخاب."
+      },
+      {
+        "de": "Wählen ist ein wichtiges Recht und eine Pflicht.",
+        "ar": "الانتخاب حق وواجب مهم."
+      },
+      {
+        "de": "Jede Stimme ist wichtig für die Zukunft.",
+        "ar": "كل صوت مهم للمستقبل."
+      },
+      {
+        "de": "Die Bürger entscheiden, wer das Land regiert.",
+        "ar": "المواطنون يقررون من يحكم البلاد."
+      },
+      {
+        "de": "Ich finde, dass man seine Meinung äußern sollte.",
+        "ar": "أرى أنه يجب على المرء التعبير عن رأيه."
+      }
+    ],
+    "grammarFocus": [
+      "استخدام جمل الربط dass (Ich denke, dass...)",
+      "استخدام الأفعال المساعدة (sollte, kann)"
+    ],
+    "structure": [
+      {
+        "title": "Einleitung",
+        "titleAr": "المقدمة",
+        "points": "عرف الانتخابات وأهميتها العامة في الدولة."
+      },
+      {
+        "title": "Argumente",
+        "titleAr": "الحجج والأسباب",
+        "points": "اشرح لماذا يجب على كل مواطن المشاركة بالتصويت (تغيير القوانين، تقرير المستقبل)."
+      },
+      {
+        "title": "Fazit",
+        "titleAr": "الخلاصة ورأيك الشخصي",
+        "points": "لخص رأيك بوضوح في جملة ختامية."
+      }
+    ],
+    "exampleEssay": {
+      "text": "Wählen ist ein zentrales Element in einer Demokratie. Jede Wahl gibt den Bürgern die Möglichkeit, ihre Zukunft aktiv mitzugestalten. Ich denke, dass Wählen nicht nur ein Recht, sondern auch eine wichtige Pflicht ist. Wenn man nicht wählt, entscheiden andere über die Politik und die Gesetze. Mit unserer Stimme können wir die Regierung wählen und unsere Meinung zeigen. Deshalb sollte jeder Bürger zur Wahl gehen. Nur so funktioniert eine freie Gesellschaft.",
+      "translation": "التصويت هو عنصر أساسي في الديمقراطية. تمنح كل انتخابات المواطنين الفرصة للمساهمة بنشاط في تشكيل مستقبلهم. أعتقد أن التصويت ليس مجرد حق، بل هو أيضاً واجب مهم. إذا لم ينتخب المرء، يقرر الآخرون السياسة والقوانين. بأصواتنا يمكننا اختيار الحكومة وإظهار آرائنا. لذلك يجب على كل مواطن الذهاب للتصويت. هكذا فقط يعمل المجتمع الحر.",
+      "wordCount": 81
+    },
+    "writingTips": [
+      "استخدم صيغ الربط dass لوضع الفعل في نهاية الجملة.",
+      "استخدم كلمات مقنعة مثل wichtig (مهم)، Pflicht (واجب)، Möglichkeit (فرصة)."
+    ],
+    "selfCheckList": [
+      "هل بدأت بتعريف واضح لأهمية الانتخاب؟",
+      "هل قدمت حجتين على الأقل لأهمية التصويت؟",
+      "هل استخدمت الجمل الرابطة 'dass' بشكل صحيح؟",
+      "هل كتبت عن دور المواطن في الديمقراطية؟",
+      "هل أنهيت بخلاصة قوية؟",
+      "هل راجعت الإملاء وعلامات الترقيم؟"
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Kultur und Feste in meiner Heimat",
+    "titleAr": "الثقافة والأعياد في وطني",
+    "emoji": "🌍",
+    "type": "Beschreibung / Aufsatz",
+    "typeAr": "وصف / موضوع تعبير",
+    "relatedChapter": 24,
+    "targetLength": {
+      "min": 50,
+      "max": 90
+    },
+    "description": "اكتب مقالاً تصف فيه عيداً تقليدياً أو عادة ثقافية مشهورة في بلدك الأصلي، وكيف تحتفلون بها مع العائلة والأصدقاء.",
+    "keyVocabulary": [
+      {
+        "de": "die Heimat",
+        "ar": "الوطن"
+      },
+      {
+        "de": "das Fest",
+        "ar": "العيد / الاحتفال"
+      },
+      {
+        "de": "die Kultur",
+        "ar": "الثقافة"
+      },
+      {
+        "de": "traditionell",
+        "ar": "تقليدي"
+      },
+      {
+        "de": "feiern",
+        "ar": "يحتفل"
+      },
+      {
+        "de": "die Familie",
+        "ar": "العائلة"
+      },
+      {
+        "de": "das Essen",
+        "ar": "الطعام / الأكل"
+      },
+      {
+        "de": "besuchen",
+        "ar": "يزور"
+      },
+      {
+        "de": "die Gewohnheit",
+        "ar": "العادة"
+      },
+      {
+        "de": "zusammen",
+        "ar": "معاً"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "de": "In meiner Heimat feiern wir jedes Jahr das Zuckerfest.",
+        "ar": "في وطني نحتفل كل عام بعيد الفطر."
+      },
+      {
+        "de": "Das ist ein großes und wichtiges Familienfest.",
+        "ar": "هذا احتفال عائلي كبير ومهم."
+      },
+      {
+        "de": "Wir besuchen Verwandte und essen traditionelle Süßigkeiten.",
+        "ar": "نحن نزور الأقارب ونأكل الحلويات التقليدية."
+      },
+      {
+        "de": "Alle tragen neue Kleidung und schenken den Kindern Geld.",
+        "ar": "الجميع يرتدون ملابس جديدة ويهدون الأطفال المال."
+      },
+      {
+        "de": "Ich mag diese Tradition sehr, weil sie Menschen verbindet.",
+        "ar": "أحب هذه العادة كثيراً لأنها تربط الناس ببعضهم."
+      }
+    ],
+    "grammarFocus": [
+      "استخدام جمل التعليل (weil) لوضع الفعل في النهاية",
+      "استخدام الظروف الزمنية للترتيب (zuerst, danach, am Ende)"
+    ],
+    "structure": [
+      {
+        "title": "Name des Festes",
+        "titleAr": "اسم العيد والتعريف به",
+        "points": "اذكر اسم العيد ومتى تقريباً تحتفلون به في بلدك."
+      },
+      {
+        "title": "Ablauf der Feier",
+        "titleAr": "خطوات الاحتفال",
+        "points": "صف بالتفصيل ماذا تفعلون في صباح العيد، الأكل، الزيارات، الملابس."
+      },
+      {
+        "title": "Bedeutung",
+        "titleAr": "الأهمية والشعور الشخصي",
+        "points": "اشرح ماذا يعني لك هذا العيد ولماذا تحبه."
+      }
+    ],
+    "exampleEssay": {
+      "text": "In meiner Heimat Syrien feiern wir jedes Jahr das Zuckerfest nach dem Ramadan. Es ist ein großes traditionelles Fest für die ganze Familie. Am ersten Morgen gehen wir zuerst in die Moschee. Danach frühstücken wir alle zusammen bei meinen Großeltern. Wir essen sehr leckere Süßigkeiten und trinken Kaffee. Die Kinder bekommen neue Kleidung und kleine Geschenke. Ich liebe dieses Fest sehr, weil alle Verwandten zusammenkommen und wir viel lachen. Es gibt eine schöne Stimmung.",
+      "translation": "في وطني سوريا، نحتفل كل عام بعيد الفطر بعد شهر رمضان. إنه عيد تقليدي كبير لجميع أفراد العائلة. في الصباح الأول نذهب أولاً إلى المسجد. بعد ذلك نتناول الفطور جميعاً معاً في بيت جدي وجدتي. نأكل حلويات لذيذة جداً ونشرب القهوة. يحصل الأطفال على ملابس جديدة وهدايا صغيرة. أحب هذا العيد كثيراً لأن جميع الأقارب يجتمعون معاً ونضحك كثيراً. هناك جو جميل.",
+      "wordCount": 86
+    },
+    "writingTips": [
+      "استخدم كلمات الترتيب لتسلسل الأحداث: zuerst (أولاً)، danach (بعد ذلك)، am Nachmittag (في بعد الظهر).",
+      "اصف المشاعر والروائح والأطعمة لتجعل النص حيوياً."
+    ],
+    "selfCheckList": [
+      "هل ذكرت اسم العيد وبلدك؟",
+      "هل أوضحت متى يتم الاحتفال به؟",
+      "هل وصفت الأنشطة الصباحية والزيارات؟",
+      "هل ذكرت الأطعمة أو الحلويات الخاصة بالعيد؟",
+      "هل عبرت عن مشاعرك ولماذا تحب هذا العيد؟",
+      "هل راجعت ترتيب الكلمات بعد أدوات الربط؟"
+    ]
   }
 ];
 

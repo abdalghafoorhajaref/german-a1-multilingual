@@ -1,16 +1,17 @@
-// ============================================================
-// CURRICULUM DATA - Multilingual
-// ============================================================
-
 const CURRICULUM = [
   {
     "id": 1,
     "titleDe": "Hallo! Wie heißen Sie?",
     "titleAr": "مرحباً! ما اسمك؟",
-    "titleEn": "Hello! What is your name?",
-    "titleTr": "Merhaba! Adınız nedir?",
     "emoji": "👋",
     "color": "#4f8ef7",
+    "titleEn": "Welcome! What is your name",
+    "titleTr": "Hoş geldin! Adın ne",
+    "titleRo": "Bun venit! Cum te numești",
+    "titleBs": "Dobrodošli! kako se zoveš",
+    "titleEs": "¡Bienvenido! Cómo te llamas",
+    "titleBg": "Добре дошли! как се казваш",
+    "titleEl": "Καλωσόρισμα! Πως σε λένε",
     "topics": [
       "التعريف بالنفس",
       "التحية",
@@ -19,277 +20,312 @@ const CURRICULUM = [
     "topicsEn": [
       "Introducing oneself",
       "Greetings",
-      "Alphabet"
+      "alphabet"
     ],
     "topicsTr": [
       "Kendini tanıtma",
-      "Selamlaşma",
-      "Alfabe"
+      "Selamlar",
+      "alfabe"
+    ],
+    "topicsRo": [
+      "Prezentându-se",
+      "Salutări",
+      "alfabet"
+    ],
+    "topicsBs": [
+      "Predstavljajući se",
+      "Pozdrav",
+      "abeceda"
+    ],
+    "topicsEs": [
+      "Presentarse",
+      "Saludos",
+      "alfabeto"
+    ],
+    "topicsBg": [
+      "Представяне на себе си",
+      "поздрави",
+      "азбука"
+    ],
+    "topicsEl": [
+      "Παρουσίαση του εαυτού του",
+      "Χαιρετίσματα",
+      "αλφάβητο"
     ],
     "canDo": "أستطيع أن أقدم نفسي وأتهجى اسمي",
-    "canDoEn": "I can introduce myself and spell my name",
-    "canDoTr": "Kendimi tanıtabilir ve adımı heceleyebilirim",
     "canDoDe": "Ich kann mich vorstellen und meinen Namen buchstabieren",
+    "canDoEn": "I can introduce myself and spell my name",
+    "canDoTr": "Kendimi tanıtabilirim ve adımı yazabilirim",
+    "canDoRo": "Pot să mă prezint și să îmi scriu numele",
+    "canDoBs": "Mogu se predstaviti i spelovati svoje ime",
+    "canDoEs": "Puedo presentarme y deletrear mi nombre",
+    "canDoBg": "Мога да се представя и да напиша името си",
+    "canDoEl": "Μπορώ να συστηθώ και να γράψω το όνομά μου",
     "audioFiles": [
       {
         "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD1/02_langenschidt_-_1.1b_-_die_kursliste.mp3",
         "label": "1.1b - Die Kursliste",
         "labelAr": "قائمة الطلاب",
-        "labelEn": "1.1b - The Course List",
-        "labelTr": "1.1b - Sınıf Listesi",
-        "labelRo": "1.1b - Lista de cursuri",
-        "labelBs": "1.1b - Lista kurseva",
-        "labelEs": "1.1b - La lista de cursos",
-        "labelBg": "1.1b - Списъкът на курсовете",
-        "labelEl": "1.1β - Η λίστα μαθημάτων"
+        "labelEn": "List of students",
+        "labelTr": "Öğrenci listesi",
+        "labelRo": "Lista elevilor",
+        "labelBs": "Spisak studenata",
+        "labelEs": "Lista de estudiantes",
+        "labelBg": "Списък на учениците",
+        "labelEl": "Κατάλογος μαθητών"
       },
       {
         "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD1/03_langenschidt_-_1.2a_-_sie_und_du.mp3",
         "label": "1.2a - Sie und du",
         "labelAr": "أنتَ الرسمي وغير الرسمي",
-        "labelEn": "1.2a - Sie and du (Formal/Informal)",
-        "labelTr": "1.2a - Sie ve du (Resmi/Samimi)",
-        "labelRo": "1.2a - Sie and du (Formal/Informal)",
-        "labelBs": "1.2a - Sie and du (formalno/neformalno)",
-        "labelEs": "1.2a - Sie y du (formal/informal)",
-        "labelBg": "1.2a - Sie и du (официално/неофициално)",
-        "labelEl": "1.2a - Sie and du (Επίσημο/Άτυπο)"
+        "labelEn": "You are the formal and the informal",
+        "labelTr": "Siz resmi ve gayri resmisiniz",
+        "labelRo": "Tu ești cel formal și cel informal",
+        "labelBs": "Vi ste formalni i neformalni",
+        "labelEs": "Eres el formal y el informal.",
+        "labelBg": "Вие сте формалното и неформалното",
+        "labelEl": "Είσαι ο επίσημος και ο άτυπος"
       },
       {
         "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD1/04_langenschidt_-_1.3a_-_melodie_und_akzent.mp3",
         "label": "1.3a - Melodie und Akzent",
         "labelAr": "لحن اللغة ونبرها",
-        "labelEn": "1.3a - Melody and Accent",
-        "labelTr": "1.3a - Melodi ve Vurgu",
-        "labelRo": "1.3a - Melodie și accent",
-        "labelBs": "1.3a - Melodija i akcenat",
-        "labelEs": "1.3a - Melodía y acento",
-        "labelBg": "1.3a - Мелодия и акцент",
-        "labelEl": "1.3a - Μελωδία και προφορά"
+        "labelEn": "The melody and tone of the language",
+        "labelTr": "Dilin melodisi ve tonu",
+        "labelRo": "Melodia și tonul limbii",
+        "labelBs": "Melodija i ton jezika",
+        "labelEs": "La melodía y el tono del idioma.",
+        "labelBg": "Мелодията и тонът на езика",
+        "labelEl": "Η μελωδία και ο τόνος της γλώσσας"
       },
       {
         "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD1/06_langenschidt_-_1.4a_-_sich_vorstellen.mp3",
         "label": "1.4a - Sich vorstellen",
         "labelAr": "التعريف بالنفس",
-        "labelEn": "1.4a - Introducing oneself",
-        "labelTr": "1.4a - Kendini Tanıtma",
-        "labelRo": "1.4a - Prezentarea pe sine",
-        "labelBs": "1.4a - Predstavljanje",
-        "labelEs": "1.4a - Presentarse",
-        "labelBg": "1.4a – Представяне",
-        "labelEl": "1.4α - Παρουσίαση του εαυτού"
+        "labelEn": "Introducing oneself",
+        "labelTr": "Kendini tanıtma",
+        "labelRo": "Prezentându-se",
+        "labelBs": "Predstavljajući se",
+        "labelEs": "Presentarse",
+        "labelBg": "Представяне на себе си",
+        "labelEl": "Παρουσίαση του εαυτού του"
       },
       {
         "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD1/09_langenschidt_-_1.6b_-_steckbriefe.mp3",
         "label": "1.6b - Steckbriefe",
         "labelAr": "البطاقات الشخصية",
-        "labelEn": "1.6b - Profiles",
-        "labelTr": "1.6b - Kimlik Bilgileri",
-        "labelRo": "1.6b - Profile",
-        "labelBs": "1.6b - Profili",
-        "labelEs": "1.6b - Perfiles",
-        "labelBg": "1.6b - Профили",
-        "labelEl": "1.6β - Προφίλ"
+        "labelEn": "Personal cards",
+        "labelTr": "Kişisel kartlar",
+        "labelRo": "Carduri personale",
+        "labelBs": "Lične karte",
+        "labelEs": "Tarjetas personales",
+        "labelBg": "Лични карти",
+        "labelEl": "Προσωπικές κάρτες"
       },
       {
         "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD1/11_langenschidt_-_1.9a_-_buchstabieren.mp3",
         "label": "1.9a - Buchstabieren",
         "labelAr": "التهجئة",
-        "labelEn": "1.9a - Spelling",
-        "labelTr": "1.9a - Heceleme",
-        "labelRo": "1.9a - Ortografie",
-        "labelBs": "1.9a - Pravopis",
-        "labelEs": "1.9a - Ortografía",
-        "labelBg": "1.9а – Правопис",
-        "labelEl": "1,9α - Ορθογραφία"
+        "labelEn": "Spelling",
+        "labelTr": "Yazım",
+        "labelRo": "Ortografie",
+        "labelBs": "Pravopis",
+        "labelEs": "Ortografía",
+        "labelBg": "Правопис",
+        "labelEl": "Ορθογραφία"
       },
       {
         "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD1/12_langenschidt_-_1.9b_-_alphabet_und_rhythmus_lernen.mp3",
         "label": "1.9b - Alphabet lernen",
         "labelAr": "تعلم الأبجدية",
-        "labelEn": "1.9b - Learning the Alphabet",
-        "labelTr": "1.9b - Alfabeyi Öğrenmek",
-        "labelRo": "1.9b - Învățarea alfabetului",
-        "labelBs": "1.9b - Učenje abecede",
-        "labelEs": "1.9b - Aprender el alfabeto",
-        "labelBg": "1.9b - Изучаване на азбуката",
-        "labelEl": "1.9β - Εκμάθηση της Αλφαβήτου"
+        "labelEn": "Learn the alphabet",
+        "labelTr": "Alfabeyi öğrenin",
+        "labelRo": "Învață alfabetul",
+        "labelBs": "Naučite abecedu",
+        "labelEs": "aprende el alfabeto",
+        "labelBg": "Научете азбуката",
+        "labelEl": "Μάθετε το αλφάβητο"
       }
     ],
     "dialogs": [
       {
         "title": "Guten Tag! Sich vorstellen",
         "titleAr": "مرحباً! التعريف بالنفس",
-        "titleEn": "Good day! Introducing oneself",
-        "titleTr": "İyi günler! Kendini tanıtma",
+        "titleEn": "Welcome! Introducing oneself",
+        "titleTr": "Hoş geldin! Kendini tanıtma",
+        "titleRo": "Bun venit! Prezentându-se",
+        "titleBs": "Dobrodošli! Predstavljajući se",
+        "titleEs": "¡Bienvenido! Presentarse",
+        "titleBg": "Добре дошли! Представяне на себе си",
+        "titleEl": "Καλωσόρισμα! Παρουσίαση του εαυτού του",
         "lines": [
           {
             "speaker": "Anna",
             "de": "Guten Tag! Ich heiße Anna Müller.",
             "ar": "مرحباً! اسمي آنا مولر.",
-            "en": "Good day! My name is Anna Müller.",
-            "tr": "İyi günler! Benim adım Anna Müller.",
-            "ro": "Bună ziua! Numele meu este Anna Müller.",
-            "bs": "Dobar dan! Moje ime je Anna Müller.",
-            "es": "¡Buen día! Mi nombre es Anna Müller.",
-            "bg": "Добър ден! Казвам се Анна Мюлер.",
-            "el": "Καλημέρα! Το όνομά μου είναι Anna Müller."
+            "en": "Welcome! My name is Anna Mueller.",
+            "tr": "Hoş geldin! Benim adım Anna Mueller.",
+            "ro": "Bun venit! Numele meu este Anna Mueller.",
+            "bs": "Dobrodošli! Moje ime je Anna Mueller.",
+            "es": "¡Bienvenido! Mi nombre es Anna Mueller.",
+            "bg": "Добре дошли! Казвам се Анна Мюлер.",
+            "el": "Καλωσόρισμα! Το όνομά μου είναι Anna Mueller."
           },
           {
             "speaker": "Carlos",
             "de": "Guten Tag! Ich bin Carlos Vera. Und Sie?",
             "ar": "مرحباً! أنا كارلوس فيرا. وأنتِ؟",
-            "en": "Good day! I am Carlos Vera. And you?",
-            "tr": "İyi günler! Ben Carlos Vera. Ya siz?",
-            "ro": "Bună ziua! Eu sunt Carlos Vera. Și tu?",
-            "bs": "Dobar dan! Ja sam Carlos Vera. A ti?",
-            "es": "¡Buen día! Soy Carlos Vera. ¿Y tú?",
-            "bg": "Добър ден! Аз съм Карлос Вера. а ти",
-            "el": "Καλημέρα! Είμαι ο Carlos Vera. Και εσύ;"
+            "en": "Welcome! I'm Carlos Vera. And you?",
+            "tr": "Hoş geldin! Ben Carlos Vera'yım. Ve sen?",
+            "ro": "Bun venit! Eu sunt Carlos Vera. Și tu?",
+            "bs": "Dobrodošli! Ja sam Carlos Vera. A ti?",
+            "es": "¡Bienvenido! Soy Carlos Vera. ¿Y tú?",
+            "bg": "Добре дошли! Аз съм Карлос Вера. а ти",
+            "el": "Καλωσόρισμα! Είμαι ο Κάρλος Βέρα. Και εσύ;"
           },
           {
             "speaker": "Anna",
             "de": "Mein Name ist Anna Müller. Woher kommen Sie?",
             "ar": "اسمي آنا مولر. من أين أنتَ؟",
-            "en": "My name is Anna Müller. Where do you come from?",
-            "tr": "Benim adım Anna Müller. Nereden geliyorsunuz?",
-            "ro": "Numele meu este Anna Müller. De unde eşti?",
-            "bs": "Moje ime je Anna Müller. odakle dolaziš?",
-            "es": "Mi nombre es Anna Müller. ¿De dónde es?",
-            "bg": "Казвам се Анна Мюлер. от къде идваш",
-            "el": "Το όνομά μου είναι Anna Müller. Από πού κατάγεσαι;"
+            "en": "My name is Anna Mueller. Where are you from?",
+            "tr": "Benim adım Anna Mueller. Nerelisin",
+            "ro": "Numele meu este Anna Mueller. De unde ești?",
+            "bs": "Moje ime je Anna Mueller. odakle si",
+            "es": "Mi nombre es Anna Mueller. ¿De dónde eres?",
+            "bg": "Казвам се Анна Мюлер. ти откъде си",
+            "el": "Το όνομά μου είναι Anna Mueller. Από πού είστε;"
           },
           {
             "speaker": "Carlos",
             "de": "Ich komme aus Spanien. Und Sie?",
             "ar": "أنا من إسبانيا. وأنتِ؟",
-            "en": "I come from Spain. And you?",
-            "tr": "İspanya'dan geliyorum. Ya siz?",
-            "ro": "Vin din Spania. Și tu?",
-            "bs": "Dolazim iz Španjolska. A ti?",
-            "es": "Yo vengo de España. ¿Y tú?",
-            "bg": "Идвам от Испания. а ти",
-            "el": "Κατάγομαι από την Ισπανία. Και εσύ;"
+            "en": "I am from Spain. And you?",
+            "tr": "Ben İspanya'dan geliyorum. Ve sen?",
+            "ro": "Sunt din Spania. Și tu?",
+            "bs": "Ja sam iz Spanije. A ti?",
+            "es": "Yo soy de España. ¿Y tú?",
+            "bg": "Аз съм от Испания. а ти",
+            "el": "Είμαι από την Ισπανία. Και εσύ;"
           },
           {
             "speaker": "Anna",
             "de": "Ich komme aus Deutschland.",
             "ar": "أنا من ألمانيا.",
-            "en": "I come from Germany.",
-            "tr": "Almanya'dan geliyorum.",
-            "ro": "Vin din Germania.",
-            "bs": "Dolazim iz Njemačka.",
-            "es": "Vengo de Alemania.",
-            "bg": "Идвам от Германия.",
-            "el": "Κατάγομαι από τη Γερμανία."
+            "en": "I am from Germany.",
+            "tr": "Ben Almanyalıyım.",
+            "ro": "Sunt din Germania.",
+            "bs": "Ja sam iz Njemačke.",
+            "es": "Soy de Alemania.",
+            "bg": "Аз съм от Германия.",
+            "el": "Είμαι από τη Γερμανία."
           }
-        ],
-        "titleRo": "Bună ziua! Prezentându-se",
-        "titleBs": "Dobar dan! Predstavljajući se",
-        "titleEs": "¡Buen día! Presentarse",
-        "titleBg": "Добър ден! Представяне на себе си",
-        "titleEl": "Καλημέρα! Παρουσίαση του εαυτού του"
+        ]
       },
       {
         "title": "Wie schreibt man das?",
         "titleAr": "كيف تكتبها؟",
-        "titleEn": "How do you write that?",
-        "titleTr": "Bu nasıl yazılır?",
+        "titleEn": "How do you write it?",
+        "titleTr": "Bunu nasıl yazarsın?",
+        "titleRo": "Cum o scrii?",
+        "titleBs": "Kako to pišete?",
+        "titleEs": "¿Cómo lo escribes?",
+        "titleBg": "Как го пишеш?",
+        "titleEl": "Πώς το γράφεις;",
         "lines": [
           {
             "speaker": "Lehrerin",
             "de": "Buchstabieren Sie bitte Ihren Namen.",
             "ar": "تهجّ اسمك من فضلك.",
-            "en": "Please spell your name.",
-            "tr": "Lütfen adınızı heceleyin.",
-            "ro": "Vă rog să vă scrieți numele.",
-            "bs": "Molimo napišite svoje ime.",
-            "es": "Por favor deletrea tu nombre.",
-            "bg": "Моля, напишете името си.",
-            "el": "Παρακαλώ γράψτε το όνομά σας."
+            "en": "Spell your name please.",
+            "tr": "İsminizi heceleyin lütfen.",
+            "ro": "Scrie-ți numele te rog.",
+            "bs": "Spelujte svoje ime molim.",
+            "es": "Deletrea tu nombre por favor.",
+            "bg": "Напишете името си, моля.",
+            "el": "Γράψε το όνομά σου σε παρακαλώ."
           },
           {
             "speaker": "Student",
             "de": "M-A-R-I-A.",
             "ar": "م-ا-ر-ي-ا.",
-            "en": "M-A-R-I-A.",
-            "tr": "M-A-R-I-A.",
-            "ro": "M-A-R-I-A.",
-            "bs": "M-A-R-I-A.",
-            "es": "M-A-R-I-A.",
-            "bg": "М-А-Р-И-А.",
-            "el": "Μ-Α-Ρ-Ι-Α."
+            "en": "Maria.",
+            "tr": "Maria.",
+            "ro": "Maria.",
+            "bs": "Maria.",
+            "es": "María.",
+            "bg": "Мария.",
+            "el": "Μαρία."
           },
           {
             "speaker": "Lehrerin",
             "de": "Danke. Wie ist Ihre Telefonnummer?",
             "ar": "شكراً. ما هو رقم هاتفك؟",
-            "en": "Thank you. What is your telephone number?",
-            "tr": "Teşekkürler. Telefon numaranız nedir?",
-            "ro": "Multumesc. Care este numărul tău de telefon?",
+            "en": "Thanks. What is your phone number?",
+            "tr": "Teşekkürler. Telefon numaran nedir?",
+            "ro": "Mulţumesc. Care este numărul tău de telefon?",
             "bs": "Hvala. Koji je tvoj broj telefona?",
             "es": "Gracias. ¿Cuál es tu número de teléfono?",
-            "bg": "благодаря Какъв е вашият телефонен номер?",
-            "el": "Σας ευχαριστώ. Ποιος είναι ο αριθμός τηλεφώνου σας;"
+            "bg": "благодаря Кой е вашият телефонен номер?",
+            "el": "Ευχαριστώ. Ποιος είναι ο αριθμός τηλεφώνου σας;"
           },
           {
             "speaker": "Student",
             "de": "0171 – 23 45 67.",
             "ar": "صفر-واحد-سبعة-واحد – ثلاثة وعشرون-خمسة وأربعون-سبعة وستون.",
-            "en": "0171 - 23 45 67.",
-            "tr": "0171 - 23 45 67.",
-            "ro": "0171 - 23 45 67.",
-            "bs": "0171 - 23 45 67.",
-            "es": "0171 - 23 45 67.",
-            "bg": "0171 - 23 45 67.",
-            "el": "0171 - 23 45 67."
+            "en": "Zero-one-seven-one - twenty-three - forty-five - sixty-seven.",
+            "tr": "Sıfır-bir-yedi-bir - yirmi üç - kırk beş - altmış yedi.",
+            "ro": "Zero-unu-șapte-unu - douăzeci și trei - patruzeci și cinci - șaizeci și șapte.",
+            "bs": "Nula-jedan-sedam-jedan - dvadeset tri - četrdeset pet - šezdeset sedam.",
+            "es": "Cero uno-siete-uno - veintitrés - cuarenta y cinco - sesenta y siete.",
+            "bg": "Нула-едно-седем-едно - двадесет и три - четиридесет и пет - шестдесет и седем.",
+            "el": "Μηδέν-ένα-επτά-ένα - είκοσι τρία - σαράντα πέντε - εξήντα επτά."
           }
-        ],
-        "titleRo": "Cum scrii asta?",
-        "titleBs": "Kako to pišete?",
-        "titleEs": "¿Cómo se escribe eso?",
-        "titleBg": "Как се пише това?",
-        "titleEl": "Πώς το γράφεις αυτό;"
+        ]
       }
     ],
     "readingTexts": [
       {
         "title": "Deutsch lernen in Berlin",
         "titleAr": "تعلم الألمانية في برلين",
-        "titleEn": "Learning German in Berlin",
-        "titleTr": "Berlin'de Almanca öğrenmek",
+        "titleEn": "Learn German in Berlin",
+        "titleTr": "Berlin'de Almanca öğrenin",
+        "titleRo": "Învață germană la Berlin",
+        "titleBs": "Učite njemački u Berlinu",
+        "titleEs": "Aprende alemán en Berlín",
+        "titleBg": "Научете немски в Берлин",
+        "titleEl": "Μάθετε γερμανικά στο Βερολίνο",
         "text": [
           {
             "de": "Das ist der Deutschkurs.",
             "ar": "هذا هو درس الألمانية.",
-            "en": "This is the German course.",
-            "tr": "Bu Almanca kursudur.",
-            "ro": "Acesta este cursul de germană.",
-            "bs": "Ovo je kurs nemačkog.",
-            "es": "Este es el curso de alemán.",
-            "bg": "Това е курсът по немски.",
-            "el": "Αυτό είναι το γερμανικό μάθημα."
+            "en": "This is a German lesson.",
+            "tr": "Bu bir Almanca dersidir.",
+            "ro": "Aceasta este o lecție de germană.",
+            "bs": "Ovo je lekcija njemačkog.",
+            "es": "Esta es una lección de alemán.",
+            "bg": "Това е урок по немски.",
+            "el": "Αυτό είναι μάθημα γερμανικών."
           },
           {
             "de": "Die Kursleiterin heißt Frau Kohl.",
             "ar": "اسم المعلمة السيدة كول.",
-            "en": "The instructor's name is Mrs. Kohl.",
-            "tr": "Kurs öğretmeninin adı Bayan Kohl.",
-            "ro": "Numele instructorului este doamna Kohl.",
-            "bs": "Instruktor se zove gđa Kohl.",
-            "es": "El nombre de la instructora es Sra. Kohl.",
-            "bg": "Името на инструктора е г-жа Кол.",
-            "el": "Το όνομα της καθηγήτριας είναι κυρία Kohl."
+            "en": "The teacher's name is Mrs. Cole.",
+            "tr": "Öğretmenin adı Bayan Cole.",
+            "ro": "Numele profesorului este doamna Cole.",
+            "bs": "Učiteljica se zove gđa Cole.",
+            "es": "El nombre de la maestra es Sra. Cole.",
+            "bg": "Името на учителката е г-жа Коул.",
+            "el": "Το όνομα της δασκάλας είναι κυρία Κόουλ."
           },
           {
             "de": "Im Kurs sind 15 Personen.",
             "ar": "في الدرس 15 شخصاً.",
-            "en": "There are 15 people in the course.",
-            "tr": "Kursta 15 kişi var.",
-            "ro": "Sunt 15 persoane la curs.",
-            "bs": "Na kursu je 15 ljudi.",
-            "es": "Hay 15 personas en el curso.",
-            "bg": "В курса има 15 човека.",
+            "en": "There are 15 people in the lesson.",
+            "tr": "Derste 15 kişi var.",
+            "ro": "Sunt 15 persoane la lecție.",
+            "bs": "U lekciji je 15 ljudi.",
+            "es": "Hay 15 personas en la lección.",
+            "bg": "В урока участват 15 души.",
             "el": "Στο μάθημα συμμετέχουν 15 άτομα."
           },
           {
@@ -306,294 +342,334 @@ const CURRICULUM = [
           {
             "de": "Carlos kommt aus Spanien. Maria kommt aus Brasilien.",
             "ar": "كارلوس من إسبانيا. ماريا من البرازيل.",
-            "en": "Carlos comes from Spain. Maria comes from Brazil.",
-            "tr": "Carlos İspanya'dan geliyor. Maria Brezilya'dan geliyor.",
-            "ro": "Carlos vine din Spania. Maria vine din Brazilia.",
-            "bs": "Carlos dolazi iz Španije. Maria dolazi iz Brazila.",
-            "es": "Carlos viene de España. María viene de Brasil.",
-            "bg": "Карлос идва от Испания. Мария идва от Бразилия.",
-            "el": "Ο Κάρλος κατάγεται από την Ισπανία. Η Μαρία κατάγεται από τη Βραζιλία."
+            "en": "Carlos from Spain. Maria from Brazil.",
+            "tr": "İspanya'dan Carlos. Brezilya'dan Maria.",
+            "ro": "Carlos din Spania. Maria din Brazilia.",
+            "bs": "Carlos iz Španije. Maria iz Brazila.",
+            "es": "Carlos de España. María de Brasil.",
+            "bg": "Карлос от Испания. Мария от Бразилия.",
+            "el": "Carlos από την Ισπανία. Μαρία από τη Βραζιλία."
           }
         ],
         "questions": [
           {
             "q": "Wie heißt die Kursleiterin?",
             "qAr": "ما اسم المعلمة؟",
-            "qEn": "What is the instructor's name?",
-            "qTr": "Kurs öğretmeninin adı nedir?",
             "answer": "Frau Kohl",
             "answerAr": "السيدة كول",
-            "answerEn": "Mrs. Kohl",
-            "answerTr": "Bayan Kohl",
-            "qRo": "Care este numele instructorului?",
-            "answerRo": "doamna Kohl",
-            "qBs": "Kako se zove instruktor?",
-            "answerBs": "Gospođo Kohl",
-            "qEs": "¿Cómo se llama el instructor?",
-            "answerEs": "Sra. Kohl",
-            "qBg": "Как се казва инструкторът?",
-            "answerBg": "г-жа Кол",
-            "qEl": "Ποιο είναι το όνομα του εκπαιδευτή;",
-            "answerEl": "Η κυρία Κολ"
+            "qEn": "What is the name of the parameter?",
+            "answerEn": "Mrs Cole",
+            "qTr": "Parametrenin adı nedir?",
+            "answerTr": "Bayan Cole",
+            "qRo": "Care este numele parametrului?",
+            "answerRo": "doamna Cole",
+            "qBs": "Kako se zove parametar?",
+            "answerBs": "Mrs Cole",
+            "qEs": "¿Cuál es el nombre del parámetro?",
+            "answerEs": "señora cole",
+            "qBg": "Какво е името на параметъра?",
+            "answerBg": "г-жа Коул",
+            "qEl": "Ποιο είναι το όνομα της παραμέτρου;",
+            "answerEl": "Κυρία Κόουλ"
           },
           {
             "q": "Wie viele Personen sind im Kurs?",
-            "qAr": "کم شخصاً في الدرس؟",
-            "qEn": "How many people are in the course?",
-            "qTr": "Kursta kaç kişi var?",
+            "qAr": "كم شخصاً في الدرس؟",
             "answer": "15 Personen",
             "answerAr": "15 شخصاً",
+            "qEn": "How many people are in the lesson?",
             "answerEn": "15 people",
+            "qTr": "Derste kaç kişi var?",
             "answerTr": "15 kişi",
-            "qRo": "Câte persoane sunt la curs?",
+            "qRo": "Câți oameni sunt la lecție?",
             "answerRo": "15 persoane",
-            "qBs": "Koliko je ljudi na kursu?",
+            "qBs": "Koliko je ljudi u lekciji?",
             "answerBs": "15 ljudi",
-            "qEs": "¿Cuántas personas hay en el curso?",
+            "qEs": "¿Cuántas personas hay en la lección?",
             "answerEs": "15 personas",
-            "qBg": "Колко души са в курса?",
+            "qBg": "Колко души са в урока?",
             "answerBg": "15 души",
             "qEl": "Πόσα άτομα συμμετέχουν στο μάθημα;",
             "answerEl": "15 άτομα"
           }
-        ],
-        "titleRo": "Învățați limba germană la Berlin",
-        "titleBs": "Učenje njemačkog u Berlinu",
-        "titleEs": "Aprender alemán en Berlín",
-        "titleBg": "Учене на немски в Берлин",
-        "titleEl": "Εκμάθηση γερμανικών στο Βερολίνο"
+        ]
       }
     ],
     "grammar": [
       {
         "id": "verb-sein",
-        "title": "فعل الكون - sein (يكون)",
+        "title": "فعل الكون - sein (يكون/هو)",
         "titleDe": "Das Verb 'sein'",
-        "titleEn": "The verb 'sein' (to be)",
-        "titleTr": "'sein' Fiili (olmak)",
         "explanation": "فعل sein هو من أهم الأفعال في الألمانية. يُستخدم للتعريف بالنفس والوصف.",
-        "explanationEn": "The verb 'sein' is one of the most important verbs in German. It is used to introduce oneself and describe things.",
-        "explanationTr": "'sein' fiili Almancadaki en önemli fiillerden biridir. Kendini tanıtmak ve tasvir etmek için kullanılır.",
+        "titleEn": "Verb to be - sein (to be/is)",
+        "explanationEn": "Sein is one of the most important verbs in German. It is used to introduce oneself and describe oneself.",
+        "titleTr": "Olmak Fiil - sein (olmak/olmak)",
+        "explanationTr": "Sein Almancanın en önemli fiillerinden biridir. Kendini tanıtmak ve anlatmak için kullanılır.",
+        "titleRo": "Verbul a fi - sein (a fi/este)",
+        "explanationRo": "Sein este unul dintre cele mai importante verbe din germană. Este folosit pentru a te prezenta și a te descrie.",
+        "titleBs": "Glagol biti - sein (biti/je)",
+        "explanationBs": "Sein je jedan od najvažnijih glagola u njemačkom jeziku. Koristi se da se predstavi i opiše.",
+        "titleEs": "Verbo to be - sein (ser/es)",
+        "explanationEs": "Sein es uno de los verbos más importantes del alemán. Se utiliza para presentarse y describirse.",
+        "titleBg": "Глагол да бъде - sein (да бъде/е)",
+        "explanationBg": "Sein е един от най-важните глаголи в немския език. Използва се за представяне и описание на себе си.",
+        "titleEl": "Ρήμα to be - sein (να είσαι/είναι)",
+        "explanationEl": "Το Sein είναι ένα από τα πιο σημαντικά ρήματα στα γερμανικά. Χρησιμοποιείται για να εισαγάγει τον εαυτό του και να περιγράψει τον εαυτό του.",
         "rules": [
           {
             "example": "Ich bin Carlos.",
             "translation": "أنا كارلوس.",
-            "translationEn": "I am Carlos.",
+            "note": "مع ضمير ich نستخدم bin",
+            "translationEn": "I'm Carlos.",
+            "noteEn": "With the pronoun ich we use bin",
             "translationTr": "Ben Carlos'um.",
-            "note": "مع ich نستخدم bin",
-            "noteEn": "With 'ich' we use 'bin'",
-            "noteTr": "'ich' ile 'bin' kullanırız",
+            "noteTr": "Zamir ich ile birlikte bin kullanıyoruz",
             "translationRo": "Eu sunt Carlos.",
-            "noteRo": "Cu „ich” folosim „bin”",
+            "noteRo": "Cu pronumele ich folosim bin",
             "translationBs": "Ja sam Carlos.",
-            "noteBs": "Sa 'ich' koristimo 'bin'",
+            "noteBs": "Uz zamjenicu ich koristimo bin",
             "translationEs": "Soy carlos.",
-            "noteEs": "Con 'ich' usamos 'bin'",
+            "noteEs": "Con el pronombre ich usamos bin",
             "translationBg": "Аз съм Карлос.",
-            "noteBg": "С \"ich\" използваме \"bin\"",
+            "noteBg": "С местоимението ich използваме bin",
             "translationEl": "Είμαι ο Κάρλος.",
-            "noteEl": "Με το 'ich' χρησιμοποιούμε 'bin'"
+            "noteEl": "Με την αντωνυμία ich χρησιμοποιούμε bin"
           },
           {
             "example": "Du bist Maria.",
             "translation": "أنتَ ماريا.",
+            "note": "مع ضمير du نستخدم bist",
             "translationEn": "You are Maria.",
+            "noteEn": "With the pronoun du we use bist",
             "translationTr": "Sen Maria'sın.",
-            "note": "مع du نستخدم bist",
-            "noteEn": "With 'du' we use 'bist'",
-            "noteTr": "'du' ile 'bist' kullanırız",
+            "noteTr": "Zamir du ile birlikte bist kullanıyoruz",
             "translationRo": "Tu esti Maria.",
-            "noteRo": "Cu „du” folosim „bist”",
+            "noteRo": "Cu pronumele du folosim bist",
             "translationBs": "Ti si Marija.",
-            "noteBs": "Sa 'du' koristimo 'bist'",
+            "noteBs": "Uz zamjenicu du koristimo bist",
             "translationEs": "Eres María.",
-            "noteEs": "Con 'du' usamos 'bist'",
+            "noteEs": "Con el pronombre du usamos bist",
             "translationBg": "Ти си Мария.",
-            "noteBg": "С \"du\" използваме \"bist\"",
+            "noteBg": "С местоимението du използваме bist",
             "translationEl": "Είσαι η Μαρία.",
-            "noteEl": "Με το \"du\" χρησιμοποιούμε το \"bist\""
+            "noteEl": "Με την αντωνυμία du χρησιμοποιούμε bist"
+          },
+          {
+            "example": "Er/Sie ist Lehrer.",
+            "translation": "هو/هي معلم.",
+            "note": "مع er/sie نستخدم ist",
+            "translationEn": "He/she is a teacher.",
+            "noteEn": "With er/sie we use ist",
+            "translationTr": "O bir öğretmendir.",
+            "noteTr": "Er/sie ile ist'i kullanırız",
+            "translationRo": "El/ea este profesor.",
+            "noteRo": "Cu er/sie folosim ist",
+            "translationBs": "On/ona je nastavnik.",
+            "noteBs": "Sa er/sie koristimo ist",
+            "translationEs": "Él/ella es profesor.",
+            "noteEs": "Con er/sie usamos ist",
+            "translationBg": "Той/тя е учител.",
+            "noteBg": "С er/sie използваме ist",
+            "translationEl": "Είναι δάσκαλος/α.",
+            "noteEl": "Με er/sie χρησιμοποιούμε ist"
+          },
+          {
+            "example": "Wir sind hier.",
+            "translation": "نحن هنا.",
+            "note": "مع wir نستخدم sind",
+            "translationEn": "We are here.",
+            "noteEn": "With wir we use sind",
+            "translationTr": "Biz buradayız.",
+            "noteTr": "Kabloyla sind kullanıyoruz",
+            "translationRo": "Suntem aici.",
+            "noteRo": "Cu wir folosim sind",
+            "translationBs": "Mi smo ovdje.",
+            "noteBs": "Sa wirom koristimo sind",
+            "translationEs": "Estamos aquí.",
+            "noteEs": "Con wir usamos sind",
+            "translationBg": "Ние сме тук.",
+            "noteBg": "С wir използваме sind",
+            "translationEl": "Είμαστε εδώ.",
+            "noteEl": "Με το σύρμα χρησιμοποιούμε άμμο"
           }
-        ],
-        "table": {
-          "headers": [
-            "الضمير",
-            "التصريف",
-            "المعنى"
-          ],
-          "headersEn": [
-            "Pronoun",
-            "Conjugation",
-            "Meaning"
-          ],
-          "headersTr": [
-            "Zamir",
-            "Çekim",
-            "Anlamı"
-          ],
-          "rows": [
-            [
-              "ich",
-              "bin",
-              "أنا / I am / Ben / eu sunt / Ja sam / Yo soy / Аз съм / Είμαι"
-            ],
-            [
-              "du",
-              "bist",
-              "أنت / You are / Sen / Tu ești / Ti si / Tú eres / Ти си / Είσαι"
-            ],
-            [
-              "er/sie/es",
-              "ist",
-              "هو/هي / He/She/It is / O / El/Ea/Este / On/Ona/Ono je / Él/Ella/Ello es / Той/Тя/То е / Αυτός/Αυτή/Αυτό είναι"
-            ],
-            [
-              "wir",
-              "sind",
-              "نحن / We are / Biz / Suntem / Mi smo / Nosotros somos / Ние сме / Είμαστε"
-            ],
-            [
-              "ihr",
-              "seid",
-              "أنتم / You all are / Siz / Sunteți cu toții / Vi ste / Vosotros sois / Ustedes son / Вие сте / Είστε"
-            ],
-            [
-              "sie/Sie",
-              "sind",
-              "هم/حضرتك / They/You (formal) are / Onlar/Siz / Ei/Tu (formale) sunteți / Oni/Vi (formalno) ste / Ellos/Usted (formal) son / Те/Вие (учтиво) сте / Αυτοί/Εσείς (επίσημα) είστε"
-            ]
-          ],
-          "headersRo": [
-            "Pronume",
-            "Conjugare",
-            "Sens"
-          ],
-          "headersBs": [
-            "Zamjenica",
-            "Konjugacija",
-            "Značenje"
-          ],
-          "headersEs": [
-            "Pronombre",
-            "Conjugación",
-            "Significado"
-          ],
-          "headersBg": [
-            "Местоимение",
-            "Конюгация",
-            "Значение"
-          ],
-          "headersEl": [
-            "Αντωνυμία",
-            "Σύζευξη",
-            "Εννοια"
-          ]
-        },
-        "titleRo": "Verbul „sein” (a fi)",
-        "explanationRo": "Verbul „sein” este unul dintre cele mai importante verbe din germană. Este folosit pentru a te prezenta și a descrie lucruri.",
-        "titleBs": "Glagol 'sein' (biti)",
-        "explanationBs": "Glagol 'sein' jedan je od najvažnijih glagola u njemačkom jeziku. Koristi se za predstavljanje i opisivanje stvari.",
-        "titleEs": "El verbo 'sein' (ser)",
-        "explanationEs": "El verbo 'sein' es uno de los verbos más importantes del alemán. Se utiliza para presentarse y describir cosas.",
-        "titleBg": "Глаголът \"sein\" (да бъде)",
-        "explanationBg": "Глаголът „sein“ е един от най-важните глаголи в немския език. Използва се за представяне и описание на нещата.",
-        "titleEl": "Το ρήμα «sein» (να είσαι)",
-        "explanationEl": "Το ρήμα «sein» είναι ένα από τα πιο σημαντικά ρήματα στα γερμανικά. Χρησιμοποιείται για να συστηθεί και να περιγράψει πράγματα."
+        ]
       },
       {
         "id": "verb-heissen",
         "title": "فعل heißen (يُدعى/اسمه)",
         "titleDe": "Das Verb 'heißen'",
-        "titleEn": "The verb 'heißen' (to be called)",
-        "titleTr": "'heißen' Fiili (adlandırılmak)",
         "explanation": "نستخدم heißen للتعريف بالاسم. الفعل يتصرف بشكل منتظم.",
-        "explanationEn": "We use 'heißen' to say what someone is named. The verb conjugates regularly.",
-        "explanationTr": "'heißen' fiilini isim belirtmek için kullanırız. Fiil düzenli çekimlenir.",
+        "titleEn": "verb heißen (to be called/his name)",
+        "explanationEn": "We use heißen to identify a noun. The verb behaves regularly.",
+        "titleTr": "fiil heißen (adı/adı ile anılmak)",
+        "explanationTr": "Bir ismi tanımlamak için heißen kullanırız. Fiil düzenli davranır.",
+        "titleRo": "verbul heißen (a fi numit/numele lui)",
+        "explanationRo": "Folosim heißen pentru a identifica un substantiv. Verbul se comportă regulat.",
+        "titleBs": "glagol heißen (zvati se/njegovo ime)",
+        "explanationBs": "Koristimo heißen za identifikaciju imenice. Glagol se ponaša redovno.",
+        "titleEs": "verbo heißen (ser llamado/su nombre)",
+        "explanationEs": "Usamos heißen para identificar un sustantivo. El verbo se comporta con regularidad.",
+        "titleBg": "глагол heißen (да се нарича/името му)",
+        "explanationBg": "Използваме heißen, за да идентифицираме съществително. Глаголът се държи редовно.",
+        "titleEl": "ρήμα heißen (να λέγεται/το όνομά του)",
+        "explanationEl": "Χρησιμοποιούμε το heißen για να προσδιορίσουμε ένα ουσιαστικό. Το ρήμα συμπεριφέρεται τακτικά.",
         "rules": [
           {
             "example": "Ich heiße Maria.",
             "translation": "اسمي ماريا.",
+            "note": "الأول",
             "translationEn": "My name is Maria.",
+            "noteEn": "the first",
             "translationTr": "Benim adım Maria.",
-            "note": "",
-            "noteEn": "",
-            "noteTr": "",
+            "noteTr": "ilk",
             "translationRo": "Numele meu este Maria.",
+            "noteRo": "primul",
             "translationBs": "Moje ime je Marija.",
+            "noteBs": "prvi",
             "translationEs": "Mi nombre es María.",
+            "noteEs": "la primera",
             "translationBg": "Казвам се Мария.",
-            "translationEl": "Με λένε Μαρία."
+            "noteBg": "първият",
+            "translationEl": "Με λένε Μαρία.",
+            "noteEl": "το πρώτο"
+          },
+          {
+            "example": "Du heißt Carlos.",
+            "translation": "اسمك كارلوس.",
+            "note": "للمخاطب",
+            "translationEn": "Your name is Carlos.",
+            "noteEn": "To the addressee",
+            "translationTr": "Adın Carlos.",
+            "noteTr": "muhatabına",
+            "translationRo": "Numele tău este Carlos.",
+            "noteRo": "Către destinatar",
+            "translationBs": "Vaše ime je Carlos.",
+            "noteBs": "Primatelju",
+            "translationEs": "Tu nombre es Carlos.",
+            "noteEs": "al destinatario",
+            "translationBg": "Името ти е Карлос.",
+            "noteBg": "Към адресата",
+            "translationEl": "Το όνομά σου είναι Κάρλος.",
+            "noteEl": "Προς τον παραλήπτη"
+          },
+          {
+            "example": "Er heißt Thomas.",
+            "translation": "اسمه توماس.",
+            "note": "للغائب",
+            "translationEn": "His name is Thomas.",
+            "noteEn": "For the absent",
+            "translationTr": "Adı Thomas.",
+            "noteTr": "Yok olanlar için",
+            "translationRo": "Numele lui este Thomas.",
+            "noteRo": "Pentru cei absenți",
+            "translationBs": "Njegovo ime je Thomas.",
+            "noteBs": "Za odsutne",
+            "translationEs": "Su nombre es Tomás.",
+            "noteEs": "para los ausentes",
+            "translationBg": "Името му е Томас.",
+            "noteBg": "За отсъстващите",
+            "translationEl": "Το όνομά του είναι Θωμάς.",
+            "noteEl": "Για τους απόντες"
           }
-        ],
-        "table": {
-          "headers": [
-            "الضمير",
-            "التصريف"
-          ],
-          "headersEn": [
-            "Pronoun",
-            "Conjugation"
-          ],
-          "headersTr": [
-            "Zamir",
-            "Çekim"
-          ],
-          "rows": [
-            [
-              "ich",
-              "heiße"
-            ],
-            [
-              "du",
-              "heißt"
-            ],
-            [
-              "er/sie/es",
-              "heißt"
-            ],
-            [
-              "wir",
-              "heißen"
-            ],
-            [
-              "ihr",
-              "heißt"
-            ],
-            [
-              "sie/Sie",
-              "heißen"
-            ]
-          ],
-          "headersRo": [
-            "Pronume",
-            "Conjugare"
-          ],
-          "headersBs": [
-            "Zamjenica",
-            "Konjugacija"
-          ],
-          "headersEs": [
-            "Pronombre",
-            "Conjugación"
-          ],
-          "headersBg": [
-            "Местоимение",
-            "Конюгация"
-          ],
-          "headersEl": [
-            "Αντωνυμία",
-            "Σύζευξη"
-          ]
-        },
-        "titleRo": "Verbul „heißen” (a fi numit)",
-        "explanationRo": "Folosim „heißen” pentru a spune cum se numește cineva. Verbul se conjugă regulat.",
-        "titleBs": "Glagol 'heißen' (nazvati se)",
-        "explanationBs": "Koristimo 'heißen' da kažemo kako se neko zove. Glagol se redovno konjugira.",
-        "titleEs": "El verbo 'heißen' (ser llamado)",
-        "explanationEs": "Usamos 'heißen' para decir cómo se llama alguien. El verbo se conjuga regularmente.",
-        "titleBg": "Глаголът „heißen“ (да се нарича)",
-        "explanationBg": "Използваме „heißen“, за да кажем как се казва някой. Глаголът се спряга редовно.",
-        "titleEl": "Το ρήμα «heißen» (λέγεται)",
-        "explanationEl": "Χρησιμοποιούμε το «heißen» για να πούμε πώς ονομάζεται κάποιος. Το ρήμα συζευγνύεται τακτικά."
+        ]
+      },
+      {
+        "id": "formal-informal",
+        "title": "الخطاب الرسمي وغير الرسمي - Sie / du",
+        "titleDe": "Sie und du",
+        "explanation": "في الألمانية هناك فرق مهم بين الخطاب الرسمي والمألوف.",
+        "titleEn": "Formal and informal speech - Sie/du",
+        "explanationEn": "In German there is an important difference between formal and familiar speech.",
+        "titleTr": "Resmi ve resmi olmayan konuşma - Sie/du",
+        "explanationTr": "Almanca'da resmi konuşma ile tanıdık konuşma arasında önemli bir fark vardır.",
+        "titleRo": "Discurs formal și informal - Sie/du",
+        "explanationRo": "În germană există o diferență importantă între vorbirea formală și cea familiară.",
+        "titleBs": "Formalni i neformalni govor - Sie/du",
+        "explanationBs": "U njemačkom postoji bitna razlika između formalnog i poznatog govora.",
+        "titleEs": "Discurso formal e informal - Sie/du",
+        "explanationEs": "En alemán existe una diferencia importante entre el habla formal y el familiar.",
+        "titleBg": "Официална и неофициална реч - Sie/du",
+        "explanationBg": "В немския език има важна разлика между официалната и познатата реч.",
+        "titleEl": "Επίσημος και άτυπος λόγος - Sie/du",
+        "explanationEl": "Στα γερμανικά υπάρχει μια σημαντική διαφορά μεταξύ επίσημης και οικείας ομιλίας.",
+        "rules": [
+          {
+            "example": "Wie heißen Sie?",
+            "translation": "ما اسمك؟ (رسمي)",
+            "note": "مع الغرباء والأكبر سناً",
+            "translationEn": "What is your name (official)",
+            "noteEn": "With strangers and older people",
+            "translationTr": "Adınız nedir (resmi)",
+            "noteTr": "Yabancılarla ve yaşlı insanlarla",
+            "translationRo": "Care este numele tău (oficial)",
+            "noteRo": "Cu străini și bătrâni",
+            "translationBs": "kako se zoveš (zvanično)",
+            "noteBs": "Sa strancima i starijim ljudima",
+            "translationEs": "¿Cuál es tu nombre (oficial)?",
+            "noteEs": "Con extraños y personas mayores",
+            "translationBg": "Как се казваш (официално)",
+            "noteBg": "С непознати и по-възрастни хора",
+            "translationEl": "Πώς σε λένε (επίσημο)",
+            "noteEl": "Με αγνώστους και ηλικιωμένους"
+          },
+          {
+            "example": "Wie heißt du?",
+            "translation": "ما اسمك؟ (غير رسمي)",
+            "note": "مع الأصدقاء والأطفال",
+            "translationEn": "What is your name (informal)",
+            "noteEn": "With friends and children",
+            "translationTr": "Adınız nedir (gayri resmi)",
+            "noteTr": "Arkadaşlarla ve çocuklarla",
+            "translationRo": "Care este numele tău (informal)",
+            "noteRo": "Cu prieteni și copii",
+            "translationBs": "kako se zoves (neformalno)",
+            "noteBs": "Sa prijateljima i decom",
+            "translationEs": "¿Cuál es tu nombre? (informal)",
+            "noteEs": "Con amigos y niños",
+            "translationBg": "Как се казваш (неофициално)",
+            "noteBg": "С приятели и деца",
+            "translationEl": "Πώς σε λένε (ανεπίσημο)",
+            "noteEl": "Με φίλους και παιδιά"
+          },
+          {
+            "example": "Woher kommen Sie?",
+            "translation": "من أين حضرتك؟ (رسمي)",
+            "note": "",
+            "translationEn": "Where are you from? (official)",
+            "noteEn": "",
+            "translationTr": "Nerelisin (resmi)",
+            "noteTr": "",
+            "translationRo": "De unde ești? (oficial)",
+            "noteRo": "",
+            "translationBs": "odakle si (zvanično)",
+            "noteBs": "",
+            "translationEs": "¿De dónde eres? (oficial)",
+            "noteEs": "",
+            "translationBg": "ти откъде си (официален)",
+            "noteBg": "",
+            "translationEl": "Από πού είστε; (επίσημος ανώτερος υπάλληλος)",
+            "noteEl": ""
+          },
+          {
+            "example": "Woher kommst du?",
+            "translation": "من أين أنت؟ (غير رسمي)",
+            "note": "",
+            "translationEn": "Where are you from? (informal)",
+            "noteEn": "",
+            "translationTr": "Nerelisin (gayri resmi)",
+            "noteTr": "",
+            "translationRo": "De unde ești? (informal)",
+            "noteRo": "",
+            "translationBs": "odakle si (neformalno)",
+            "noteBs": "",
+            "translationEs": "¿De dónde eres? (informal)",
+            "noteEs": "",
+            "translationBg": "ти откъде си (неформално)",
+            "noteBg": "",
+            "translationEl": "Από πού είστε; (άτυπος)",
+            "noteEl": ""
+          }
+        ]
       }
     ],
     "exercises": [
@@ -601,74 +677,101 @@ const CURRICULUM = [
         "type": "fillblank",
         "question": "Ich _____ Maria. (heißen)",
         "questionAr": "أكمل الفراغ بالتصريف الصحيح",
+        "answer": "heiße",
         "questionEn": "Fill in the blank with the correct conjugation",
         "questionTr": "Boşluğu doğru çekimle doldurun",
-        "answer": "heiße",
-        "hint": "تصريف heißen مع ich",
-        "hintEn": "Conjugation of heißen with ich",
-        "hintTr": "heißen fiilinin ich ile çekimi",
         "questionRo": "Completați spațiul liber cu conjugarea corectă",
-        "hintRo": "Conjugarea lui heißen cu ich",
         "questionBs": "Popunite prazno mjesto pravilnom konjugacijom",
-        "hintBs": "Konjugacija heißen sa ich",
         "questionEs": "Completa el espacio en blanco con la conjugación correcta.",
-        "hintEs": "Conjugación de heißen con ich",
         "questionBg": "Попълнете празното поле с правилното спрежение",
-        "hintBg": "Конюгиране на heißen с ich",
-        "questionEl": "Συμπληρώστε το κενό με τη σωστή σύζευξη",
-        "hintEl": "Σύζευξη του heißen με το ich"
+        "questionEl": "Συμπλήρωσε το κενό με τη σωστή σύζευξη",
+        "hint": "تصريف heißen مع ich",
+        "hintEn": "Conjugate heißen with ich",
+        "hintTr": "Heißen'i ich ile birleştirin",
+        "hintRo": "Conjugați heißen cu ich",
+        "hintBs": "Konjugirati heißen sa ich",
+        "hintEs": "Conjugar heißen con ich",
+        "hintBg": "Конюгирайте heißen с ich",
+        "hintEl": "Σύζευξη heißen με ich"
+      },
+      {
+        "type": "fillblank",
+        "question": "Woher _____ du? (kommen)",
+        "questionAr": "أكمل الفراغ",
+        "answer": "kommst",
+        "questionEn": "Fill in the blank",
+        "questionTr": "Boşluğu doldurun",
+        "questionRo": "Completați spațiul liber",
+        "questionBs": "Popunite prazninu",
+        "questionEs": "Completa el espacio en blanco",
+        "questionBg": "Попълнете празното поле",
+        "questionEl": "Συμπληρώστε το κενό",
+        "hint": "تصريف kommen مع du",
+        "hintEn": "Conjugate kommen with du",
+        "hintTr": "Kommen'i du ile birleştirin",
+        "hintRo": "Conjugați kommen cu du",
+        "hintBs": "Konjugirati kommen sa du",
+        "hintEs": "Conjugar kommen con du",
+        "hintBg": "Спрегнете kommen с du",
+        "hintEl": "Σύζευξη kommen με du"
       },
       {
         "type": "mcq",
         "question": "Wie sagt man 'Wie heißen Sie?' auf Arabisch?",
         "questionAr": "ما معنى هذه الجملة بالعربية؟",
-        "questionEn": "What does this sentence mean in English?",
-        "questionTr": "Bu cümlenin Türkçe karşılığı nedir?",
+        "answer": 1,
+        "questionEn": "What does this sentence mean in Arabic?",
+        "questionTr": "Bu cümle Arapçada ne anlama geliyor?",
+        "questionRo": "Ce înseamnă această propoziție în arabă?",
+        "questionBs": "Šta ova rečenica znači na arapskom?",
+        "questionEs": "¿Qué significa esta frase en árabe?",
+        "questionBg": "Какво означава това изречение на арабски?",
+        "questionEl": "Τι σημαίνει αυτή η πρόταση στα Αραβικά;",
         "options": [
-          "ما لغتك؟ / What is your language? / Diliniz nedir? / Care este limba ta?",
-          "ما اسم حضرتك؟ / What is your name (formal)? / Adınız nedir (resmi)? / Care este numele tău (formal)?",
-          "من أين أنت؟ / Where are you from? / Nereden geliyorsunuz? / De unde ești?",
-          "كم عمرك؟ / How old are you? / Kaç yaşındasınız? / Câți ani ai?"
+          "ما لغتك؟",
+          "ما اسم حضرتك؟",
+          "من أين أنت؟",
+          "كم عمرك؟"
         ],
         "optionsEn": [
           "What is your language?",
-          "What is your name (formal)?",
+          "What is your name?",
           "Where are you from?",
           "How old are you?"
         ],
         "optionsTr": [
           "Diliniz nedir?",
-          "Adınız nedir (resmi)?",
-          "Nereden geliyorsunuz?",
-          "Kaç yaşındasınız?"
+          "Adın ne?",
+          "Nerelisin",
+          "Kaç yaşındasın?"
         ],
-        "answer": 1,
-        "questionRo": "Ce înseamnă această propoziție în engleză?",
-        "questionBs": "Šta ova rečenica znači na engleskom?",
+        "optionsRo": [
+          "Care este limba ta?",
+          "Cum te numești?",
+          "De unde ești?",
+          "Câți ani ai?"
+        ],
         "optionsBs": [
           "koji je tvoj jezik?",
-          "Kako se zovete (formalno)?",
+          "kako se zoveš?",
           "odakle si",
           "koliko imaš godina?"
         ],
-        "questionEs": "¿Qué significa esta frase en inglés?",
         "optionsEs": [
           "¿Cuál es tu idioma?",
-          "¿Cuál es tu nombre (formal)?",
+          "¿Cómo te llamas?",
           "¿De dónde eres?",
           "¿Cuántos años tiene?"
         ],
-        "questionBg": "Какво означава това изречение на английски?",
         "optionsBg": [
           "какъв е вашият език",
-          "Как се казвате (официално)?",
+          "как се казваш",
           "ти откъде си",
           "на колко си години"
         ],
-        "questionEl": "Τι σημαίνει αυτή η πρόταση στα Αγγλικά;",
         "optionsEl": [
           "Ποια είναι η γλώσσα σας;",
-          "Πώς είναι το όνομά σας (επίσημο);",
+          "Πώς σε λένε;",
           "Από πού είστε;",
           "Πόσων χρονών είστε;"
         ]
@@ -676,399 +779,270 @@ const CURRICULUM = [
       {
         "type": "order",
         "question": "رتب الكلمات لتكون جملة صحيحة:",
-        "questionAr": "رتب الكلمات لتكون جملة صحيحة",
-        "questionEn": "Arrange the words to form a correct sentence",
-        "questionTr": "Doğru bir cümle oluşturmak için kelimeleri sıralayın",
-        "words": [
-          "aus",
-          "Ich",
-          "komme",
-          "Deutschland"
-        ],
+        "questionAr": "",
         "answer": "Ich komme aus Deutschland.",
-        "questionRo": "Aranjați cuvintele pentru a forma o propoziție corectă",
-        "questionBs": "Rasporedite riječi tako da formirate ispravnu rečenicu",
-        "questionEs": "Ordena las palabras para formar una oración correcta.",
-        "questionBg": "Подредете думите така, че да образуват правилно изречение",
-        "questionEl": "Τακτοποιήστε τις λέξεις ώστε να σχηματίσουν μια σωστή πρόταση"
+        "questionEn": "",
+        "questionTr": "",
+        "questionRo": "",
+        "questionBs": "",
+        "questionEs": "",
+        "questionBg": "",
+        "questionEl": ""
       },
       {
         "type": "matching",
-        "question": "طابق بين الألمانية والترجمة:",
-        "questionAr": "طابق بين الألمانية والترجمة:",
-        "questionEn": "Match German and translation:",
-        "questionTr": "Almanca ve çeviriyi eşleştirin:",
-        "pairs": [
-          {
-            "de": "Guten Tag",
-            "ar": "مرحباً/صباح الخير",
-            "en": "Good day / Hello",
-            "tr": "İyi günler / Merhaba",
-            "ro": "Bună ziua",
-            "bs": "Dobar dan",
-            "es": "Buen día",
-            "bg": "Добър ден",
-            "el": "Καλημέρα"
-          },
-          {
-            "de": "Danke",
-            "ar": "شكراً",
-            "en": "Thank you",
-            "tr": "Teşekkürler",
-            "ro": "Mulțumesc",
-            "bs": "Hvala",
-            "es": "Gracias",
-            "bg": "Благодаря",
-            "el": "Ευχαριστώ"
-          },
-          {
-            "de": "Bitte",
-            "ar": "من فضلك / عفواً",
-            "en": "Please / You're welcome",
-            "tr": "Lütfen / Rica ederim",
-            "ro": "Te rog / Cu plăcere",
-            "bs": "Molim",
-            "es": "Por favor",
-            "bg": "Моля",
-            "el": "Παρακαλώ"
-          },
-          {
-            "de": "Tschüss",
-            "ar": "مع السلامة",
-            "en": "Goodbye",
-            "tr": "Hoşçakal / Görüşürüz",
-            "ro": "La revedere / Pa",
-            "bs": "Zbogom / Ćao",
-            "es": "Adiós",
-            "bg": "Довиждане",
-            "el": "Αντίο"
-          }
-        ],
-        "questionRo": "Potriviți germană și traducere:",
-        "questionBs": "Uskladite njemački i prijevod:",
-        "questionEs": "Coincidencia de alemán y traducción:",
-        "questionBg": "Съвпадение на немски и превод:",
-        "questionEl": "Ταίριασμα στα γερμανικά και μετάφραση:"
+        "question": "طابق بين الألمانية والعربية:",
+        "questionAr": "",
+        "answer": "",
+        "questionEn": "",
+        "questionTr": "",
+        "questionRo": "",
+        "questionBs": "",
+        "questionEs": "",
+        "questionBg": "",
+        "questionEl": ""
       }
-    ],
-    "writingPrompts": [
-      {
-        "prompt": "عرّف بنفسك بالألمانية (3-4 جمل)",
-        "promptDe": "Stellen Sie sich vor! (3-4 Sätze)",
-        "promptEn": "Introduce yourself in German! (3-4 sentences)",
-        "promptTr": "Kendinizi Almanca olarak tanıtın! (3-4 cümle)",
-        "helpers": [
-          "Ich heiße...",
-          "Ich komme aus...",
-          "Ich wohne in...",
-          "Ich bin ... Jahre alt."
-        ],
-        "helpersEn": [
-          "My name is...",
-          "I come from...",
-          "I live in...",
-          "I am ... years old."
-        ],
-        "helpersTr": [
-          "Benim adım...",
-          "Nereden geliyorum...",
-          "Nerede yaşıyorum...",
-          "Ben ... yaşındayım."
-        ],
-        "example": "Hallo! Ich heiße Ahmad. Ich komme aus Syrien. Ich wohne in Berlin. Ich bin 25 Jahre alt.",
-        "promptRo": "Prezintă-te în germană! (3-4 propoziții)",
-        "helpersRo": [
-          "Numele meu este...",
-          "vin din...",
-          "locuiesc in...",
-          "Am... ani."
-        ],
-        "promptBs": "Predstavite se na njemačkom! (3-4 rečenice)",
-        "promptEs": "¡Preséntate en alemán! (3-4 frases)",
-        "promptBg": "Представете се на немски! (3-4 изречения)",
-        "promptEl": "Συστηθείτε στα Γερμανικά! (3-4 προτάσεις)"
-      }
-    ],
-    "speakingPhrases": [
-      {
-        "de": "Guten Tag! Ich heiße ...",
-        "ar": "مرحباً! اسمي ...",
-        "en": "Good day! My name is ...",
-        "tr": "İyi günler! Benim adım ...",
-        "ro": "Bună ziua! Numele meu este ...",
-        "bs": "Dobar dan! moje ime je...",
-        "es": "¡Buen día! Mi nombre es ...",
-        "bg": "Добър ден! името ми е...",
-        "el": "Καλημέρα! Το όνομά μου είναι..."
-      },
-      {
-        "de": "Ich komme aus ...",
-        "ar": "أنا من ...",
-        "en": "I come from ...",
-        "tr": "...'den geliyorum.",
-        "ro": "eu vin din...",
-        "bs": "dolazim iz...",
-        "es": "Yo vengo de...",
-        "bg": "идвам от...",
-        "el": "κατάγομαι από..."
-      },
-      {
-        "de": "Wie heißen Sie?",
-        "ar": "ما اسم حضرتك؟",
-        "en": "What is your name (formal)?",
-        "tr": "Adınız nedir?",
-        "ro": "Care este numele tău (formal)?",
-        "bs": "Kako se zovete (formalno)?",
-        "es": "¿Cuál es tu nombre (formal)?",
-        "bg": "Как се казвате (официално)?",
-        "el": "Πώς είναι το όνομά σας (επίσημο);"
-      },
-      {
-        "de": "Woher kommen Sie?",
-        "ar": "من أين حضرتك؟",
-        "en": "Where do you come from?",
-        "tr": "Nereden geliyorsunuz?",
-        "ro": "De unde eşti?",
-        "bs": "odakle dolaziš?",
-        "es": "¿De dónde es?",
-        "bg": "от къде идваш",
-        "el": "Από πού κατάγεσαι;"
-      },
-      {
-        "de": "Ich buchstabiere: M-A-R-I-A",
-        "ar": "أتهجى: م-ا-ر-ي-ا",
-        "en": "I spell: M-A-R-I-A",
-        "tr": "Heceliyorum: M-A-R-I-A",
-        "ro": "Scriu: M-A-R-I-A",
-        "bs": "Spelujem: M-A-R-I-A",
-        "es": "Deletreo: M-A-R-I-A",
-        "bg": "Изписвам: M-A-R-I-A",
-        "el": "συλλαβίζω: Μ-Α-Ρ-Ι-Α"
-      }
-    ],
-    "titleRo": "Buna ziua! Cum te numești?",
-    "topicsRo": [
-      "Prezentându-se",
-      "Salutări",
-      "Alfabet"
-    ],
-    "canDoRo": "Pot să mă prezint și să îmi scriu numele",
-    "titleBs": "Zdravo! kako se zoveš?",
-    "topicsBs": [
-      "Predstavljajući se",
-      "Pozdrav",
-      "Abeceda"
-    ],
-    "canDoBs": "Mogu se predstaviti i spelovati svoje ime",
-    "titleEs": "¡Hola! ¿Cómo te llamas?",
-    "topicsEs": [
-      "Presentarse",
-      "Saludos",
-      "Alfabeto"
-    ],
-    "canDoEs": "Puedo presentarme y deletrear mi nombre",
-    "titleBg": "здравей как се казваш",
-    "topicsBg": [
-      "Представяне на себе си",
-      "поздрави",
-      "Азбука"
-    ],
-    "canDoBg": "Мога да се представя и да напиша името си",
-    "titleEl": "Γειά σου! Πώς σε λένε;",
-    "topicsEl": [
-      "Παρουσίαση του εαυτού του",
-      "Χαιρετίσματα",
-      "Αλφάβητο"
-    ],
-    "canDoEl": "Μπορώ να συστηθώ και να γράψω το όνομά μου"
+    ]
   },
   {
     "id": 2,
     "titleDe": "Wie geht's?",
     "titleAr": "كيف حالك؟",
-    "titleEn": "How are you?",
-    "titleTr": "Nasılsın?",
     "emoji": "😊",
     "color": "#34d399",
+    "titleEn": "How are you?",
+    "titleTr": "Nasılsın?",
+    "titleRo": "Ce mai faci?",
+    "titleBs": "Kako si?",
+    "titleEs": "¿Cómo estás?",
+    "titleBg": "как си",
+    "titleEl": "Τι κάνετε;",
     "topics": [
       "أحوال الصحة",
       "الأرقام 0-200",
       "المشروبات"
     ],
     "topicsEn": [
-      "Health status",
+      "Health conditions",
       "Numbers 0-200",
       "Drinks"
     ],
     "topicsTr": [
-      "Sağlık durumu",
-      "0-200 arası Sayılar",
+      "Sağlık koşulları",
+      "0-200 arasındaki sayılar",
       "İçecekler"
     ],
+    "topicsRo": [
+      "Condiții de sănătate",
+      "Numerele 0-200",
+      "Băuturi"
+    ],
+    "topicsBs": [
+      "Zdravstvena stanja",
+      "Brojevi 0-200",
+      "Piće"
+    ],
+    "topicsEs": [
+      "Condiciones de salud",
+      "Números 0-200",
+      "Bebidas"
+    ],
+    "topicsBg": [
+      "Здравословни условия",
+      "Числа 0-200",
+      "Напитки"
+    ],
+    "topicsEl": [
+      "Συνθήκες υγείας",
+      "Αριθμοί 0-200",
+      "Αναψυκτικά"
+    ],
     "canDo": "أستطيع أن أسأل عن الحال وأعطي رقم هاتفي",
-    "canDoEn": "I can ask about well-being and give my phone number",
-    "canDoTr": "Nasıl olduğunu sorabilir ve telefon numaramı verebilirim",
     "canDoDe": "Ich kann nach dem Befinden fragen und meine Telefonnummer angeben",
+    "canDoEn": "I can ask how it is and give my phone number",
+    "canDoTr": "Nasıl olduğunu sorabilir ve telefon numaramı verebilirim",
+    "canDoRo": "Pot să întreb cum este și să-mi dau numărul de telefon",
+    "canDoBs": "Mogu pitati kako je i dati broj telefona",
+    "canDoEs": "Puedo preguntar cómo es y dar mi número de teléfono.",
+    "canDoBg": "Мога да попитам как е и да си дам телефона",
+    "canDoEl": "Μπορώ να ρωτήσω πώς είναι και να δώσω τον αριθμό τηλεφώνου μου",
     "audioFiles": [
       {
         "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD1/15_langenschidt_-_2.2a_-_wie_geht's.mp3",
         "label": "2.2a - Wie geht's?",
         "labelAr": "كيف حالك؟",
-        "labelEn": "2.2a - How are you?",
-        "labelTr": "2.2a - Nasılsın?",
-        "labelRo": "2.2a - Ce mai faci?",
-        "labelBs": "2.2a - Kako ste?",
-        "labelEs": "2.2a - ¿Cómo estás?",
-        "labelBg": "2.2a - Как си?",
-        "labelEl": "2.2a - Πώς είσαι;"
+        "labelEn": "How are you?",
+        "labelTr": "Nasılsın?",
+        "labelRo": "Ce mai faci?",
+        "labelBs": "Kako si?",
+        "labelEs": "¿Cómo estás?",
+        "labelBg": "как си",
+        "labelEl": "Τι κάνετε;"
       },
       {
         "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD1/16_langenschidt_-_2.3a_-_dialoge.mp3",
         "label": "2.3a - Dialoge",
         "labelAr": "حوارات",
-        "labelEn": "2.3a - Dialogues",
-        "labelTr": "2.3a - Diyaloglar",
-        "labelRo": "2.3a - Dialoguri",
-        "labelBs": "2.3a - Dijalozi",
-        "labelEs": "2.3a - Diálogos",
-        "labelBg": "2.3a – Диалози",
-        "labelEl": "2.3α - Διάλογοι"
+        "labelEn": "Dialogues",
+        "labelTr": "Diyaloglar",
+        "labelRo": "Dialoguri",
+        "labelBs": "Dijalozi",
+        "labelEs": "Diálogos",
+        "labelBg": "Диалози",
+        "labelEl": "Διαλόγους"
       },
       {
         "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD1/19_langenschidt_-_2.5b_-_in_der_cafeteria.mp3",
         "label": "2.5b - In der Cafeteria",
         "labelAr": "في الكافيتيريا",
-        "labelEn": "2.5b - In the Cafeteria",
-        "labelTr": "2.5b - Kafeteryada",
-        "labelRo": "2.5b - În cantină",
-        "labelBs": "2.5b - U kafeteriji",
-        "labelEs": "2.5b - En la cafetería",
-        "labelBg": "2.5b - В кафенето",
-        "labelEl": "2.5β - Στην Καφετέρια"
+        "labelEn": "In the cafeteria",
+        "labelTr": "Kafeteryada",
+        "labelRo": "În cantină",
+        "labelBs": "U kafeteriji",
+        "labelEs": "en la cafeteria",
+        "labelBg": "В кафенето",
+        "labelEl": "Στην καφετέρια"
       },
       {
         "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD1/20_langenschidt_-_2.8a_-_null_bis_zwolf.mp3",
         "label": "2.8a - Null bis zwölf",
         "labelAr": "الأرقام 0-12",
-        "labelEn": "2.8a - Zero to twelve",
-        "labelTr": "2.8a - Sıfırdan on ikiye",
-        "labelRo": "2.8a - Zero la doisprezece",
-        "labelBs": "2.8a - Nula do dvanaest",
-        "labelEs": "2.8a - Cero a doce",
-        "labelBg": "2.8a - Нула до дванадесет",
-        "labelEl": "2.8a - Μηδέν έως δώδεκα"
+        "labelEn": "Numbers 0-12",
+        "labelTr": "0-12 arasındaki sayılar",
+        "labelRo": "Numerele 0-12",
+        "labelBs": "Brojevi 0-12",
+        "labelEs": "Números 0-12",
+        "labelBg": "Числа 0-12",
+        "labelEl": "Αριθμοί 0-12"
       },
       {
         "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD1/22_langenschidt_-_2.10_-_zahlen_von_13_bis_200.mp3",
         "label": "2.10 - Zahlen 13-200",
         "labelAr": "الأرقام 13-200",
-        "labelEn": "2.10 - Numbers 13-200",
-        "labelTr": "2.10 - 13-200 arası Sayılar",
-        "labelRo": "2.10 - Numerele 13-200",
-        "labelBs": "2.10 - Brojevi 13-200",
-        "labelEs": "2.10 - Números 13-200",
-        "labelBg": "2.10 - Числа 13-200",
-        "labelEl": "2.10 - Αριθμοί 13-200"
+        "labelEn": "Numbers 13-200",
+        "labelTr": "13-200 arası sayılar",
+        "labelRo": "Numerele 13-200",
+        "labelBs": "Brojevi 13-200",
+        "labelEs": "Números 13-200",
+        "labelBg": "Номера 13-200",
+        "labelEl": "Αριθμοί 13-200"
+      },
+      {
+        "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD1/21_langenschidt_-_2.8c_-_handynummern.mp3",
+        "label": "2.8c - Handynummern",
+        "labelAr": "أرقام الهاتف",
+        "labelEn": "Phone numbers",
+        "labelTr": "Telefon numaraları",
+        "labelRo": "numere de telefon",
+        "labelBs": "Brojevi telefona",
+        "labelEs": "Números de teléfono",
+        "labelBg": "телефонни номера",
+        "labelEl": "Αριθμοί τηλεφώνου"
       }
     ],
     "dialogs": [
       {
         "title": "Wie geht es Ihnen?",
         "titleAr": "كيف حالك؟ (حوار)",
-        "titleEn": "How are you? (Dialogue)",
-        "titleTr": "Nasılsınız? (Diyalog)",
+        "titleEn": "How are you? (a dialogue)",
+        "titleTr": "Nasılsın? (bir diyalog)",
+        "titleRo": "Ce mai faci? (un dialog)",
+        "titleBs": "Kako si? (a dialogue)",
+        "titleEs": "¿Cómo estás? (un diálogo)",
+        "titleBg": "как си (диалог)",
+        "titleEl": "Τι κάνετε; (ένας διάλογος)",
         "lines": [
           {
             "speaker": "Kurt",
             "de": "Guten Morgen, Frau Kohl! Wie geht es Ihnen?",
             "ar": "صباح الخير يا سيدة كول! كيف حالك؟",
-            "en": "Good morning, Mrs. Kohl! How are you?",
-            "tr": "Günaydın Bayan Kohl! Nasılsınız?",
-            "ro": "Bună dimineața, doamnă Kohl! Ce mai faci?",
-            "bs": "Dobro jutro, gospođo Kohl! Kako si?",
-            "es": "¡Buenos días, señora Kohl! ¿Cómo estás?",
-            "bg": "Добро утро, г-жо Кол! как си",
-            "el": "Καλημέρα, κυρία Kohl! Τι κάνετε;"
+            "en": "Good morning, Mrs. Cole! How are you?",
+            "tr": "Günaydın Bayan Cole! Nasılsın?",
+            "ro": "Bună dimineața, doamnă Cole! Ce mai faci?",
+            "bs": "Dobro jutro, gospođo Cole! Kako si?",
+            "es": "¡Buenos días, señora Cole! ¿Cómo estás?",
+            "bg": "Добро утро, г-жо Коул! как си",
+            "el": "Καλημέρα, κυρία Κόουλ! Τι κάνετε;"
           },
           {
             "speaker": "Frau Kohl",
             "de": "Danke, gut. Und Ihnen?",
             "ar": "شكراً، بخير. وأنت؟",
-            "en": "Thanks, good. And you?",
-            "tr": "Teşekkürler, iyiyim. Ya siz?",
+            "en": "Thanks, fine. And you?",
+            "tr": "Teşekkürler, iyi. Ve sen?",
             "ro": "Mulțumesc, bine. Și tu?",
             "bs": "Hvala, dobro. A ti?",
             "es": "Gracias, bien. ¿Y tú?",
             "bg": "Благодаря, добре. а ти",
-            "el": "Ευχαριστώ, καλά. Και εσύ;"
+            "el": "Ευχαριστώ, εντάξει. Και εσύ;"
           },
           {
             "speaker": "Kurt",
             "de": "Es geht. Ich bin müde.",
             "ar": "لا بأس. أنا متعب.",
-            "en": "So-so. I am tired.",
-            "tr": "Şöyle böyle. Yorgunum.",
-            "ro": "Așa-așa. Sunt obosit.",
-            "bs": "Tako-tako. Umoran sam.",
-            "es": "Más o menos. Estoy cansado.",
-            "bg": "Така-така. уморен съм",
-            "el": "Έτσι-έτσι. Είμαι κουρασμένος."
+            "en": "decent. I'm tired.",
+            "tr": "düzgün. Yorgunum.",
+            "ro": "decent. Sunt obosit.",
+            "bs": "pristojan. Umoran sam.",
+            "es": "decente. Estoy cansado.",
+            "bg": "приличен. уморен съм",
+            "el": "κόσμιος. Είμαι κουρασμένος."
           },
           {
             "speaker": "Frau Kohl",
             "de": "Oh! Das ist nicht gut.",
             "ar": "أوه! هذا ليس جيداً.",
-            "en": "Oh! That's not good.",
-            "tr": "Oh! Bu iyi değil.",
-            "ro": "Oh! Asta nu e bine.",
-            "bs": "Oh! To nije dobro.",
-            "es": "¡Oh! Eso no es bueno.",
+            "en": "Oh! This is not good.",
+            "tr": "Ah! Bu iyi değil.",
+            "ro": "Oh! Asta nu este bine.",
+            "bs": "Oh! Ovo nije dobro.",
+            "es": "¡Oh! Esto no es bueno.",
             "bg": "о! Това не е добре.",
             "el": "Ω! Αυτό δεν είναι καλό."
           }
-        ],
-        "titleRo": "Ce mai faci? (Dialog)",
-        "titleBs": "Kako si? (dijalog)",
-        "titleEs": "¿Cómo estás? (Diálogo)",
-        "titleBg": "как си (диалог)",
-        "titleEl": "Τι κάνετε; (Διάλογος)"
+        ]
       },
       {
         "title": "In der Cafeteria",
         "titleAr": "في الكافيتيريا",
-        "titleEn": "In the Cafeteria",
+        "titleEn": "In the cafeteria",
         "titleTr": "Kafeteryada",
+        "titleRo": "În cantină",
+        "titleBs": "U kafeteriji",
+        "titleEs": "en la cafeteria",
+        "titleBg": "В кафенето",
+        "titleEl": "Στην καφετέρια",
         "lines": [
           {
             "speaker": "Kellnerin",
             "de": "Was möchten Sie trinken?",
             "ar": "ماذا تريد أن تشرب؟",
-            "en": "What would you like to drink?",
-            "tr": "Ne içmek istersiniz?",
-            "ro": "Ce ți-ar place să bei?",
-            "bs": "Šta biste voljeli popiti?",
-            "es": "¿Qué le gustaría beber?",
-            "bg": "Какво бихте искали да пиете?",
-            "el": "Τι θα θέλατε να πιείτε;"
+            "en": "What do you want to drink?",
+            "tr": "Ne içmek istersin?",
+            "ro": "Ce vrei să bei?",
+            "bs": "Šta želiš da popiješ?",
+            "es": "¿Qué quieres beber?",
+            "bg": "какво искаш да пиеш",
+            "el": "Τι θέλετε να πιείτε;"
           },
           {
             "speaker": "Kunde",
             "de": "Einen Kaffee, bitte.",
             "ar": "قهوة من فضلك.",
-            "en": "A coffee, please.",
-            "tr": "Bir kahve lütfen.",
-            "ro": "O cafea, te rog.",
-            "bs": "Kafu, molim.",
-            "es": "Un café, por favor.",
-            "bg": "Едно кафе, моля.",
-            "el": "Ένας καφές, παρακαλώ."
+            "en": "Coffee please.",
+            "tr": "Kahve lütfen.",
+            "ro": "Cafea te rog.",
+            "bs": "Kafu molim.",
+            "es": "Café por favor.",
+            "bg": "Кафе моля.",
+            "el": "Καφέ παρακαλώ."
           },
           {
             "speaker": "Kellnerin",
             "de": "Mit Milch?",
             "ar": "مع حليب؟",
             "en": "With milk?",
-            "tr": "Sütlü mü?",
+            "tr": "Sütlü?",
             "ro": "Cu lapte?",
             "bs": "Sa mlekom?",
             "es": "¿Con leche?",
@@ -1079,62 +1053,84 @@ const CURRICULUM = [
             "speaker": "Kunde",
             "de": "Ja, und ein Wasser.",
             "ar": "نعم، وماء.",
-            "en": "Yes, and a water.",
-            "tr": "Evet, ve bir su.",
-            "ro": "Da, și o apă.",
+            "en": "Yes, and water.",
+            "tr": "Evet ve su.",
+            "ro": "Da, și apă.",
             "bs": "Da, i vodu.",
-            "es": "Sí, y un agua.",
+            "es": "Sí, y agua.",
             "bg": "Да, и вода.",
-            "el": "Ναι, και ένα νερό."
+            "el": "Ναι και νερό."
           },
           {
             "speaker": "Kellnerin",
             "de": "Das macht 3 Euro 50.",
             "ar": "المجموع ثلاثة يورو وخمسون سنتاً.",
-            "en": "That makes 3 Euros 50.",
-            "tr": "Toplam 3 Euro 50 Sent yapar.",
-            "ro": "Asta înseamnă 3 euro 50.",
-            "bs": "To je 3 evra 50.",
-            "es": "Eso hace 3 euros 50.",
-            "bg": "Това прави 3 евро 50.",
-            "el": "Δηλαδή 3 ευρώ 50."
+            "en": "The total is three euros and fifty cents.",
+            "tr": "Toplam üç avro elli sent.",
+            "ro": "Totalul este de trei euro și cincizeci de cenți.",
+            "bs": "Ukupno je tri eura i pedeset centi.",
+            "es": "El total son tres euros con cincuenta céntimos.",
+            "bg": "Общата сума е три евро и петдесет цента.",
+            "el": "Το σύνολο είναι τρία ευρώ και πενήντα λεπτά."
           }
-        ],
-        "titleRo": "În cantină",
-        "titleBs": "U kafeteriji",
-        "titleEs": "en la cafeteria",
-        "titleBg": "В кафенето",
-        "titleEl": "Στην Καφετέρια"
+        ]
       }
     ],
     "readingTexts": [
       {
         "title": "Telefonnummern",
         "titleAr": "أرقام الهاتف",
-        "titleEn": "Telephone Numbers",
-        "titleTr": "Telefon Numaraları",
+        "titleEn": "Phone numbers",
+        "titleTr": "Telefon numaraları",
+        "titleRo": "numere de telefon",
+        "titleBs": "Brojevi telefona",
+        "titleEs": "Números de teléfono",
+        "titleBg": "телефонни номера",
+        "titleEl": "Αριθμοί τηλεφώνου",
         "text": [
           {
             "de": "Die Telefonnummer von Carlos ist: 0171 – 34 56 78.",
             "ar": "رقم هاتف كارلوس: 0171 – 34 56 78.",
-            "en": "Carlos's telephone number is: 0171 – 34 56 78.",
+            "en": "Carlos phone number: 0171 – 34 56 78.",
             "tr": "Carlos'un telefon numarası: 0171 – 34 56 78.",
-            "ro": "Numărul de telefon al lui Carlos este: 0171 – 34 56 78.",
-            "bs": "Karlosov broj telefona je: 0171 – 34 56 78.",
-            "es": "El teléfono de Carlos es: 0171 – 34 56 78.",
-            "bg": "Телефонът на Карлос е: 0171 – 34 56 78.",
-            "el": "Το τηλέφωνο του Carlos είναι: 0171 – 34 56 78."
+            "ro": "Telefon Carlos: 0171 – 34 56 78.",
+            "bs": "Carlos broj telefona: 0171 – 34 56 78.",
+            "es": "Número de teléfono de Carlos: 0171 – 34 56 78.",
+            "bg": "Телефонен номер на Карлос: 0171 – 34 56 78.",
+            "el": "Τηλέφωνο Carlos: 0171 – 34 56 78."
+          },
+          {
+            "de": "Die Handynummer von Maria ist: 0152 – 45 67 89.",
+            "ar": "رقم الجوال لماريا: 0152 – 45 67 89.",
+            "en": "Maria's mobile number: 0152 – 45 67 89.",
+            "tr": "Maria'nın cep telefonu numarası: 0152 – 45 67 89.",
+            "ro": "Numărul de mobil al Mariei: 0152 – 45 67 89.",
+            "bs": "Marijin broj mobilnog telefona: 0152 – 45 67 89.",
+            "es": "Número de móvil de María: 0152 – 45 67 89.",
+            "bg": "Мобилен номер на Мария: 0152 – 45 67 89.",
+            "el": "Τηλέφωνο κινητού Μαρίας: 0152 – 45 67 89."
+          },
+          {
+            "de": "Die Kursnummer ist: 030 – 12 34 56.",
+            "ar": "رقم الدورة: 030 – 12 34 56.",
+            "en": "Course number: 030 – 12 34 56.",
+            "tr": "Kurs numarası: 030 – 12 34 56.",
+            "ro": "Număr curs: 030 – 12 34 56.",
+            "bs": "Broj predmeta: 030 – 12 34 56.",
+            "es": "Número de curso: 030 – 12 34 56.",
+            "bg": "Номер на курса: 030 – 12 34 56.",
+            "el": "Αριθμός μαθήματος: 030 – 12 34 56."
           }
         ],
         "questions": [
           {
             "q": "Wie ist die Telefonnummer von Carlos?",
             "qAr": "ما هو رقم هاتف كارلوس؟",
-            "qEn": "What is Carlos's telephone number?",
-            "qTr": "Carlos'un telefon numarası nedir?",
             "answer": "0171 – 34 56 78",
             "answerAr": "0171 – 34 56 78",
+            "qEn": "What is Carlos' phone number?",
             "answerEn": "0171 – 34 56 78",
+            "qTr": "Carlos'un telefon numarası nedir?",
             "answerTr": "0171 – 34 56 78",
             "qRo": "Care este numărul de telefon al lui Carlos?",
             "answerRo": "0171 – 34 56 78",
@@ -1147,12 +1143,7 @@ const CURRICULUM = [
             "qEl": "Ποιος είναι ο αριθμός τηλεφώνου του Carlos;",
             "answerEl": "0171 – 34 56 78"
           }
-        ],
-        "titleRo": "Numere de telefon",
-        "titleBs": "Telefonski brojevi",
-        "titleEs": "Números de teléfono",
-        "titleBg": "Телефонни номера",
-        "titleEl": "Τηλέφωνα"
+        ]
       }
     ],
     "grammar": [
@@ -1160,112 +1151,216 @@ const CURRICULUM = [
         "id": "verb-conjugation",
         "title": "تصريف الأفعال في الحاضر",
         "titleDe": "Verben im Präsens",
-        "titleEn": "Verbs in Present Tense",
-        "titleTr": "Şimdiki Zaman Fiil Çekimi",
         "explanation": "الأفعال الألمانية تتصرف حسب الضمير. معظم الأفعال تتبع نمطاً منتظماً.",
-        "explanationEn": "German verbs conjugate according to the pronoun. Most verbs follow a regular pattern.",
-        "explanationTr": "Almanca fiiller zamire göre çekimlenir. Çoğu fiil düzenli bir kurala tabidir.",
+        "titleEn": "Conjugation of verbs in the present",
+        "explanationEn": "German verbs act according to the pronoun. Most verbs follow a regular pattern.",
+        "titleTr": "Fiillerin şimdiki zamanda çekimi",
+        "explanationTr": "Almanca fiiller zamire göre hareket eder. Çoğu fiil düzenli bir kalıp izler.",
+        "titleRo": "Conjugarea verbelor în prezent",
+        "explanationRo": "Verbele germane acționează în funcție de pronume. Majoritatea verbelor urmează un model obișnuit.",
+        "titleBs": "Konjugacija glagola u prezentu",
+        "explanationBs": "Njemački glagoli djeluju prema zamjenici. Većina glagola prati pravilan obrazac.",
+        "titleEs": "Conjugación de verbos en presente.",
+        "explanationEs": "Los verbos alemanes actúan según el pronombre. La mayoría de los verbos siguen un patrón regular.",
+        "titleBg": "Спрежение на глаголите в настоящето",
+        "explanationBg": "Немските глаголи действат според местоимението. Повечето глаголи следват редовен модел.",
+        "titleEl": "Σύζευξη ρημάτων στο παρόν",
+        "explanationEl": "Τα γερμανικά ρήματα ενεργούν σύμφωνα με την αντωνυμία. Τα περισσότερα ρήματα ακολουθούν κανονικό μοτίβο.",
         "rules": [
           {
             "example": "kommen → ich komme, du kommst",
             "translation": "يأتي",
-            "translationEn": "to come",
-            "translationTr": "gelmek",
             "note": "فعل منتظم",
+            "translationEn": "Come",
             "noteEn": "Regular verb",
+            "translationTr": "Gelmek",
             "noteTr": "Düzenli fiil",
-            "translationRo": "să vină",
+            "translationRo": "Vino",
             "noteRo": "Verb regulat",
-            "translationBs": "doći",
+            "translationBs": "Dođi",
             "noteBs": "Regularni glagol",
-            "translationEs": "venir",
+            "translationEs": "Venir",
             "noteEs": "verbo regular",
-            "translationBg": "да дойде",
+            "translationBg": "ела",
             "noteBg": "Правилен глагол",
-            "translationEl": "να έρθει",
+            "translationEl": "Ελα",
+            "noteEl": "Κανονικό ρήμα"
+          },
+          {
+            "example": "arbeiten → ich arbeite, du arbeitest",
+            "translation": "يعمل",
+            "note": "تُضاف حرف e قبل اللاحقة",
+            "translationEn": "He works",
+            "noteEn": "The letter e is added before the suffix",
+            "translationTr": "Çalışıyor",
+            "noteTr": "E harfi son ekin önüne eklenir",
+            "translationRo": "El lucrează",
+            "noteRo": "Litera e se adaugă înaintea sufixului",
+            "translationBs": "On radi",
+            "noteBs": "Slovo e se dodaje ispred sufiksa",
+            "translationEs": "el trabaja",
+            "noteEs": "La letra e se añade antes del sufijo.",
+            "translationBg": "Той работи",
+            "noteBg": "Буквата e се добавя преди наставката",
+            "translationEl": "Δουλεύει",
+            "noteEl": "Το γράμμα ε προστίθεται πριν από το επίθημα"
+          },
+          {
+            "example": "trinken → ich trinke, du trinkst",
+            "translation": "يشرب",
+            "note": "فعل منتظم",
+            "translationEn": "He drinks",
+            "noteEn": "Regular verb",
+            "translationTr": "O içer",
+            "noteTr": "Düzenli fiil",
+            "translationRo": "El bea",
+            "noteRo": "Verb regulat",
+            "translationBs": "On pije",
+            "noteBs": "Regularni glagol",
+            "translationEs": "el bebe",
+            "noteEs": "verbo regular",
+            "translationBg": "Той пие",
+            "noteBg": "Правилен глагол",
+            "translationEl": "Πίνει",
             "noteEl": "Κανονικό ρήμα"
           }
-        ],
-        "table": {
-          "headers": [
-            "الضمير",
-            "kommen",
-            "arbeiten",
-            "trinken"
-          ],
-          "headersEn": [
-            "Pronoun",
-            "kommen",
-            "arbeiten",
-            "trinken"
-          ],
-          "headersTr": [
-            "Zamir",
-            "kommen",
-            "arbeiten",
-            "trinken"
-          ],
-          "rows": [
-            [
-              "ich",
-              "komme",
-              "arbeite",
-              "trinke"
-            ],
-            [
-              "du",
-              "kommst",
-              "arbeitest",
-              "trinkst"
-            ],
-            [
-              "er/sie",
-              "kommt",
-              "arbeitet",
-              "trinkt"
-            ]
-          ],
-          "headersRo": [
-            "Pronume",
-            "kommen",
-            "arbeiten",
-            "trinken"
-          ],
-          "headersBs": [
-            "Zamjenica",
-            "kommen",
-            "arbeiten",
-            "trinken"
-          ],
-          "headersEs": [
-            "Pronombre",
-            "kommen",
-            "Arbeiten",
-            "trincado"
-          ],
-          "headersBg": [
-            "Местоимение",
-            "kommen",
-            "арбайтен",
-            "trinken"
-          ],
-          "headersEl": [
-            "Αντωνυμία",
-            "kommen",
-            "arbeiten",
-            "μπιχλιμπίδι"
-          ]
-        },
-        "titleRo": "Verbe la timpul prezent",
-        "explanationRo": "Verbele germane se conjugă după pronume. Majoritatea verbelor urmează un model obișnuit.",
-        "titleBs": "Glagoli u sadašnjem vremenu",
-        "explanationBs": "Njemački glagoli konjugiraju se prema zamjenici. Većina glagola prati pravilan obrazac.",
-        "titleEs": "Verbos en tiempo presente",
-        "explanationEs": "Los verbos alemanes se conjugan según el pronombre. La mayoría de los verbos siguen un patrón regular.",
-        "titleBg": "Глаголи в сегашно време",
-        "explanationBg": "Немските глаголи се спрягат според местоимението. Повечето глаголи следват редовен модел.",
-        "titleEl": "Ρήματα σε Ενεστώτα",
-        "explanationEl": "Τα γερμανικά ρήματα συζευγνύονται σύμφωνα με την αντωνυμία. Τα περισσότερα ρήματα ακολουθούν κανονικό μοτίβο."
+        ]
+      },
+      {
+        "id": "numbers",
+        "title": "الأرقام من 0 إلى 200",
+        "titleDe": "Zahlen 0-200",
+        "explanation": "الأرقام في الألمانية ضرورية جداً للحياة اليومية.",
+        "titleEn": "Numbers from 0 to 200",
+        "explanationEn": "Numbers in German are very essential for daily life.",
+        "titleTr": "0'dan 200'e kadar sayılar",
+        "explanationTr": "Almanca'da sayılar günlük yaşam için çok önemlidir.",
+        "titleRo": "Numerele de la 0 la 200",
+        "explanationRo": "Cifrele în germană sunt foarte esențiale pentru viața de zi cu zi.",
+        "titleBs": "Brojevi od 0 do 200",
+        "explanationBs": "Brojevi na njemačkom su veoma bitni za svakodnevni život.",
+        "titleEs": "Números del 0 al 200",
+        "explanationEs": "Los números en alemán son muy esenciales para la vida diaria.",
+        "titleBg": "Числа от 0 до 200",
+        "explanationBg": "Числата на немски са много важни за ежедневието.",
+        "titleEl": "Αριθμοί από το 0 έως το 200",
+        "explanationEl": "Οι αριθμοί στα γερμανικά είναι πολύ σημαντικοί για την καθημερινή ζωή.",
+        "rules": [
+          {
+            "example": "0 = null, 1 = eins, 2 = zwei, 3 = drei",
+            "translation": "الأرقام 0-3",
+            "note": "",
+            "translationEn": "Numbers 0-3",
+            "noteEn": "",
+            "translationTr": "0-3 arası sayılar",
+            "noteTr": "",
+            "translationRo": "Numerele 0-3",
+            "noteRo": "",
+            "translationBs": "Brojevi 0-3",
+            "noteBs": "",
+            "translationEs": "Números 0-3",
+            "noteEs": "",
+            "translationBg": "Числа 0-3",
+            "noteBg": "",
+            "translationEl": "Αριθμοί 0-3",
+            "noteEl": ""
+          },
+          {
+            "example": "4 = vier, 5 = fünf, 6 = sechs, 7 = sieben",
+            "translation": "الأرقام 4-7",
+            "note": "",
+            "translationEn": "Numbers 4-7",
+            "noteEn": "",
+            "translationTr": "Sayılar 4-7",
+            "noteTr": "",
+            "translationRo": "Numerele 4-7",
+            "noteRo": "",
+            "translationBs": "Brojevi 4-7",
+            "noteBs": "",
+            "translationEs": "Números 4-7",
+            "noteEs": "",
+            "translationBg": "Числа 4-7",
+            "noteBg": "",
+            "translationEl": "Αριθμοί 4-7",
+            "noteEl": ""
+          },
+          {
+            "example": "8 = acht, 9 = neun, 10 = zehn",
+            "translation": "الأرقام 8-10",
+            "note": "",
+            "translationEn": "Numbers 8-10",
+            "noteEn": "",
+            "translationTr": "8-10 arası sayılar",
+            "noteTr": "",
+            "translationRo": "Numerele 8-10",
+            "noteRo": "",
+            "translationBs": "Brojevi 8-10",
+            "noteBs": "",
+            "translationEs": "Números 8-10",
+            "noteEs": "",
+            "translationBg": "Числа 8-10",
+            "noteBg": "",
+            "translationEl": "Αριθμοί 8-10",
+            "noteEl": ""
+          },
+          {
+            "example": "11 = elf, 12 = zwölf, 13 = dreizehn",
+            "translation": "الأرقام 11-13",
+            "note": "",
+            "translationEn": "Numbers 11-13",
+            "noteEn": "",
+            "translationTr": "Sayılar 11-13",
+            "noteTr": "",
+            "translationRo": "Numerele 11-13",
+            "noteRo": "",
+            "translationBs": "Brojevi 11-13",
+            "noteBs": "",
+            "translationEs": "Números 11-13",
+            "noteEs": "",
+            "translationBg": "Числа 11-13",
+            "noteBg": "",
+            "translationEl": "Αριθμοί 11-13",
+            "noteEl": ""
+          },
+          {
+            "example": "20 = zwanzig, 30 = dreißig, 100 = hundert",
+            "translation": "العشرات",
+            "note": "",
+            "translationEn": "Dozens",
+            "noteEn": "",
+            "translationTr": "Düzinelerce",
+            "noteTr": "",
+            "translationRo": "Zeci",
+            "noteRo": "",
+            "translationBs": "Desetine",
+            "noteBs": "",
+            "translationEs": "Docenas",
+            "noteEs": "",
+            "translationBg": "Десетки",
+            "noteBg": "",
+            "translationEl": "Δεκάδες",
+            "noteEl": ""
+          },
+          {
+            "example": "21 = einundzwanzig (واحد وعشرون)",
+            "translation": "الأرقام المركبة تبدأ بالآحاد",
+            "note": "الفرق مع العربية!",
+            "translationEn": "Complex numbers start with ones",
+            "noteEn": "The difference with Arabic!",
+            "translationTr": "Karmaşık sayılar birlerle başlar",
+            "noteTr": "Arapça'nın farkı!",
+            "translationRo": "Numerele complexe încep cu unu",
+            "noteRo": "Diferența cu araba!",
+            "translationBs": "Kompleksni brojevi počinju jedinicama",
+            "noteBs": "Razlika sa arapskim!",
+            "translationEs": "Los números complejos comienzan con unos.",
+            "noteEs": "¡La diferencia con el árabe!",
+            "translationBg": "Комплексните числа започват с единици",
+            "noteBg": "Разликата с арабския!",
+            "translationEl": "Οι μιγαδικοί αριθμοί ξεκινούν με ένα",
+            "noteEl": "Η διαφορά με τα αραβικά!"
+          }
+        ]
       }
     ],
     "exercises": [
@@ -1273,142 +1368,173 @@ const CURRICULUM = [
         "type": "mcq",
         "question": "Wie sagt man 'Wie geht es Ihnen?' auf Arabisch?",
         "questionAr": "ما معنى هذه الجملة؟",
-        "questionEn": "What does this sentence mean?",
-        "questionTr": "Bu cümlenin anlamı nedir?",
-        "options": [
-          "ما اسمك؟ / What is your name? / Adınız nedir? / Cum te numești?",
-          "من أين أنت؟ / Where are you from? / Nereden geliyorsunuz? / De unde ești?",
-          "كيف حالك؟ (رسمي) / How are you (formal)? / Nasılsınız (resmi)? / Cum esti (formal)?",
-          "كم عمرك؟ / How old are you? / Kaç yaşındasınız? / Câți ani ai?"
-        ],
         "answer": 2,
-        "questionRo": "Ce înseamnă această propoziție?",
-        "questionBs": "Šta znači ova rečenica?",
-        "questionEs": "¿Qué significa esta frase?",
-        "questionBg": "Какво означава това изречение?",
-        "questionEl": "Τι σημαίνει αυτή η πρόταση;"
-      }
-    ],
-    "writingPrompts": [
-      {
-        "prompt": "اكتب رقم هاتفك بالألمانية",
-        "promptDe": "Schreiben Sie Ihre Telefonnummer auf Deutsch",
-        "promptEn": "Write your phone number in German",
-        "promptTr": "Telefon numaranızı Almanca yazın",
-        "helpers": [
-          "Meine Telefonnummer ist...",
-          "Meine Handynummer ist..."
+        "questionEn": "What is the meaning of this sentence?",
+        "questionTr": "Bu cümlenin anlamı nedir?",
+        "questionRo": "Care este sensul acestei propoziții?",
+        "questionBs": "Šta je značenje ove rečenice?",
+        "questionEs": "¿Cuál es el significado de esta frase?",
+        "questionBg": "Какво е значението на това изречение?",
+        "questionEl": "Ποιο είναι το νόημα αυτής της πρότασης;",
+        "options": [
+          "ما اسمك؟",
+          "من أين أنت؟",
+          "كيف حالك؟ (رسمي)",
+          "كم عمرك؟"
         ],
-        "helpersEn": [
-          "My telephone number is...",
-          "My mobile number is..."
+        "optionsEn": [
+          "What is your name",
+          "Where are you from?",
+          "How are you? (official)",
+          "How old are you?"
         ],
-        "helpersTr": [
-          "Telefon numaram...",
-          "Cep numaram..."
+        "optionsTr": [
+          "Adın ne",
+          "Nerelisin",
+          "Nasılsın? (resmi)",
+          "Kaç yaşındasın?"
         ],
-        "example": "Meine Handynummer ist: null-eins-sieben-eins – drei-vier-fünf-sechs.",
-        "promptRo": "Scrieți numărul de telefon în germană",
-        "helpersRo": [
-          "Numărul meu de telefon este...",
-          "Numărul meu de mobil este..."
+        "optionsRo": [
+          "Cum te numești",
+          "De unde ești?",
+          "Ce mai faci? (oficial)",
+          "Câți ani ai?"
         ],
-        "promptBs": "Napišite svoj broj telefona na njemačkom jeziku",
-        "promptEs": "Escribe tu número de teléfono en alemán.",
-        "promptBg": "Напишете телефонния си номер на немски",
-        "promptEl": "Γράψτε τον αριθμό τηλεφώνου σας στα γερμανικά"
-      }
-    ],
-    "speakingPhrases": [
-      {
-        "de": "Wie geht es Ihnen?",
-        "ar": "كيف حالك؟ (رسمي)",
-        "en": "How are you? (formal)",
-        "tr": "Nasılsınız? (resmi)",
-        "ro": "Ce mai faci? (formal)",
-        "bs": "Kako si? (formalno)",
-        "es": "¿Cómo estás? (formal)",
-        "bg": "как си (официално)",
-        "el": "Τι κάνετε; (επίσημος)"
+        "optionsBs": [
+          "kako se zoveš",
+          "odakle si",
+          "Kako si? (zvanično)",
+          "koliko imaš godina?"
+        ],
+        "optionsEs": [
+          "Cómo te llamas",
+          "¿De dónde eres?",
+          "¿Cómo estás? (oficial)",
+          "¿Cuántos años tiene?"
+        ],
+        "optionsBg": [
+          "как се казваш",
+          "ти откъде си",
+          "как си (официален)",
+          "на колко си години"
+        ],
+        "optionsEl": [
+          "Πως σε λένε",
+          "Από πού είστε;",
+          "Τι κάνετε; (επίσημος ανώτερος υπάλληλος)",
+          "Πόσων χρονών είστε;"
+        ]
       },
       {
-        "de": "Wie geht's?",
-        "ar": "كيف حالك؟ (غير رسمي)",
-        "en": "How's it going?",
-        "tr": "Nasılsın? (samimi)",
-        "ro": "Cum stă treaba?",
-        "bs": "Kako ide?",
-        "es": "¿Cómo estás?",
-        "bg": "как върви",
-        "el": "Πώς πάει;"
+        "type": "fillblank",
+        "question": "Ich _____ Kaffee. (trinken)",
+        "questionAr": "أكمل بالتصريف الصحيح",
+        "answer": "trinke",
+        "questionEn": "Complete with correct conjugation",
+        "questionTr": "Doğru çekimle tamamlayın",
+        "questionRo": "Completează cu conjugarea corectă",
+        "questionBs": "Kompletno sa pravilnom konjugacijom",
+        "questionEs": "Completa con la conjugación correcta.",
+        "questionBg": "Пълно с правилно спрежение",
+        "questionEl": "Συμπληρώστε με σωστή σύζευξη",
+        "hint": "تصريف trinken مع ich",
+        "hintEn": "Conjugate trinken with ich",
+        "hintTr": "Trinken'i ich ile birleştirin",
+        "hintRo": "Conjugați trinken cu ich",
+        "hintBs": "Konjugirati trinken sa ich",
+        "hintEs": "Conjugado trinken con ich",
+        "hintBg": "Конюгирайте trinken с ich",
+        "hintEl": "Σύζευξη τρινκέν με ιχ"
       },
       {
-        "de": "Gut, danke!",
-        "ar": "بخير، شكراً!",
-        "en": "Good, thanks!",
-        "tr": "İyiyim, teşekkürler!",
-        "ro": "Bun, multumesc!",
-        "bs": "Dobro, hvala!",
-        "es": "¡Bien, gracias!",
-        "bg": "Добре, благодаря!",
-        "el": "Ωραία, ευχαριστώ!"
+        "type": "mcq",
+        "question": "Was ist 'dreizehn' auf Arabisch?",
+        "questionAr": "ما معنى dreizehn؟",
+        "answer": 1,
+        "questionEn": "What does dreizehn mean?",
+        "questionTr": "Dreizehn ne demek?",
+        "questionRo": "Ce înseamnă dreizehn?",
+        "questionBs": "Šta znači dreizehn?",
+        "questionEs": "¿Qué significa dreizehn?",
+        "questionBg": "Какво означава dreizehn?",
+        "questionEl": "Τι σημαίνει η λέξη dreizehn;",
+        "options": [
+          "30",
+          "13",
+          "3",
+          "31"
+        ],
+        "optionsEn": [
+          "30",
+          "13",
+          "3",
+          "31"
+        ],
+        "optionsTr": [
+          "30",
+          "13",
+          "3",
+          "31"
+        ],
+        "optionsRo": [
+          "30",
+          "13",
+          "3",
+          "31"
+        ],
+        "optionsBs": [
+          "30",
+          "13",
+          "3",
+          "31"
+        ],
+        "optionsEs": [
+          "30",
+          "13",
+          "3",
+          "31"
+        ],
+        "optionsBg": [
+          "30",
+          "13",
+          "3",
+          "31"
+        ],
+        "optionsEl": [
+          "30",
+          "13",
+          "3",
+          "31"
+        ]
       },
       {
-        "de": "Einen Kaffee, bitte.",
-        "ar": "قهوة من فضلك.",
-        "en": "A coffee, please.",
-        "tr": "Bir kahve lütfen.",
-        "ro": "O cafea, te rog.",
-        "bs": "Kafu, molim.",
-        "es": "Un café, por favor.",
-        "bg": "Едно кафе, моля.",
-        "el": "Ένας καφές, παρακαλώ."
+        "type": "order",
+        "question": "رتب الكلمات:",
+        "questionAr": "",
+        "answer": "Wie geht es Ihnen?",
+        "questionEn": "",
+        "questionTr": "",
+        "questionRo": "",
+        "questionBs": "",
+        "questionEs": "",
+        "questionBg": "",
+        "questionEl": ""
       }
-    ],
-    "titleRo": "Ce mai faci?",
-    "topicsRo": [
-      "Starea de sănătate",
-      "Numerele 0-200",
-      "Băuturi"
-    ],
-    "canDoRo": "Pot să întreb despre bunăstare și să-mi dau numărul de telefon",
-    "titleBs": "Kako si?",
-    "topicsBs": [
-      "Zdravstveno stanje",
-      "Brojevi 0-200",
-      "Piće"
-    ],
-    "canDoBs": "Mogu pitati za dobrobit i dati svoj broj telefona",
-    "titleEs": "¿Cómo estás?",
-    "topicsEs": [
-      "Estado de salud",
-      "Números 0-200",
-      "Bebidas"
-    ],
-    "canDoEs": "Puedo preguntar sobre bienestar y dar mi número de teléfono.",
-    "titleBg": "как си",
-    "topicsBg": [
-      "Здравен статус",
-      "Числа 0-200",
-      "Напитки"
-    ],
-    "canDoBg": "Мога да попитам за благосъстоянието и да дам телефонния си номер",
-    "titleEl": "Τι κάνετε;",
-    "topicsEl": [
-      "Κατάσταση υγείας",
-      "Αριθμοί 0-200",
-      "Αναψυκτικά"
-    ],
-    "canDoEl": "Μπορώ να ρωτήσω για την ευημερία και να δώσω τον αριθμό τηλεφώνου μου"
+    ]
   },
   {
     "id": 3,
     "titleDe": "Was kostet das?",
     "titleAr": "بكم هذا؟",
-    "titleEn": "How much is that?",
-    "titleTr": "Bu ne kadar?",
     "emoji": "🛍️",
     "color": "#f59e0b",
+    "titleEn": "How much is this?",
+    "titleTr": "Bu ne kadar?",
+    "titleRo": "Cât de mult costă aceasta?",
+    "titleBs": "Koliko je ovo?",
+    "titleEs": "¿Cuánto cuesta este?",
+    "titleBg": "колко е това",
+    "titleEl": "Πόσο είναι αυτό;",
     "topics": [
       "التسوق",
       "الأسعار",
@@ -1416,145 +1542,209 @@ const CURRICULUM = [
       "الأداة والنكرة"
     ],
     "topicsEn": [
-      "Shopping",
+      "shopping",
       "Prices",
-      "Objects",
-      "Articles & Negation"
+      "Things",
+      "The tool and the indefinite article"
     ],
     "topicsTr": [
-      "Alışveriş",
+      "alışveriş",
       "Fiyatlar",
-      "Nesneler",
-      "Tanımlayıcılar ve Olumsuzluk"
+      "Şeyler",
+      "Araç ve belirsiz artikel"
+    ],
+    "topicsRo": [
+      "cumpărături",
+      "Preturi",
+      "Lucruri",
+      "Instrumentul și articolul nehotărât"
+    ],
+    "topicsBs": [
+      "shopping",
+      "Cijene",
+      "Stvari",
+      "Alat i neodređeni član"
+    ],
+    "topicsEs": [
+      "compras",
+      "Precios",
+      "Cosas",
+      "La herramienta y el artículo indefinido."
+    ],
+    "topicsBg": [
+      "пазаруване",
+      "цени",
+      "неща",
+      "Инструментът и неопределителният член"
+    ],
+    "topicsEl": [
+      "ψώνια",
+      "Τιμές",
+      "Πράγματα",
+      "Το εργαλείο και το αόριστο άρθρο"
     ],
     "canDo": "أستطيع أن أسأل عن الأسعار وأشتري أشياء",
+    "canDoDe": "Ich kann nach Preisen fragen und Dinge kaufen",
     "canDoEn": "I can ask about prices and buy things",
     "canDoTr": "Fiyatları sorabilir ve bir şeyler satın alabilirim",
-    "canDoDe": "Ich kann nach Preisen fragen und Dinge kaufen",
+    "canDoRo": "Pot să întreb despre prețuri și să cumpăr lucruri",
+    "canDoBs": "Mogu pitati za cijene i kupiti stvari",
+    "canDoEs": "Puedo preguntar precios y comprar cosas.",
+    "canDoBg": "Мога да попитам за цени и да купя неща",
+    "canDoEl": "Μπορώ να ρωτήσω για τιμές και να αγοράσω πράγματα",
     "audioFiles": [
       {
         "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD1/26_langenschidt_-_3.1b_-_gegenstande.mp3",
         "label": "3.1b - Gegenstände",
         "labelAr": "الأشياء",
-        "labelEn": "3.1b - Objects",
-        "labelTr": "3.1b - Nesneler",
-        "labelRo": "3.1b - Obiecte",
-        "labelBs": "3.1b - Objekti",
-        "labelEs": "3.1b - Objetos",
-        "labelBg": "3.1b - Обекти",
-        "labelEl": "3.1β - Αντικείμενα"
+        "labelEn": "Things",
+        "labelTr": "Şeyler",
+        "labelRo": "Lucruri",
+        "labelBs": "Stvari",
+        "labelEs": "Cosas",
+        "labelBg": "неща",
+        "labelEl": "Πράγματα"
       },
       {
         "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD1/27_langenschidt_-_3.2a_-_was_kostet_....mp3",
         "label": "3.2a - Was kostet...?",
         "labelAr": "بكم يكلف؟",
-        "labelEn": "3.2a - What does it cost?",
-        "labelTr": "3.2a - Bu ne kadar?",
-        "labelRo": "3.2a - Cât costă?",
-        "labelBs": "3.2a - Koliko košta?",
-        "labelEs": "3.2a - ¿Cuánto cuesta?",
-        "labelBg": "3.2a - Колко струва?",
-        "labelEl": "3.2α - Τι κοστίζει;"
+        "labelEn": "How much does it cost?",
+        "labelTr": "Fiyatı ne kadar?",
+        "labelRo": "Cât costã?",
+        "labelBs": "Koliko košta?",
+        "labelEs": "¿Cuánto cuesta?",
+        "labelBg": "Колко струва?",
+        "labelEl": "Πόσο κοστίζει;"
+      },
+      {
+        "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD1/29_langenschidt_-_3.4c_-_sechs_dialoge.mp3",
+        "label": "3.4c - Sechs Dialoge",
+        "labelAr": "ستة حوارات",
+        "labelEn": "Six dialogues",
+        "labelTr": "Altı diyalog",
+        "labelRo": "Șase dialoguri",
+        "labelBs": "Šest dijaloga",
+        "labelEs": "Seis diálogos",
+        "labelBg": "Шест диалога",
+        "labelEl": "Έξι διάλογοι"
+      },
+      {
+        "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD1/35_langenschidt_-_3.12_-_zwei_gesprache.mp3",
+        "label": "3.12 - Zwei Gespräche",
+        "labelAr": "محادثتان",
+        "labelEn": "Two conversations",
+        "labelTr": "İki konuşma",
+        "labelRo": "Două conversații",
+        "labelBs": "Dva razgovora",
+        "labelEs": "Dos conversaciones",
+        "labelBg": "Два разговора",
+        "labelEl": "Δύο κουβέντες"
       }
     ],
     "dialogs": [
       {
         "title": "Was kostet das?",
         "titleAr": "حوار في المتجر",
-        "titleEn": "Dialogue in the shop",
-        "titleTr": "Mağazada diyalog",
+        "titleEn": "Conversation in the store",
+        "titleTr": "Mağazadaki konuşma",
+        "titleRo": "Conversație în magazin",
+        "titleBs": "Razgovor u prodavnici",
+        "titleEs": "Conversación en la tienda.",
+        "titleBg": "Разговор в магазина",
+        "titleEl": "Συζήτηση στο κατάστημα",
         "lines": [
           {
             "speaker": "Kunde",
             "de": "Entschuldigung! Was kostet der Laptop?",
             "ar": "عذراً! بكم الحاسوب المحمول؟",
-            "en": "Excuse me! How much is the laptop?",
-            "tr": "Affedersiniz! Dizüstü bilgisayar ne kadar?",
-            "ro": "Scuzați-mă! Cât costă laptopul?",
-            "bs": "Izvinite me! Koliko košta laptop?",
-            "es": "¡Disculpe! ¿Cuánto cuesta la computadora portátil?",
-            "bg": "извинете! Колко струва лаптопа?",
-            "el": "Με συγχωρείτε! Πόσο είναι το laptop;"
+            "en": "Sorry! How much is a laptop?",
+            "tr": "Üzgünüm! Bir dizüstü bilgisayar ne kadar?",
+            "ro": "Îmi pare rău! Cât costă un laptop?",
+            "bs": "Izvinite! Koliko košta laptop?",
+            "es": "¡Lo siento! ¿Cuánto cuesta una computadora portátil?",
+            "bg": "Съжалявам! Колко струва един лаптоп?",
+            "el": "Συγνώμη! Πόσο είναι ένα laptop;"
           },
           {
             "speaker": "Verkäufer",
             "de": "Der Laptop kostet 599 Euro.",
             "ar": "الحاسوب يكلف 599 يورو.",
-            "en": "The laptop costs 599 Euros.",
-            "tr": "Dizüstü bilgisayar 599 Euro.",
-            "ro": "Laptopul costa 599 de euro.",
-            "bs": "Laptop košta 599 evra.",
-            "es": "El portátil cuesta 599 euros.",
-            "bg": "Лаптопа струва 599 евро.",
-            "el": "Το laptop κοστίζει 599 ευρώ."
+            "en": "The computer costs 599 euros.",
+            "tr": "Bilgisayarın fiyatı 599 euro.",
+            "ro": "Calculatorul costă 599 de euro.",
+            "bs": "Računar košta 599 eura.",
+            "es": "El ordenador cuesta 599 euros.",
+            "bg": "Компютърът струва 599 евро.",
+            "el": "Ο υπολογιστής κοστίζει 599 ευρώ."
           },
           {
             "speaker": "Kunde",
             "de": "Und die Maus?",
             "ar": "وبكم الفأرة؟",
-            "en": "And the mouse?",
-            "tr": "Peki ya fare?",
-            "ro": "Și șoarecele?",
-            "bs": "A miš?",
-            "es": "¿Y el ratón?",
-            "bg": "А мишката?",
-            "el": "Και το ποντίκι;"
+            "en": "How much is the mouse?",
+            "tr": "Fare ne kadar?",
+            "ro": "Cât costă mouse-ul?",
+            "bs": "Koliko je miš?",
+            "es": "¿Cuánto cuesta el ratón?",
+            "bg": "Колко струва мишката?",
+            "el": "Πόσο είναι το ποντίκι;"
           },
           {
             "speaker": "Verkäufer",
             "de": "Die Maus kostet 15 Euro 99.",
             "ar": "الفأرة تكلف 15 يورو و99 سنتاً.",
-            "en": "The mouse costs 15 Euros 99.",
-            "tr": "Fare 15 Euro 99 Sent.",
-            "ro": "Mouse-ul costa 15 euro 99.",
-            "bs": "Miš košta 15 evra i 99 evra.",
-            "es": "El ratón cuesta 15 euros 99.",
-            "bg": "Мишката струва 15 99 евро.",
-            "el": "Το ποντίκι κοστίζει 15 ευρώ 99."
+            "en": "The mouse costs 15 euros and 99 cents.",
+            "tr": "Farenin fiyatı 15 euro 99 sent.",
+            "ro": "Mouse-ul costă 15 euro și 99 de cenți.",
+            "bs": "Miš košta 15 eura i 99 centi.",
+            "es": "El ratón cuesta 15 euros con 99 céntimos.",
+            "bg": "Мишката струва 15 евро и 99 цента.",
+            "el": "Το ποντίκι κοστίζει 15 ευρώ και 99 λεπτά."
           },
           {
             "speaker": "Kunde",
             "de": "Ich nehme den Laptop. Bitte.",
             "ar": "سآخذ الحاسوب. من فضلك.",
-            "en": "I'll take the laptop. Please.",
-            "tr": "Dizüstü bilgisayarı alıyorum. Lütfen.",
-            "ro": "Voi lua laptopul. Vă rog.",
-            "bs": "Ja ću uzeti laptop. Molim te.",
-            "es": "Tomaré la computadora portátil. Por favor.",
-            "bg": "Ще взема лаптопа. моля",
-            "el": "Θα πάρω το laptop. Παρακαλώ."
+            "en": "I'll take the computer. please.",
+            "tr": "Bilgisayarı alacağım. Lütfen.",
+            "ro": "O să iau computerul. Vă rog.",
+            "bs": "Ja ću uzeti kompjuter. molim te.",
+            "es": "Tomaré la computadora. por favor.",
+            "bg": "Ще взема компютъра. моля",
+            "el": "Θα πάρω τον υπολογιστή. παρακαλώ."
           }
-        ],
-        "titleRo": "Dialog în magazin",
-        "titleBs": "Dijalog u radnji",
-        "titleEs": "Diálogo en la tienda",
-        "titleBg": "Диалог в магазина",
-        "titleEl": "Διάλογος στο μαγαζί"
+        ]
       }
     ],
     "readingTexts": [
       {
         "title": "Der Flohmarkt",
         "titleAr": "سوق البضاعة المستعملة",
-        "titleEn": "The Flea Market",
-        "titleTr": "Bit Pazarı",
+        "titleEn": "Used goods market",
+        "titleTr": "Kullanılmış eşya pazarı",
+        "titleRo": "Piata de bunuri second hand",
+        "titleBs": "Tržište rabljene robe",
+        "titleEs": "mercado de bienes usados",
+        "titleBg": "Пазар на употребявани стоки",
+        "titleEl": "Αγορά μεταχειρισμένων προϊόντων",
         "text": [
           {
             "de": "Heute ist Flohmarkt in Berlin.",
             "ar": "اليوم يوجد سوق مستعمل في برلين.",
-            "en": "Today is a flea market in Berlin.",
-            "tr": "Bugün Berlin'de bit pazarı var.",
-            "ro": "Astăzi este o piață de vechituri în Berlin.",
-            "bs": "Danas je buvlja pijaca u Berlinu.",
-            "es": "Hoy es un mercadillo en Berlín.",
-            "bg": "Днес в Берлин е битпазар.",
-            "el": "Σήμερα είναι μια υπαίθρια αγορά στο Βερολίνο."
+            "en": "Today there is a used market in Berlin.",
+            "tr": "Bugün Berlin'de ikinci el bir pazar var.",
+            "ro": "Astăzi există o piață de second hand în Berlin.",
+            "bs": "Danas u Berlinu postoji pijaca polovnih.",
+            "es": "Hoy en día hay un mercado de segunda mano en Berlín.",
+            "bg": "Днес в Берлин има пазар за използвани стоки.",
+            "el": "Σήμερα υπάρχει μια αγορά μεταχειρισμένων στο Βερολίνο."
           },
           {
             "de": "Carlos kauft eine Uhr für 5 Euro.",
             "ar": "كارلوس يشتري ساعة بـ 5 يورو.",
-            "en": "Carlos buys a watch for 5 Euros.",
-            "tr": "Carlos 5 Euro'ya bir saat alıyor.",
+            "en": "Carlos buys a watch for 5 euros.",
+            "tr": "Carlos 5 avroya bir saat satın alıyor.",
             "ro": "Carlos cumpără un ceas cu 5 euro.",
             "bs": "Carlos kupuje sat za 5 eura.",
             "es": "Carlos compra un reloj por 5 euros.",
@@ -1562,152 +1752,249 @@ const CURRICULUM = [
             "el": "Ο Carlos αγοράζει ένα ρολόι 5 ευρώ."
           },
           {
-            "de": "Maria kauft ein book für 2 Euro.",
+            "de": "Maria kauft ein Buch für 2 Euro.",
             "ar": "ماريا تشتري كتاباً بـ 2 يورو.",
-            "en": "Maria buys a book for 2 Euros.",
-            "tr": "Maria 2 Euro'ya bir kitap alıyor.",
+            "en": "Maria buys a book for 2 euros.",
+            "tr": "Maria 2 avroya bir kitap satın alıyor.",
             "ro": "Maria cumpără o carte cu 2 euro.",
-            "bs": "Marija kupuje knjigu za 2 evra.",
+            "bs": "Marija kupuje knjigu za 2 eura.",
             "es": "María compra un libro por 2 euros.",
             "bg": "Мария купува книга за 2 евро.",
             "el": "Η Μαρία αγοράζει ένα βιβλίο με 2 ευρώ."
+          },
+          {
+            "de": "Das ist billig!",
+            "ar": "هذا رخيص!",
+            "en": "This is cheap!",
+            "tr": "Bu ucuz!",
+            "ro": "Acesta este ieftin!",
+            "bs": "Ovo je jeftino!",
+            "es": "¡Esto es barato!",
+            "bg": "Това е евтино!",
+            "el": "Αυτό είναι φθηνό!"
           }
         ],
         "questions": [
           {
             "q": "Was kauft Carlos?",
             "qAr": "ماذا اشترى كارلوس؟",
-            "qEn": "What does Carlos buy?",
-            "qTr": "Carlos ne satın alıyor?",
             "answer": "Eine Uhr",
             "answerAr": "ساعة",
-            "answerEn": "A watch",
-            "answerTr": "Bir saat",
-            "qRo": "Ce cumpără Carlos?",
-            "answerRo": "Un ceas",
-            "qBs": "Šta Carlos kupuje?",
-            "answerBs": "Sat",
-            "qEs": "¿Qué compra Carlos?",
-            "answerEs": "un reloj",
-            "qBg": "Какво купува Карлос?",
-            "answerBg": "часовник",
-            "qEl": "Τι αγοράζει ο Carlos;",
-            "answerEl": "Ένα ρολόι"
+            "qEn": "What did Carlos buy?",
+            "answerEn": "hour",
+            "qTr": "Carlos ne satın aldı?",
+            "answerTr": "saat",
+            "qRo": "Ce a cumpărat Carlos?",
+            "answerRo": "oră",
+            "qBs": "Šta je Carlos kupio?",
+            "answerBs": "sat",
+            "qEs": "¿Qué compró Carlos?",
+            "answerEs": "hora",
+            "qBg": "Какво купи Карлос?",
+            "answerBg": "час",
+            "qEl": "Τι αγόρασε ο Κάρλος;",
+            "answerEl": "ώρα"
+          },
+          {
+            "q": "Wie viel kostet das Buch?",
+            "qAr": "بكم الكتاب؟",
+            "answer": "2 Euro",
+            "answerAr": "2 يورو",
+            "qEn": "How much is the book?",
+            "answerEn": "2 euros",
+            "qTr": "Kitap ne kadar?",
+            "answerTr": "2 euro",
+            "qRo": "Cât costă cartea?",
+            "answerRo": "2 euro",
+            "qBs": "Koliko je knjiga?",
+            "answerBs": "2 eura",
+            "qEs": "¿Cuanto cuesta el libro?",
+            "answerEs": "2euros",
+            "qBg": "Колко струва книгата?",
+            "answerBg": "2 евро",
+            "qEl": "Πόσο είναι το βιβλίο;",
+            "answerEl": "2 ευρώ"
           }
-        ],
-        "titleRo": "Târgul de vechituri",
-        "titleBs": "Buvlja pijaca",
-        "titleEs": "El mercado de pulgas",
-        "titleBg": "Битпазарът",
-        "titleEl": "Η υπαίθρια αγορά"
+        ]
       }
     ],
     "grammar": [
       {
         "id": "artikel",
-        "title": "أداة التعريف والتنكير",
+        "title": "أداة التعريف والتنكير - der/die/das/ein/eine",
         "titleDe": "Bestimmter und unbestimmter Artikel",
-        "titleEn": "Definite and Indefinite Articles",
-        "titleTr": "Belirli ve Belirsiz Tanımlıklar (Artikeller)",
         "explanation": "في الألمانية لكل اسم جنس نحوي: مذكر (der)، مؤنث (die)، محايد (das). وهذا مهم جداً!",
-        "explanationEn": "In German, every noun has a grammatical gender: masculine (der), feminine (die), neutral (das). This is very important!",
-        "explanationTr": "Almancada her ismin dilbilgisel bir cinsiyeti vardır: eril (der), dişil (die), nötr (das). Bu çok önemlidir!",
+        "titleEn": "The definite article - der/die/das/ein/eine",
+        "explanationEn": "In German, every noun has a grammatical gender: masculine (der), feminine (die), and neuter (das). This is very important!",
+        "titleTr": "Kesin artikel - der/die/das/ein/eine",
+        "explanationTr": "Almanca'da her ismin dilbilgisel bir cinsiyeti vardır: eril (der), dişil (die) ve nötr (das). Bu çok önemli!",
+        "titleRo": "Articolul hotărât - der/die/das/ein/eine",
+        "explanationRo": "În germană, fiecare substantiv are un gen gramatical: masculin (der), feminin (die) și neutru (das). Acest lucru este foarte important!",
+        "titleBs": "Određeni član - der/die/das/ein/eine",
+        "explanationBs": "U njemačkom jeziku svaka imenica ima gramatički rod: muški (der), ženski (die) i srednji (das). Ovo je veoma važno!",
+        "titleEs": "El artículo definido - der/die/das/ein/eine",
+        "explanationEs": "En alemán, cada sustantivo tiene un género gramatical: masculino (der), femenino (die) y neutro (das). ¡Esto es muy importante!",
+        "titleBg": "Определителният член - der/die/das/ein/eine",
+        "explanationBg": "На немски език всяко съществително име има граматически род: мъжки (der), женски (die) и среден род (das). Това е много важно!",
+        "titleEl": "Το οριστικό άρθρο - der/die/das/ein/eine",
+        "explanationEl": "Στα γερμανικά, κάθε ουσιαστικό έχει ένα γραμματικό γένος: αρσενικό (der), θηλυκό (die) και ουδέτερο (das). Αυτό είναι πολύ σημαντικό!",
         "rules": [
           {
             "example": "der Tisch (مذكر) - ein Tisch",
             "translation": "الطاولة - طاولة",
-            "translationEn": "the table - a table",
-            "translationTr": "masa - bir masa",
-            "note": "",
-            "noteEn": "",
-            "noteTr": "",
-            "translationRo": "masa - o masă",
-            "translationBs": "sto - sto",
-            "translationEs": "la mesa - una mesa",
-            "translationBg": "масата - маса",
-            "translationEl": "το τραπέζι - ένα τραπέζι"
+            "note": "مذكر: der/ein",
+            "translationEn": "Table - table",
+            "noteEn": "Masculine: der/ein",
+            "translationTr": "Tablo - tablo",
+            "noteTr": "Eril: der/ein",
+            "translationRo": "Masa - masa",
+            "noteRo": "Masculin: der/ein",
+            "translationBs": "Sto - sto",
+            "noteBs": "Muški rod: der/ein",
+            "translationEs": "Mesa - mesa",
+            "noteEs": "Masculino: der/ein",
+            "translationBg": "Маса - маса",
+            "noteBg": "Мъжки род: der/ein",
+            "translationEl": "Τραπέζι – τραπέζι",
+            "noteEl": "Αρσενικά: der/ein"
+          },
+          {
+            "example": "die Lampe (مؤنث) - eine Lampe",
+            "translation": "المصباح - مصباح",
+            "note": "مؤنث: die/eine",
+            "translationEn": "Lamp - lamp",
+            "noteEn": "Feminine: die/eine",
+            "translationTr": "Lamba - lamba",
+            "noteTr": "Dişil: ölmek / eine",
+            "translationRo": "Lampă - lampă",
+            "noteRo": "Feminin: die/eine",
+            "translationBs": "Lampa - lampa",
+            "noteBs": "Ženski rod: die/eine",
+            "translationEs": "Lámpara - lámpara",
+            "noteEs": "Femenino: die/eine",
+            "translationBg": "المصباح - مصباح",
+            "noteBg": "مؤنث: die/eine",
+            "translationEl": "Φωτιστικό - λυχνάρι",
+            "noteEl": "Θηλυκό: die/eine"
+          },
+          {
+            "example": "das Buch (محايد) - ein Buch",
+            "translation": "الكتاب - كتاب",
+            "note": "محايد: das/ein",
+            "translationEn": "The book - a book",
+            "noteEn": "Neutral: das/ein",
+            "translationTr": "Kitap - bir kitap",
+            "noteTr": "Nötr: das/ein",
+            "translationRo": "الكتاب - كتاب",
+            "noteRo": "محايد: das/ein",
+            "translationBs": "Knjiga - knjiga",
+            "noteBs": "Neutralno: das/ein",
+            "translationEs": "El libro - un libro",
+            "noteEs": "Neutro: das/ein",
+            "translationBg": "Книгата – книга",
+            "noteBg": "Неутрално: das/ein",
+            "translationEl": "Το βιβλίο - ένα βιβλίο",
+            "noteEl": "Ουδέτερο: das/ein"
+          },
+          {
+            "example": "kein/keine/kein",
+            "translation": "النفي: لا يوجد",
+            "note": "النفي يتبع نفس نمط ein",
+            "translationEn": "Negation: none",
+            "noteEn": "Negation follows the same pattern as ein",
+            "translationTr": "Olumsuzluk: yok",
+            "noteTr": "Olumsuzluk ein ile aynı modeli izler",
+            "translationRo": "Negație: niciuna",
+            "noteRo": "Negația urmează același model ca ein",
+            "translationBs": "Negacija: nema",
+            "noteBs": "Negacija slijedi isti obrazac kao ein",
+            "translationEs": "Negación: ninguna",
+            "noteEs": "La negación sigue el mismo patrón que ein.",
+            "translationBg": "Отрицание: няма",
+            "noteBg": "Отрицанието следва същия модел като ein",
+            "translationEl": "Άρνηση: καμία",
+            "noteEl": "Η άρνηση ακολουθεί το ίδιο μοτίβο με το ein"
           }
-        ],
-        "table": {
-          "headers": [
-            "الجنس",
-            "التعريف",
-            "التنكير",
-            "النفي"
-          ],
-          "headersEn": [
-            "Gender",
-            "Definite",
-            "Indefinite",
-            "Negation"
-          ],
-          "headersTr": [
-            "Cinsiyet",
-            "Belirli",
-            "Belirsiz",
-            "Olumsuzluk"
-          ],
-          "rows": [
-            [
-              "مذكر (Maskulinum) / Masculine (Maskulinum) / Eril (Maskulinum) / Masculin (Maskulinum) / muški rod (Maskulinum) / Masculino (Maskulinum) / Мъжки (Maskulinum) / Αρσενικό (Maskulinum)",
-              "der",
-              "ein",
-              "kein"
-            ],
-            [
-              "مؤنث (Femininum) / Feminine (Femininum) / Dişil (Femininum) / Feminin (Femininum) / ženstveno (femininum) / Femenino (Femininum) / Женствен род (Femininum) / Θηλυκό (Feminum)",
-              "die",
-              "eine",
-              "keine"
-            ],
-            [
-              "محايد (Neutrum) / Neuter (Neutrum) / Nötr (Neutrum) / Neutru (Neutrum) / neuter (neutrum) / Neutro (neutro) / среден род (Neutrum) / Ουδέτερο (Neutrum)",
-              "das",
-              "ein",
-              "kein"
-            ]
-          ],
-          "headersRo": [
-            "Gen",
-            "Hotărât",
-            "nedefinit",
-            "Negare"
-          ],
-          "headersBs": [
-            "Rod",
-            "Definitivno",
-            "Neodređeno",
-            "Negacija"
-          ],
-          "headersEs": [
-            "Género",
-            "Definido",
-            "Indefinido",
-            "Negación"
-          ],
-          "headersBg": [
-            "Пол",
-            "Определено",
-            "Безсрочен",
-            "Отрицание"
-          ],
-          "headersEl": [
-            "Γένος",
-            "Σαφής",
-            "Αόριστος",
-            "Αρνηση"
-          ]
-        },
-        "titleRo": "Articole determinate și nedeterminate",
-        "explanationRo": "În germană, fiecare substantiv are un gen gramatical: masculin (der), feminin (die), neutru (das). Acest lucru este foarte important!",
-        "titleBs": "Određeni i neodređeni članovi",
-        "explanationBs": "U njemačkom jeziku svaka imenica ima gramatički rod: muški (der), ženski (die), neutralan (das). Ovo je veoma važno!",
-        "titleEs": "Artículos definidos e indefinidos",
-        "explanationEs": "En alemán, cada sustantivo tiene un género gramatical: masculino (der), femenino (die), neutro (das). ¡Esto es muy importante!",
-        "titleBg": "Определителни и неопределени членове",
-        "explanationBg": "На немски език всяко съществително име има граматически род: мъжки (der), женски (die), неутрален (das). Това е много важно!",
-        "titleEl": "Ορισμένα και Αόριστα Άρθρα",
-        "explanationEl": "Στα γερμανικά, κάθε ουσιαστικό έχει ένα γραμματικό γένος: αρσενικό (der), θηλυκό (die), ουδέτερο (das). Αυτό είναι πολύ σημαντικό!"
+        ]
+      },
+      {
+        "id": "akkusativ",
+        "title": "حالة المفعول به - Akkusativ",
+        "titleDe": "Der Akkusativ",
+        "explanation": "المفعول به في الألمانية يغير أداة التعريف للمذكر فقط!",
+        "titleEn": "Object case - Akkusativ",
+        "explanationEn": "The object in German changes the definite article for the masculine only!",
+        "titleTr": "Nesne durumu - Akkusativ",
+        "explanationTr": "Almanca'da nesne yalnızca eril için belirli artikel değiştirir!",
+        "titleRo": "Caz obiect - Akkusativ",
+        "explanationRo": "Obiectul în germană schimbă articolul hotărât numai pentru masculin!",
+        "titleBs": "Predmet - Akkusativ",
+        "explanationBs": "Objekat na njemačkom mijenja određeni član samo za muški rod!",
+        "titleEs": "Caso de objeto - Akkusativ",
+        "explanationEs": "¡El objeto en alemán cambia el artículo definido sólo por el masculino!",
+        "titleBg": "Обектна каса - Аккусатив",
+        "explanationBg": "Обектът в немски променя определителния член само за мъжки!",
+        "titleEl": "Περίπτωση αντικειμένου - Akkusativ",
+        "explanationEl": "Το αντικείμενο στα γερμανικά αλλάζει το οριστικό άρθρο μόνο για τα αρσενικά!",
+        "rules": [
+          {
+            "example": "Ich kaufe der Laptop → den Laptop.",
+            "translation": "أشتري الحاسوب.",
+            "note": "der → den في المذكر",
+            "translationEn": "I buy the computer.",
+            "noteEn": "der → den in the masculine",
+            "translationTr": "Bilgisayarı satın alıyorum.",
+            "noteTr": "der → eril olarak den",
+            "translationRo": "Cumpăr computerul.",
+            "noteRo": "der → den la masculin",
+            "translationBs": "Kupujem kompjuter.",
+            "noteBs": "der → den u muškom rodu",
+            "translationEs": "Compro la computadora.",
+            "noteEs": "der → guarida en masculino",
+            "translationBg": "Купувам компютъра.",
+            "noteBg": "der → den в мъжки род",
+            "translationEl": "Αγοράζω τον υπολογιστή.",
+            "noteEl": "der → den στα αρσενικά"
+          },
+          {
+            "example": "Ich kaufe die Lampe.",
+            "translation": "أشتري المصباح.",
+            "note": "die تبقى die",
+            "translationEn": "I buy the lamp.",
+            "noteEn": "die remains die",
+            "translationTr": "Lambayı satın alıyorum.",
+            "noteTr": "ölmek kalır",
+            "translationRo": "Cumpar lampa.",
+            "noteRo": "mor rămâne mor",
+            "translationBs": "Kupujem lampu.",
+            "noteBs": "umrijeti ostaje umrijeti",
+            "translationEs": "Compro la lámpara.",
+            "noteEs": "morir permanece morir",
+            "translationBg": "Купувам лампата.",
+            "noteBg": "умират остава умират",
+            "translationEl": "Αγοράζω τη λάμπα.",
+            "noteEl": "πεθαίνεις παραμένει πεθαίνει"
+          },
+          {
+            "example": "Ich kaufe das Buch.",
+            "translation": "أشتري الكتاب.",
+            "note": "das يبقى das",
+            "translationEn": "I buy the book.",
+            "noteEn": "das remains das",
+            "translationTr": "Kitabı satın alıyorum.",
+            "noteTr": "das das olarak kalıyor",
+            "translationRo": "أشتري الكتاب.",
+            "noteRo": "das ramane das",
+            "translationBs": "Ja kupujem knjigu.",
+            "noteBs": "das ostaje das",
+            "translationEs": "Compro el libro.",
+            "noteEs": "das sigue siendo das",
+            "translationBg": "Купувам книгата.",
+            "noteBg": "das си остава das",
+            "translationEl": "Αγοράζω το βιβλίο.",
+            "noteEl": "das παραμένει das"
+          }
+        ]
       }
     ],
     "exercises": [
@@ -1715,140 +2002,160 @@ const CURRICULUM = [
         "type": "mcq",
         "question": "Was ist der Artikel für 'Buch'?",
         "questionAr": "ما هي أداة التعريف لكلمة Buch (كتاب)؟",
-        "questionEn": "What is the article for 'Buch' (book)?",
-        "questionTr": "'Buch' (kitap) kelimesinin artikeli nedir?",
+        "answer": 2,
+        "questionEn": "What is the definite article for Buch (book)?",
+        "questionTr": "Buch (kitap) için kesin makale nedir?",
+        "questionRo": "ما هي أداة التعريف لكلمة Buch (كتاب)؟",
+        "questionBs": "Koji je definitivni članak za Buch (knjiga)?",
+        "questionEs": "¿Cuál es el artículo definido de Buch (libro)?",
+        "questionBg": "Какъв е определителният член за Бух (книга)?",
+        "questionEl": "Ποιο είναι το οριστικό άρθρο για το Buch (βιβλίο);",
         "options": [
           "der",
           "die",
           "das",
           "ein"
         ],
-        "answer": 2,
-        "questionRo": "Care este articolul pentru „Buch” (carte)?",
-        "questionBs": "Šta je članak za 'Buch' (knjigu)?",
-        "questionEs": "¿Cuál es el artículo de 'Buch' (libro)?",
-        "questionBg": "Каква е статията за \"Buch\" (книга)?",
-        "questionEl": "Τι είναι το άρθρο για το «Buch» (βιβλίο);"
-      }
-    ],
-    "writingPrompts": [
-      {
-        "prompt": "صف ما تريد شراءه من المتجر",
-        "promptDe": "Was möchten Sie kaufen? Beschreiben Sie!",
-        "promptEn": "Describe what you want to buy from the shop!",
-        "promptTr": "Mağazadan ne satın almak istediğinizi tasvir edin!",
-        "helpers": [
-          "Ich möchte ... kaufen.",
-          "Das kostet ...",
-          "Das ist billig/teuer."
+        "optionsEn": [
+          "der",
+          "die",
+          "das",
+          "ein"
         ],
-        "helpersEn": [
-          "I want to buy...",
-          "That costs...",
-          "That is cheap/expensive."
+        "optionsTr": [
+          "der",
+          "die",
+          "das",
+          "ein"
         ],
-        "helpersTr": [
-          "Satın almak istiyorum...",
-          "Fiyatı...",
-          "Bu ucuz/pahalı."
+        "optionsRo": [
+          "der",
+          "die",
+          "das",
+          "ein"
         ],
-        "example": "Ich möchte einen Laptop kaufen. Der Laptop kostet 500 Euro. Das ist nicht billig, aber gut.",
-        "promptRo": "Descrie ce vrei sa cumperi din magazin!",
-        "helpersRo": [
-          "vreau sa cumpar...",
-          "Asta costa...",
-          "Asta este ieftin/scump."
+        "optionsBs": [
+          "der",
+          "die",
+          "das",
+          "ein"
         ],
-        "promptBs": "Opišite šta želite da kupite u prodavnici!",
-        "promptEs": "¡Describe lo que quieres comprar en la tienda!",
-        "promptBg": "Опишете какво искате да закупите от магазина!",
-        "promptEl": "Περιγράψτε τι θέλετε να αγοράσετε από το κατάστημα!"
-      }
-    ],
-    "speakingPhrases": [
-      {
-        "de": "Was kostet das?",
-        "ar": "بكم هذا؟",
-        "en": "How much is this?",
-        "tr": "Bu ne kadar?",
-        "ro": "Cât de mult costă aceasta?",
-        "bs": "Koliko je ovo?",
-        "es": "¿Cuánto cuesta este?",
-        "bg": "колко е това",
-        "el": "Πόσο είναι αυτό;"
+        "optionsEs": [
+          "der",
+          "die",
+          "das",
+          "ein"
+        ],
+        "optionsBg": [
+          "der",
+          "die",
+          "das",
+          "ein"
+        ],
+        "optionsEl": [
+          "der",
+          "die",
+          "das",
+          "ein"
+        ]
       },
       {
-        "de": "Das kostet ... Euro.",
-        "ar": "هذا يكلف ... يورو.",
-        "en": "That costs ... Euros.",
-        "tr": "Fiyatı ... Euro.",
-        "ro": "Asta costa... euro.",
-        "bs": "To košta... evra.",
-        "es": "Eso cuesta... euros.",
-        "bg": "Това струва ... евро.",
-        "el": "Αυτό κοστίζει ... ευρώ."
+        "type": "fillblank",
+        "question": "Was kostet _____ Laptop? (der/die/das)",
+        "questionAr": "اختر الأداة الصحيحة",
+        "answer": "der",
+        "questionEn": "Choose the right tool",
+        "questionTr": "Doğru aracı seçin",
+        "questionRo": "Alegeți instrumentul potrivit",
+        "questionBs": "Odaberite pravi alat",
+        "questionEs": "Elija la herramienta adecuada",
+        "questionBg": "Изберете правилния инструмент",
+        "questionEl": "Επιλέξτε το σωστό εργαλείο",
+        "hint": "Laptop مذكر في الألمانية",
+        "hintEn": "Laptop is masculine in German",
+        "hintTr": "Almanca'da dizüstü bilgisayar erkeksi anlamına geliyor",
+        "hintRo": "Laptop مذكر في الألمانية",
+        "hintBs": "Laptop je na njemačkom muško",
+        "hintEs": "La computadora portátil es masculina en alemán",
+        "hintBg": "Лаптоп е мъжки род на немски",
+        "hintEl": "Το laptop είναι αρσενικό στα γερμανικά"
       },
       {
-        "de": "Ich nehme das.",
-        "ar": "سآخذ هذا.",
-        "en": "I'll take it.",
-        "tr": "Bunu alıyorum.",
-        "ro": "O să-l iau.",
-        "bs": "Ja ću uzeti.",
-        "es": "Me lo llevo.",
-        "bg": "аз ще го взема",
-        "el": "θα το πάρω."
+        "type": "mcq",
+        "question": "Was bedeutet 'billig'?",
+        "questionAr": "ما معنى billig؟",
+        "answer": 1,
+        "questionEn": "What does billig mean?",
+        "questionTr": "billig ne demek?",
+        "questionRo": "Ce înseamnă billig?",
+        "questionBs": "Šta znači naplata?",
+        "questionEs": "¿Qué significa billig?",
+        "questionBg": "Какво означава billig?",
+        "questionEl": "Τι σημαίνει billig;",
+        "options": [
+          "غالي",
+          "رخيص",
+          "جميل",
+          "كبير"
+        ],
+        "optionsEn": [
+          "beloved",
+          "cheap",
+          "Beautiful",
+          "big"
+        ],
+        "optionsTr": [
+          "sevgili",
+          "ucuz",
+          "Güzel",
+          "büyük"
+        ],
+        "optionsRo": [
+          "iubit",
+          "ieftin",
+          "Frumos",
+          "mare"
+        ],
+        "optionsBs": [
+          "voljena",
+          "jeftino",
+          "Beautiful",
+          "veliki"
+        ],
+        "optionsEs": [
+          "amado",
+          "barato",
+          "Hermoso",
+          "grande"
+        ],
+        "optionsBg": [
+          "любима",
+          "евтино",
+          "Красива",
+          "голям"
+        ],
+        "optionsEl": [
+          "αγαπητός",
+          "φτηνός",
+          "Ομορφος",
+          "μεγάλος"
+        ]
       }
-    ],
-    "titleRo": "Cât este asta?",
-    "topicsRo": [
-      "Cumpărături",
-      "Preturi",
-      "Obiecte",
-      "Articole și negație"
-    ],
-    "canDoRo": "Pot să întreb despre prețuri și să cumpăr lucruri",
-    "titleBs": "Koliko je to?",
-    "topicsBs": [
-      "Kupovina",
-      "Cijene",
-      "Objekti",
-      "Članci i negacija"
-    ],
-    "canDoBs": "Mogu pitati za cijene i kupiti stvari",
-    "titleEs": "¿Cuánto es eso?",
-    "topicsEs": [
-      "Compras",
-      "Precios",
-      "Objetos",
-      "Artículos y negación"
-    ],
-    "canDoEs": "Puedo preguntar precios y comprar cosas.",
-    "titleBg": "колко е това",
-    "topicsBg": [
-      "Пазаруване",
-      "цени",
-      "Обекти",
-      "Статии и отрицание"
-    ],
-    "canDoBg": "Мога да попитам за цени и да купя неща",
-    "titleEl": "Πόσο είναι αυτό;",
-    "topicsEl": [
-      "Ψώνια",
-      "Τιμές",
-      "Αντικείμενα",
-      "Άρθρα & Άρνηση"
-    ],
-    "canDoEl": "Μπορώ να ρωτήσω για τιμές και να αγοράσω πράγματα"
+    ]
   },
   {
     "id": 4,
     "titleDe": "Wie spät ist es?",
     "titleAr": "كم الساعة؟",
-    "titleEn": "What time is it?",
-    "titleTr": "Saat kaç?",
     "emoji": "⏰",
     "color": "#a78bfa",
+    "titleEn": "What's the time?",
+    "titleTr": "Saat kaç?",
+    "titleRo": "Care este ora?",
+    "titleBs": "koliko je sati?",
+    "titleEs": "¿Cuál es la hora?",
+    "titleBg": "колко е часът",
+    "titleEl": "Τι ώρα είναι;",
     "topics": [
       "الوقت",
       "المواعيد",
@@ -1856,53 +2163,117 @@ const CURRICULUM = [
       "الأنشطة اليومية"
     ],
     "topicsEn": [
-      "Time",
+      "the time",
       "Appointments",
       "Days of the week",
       "Daily activities"
     ],
     "topicsTr": [
-      "Zaman/Saat",
+      "zaman",
       "Randevular",
       "Haftanın günleri",
       "Günlük aktiviteler"
     ],
+    "topicsRo": [
+      "timpul",
+      "Numiri",
+      "Zilele săptămânii",
+      "Activități zilnice"
+    ],
+    "topicsBs": [
+      "vrijeme",
+      "Sastanci",
+      "Dani u sedmici",
+      "Dnevne aktivnosti"
+    ],
+    "topicsEs": [
+      "el tiempo",
+      "Equipo",
+      "Días de la semana",
+      "Actividades diarias"
+    ],
+    "topicsBg": [
+      "времето",
+      "Назначавания",
+      "Дни от седмицата",
+      "Ежедневни дейности"
+    ],
+    "topicsEl": [
+      "ο χρόνος",
+      "Εφόδια",
+      "Μέρες της εβδομάδας",
+      "Καθημερινές δραστηριότητες"
+    ],
     "canDo": "أستطيع أن أسأل عن الوقت وأحدد مواعيد",
-    "canDoEn": "I can ask for the time and make appointments",
-    "canDoTr": "Saati sorabilir ve randevu ayarlayabilirim",
     "canDoDe": "Ich kann nach der Uhrzeit fragen und Termine machen",
+    "canDoEn": "I can ask for time and make appointments",
+    "canDoTr": "Zaman isteyebilir ve randevu alabilirim",
+    "canDoRo": "Pot cere timp și pot face programări",
+    "canDoBs": "Mogu tražiti vrijeme i zakazati termine",
+    "canDoEs": "Puedo pedir hora y concertar citas.",
+    "canDoBg": "Мога да поискам време и да уговоря срещи",
+    "canDoEl": "Μπορώ να ζητήσω χρόνο και να κλείσω ραντεβού",
     "audioFiles": [
       {
         "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD1/37_langenschidt_-_4.2a_-_wie_spat_ist_es.mp3",
         "label": "4.2a - Wie spät ist es?",
         "labelAr": "كم الساعة؟",
-        "labelEn": "4.2a - What time is it?",
-        "labelTr": "4.2a - Saat kaç?",
-        "labelRo": "4.2a - Cât este ceasul?",
-        "labelBs": "4.2a - Koliko je sati?",
-        "labelEs": "4.2a - ¿Qué hora es?",
-        "labelBg": "4.2a - Колко е часът?",
-        "labelEl": "4.2α - Τι ώρα είναι;"
+        "labelEn": "What's the time?",
+        "labelTr": "Saat kaç?",
+        "labelRo": "Care este ora?",
+        "labelBs": "koliko je sati?",
+        "labelEs": "¿Cuál es la hora?",
+        "labelBg": "колко е часът",
+        "labelEl": "Τι ώρα είναι;"
+      },
+      {
+        "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD1/38_langenschidt_-_4.5_-_wortakzent_und_rhythmus.mp3",
+        "label": "4.5 - Wortakzent",
+        "labelAr": "نبرة الكلمة",
+        "labelEn": "The tone of the word",
+        "labelTr": "Kelimenin tonu",
+        "labelRo": "Tonul cuvântului",
+        "labelBs": "Ton riječi",
+        "labelEs": "El tono de la palabra.",
+        "labelBg": "Тонът на думата",
+        "labelEl": "Ο τόνος της λέξης"
+      },
+      {
+        "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD1/40_langenschidt_-_4.9b_-_kommst_du_mit_....mp3",
+        "label": "4.9b - Kommst du mit?",
+        "labelAr": "هل تأتي معي؟",
+        "labelEn": "Will you come with me?",
+        "labelTr": "Benimle gelecek misin?",
+        "labelRo": "vei veni cu mine?",
+        "labelBs": "Hoćeš li poći sa mnom?",
+        "labelEs": "¿Vendrás conmigo?",
+        "labelBg": "ще дойдеш ли с мен",
+        "labelEl": "Θα έρθεις μαζί μου;"
       }
     ],
     "dialogs": [
       {
         "title": "Wie spät ist es?",
         "titleAr": "كم الساعة الآن؟",
-        "titleEn": "What time is it?",
-        "titleTr": "Saat kaç?",
+        "titleEn": "What time is it now?",
+        "titleTr": "Şimdi saat kaç?",
+        "titleRo": "Cât e ceasul acum?",
+        "titleBs": "Koliko je sati sada?",
+        "titleEs": "¿Qué hora es ahora?",
+        "titleBg": "колко е часът сега",
+        "titleEl": "Τι ώρα είναι τώρα;",
         "lines": [
           {
             "speaker": "Maria",
             "de": "Entschuldigung, wie spät ist es?",
             "ar": "عذراً، كم الساعة؟",
-            "en": "Excuse me, what time is it?",
-            "tr": "Affedersiniz, saat kaç?",
-            "ro": "Scuză-mă, cât este ceasul?",
-            "bs": "Izvinite, koliko je sati?",
-            "es": "Disculpe, ¿qué hora es?",
-            "bg": "Извинете, колко е часът?",
-            "el": "Με συγχωρείτε, τι ώρα είναι;"
+            "en": "Sorry, what time is it?",
+            "tr": "Pardon, saat kaç?",
+            "ro": "Scuze, cât este ceasul?",
+            "bs": "Izvini, koliko je sati?",
+            "es": "Perdón, ¿qué hora es?",
+            "bg": "Съжалявам, колко е часът?",
+            "el": "Συγγνώμη, τι ώρα είναι;"
           },
           {
             "speaker": "Thomas",
@@ -1920,79 +2291,119 @@ const CURRICULUM = [
             "speaker": "Maria",
             "de": "Oh! Ich habe einen Termin um 3 Uhr.",
             "ar": "أوه! عندي موعد في الساعة الثالثة.",
-            "en": "Oh! I have an appointment at 3 o'clock.",
-            "tr": "Oh! Saat 3'te bir randevum var.",
-            "ro": "Oh! Am o programare la ora 3.",
-            "bs": "Oh! Imam termin u 3 sata.",
-            "es": "¡Oh! Tengo una cita a las 3 en punto.",
-            "bg": "о! Имам час за 3 часа.",
-            "el": "Ω! Έχω ραντεβού στις 3 η ώρα."
+            "en": "Oh! I have an appointment at three o'clock.",
+            "tr": "Ah! Saat üçte randevum var.",
+            "ro": "Oh! Am o programare la ora trei.",
+            "bs": "Oh! Imam termin u tri sata.",
+            "es": "¡Oh! Tengo una cita a las tres.",
+            "bg": "о! Имам среща в три часа.",
+            "el": "Ω! Έχω ραντεβού στις τρεις."
+          },
+          {
+            "speaker": "Thomas",
+            "de": "Beeilen Sie sich!",
+            "ar": "أسرعي!",
+            "en": "Hurry!",
+            "tr": "Acele etmek!",
+            "ro": "Grabă!",
+            "bs": "Požuri!",
+            "es": "¡Apurarse!",
+            "bg": "побързайте!",
+            "el": "Βιασύνη!"
           }
-        ],
-        "titleRo": "Cât este ceasul?",
-        "titleBs": "Koliko je sati?",
-        "titleEs": "¿Qué hora es?",
-        "titleBg": "колко е часът",
-        "titleEl": "Τι ώρα είναι;"
+        ]
       }
     ],
     "readingTexts": [
       {
         "title": "Mein Tagesablauf",
         "titleAr": "روتيني اليومي",
-        "titleEn": "My Daily Routine",
-        "titleTr": "Günlük Rutinim",
+        "titleEn": "My daily routine",
+        "titleTr": "Günlük rutinim",
+        "titleRo": "Rutina mea zilnică",
+        "titleBs": "Moja dnevna rutina",
+        "titleEs": "mi rutina diaria",
+        "titleBg": "Моето ежедневие",
+        "titleEl": "Η καθημερινότητά μου",
         "text": [
           {
             "de": "Ich stehe um 7 Uhr auf.",
             "ar": "أستيقظ في الساعة السابعة.",
-            "en": "I get up at 7 o'clock.",
-            "tr": "Saat 7'de kalkıyorum.",
-            "ro": "Mă trezesc la ora 7.",
-            "bs": "Ustajem u 7 sati.",
-            "es": "Me levanto a las 7 en punto.",
-            "bg": "Ставам в 7 часа.",
-            "el": "Σηκώνομαι στις 7 η ώρα."
+            "en": "I wake up at seven o'clock.",
+            "tr": "Saat yedide uyanıyorum.",
+            "ro": "Mă trezesc la ora șapte.",
+            "bs": "Budim se u sedam sati.",
+            "es": "Me despierto a las siete.",
+            "bg": "Събуждам се в седем часа.",
+            "el": "Ξυπνάω στις επτά."
+          },
+          {
+            "de": "Um 8 Uhr frühstücke ich.",
+            "ar": "في الساعة الثامنة أتناول الفطور.",
+            "en": "At eight o'clock I eat breakfast.",
+            "tr": "Saat sekizde kahvaltı yapıyorum.",
+            "ro": "La ora opt iau micul dejun.",
+            "bs": "U osam sati doručkujem.",
+            "es": "A las ocho desayuno.",
+            "bg": "В осем часа закусвам.",
+            "el": "Στις οκτώ τρώω πρωινό."
           },
           {
             "de": "Der Deutschkurs beginnt um 9 Uhr.",
             "ar": "درس الألمانية يبدأ في الساعة التاسعة.",
-            "en": "The German course begins at 9 o'clock.",
-            "tr": "Almanca kursu saat 9'da başlıyor.",
-            "ro": "Cursul de germană începe la ora 9.",
-            "bs": "Kurs njemačkog počinje u 9 sati.",
-            "es": "El curso de alemán comienza a las 9 h.",
-            "bg": "Курсът по немски започва в 9 часа.",
-            "el": "Το μάθημα των Γερμανικών ξεκινά στις 9."
+            "en": "German lesson starts at nine o'clock.",
+            "tr": "Almanca dersi saat dokuzda başlıyor.",
+            "ro": "Lecția de germană începe la ora nouă.",
+            "bs": "Čas njemačkog počinje u devet sati.",
+            "es": "La lección de alemán comienza a las nueve.",
+            "bg": "Часът по немски започва в девет часа.",
+            "el": "Το μάθημα γερμανικών ξεκινά στις εννιά."
+          },
+          {
+            "de": "Um 12 Uhr esse ich zu Mittag.",
+            "ar": "في الساعة الثانية عشرة أتناول الغداء.",
+            "en": "At twelve o'clock I have lunch.",
+            "tr": "Saat on ikide öğle yemeği yerim.",
+            "ro": "La ora douăsprezece iau prânzul.",
+            "bs": "U 12 sati ručam.",
+            "es": "A las doce almuerzo.",
+            "bg": "В дванадесет часа обядвам.",
+            "el": "Στις δώδεκα τρώω μεσημεριανό."
+          },
+          {
+            "de": "Am Abend lerne ich Vokabeln.",
+            "ar": "في المساء أحفظ المفردات.",
+            "en": "In the evening I memorize vocabulary.",
+            "tr": "Akşamları kelimeleri ezberliyorum.",
+            "ro": "Seara memorez vocabularul.",
+            "bs": "Uveče učim napamet vokabular.",
+            "es": "Por la noche memorizo ​​vocabulario.",
+            "bg": "Вечер наизустявам лексика.",
+            "el": "Το βράδυ απομνημονεύω λεξιλόγιο."
           }
         ],
         "questions": [
           {
             "q": "Um wie viel Uhr beginnt der Kurs?",
             "qAr": "متى يبدأ الدرس؟",
-            "qEn": "What time does the course begin?",
-            "qTr": "Kurs saat kaçta başlıyor?",
             "answer": "Um 9 Uhr",
             "answerAr": "في الساعة التاسعة",
-            "answerEn": "At 9 o'clock",
-            "answerTr": "Saat 9'da",
-            "qRo": "La ce oră începe cursul?",
-            "answerRo": "La ora 9",
-            "qBs": "U koliko sati počinje kurs?",
-            "answerBs": "U 9 ​​sati",
-            "qEs": "¿A qué hora empieza el curso?",
-            "answerEs": "a las 9 en punto",
-            "qBg": "В колко часа започва курсът?",
-            "answerBg": "В 9 часа",
-            "qEl": "Τι ώρα αρχίζει το μάθημα;",
-            "answerEl": "Στις 9 η ώρα"
+            "qEn": "When does the lesson start?",
+            "answerEn": "At nine o'clock",
+            "qTr": "Ders ne zaman başlıyor?",
+            "answerTr": "saat dokuzda",
+            "qRo": "Când începe lecția?",
+            "answerRo": "La ora nouă",
+            "qBs": "Kada počinje lekcija?",
+            "answerBs": "U devet sati",
+            "qEs": "¿Cuándo comienza la lección?",
+            "answerEs": "a las nueve en punto",
+            "qBg": "Кога започва урокът?",
+            "answerBg": "В девет часа",
+            "qEl": "Πότε ξεκινά το μάθημα;",
+            "answerEl": "Στις εννιά η ώρα"
           }
-        ],
-        "titleRo": "Rutina mea zilnică",
-        "titleBs": "Moja dnevna rutina",
-        "titleEs": "Mi rutina diaria",
-        "titleBg": "Моето ежедневие",
-        "titleEl": "Η καθημερινή μου ρουτίνα"
+        ]
       }
     ],
     "grammar": [
@@ -2000,42 +2411,178 @@ const CURRICULUM = [
         "id": "uhrzeit",
         "title": "قراءة الساعة",
         "titleDe": "Die Uhrzeit",
-        "titleEn": "Telling the Time",
-        "titleTr": "Saat Söyleme",
         "explanation": "هناك طريقتان لقراءة الساعة: الرسمية وغير الرسمية.",
-        "explanationEn": "There are two ways of telling the time: formal and informal.",
-        "explanationTr": "Saati söylemenin iki yolu vardır: resmi ve resmi olmayan (günlük).",
+        "titleEn": "Reading the clock",
+        "explanationEn": "There are two ways to read a watch: formal and informal.",
+        "titleTr": "Saati okumak",
+        "explanationTr": "Bir saati okumanın iki yolu vardır: resmi ve resmi olmayan.",
+        "titleRo": "Citind ceasul",
+        "explanationRo": "Există două moduri de a citi un ceas: formal și informal.",
+        "titleBs": "Čitanje sata",
+        "explanationBs": "Postoje dva načina čitanja sata: formalni i neformalni.",
+        "titleEs": "leyendo el reloj",
+        "explanationEs": "Hay dos formas de leer un reloj: formal e informal.",
+        "titleBg": "Четене на часовника",
+        "explanationBg": "Има два начина за четене на часовник: официален и неофициален.",
+        "titleEl": "Διαβάζοντας το ρολόι",
+        "explanationEl": "Υπάρχουν δύο τρόποι για να διαβάσετε ένα ρολόι: επίσημος και ανεπίσημος.",
         "rules": [
+          {
+            "example": "Es ist 9 Uhr. / Es ist neun Uhr.",
+            "translation": "الساعة التاسعة.",
+            "note": "تماماً",
+            "translationEn": "Nine o'clock.",
+            "noteEn": "completely",
+            "translationTr": "Saat dokuz.",
+            "noteTr": "tamamen",
+            "translationRo": "Ora nouă.",
+            "noteRo": "complet",
+            "translationBs": "Devet sati.",
+            "noteBs": "potpuno",
+            "translationEs": "Las nueve en punto.",
+            "noteEs": "completamente",
+            "translationBg": "Девет часа.",
+            "noteBg": "напълно",
+            "translationEl": "Εννιά η ώρα.",
+            "noteEl": "εντελώς"
+          },
+          {
+            "example": "Es ist 9:15 / Viertel nach neun.",
+            "translation": "الساعة التاسعة والربع.",
+            "note": "",
+            "translationEn": "It's a quarter past nine.",
+            "noteEn": "",
+            "translationTr": "Saat dokuzu çeyrek geçiyor.",
+            "noteTr": "",
+            "translationRo": "E nouă și un sfert.",
+            "noteRo": "",
+            "translationBs": "Devet i pet je.",
+            "noteBs": "",
+            "translationEs": "Son las nueve y cuarto.",
+            "noteEs": "",
+            "translationBg": "Девет без четвърт е.",
+            "noteBg": "",
+            "translationEl": "Η ώρα είναι εννιά και τέταρτο.",
+            "noteEl": ""
+          },
           {
             "example": "Es ist 9:30 / halb zehn.",
             "translation": "الساعة التاسعة والنصف.",
-            "translationEn": "It is half past nine.",
-            "translationTr": "Saat dokuz buçuk (kelime anlamı: on'a yarım var).",
-            "note": "halb = نصف قبل الساعة التالية",
-            "noteEn": "halb = half before the next hour",
-            "noteTr": "halb = sonraki saatten yarım saat öncesi",
-            "translationRo": "Este nouă și jumătate.",
-            "noteRo": "halb = jumătate înainte de ora următoare",
+            "note": "halb = نصف قبل الساعة التالية!",
+            "translationEn": "It's half past nine.",
+            "noteEn": "halb = half before the next hour!",
+            "translationTr": "Saat dokuz buçuk.",
+            "noteTr": "halb = bir sonraki saatten yarım!",
+            "translationRo": "E nouă și jumătate.",
+            "noteRo": "halb = jumătate înainte de ora următoare!",
             "translationBs": "Pola je devet.",
-            "noteBs": "halb = pola prije sljedećeg sata",
+            "noteBs": "halb = pola prije sljedećeg sata!",
             "translationEs": "Son las nueve y media.",
-            "noteEs": "halb = mitad antes de la próxima hora",
+            "noteEs": "halb = ¡la mitad antes de la próxima hora!",
             "translationBg": "Девет и половина е.",
-            "noteBg": "halb = половината преди следващия час",
+            "noteBg": "halb = половината преди следващия час!",
             "translationEl": "Η ώρα είναι εννιά και μισή.",
-            "noteEl": "halb = μισό πριν την επόμενη ώρα"
+            "noteEl": "halb = μισό πριν την επόμενη ώρα!"
+          },
+          {
+            "example": "Es ist 9:45 / Viertel vor zehn.",
+            "translation": "الساعة العاشرة إلا الربع.",
+            "note": "",
+            "translationEn": "It's a quarter to ten.",
+            "noteEn": "",
+            "translationTr": "Saat ona çeyrek var.",
+            "noteTr": "",
+            "translationRo": "E zece fără un sfert.",
+            "noteRo": "",
+            "translationBs": "Pet je do deset.",
+            "noteBs": "",
+            "translationEs": "Son las diez menos cuarto.",
+            "noteEs": "",
+            "translationBg": "Десет без четвърт е.",
+            "noteBg": "",
+            "translationEl": "Είναι δέκα παρά τέταρτο.",
+            "noteEl": ""
           }
-        ],
-        "titleRo": "Spunând Timpul",
-        "explanationRo": "Există două moduri de a spune ora: formal și informal.",
-        "titleBs": "Telling the Time",
-        "explanationBs": "Postoje dva načina određivanja vremena: formalni i neformalni.",
-        "titleEs": "Decir la hora",
-        "explanationEs": "Hay dos formas de decir la hora: formal e informal.",
-        "titleBg": "Разказване на времето",
-        "explanationBg": "Има два начина за определяне на времето: официален и неофициален.",
-        "titleEl": "Λέγοντας την ώρα",
-        "explanationEl": "Υπάρχουν δύο τρόποι να πεις την ώρα: επίσημος και άτυπος."
+        ]
+      },
+      {
+        "id": "trennbare-verben",
+        "title": "الأفعال المنفصلة - Trennbare Verben",
+        "titleDe": "Trennbare Verben",
+        "explanation": "بعض الأفعال لها بادئة تنفصل وتنتقل إلى نهاية الجملة.",
+        "titleEn": "Separate verbs - Trennbare Verben",
+        "explanationEn": "Some verbs have a prefix that breaks off and moves to the end of the sentence.",
+        "titleTr": "Ayrı fiiller - Trennbare Verben",
+        "explanationTr": "Bazı fiillerin, kesilen ve cümlenin sonuna doğru giden bir öneki vardır.",
+        "titleRo": "Verbe separate - Trennbare Verben",
+        "explanationRo": "Unele verbe au un prefix care se întrerupe și se deplasează la sfârșitul propoziției.",
+        "titleBs": "Odvojeni glagoli - Trennbare Verben",
+        "explanationBs": "Neki glagoli imaju prefiks koji se prekida i prelazi na kraj rečenice.",
+        "titleEs": "Verbos separados - Trennbare Verben",
+        "explanationEs": "Algunos verbos tienen un prefijo que se interrumpe y llega al final de la oración.",
+        "titleBg": "Разделни глаголи - Trennbare Verben",
+        "explanationBg": "Някои глаголи имат префикс, който се прекъсва и се премества в края на изречението.",
+        "titleEl": "Ξεχωριστά ρήματα - Trennbare Verben",
+        "explanationEl": "Ορισμένα ρήματα έχουν ένα πρόθεμα που διακόπτεται και μετακινείται στο τέλος της πρότασης.",
+        "rules": [
+          {
+            "example": "aufstehen → Ich stehe um 7 Uhr auf.",
+            "translation": "أستيقظ في السابعة.",
+            "note": "auf ينتقل للنهاية",
+            "translationEn": "I wake up at seven.",
+            "noteEn": "auf Moves to the end",
+            "translationTr": "Yedide uyanıyorum.",
+            "noteTr": "auf Sona doğru gider",
+            "translationRo": "Mă trezesc la șapte.",
+            "noteRo": "auf Se mută până la capăt",
+            "translationBs": "Budim se u sedam.",
+            "noteBs": "auf Prelazi na kraj",
+            "translationEs": "Me despierto a las siete.",
+            "noteEs": "auf Se mueve hasta el final",
+            "translationBg": "Събуждам се в седем.",
+            "noteBg": "auf Преминава към края",
+            "translationEl": "Ξυπνάω στις επτά.",
+            "noteEl": "auf Μετακινείται μέχρι το τέλος"
+          },
+          {
+            "example": "anfangen → Der Kurs fängt um 9 an.",
+            "translation": "الدرس يبدأ في التاسعة.",
+            "note": "an ينتقل للنهاية",
+            "translationEn": "Lesson starts at nine.",
+            "noteEn": "an moves to the end",
+            "translationTr": "Ders dokuzda başlıyor.",
+            "noteTr": "bir sona doğru hareket eder",
+            "translationRo": "Lecția începe la nouă.",
+            "noteRo": "an se deplasează până la capăt",
+            "translationBs": "Lekcija počinje u devet.",
+            "noteBs": "a kreće se do kraja",
+            "translationEs": "La lección empieza a las nueve.",
+            "noteEs": "un se mueve hasta el final",
+            "translationBg": "Урокът започва в девет.",
+            "noteBg": "an се движи до края",
+            "translationEl": "Το μάθημα ξεκινά στις εννιά.",
+            "noteEl": "ένα κινείται μέχρι το τέλος"
+          },
+          {
+            "example": "einkaufen → Ich kaufe im Supermarkt ein.",
+            "translation": "أتسوق في السوبرماركت.",
+            "note": "ein ينتقل للنهاية",
+            "translationEn": "I shop at the supermarket.",
+            "noteEn": "ein moves to the end",
+            "translationTr": "Süpermarketten alışveriş yapıyorum.",
+            "noteTr": "ein sonuna doğru ilerliyor",
+            "translationRo": "Fac cumpărături la supermarket.",
+            "noteRo": "ein se mută până la capăt",
+            "translationBs": "Kupujem u supermarketu.",
+            "noteBs": "ein se kreće do kraja",
+            "translationEs": "Hago compras en el supermercado.",
+            "noteEs": "ein se mueve hasta el final",
+            "translationBg": "Пазарувам от супермаркета.",
+            "noteBg": "ein се движи до края",
+            "translationEl": "Ψωνίζω στο σούπερ μάρκετ.",
+            "noteEl": "Το ein προχωρά μέχρι το τέλος"
+          }
+        ]
       }
     ],
     "exercises": [
@@ -2043,140 +2590,99 @@ const CURRICULUM = [
         "type": "mcq",
         "question": "Es ist 'halb zehn'. Was bedeutet das?",
         "questionAr": "ماذا تعني halb zehn؟",
-        "questionEn": "What does 'halb zehn' mean?",
-        "questionTr": "'halb zehn' ne anlama gelir?",
-        "options": [
-          "العاشرة والنصف / Half past ten (10:30) / Saat on buçuk (10:30) / Zece și jumătate (10:30)",
-          "التاسعة والنصف / Half past nine (9:30) / Saat dokuz buçuk (9:30) / Nouă și jumătate (9:30)",
-          "العاشرة / Ten o'clock (10:00) / Saat on (10:00) / Ora zece (10:00)",
-          "العاشرة إلا الربع / Quarter to ten (9:45) / Saat ona çeyrek var (9:45) / Zece fără un sfert (9:45)"
-        ],
         "answer": 1,
-        "questionRo": "Ce înseamnă „halb zehn”?",
-        "questionBs": "Šta znači 'halb zehn'?",
-        "questionEs": "¿Qué significa 'halb zehn'?",
-        "questionBg": "Какво означава „halb zehn“?",
-        "questionEl": "Τι σημαίνει «halb zehn»;"
-      }
-    ],
-    "writingPrompts": [
-      {
-        "prompt": "صف يومك العادي",
-        "promptDe": "Beschreiben Sie Ihren Tagesablauf",
-        "promptEn": "Describe your daily routine",
-        "promptTr": "Günlük rutininizi tasvir edin",
-        "helpers": [
-          "Ich stehe um ... auf.",
-          "Um ... Uhr ...",
-          "Am Morgen/Abend..."
+        "questionEn": "What does halb zehn mean?",
+        "questionTr": "halb zehn ne demek?",
+        "questionRo": "Ce înseamnă halb zehn?",
+        "questionBs": "Šta znači halb zehn?",
+        "questionEs": "¿Qué significa halb zehn?",
+        "questionBg": "Какво означава halb zehn?",
+        "questionEl": "Τι σημαίνει η λέξη halb zehn;",
+        "options": [
+          "العاشرة والنصف",
+          "التاسعة والنصف",
+          "العاشرة",
+          "العاشرة إلا الربع"
         ],
-        "helpersEn": [
-          "I get up at...",
-          "At ... o'clock...",
-          "In the morning/evening..."
+        "optionsEn": [
+          "Half past ten",
+          "Half past nine",
+          "Ten o'clock",
+          "A quarter to ten"
         ],
-        "helpersTr": [
-          "Saat ...'da kalkıyorum.",
-          "Saat ...'te...",
-          "Sabahleyin/Akşamleyin..."
+        "optionsTr": [
+          "on buçuk",
+          "Dokuz buçuk",
+          "saat on",
+          "Ona çeyrek kala"
         ],
-        "example": "Ich stehe um 7 Uhr auf. Um 8 Uhr frühstücke ich. Um 9 Uhr beginnt der Kurs.",
-        "promptRo": "Descrieți rutina zilnică",
-        "helpersRo": [
-          "ma trezesc la...",
-          "La... ora...",
-          "Dimineata/seara..."
+        "optionsRo": [
+          "Zece și jumătate",
+          "Nouă și jumătate",
+          "Ora zece",
+          "Zece fără un sfert"
         ],
-        "promptBs": "Opišite svoju dnevnu rutinu",
-        "promptEs": "Describe tu rutina diaria",
-        "promptBg": "Опишете ежедневието си",
-        "promptEl": "Περιγράψτε την καθημερινότητά σας"
-      }
-    ],
-    "speakingPhrases": [
-      {
-        "de": "Wie spät ist es?",
-        "ar": "كم الساعة؟",
-        "en": "What time is it?",
-        "tr": "Saat kaç?",
-        "ro": "Cât este ceasul?",
-        "bs": "Koliko je sati?",
-        "es": "¿Qué hora es?",
-        "bg": "колко е часът",
-        "el": "Τι ώρα είναι;"
+        "optionsBs": [
+          "Pola deset",
+          "Pola deset",
+          "Deset sati",
+          "Četvrt do deset"
+        ],
+        "optionsEs": [
+          "Las diez y media",
+          "Las nueve y media",
+          "las diez en punto",
+          "Las diez menos cuarto"
+        ],
+        "optionsBg": [
+          "Десет и половина",
+          "Девет и половина",
+          "Десет часа",
+          "Десет без четвърт"
+        ],
+        "optionsEl": [
+          "Δέκα και μισή",
+          "Εννιά και μισή",
+          "Δέκα η ώρα",
+          "Ένα τέταρτο παρά δέκα"
+        ]
       },
       {
-        "de": "Es ist halb vier.",
-        "ar": "الساعة الثالثة والنصف.",
-        "en": "It is half past three.",
-        "tr": "Saat üç buçuk.",
-        "ro": "Este trei și jumătate.",
-        "bs": "Pola je tri.",
-        "es": "Son las tres y media.",
-        "bg": "Три и половина е.",
-        "el": "Η ώρα είναι τρεις και μισή."
-      },
-      {
-        "de": "Wann beginnt der Kurs?",
-        "ar": "متى يبدأ الدرس؟",
-        "en": "When does the course begin?",
-        "tr": "Kurs ne zaman başlıyor?",
-        "ro": "Când începe cursul?",
-        "bs": "Kada počinje kurs?",
-        "es": "¿Cuándo comienza el curso?",
-        "bg": "Кога започва курсът?",
-        "el": "Πότε ξεκινά το μάθημα;"
+        "type": "fillblank",
+        "question": "Ich _____ um 7 Uhr _____. (aufstehen)",
+        "questionAr": "أكمل الفراغ",
+        "answer": "stehe / auf",
+        "questionEn": "Fill in the blank",
+        "questionTr": "Boşluğu doldurun",
+        "questionRo": "Completați spațiul liber",
+        "questionBs": "Popunite prazninu",
+        "questionEs": "Completa el espacio en blanco",
+        "questionBg": "Попълнете празното поле",
+        "questionEl": "Συμπληρώστε το κενό",
+        "hint": "فعل منفصل: stehe...auf",
+        "hintEn": "Separate verb: stehe...auf",
+        "hintTr": "Ayrı fiil: stehe...auf",
+        "hintRo": "Verb separat: stehe...auf",
+        "hintBs": "Zaseban glagol: stehe...auf",
+        "hintEs": "Verbo separado: stehe...auf",
+        "hintBg": "Отделен глагол: stehe...auf",
+        "hintEl": "Ξεχωριστό ρήμα: stehe...auf"
       }
-    ],
-    "titleRo": "Cât este ceasul?",
-    "topicsRo": [
-      "Timp",
-      "Numiri",
-      "Zilele săptămânii",
-      "Activități zilnice"
-    ],
-    "canDoRo": "Pot să cer timpul și să fac programări",
-    "titleBs": "Koliko je sati?",
-    "topicsBs": [
-      "Vrijeme",
-      "Sastanci",
-      "Dani u sedmici",
-      "Dnevne aktivnosti"
-    ],
-    "canDoBs": "Mogu pitati za vrijeme i zakazati termine",
-    "titleEs": "¿Qué hora es?",
-    "topicsEs": [
-      "Tiempo",
-      "Equipo",
-      "Días de la semana",
-      "Actividades diarias"
-    ],
-    "canDoEs": "Puedo pedir la hora y concertar citas.",
-    "titleBg": "колко е часът",
-    "topicsBg": [
-      "време",
-      "Назначавания",
-      "Дни от седмицата",
-      "Ежедневни дейности"
-    ],
-    "canDoBg": "Мога да поискам час и да уговоря срещи",
-    "titleEl": "Τι ώρα είναι;",
-    "topicsEl": [
-      "Φορά",
-      "Εφόδια",
-      "Μέρες της εβδομάδας",
-      "Καθημερινές δραστηριότητες"
-    ],
-    "canDoEl": "Μπορώ να ζητήσω την ώρα και να κλείσω ραντεβού"
+    ]
   },
   {
     "id": 5,
     "titleDe": "Einkaufen",
     "titleAr": "التسوق والطعام",
-    "titleEn": "Shopping & Food",
-    "titleTr": "Alışveriş ve Yemek",
     "emoji": "🛒",
     "color": "#f87171",
+    "titleEn": "Shopping and food",
+    "titleTr": "Alışveriş ve yemek",
+    "titleRo": "Cumpărături și mâncare",
+    "titleBs": "Kupovina i hrana",
+    "titleEs": "Compras y comida",
+    "titleBg": "Пазаруване и храна",
+    "titleEl": "Ψώνια και φαγητό",
     "topics": [
       "التسوق للطعام",
       "الكميات",
@@ -2184,41 +2690,105 @@ const CURRICULUM = [
       "الأوزان"
     ],
     "topicsEn": [
-      "Food shopping",
+      "Shopping for food",
       "Quantities",
       "Cooking",
       "Weights"
     ],
     "topicsTr": [
-      "Yiyecek alışverişi",
+      "Yiyecek için alışveriş",
       "Miktarlar",
-      "Yemek pişirme",
+      "Yemek pişirmek",
       "Ağırlıklar"
     ],
+    "topicsRo": [
+      "Cumpărături pentru mâncare",
+      "Cantitati",
+      "Gătit",
+      "Greutăți"
+    ],
+    "topicsBs": [
+      "Kupovina hrane",
+      "Količine",
+      "Kuvanje",
+      "Utezi"
+    ],
+    "topicsEs": [
+      "Comprando comida",
+      "Cantidades",
+      "Cocinando",
+      "Pesos"
+    ],
+    "topicsBg": [
+      "Пазаруване на храна",
+      "Количества",
+      "готвене",
+      "Тежести"
+    ],
+    "topicsEl": [
+      "Ψώνια για φαγητό",
+      "Ποσότητες",
+      "Μαγείρεμα",
+      "Βάρη"
+    ],
     "canDo": "أستطيع أن أتسوق وأتحدث عن الطعام",
-    "canDoEn": "I can shop for groceries and talk about food",
-    "canDoTr": "Alışveriş yapabilir ve yemek hakkında konuşabilirim",
     "canDoDe": "Ich kann einkaufen und über Essen sprechen",
+    "canDoEn": "I can shop and talk about food",
+    "canDoTr": "Alışveriş yapabilirim ve yemek hakkında konuşabilirim",
+    "canDoRo": "Pot să fac cumpărături și să vorbesc despre mâncare",
+    "canDoBs": "Mogu kupovati i razgovarati o hrani",
+    "canDoEs": "Puedo comprar y hablar sobre comida.",
+    "canDoBg": "Мога да пазарувам и да говоря за храна",
+    "canDoEl": "Μπορώ να ψωνίσω και να μιλήσω για φαγητό",
     "audioFiles": [
       {
         "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD1/41_langenschidt_-_5.2b_-_einkaufen.mp3",
         "label": "5.2b - Einkaufen",
         "labelAr": "التسوق",
-        "labelEn": "5.2b - Shopping",
-        "labelTr": "5.2b - Alışveriş",
-        "labelRo": "5.2b - Cumpărături",
-        "labelBs": "5.2b - Kupovina",
-        "labelEs": "5.2b - Compras",
-        "labelBg": "5.2b - Пазаруване",
-        "labelEl": "5.2β - Αγορές"
+        "labelEn": "shopping",
+        "labelTr": "alışveriş",
+        "labelRo": "cumpărături",
+        "labelBs": "shopping",
+        "labelEs": "compras",
+        "labelBg": "пазаруване",
+        "labelEl": "ψώνια"
+      },
+      {
+        "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD1/45_langenschidt_-_5.8_-_matis_laden.mp3",
+        "label": "5.8 - Matis Laden",
+        "labelAr": "متجر ماتي",
+        "labelEn": "Shop mate",
+        "labelTr": "Alışveriş arkadaşı",
+        "labelRo": "Magazin prietene",
+        "labelBs": "Shop mate",
+        "labelEs": "Compañero de tienda",
+        "labelBg": "Колега от магазина",
+        "labelEl": "Μαγαζί φίλε"
+      },
+      {
+        "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD1/46_langenschidt_-_5.10a_-_was_kochen_wir.mp3",
+        "label": "5.10a - Was kochen wir?",
+        "labelAr": "ماذا نطبخ؟",
+        "labelEn": "What do we cook?",
+        "labelTr": "Ne pişireceğiz?",
+        "labelRo": "Ce gătim?",
+        "labelBs": "Šta kuvamo?",
+        "labelEs": "¿Qué cocinamos?",
+        "labelBg": "Какво готвим?",
+        "labelEl": "Τι μαγειρεύουμε;"
       }
     ],
     "dialogs": [
       {
         "title": "Im Supermarkt",
         "titleAr": "في السوبرماركت",
-        "titleEn": "In the Supermarket",
+        "titleEn": "In the supermarket",
         "titleTr": "Süpermarkette",
+        "titleRo": "În supermarket",
+        "titleBs": "U supermarketu",
+        "titleEs": "en el supermercado",
+        "titleBg": "В супермаркета",
+        "titleEl": "Στο σούπερ μάρκετ",
         "lines": [
           {
             "speaker": "Kunde",
@@ -2236,80 +2806,131 @@ const CURRICULUM = [
             "speaker": "Verkäufer",
             "de": "Ja, natürlich. Wie viel möchten Sie?",
             "ar": "نعم بالطبع. كم تريد؟",
-            "en": "Yes, of course. How much would you like?",
-            "tr": "Evet, tabii. Ne kadar istersiniz?",
-            "ro": "Da, desigur. Cât de mult ai vrea?",
-            "bs": "Da, naravno. Koliko bi htela?",
-            "es": "Sí, claro. ¿Cuánto te gustaría?",
-            "bg": "да разбира се Колко искаш?",
-            "el": "Ναι, φυσικά. Πόσο θα ήθελες;"
+            "en": "Yes, of course. How much do you want?",
+            "tr": "Evet elbette. Ne kadar istiyorsun?",
+            "ro": "Da, desigur. Cât vrei?",
+            "bs": "Da, naravno. Koliko želiš?",
+            "es": "Sí, claro. ¿Cuanto quieres?",
+            "bg": "да разбира се колко искаш",
+            "el": "Ναι, φυσικά. Πόσο θέλεις;"
           },
           {
             "speaker": "Kunde",
             "de": "Ein Kilo, bitte. Und 500 Gramm Käse.",
             "ar": "كيلو من فضلك. و500 غرام جبن.",
-            "en": "A kilo, please. And 500 grams of cheese.",
-            "tr": "Bir kilo lütfen. Ve 500 gram peynir.",
-            "ro": "Un kilogram, te rog. Și 500 de grame de brânză.",
-            "bs": "Kilogram, molim. I 500 grama sira.",
-            "es": "Un kilo, por favor. Y 500 gramos de queso.",
-            "bg": "Един килограм, моля. И 500 грама сирене.",
-            "el": "Ένα κιλό παρακαλώ. Και 500 γραμμάρια τυρί."
+            "en": "Kilo please. And 500 grams of cheese.",
+            "tr": "Kilo lütfen. Ve 500 gram peynir.",
+            "ro": "Kilo va rog. Și 500 de grame de brânză.",
+            "bs": "Kilo molim. I 500 grama sira.",
+            "es": "Kilo por favor. Y 500 gramos de queso.",
+            "bg": "Кило моля. И 500 грама сирене.",
+            "el": "Κιλό παρακαλώ. Και 500 γραμμάρια τυρί."
+          },
+          {
+            "speaker": "Verkäufer",
+            "de": "Gerne. Das macht 6 Euro 80.",
+            "ar": "بكل سرور. المجموع 6 يورو و80 سنتاً.",
+            "en": "gladly. The total is 6 euros and 80 cents.",
+            "tr": "memnuniyetle. Toplam 6 euro 80 sent.",
+            "ro": "bucuros. Totalul este de 6 euro și 80 de cenți.",
+            "bs": "rado. Ukupno je 6 eura i 80 centi.",
+            "es": "con alegría. El total son 6 euros con 80 céntimos.",
+            "bg": "с радост. Общата сума е 6 евро и 80 цента.",
+            "el": "ευχαρίστως. Το σύνολο είναι 6 ευρώ και 80 λεπτά."
           }
-        ],
-        "titleRo": "În Supermarket",
-        "titleBs": "U supermarketu",
-        "titleEs": "en el supermercado",
-        "titleBg": "В Супермаркета",
-        "titleEl": "Στο Σούπερ Μάρκετ"
+        ]
       }
     ],
     "readingTexts": [
       {
         "title": "Rezept: Tomatensalat",
         "titleAr": "وصفة: سلطة الطماطم",
-        "titleEn": "Recipe: Tomato Salad",
-        "titleTr": "Tarif: Domates Salatası",
+        "titleEn": "Recipe: tomato salad",
+        "titleTr": "Tarif: domates salatası",
+        "titleRo": "Reteta: salata de rosii",
+        "titleBs": "Recept: paradajz salata",
+        "titleEs": "Receta: ensalada de tomate",
+        "titleBg": "Рецепта: доматена салата",
+        "titleEl": "Συνταγή: ντοματοσαλάτα",
         "text": [
           {
-            "de": "Zutaten: 500 g Tomaten, 1 Gurke, 1 Zwiebel.",
-            "ar": "المكونات: 500 غ طماطم، خيارة، بصلة.",
-            "en": "Ingredients: 500g tomatoes, 1 cucumber, 1 onion.",
-            "tr": "Malzemeler: 500 gr domates, 1 salatalık, 1 soğan.",
-            "ro": "Ingrediente: 500 g rosii, 1 castravete, 1 ceapa.",
-            "bs": "Sastojci: 500 g paradajza, 1 krastavac, 1 luk.",
-            "es": "Ingredientes: 500g de tomates, 1 pepino, 1 cebolla.",
-            "bg": "Продукти: 500 г домати, 1 краставица, 1 глава лук.",
-            "el": "Υλικά: 500 γρ ντομάτες, 1 αγγούρι, 1 κρεμμύδι."
+            "de": "Zutaten: 500 g Tomaten, 1 Gurke, 1 Zwiebel, Öl, Salz.",
+            "ar": "المكونات: 500 غ طماطم، خيارة، بصلة، زيت، ملح.",
+            "en": "Ingredients: 500 g tomatoes, cucumber, onion, oil, salt.",
+            "tr": "Malzemeler: 500 gr domates, salatalık, soğan, yağ, tuz.",
+            "ro": "Ingrediente: 500 g rosii, castraveti, ceapa, ulei, sare.",
+            "bs": "Sastojci: 500 g paradajza, krastavac, crni luk, ulje, so.",
+            "es": "Ingredientes: 500 g de tomate, pepino, cebolla, aceite, sal.",
+            "bg": "Продукти: 500 г домати, краставица, лук, олио, сол.",
+            "el": "Υλικά: 500 γρ ντομάτες, αγγούρι, κρεμμύδι, λάδι, αλάτι."
+          },
+          {
+            "de": "Zubereitung: Die Tomaten schneiden.",
+            "ar": "طريقة التحضير: تقطيع الطماطم.",
+            "en": "Preparation method: Chop the tomatoes.",
+            "tr": "Hazırlama yöntemi: Domatesleri doğrayın.",
+            "ro": "Mod de preparare: Tocați roșiile.",
+            "bs": "Način pripreme: Isjeckajte paradajz.",
+            "es": "Método de preparación: Picar los tomates.",
+            "bg": "Начин на приготвяне: Нарежете доматите.",
+            "el": "Τρόπος παρασκευής: Ψιλοκόβουμε τις ντομάτες."
+          },
+          {
+            "de": "Dann die Gurke und die Zwiebel schneiden.",
+            "ar": "ثم تقطيع الخيار والبصل.",
+            "en": "Then chop the cucumber and onion.",
+            "tr": "Daha sonra salatalık ve soğanı doğrayın.",
+            "ro": "Apoi toaca castravetele si ceapa.",
+            "bs": "Zatim nasjeckajte krastavac i luk.",
+            "es": "Luego pica el pepino y la cebolla.",
+            "bg": "След това нарежете краставицата и лука.",
+            "el": "Στη συνέχεια ψιλοκόψτε το αγγούρι και το κρεμμύδι."
+          },
+          {
+            "de": "Alles mischen. Öl und Salz dazu.",
+            "ar": "خلط الكل. إضافة الزيت والملح.",
+            "en": "Mix it all. Add oil and salt.",
+            "tr": "Hepsini karıştırın. Yağ ve tuz ekleyin.",
+            "ro": "Amestecă totul. Adăugați ulei și sare.",
+            "bs": "Pomiješajte sve. Dodajte ulje i sol.",
+            "es": "Mézclalo todo. Agrega aceite y sal.",
+            "bg": "Смесете всичко. Добавете олио и сол.",
+            "el": "Ανακατέψτε τα όλα. Προσθέστε λάδι και αλάτι."
+          },
+          {
+            "de": "Fertig! Guten Appetit!",
+            "ar": "جاهز! بالهناء والشفاء!",
+            "en": "ready! Congratulations and recovery!",
+            "tr": "hazır! Tebrikler ve iyileşme!",
+            "ro": "gata! Felicitări și recuperare!",
+            "bs": "spreman! Čestitke i oporavak!",
+            "es": "¡listo! ¡Felicidades y recuperación!",
+            "bg": "готов! Честито и оздравяване!",
+            "el": "έτοιμος! Συγχαρητήρια και ανάρρωση!"
           }
         ],
         "questions": [
           {
             "q": "Was braucht man für den Salat?",
             "qAr": "ماذا نحتاج للسلطة؟",
-            "qEn": "What is needed for the salad?",
-            "qTr": "Salata için ne gerekiyor?",
-            "answer": "Tomaten, Gurke, Zwiebel",
-            "answerAr": "طماطم، خيار، بصل",
-            "answerEn": "Tomatoes, cucumber, onion",
-            "answerTr": "Domates, salatalık, soğan",
-            "qRo": "Ce este necesar pentru salată?",
-            "answerRo": "Roșii, castraveți, ceapă",
-            "qBs": "Šta je potrebno za salatu?",
-            "answerBs": "Paradajz, krastavac, luk",
-            "qEs": "¿Qué se necesita para la ensalada?",
-            "answerEs": "Tomates, pepino, cebolla",
-            "qBg": "Какво е необходимо за салата?",
-            "answerBg": "Домати, краставици, лук",
-            "qEl": "Τι χρειάζεται για τη σαλάτα;",
-            "answerEl": "Ντομάτες, αγγούρι, κρεμμύδι"
+            "answer": "Tomaten, Gurke, Zwiebel, Öl, Salz",
+            "answerAr": "طماطم، خيار، بصل، زيت، ملح",
+            "qEn": "What do we need for power?",
+            "answerEn": "Tomatoes, cucumbers, onions, oil, salt",
+            "qTr": "Güç için neye ihtiyacımız var?",
+            "answerTr": "Domates, salatalık, soğan, yağ, tuz",
+            "qRo": "De ce avem nevoie pentru putere?",
+            "answerRo": "Roșii, castraveți, ceapă, ulei, sare",
+            "qBs": "Šta nam je potrebno za moć?",
+            "answerBs": "Paradajz, krastavci, luk, ulje, so",
+            "qEs": "¿Qué necesitamos para tener poder?",
+            "answerEs": "Tomates, pepinos, cebollas, aceite, sal.",
+            "qBg": "Какво ни трябва за власт?",
+            "answerBg": "Домати, краставици, лук, олио, сол",
+            "qEl": "Τι χρειαζόμαστε για την εξουσία;",
+            "answerEl": "Ντομάτες, αγγούρια, κρεμμύδια, λάδι, αλάτι"
           }
-        ],
-        "titleRo": "Reteta: Salata de rosii",
-        "titleBs": "Recept: Salata od paradajza",
-        "titleEs": "Receta: Ensalada De Tomate",
-        "titleBg": "Рецепта: Салата с домати",
-        "titleEl": "Συνταγή: Τοματοσαλάτα"
+        ]
       }
     ],
     "grammar": [
@@ -2317,37 +2938,197 @@ const CURRICULUM = [
         "id": "mengen",
         "title": "الكميات والأوزان",
         "titleDe": "Mengenangaben",
-        "titleEn": "Quantities and Weights",
-        "titleTr": "Miktar ve Ağırlık Belirtmeleri",
-        "explanation": "عند التسوق تحتاج إلى كلمات الكميات والمقادير.",
-        "explanationEn": "When shopping you need terms for quantities and weights.",
-        "explanationTr": "Alışveriş yaparken miktar ve ölçü birimlerine ihtiyaç duyarsınız.",
+        "explanation": "عند التسوق تحتاج إلى كلمات الكميات.",
+        "titleEn": "Quantities and weights",
+        "explanationEn": "When shopping you need words and quantities.",
+        "titleTr": "Miktarlar ve ağırlıklar",
+        "explanationTr": "Alışveriş yaparken kelimelere ve miktarlara ihtiyacınız var.",
+        "titleRo": "Cantități și greutăți",
+        "explanationRo": "La cumpărături ai nevoie de cuvinte și cantități.",
+        "titleBs": "Količine i težine",
+        "explanationBs": "Prilikom kupovine potrebne su vam riječi i količine.",
+        "titleEs": "Cantidades y pesos",
+        "explanationEs": "Al comprar necesitas palabras y cantidades.",
+        "titleBg": "Количества и грамажи",
+        "explanationBg": "Когато пазарувате, имате нужда от думи и количества.",
+        "titleEl": "Ποσότητες και βάρη",
+        "explanationEl": "Όταν ψωνίζετε χρειάζεστε λέξεις και ποσότητες.",
         "rules": [
           {
             "example": "ein Kilo Tomaten",
             "translation": "كيلو طماطم",
-            "translationEn": "a kilo of tomatoes",
-            "translationTr": "bir kilo domates",
             "note": "",
+            "translationEn": "A kilo of tomatoes",
             "noteEn": "",
+            "translationTr": "Bir kilo domates",
             "noteTr": "",
-            "translationRo": "un kilogram de roșii",
-            "translationBs": "kilogram paradajza",
+            "translationRo": "Un kilogram de roșii",
+            "noteRo": "",
+            "translationBs": "Kilogram paradajza",
+            "noteBs": "",
             "translationEs": "un kilo de tomates",
-            "translationBg": "килограм домати",
-            "translationEl": "ένα κιλό ντομάτες"
+            "noteEs": "",
+            "translationBg": "Килограм домати",
+            "noteBg": "",
+            "translationEl": "Ένα κιλό ντομάτες",
+            "noteEl": ""
+          },
+          {
+            "example": "500 Gramm Käse",
+            "translation": "500 غرام جبن",
+            "note": "",
+            "translationEn": "500 grams of cheese",
+            "noteEn": "",
+            "translationTr": "500 gram peynir",
+            "noteTr": "",
+            "translationRo": "500 de grame de brânză",
+            "noteRo": "",
+            "translationBs": "500 grama sira",
+            "noteBs": "",
+            "translationEs": "500 gramos de queso",
+            "noteEs": "",
+            "translationBg": "500 грама сирене",
+            "noteBg": "",
+            "translationEl": "500 γραμμάρια τυρί",
+            "noteEl": ""
+          },
+          {
+            "example": "ein Liter Milch",
+            "translation": "لتر حليب",
+            "note": "",
+            "translationEn": "A liter of milk",
+            "noteEn": "",
+            "translationTr": "Bir litre süt",
+            "noteTr": "",
+            "translationRo": "Un litru de lapte",
+            "noteRo": "",
+            "translationBs": "Litar mleka",
+            "noteBs": "",
+            "translationEs": "un litro de leche",
+            "noteEs": "",
+            "translationBg": "Литър мляко",
+            "noteBg": "",
+            "translationEl": "Ένα λίτρο γάλα",
+            "noteEl": ""
+          },
+          {
+            "example": "eine Flasche Wasser",
+            "translation": "زجاجة ماء",
+            "note": "",
+            "translationEn": "water bottle",
+            "noteEn": "",
+            "translationTr": "su şişesi",
+            "noteTr": "",
+            "translationRo": "sticla de apa",
+            "noteRo": "",
+            "translationBs": "flaša vode",
+            "noteBs": "",
+            "translationEs": "botella de agua",
+            "noteEs": "",
+            "translationBg": "бутилка вода",
+            "noteBg": "",
+            "translationEl": "μπουκάλι νερό",
+            "noteEl": ""
+          },
+          {
+            "example": "ein Paket Nudeln",
+            "translation": "علبة معكرونة",
+            "note": "",
+            "translationEn": "A box of pasta",
+            "noteEn": "",
+            "translationTr": "Bir kutu makarna",
+            "noteTr": "",
+            "translationRo": "O cutie de paste",
+            "noteRo": "",
+            "translationBs": "Kutija tjestenine",
+            "noteBs": "",
+            "translationEs": "una caja de pasta",
+            "noteEs": "",
+            "translationBg": "Кутия паста",
+            "noteBg": "",
+            "translationEl": "Ένα κουτί ζυμαρικά",
+            "noteEl": ""
           }
-        ],
-        "titleRo": "Cantitati si Greutati",
-        "explanationRo": "La cumpărături ai nevoie de termeni pentru cantități și greutăți.",
-        "titleBs": "Količine i težine",
-        "explanationBs": "Prilikom kupovine potrebni su vam termini za količine i težine.",
-        "titleEs": "Cantidades y pesos",
-        "explanationEs": "Al comprar necesitas términos para cantidades y pesos.",
-        "titleBg": "Количества и грамажи",
-        "explanationBg": "При пазаруване се нуждаете от условия за количества и грамажи.",
-        "titleEl": "Ποσότητες και Βάρη",
-        "explanationEl": "Όταν ψωνίζετε χρειάζεστε όρους για τις ποσότητες και τα βάρη."
+        ]
+      },
+      {
+        "id": "imperativ",
+        "title": "صيغة الأمر - Imperativ",
+        "titleDe": "Der Imperativ",
+        "explanation": "نستخدم الأمر في الوصفات والتعليمات.",
+        "titleEn": "Imperativ",
+        "explanationEn": "We use the imperative in recipes and instructions.",
+        "titleTr": "Emir",
+        "explanationTr": "Tariflerde ve talimatlarda emir kipini kullanırız.",
+        "titleRo": "Imperativ",
+        "explanationRo": "Folosim imperativul în rețete și instrucțiuni.",
+        "titleBs": "Imperativ",
+        "explanationBs": "Koristimo imperativ u receptima i uputstvima.",
+        "titleEs": "Imperativo",
+        "explanationEs": "Usamos el imperativo en recetas e instrucciones.",
+        "titleBg": "Императив",
+        "explanationBg": "Ние използваме императив в рецепти и инструкции.",
+        "titleEl": "Imperativ",
+        "explanationEl": "Χρησιμοποιούμε την επιταγή σε συνταγές και οδηγίες.",
+        "rules": [
+          {
+            "example": "schneiden → Schneiden Sie die Tomaten!",
+            "translation": "اقطع/ي الطماطم! (رسمي)",
+            "note": "",
+            "translationEn": "Chop the tomatoes! (official)",
+            "noteEn": "",
+            "translationTr": "Domatesleri doğrayın! (resmi)",
+            "noteTr": "",
+            "translationRo": "Tăiați roșiile! (oficial)",
+            "noteRo": "",
+            "translationBs": "Nasjeckajte paradajz! (zvanično)",
+            "noteBs": "",
+            "translationEs": "¡Pica los tomates! (oficial)",
+            "noteEs": "",
+            "translationBg": "Нарежете доматите! (официален)",
+            "noteBg": "",
+            "translationEl": "Ψιλοκόψτε τις ντομάτες! (επίσημος ανώτερος υπάλληλος)",
+            "noteEl": ""
+          },
+          {
+            "example": "mischen → Mischen Sie alles!",
+            "translation": "اخلط/ي كل شيء! (رسمي)",
+            "note": "",
+            "translationEn": "Mix everything! (official)",
+            "noteEn": "",
+            "translationTr": "Her şeyi karıştırın! (resmi)",
+            "noteTr": "",
+            "translationRo": "Amesteca totul! (oficial)",
+            "noteRo": "",
+            "translationBs": "Sve pomiješajte! (zvanično)",
+            "noteBs": "",
+            "translationEs": "¡Mezcla todo! (oficial)",
+            "noteEs": "",
+            "translationBg": "Смесете всичко! (официален)",
+            "noteBg": "",
+            "translationEl": "Ανακατέψτε τα πάντα! (επίσημος ανώτερος υπάλληλος)",
+            "noteEl": ""
+          },
+          {
+            "example": "kochen → Koch die Suppe! (غير رسمي)",
+            "translation": "اطبخ الشوربة!",
+            "note": "",
+            "translationEn": "Cook soup!",
+            "noteEn": "",
+            "translationTr": "Çorba pişir!",
+            "noteTr": "",
+            "translationRo": "Gatiti supa!",
+            "noteRo": "",
+            "translationBs": "Kuhajte supu!",
+            "noteBs": "",
+            "translationEs": "¡Cocina sopa!",
+            "noteEs": "",
+            "translationBg": "Гответе супа!",
+            "noteBg": "",
+            "translationEl": "Μαγειρέψτε σούπα!",
+            "noteEl": ""
+          }
+        ]
       }
     ],
     "exercises": [
@@ -2355,129 +3136,99 @@ const CURRICULUM = [
         "type": "mcq",
         "question": "Was bedeutet 'Guten Appetit'?",
         "questionAr": "ما معنى Guten Appetit؟",
-        "questionEn": "What does 'Guten Appetit' mean?",
-        "questionTr": "'Guten Appetit' ne demektir?",
-        "options": [
-          "بالهناء والشفاء / Enjoy your meal / Afiyet olsun / Bucurați-vă de masă",
-          "شكراً على الطعام / Thanks for the food / Yemek için teşekkürler / Mulțumesc pentru mâncare",
-          "الطعام لذيذ / The food is tasty / Yemek lezzetli / Mancarea este gustoasa",
-          "أنا جائع / I am hungry / Açım / Mi-e foame"
-        ],
         "answer": 0,
-        "questionRo": "Ce înseamnă „Guten Appet”?",
-        "questionBs": "Šta znači 'Guten Appetit'?",
-        "questionEs": "¿Qué significa 'Guten Appetit'?",
-        "questionBg": "Какво означава „Guten Appetit“?",
-        "questionEl": "Τι σημαίνει «Guten Appetit»;"
-      }
-    ],
-    "writingPrompts": [
-      {
-        "prompt": "اكتب قائمة تسوق لأسبوع",
-        "promptDe": "Schreiben Sie eine Einkaufsliste",
-        "promptEn": "Write a weekly grocery shopping list",
-        "promptTr": "Haftalık alışveriş listesi yazın",
-        "helpers": [
-          "Ich brauche...",
-          "ein Kilo...",
-          "500 Gramm..."
+        "questionEn": "What does Guten Appetit mean?",
+        "questionTr": "Guten İştahı ne anlama geliyor?",
+        "questionRo": "Ce înseamnă Guten Appet?",
+        "questionBs": "Šta znači Guten Appetit?",
+        "questionEs": "¿Qué significa Guten Appetit?",
+        "questionBg": "Какво означава Guten Appetit?",
+        "questionEl": "Τι σημαίνει το Guten Appetit;",
+        "options": [
+          "تناول جيداً / بالهناء",
+          "شكراً على الطعام",
+          "الطعام لذيذ",
+          "أنا جائع"
         ],
-        "helpersEn": [
-          "I need...",
-          "a kilo of...",
-          "500 grams of..."
+        "optionsEn": [
+          "Eat well/have fun",
+          "Thanks for the food",
+          "The food is delicious",
+          "I'm hungry"
         ],
-        "helpersTr": [
-          "İhtiyacım var...",
-          "bir kilo...",
-          "500 gram..."
+        "optionsTr": [
+          "İyi yiyin/eğlenin",
+          "Yemek için teşekkürler",
+          "Yemek lezzetli",
+          "Açım"
         ],
-        "example": "Ich brauche: ein Kilo Tomaten, 500 Gramm Käse und zwei Liter Milch.",
-        "promptRo": "Scrieți o listă de cumpărături săptămânală",
-        "helpersRo": [
-          "am nevoie de...",
-          "un kilogram de...",
-          "500 de grame de..."
+        "optionsRo": [
+          "Mănâncă bine/distrează-te",
+          "Mulțumesc pentru mâncare",
+          "Mâncarea este delicioasă",
+          "Mi-e foame"
         ],
-        "promptBs": "Napišite sedmičnu listu za kupovinu namirnica",
-        "promptEs": "Escribe una lista de compras semanal",
-        "promptBg": "Напишете седмичен списък за пазаруване на хранителни стоки",
-        "promptEl": "Γράψτε μια εβδομαδιαία λίστα αγορών παντοπωλείου"
-      }
-    ],
-    "speakingPhrases": [
-      {
-        "de": "Ein Kilo, bitte.",
-        "ar": "كيلو من فضلك.",
-        "en": "A kilo, please.",
-        "tr": "Bir kilo lütfen.",
-        "ro": "Un kilogram, te rog.",
-        "bs": "Kilogram, molim.",
-        "es": "Un kilo, por favor.",
-        "bg": "Един килограм, моля.",
-        "el": "Ένα κιλό παρακαλώ."
+        "optionsBs": [
+          "Jedite dobro/zabavite se",
+          "Hvala na hrani",
+          "Hrana je ukusna",
+          "gladan sam"
+        ],
+        "optionsEs": [
+          "Come bien/diviertete",
+          "gracias por la comida",
+          "La comida es deliciosa",
+          "tengo hambre"
+        ],
+        "optionsBg": [
+          "Яжте добре/забавлявайте се",
+          "Благодаря за храната",
+          "Храната е вкусна",
+          "аз съм гладна"
+        ],
+        "optionsEl": [
+          "Φάτε καλά/διασκεδάστε",
+          "Ευχαριστώ για το φαγητό",
+          "Το φαγητό είναι νόστιμο",
+          "πεινάω"
+        ]
       },
       {
-        "de": "Guten Appetit!",
-        "ar": "بالهناء والشفاء!",
-        "en": "Enjoy your meal!",
-        "tr": "Afiyet olsun!",
-        "ro": "Bucurați-vă de masă!",
-        "bs": "Uživajte u obroku!",
-        "es": "¡Disfrute de su comida!",
-        "bg": "Приятно хранене!",
-        "el": "Απολαύστε το γεύμα σας!"
+        "type": "fillblank",
+        "question": "Ich möchte ein _____ Milch. (لتر)",
+        "questionAr": "أكمل الفراغ",
+        "answer": "Liter",
+        "questionEn": "Fill in the blank",
+        "questionTr": "Boşluğu doldurun",
+        "questionRo": "Completați spațiul liber",
+        "questionBs": "Popunite prazninu",
+        "questionEs": "Completa el espacio en blanco",
+        "questionBg": "Попълнете празното поле",
+        "questionEl": "Συμπληρώστε το κενό",
+        "hint": "وحدة قياس السوائل",
+        "hintEn": "Fluid measurement unit",
+        "hintTr": "Sıvı ölçüm ünitesi",
+        "hintRo": "Unitate de măsurare a fluidelor",
+        "hintBs": "Jedinica za mjerenje fluida",
+        "hintEs": "Unidad de medida de fluidos",
+        "hintBg": "Измервателна единица за течност",
+        "hintEl": "Μονάδα μέτρησης υγρών"
       }
-    ],
-    "titleRo": "Cumpărături și mâncare",
-    "topicsRo": [
-      "Cumpărături alimentare",
-      "Cantitati",
-      "Gătit",
-      "Greutăți"
-    ],
-    "canDoRo": "Pot să cumpăr cumpărături și să vorbesc despre mâncare",
-    "titleBs": "Kupovina i hrana",
-    "topicsBs": [
-      "Kupovina hrane",
-      "Količine",
-      "Kuvanje",
-      "Utezi"
-    ],
-    "canDoBs": "Mogu kupovati namirnice i razgovarati o hrani",
-    "titleEs": "Compras y comida",
-    "topicsEs": [
-      "Compras de comida",
-      "Cantidades",
-      "Cocinando",
-      "Pesos"
-    ],
-    "canDoEs": "Puedo hacer compras y hablar sobre comida.",
-    "titleBg": "Пазаруване и храна",
-    "topicsBg": [
-      "Пазаруване на храна",
-      "Количества",
-      "готвене",
-      "Тежести"
-    ],
-    "canDoBg": "Мога да пазарувам хранителни стоки и да говоря за храна",
-    "titleEl": "Αγορές & Φαγητό",
-    "topicsEl": [
-      "Ψώνια τροφίμων",
-      "Ποσότητες",
-      "Μαγείρεμα",
-      "Βάρη"
-    ],
-    "canDoEl": "Μπορώ να ψωνίσω για παντοπωλεία και να μιλήσω για φαγητό"
+    ]
   },
   {
     "id": 6,
     "titleDe": "Meine Familie",
     "titleAr": "عائلتي",
-    "titleEn": "My Family",
-    "titleTr": "Ailem",
     "emoji": "👨‍👩‍👧‍👦",
     "color": "#34d399",
+    "titleEn": "my family",
+    "titleTr": "ailem",
+    "titleRo": "familia mea",
+    "titleBs": "moja porodica",
+    "titleEs": "Mi familia",
+    "titleBg": "моето семейство",
+    "titleEl": "την οικογένειά μου",
     "topics": [
       "أفراد العائلة",
       "أعياد الميلاد",
@@ -2486,40 +3237,116 @@ const CURRICULUM = [
     ],
     "topicsEn": [
       "Family members",
-      "Birthdays",
+      "birthdays",
       "Congratulations",
-      "Adjectives"
+      "Attributes"
     ],
     "topicsTr": [
       "Aile üyeleri",
-      "Doğum günleri",
+      "doğum günleri",
       "Tebrikler",
-      "Sıfatlar"
+      "Nitelikler"
+    ],
+    "topicsRo": [
+      "Membrii familiei",
+      "zile de naștere",
+      "Felicitări",
+      "Atribute"
+    ],
+    "topicsBs": [
+      "Članovi porodice",
+      "rođendane",
+      "Čestitam",
+      "Atributi"
+    ],
+    "topicsEs": [
+      "Miembros de la familia",
+      "cumpleaños",
+      "Felicidades",
+      "Atributos"
+    ],
+    "topicsBg": [
+      "Членове на семейството",
+      "рождени дни",
+      "честито",
+      "Атрибути"
+    ],
+    "topicsEl": [
+      "Μέλη της οικογένειας",
+      "γενέθλια",
+      "Συγχαρητήρια",
+      "Γνωρίσματα"
     ],
     "canDo": "أستطيع أن أتحدث عن عائلتي وأهنئ في المناسبات",
-    "canDoEn": "I can talk about my family and congratulate on occasions",
-    "canDoTr": "Ailem hakkında konuşabilir ve özel günlerde tebrik edebilirim",
     "canDoDe": "Ich kann über meine Familie sprechen und gratulieren",
+    "canDoEn": "I can talk about my family and congratulate them on occasions",
+    "canDoTr": "Bazen ailem hakkında konuşup onları tebrik edebilirim",
+    "canDoRo": "Pot să vorbesc despre familia mea și să-i felicit din când în când",
+    "canDoBs": "Mogu pričati o svojoj porodici i povremeno im čestitati",
+    "canDoEs": "Puedo hablar de mi familia y felicitarlos en ocasiones.",
+    "canDoBg": "Мога да говоря за семейството си и да ги поздравявам понякога",
+    "canDoEl": "Μπορώ να μιλήσω για την οικογένειά μου και να τους συγχαρώ με περιστάσεις",
     "audioFiles": [
       {
         "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD1/49_langenschidt_-_6.1a_-_familienfotos.mp3",
         "label": "6.1a - Familienfotos",
         "labelAr": "صور العائلة",
-        "labelEn": "6.1a - Family photos",
-        "labelTr": "6.1a - Aile fotoğrafları",
-        "labelRo": "6.1a - Fotografii de familie",
-        "labelBs": "6.1a - Porodične fotografije",
-        "labelEs": "6.1a - Fotos familiares",
-        "labelBg": "6.1a - Семейни снимки",
-        "labelEl": "6.1α - Οικογενειακές φωτογραφίες"
+        "labelEn": "Family photos",
+        "labelTr": "Aile fotoğrafları",
+        "labelRo": "Fotografii de familie",
+        "labelBs": "Porodične fotografije",
+        "labelEs": "Fotos familiares",
+        "labelBg": "Семейни снимки",
+        "labelEl": "Οικογενειακές φωτογραφίες"
+      },
+      {
+        "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD1/50_langenschidt_-_6.2a_-_wie_gross_ist_ihre_familie.mp3",
+        "label": "6.2a - Wie groß ist Ihre Familie?",
+        "labelAr": "كم عدد أفراد عائلتك؟",
+        "labelEn": "How many members are there in your family?",
+        "labelTr": "Ailenizde kaç üye var?",
+        "labelRo": "Câți membri sunt în familia ta?",
+        "labelBs": "Koliko članova ima vaša porodica?",
+        "labelEs": "¿Cuántos miembros hay en tu familia?",
+        "labelBg": "Колко членове има вашето семейство?",
+        "labelEl": "Πόσα μέλη έχετε στην οικογένειά σας;"
+      },
+      {
+        "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD1/52_langenschidt_-_6.7a-b_-_bens_geburtstag.mp3",
+        "label": "6.7 - Bens Geburtstag",
+        "labelAr": "عيد ميلاد بن",
+        "labelEn": "Ben's birthday",
+        "labelTr": "Ben'in doğum günü",
+        "labelRo": "ziua lui Ben",
+        "labelBs": "Benov rođendan",
+        "labelEs": "el cumpleaños de ben",
+        "labelBg": "Рожден ден на Бен",
+        "labelEl": "Τα γενέθλια του Μπεν"
+      },
+      {
+        "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD1/53_langenschidt_-_6.7d_-_gluckwunsche.mp3",
+        "label": "6.7d - Glückwünsche",
+        "labelAr": "التهاني",
+        "labelEn": "Congratulations",
+        "labelTr": "Tebrikler",
+        "labelRo": "Felicitări",
+        "labelBs": "Čestitam",
+        "labelEs": "Felicidades",
+        "labelBg": "честито",
+        "labelEl": "Συγχαρητήρια"
       }
     ],
     "dialogs": [
       {
         "title": "Meine Familie",
         "titleAr": "التحدث عن العائلة",
-        "titleEn": "Talking about the family",
-        "titleTr": "Aile hakkında konuşmak",
+        "titleEn": "Talk about family",
+        "titleTr": "Aile hakkında konuşun",
+        "titleRo": "Vorbește despre familie",
+        "titleBs": "Pričaj o porodici",
+        "titleEs": "hablar de familia",
+        "titleBg": "Говорете за семейството",
+        "titleEl": "Μιλήστε για οικογένεια",
         "lines": [
           {
             "speaker": "Anna",
@@ -2537,50 +3364,211 @@ const CURRICULUM = [
             "speaker": "Carlos",
             "de": "Ja, ich habe zwei Kinder. Eine Tochter und einen Sohn.",
             "ar": "نعم، عندي طفلان. بنت وولد.",
-            "en": "Yes, I have two children. A daughter and a son.",
-            "tr": "Evet, iki çocuğum var. Bir kız ve bir erkek.",
-            "ro": "Da, am doi copii. O fiică și un fiu.",
-            "bs": "Da, imam dvoje djece. Ćerka i sin.",
-            "es": "Sí, tengo dos hijos. Una hija y un hijo.",
-            "bg": "Да, имам две деца. Дъщеря и син.",
-            "el": "Ναι, έχω δύο παιδιά. Μια κόρη και ένας γιος."
+            "en": "Yes, I have two children. A girl and a boy.",
+            "tr": "Evet, iki çocuğum var. Bir kız ve bir oğlan.",
+            "ro": "Da, am doi copii. O fată și un băiat.",
+            "bs": "Da, imam dvoje djece. Devojčica i dečak.",
+            "es": "Sí, tengo dos hijos. Una niña y un niño.",
+            "bg": "Да, имам две деца. Момиче и момче.",
+            "el": "Ναι, έχω δύο παιδιά. Ένα κορίτσι και ένα αγόρι."
+          },
+          {
+            "speaker": "Anna",
+            "de": "Wie alt sind sie?",
+            "ar": "كم أعمارهم؟",
+            "en": "How old are they?",
+            "tr": "Kaç yaşındalar?",
+            "ro": "Câți ani au?",
+            "bs": "Koliko su stari?",
+            "es": "¿Cuántos años tienen?",
+            "bg": "На колко години са?",
+            "el": "Πόσο χρονών είναι;"
+          },
+          {
+            "speaker": "Carlos",
+            "de": "Meine Tochter ist 8 und mein Sohn ist 5 Jahre alt.",
+            "ar": "ابنتي عمرها 8 وابني عمره 5 سنوات.",
+            "en": "My daughter is 8 and my son is 5.",
+            "tr": "Kızım 8, oğlum 5 yaşında.",
+            "ro": "Fiica mea are 8 ani și fiul meu 5.",
+            "bs": "Moja ćerka ima 8, a sin 5.",
+            "es": "Mi hija tiene 8 años y mi hijo 5.",
+            "bg": "Дъщеря ми е на 8, а синът ми е на 5.",
+            "el": "Η κόρη μου είναι 8 και ο γιος μου 5."
           }
-        ],
-        "titleRo": "Vorbind despre familie",
-        "titleBs": "Pričamo o porodici",
-        "titleEs": "hablando de la familia",
-        "titleBg": "Говорейки за семейството",
-        "titleEl": "Μιλώντας για την οικογένεια"
+        ]
+      },
+      {
+        "title": "Herzlichen Glückwunsch!",
+        "titleAr": "كل عام وأنت بخير!",
+        "titleEn": "Season's greetings!",
+        "titleTr": "Sezonun selamları!",
+        "titleRo": "Salutări de sezon!",
+        "titleBs": "Pozdrav za sezonu!",
+        "titleEs": "¡Saludos de temporada!",
+        "titleBg": "Поздрави за сезона!",
+        "titleEl": "Χαιρετισμούς σεζόν!",
+        "lines": [
+          {
+            "speaker": "Maria",
+            "de": "Heute ist mein Geburtstag!",
+            "ar": "اليوم عيد ميلادي!",
+            "en": "Today is my birthday!",
+            "tr": "Bugün benim doğum günüm!",
+            "ro": "Astăzi este ziua mea de naștere!",
+            "bs": "Danas mi je rođendan!",
+            "es": "¡Hoy es mi cumpleaños!",
+            "bg": "Днес имам рожден ден!",
+            "el": "Σήμερα είναι τα γενέθλιά μου!"
+          },
+          {
+            "speaker": "Thomas",
+            "de": "Herzlichen Glückwunsch zum Geburtstag!",
+            "ar": "كل عام وأنت بخير!",
+            "en": "Season's greetings!",
+            "tr": "Sezonun selamları!",
+            "ro": "Salutări de sezon!",
+            "bs": "Pozdrav za sezonu!",
+            "es": "¡Saludos de temporada!",
+            "bg": "Поздрави за сезона!",
+            "el": "Χαιρετισμούς σεζόν!"
+          },
+          {
+            "speaker": "Maria",
+            "de": "Danke schön!",
+            "ar": "شكراً جزيلاً!",
+            "en": "Thank you very much!",
+            "tr": "Çok teşekkür ederim!",
+            "ro": "Mulțumesc foarte mult!",
+            "bs": "Hvala vam puno!",
+            "es": "¡Muchas gracias!",
+            "bg": "Благодаря много!",
+            "el": "Σας ευχαριστώ πολύ!"
+          },
+          {
+            "speaker": "Thomas",
+            "de": "Wie alt bist du jetzt?",
+            "ar": "كم عمرك الآن؟",
+            "en": "How old are you now?",
+            "tr": "Şimdi kaç yaşındasın?",
+            "ro": "Câți ani ai acum?",
+            "bs": "Koliko sada imaš godina?",
+            "es": "¿Cuántos años tienes ahora?",
+            "bg": "на колко години си сега",
+            "el": "Πόσο χρονών είσαι τώρα;"
+          },
+          {
+            "speaker": "Maria",
+            "de": "Ich bin 30 Jahre alt.",
+            "ar": "عمري 30 سنة.",
+            "en": "I am 30 years old.",
+            "tr": "30 yaşındayım.",
+            "ro": "am 30 de ani.",
+            "bs": "Imam 30 godina.",
+            "es": "Tengo 30 años.",
+            "bg": "Аз съм на 30 години.",
+            "el": "Είμαι 30 χρονών."
+          }
+        ]
       }
     ],
     "readingTexts": [
       {
         "title": "Familie Wagner",
         "titleAr": "عائلة فاغنر",
-        "titleEn": "The Wagner Family",
-        "titleTr": "Wagner Ailesi",
+        "titleEn": "Wagner family",
+        "titleTr": "Wagner ailesi",
+        "titleRo": "familia Wagner",
+        "titleBs": "Porodica Wagner",
+        "titleEs": "familia wagner",
+        "titleBg": "Семейство Вагнер",
+        "titleEl": "οικογένεια Βάγκνερ",
         "text": [
           {
-            "de": "Peter ist 42 Jahre alt. Die Familie wohnt in München.",
-            "ar": "بيتر عمره 42 سنة. العائلة تسكن في ميونيخ.",
-            "en": "Peter is 42 years old. The family lives in Munich.",
-            "tr": "Peter 42 yaşında. Aile Münih'te yaşıyor.",
-            "ro": "Peter are 42 de ani. Familia locuiește în Munchen.",
-            "bs": "Petar ima 42 godine. Porodica živi u Minhenu.",
-            "es": "Pedro tiene 42 años. La familia vive en Munich.",
-            "bg": "Петър е на 42 години. Семейството живее в Мюнхен.",
-            "el": "Ο Πέτρος είναι 42 ετών. Η οικογένεια ζει στο Μόναχο."
+            "de": "Das ist Familie Wagner.",
+            "ar": "هذه عائلة فاغنر.",
+            "en": "This is the Wagner family.",
+            "tr": "Bu Wagner ailesi.",
+            "ro": "Aceasta este familia Wagner.",
+            "bs": "Ovo je porodica Wagner.",
+            "es": "Esta es la familia Wagner.",
+            "bg": "Това е семейство Вагнер.",
+            "el": "Αυτή είναι η οικογένεια Βάγκνερ."
+          },
+          {
+            "de": "Der Vater heißt Peter. Er ist 42 Jahre alt.",
+            "ar": "اسم الأب بيتر. عمره 42 سنة.",
+            "en": "Father's name is Peter. He is 42 years old.",
+            "tr": "Babanın adı Peter. 42 yaşındadır.",
+            "ro": "Numele tatălui este Peter. Are 42 de ani.",
+            "bs": "Otac se zove Petar. Ima 42 godine.",
+            "es": "El nombre del padre es Pedro. Tiene 42 años.",
+            "bg": "Бащата се казва Петър. Той е на 42 години.",
+            "el": "Το όνομα του πατέρα είναι Πέτρος. Είναι 42 ετών."
+          },
+          {
+            "de": "Die Mutter heißt Sabine. Sie ist 40 Jahre alt.",
+            "ar": "اسم الأم زابينه. عمرها 40 سنة.",
+            "en": "Mother's name is Zabineh. She is 40 years old.",
+            "tr": "Annenin adı Zabineh. 40 yaşında.",
+            "ro": "Numele mamei este Zabineh. Ea are 40 de ani.",
+            "bs": "Ime majke je Zabineh. Ona ima 40 godina.",
+            "es": "El nombre de la madre es Zabineh. Ella tiene 40 años.",
+            "bg": "Името на майката е Забине. Тя е на 40 години.",
+            "el": "Το όνομα της μητέρας είναι Zabineh. Είναι 40 ετών."
+          },
+          {
+            "de": "Sie haben zwei Kinder: Tim (15) und Lisa (12).",
+            "ar": "لديهم طفلان: تيم (15) وليزا (12).",
+            "en": "They have two children: Tim (15) and Lisa (12).",
+            "tr": "لديهم طفلان: تيم (15) وليزا (12).",
+            "ro": "Au doi copii: Tim (15) și Lisa (12).",
+            "bs": "Imaju dvoje djece: Tima (15) i Lizu (12).",
+            "es": "Tienen dos hijos: Tim (15) y Lisa (12).",
+            "bg": "Двамата имат две деца: Тим (15) и Лиза (12).",
+            "el": "Έχουν δύο παιδιά: τον Tim (15) και τη Lisa (12)."
+          },
+          {
+            "de": "Die Familie wohnt in München.",
+            "ar": "العائلة تسكن في ميونيخ.",
+            "en": "The family lives in Munich.",
+            "tr": "Aile Münih'te yaşıyor.",
+            "ro": "Familia locuiește în Munchen.",
+            "bs": "Porodica živi u Minhenu.",
+            "es": "La familia vive en Munich.",
+            "bg": "Семейството живее в Мюнхен.",
+            "el": "Η οικογένεια ζει στο Μόναχο."
           }
         ],
         "questions": [
           {
+            "q": "Wie alt ist der Vater?",
+            "qAr": "كم عمر الأب؟",
+            "answer": "42 Jahre alt",
+            "answerAr": "42 سنة",
+            "qEn": "How old is the father?",
+            "answerEn": "42 years old",
+            "qTr": "Baba kaç yaşında?",
+            "answerTr": "42 yaşında",
+            "qRo": "Câți ani are tatăl?",
+            "answerRo": "42 de ani",
+            "qBs": "Koliko godina ima otac?",
+            "answerBs": "42 godine",
+            "qEs": "¿Cuántos años tiene el padre?",
+            "answerEs": "42 años",
+            "qBg": "На колко години е бащата?",
+            "answerBg": "42 години",
+            "qEl": "Πόσο χρονών είναι ο πατέρας;",
+            "answerEl": "42 χρονών"
+          },
+          {
             "q": "Wo wohnt die Familie?",
             "qAr": "أين تسكن العائلة؟",
-            "qEn": "Where does the family live?",
-            "qTr": "Aile nerede yaşıyor?",
             "answer": "In München",
             "answerAr": "في ميونيخ",
+            "qEn": "Where does the family live?",
             "answerEn": "In Munich",
+            "qTr": "Aile nerede yaşıyor?",
             "answerTr": "Münih'te",
             "qRo": "Unde locuiește familia?",
             "answerRo": "La Munchen",
@@ -2593,114 +3581,88 @@ const CURRICULUM = [
             "qEl": "Πού μένει η οικογένεια;",
             "answerEl": "Στο Μόναχο"
           }
-        ],
-        "titleRo": "Familia Wagner",
-        "titleBs": "Porodica Wagner",
-        "titleEs": "La familia Wagner",
-        "titleBg": "Семейство Вагнер",
-        "titleEl": "Η οικογένεια Βάγκνερ"
+        ]
       }
     ],
     "grammar": [
       {
         "id": "possessive",
-        "title": "أدوات الملكية",
+        "title": "أدوات الملكية - Possessivartikel",
         "titleDe": "Possessivartikel",
-        "titleEn": "Possessive Articles",
-        "titleTr": "İyelik Belirteçleri (Possessivartikel)",
-        "explanation": "إظهار ملكية الأشياء باستخدام أدوات الملكية المتطابقة مع الضمائر.",
-        "explanationEn": "To indicate ownership we use possessive articles matching the pronouns.",
-        "explanationTr": "Aitlik göstermek için zamirlerle uyumlu iyelik belirteçleri kullanırız.",
+        "explanation": "لإظهار الملكية نستخدم أدوات الملكية.",
+        "titleEn": "Property Tools - Possessivartikel",
+        "explanationEn": "To show ownership we use possessive articles.",
+        "titleTr": "Emlak Araçları - Possessivartikel",
+        "explanationTr": "Sahipliği göstermek için iyelik artikelleri kullanırız.",
+        "titleRo": "Instrumente de proprietate - Possessiartikel",
+        "explanationRo": "Pentru a arăta proprietatea folosim articole posesive.",
+        "titleBs": "Alati za nekretnine - Possessivartikel",
+        "explanationBs": "Da pokažemo vlasništvo koristimo posesivne članke.",
+        "titleEs": "Herramientas inmobiliarias - Possessivartikel",
+        "explanationEs": "Para demostrar propiedad utilizamos artículos posesivos.",
+        "titleBg": "Инструменти за собственост - Possessivartikel",
+        "explanationBg": "За да покажем собственост, използваме притежателни членове.",
+        "titleEl": "Εργαλεία Ακινήτων - Possessivartikel",
+        "explanationEl": "Για να δείξουμε ιδιοκτησία χρησιμοποιούμε κτητικά άρθρα.",
         "rules": [
           {
-            "example": "mein Vater / meine Mutter",
-            "translation": "أبي / أمي",
-            "translationEn": "my father / my mother",
-            "translationTr": "babam / annem",
+            "example": "mein Vater / meine Mutter / mein Kind",
+            "translation": "أبي / أمي / طفلي",
+            "note": "mein للمذكر والمحايد، meine للمؤنث",
+            "translationEn": "My father/mom/my child",
+            "noteEn": "mein for masculine and neuter, meine for feminine",
+            "translationTr": "Babam/annem/çocuğum",
+            "noteTr": "erkeksi ve nötr için mein, kadınsı için meine",
+            "translationRo": "Tatăl meu/mama/copilul meu",
+            "noteRo": "mein pentru masculin și neutru, meine pentru feminin",
+            "translationBs": "Moj otac/mama/moje dijete",
+            "noteBs": "mein za muški i srednji rod, meine za ženski rod",
+            "translationEs": "Mi padre/mamá/mi hijo",
+            "noteEs": "mein para masculino y neutro, meine para femenino",
+            "translationBg": "Моят баща/майка/моето дете",
+            "noteBg": "mein за мъжки и среден род, meine за женски род",
+            "translationEl": "Ο πατέρας/μαμά/το παιδί μου",
+            "noteEl": "mein για αρσενικό και ουδέτερο, meine για θηλυκό"
+          },
+          {
+            "example": "dein Bruder / deine Schwester",
+            "translation": "أخوك / أختك",
+            "note": "dein لـ du",
+            "translationEn": "Your brother/sister",
+            "noteEn": "dein for du",
+            "translationTr": "Erkek kardeşin/kız kardeşin",
+            "noteTr": "kesinlikle senin için",
+            "translationRo": "Fratele/sora ta",
+            "noteRo": "dein pentru du",
+            "translationBs": "Vaš brat/sestra",
+            "noteBs": "dein za du",
+            "translationEs": "Tu hermano/hermana",
+            "noteEs": "dein para du",
+            "translationBg": "Вашият брат/сестра",
+            "noteBg": "dein за du",
+            "translationEl": "Ο αδερφός/η αδερφή σου",
+            "noteEl": "dein for du"
+          },
+          {
+            "example": "sein Sohn (لـ er) / ihr Sohn (لـ sie)",
+            "translation": "ابنه / ابنها",
             "note": "",
+            "translationEn": "His/her son",
             "noteEn": "",
+            "translationTr": "Oğlu",
             "noteTr": "",
-            "translationRo": "tatăl meu / mama mea",
-            "translationBs": "moj otac / moja majka",
-            "translationEs": "mi padre/mi madre",
-            "translationBg": "баща ми / майка ми",
-            "translationEl": "ο πατέρας μου / η μητέρα μου"
+            "translationRo": "Fiul lui/ei",
+            "noteRo": "",
+            "translationBs": "Njegov/njen sin",
+            "noteBs": "",
+            "translationEs": "su hijo",
+            "noteEs": "",
+            "translationBg": "Неговият/нейният син",
+            "noteBg": "",
+            "translationEl": "Ο γιος του/της",
+            "noteEl": ""
           }
-        ],
-        "table": {
-          "headers": [
-            "الضمير",
-            "مذكر/محايد",
-            "مؤنث"
-          ],
-          "headersEn": [
-            "Pronoun",
-            "Masc/Neut",
-            "Fem"
-          ],
-          "headersTr": [
-            "Zamir",
-            "Eril/Nötr",
-            "Dişil"
-          ],
-          "rows": [
-            [
-              "ich",
-              "mein",
-              "meine"
-            ],
-            [
-              "du",
-              "dein",
-              "deine"
-            ],
-            [
-              "er/es",
-              "sein",
-              "seine"
-            ],
-            [
-              "sie",
-              "ihr",
-              "ihre"
-            ]
-          ],
-          "headersRo": [
-            "Pronume",
-            "Masc/Neut",
-            "Fem"
-          ],
-          "headersBs": [
-            "Zamjenica",
-            "Masc/Neut",
-            "Fem"
-          ],
-          "headersEs": [
-            "Pronombre",
-            "Masc/Neut",
-            "femenino"
-          ],
-          "headersBg": [
-            "Местоимение",
-            "Masc/Neut",
-            "Fem"
-          ],
-          "headersEl": [
-            "Αντωνυμία",
-            "Masc/Neut",
-            "Fem"
-          ]
-        },
-        "titleRo": "Articole posesive",
-        "explanationRo": "Pentru a indica proprietatea, folosim articole posesive care se potrivesc cu pronumele.",
-        "titleBs": "Posesivni članci",
-        "explanationBs": "Za označavanje vlasništva koristimo prisvojne članove koji odgovaraju zamjenicama.",
-        "titleEs": "Artículos posesivos",
-        "explanationEs": "Para indicar propiedad utilizamos artículos posesivos que coinciden con los pronombres.",
-        "titleBg": "Притежателни статии",
-        "explanationBg": "За да посочим собственост, използваме притежателни членове, съответстващи на местоименията.",
-        "titleEl": "Κατοχικά άρθρα",
-        "explanationEl": "Για να δηλώσουμε την ιδιοκτησία χρησιμοποιούμε κτητικά άρθρα που ταιριάζουν με τις αντωνυμίες."
+        ]
       }
     ],
     "exercises": [
@@ -2708,125 +3670,99 @@ const CURRICULUM = [
         "type": "mcq",
         "question": "Herzlichen Glückwunsch! Was bedeutet das?",
         "questionAr": "ما معنى Herzlichen Glückwunsch؟",
-        "questionEn": "What does 'Herzlichen Glückwunsch' mean?",
-        "questionTr": "'Herzlichen Glückwunsch' ne demektir?",
-        "options": [
-          "مرحباً / Hello / Merhaba / Buna ziua",
-          "شكراً / Thanks / Teşekkürler / Mulţumesc",
-          "تهانينا! / Congratulations! / Tebrikler! / Felicitări!",
-          "مع السلامة / Goodbye / Hoşça kalın / La revedere"
-        ],
         "answer": 2,
-        "questionRo": "Ce înseamnă „Herzlichen Glückwunsch”?",
-        "questionBs": "Šta znači 'Herzlichen Glückwunsch'?",
-        "questionEs": "¿Qué significa \"Herzlichen Glückwunsch\"?",
-        "questionBg": "Какво означава „Herzlichen Glückwunsch“?",
-        "questionEl": "Τι σημαίνει «Herzlichen Glückwunsch»;"
-      }
-    ],
-    "writingPrompts": [
-      {
-        "prompt": "صف عائلتك بالألمانية",
-        "promptDe": "Beschreiben Sie Ihre Familie",
-        "promptEn": "Describe your family",
-        "promptTr": "Ailenizi tasvir edin",
-        "helpers": [
-          "Meine Familie ist...",
-          "Mein Vater heißt..."
+        "questionEn": "What is the meaning of Herzlichen Glückwunsch?",
+        "questionTr": "Herzlichen Glückwunsch'un anlamı nedir?",
+        "questionRo": "Ce înseamnă Herzlichen Glückwunsch?",
+        "questionBs": "Šta znači Herzlichen Glückwunsch?",
+        "questionEs": "¿Cuál es el significado de Herzlichen Glückwunsch?",
+        "questionBg": "Какво е значението на Herzlichen Glückwunsch?",
+        "questionEl": "Ποια είναι η έννοια του Herzlichen Glückwunsch;",
+        "options": [
+          "مرحباً",
+          "شكراً",
+          "كل عام وأنت بخير / مبروك",
+          "مع السلامة"
         ],
-        "helpersEn": [
-          "My family is...",
-          "My father's name is..."
+        "optionsEn": [
+          "Welcome",
+          "Thanks",
+          "Happy New Year / Congratulations",
+          "Good-bye"
         ],
-        "helpersTr": [
-          "Ailem...",
-          "Babamın adı..."
+        "optionsTr": [
+          "Hoş geldin",
+          "Teşekkürler",
+          "Yeni Yılınız Kutlu Olsun / Tebrikler",
+          "Güle güle"
         ],
-        "example": "Meine Familie ist groß. Mein Vater heißt Ahmad. Er ist 50 Jahre alt.",
-        "promptRo": "Descrie-ți familia",
-        "helpersRo": [
-          "Familia mea este...",
-          "Numele tatălui meu este..."
+        "optionsRo": [
+          "Bun venit",
+          "Mulţumesc",
+          "La mulți ani / Felicitări",
+          "La revedere"
         ],
-        "promptBs": "Opišite svoju porodicu",
-        "promptEs": "Describe a tu familia",
-        "promptBg": "Опишете вашето семейство",
-        "promptEl": "Περιγράψτε την οικογένειά σας"
-      }
-    ],
-    "speakingPhrases": [
-      {
-        "de": "Herzlichen Glückwunsch!",
-        "ar": "كل عام وأنت بخير!",
-        "en": "Congratulations!",
-        "tr": "Tebrikler!",
-        "ro": "Felicitări!",
-        "bs": "Čestitamo!",
-        "es": "¡Felicidades!",
-        "bg": "честито!",
-        "el": "Συγχαρητήρια!"
+        "optionsBs": [
+          "Dobrodošli",
+          "Hvala",
+          "Sretna Nova godina / Čestitamo",
+          "Zbogom"
+        ],
+        "optionsEs": [
+          "Bienvenido",
+          "Gracias",
+          "Feliz año nuevo / Felicitaciones",
+          "Adiós"
+        ],
+        "optionsBg": [
+          "Добре дошли",
+          "благодаря",
+          "Честита нова година / поздравления",
+          "довиждане"
+        ],
+        "optionsEl": [
+          "Καλωσόρισμα",
+          "Ευχαριστώ",
+          "Καλή χρονιά / Συγχαρητήρια",
+          "Αντίο"
+        ]
       },
       {
-        "de": "Alles Gute zum Geburtstag!",
-        "ar": "كل عام وأنت بخير! (عيد ميلاد)",
-        "en": "Happy Birthday!",
-        "tr": "Doğum günün kutlu olsun!",
-        "ro": "La mulți ani!",
-        "bs": "Sretan rođendan!",
-        "es": "¡Feliz cumpleaños!",
-        "bg": "честит рожден ден",
-        "el": "Χρόνια Πολλά!"
+        "type": "fillblank",
+        "question": "Das ist _____ Mutter. (mein/meine)",
+        "questionAr": "أكمل بأداة الملكية الصحيحة",
+        "answer": "meine",
+        "questionEn": "Complete with the correct possessive",
+        "questionTr": "Doğru iyelik ekiyle tamamlayın",
+        "questionRo": "Completați cu posesivul corect",
+        "questionBs": "Kompletan sa ispravnim posesivom",
+        "questionEs": "Completa con el posesivo correcto.",
+        "questionBg": "Завършено с правилното притежателно",
+        "questionEl": "Συμπληρώστε με τη σωστή κτητική",
+        "hint": "Mutter مؤنث → meine",
+        "hintEn": "Mutter feminine → meine",
+        "hintTr": "Mutter dişil → meine",
+        "hintRo": "Mutter feminin → meine",
+        "hintBs": "Mutter ženskog → meine",
+        "hintEs": "Murmurar femenino → meine",
+        "hintBg": "Мърморене женски → meine",
+        "hintEl": "Μουρμουρίζω θηλυκό → meine"
       }
-    ],
-    "titleRo": "Familia mea",
-    "topicsRo": [
-      "Membrii familiei",
-      "Zile de naștere",
-      "Felicitări",
-      "Adjectivele"
-    ],
-    "canDoRo": "Pot să vorbesc despre familia mea și să o felicit în anumite ocazii",
-    "titleBs": "Moja porodica",
-    "topicsBs": [
-      "Članovi porodice",
-      "Rođendani",
-      "Čestitam",
-      "Pridjevi"
-    ],
-    "canDoBs": "Mogu da pričam o svojoj porodici i da čestitam povremeno",
-    "titleEs": "Mi familia",
-    "topicsEs": [
-      "Miembros de la familia",
-      "cumpleaños",
-      "Felicidades",
-      "Adjetivos"
-    ],
-    "canDoEs": "Puedo hablar de mi familia y felicitar en ocasiones.",
-    "titleBg": "Моето семейство",
-    "topicsBg": [
-      "Членове на семейството",
-      "Рождени дни",
-      "честито",
-      "прилагателни"
-    ],
-    "canDoBg": "Мога да говоря за семейството си и да поздравявам при поводи",
-    "titleEl": "Η οικογένειά μου",
-    "topicsEl": [
-      "Μέλη της οικογένειας",
-      "Γενέθλια",
-      "Συγχαρητήρια",
-      "Επίθετα"
-    ],
-    "canDoEl": "Μπορώ να μιλήσω για την οικογένειά μου και να δώσω συγχαρητήρια σε ορισμένες περιπτώσεις"
+    ]
   },
   {
     "id": 7,
     "titleDe": "Wohnen in Deutschland",
     "titleAr": "السكن في ألمانيا",
-    "titleEn": "Living in Germany",
-    "titleTr": "Almanya'da Yaşamak",
     "emoji": "🏠",
     "color": "#60a5fa",
+    "titleEn": "Residence in Germany",
+    "titleTr": "Almanya'da ikamet",
+    "titleRo": "Reședința în Germania",
+    "titleBs": "Prebivalište u Njemačkoj",
+    "titleEs": "Residencia en Alemania",
+    "titleBg": "Пребиваване в Германия",
+    "titleEl": "Κατοικία στη Γερμανία",
     "topics": [
       "المسكن",
       "الغرف",
@@ -2834,53 +3770,165 @@ const CURRICULUM = [
       "البحث عن شقة"
     ],
     "topicsEn": [
-      "Apartment",
+      "The dwelling",
       "Rooms",
       "Furniture",
-      "Apartment hunting"
+      "Search for an apartment"
     ],
     "topicsTr": [
-      "Ev/Daire",
+      "Konut",
       "Odalar",
       "Mobilya",
-      "Ev arama"
+      "Bir daire arayın"
+    ],
+    "topicsRo": [
+      "Locuința",
+      "Camerele",
+      "Mobilier",
+      "Caută un apartament"
+    ],
+    "topicsBs": [
+      "Stan",
+      "Sobe",
+      "Namještaj",
+      "Potražite stan"
+    ],
+    "topicsEs": [
+      "la vivienda",
+      "Alojamiento",
+      "Muebles",
+      "buscar un apartamento"
+    ],
+    "topicsBg": [
+      "Жилището",
+      "Стаи",
+      "Мебели",
+      "Търсене на апартамент"
+    ],
+    "topicsEl": [
+      "Η κατοικία",
+      "Δωμάτια",
+      "Επιπλα",
+      "Αναζήτηση για διαμέρισμα"
     ],
     "canDo": "أستطيع أن أصف مسكني وأبحث عن شقة",
-    "canDoEn": "I can describe my apartment and search for a flat",
-    "canDoTr": "Evimi tasvir edebilir ve bir daire arayabilirim",
     "canDoDe": "Ich kann meine Wohnung beschreiben und eine Wohnung suchen",
+    "canDoEn": "I can describe my residence and search for an apartment",
+    "canDoTr": "Yaşadığım yeri tarif edebilir ve bir daire arayabilirim",
+    "canDoRo": "Pot să-mi descriu reședința și să caut un apartament",
+    "canDoBs": "Mogu opisati svoje prebivalište i tražiti stan",
+    "canDoEs": "Puedo describir mi residencia y buscar un apartamento.",
+    "canDoBg": "Мога да опиша жилището си и да търся апартамент",
+    "canDoEl": "Μπορώ να περιγράψω την κατοικία μου και να ψάξω για διαμέρισμα",
     "audioFiles": [
       {
         "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD2/16_langenschidt_-_8.2_-_ich_suche_eine_wohnung.,_dialog_1.mp3",
         "label": "8.2 - Wohnungssuche (1)",
         "labelAr": "البحث عن شقة 1",
-        "labelEn": "8.2 - Flat Search (1)",
-        "labelTr": "8.2 - Ev Arama (1)",
-        "labelRo": "8.2 - Căutare plată (1)",
-        "labelBs": "8.2 - Flat Search (1)",
-        "labelEs": "8.2 - Búsqueda de Pisos (1)",
-        "labelBg": "8.2 - Плоско търсене (1)",
-        "labelEl": "8.2 - Επίπεδη αναζήτηση (1)"
+        "labelEn": "Searching for an apartment 1",
+        "labelTr": "Bir daire arıyorum 1",
+        "labelRo": "Caut apartament 1",
+        "labelBs": "Trazim stan 1",
+        "labelEs": "Buscando apartamento 1",
+        "labelBg": "Търся апартамент 1",
+        "labelEl": "Αναζήτηση για διαμέρισμα 1"
+      },
+      {
+        "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD2/17_langenschidt_-_8.2_-_ich_suche_eine_wohnung.,_dialog_2.mp3",
+        "label": "8.2 - Wohnungssuche (2)",
+        "labelAr": "البحث عن شقة 2",
+        "labelEn": "Find an apartment 2",
+        "labelTr": "Bir daire bul 2",
+        "labelRo": "Găsiți un apartament 2",
+        "labelBs": "Pronađite stan 2",
+        "labelEs": "Encuentra un apartamento 2",
+        "labelBg": "Намерете апартамент 2",
+        "labelEl": "Βρείτε ένα διαμέρισμα 2"
+      },
+      {
+        "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD2/18_langenschidt_-_8.2_-_ich_suche_eine_wohnung.,_dialog_3.mp3",
+        "label": "8.2 - Wohnungssuche (3)",
+        "labelAr": "البحث عن شقة 3",
+        "labelEn": "Find an apartment 3",
+        "labelTr": "Bir daire bul 3",
+        "labelRo": "Găsiți un apartament 3",
+        "labelBs": "Pronađite stan 3",
+        "labelEs": "Encuentra un apartamento 3",
+        "labelBg": "Намерете апартамент 3",
+        "labelEl": "Βρείτε ένα διαμέρισμα 3"
+      },
+      {
+        "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD2/19_langenschidt_-_8.7_-_magdas_wohnung.mp3",
+        "label": "8.7 - Magdas Wohnung",
+        "labelAr": "شقة ماغدا",
+        "labelEn": "Magda's apartment",
+        "labelTr": "Magda'nın dairesi",
+        "labelRo": "apartamentul Magdei",
+        "labelBs": "Magdin stan",
+        "labelEs": "El apartamento de Magda.",
+        "labelBg": "Апартаментът на Магда",
+        "labelEl": "Το διαμέρισμα της Μάγδας"
+      },
+      {
+        "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD2/22_langenschidt_-_8.12_-_der_umzug.mp3",
+        "label": "8.12 - Der Umzug",
+        "labelAr": "الانتقال للسكن الجديد",
+        "labelEn": "Moving to new housing",
+        "labelTr": "Yeni konuta taşınmak",
+        "labelRo": "Mutarea în locuințe noi",
+        "labelBs": "Useljenje u novo stanovanje",
+        "labelEs": "Mudarse a una nueva vivienda",
+        "labelBg": "Преместване в ново жилище",
+        "labelEl": "Μετακίνηση σε νέα κατοικία"
       }
     ],
     "dialogs": [
       {
         "title": "Die Wohnung",
         "titleAr": "الشقة",
-        "titleEn": "The Flat",
+        "titleEn": "The apartment",
         "titleTr": "Daire",
+        "titleRo": "Apartamentul",
+        "titleBs": "Stan",
+        "titleEs": "el apartamento",
+        "titleBg": "Апартаментът",
+        "titleEl": "Το διαμέρισμα",
         "lines": [
           {
             "speaker": "Makler",
             "de": "Die Wohnung hat 3 Zimmer, eine Küche und ein Bad.",
             "ar": "الشقة بها 3 غرف ومطبخ وحمام.",
-            "en": "The apartment has 3 rooms, a kitchen, and a bathroom.",
-            "tr": "Dairede 3 oda, bir mutfak ve bir banyo bulunmaktadır.",
-            "ro": "Apartamentul are 3 camere, bucatarie si baie.",
+            "en": "The apartment has 3 rooms, a kitchen and a bathroom.",
+            "tr": "Dairede 3 oda, mutfak ve banyo bulunmaktadır.",
+            "ro": "Apartamentul are 3 camere, o bucatarie si o baie.",
             "bs": "Stan ima 3 sobe, kuhinju i kupatilo.",
-            "es": "El apartamento tiene 3 habitaciones, cocina y baño.",
+            "es": "El apartamento tiene 3 habitaciones, una cocina y un baño.",
             "bg": "Апартаментът се състои от 3 стаи, кухня и баня.",
             "el": "Το διαμέρισμα διαθέτει 3 δωμάτια, κουζίνα και μπάνιο."
+          },
+          {
+            "speaker": "Kunde",
+            "de": "Wie groß ist die Wohnung?",
+            "ar": "كم مساحة الشقة؟",
+            "en": "How big is the apartment?",
+            "tr": "Daire ne kadar büyük?",
+            "ro": "Cât de mare este apartamentul?",
+            "bs": "Koliki je stan?",
+            "es": "¿Qué tamaño tiene el apartamento?",
+            "bg": "Колко голям е апартамента?",
+            "el": "Πόσο μεγάλο είναι το διαμέρισμα;"
+          },
+          {
+            "speaker": "Makler",
+            "de": "Sie ist 75 Quadratmeter groß.",
+            "ar": "مساحتها 75 متراً مربعاً.",
+            "en": "Its area is 75 square meters.",
+            "tr": "Alanı 75 metrekaredir.",
+            "ro": "Suprafata sa este de 75 de metri patrati.",
+            "bs": "Njegova površina je 75 kvadratnih metara.",
+            "es": "Su superficie es de 75 metros cuadrados.",
+            "bg": "Площта му е 75 квадратни метра.",
+            "el": "Η έκτασή του είναι 75 τετραγωνικά μέτρα."
           },
           {
             "speaker": "Kunde",
@@ -2893,61 +3941,101 @@ const CURRICULUM = [
             "es": "¿A cuánto asciende el alquiler?",
             "bg": "Колко е наемът?",
             "el": "Πόσο είναι το ενοίκιο;"
+          },
+          {
+            "speaker": "Makler",
+            "de": "Die Miete ist 800 Euro im Monat.",
+            "ar": "الإيجار 800 يورو في الشهر.",
+            "en": "Rent is 800 euros per month.",
+            "tr": "Kira aylık 800 Euro'dur.",
+            "ro": "Chiria este de 800 euro pe luna.",
+            "bs": "Najam je 800 eura mjesečno.",
+            "es": "El alquiler es de 800 euros al mes.",
+            "bg": "Наемът е 800 евро на месец.",
+            "el": "Το ενοίκιο είναι 800 ευρώ το μήνα."
           }
-        ],
-        "titleRo": "Apartamentul",
-        "titleBs": "The Flat",
-        "titleEs": "El piso",
-        "titleBg": "Апартаментът",
-        "titleEl": "Το Διαμέρισμα"
+        ]
       }
     ],
     "readingTexts": [
       {
         "title": "Meine Wohnung",
         "titleAr": "شقتي",
-        "titleEn": "My Apartment",
-        "titleTr": "Dairem",
+        "titleEn": "My apartment",
+        "titleTr": "Benim dairem",
+        "titleRo": "Apartamentul meu",
+        "titleBs": "Moj stan",
+        "titleEs": "mi apartamento",
+        "titleBg": "Моят апартамент",
+        "titleEl": "Το διαμέρισμά μου",
         "text": [
           {
             "de": "Ich wohne in einer 2-Zimmer-Wohnung.",
             "ar": "أسكن في شقة بغرفتين.",
-            "en": "I live in a 2-room apartment.",
-            "tr": "2 odalı bir dairede yaşıyorum.",
-            "ro": "Locuiesc intr-un apartament cu 2 camere.",
-            "bs": "Živim u 2-sobnom stanu.",
-            "es": "Vivo en un apartamento de 2 habitaciones.",
-            "bg": "Живея в 2-стаен апартамент.",
-            "el": "Μένω σε διαμέρισμα 2 δωματίων."
+            "en": "I live in a two-room apartment.",
+            "tr": "İki odalı bir dairede yaşıyorum.",
+            "ro": "Locuiesc intr-un apartament cu doua camere.",
+            "bs": "Živim u dvosobnom stanu.",
+            "es": "Vivo en un apartamento de dos habitaciones.",
+            "bg": "Живея в двустаен апартамент.",
+            "el": "Μένω σε ένα διαμέρισμα δύο δωματίων."
+          },
+          {
+            "de": "Meine Wohnung hat ein Wohnzimmer, ein Schlafzimmer, eine Küche und ein Bad.",
+            "ar": "شقتي بها غرفة معيشة وغرفة نوم ومطبخ وحمام.",
+            "en": "My apartment has a living room, bedroom, kitchen and bathroom.",
+            "tr": "Dairemde oturma odası, yatak odası, mutfak ve banyo bulunmaktadır.",
+            "ro": "Apartamentul meu are living, dormitor, bucatarie si baie.",
+            "bs": "Moj stan ima dnevni boravak, spavaću sobu, kuhinju i kupatilo.",
+            "es": "Mi apartamento tiene salón, dormitorio, cocina y baño.",
+            "bg": "Апартаментът ми има всекидневна, спалня, кухня и баня.",
+            "el": "Το διαμέρισμά μου διαθέτει σαλόνι, υπνοδωμάτιο, κουζίνα και μπάνιο."
+          },
+          {
+            "de": "Die Wohnung ist im 3. Stock.",
+            "ar": "الشقة في الطابق الثالث.",
+            "en": "The apartment is on the third floor.",
+            "tr": "Daire üçüncü kattadır.",
+            "ro": "Apartamentul este la etajul trei.",
+            "bs": "Stan se nalazi na trećem spratu.",
+            "es": "El apartamento está en el tercer piso.",
+            "bg": "Апартаментът се намира на трети етаж.",
+            "el": "Το διαμέρισμα βρίσκεται στον τρίτο όροφο."
+          },
+          {
+            "de": "Ich zahle 650 Euro Miete.",
+            "ar": "أدفع 650 يورو إيجاراً.",
+            "en": "I pay 650 euros in rent.",
+            "tr": "650 euro kira ödüyorum.",
+            "ro": "Platesc 650 euro chirie.",
+            "bs": "Plaćam 650 eura za kiriju.",
+            "es": "Pago 650 euros de alquiler.",
+            "bg": "Плащам 650 евро наем.",
+            "el": "Πληρώνω 650 ευρώ ενοίκιο."
           }
         ],
         "questions": [
           {
             "q": "Wie viele Zimmer hat die Wohnung?",
             "qAr": "كم غرفة في الشقة؟",
-            "qEn": "How many rooms does the apartment have?",
-            "qTr": "Dairede kaç oda var?",
             "answer": "2 Zimmer",
             "answerAr": "غرفتان",
-            "answerEn": "2 rooms",
-            "answerTr": "2 oda",
-            "qRo": "Câte camere are apartamentul?",
-            "answerRo": "2 camere",
-            "qBs": "Koliko soba ima stan?",
-            "answerBs": "2 sobe",
-            "qEs": "¿Cuántas habitaciones tiene el apartamento?",
-            "answerEs": "2 habitaciones",
-            "qBg": "Колко стаи има апартаментът?",
-            "answerBg": "2 стаи",
-            "qEl": "Πόσα δωμάτια έχει το διαμέρισμα;",
-            "answerEl": "2 δωμάτια"
+            "qEn": "How many rooms are in the apartment?",
+            "answerEn": "Two rooms",
+            "qTr": "Dairede kaç oda var?",
+            "answerTr": "İki oda",
+            "qRo": "Câte camere sunt în apartament?",
+            "answerRo": "Două camere",
+            "qBs": "Koliko soba ima u stanu?",
+            "answerBs": "Dvije sobe",
+            "qEs": "¿Cuántas habitaciones hay en el apartamento?",
+            "answerEs": "dos habitaciones",
+            "qBg": "Колко стаи има в апартамента?",
+            "answerBg": "Две стаи",
+            "qEl": "Πόσα δωμάτια υπάρχουν στο διαμέρισμα;",
+            "answerEl": "Δύο δωμάτια"
           }
-        ],
-        "titleRo": "Apartamentul meu",
-        "titleBs": "Moj stan",
-        "titleEs": "mi apartamento",
-        "titleBg": "Моят апартамент",
-        "titleEl": "Το Διαμέρισμά μου"
+        ]
       }
     ],
     "grammar": [
@@ -2955,20 +4043,30 @@ const CURRICULUM = [
         "id": "praepositionen-ort",
         "title": "حروف الجر للمكان",
         "titleDe": "Präpositionen des Ortes",
-        "titleEn": "Prepositions of Place",
-        "titleTr": "Yer Edatları (Präpositionen des Ortes)",
-        "explanation": "نستخدم حروف الجر لوصف مكان الأشياء وتأتي مع حالة الداتيف.",
-        "explanationEn": "We use prepositions to describe the location of objects, typically followed by Dative case.",
-        "explanationTr": "Nesnelerin konumunu tanımlamak için edatlar kullanırız, Dative hali ile gelir.",
+        "explanation": "نستخدم حروف الجر لوصف مكان الأشياء.",
+        "titleEn": "Prepositions of place",
+        "explanationEn": "We use prepositions to describe the location of things.",
+        "titleTr": "Yer edatları",
+        "explanationTr": "Nesnelerin yerlerini anlatmak için edatları kullanırız.",
+        "titleRo": "Prepoziții de loc",
+        "explanationRo": "Folosim prepoziții pentru a descrie locația lucrurilor.",
+        "titleBs": "Prijedlozi mjesta",
+        "explanationBs": "Koristimo prijedloge da opišemo lokaciju stvari.",
+        "titleEs": "Preposiciones de lugar",
+        "explanationEs": "Usamos preposiciones para describir la ubicación de las cosas.",
+        "titleBg": "Предлози за място",
+        "explanationBg": "Използваме предлози, за да опишем местоположението на нещата.",
+        "titleEl": "Προθέσεις τόπου",
+        "explanationEl": "Χρησιμοποιούμε προθέσεις για να περιγράψουμε τη θέση των πραγμάτων.",
         "rules": [
           {
             "example": "Das Buch ist auf dem Tisch.",
             "translation": "الكتاب على الطاولة.",
-            "translationEn": "The book is on the table.",
-            "translationTr": "Kitap masanın üzerinde.",
             "note": "auf = على",
+            "translationEn": "The book is on the table.",
             "noteEn": "auf = on",
-            "noteTr": "auf = üzerinde",
+            "translationTr": "Kitap masanın üstünde.",
+            "noteTr": "auf = açık",
             "translationRo": "Cartea este pe masă.",
             "noteRo": "auf = on",
             "translationBs": "Knjiga je na stolu.",
@@ -2979,18 +4077,65 @@ const CURRICULUM = [
             "noteBg": "auf = включено",
             "translationEl": "Το βιβλίο είναι στο τραπέζι.",
             "noteEl": "auf = επάνω"
+          },
+          {
+            "example": "Die Lampe ist neben dem Sofa.",
+            "translation": "المصباح بجانب الأريكة.",
+            "note": "neben = بجانب",
+            "translationEn": "The lamp next to the sofa.",
+            "noteEn": "neben = beside",
+            "translationTr": "Kanepenin yanındaki lamba.",
+            "noteTr": "neben = yanında",
+            "translationRo": "Lampa de lângă canapea.",
+            "noteRo": "neben = lângă",
+            "translationBs": "Lampa pored sofe.",
+            "noteBs": "neben = pored",
+            "translationEs": "La lámpara al lado del sofá.",
+            "noteEs": "neben = al lado",
+            "translationBg": "Лампата до дивана.",
+            "noteBg": "neben = до",
+            "translationEl": "Το φωτιστικό δίπλα στον καναπέ.",
+            "noteEl": "δενμπεν = δίπλα"
+          },
+          {
+            "example": "Das Bett ist im Schlafzimmer.",
+            "translation": "السرير في غرفة النوم.",
+            "note": "in = في",
+            "translationEn": "The bed is in the bedroom.",
+            "noteEn": "in = in",
+            "translationTr": "Yatak yatak odasındadır.",
+            "noteTr": "içinde = içinde",
+            "translationRo": "Patul este în dormitor.",
+            "noteRo": "in = in",
+            "translationBs": "Krevet je u spavaćoj sobi.",
+            "noteBs": "u = u",
+            "translationEs": "La cama está en el dormitorio.",
+            "noteEs": "en = en",
+            "translationBg": "Леглото е в спалнята.",
+            "noteBg": "в = в",
+            "translationEl": "Το κρεβάτι είναι στο υπνοδωμάτιο.",
+            "noteEl": "σε = μέσα"
+          },
+          {
+            "example": "Der Schrank steht vor dem Fenster.",
+            "translation": "الخزانة أمام النافذة.",
+            "note": "vor = أمام",
+            "translationEn": "The cupboard is in front of the window.",
+            "noteEn": "vor = in front of",
+            "translationTr": "Dolap pencerenin önündedir.",
+            "noteTr": "vor = önünde",
+            "translationRo": "Dulapul este în fața ferestrei.",
+            "noteRo": "vor = in front of",
+            "translationBs": "Ormar je ispred prozora.",
+            "noteBs": "vor = ispred",
+            "translationEs": "El armario está delante de la ventana.",
+            "noteEs": "vor = delante de",
+            "translationBg": "Шкафът е пред прозореца.",
+            "noteBg": "vor = пред",
+            "translationEl": "Το ντουλάπι είναι μπροστά στο παράθυρο.",
+            "noteEl": "vor = μπροστά από"
           }
-        ],
-        "titleRo": "Prepoziții de loc",
-        "explanationRo": "Folosim prepoziții pentru a descrie locația obiectelor, urmate de obicei de cazul dativ.",
-        "titleBs": "Prijedlozi mjesta",
-        "explanationBs": "Koristimo prijedloge da opišemo lokaciju objekata, nakon kojih obično slijedi dativ.",
-        "titleEs": "Preposiciones de lugar",
-        "explanationEs": "Usamos preposiciones para describir la ubicación de objetos, generalmente seguidas del caso dativo.",
-        "titleBg": "Предлози за място",
-        "explanationBg": "Използваме предлози, за да опишем местоположението на обектите, обикновено последвани от дателен падеж.",
-        "titleEl": "Προθέσεις Τόπου",
-        "explanationEl": "Χρησιμοποιούμε προθέσεις για να περιγράψουμε τη θέση των αντικειμένων, ακολουθούμενες συνήθως από κεφαλαία Dative."
+        ]
       }
     ],
     "exercises": [
@@ -2998,129 +4143,99 @@ const CURRICULUM = [
         "type": "mcq",
         "question": "Was bedeutet 'Wohnzimmer'?",
         "questionAr": "ما معنى Wohnzimmer؟",
-        "questionEn": "What does 'Wohnzimmer' mean?",
-        "questionTr": "'Wohnzimmer' ne anlama gelir?",
-        "options": [
-          "غرفة النوم / Bedroom / Yatak odası / Dormitor",
-          "المطبخ / Kitchen / Mutfak / Bucătărie",
-          "غرفة المعيشة / Living room / Oturma odası / Camera de zi",
-          "الحمام / Bathroom / Banyo / Baie"
-        ],
         "answer": 2,
-        "questionRo": "Ce înseamnă „Wohnzimmer”?",
-        "questionBs": "Šta znači 'Wohnzimmer'?",
-        "questionEs": "¿Qué significa \"Wohnzimmer\"?",
-        "questionBg": "Какво означава „Wohnzimmer“?",
-        "questionEl": "Τι σημαίνει «Wohnzimmer»;"
-      }
-    ],
-    "writingPrompts": [
-      {
-        "prompt": "صف شقتك أو منزلك",
-        "promptDe": "Beschreiben Sie Ihre Wohnung",
-        "promptEn": "Describe your flat or house",
-        "promptTr": "Dairenizi veya evinizi tasvir edin",
-        "helpers": [
-          "Ich wohne in...",
-          "Meine Wohnung hat...",
-          "Die Miete ist..."
+        "questionEn": "What does Wohnzimmer mean?",
+        "questionTr": "Wohnzimmer ne anlama geliyor?",
+        "questionRo": "Ce înseamnă Wohnzimmer?",
+        "questionBs": "Šta znači Wohnzimmer?",
+        "questionEs": "¿Qué significa Wohnzimmer?",
+        "questionBg": "Какво означава Wohnzimmer?",
+        "questionEl": "Τι σημαίνει η λέξη Wohnzimmer;",
+        "options": [
+          "غرفة النوم",
+          "المطبخ",
+          "غرفة المعيشة",
+          "الحمام"
         ],
-        "helpersEn": [
-          "I live in...",
-          "My flat has...",
-          "The rent is..."
+        "optionsEn": [
+          "Bedroom",
+          "the kitchen",
+          "Living room",
+          "the bathroom"
         ],
-        "helpersTr": [
-          "Nerede yaşıyorum...",
-          "Dairemde ... var",
-          "Kira ücreti..."
+        "optionsTr": [
+          "Yatak odası",
+          "mutfak",
+          "Oturma odası",
+          "banyo"
         ],
-        "example": "Ich wohne in einer 3-Zimmer-Wohnung. Sie hat ein Wohnzimmer, zwei Schlafzimmer und eine Küche.",
-        "promptRo": "Descrieți apartamentul sau casa dvs",
-        "helpersRo": [
-          "locuiesc in...",
-          "Apartamentul meu are...",
-          "Chiria este..."
+        "optionsRo": [
+          "Dormitor",
+          "bucataria",
+          "Camera de zi",
+          "baia"
         ],
-        "promptBs": "Opišite svoj stan ili kuću",
-        "promptEs": "Describe tu piso o casa",
-        "promptBg": "Опишете вашия апартамент или къща",
-        "promptEl": "Περιγράψτε το διαμέρισμα ή το σπίτι σας"
-      }
-    ],
-    "speakingPhrases": [
-      {
-        "de": "Was kostet die Miete?",
-        "ar": "كم الإيجار؟",
-        "en": "How much is the rent?",
-        "tr": "Kira ne kadar?",
-        "ro": "Cât este chiria?",
-        "bs": "Koliko je kirija?",
-        "es": "¿A cuánto asciende el alquiler?",
-        "bg": "Колко е наемът?",
-        "el": "Πόσο είναι το ενοίκιο;"
+        "optionsBs": [
+          "Spavaca soba",
+          "kuhinja",
+          "Dnevni boravak",
+          "kupatilo"
+        ],
+        "optionsEs": [
+          "Dormitorio",
+          "la cocina",
+          "Sala de estar",
+          "el baño"
+        ],
+        "optionsBg": [
+          "Спалня",
+          "кухнята",
+          "Всекидневна",
+          "банята"
+        ],
+        "optionsEl": [
+          "Υπνοδωμάτιο",
+          "την κουζίνα",
+          "Καθιστικό",
+          "το μπάνιο"
+        ]
       },
       {
-        "de": "Wo ist ...?",
-        "ar": "أين ...؟",
-        "en": "Where is...?",
-        "tr": "... nerede?",
-        "ro": "Unde este...?",
-        "bs": "Gdje je...?",
-        "es": "Dónde es...?",
-        "bg": "Къде е...?",
-        "el": "Πού είναι...;"
+        "type": "fillblank",
+        "question": "Das Buch ist _____ dem Tisch. (على)",
+        "questionAr": "أكمل بحرف الجر المناسب",
+        "answer": "auf",
+        "questionEn": "Complete with the appropriate preposition",
+        "questionTr": "أكمل بحرف الجر المناسب",
+        "questionRo": "أكمل بحرف الجر المناسب",
+        "questionBs": "Dopuni odgovarajućim prijedlogom",
+        "questionEs": "Completa con la preposición adecuada.",
+        "questionBg": "Допълнете с подходящия предлог",
+        "questionEl": "Συμπληρώστε με την κατάλληλη πρόθεση",
+        "hint": "auf = على",
+        "hintEn": "auf = on",
+        "hintTr": "auf = açık",
+        "hintRo": "auf = on",
+        "hintBs": "auf = uključeno",
+        "hintEs": "auf = en",
+        "hintBg": "auf = включено",
+        "hintEl": "auf = επάνω"
       }
-    ],
-    "titleRo": "Locuind in Germania",
-    "topicsRo": [
-      "Apartament",
-      "Camerele",
-      "Mobilier",
-      "Vanatoare de apartamente"
-    ],
-    "canDoRo": "Pot să-mi descriu apartamentul și să caut un apartament",
-    "titleBs": "Živim u Nemačkoj",
-    "topicsBs": [
-      "Apartman",
-      "Sobe",
-      "Namještaj",
-      "Stan lov"
-    ],
-    "canDoBs": "Mogu opisati svoj stan i tražiti stan",
-    "titleEs": "Vivir en Alemania",
-    "topicsEs": [
-      "Departamento",
-      "Alojamiento",
-      "Muebles",
-      "Búsqueda de apartamento"
-    ],
-    "canDoEs": "Puedo describir mi apartamento y buscar piso.",
-    "titleBg": "Живеейки в Германия",
-    "topicsBg": [
-      "Апартамент",
-      "Стаи",
-      "Мебели",
-      "Търсене на апартаменти"
-    ],
-    "canDoBg": "Мога да опиша апартамента си и да търся апартамент",
-    "titleEl": "Ζώντας στη Γερμανία",
-    "topicsEl": [
-      "Διαμέρισμα",
-      "Δωμάτια",
-      "Επιπλα",
-      "Κυνήγι διαμερισμάτων"
-    ],
-    "canDoEl": "Μπορώ να περιγράψω το διαμέρισμά μου και να ψάξω για διαμέρισμα"
+    ]
   },
   {
     "id": 8,
     "titleDe": "Gesundheit und Körper",
     "titleAr": "الصحة والجسم",
-    "titleEn": "Health and Body",
-    "titleTr": "Sağlık ve Vücut",
     "emoji": "🏥",
     "color": "#f87171",
+    "titleEn": "Health and body",
+    "titleTr": "Sağlık ve vücut",
+    "titleRo": "Sănătate și corp",
+    "titleBs": "Zdravlje i tijelo",
+    "titleEs": "Salud y cuerpo",
+    "titleBg": "Здраве и тяло",
+    "titleEl": "Υγεία και σώμα",
     "topics": [
       "أجزاء الجسم",
       "الشكاوى الصحية",
@@ -3129,154 +4244,398 @@ const CURRICULUM = [
     "topicsEn": [
       "Body parts",
       "Health complaints",
-      "At the doctor's"
+      "At the doctor's office"
     ],
     "topicsTr": [
-      "Vücudun bölümleri",
+      "Vücut parçaları",
       "Sağlık şikayetleri",
-      "Doktorda"
+      "Doktorun ofisinde"
+    ],
+    "topicsRo": [
+      "Părți ale corpului",
+      "Plângeri de sănătate",
+      "La cabinetul medicului"
+    ],
+    "topicsBs": [
+      "Dijelovi tijela",
+      "Zdravstvene pritužbe",
+      "U ordinaciji"
+    ],
+    "topicsEs": [
+      "Partes del cuerpo",
+      "Quejas de salud",
+      "En el consultorio del doctor"
+    ],
+    "topicsBg": [
+      "Части на тялото",
+      "Здравни оплаквания",
+      "В лекарския кабинет"
+    ],
+    "topicsEl": [
+      "Μέρη του σώματος",
+      "Παράπονα υγείας",
+      "Στο ιατρείο"
     ],
     "canDo": "أستطيع أن أتحدث عن أعراض المرض عند الطبيب",
-    "canDoEn": "I can talk about health symptoms at the doctor's office",
-    "canDoTr": "Doktorda sağlık şikayetlerim hakkında konuşabilirim",
     "canDoDe": "Ich kann beim Arzt über Beschwerden sprechen",
+    "canDoEn": "I can talk about the symptoms of the disease to the doctor",
+    "canDoTr": "Doktora hastalığın belirtilerini anlatabilirim",
+    "canDoRo": "Despre simptomele bolii pot vorbi medicului",
+    "canDoBs": "O simptomima bolesti mogu razgovarati sa doktorom",
+    "canDoEs": "Puedo hablar sobre los síntomas de la enfermedad con el médico.",
+    "canDoBg": "Мога да говоря за симптомите на заболяването на лекаря",
+    "canDoEl": "Μπορώ να μιλήσω για τα συμπτώματα της νόσου στον γιατρό",
     "audioFiles": [
       {
         "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD2/38_langenschidt_-_11.1b_-_der_korper.mp3",
         "label": "11.1b - Der Körper",
         "labelAr": "أجزاء الجسم",
-        "labelEn": "11.1b - The Body",
-        "labelTr": "11.1b - Vücut",
-        "labelRo": "11.1b - Corpul",
-        "labelBs": "11.1b - Telo",
-        "labelEs": "11.1b - El Cuerpo",
-        "labelBg": "11.1b - Тялото",
-        "labelEl": "11.1β - Το Σώμα"
+        "labelEn": "Body parts",
+        "labelTr": "Vücut parçaları",
+        "labelRo": "Părți ale corpului",
+        "labelBs": "Dijelovi tijela",
+        "labelEs": "Partes del cuerpo",
+        "labelBg": "Части на тялото",
+        "labelEl": "Μέρη του σώματος"
+      },
+      {
+        "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD2/41_langenschidt_-_11.5_-_bei_der_hausarztin,_dialog_1.mp3",
+        "label": "11.5 - Bei der Hausärztin (1)",
+        "labelAr": "عند الطبيبة 1",
+        "labelEn": "At the doctor 1",
+        "labelTr": "Doktorda 1",
+        "labelRo": "La medic 1",
+        "labelBs": "Kod doktora 1",
+        "labelEs": "en el medico 1",
+        "labelBg": "При лекаря 1",
+        "labelEl": "Στο γιατρό 1"
+      },
+      {
+        "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD2/42_langenschidt_-_11.5_-_bei_der_hausarztin,_dialog_2.mp3",
+        "label": "11.5 - Bei der Hausärztin (2)",
+        "labelAr": "عند الطبيبة 2",
+        "labelEn": "At the doctor's 2",
+        "labelTr": "Doktorun 2'sinde",
+        "labelRo": "La doctor 2",
+        "labelBs": "Kod doktora 2",
+        "labelEs": "En el doctor 2",
+        "labelBg": "При лекаря 2",
+        "labelEl": "Στο γιατρό 2"
+      },
+      {
+        "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD2/43_langenschidt_-_11.6_-_fragen_und_antworten_beim_arzt.mp3",
+        "label": "11.6 - Fragen beim Arzt",
+        "labelAr": "أسئلة وأجوبة عند الطبيب",
+        "labelEn": "Questions and answers from the doctor",
+        "labelTr": "Doktordan sorular ve cevaplar",
+        "labelRo": "Întrebări și răspunsuri de la medic",
+        "labelBs": "Pitanja i odgovori od doktora",
+        "labelEs": "Preguntas y respuestas del médico.",
+        "labelBg": "Въпроси и отговори от лекаря",
+        "labelEl": "Ερωτήσεις και απαντήσεις από τον γιατρό"
+      },
+      {
+        "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD2/45_langenschidt_-_11.9_-_termine_machen,_absagen,_verschieben.mp3",
+        "label": "11.9 - Termine machen",
+        "labelAr": "تحديد وإلغاء المواعيد",
+        "labelEn": "Make and cancel appointments",
+        "labelTr": "Randevu alma ve iptal etme",
+        "labelRo": "Faceți și anulați întâlniri",
+        "labelBs": "Zakažite i otkažite termine",
+        "labelEs": "Hacer y cancelar citas",
+        "labelBg": "Правете и отменяйте срещи",
+        "labelEl": "Κλείστε και ακυρώστε ραντεβού"
       }
     ],
     "dialogs": [
       {
         "title": "Beim Arzt",
         "titleAr": "عند الطبيب",
-        "titleEn": "At the Doctor's",
-        "titleTr": "Doktorda",
+        "titleEn": "At the doctor's office",
+        "titleTr": "Doktorun ofisinde",
+        "titleRo": "La cabinetul medicului",
+        "titleBs": "U ordinaciji",
+        "titleEs": "En el consultorio del doctor",
+        "titleBg": "В лекарския кабинет",
+        "titleEl": "Στο ιατρείο",
         "lines": [
           {
             "speaker": "Arzt",
             "de": "Guten Tag! Was fehlt Ihnen?",
             "ar": "مرحباً! ما الذي يؤلمك؟",
-            "en": "Good day! What is wrong?",
-            "tr": "İyi günler! Şikayetiniz nedir?",
-            "ro": "Bună ziua! Ce s-a întâmplat?",
-            "bs": "Dobar dan! šta nije u redu?",
-            "es": "¡Buen día! ¿Lo que está mal?",
-            "bg": "Добър ден! какво не е наред",
-            "el": "Καλημέρα! Τι φταίει;"
+            "en": "Welcome! What hurts you?",
+            "tr": "Hoş geldin! Seni ne üzüyor?",
+            "ro": "Bun venit! Ce te doare?",
+            "bs": "Dobrodošli! šta te boli?",
+            "es": "¡Bienvenido! ¿Qué te duele?",
+            "bg": "Добре дошли! Какво те боли?",
+            "el": "Καλωσόρισμα! Τι σε πληγώνει;"
           },
           {
             "speaker": "Patient",
             "de": "Ich habe Kopfschmerzen und Fieber.",
             "ar": "عندي صداع وحمى.",
             "en": "I have a headache and fever.",
-            "tr": "Baş ağrım ve ateşim var.",
+            "tr": "Başım ağrıyor ve ateşim var.",
             "ro": "Am o durere de cap și febră.",
             "bs": "Imam glavobolju i temperaturu.",
             "es": "Tengo dolor de cabeza y fiebre.",
             "bg": "Имам главоболие и температура.",
             "el": "Έχω πονοκέφαλο και πυρετό."
+          },
+          {
+            "speaker": "Arzt",
+            "de": "Seit wann?",
+            "ar": "منذ متى؟",
+            "en": "since when?",
+            "tr": "ne zamandan beri?",
+            "ro": "De când?",
+            "bs": "od kada?",
+            "es": "¿desde cuando?",
+            "bg": "откога?",
+            "el": "απο ποτε?"
+          },
+          {
+            "speaker": "Patient",
+            "de": "Seit zwei Tagen.",
+            "ar": "منذ يومين.",
+            "en": "Two days ago.",
+            "tr": "İki gün önce.",
+            "ro": "Acum două zile.",
+            "bs": "Prije dva dana.",
+            "es": "Hace dos días.",
+            "bg": "Преди два дни.",
+            "el": "Πριν από δύο μέρες."
+          },
+          {
+            "speaker": "Arzt",
+            "de": "Öffnen Sie bitte den Mund. Sagen Sie: Ah!",
+            "ar": "افتح فمك من فضلك. قل: آه!",
+            "en": "Open your mouth, please. Say: Ah!",
+            "tr": "Ağzınızı açın lütfen. De ki: Ah!",
+            "ro": "Deschideți gura, vă rog. Spune: Ah!",
+            "bs": "Otvori usta, molim te. Reci: Ah!",
+            "es": "Abra la boca, por favor. Di: ¡Ah!",
+            "bg": "Отворете си устата, моля. Кажете: Ах!",
+            "el": "Άνοιξε το στόμα σου, σε παρακαλώ. Πες: Α!"
+          },
+          {
+            "speaker": "Patient",
+            "de": "Aaah.",
+            "ar": "آه.",
+            "en": "Yes.",
+            "tr": "Evet.",
+            "ro": "Da.",
+            "bs": "Da.",
+            "es": "Sí.",
+            "bg": "да",
+            "el": "Ναί."
+          },
+          {
+            "speaker": "Arzt",
+            "de": "Sie haben eine Erkältung. Ich verschreibe Ihnen Medikamente.",
+            "ar": "عندك رشح/برد. سأكتب لك دواء.",
+            "en": "You have a runny nose/cold. I will write you a medicine.",
+            "tr": "Burun akıntınız/soğuk algınlığınız var. Sana bir ilaç yazacağım.",
+            "ro": "Ai nasul care curge/raceala. Îți voi scrie un medicament.",
+            "bs": "Imate curenje iz nosa/prehladu. Napisaću ti lek.",
+            "es": "Tiene secreción nasal/resfriado. Te escribiré un medicamento.",
+            "bg": "Имате хрема/настинка. Ще ти напиша лекарство.",
+            "el": "Έχετε καταρροή/κρύωμα. Θα σου γράψω ένα φάρμακο."
           }
-        ],
-        "titleRo": "La Doctor",
-        "titleBs": "Kod doktora",
-        "titleEs": "en el doctor",
-        "titleBg": "При доктора",
-        "titleEl": "Στο Γιατρό"
+        ]
       }
     ],
     "readingTexts": [
       {
         "title": "Gesund bleiben",
         "titleAr": "البقاء بصحة جيدة",
-        "titleEn": "Staying Healthy",
-        "titleTr": "Sağlıklı Kalmak",
+        "titleEn": "Stay healthy",
+        "titleTr": "Sağlıklı kalın",
+        "titleRo": "Rămâi sănătos",
+        "titleBs": "Ostanite zdravi",
+        "titleEs": "mantente saludable",
+        "titleBg": "Бъдете здрави",
+        "titleEl": "Μείνετε υγιείς",
         "text": [
           {
-            "de": "Sport ist gesund. Man soll viel Wasser trinken.",
-            "ar": "الرياضة مفيدة للصحة. يجب شرب الكثير من الماء.",
-            "en": "Sports is healthy. One should drink plenty of water.",
-            "tr": "Spor sağlıklıdır. İnsan bol su içmelidir.",
-            "ro": "Sportul este sănătos. Ar trebui să bei multă apă.",
-            "bs": "Sport je zdrav. Treba piti dosta vode.",
-            "es": "El deporte es saludable. Se debe beber mucha agua.",
-            "bg": "Спортът е здравословен. Човек трябва да пие много вода.",
-            "el": "Ο αθλητισμός είναι υγιής. Κάποιος πρέπει να πίνει άφθονο νερό."
+            "de": "Sport ist gesund.",
+            "ar": "الرياضة مفيدة للصحة.",
+            "en": "Sports are good for health.",
+            "tr": "Spor sağlığa faydalıdır.",
+            "ro": "Sportul este bun pentru sănătate.",
+            "bs": "Sport je dobar za zdravlje.",
+            "es": "Los deportes son buenos para la salud.",
+            "bg": "Спортът е полезен за здравето.",
+            "el": "Ο αθλητισμός κάνει καλό στην υγεία."
+          },
+          {
+            "de": "Man soll viel Wasser trinken.",
+            "ar": "يجب شرب الكثير من الماء.",
+            "en": "You should drink plenty of water.",
+            "tr": "Bol su içmelisiniz.",
+            "ro": "Ar trebui să bei multă apă.",
+            "bs": "Trebalo bi da pijete dosta vode.",
+            "es": "Debes beber mucha agua.",
+            "bg": "Трябва да пиете много вода.",
+            "el": "Θα πρέπει να πίνετε άφθονο νερό."
+          },
+          {
+            "de": "Obst und Gemüse sind wichtig.",
+            "ar": "الفواكه والخضروات مهمة.",
+            "en": "Fruits and vegetables are important.",
+            "tr": "Meyve ve sebzeler önemlidir.",
+            "ro": "Fructele și legumele sunt importante.",
+            "bs": "Voće i povrće su važni.",
+            "es": "Las frutas y verduras son importantes.",
+            "bg": "Плодовете и зеленчуците са важни.",
+            "el": "Τα φρούτα και τα λαχανικά είναι σημαντικά."
+          },
+          {
+            "de": "Man soll nicht rauchen.",
+            "ar": "لا يجب التدخين.",
+            "en": "You should not smoke.",
+            "tr": "Sigara içmemelisiniz.",
+            "ro": "Nu ar trebui să fumezi.",
+            "bs": "Ne bi trebalo da pušite.",
+            "es": "No deberías fumar.",
+            "bg": "Не бива да пушите.",
+            "el": "Δεν πρέπει να καπνίζετε."
+          },
+          {
+            "de": "Viel schlafen ist auch wichtig.",
+            "ar": "النوم الكافي مهم أيضاً.",
+            "en": "Adequate sleep is also important.",
+            "tr": "Yeterli uyku da önemlidir.",
+            "ro": "Somnul adecvat este, de asemenea, important.",
+            "bs": "Odgovarajući san je takođe važan.",
+            "es": "Dormir lo suficiente también es importante.",
+            "bg": "Адекватният сън също е важен.",
+            "el": "Ο επαρκής ύπνος είναι επίσης σημαντικός."
           }
         ],
         "questions": [
           {
             "q": "Was ist gesund?",
             "qAr": "ما المفيد للصحة؟",
-            "qEn": "What is healthy?",
-            "qTr": "Sağlıklı olan nedir?",
-            "answer": "Sport, Wasser",
-            "answerAr": "الرياضة، الماء",
-            "answerEn": "Sports, water",
-            "answerTr": "Spor, su",
-            "qRo": "Ce este sănătos?",
-            "answerRo": "Sport, apă",
-            "qBs": "Šta je zdravo?",
-            "answerBs": "Sport, voda",
-            "qEs": "¿Qué es saludable?",
-            "answerEs": "deportes, agua",
-            "qBg": "Какво е здравословно?",
-            "answerBg": "Спорт, вода",
-            "qEl": "Τι είναι υγιές;",
-            "answerEl": "Αθλητισμός, νερό"
+            "answer": "Sport, Wasser, Obst und Gemüse, Schlafen",
+            "answerAr": "الرياضة، الماء، الفواكه والخضروات، النوم",
+            "qEn": "What is good for health?",
+            "answerEn": "Exercise, water, fruits and vegetables, sleep",
+            "qTr": "Sağlık için iyi olan nedir?",
+            "answerTr": "Egzersiz, su, meyve ve sebzeler, uyku",
+            "qRo": "Ce este bun pentru sănătate?",
+            "answerRo": "Exerciții fizice, apă, fructe și legume, somn",
+            "qBs": "Šta je dobro za zdravlje?",
+            "answerBs": "Vježbanje, voda, voće i povrće, san",
+            "qEs": "¿Qué es bueno para la salud?",
+            "answerEs": "Ejercicio, agua, frutas y verduras, dormir.",
+            "qBg": "Какво е полезно за здравето?",
+            "answerBg": "Упражнение, вода, плодове и зеленчуци, сън",
+            "qEl": "Τι είναι καλό για την υγεία;",
+            "answerEl": "Άσκηση, νερό, φρούτα και λαχανικά, ύπνος"
           }
-        ],
-        "titleRo": "Rămâi sănătos",
-        "titleBs": "Staying Healthy",
-        "titleEs": "Mantenerse saludable",
-        "titleBg": "Да останем здрави",
-        "titleEl": "Παραμονή Υγιής"
+        ]
       }
     ],
     "grammar": [
       {
         "id": "modalverben",
-        "title": "أفعال الوجوب والإمكانية",
+        "title": "أفعال الوجوب والإمكانية - Modalverben",
         "titleDe": "Modalverben",
-        "titleEn": "Modal Verbs",
-        "titleTr": "Tarz Fiiller (Modalverben)",
-        "explanation": "الأفعال الشكلية تُعبّر عن الوجوب (müssen)، الإمكانية (können)، النصيحة (sollen)، والمنع (dürfen).",
-        "explanationEn": "Modal verbs express obligation (müssen), ability (können), recommendation (sollen), and permission (dürfen).",
-        "explanationTr": "Modal fiiller zorunluluk (müssen), yetenek (können), tavsiye (sollen) ve izin (dürfen) belirtir.",
+        "explanation": "الأفعال الشكلية تُعبّر عن الوجوب والإمكانية والرغبة.",
+        "titleEn": "Verbs of necessity and possibility - Modalverben",
+        "explanationEn": "Modal verbs express obligation, possibility, and desire.",
+        "titleTr": "Gereklilik ve olasılık fiilleri - Modalverben",
+        "explanationTr": "Modal fiiller yükümlülüğü, olasılığı ve arzuyu ifade eder.",
+        "titleRo": "Verbe de necesitate și posibilitate - Modalverben",
+        "explanationRo": "Verbele modale exprimă obligația, posibilitatea și dorința.",
+        "titleBs": "Glagoli nužnosti i mogućnosti - Modalverben",
+        "explanationBs": "Modalni glagoli izražavaju obavezu, mogućnost i želju.",
+        "titleEs": "Verbos de necesidad y posibilidad - Modalverben",
+        "explanationEs": "Los verbos modales expresan obligación, posibilidad y deseo.",
+        "titleBg": "Глаголи за необходимост и възможност - Modalverben",
+        "explanationBg": "Модалните глаголи изразяват задължение, възможност и желание.",
+        "titleEl": "Ρήματα αναγκαιότητας και δυνατότητας - Modalverben",
+        "explanationEl": "Τα τροπικά ρήματα εκφράζουν υποχρέωση, δυνατότητα και επιθυμία.",
         "rules": [
           {
             "example": "Ich muss Medikamente nehmen.",
             "translation": "يجب أن آخذ الدواء.",
-            "translationEn": "I must take medicine.",
-            "translationTr": "İlaç almalıyım.",
-            "note": "",
-            "noteEn": "",
-            "noteTr": "",
+            "note": "müssen = يجب",
+            "translationEn": "I have to take medicine.",
+            "noteEn": "müssen = must",
+            "translationTr": "İlaç almam gerekiyor.",
+            "noteTr": "müssen = zorunluluk",
             "translationRo": "Trebuie să iau medicamente.",
-            "translationBs": "Moram uzeti lijek.",
-            "translationEs": "Debo tomar medicina.",
-            "translationBg": "Трябва да взема лекарство.",
-            "translationEl": "Πρέπει να πάρω φάρμακα."
+            "noteRo": "müssen = must",
+            "translationBs": "Moram da uzmem lekove.",
+            "noteBs": "müssen = obavezno",
+            "translationEs": "Tengo que tomar medicina.",
+            "noteEs": "müssen = debe",
+            "translationBg": "Трябва да пия лекарство.",
+            "noteBg": "müssen = трябва",
+            "translationEl": "Πρέπει να πάρω φάρμακα.",
+            "noteEl": "müssen = πρέπει"
+          },
+          {
+            "example": "Du kannst Sport machen.",
+            "translation": "يمكنك ممارسة الرياضة.",
+            "note": "können = يمكن",
+            "translationEn": "You can exercise.",
+            "noteEn": "können = can",
+            "translationTr": "Egzersiz yapabilirsiniz.",
+            "noteTr": "können = yapabilir",
+            "translationRo": "Puteți face exerciții.",
+            "noteRo": "können = can",
+            "translationBs": "Možete vježbati.",
+            "noteBs": "können = može",
+            "translationEs": "Puedes hacer ejercicio.",
+            "noteEs": "können = puede",
+            "translationBg": "Можете да тренирате.",
+            "noteBg": "können = консерва",
+            "translationEl": "Μπορείτε να ασκηθείτε.",
+            "noteEl": "können = κονσέρβα"
+          },
+          {
+            "example": "Sie sollen viel trinken.",
+            "translation": "عليك أن تشرب كثيراً.",
+            "note": "sollen = عليك",
+            "translationEn": "You have to drink a lot.",
+            "noteEn": "sollen = on you",
+            "translationTr": "Çok içmelisin.",
+            "noteTr": "sollen = sana",
+            "translationRo": "Trebuie să bei mult.",
+            "noteRo": "sollen = pe tine",
+            "translationBs": "Morate puno piti.",
+            "noteBs": "sollen = na tebi",
+            "translationEs": "Tienes que beber mucho.",
+            "noteEs": "sollen = en ti",
+            "translationBg": "Трябва да пиете много.",
+            "noteBg": "sollen = върху теб",
+            "translationEl": "Πρέπει να πίνετε πολύ.",
+            "noteEl": "sollen = πάνω σου"
+          },
+          {
+            "example": "Ich darf nicht rauchen.",
+            "translation": "لا يجوز لي التدخين.",
+            "note": "dürfen = يجوز/لا يجوز",
+            "translationEn": "I may not smoke.",
+            "noteEn": "dürfen = permissible/not permissible",
+            "translationTr": "Sigara içmeyebilirim.",
+            "noteTr": "dürfen = izin verilir/izin verilmez",
+            "translationRo": "S-ar putea să nu fumez.",
+            "noteRo": "dürfen = permis/nepermis",
+            "translationBs": "Možda neću pušiti.",
+            "noteBs": "dürfen = dozvoljeno/nije dozvoljeno",
+            "translationEs": "No puedo fumar.",
+            "noteEs": "dürfen = permitido/no permitido",
+            "translationBg": "Може и да не пуша.",
+            "noteBg": "dürfen = допустимо/недопустимо",
+            "translationEl": "Μπορεί να μην καπνίζω.",
+            "noteEl": "dürfen = επιτρεπτό/μη επιτρεπτό"
           }
-        ],
-        "titleRo": "Verbe modale",
-        "explanationRo": "Verbele modale exprimă obligația (müssen), capacitatea (können), recomandarea (sollen) și permisiunea (dürfen).",
-        "titleBs": "Modalni glagoli",
-        "explanationBs": "Modalni glagoli izražavaju obavezu (müssen), sposobnost (können), preporuku (sollen) i dozvolu (dürfen).",
-        "titleEs": "Verbos modales",
-        "explanationEs": "Los verbos modales expresan obligación (müssen), capacidad (können), recomendación (sollen) y permiso (dürfen).",
-        "titleBg": "Модални глаголи",
-        "explanationBg": "Модалните глаголи изразяват задължение (müssen), способност (können), препоръка (sollen) и разрешение (dürfen).",
-        "titleEl": "Modal Verbs",
-        "explanationEl": "Τα τροπικά ρήματα εκφράζουν υποχρέωση (müssen), ικανότητα (können), σύσταση (sollen) και άδεια (dürfen)."
+        ]
       }
     ],
     "exercises": [
@@ -3284,225 +4643,332 @@ const CURRICULUM = [
         "type": "mcq",
         "question": "Ich habe _____. (صداع)",
         "questionAr": "كيف تقول 'عندي صداع' بالألمانية؟",
+        "answer": 1,
         "questionEn": "How do you say 'I have a headache' in German?",
-        "questionTr": "Almanca 'Başım ağrıyor' nasıl denir?",
+        "questionTr": "Almanca'da 'Başım ağrıyor' nasıl denir?",
+        "questionRo": "Cum se spune „Mă doare capul” în germană?",
+        "questionBs": "Kako se kaže 'Imam glavobolju' na njemačkom?",
+        "questionEs": "¿Cómo se dice \"me duele la cabeza\" en alemán?",
+        "questionBg": "Как се казва „имам главоболие“ на немски?",
+        "questionEl": "Πώς λέτε \"Έχω πονοκέφαλο\" στα Γερμανικά;",
         "options": [
           "Bauchschmerzen",
           "Kopfschmerzen",
           "Halsschmerzen",
           "Fieber"
         ],
-        "answer": 1,
-        "questionRo": "Cum se spune „Mă doare capul” în germană?",
-        "questionBs": "Kako se kaže 'Imam glavobolju' na njemačkom?",
-        "questionEs": "¿Cómo se dice \"me duele la cabeza\" en alemán?",
-        "questionBg": "Как се казва „имам главоболие“ на немски?",
-        "questionEl": "Πώς λέτε \"Έχω πονοκέφαλο\" στα Γερμανικά;"
+        "optionsEn": [
+          "Bauchschmerzen",
+          "Kopfschmerzen",
+          "Halsschmerzen",
+          "Fieber"
+        ],
+        "optionsTr": [
+          "Bauchschmerzen",
+          "Kopfschmerzen",
+          "Halsschmerzen",
+          "Fieber"
+        ],
+        "optionsRo": [
+          "Bauchschmerzen",
+          "Kopfschmerzen",
+          "Halsschmerzen",
+          "Fieber"
+        ],
+        "optionsBs": [
+          "Bauchschmerzen",
+          "Kopfschmerzen",
+          "Halsschmerzen",
+          "Fieber"
+        ],
+        "optionsEs": [
+          "Bauchschmerzen",
+          "Kopfschmerzen",
+          "Halsschmerzen",
+          "Fieber"
+        ],
+        "optionsBg": [
+          "Bauchschmerzen",
+          "Kopfschmerzen",
+          "Halsschmerzen",
+          "Fieber"
+        ],
+        "optionsEl": [
+          "Bauchschmerzen",
+          "Kopfschmerzen",
+          "Halsschmerzen",
+          "Fieber"
+        ]
       }
-    ],
-    "writingPrompts": [
-      {
-        "prompt": "اكتب رسالة لطبيبك تصف حالتك",
-        "promptDe": "Schreiben Sie eine Nachricht an Ihren Arzt",
-        "promptEn": "Write a message to your doctor describing your condition",
-        "promptTr": "Doktorunuza durumunuzu tarif eden bir mesaj yazın",
-        "helpers": [
-          "Ich habe...",
-          "Seit ... Tagen...",
-          "Ich brauche einen Termin..."
-        ],
-        "helpersEn": [
-          "I have...",
-          "Since ... days...",
-          "I need an appointment..."
-        ],
-        "helpersTr": [
-          "Şikayetim var...",
-          "... günden beri...",
-          "Randevuya ihtiyacım var..."
-        ],
-        "example": "Sehr geehrter Herr Doktor, ich habe seit gestern Kopfschmerzen und Fieber. Ich brauche einen Termin.",
-        "promptRo": "Scrieți un mesaj medicului dumneavoastră în care vă descrie starea dumneavoastră",
-        "helpersRo": [
-          "am...",
-          "De... zile...",
-          "Am nevoie de o programare..."
-        ],
-        "promptBs": "Napišite poruku svom ljekaru u kojoj opišete svoje stanje",
-        "promptEs": "Escriba un mensaje a su médico describiendo su condición.",
-        "promptBg": "Напишете съобщение до Вашия лекар, в което опишете състоянието си",
-        "promptEl": "Γράψτε ένα μήνυμα στον γιατρό σας περιγράφοντας την κατάστασή σας"
-      }
-    ],
-    "speakingPhrases": [
-      {
-        "de": "Ich habe Kopfschmerzen.",
-        "ar": "عندي صداع.",
-        "en": "I have a headache.",
-        "tr": "Başım ağrıyor.",
-        "ro": "Mă doare capul.",
-        "bs": "Boli me glava.",
-        "es": "Me duele la cabeza.",
-        "bg": "имам главоболие",
-        "el": "έχω πονοκέφαλο."
-      },
-      {
-        "de": "Ich muss zum Arzt gehen.",
-        "ar": "يجب أن أذهب للطبيب.",
-        "en": "I must go to the doctor.",
-        "tr": "Doktora gitmeliyim.",
-        "ro": "Trebuie să merg la medic.",
-        "bs": "Moram ići kod doktora.",
-        "es": "Debo ir al médico.",
-        "bg": "Трябва да отида на лекар.",
-        "el": "Πρέπει να πάω στο γιατρό."
-      }
-    ],
-    "titleRo": "Sanatate si Corp",
-    "topicsRo": [
-      "Părți ale corpului",
-      "Plângeri de sănătate",
-      "La doctor"
-    ],
-    "canDoRo": "Pot vorbi despre simptomele de sănătate la cabinetul medicului",
-    "titleBs": "Zdravlje i tijelo",
-    "topicsBs": [
-      "Dijelovi tijela",
-      "Zdravstvene pritužbe",
-      "Kod doktora"
-    ],
-    "canDoBs": "O zdravstvenim simptomima mogu razgovarati u ordinaciji",
-    "titleEs": "Salud y cuerpo",
-    "topicsEs": [
-      "Partes del cuerpo",
-      "Quejas de salud",
-      "en el medico"
-    ],
-    "canDoEs": "Puedo hablar sobre síntomas de salud en el consultorio del médico.",
-    "titleBg": "Здраве и тяло",
-    "topicsBg": [
-      "Части на тялото",
-      "Здравни оплаквания",
-      "При доктора"
-    ],
-    "canDoBg": "Мога да говоря за здравословни симптоми в лекарския кабинет",
-    "titleEl": "Υγεία και Σώμα",
-    "topicsEl": [
-      "Μέρη του σώματος",
-      "Παράπονα υγείας",
-      "Στο γιατρό"
-    ],
-    "canDoEl": "Μπορώ να μιλήσω για συμπτώματα υγείας στο ιατρείο"
+    ]
   },
   {
     "id": 9,
     "titleDe": "Unterwegs",
     "titleAr": "التنقل والسفر",
-    "titleEn": "On the Move",
-    "titleTr": "Yolda / Seyahat",
     "emoji": "🚂",
     "color": "#a78bfa",
+    "titleEn": "Mobility and travel",
+    "titleTr": "Hareketlilik ve seyahat",
+    "titleRo": "Mobilitate și călătorie",
+    "titleBs": "Mobilnost i putovanja",
+    "titleEs": "Movilidad y viajes",
+    "titleBg": "Мобилност и пътуване",
+    "titleEl": "Κινητικότητα και ταξίδια",
     "topics": [
       "وسائل النقل",
       "محطة القطار",
       "الاتجاهات"
     ],
     "topicsEn": [
-      "Means of transport",
+      "Means of transportation",
       "Train station",
       "Directions"
     ],
     "topicsTr": [
       "Ulaşım araçları",
       "Tren istasyonu",
-      "Yön tarifi"
+      "Yol Tarifi"
+    ],
+    "topicsRo": [
+      "Mijloace de transport",
+      "Gară",
+      "Direcții"
+    ],
+    "topicsBs": [
+      "Prevozna sredstva",
+      "Željeznička stanica",
+      "Upute"
+    ],
+    "topicsEs": [
+      "Medios de transporte",
+      "Estación de tren",
+      "Instrucciones"
+    ],
+    "topicsBg": [
+      "Транспортни средства",
+      "ЖП гара",
+      "Упътвания"
+    ],
+    "topicsEl": [
+      "Μέσα μεταφοράς",
+      "σιδηροδρομικός σταθμός",
+      "Οδηγίες"
     ],
     "canDo": "أستطيع أن أسأل عن الطريق وأشتري تذكرة قطار",
-    "canDoEn": "I can ask for directions and buy a train ticket",
-    "canDoTr": "Yol tarifi isteyebilir ve tren bileti satın alabilirim",
     "canDoDe": "Ich kann nach dem Weg fragen und eine Fahrkarte kaufen",
+    "canDoEn": "I can ask the route and buy a train ticket",
+    "canDoTr": "Rotayı sorup tren bileti alabilirim",
+    "canDoRo": "Pot să întreb traseul și să cumpăr un bilet de tren",
+    "canDoBs": "Mogu pitati za rutu i kupiti kartu za voz",
+    "canDoEs": "Puedo preguntar la ruta y comprar un billete de tren.",
+    "canDoBg": "Мога да попитам за маршрута и да купя билет за влак",
+    "canDoEl": "Μπορώ να ρωτήσω τη διαδρομή και να αγοράσω εισιτήριο τρένου",
     "audioFiles": [
+      {
+        "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD2/02_langenschidt_-_7.2_-_berlin_kennenlernen,_dialog_1.mp3",
+        "label": "7.2 - Berlin kennenlernen (1)",
+        "labelAr": "التعرف على برلين 1",
+        "labelEn": "Getting to know Berlin 1",
+        "labelTr": "Berlin'i tanımak 1",
+        "labelRo": "Cunoașterea Berlinului 1",
+        "labelBs": "Upoznavanje Berlina 1",
+        "labelEs": "Conociendo Berlín 1",
+        "labelBg": "Запознаване с Берлин 1",
+        "labelEl": "Γνωριμία με το Βερολίνο 1"
+      },
+      {
+        "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD2/03_langenschidt_-_7.2_-_berlin_kennenlernen,_dialog_2.mp3",
+        "label": "7.2 - Berlin kennenlernen (2)",
+        "labelAr": "التعرف على برلين 2",
+        "labelEn": "Getting to know Berlin 2",
+        "labelTr": "Berlin'i tanımak 2",
+        "labelRo": "Cunoașterea Berlinului 2",
+        "labelBs": "Upoznavanje Berlina 2",
+        "labelEs": "Conociendo Berlín 2",
+        "labelBg": "Запознаване с Берлин 2",
+        "labelEl": "Γνωριμία με το Βερολίνο 2"
+      },
+      {
+        "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD2/04_langenschidt_-_7.2_-_berlin_kennenlernen,_dialog_3.mp3",
+        "label": "7.2 - Berlin kennenlernen (3)",
+        "labelAr": "التعرف على برلين 3",
+        "labelEn": "Getting to know Berlin 3",
+        "labelTr": "Berlin'i Tanıma 3",
+        "labelRo": "Cunoașterea Berlinului 3",
+        "labelBs": "Upoznavanje Berlina 3",
+        "labelEs": "Conociendo Berlín 3",
+        "labelBg": "Запознаване с Берлин 3",
+        "labelEl": "Γνωριμία με το Βερολίνο 3"
+      },
+      {
+        "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD2/05_langenschidt_-_7.2_-_berlin_kennenlernen,_dialog_4.mp3",
+        "label": "7.2 - Berlin kennenlernen (4)",
+        "labelAr": "التعرف على برلين 4",
+        "labelEn": "Getting to know Berlin 4",
+        "labelTr": "Berlin'i Tanıma 4",
+        "labelRo": "Cunoașterea Berlinului 4",
+        "labelBs": "Upoznavanje Berlina 4",
+        "labelEs": "Conociendo Berlín 4",
+        "labelBg": "Запознаване с Берлин 4",
+        "labelEl": "Γνωριμία με το Βερολίνο 4"
+      },
       {
         "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD2/06_langenschidt_-_7.3_-_wo_ist_bitte_..._wie_komme_ich_..._ich_suche_....mp3",
         "label": "7.3 - Wegbeschreibung",
         "labelAr": "وصف الطريق",
-        "labelEn": "7.3 - Directions",
-        "labelTr": "7.3 - Yön Tarifi",
-        "labelRo": "7.3 - Direcții",
-        "labelBs": "7.3 - Upute",
-        "labelEs": "7.3 - Direcciones",
-        "labelBg": "7.3 - Насоки",
-        "labelEl": "7.3 - Οδηγίες"
+        "labelEn": "Route description",
+        "labelTr": "Rota açıklaması",
+        "labelRo": "Descrierea traseului",
+        "labelBs": "Opis rute",
+        "labelEs": "Descripción de la ruta",
+        "labelBg": "Описание на маршрута",
+        "labelEl": "Περιγραφή διαδρομής"
       }
     ],
     "dialogs": [
       {
         "title": "Am Bahnhof",
         "titleAr": "في محطة القطار",
-        "titleEn": "At the Train Station",
-        "titleTr": "İstasyonda",
+        "titleEn": "At the train station",
+        "titleTr": "Tren istasyonunda",
+        "titleRo": "La gară",
+        "titleBs": "Na željezničkoj stanici",
+        "titleEs": "en la estacion de tren",
+        "titleBg": "На гарата",
+        "titleEl": "Στο σιδηροδρομικό σταθμό",
         "lines": [
           {
             "speaker": "Kunde",
             "de": "Eine Fahrkarte nach München, bitte.",
             "ar": "تذكرة إلى ميونيخ من فضلك.",
-            "en": "A ticket to Munich, please.",
-            "tr": "Münih'e bir bilet lütfen.",
-            "ro": "Un bilet la Munchen, te rog.",
+            "en": "Ticket to Munich please.",
+            "tr": "Münih'e bilet lütfen.",
+            "ro": "Te rog bilet la Munchen.",
             "bs": "Kartu za Minhen, molim.",
-            "es": "Un billete a Munich, por favor.",
+            "es": "Billete a Munich por favor.",
             "bg": "Билет до Мюнхен, моля.",
-            "el": "Ένα εισιτήριο για Μόναχο, παρακαλώ."
+            "el": "Εισιτήριο για Μόναχο παρακαλώ."
           },
           {
             "speaker": "Beamter",
             "de": "Einfach oder hin und zurück?",
             "ar": "ذهاب فقط أم ذهاباً وعودة؟",
-            "en": "One-way or return?",
-            "tr": "Gidiş mi gidiş-dönüş mü?",
-            "ro": "Dus-întors sau retur?",
+            "en": "One-way or round-trip?",
+            "tr": "Tek yön mü, gidiş-dönüş mü?",
+            "ro": "Dus-întors sau dus-întors?",
             "bs": "Jednosmjerno ili povratno?",
-            "es": "¿Ida o vuelta?",
-            "bg": "Еднопосочен или на връщане?",
-            "el": "Μονόδρομος ή με επιστροφή;"
+            "es": "¿Solo ida o ida y vuelta?",
+            "bg": "Еднопосочно или отиване и връщане?",
+            "el": "Απλή διαδρομή ή μετ' επιστροφής;"
+          },
+          {
+            "speaker": "Kunde",
+            "de": "Hin und zurück, bitte.",
+            "ar": "ذهاباً وعودة من فضلك.",
+            "en": "Back and forth please.",
+            "tr": "İleri geri lütfen.",
+            "ro": "Te rog înainte și înapoi.",
+            "bs": "Naprijed i naprijed molim.",
+            "es": "De ida y vuelta por favor.",
+            "bg": "Напред и назад, моля.",
+            "el": "Εμπρός και πίσω παρακαλώ."
+          },
+          {
+            "speaker": "Beamter",
+            "de": "Das macht 89 Euro.",
+            "ar": "المجموع 89 يورو.",
+            "en": "Total 89 euros.",
+            "tr": "Toplam 89 euro.",
+            "ro": "Total 89 euro.",
+            "bs": "Ukupno 89 eura.",
+            "es": "Total 89 euros.",
+            "bg": "Общо 89 евро.",
+            "el": "Σύνολο 89 ευρώ."
+          },
+          {
+            "speaker": "Kunde",
+            "de": "Von welchem Gleis fährt der Zug ab?",
+            "ar": "من أي رصيف يغادر القطار؟",
+            "en": "From which platform does the train leave?",
+            "tr": "Tren hangi perondan kalkıyor?",
+            "ro": "De pe ce peron pleacă trenul?",
+            "bs": "Sa kojeg perona polazi voz?",
+            "es": "¿Desde qué andén sale el tren?",
+            "bg": "От коя платформа тръгва влакът?",
+            "el": "Από ποια πλατφόρμα φεύγει το τρένο;"
+          },
+          {
+            "speaker": "Beamter",
+            "de": "Gleis 7.",
+            "ar": "الرصيف 7.",
+            "en": "Pier 7.",
+            "tr": "İskele 7.",
+            "ro": "Pier 7.",
+            "bs": "Pristanište 7.",
+            "es": "Muelle 7.",
+            "bg": "Кей 7.",
+            "el": "Προβλήτα 7."
           }
-        ],
-        "titleRo": "La Gara",
-        "titleBs": "Na željezničkoj stanici",
-        "titleEs": "En la estación de tren",
-        "titleBg": "На гарата",
-        "titleEl": "Στο Σιδηροδρομικό Σταθμό"
+        ]
       }
     ],
     "readingTexts": [
       {
         "title": "Der Fahrplan",
         "titleAr": "جدول المواعيد",
-        "titleEn": "The Timetable",
-        "titleTr": "Sefer Tarifesi",
+        "titleEn": "schedule",
+        "titleTr": "takvim",
+        "titleRo": "programa",
+        "titleBs": "raspored",
+        "titleEs": "cronograma",
+        "titleBg": "график",
+        "titleEl": "πρόγραμμα",
         "text": [
           {
             "de": "Der Zug nach Berlin fährt um 10:30 Uhr ab.",
             "ar": "القطار إلى برلين يغادر في الساعة 10:30.",
-            "en": "The train to Berlin departs at 10:30.",
-            "tr": "Berlin treni saat 10:30'da hareket ediyor.",
+            "en": "The train to Berlin leaves at 10:30.",
+            "tr": "Berlin'e giden tren 10:30'da kalkıyor.",
             "ro": "Trenul spre Berlin pleacă la 10:30.",
             "bs": "Voz za Berlin polazi u 10:30.",
             "es": "El tren a Berlín sale a las 10:30.",
             "bg": "Влакът за Берлин тръгва в 10:30.",
-            "el": "Το τρένο για το Βερολίνο αναχωρεί στις 10:30."
+            "el": "Το τρένο για το Βερολίνο φεύγει στις 10:30."
+          },
+          {
+            "de": "Er kommt um 14:15 Uhr an.",
+            "ar": "يصل في الساعة 14:15.",
+            "en": "Arrives at 14:15.",
+            "tr": "14:15'te varır.",
+            "ro": "Sosește la 14:15.",
+            "bs": "Dolazi u 14:15.",
+            "es": "Llegada a las 14:15.",
+            "bg": "Пристига в 14:15ч.",
+            "el": "Άφιξη στις 14:15."
+          },
+          {
+            "de": "Die Fahrt dauert etwa 4 Stunden.",
+            "ar": "الرحلة تستغرق حوالي 4 ساعات.",
+            "en": "The flight takes about 4 hours.",
+            "tr": "Uçuş yaklaşık 4 saat sürüyor.",
+            "ro": "Zborul durează aproximativ 4 ore.",
+            "bs": "Let traje oko 4 sata.",
+            "es": "El vuelo dura unas 4 horas.",
+            "bg": "Полетът отнема около 4 часа.",
+            "el": "Η πτήση διαρκεί περίπου 4 ώρες."
           }
         ],
         "questions": [
           {
             "q": "Wann fährt der Zug ab?",
             "qAr": "متى يغادر القطار؟",
-            "qEn": "When does the train depart?",
-            "qTr": "Tren ne zaman hareket ediyor?",
             "answer": "Um 10:30 Uhr",
             "answerAr": "في الساعة 10:30",
+            "qEn": "When does the train leave?",
             "answerEn": "At 10:30",
-            "answerTr": "Saat 10:30'da",
+            "qTr": "Tren ne zaman kalkıyor?",
+            "answerTr": "10:30'da",
             "qRo": "Când pleacă trenul?",
             "answerRo": "La 10:30",
             "qBs": "Kada polazi voz?",
@@ -3511,15 +4977,10 @@ const CURRICULUM = [
             "answerEs": "A las 10:30",
             "qBg": "Кога тръгва влакът?",
             "answerBg": "В 10:30ч",
-            "qEl": "Πότε αναχωρεί το τρένο;",
+            "qEl": "Πότε φεύγει το τρένο;",
             "answerEl": "Στις 10:30"
           }
-        ],
-        "titleRo": "Orarul",
-        "titleBs": "Raspored",
-        "titleEs": "El horario",
-        "titleBg": "Разписанието",
-        "titleEl": "Το χρονοδιάγραμμα"
+        ]
       }
     ],
     "grammar": [
@@ -3527,37 +4988,99 @@ const CURRICULUM = [
         "id": "wegbeschreibung",
         "title": "وصف الطريق",
         "titleDe": "Wegbeschreibung",
-        "titleEn": "Giving Directions",
-        "titleTr": "Yol Tarifi",
-        "explanation": "مجموعة من العبارات الهامة لتوجيه الآخرين ووصف الطرق والأماكن.",
-        "explanationEn": "Key phrases to guide others and describe routes and places.",
-        "explanationTr": "Başkalarını yönlendirmek, yolları ve yerleri tarif etmek için önemli ifadeler.",
+        "explanation": "كلمات مهمة لوصف الطريق.",
+        "titleEn": "Route description",
+        "explanationEn": "Important words to describe the road.",
+        "titleTr": "Rota açıklaması",
+        "explanationTr": "Yolu tanımlayan önemli kelimeler.",
+        "titleRo": "Descrierea traseului",
+        "explanationRo": "Cuvinte importante pentru a descrie drumul.",
+        "titleBs": "Opis rute",
+        "explanationBs": "Važne riječi za opis puta.",
+        "titleEs": "Descripción de la ruta",
+        "explanationEs": "Palabras importantes para describir el camino.",
+        "titleBg": "Описание на маршрута",
+        "explanationBg": "Важни думи за описание на пътя.",
+        "titleEl": "Περιγραφή διαδρομής",
+        "explanationEl": "Σημαντικές λέξεις για να περιγράψεις τον δρόμο.",
         "rules": [
           {
             "example": "Gehen Sie geradeaus.",
             "translation": "اذهب إلى الأمام مباشرة.",
-            "translationEn": "Go straight ahead.",
-            "translationTr": "Düz gidin.",
             "note": "",
+            "translationEn": "Go straight ahead.",
             "noteEn": "",
+            "translationTr": "Dümdüz ilerleyin.",
             "noteTr": "",
             "translationRo": "Mergeți drept înainte.",
+            "noteRo": "",
             "translationBs": "Samo napred.",
+            "noteBs": "",
             "translationEs": "Siga recto.",
+            "noteEs": "",
             "translationBg": "Давай направо напред.",
-            "translationEl": "Προχώρα ευθεία."
+            "noteBg": "",
+            "translationEl": "Προχώρα ευθεία.",
+            "noteEl": ""
+          },
+          {
+            "example": "Biegen Sie rechts/links ab.",
+            "translation": "انعطف يميناً/يساراً.",
+            "note": "",
+            "translationEn": "Turn right/left.",
+            "noteEn": "",
+            "translationTr": "Sağa/sola dönün.",
+            "noteTr": "",
+            "translationRo": "Virați la dreapta/la stânga.",
+            "noteRo": "",
+            "translationBs": "Skrenite desno/lijevo.",
+            "noteBs": "",
+            "translationEs": "Gire a la derecha/izquierda.",
+            "noteEs": "",
+            "translationBg": "Завийте надясно/наляво.",
+            "noteBg": "",
+            "translationEl": "Στρίψτε δεξιά/αριστερά.",
+            "noteEl": ""
+          },
+          {
+            "example": "Die nächste Straße links.",
+            "translation": "الشارع التالي على اليسار.",
+            "note": "",
+            "translationEn": "Next street on the left.",
+            "noteEn": "",
+            "translationTr": "Soldaki sonraki sokak.",
+            "noteTr": "",
+            "translationRo": "Următoarea stradă pe stânga.",
+            "noteRo": "",
+            "translationBs": "Sljedeća ulica lijevo.",
+            "noteBs": "",
+            "translationEs": "Siguiente calle a la izquierda.",
+            "noteEs": "",
+            "translationBg": "Следващата улица вляво.",
+            "noteBg": "",
+            "translationEl": "Επόμενος δρόμος στα αριστερά.",
+            "noteEl": ""
+          },
+          {
+            "example": "Nehmen Sie die U-Bahn.",
+            "translation": "خذ مترو الأنفاق.",
+            "note": "",
+            "translationEn": "Take the subway.",
+            "noteEn": "",
+            "translationTr": "Metroya binin.",
+            "noteTr": "",
+            "translationRo": "Luați metroul.",
+            "noteRo": "",
+            "translationBs": "Idite podzemnom.",
+            "noteBs": "",
+            "translationEs": "Toma el metro.",
+            "noteEs": "",
+            "translationBg": "Вземете метрото.",
+            "noteBg": "",
+            "translationEl": "Πάρτε το μετρό.",
+            "noteEl": ""
           }
-        ],
-        "titleRo": "Dând direcții",
-        "explanationRo": "Expresii cheie pentru a-i ghida pe alții și pentru a descrie trasee și locuri.",
-        "titleBs": "Davanje uputstava",
-        "explanationBs": "Ključne fraze za usmjeravanje drugih i opisivanje ruta i mjesta.",
-        "titleEs": "Dar direcciones",
-        "explanationEs": "Frases clave para guiar a otros y describir rutas y lugares.",
-        "titleBg": "Даване на указания",
-        "explanationBg": "Ключови фрази за насочване на другите и описание на маршрути и места.",
-        "titleEl": "Δίνοντας Οδηγίες",
-        "explanationEl": "Φράσεις κλειδιά που καθοδηγούν τους άλλους και περιγράφουν διαδρομές και μέρη."
+        ]
       }
     ],
     "exercises": [
@@ -3565,120 +5088,78 @@ const CURRICULUM = [
         "type": "mcq",
         "question": "Was bedeutet 'hin und zurück'?",
         "questionAr": "ما معنى hin und zurück؟",
-        "questionEn": "What does 'hin und zurück' mean?",
-        "questionTr": "'hin und zurück' ne anlama gelir?",
-        "options": [
-          "ذهاب فقط / One-way ticket / Tek yön bilet / Bilet dus dus",
-          "عودة فقط / Return only / Sadece dönüş / Retur numai",
-          "ذهاباً وعودة / Round-trip ticket / Gidiş-dönüş bilet / Bilet dus-întors",
-          "بدون تذكرة / Without a ticket / Biletsiz / Fără bilet"
-        ],
         "answer": 2,
-        "questionRo": "Ce înseamnă „hin und zurück”?",
-        "questionBs": "Šta znači 'hin und zurück'?",
-        "questionEs": "¿Qué significa \"hin und zurück\"?",
-        "questionBg": "Какво означава „hin und zurück“?",
-        "questionEl": "Τι σημαίνει «hin und zurück»;"
+        "questionEn": "What is the meaning of hin and zurück?",
+        "questionTr": "Hin ve zurück'ün anlamı nedir?",
+        "questionRo": "Ce înseamnă hin și zurück?",
+        "questionBs": "Šta znači hin i zurück?",
+        "questionEs": "¿Cuál es el significado de hin y zurück?",
+        "questionBg": "Какво е значението на hin и zurück?",
+        "questionEl": "Τι σημαίνει το hin και το zurück;",
+        "options": [
+          "ذهاب فقط",
+          "عودة فقط",
+          "ذهاباً وعودة",
+          "بدون تذكرة"
+        ],
+        "optionsEn": [
+          "One way only",
+          "Return only",
+          "Back and forth",
+          "Without a ticket"
+        ],
+        "optionsTr": [
+          "Yalnızca tek yön",
+          "Yalnızca iade",
+          "İleri geri",
+          "Bilet olmadan"
+        ],
+        "optionsRo": [
+          "O singură cale",
+          "Retur numai",
+          "Înainte şi înapoi",
+          "Fără bilet"
+        ],
+        "optionsBs": [
+          "Samo na jedan način",
+          "Samo povratak",
+          "Naprijed i naprijed",
+          "Bez karte"
+        ],
+        "optionsEs": [
+          "Solo de una manera",
+          "Sólo devolución",
+          "De aquí para allí",
+          "sin billete"
+        ],
+        "optionsBg": [
+          "Само по един начин",
+          "Само връщане",
+          "Напред и назад",
+          "Без билет"
+        ],
+        "optionsEl": [
+          "Μόνο ένας τρόπος",
+          "Επιστροφή μόνο",
+          "Πηγαινοέρχομαι",
+          "Χωρίς εισιτήριο"
+        ]
       }
-    ],
-    "writingPrompts": [
-      {
-        "prompt": "اكتب تعليمات للوصول إلى مكانك",
-        "promptDe": "Schreiben Sie eine Wegbeschreibung",
-        "promptEn": "Write directions to reach your place",
-        "promptTr": "Evinize ulaşım için yol tarifi yazın",
-        "helpers": [
-          "Nehmen Sie die U-Bahn...",
-          "Biegen Sie links ab..."
-        ],
-        "helpersEn": [
-          "Take the subway...",
-          "Turn left..."
-        ],
-        "helpersTr": [
-          "Metroya binin...",
-          "Sola dönün..."
-        ],
-        "example": "Nehmen Sie die U-Bahn Alexanderplatz. Gehen Sie geradeaus. Biegen Sie links ab.",
-        "promptRo": "Scrieți indicații pentru a ajunge la locul dvs",
-        "helpersRo": [
-          "Ia metroul...",
-          "Viraj la stânga..."
-        ],
-        "promptBs": "Napišite upute kako doći do vašeg mjesta",
-        "promptEs": "Escribe direcciones para llegar a tu lugar.",
-        "promptBg": "Напишете упътвания за достигане до вашето място",
-        "promptEl": "Γράψτε οδηγίες για να φτάσετε στη θέση σας"
-      }
-    ],
-    "speakingPhrases": [
-      {
-        "de": "Entschuldigung, wie komme ich zum Bahnhof?",
-        "ar": "عذراً، كيف أصل إلى محطة القطار؟",
-        "en": "Excuse me, how do I get to the station?",
-        "tr": "Affedersiniz, istasyona nasıl gidebilirim?",
-        "ro": "Scuză-mă, cum ajung la gară?",
-        "bs": "Izvinite, kako da dođem do stanice?",
-        "es": "Disculpe, ¿cómo llego a la estación?",
-        "bg": "Извинете, как да стигна до гарата?",
-        "el": "Με συγχωρείτε, πώς θα πάω στο σταθμό;"
-      },
-      {
-        "de": "Von welchem Gleis?",
-        "ar": "من أي رصيف؟",
-        "en": "From which platform?",
-        "tr": "Hangi perondan?",
-        "ro": "De pe ce platformă?",
-        "bs": "Sa koje platforme?",
-        "es": "¿Desde qué plataforma?",
-        "bg": "От коя платформа?",
-        "el": "Από ποια πλατφόρμα;"
-      }
-    ],
-    "titleRo": "În mișcare",
-    "topicsRo": [
-      "Mijloace de transport",
-      "Gară",
-      "Direcții"
-    ],
-    "canDoRo": "Pot cere indicații și pot cumpăra un bilet de tren",
-    "titleBs": "U pokretu",
-    "topicsBs": [
-      "Transportna sredstva",
-      "Željeznička stanica",
-      "Upute"
-    ],
-    "canDoBs": "Mogu pitati za put i kupiti kartu za voz",
-    "titleEs": "En movimiento",
-    "topicsEs": [
-      "Medios de transporte",
-      "Estación de tren",
-      "Instrucciones"
-    ],
-    "canDoEs": "Puedo pedir direcciones y comprar un billete de tren.",
-    "titleBg": "В движение",
-    "topicsBg": [
-      "Транспортни средства",
-      "ЖП гара",
-      "Упътвания"
-    ],
-    "canDoBg": "Мога да попитам за посоката и да купя билет за влак",
-    "titleEl": "Εν κινήσει",
-    "topicsEl": [
-      "Μέσα μεταφοράς",
-      "σιδηροδρομικός σταθμός",
-      "Οδηγίες"
-    ],
-    "canDoEl": "Μπορώ να ζητήσω οδηγίες και να αγοράσω εισιτήριο τρένου"
+    ]
   },
   {
     "id": 10,
     "titleDe": "Freizeit und Hobbys",
     "titleAr": "وقت الفراغ والهوايات",
-    "titleEn": "Leisure & Hobbys",
-    "titleTr": "Boş Zamanlar ve Hobiler",
     "emoji": "⚽",
     "color": "#fbbf24",
+    "titleEn": "Free time and hobbies",
+    "titleTr": "Boş zaman ve hobiler",
+    "titleRo": "Timp liber și hobby-uri",
+    "titleBs": "Slobodno vrijeme i hobiji",
+    "titleEs": "Tiempo libre y pasatiempos",
+    "titleBg": "Свободно време и хобита",
+    "titleEl": "Ελεύθερος χρόνος και χόμπι",
     "topics": [
       "الهوايات",
       "الرياضة",
@@ -3688,31 +5169,90 @@ const CURRICULUM = [
     "topicsEn": [
       "Hobbies",
       "Sports",
-      "Leisure",
+      "Entertainment",
       "Invitation"
     ],
     "topicsTr": [
       "Hobiler",
       "Spor",
-      "Boş zaman",
+      "Eğlence",
       "Davet"
     ],
+    "topicsRo": [
+      "Hobby-uri",
+      "Sport",
+      "Divertisment",
+      "Invitaţie"
+    ],
+    "topicsBs": [
+      "Hobiji",
+      "Sports",
+      "Zabava",
+      "Poziv"
+    ],
+    "topicsEs": [
+      "Pasatiempos",
+      "Deportes",
+      "Entretenimiento",
+      "Invitación"
+    ],
+    "topicsBg": [
+      "Хоби",
+      "Спорт",
+      "Развлечение",
+      "Покана"
+    ],
+    "topicsEl": [
+      "Χόμπι",
+      "Αθλητισμός",
+      "Ψυχαγωγία",
+      "Πρόσκληση"
+    ],
     "canDo": "أستطيع أن أتحدث عن هواياتي وأدعو شخصاً",
+    "canDoDe": "Ich kann über Hobbys sprechen und jemanden einladen",
     "canDoEn": "I can talk about my hobbies and invite someone",
     "canDoTr": "Hobilerim hakkında konuşabilir ve birini davet edebilirim",
-    "canDoDe": "Ich kann über Hobbys sprechen und jemanden einladen",
+    "canDoRo": "Pot să vorbesc despre hobby-urile mele și să invit pe cineva",
+    "canDoBs": "Mogu pričati o svojim hobijima i pozvati nekoga",
+    "canDoEs": "Puedo hablar de mis aficiones e invitar a alguien.",
+    "canDoBg": "Мога да говоря за моите хобита и да поканя някого",
+    "canDoEl": "Μπορώ να μιλήσω για τα χόμπι μου και να προσκαλέσω κάποιον",
     "audioFiles": [
       {
         "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD2/23_langenschidt_-_9.1_-_das_wochenende.mp3",
         "label": "9.1 - Das Wochenende",
         "labelAr": "عطلة نهاية الأسبوع",
-        "labelEn": "9.1 - The Weekend",
-        "labelTr": "9.1 - Hafta sonu",
-        "labelRo": "9.1 - Weekend-ul",
-        "labelBs": "9.1 - Vikend",
-        "labelEs": "9.1 - El fin de semana",
-        "labelBg": "9.1 - Уикендът",
-        "labelEl": "9.1 - Το Σαββατοκύριακο"
+        "labelEn": "Weekend",
+        "labelTr": "Hafta sonu",
+        "labelRo": "Weekend",
+        "labelBs": "Vikend",
+        "labelEs": "Fin de semana",
+        "labelBg": "Уикенд",
+        "labelEl": "Σαββατοκύριακο"
+      },
+      {
+        "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD2/26_langenschidt_-_9.7_-_das_fotoalbum_von_swetlana_riesen.mp3",
+        "label": "9.7 - Das Fotoalbum",
+        "labelAr": "ألبوم الصور",
+        "labelEn": "Photo album",
+        "labelTr": "Fotoğraf albümü",
+        "labelRo": "Album foto",
+        "labelBs": "Foto album",
+        "labelEs": "Álbum de fotos",
+        "labelBg": "Албум за снимки",
+        "labelEl": "Φωτογραφικό άλμπουμ"
+      },
+      {
+        "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD2/27_langenschidt_-_9.10c_-_wiener_geschichten.mp3",
+        "label": "9.10c - Wiener Geschichten",
+        "labelAr": "قصص فيينا",
+        "labelEn": "Vienna Stories",
+        "labelTr": "Viyana Hikayeleri",
+        "labelRo": "Povești de la Viena",
+        "labelBs": "Vienna Stories",
+        "labelEs": "Historias de Viena",
+        "labelBg": "Виенски истории",
+        "labelEl": "Ιστορίες της Βιέννης"
       }
     ],
     "dialogs": [
@@ -3721,6 +5261,11 @@ const CURRICULUM = [
         "titleAr": "ماذا تفعل في وقت فراغك؟",
         "titleEn": "What do you do in your free time?",
         "titleTr": "Boş zamanlarında ne yaparsın?",
+        "titleRo": "Ce faci în timpul liber?",
+        "titleBs": "Šta radiš u slobodno vrijeme?",
+        "titleEs": "¿Qué haces en tu tiempo libre?",
+        "titleBg": "Какво правиш в свободното си време?",
+        "titleEl": "Τι κάνεις στον ελεύθερο χρόνο σου;",
         "lines": [
           {
             "speaker": "Thomas",
@@ -3738,50 +5283,119 @@ const CURRICULUM = [
             "speaker": "Maria",
             "de": "Ich spiele gern Fußball. Und du?",
             "ar": "أحب لعب كرة القدم. وأنت؟",
-            "en": "I like to play football. And you?",
-            "tr": "Futbol oynamayı severim. Ya sen?",
+            "en": "I love playing football. And you?",
+            "tr": "Futbol oynamayı seviyorum. Ve sen?",
             "ro": "Îmi place să joc fotbal. Și tu?",
             "bs": "Volim da igram fudbal. A ti?",
-            "es": "Me gusta jugar al fútbol. ¿Y tú?",
+            "es": "Me encanta jugar al fútbol. ¿Y tú?",
             "bg": "Обичам да играя футбол. а ти",
             "el": "Μου αρέσει να παίζω ποδόσφαιρο. Και εσύ;"
+          },
+          {
+            "speaker": "Thomas",
+            "de": "Ich lese gern Bücher und höre Musik.",
+            "ar": "أحب قراءة الكتب وسماع الموسيقى.",
+            "en": "I love reading books and listening to music.",
+            "tr": "Kitap okumayı ve müzik dinlemeyi seviyorum.",
+            "ro": "Îmi place să citesc cărți și să ascult muzică.",
+            "bs": "Volim da čitam knjige i slušam muziku.",
+            "es": "Me encanta leer libros y escuchar música.",
+            "bg": "Обичам да чета книги и да слушам музика.",
+            "el": "Μου αρέσει να διαβάζω βιβλία και να ακούω μουσική."
+          },
+          {
+            "speaker": "Maria",
+            "de": "Spielst du Fußball? Wir brauchen einen Spieler.",
+            "ar": "هل تلعب كرة القدم؟ نحتاج لاعباً.",
+            "en": "Do you play football? We need a player.",
+            "tr": "Futbol oynar mısın? Bir oyuncuya ihtiyacımız var.",
+            "ro": "joci fotbal? Avem nevoie de un jucător.",
+            "bs": "Igraš li fudbal? Treba nam igrač.",
+            "es": "¿Juegas al fútbol? Necesitamos un jugador.",
+            "bg": "играеш ли футбол Имаме нужда от играч.",
+            "el": "Παίζεις ποδόσφαιρο; Χρειαζόμαστε έναν παίκτη."
+          },
+          {
+            "speaker": "Thomas",
+            "de": "Ja, ich komme!",
+            "ar": "نعم، سأتي!",
+            "en": "Yes, I will come!",
+            "tr": "Evet, geleceğim!",
+            "ro": "Da, voi veni!",
+            "bs": "Da, doći ću!",
+            "es": "¡Sí, iré!",
+            "bg": "Да, ще дойда!",
+            "el": "Ναι, θα έρθω!"
           }
-        ],
-        "titleRo": "Ce faci în timpul liber?",
-        "titleBs": "Šta radiš u slobodno vrijeme?",
-        "titleEs": "¿Qué haces en tu tiempo libre?",
-        "titleBg": "Какво правиш в свободното си време?",
-        "titleEl": "Τι κάνεις στον ελεύθερο χρόνο σου;"
+        ]
       }
     ],
     "readingTexts": [
       {
         "title": "Mein Hobby",
         "titleAr": "هوايتي",
-        "titleEn": "My Hobby",
-        "titleTr": "Hobim",
+        "titleEn": "My hobby",
+        "titleTr": "benim hobim",
+        "titleRo": "Hobby-ul meu",
+        "titleBs": "Moj hobi",
+        "titleEs": "mi pasatiempo",
+        "titleBg": "Моето хоби",
+        "titleEl": "Το χόμπι μου",
         "text": [
           {
             "de": "Ich heiße Sarah. Mein Hobby ist Fotografieren.",
             "ar": "اسمي سارة. هوايتي التصوير.",
             "en": "My name is Sarah. My hobby is photography.",
-            "tr": "Adım Sarah. Hobim fotoğraf çekmek.",
+            "tr": "Benim adım Sarah. Hobim fotoğrafçılıktır.",
             "ro": "Numele meu este Sarah. Hobby-ul meu este fotografia.",
             "bs": "Moje ime je Sarah. Moj hobi je fotografija.",
             "es": "Mi nombre es Sara. Mi hobby es la fotografía.",
             "bg": "Казвам се Сара. Моето хоби е фотографията.",
-            "el": "Το όνομά μου είναι Σάρα. Το χόμπι μου είναι η φωτογραφία."
+            "el": "My name is Sarah. Το χόμπι μου είναι η φωτογραφία."
+          },
+          {
+            "de": "Ich fotografiere gern Menschen und Landschaften.",
+            "ar": "أحب تصوير الناس والمناظر الطبيعية.",
+            "en": "I love photographing people and landscapes.",
+            "tr": "İnsanları ve manzaraları fotoğraflamayı seviyorum.",
+            "ro": "أحب تصوير الناس والمناظر الطبيعية.",
+            "bs": "Volim da fotografišem ljude i pejzaže.",
+            "es": "Me encanta fotografiar personas y paisajes.",
+            "bg": "Обичам да снимам хора и пейзажи.",
+            "el": "Μου αρέσει να φωτογραφίζω ανθρώπους και τοπία."
+          },
+          {
+            "de": "Am Wochenende gehe ich in den Park.",
+            "ar": "في عطلة الأسبوع أذهب إلى الحديقة.",
+            "en": "On the weekend I go to the park.",
+            "tr": "في عطلة الأسبوع أذهب إلى الحديقة.",
+            "ro": "In weekend merg in parc.",
+            "bs": "Za vikend idem u park.",
+            "es": "El fin de semana voy al parque.",
+            "bg": "През уикенда ходя в парка.",
+            "el": "Το Σαββατοκύριακο πηγαίνω στο πάρκο."
+          },
+          {
+            "de": "Das macht mir viel Spaß!",
+            "ar": "هذا يسعدني كثيراً!",
+            "en": "This makes me very happy!",
+            "tr": "Bu beni çok mutlu ediyor!",
+            "ro": "Acest lucru mă face foarte fericit!",
+            "bs": "Ovo me čini veoma srećnim!",
+            "es": "¡Esto me hace muy feliz!",
+            "bg": "Това много ме радва!",
+            "el": "Αυτό με κάνει πολύ χαρούμενο!"
           }
         ],
         "questions": [
           {
-            "q": "Was is Sarahs Hobby?",
+            "q": "Was ist Sarahs Hobby?",
             "qAr": "ما هواية سارة؟",
-            "qEn": "What is Sarah's hobby?",
-            "qTr": "Sarah'nin hobisi nedir?",
             "answer": "Fotografieren",
             "answerAr": "التصوير",
+            "qEn": "What is Sarah's hobby?",
             "answerEn": "Photography",
+            "qTr": "Sarah'nın hobisi nedir?",
             "answerTr": "Fotoğrafçılık",
             "qRo": "Care este hobby-ul lui Sarah?",
             "answerRo": "Fotografie",
@@ -3794,12 +5408,7 @@ const CURRICULUM = [
             "qEl": "Ποιο είναι το χόμπι της Σάρα;",
             "answerEl": "Φωτογραφία"
           }
-        ],
-        "titleRo": "Hobby-ul meu",
-        "titleBs": "Moj hobi",
-        "titleEs": "mi pasatiempo",
-        "titleBg": "Моето хоби",
-        "titleEl": "Το χόμπι μου"
+        ]
       }
     ],
     "grammar": [
@@ -3807,37 +5416,80 @@ const CURRICULUM = [
         "id": "gern",
         "title": "التعبير عن الإعجاب - gern / nicht gern",
         "titleDe": "Gern und nicht gern",
-        "titleEn": "Liking to do things: gern / nicht gern",
-        "titleTr": "Severek Yapılan Şeyler: gern / nicht gern",
-        "explanation": "نستخدم gern للتعبير عن شيء نحب القيام به وتأتي مباشرة بعد الفعل المصرف.",
-        "explanationEn": "We use 'gern' to express that we like doing something, placed right after the conjugated verb.",
-        "explanationTr": "Bir şeyi severek yaptığımızı belirtmek için 'gern' kullanırız, çekimli fiilden hemen sonra gelir.",
+        "explanation": "نستخدم gern للتعبير عن شيء نحبه.",
+        "titleEn": "Expression of admiration - gern / nicht gern",
+        "explanationEn": "We use gern to express something we like.",
+        "titleTr": "Hayranlık ifadesi - gern / nicht gern",
+        "explanationTr": "Hoşumuza giden bir şeyi ifade etmek için gern kullanırız.",
+        "titleRo": "Exprimarea admirației - gern / nicht gern",
+        "explanationRo": "Folosim gern pentru a exprima ceva ce ne place.",
+        "titleBs": "Izraz divljenja - gern / nicht gern",
+        "explanationBs": "Koristimo gern da izrazimo nešto što nam se sviđa.",
+        "titleEs": "Expresión de admiración - gern / nicht gern",
+        "explanationEs": "Usamos germen para expresar algo que nos gusta.",
+        "titleBg": "Израз на възхищение - gern / nicht gern",
+        "explanationBg": "Използваме gern, за да изразим нещо, което харесваме.",
+        "titleEl": "Έκφραση θαυμασμού - gern / nicht gern",
+        "explanationEl": "Χρησιμοποιούμε το gern για να εκφράσουμε κάτι που μας αρέσει.",
         "rules": [
           {
             "example": "Ich spiele gern Tennis.",
             "translation": "أحب لعب التنس.",
-            "translationEn": "I like playing tennis.",
+            "note": "gern بعد الفعل",
+            "translationEn": "I like to play tennis.",
+            "noteEn": "gern after the verb",
             "translationTr": "Tenis oynamayı severim.",
-            "note": "",
-            "noteEn": "",
-            "noteTr": "",
+            "noteTr": "fiilden sonra gern",
             "translationRo": "Îmi place să joc tenis.",
+            "noteRo": "gern după verb",
             "translationBs": "Volim da igram tenis.",
-            "translationEs": "Me gusta jugar al tenis.",
+            "noteBs": "gern iza glagola",
+            "translationEs": "Me gusta jugar tenis.",
+            "noteEs": "gern después del verbo",
             "translationBg": "Обичам да играя тенис.",
-            "translationEl": "Μου αρέσει να παίζω τένις."
+            "noteBg": "gern след глагола",
+            "translationEl": "Μου αρέσει να παίζω τένις.",
+            "noteEl": "γερν μετά το ρήμα"
+          },
+          {
+            "example": "Ich lese nicht gern.",
+            "translation": "لا أحب القراءة.",
+            "note": "nicht gern = لا أحب",
+            "translationEn": "I don't like reading.",
+            "noteEn": "nicht gern = I don't like",
+            "translationTr": "Okumayı sevmiyorum.",
+            "noteTr": "nicht gern = sevmiyorum",
+            "translationRo": "Nu-mi place să citesc.",
+            "noteRo": "nicht gern = nu-mi place",
+            "translationBs": "Ne volim čitati.",
+            "noteBs": "nicht gern = Ne sviđa mi se",
+            "translationEs": "No me gusta leer.",
+            "noteEs": "nicht gern = no me gusta",
+            "translationBg": "Не обичам да чета.",
+            "noteBg": "nicht gern = не ми харесва",
+            "translationEl": "Δεν μου αρέσει να διαβάζω.",
+            "noteEl": "nicht gern = δεν μου αρέσει"
+          },
+          {
+            "example": "Ich schwimme sehr gern.",
+            "translation": "أحب السباحة كثيراً.",
+            "note": "sehr gern = أحب جداً",
+            "translationEn": "I like swimming very much.",
+            "noteEn": "sehr gern = I love very much",
+            "translationTr": "Yüzmeyi çok seviyorum.",
+            "noteTr": "sehr gern = çok seviyorum",
+            "translationRo": "Îmi place foarte mult să înot.",
+            "noteRo": "sehr gern = Iubesc foarte mult",
+            "translationBs": "Jako volim plivanje.",
+            "noteBs": "sehr gern = Mnogo volim",
+            "translationEs": "Me gusta mucho nadar.",
+            "noteEs": "sehr gern = te amo mucho",
+            "translationBg": "Много обичам да плувам.",
+            "noteBg": "sehr gern = много обичам",
+            "translationEl": "Μου αρέσει πολύ το κολύμπι.",
+            "noteEl": "σεχρ γερν = αγαπώ πολύ"
           }
-        ],
-        "titleRo": "Îmi place să facă lucruri: gern / nicht gern",
-        "explanationRo": "Folosim „gern” pentru a exprima că ne place să facem ceva, plasat imediat după verbul conjugat.",
-        "titleBs": "Voli raditi stvari: gern / nicht gern",
-        "explanationBs": "Koristimo 'gern' da izrazimo da volimo nešto raditi, smješteno odmah iza konjugiranog glagola.",
-        "titleEs": "Gustar de hacer cosas: gern / nicht gern",
-        "explanationEs": "Usamos 'gern' para expresar que nos gusta hacer algo, colocado justo después del verbo conjugado.",
-        "titleBg": "Обичам да правя неща: gern / nicht gern",
-        "explanationBg": "Използваме „gern“, за да изразим, че ни харесва да правим нещо, поставено точно след спрегнатия глагол.",
-        "titleEl": "Μου αρέσει να κάνω πράγματα: gern / nicht gern",
-        "explanationEl": "Χρησιμοποιούμε το «gern» για να εκφράσουμε ότι μας αρέσει να κάνουμε κάτι, τοποθετημένο ακριβώς μετά το συζευγμένο ρήμα."
+        ]
       }
     ],
     "exercises": [
@@ -3845,156 +5497,175 @@ const CURRICULUM = [
         "type": "mcq",
         "question": "Ich spiele gern Fußball. Was bedeutet 'gern'?",
         "questionAr": "ما معنى gern هنا؟",
-        "questionEn": "What does 'gern' mean here?",
-        "questionTr": "Buradaki 'gern' ne anlama geliyor?",
-        "options": [
-          "لا أريد / لا أحب / I don't like / Sevmiyorum / لا أحب",
-          "أحب / يعجبني / I like to / Severek (beğenerek) / يعجبني",
-          "أستطيع / I can / Yapabilirim / pot",
-          "يجب / I must / Yapmalıyım / Eu trebuie"
-        ],
         "answer": 1,
-        "questionRo": "Ce înseamnă „gern” aici?",
-        "questionBs": "Šta ovde znači \"gern\"?",
-        "questionEs": "¿Qué significa aquí \"gern\"?",
-        "questionBg": "Какво означава „gern“ тук?",
-        "questionEl": "Τι σημαίνει εδώ το «gern»;"
+        "questionEn": "What does gern mean here?",
+        "questionTr": "Gern burada ne anlama geliyor?",
+        "questionRo": "Ce înseamnă gern aici?",
+        "questionBs": "Šta gern znači ovdje?",
+        "questionEs": "¿Qué significa gern aquí?",
+        "questionBg": "Какво означава gern тук?",
+        "questionEl": "Τι σημαίνει εδώ το Gern;",
+        "options": [
+          "لا أحب",
+          "أحب/يعجبني",
+          "أستطيع",
+          "يجب"
+        ],
+        "optionsEn": [
+          "I don't like",
+          "I like/I like",
+          "I can",
+          "He should"
+        ],
+        "optionsTr": [
+          "hoşuma gitmedi",
+          "hoşuma gitti/beğendim",
+          "Yapabilirim",
+          "O yapmalı"
+        ],
+        "optionsRo": [
+          "Nu-mi place",
+          "imi place/mi place",
+          "pot",
+          "Ar trebui"
+        ],
+        "optionsBs": [
+          "ne volim",
+          "Sviđa mi se/sviđa mi se",
+          "mogu",
+          "Trebao bi"
+        ],
+        "optionsEs": [
+          "no me gusta",
+          "me gusta/me gusta",
+          "Puedo",
+          "el deberia"
+        ],
+        "optionsBg": [
+          "не ми харесва",
+          "харесвам/харесвам",
+          "Аз мога",
+          "Той трябва"
+        ],
+        "optionsEl": [
+          "δεν μου αρέσει",
+          "μου αρέσει/μου αρέσει",
+          "μπορώ",
+          "Θα έπρεπε"
+        ]
       }
-    ],
-    "writingPrompts": [
-      {
-        "prompt": "اكتب عن هواياتك وما تحب",
-        "promptDe": "Schreiben Sie über Ihre Hobbys",
-        "promptEn": "Write about your hobbies and what you like",
-        "promptTr": "Hobileriniz ve sevdikleriniz hakkında yazın",
-        "helpers": [
-          "Mein Hobby ist...",
-          "Ich spiele gern..."
-        ],
-        "helpersEn": [
-          "My hobby is...",
-          "I like to play..."
-        ],
-        "helpersTr": [
-          "Hobim...",
-          "Severek oynarım..."
-        ],
-        "example": "Mein Hobby ist Fußball. Ich spiele sehr gern Fußball am Wochenende.",
-        "promptRo": "Scrieți despre hobby-urile dvs. și despre ce vă place",
-        "helpersRo": [
-          "Hobby-ul meu este...",
-          "imi place sa ma joc..."
-        ],
-        "promptBs": "Pišite o svojim hobijima i šta volite",
-        "promptEs": "Escribe sobre tus aficiones y lo que te gusta.",
-        "promptBg": "Пишете за вашите хобита и какво харесвате",
-        "promptEl": "Γράψε για τα χόμπι σου και τι σου αρέσει"
-      }
-    ],
-    "speakingPhrases": [
-      {
-        "de": "Was machst du gern?",
-        "ar": "ماذا تحب أن تفعل؟",
-        "en": "What do you like to do?",
-        "tr": "Ne yapmaktan hoşlanırsın?",
-        "ro": "Ce îţi place să faci?",
-        "bs": "šta voliš da radiš?",
-        "es": "¿Qué te gusta hacer?",
-        "bg": "какво обичаш да правиш",
-        "el": "Τι σου αρέσει να κάνεις;"
-      },
-      {
-        "de": "Das macht mir Spaß!",
-        "ar": "هذا يسعدني!",
-        "en": "That is fun for me!",
-        "tr": "Bu bana keyif veriyor!",
-        "ro": "Este distractiv pentru mine!",
-        "bs": "To mi je zabavno!",
-        "es": "¡Eso es divertido para mí!",
-        "bg": "Това е забавно за мен!",
-        "el": "Αυτό είναι διασκεδαστικό για μένα!"
-      }
-    ],
-    "titleRo": "Timp liber și hobby-uri",
-    "topicsRo": [
-      "Hobby-uri",
-      "Sport",
-      "Timp liber",
-      "Invitaţie"
-    ],
-    "canDoRo": "Pot să vorbesc despre hobby-urile mele și să invit pe cineva",
-    "titleBs": "Slobodno vrijeme i hobiji",
-    "topicsBs": [
-      "Hobiji",
-      "Sports",
-      "Slobodno vrijeme",
-      "Poziv"
-    ],
-    "canDoBs": "Mogu pričati o svojim hobijima i pozvati nekoga",
-    "titleEs": "Ocio y pasatiempos",
-    "topicsEs": [
-      "Pasatiempos",
-      "Deportes",
-      "Ocio",
-      "Invitación"
-    ],
-    "canDoEs": "Puedo hablar de mis aficiones e invitar a alguien.",
-    "titleBg": "Свободно време и хоби",
-    "topicsBg": [
-      "Хоби",
-      "Спорт",
-      "свободно време",
-      "Покана"
-    ],
-    "canDoBg": "Мога да говоря за моите хобита и да поканя някого",
-    "titleEl": "Αναψυχή & Χόμπι",
-    "topicsEl": [
-      "Χόμπι",
-      "Αθλητισμός",
-      "Ελεύθερος χρόνος",
-      "Πρόσκληση"
-    ],
-    "canDoEl": "Μπορώ να μιλήσω για τα χόμπι μου και να προσκαλέσω κάποιον"
+    ]
   },
   {
     "id": 11,
     "titleDe": "Arbeit und Beruf",
     "titleAr": "العمل والمهنة",
-    "titleEn": "Work & Profession",
-    "titleTr": "İş ve Meslek",
     "emoji": "💼",
     "color": "#34d399",
+    "titleEn": "Work and profession",
+    "titleTr": "İş ve meslek",
+    "titleRo": "Munca si profesie",
+    "titleBs": "Posao i profesija",
+    "titleEs": "Trabajo y profesión",
+    "titleBg": "Работа и професия",
+    "titleEl": "Εργασία και επάγγελμα",
     "topics": [
       "المهن",
       "بيئة العمل",
       "البحث عن عمل"
     ],
     "topicsEn": [
-      "Occupations",
-      "Workplace",
-      "Job search"
+      "Professions",
+      "Work environment",
+      "Search for work"
     ],
     "topicsTr": [
       "Meslekler",
-      "İş yeri",
-      "İş arama"
+      "Çalışma ortamı",
+      "İş ara"
+    ],
+    "topicsRo": [
+      "Profesii",
+      "Mediul de lucru",
+      "Caută de lucru"
+    ],
+    "topicsBs": [
+      "Profesije",
+      "Radno okruženje",
+      "Traži posao"
+    ],
+    "topicsEs": [
+      "Profesiones",
+      "Ambiente de trabajo",
+      "buscar trabajo"
+    ],
+    "topicsBg": [
+      "Професии",
+      "Работна среда",
+      "Търсене на работа"
+    ],
+    "topicsEl": [
+      "Επαγγέλματα",
+      "Εργασιακό περιβάλλον",
+      "Αναζήτηση για δουλειά"
     ],
     "canDo": "أستطيع أن أتحدث عن عملي وأفهم إعلانات الوظائف",
-    "canDoEn": "I can talk about my job and understand job advertisements",
-    "canDoTr": "Mesleğim hakkında konuşabilir ve iş ilanlarını anlayabilirim",
     "canDoDe": "Ich kann über meinen Beruf sprechen und Stellenanzeigen verstehen",
+    "canDoEn": "I can talk about my work and understand job advertisements",
+    "canDoTr": "İşim hakkında konuşabiliyorum ve iş ilanlarını anlayabiliyorum",
+    "canDoRo": "Pot să vorbesc despre munca mea și să înțeleg anunțurile de angajare",
+    "canDoBs": "Mogu pričati o svom poslu i razumjeti oglase za posao",
+    "canDoEs": "Puedo hablar sobre mi trabajo y entender los anuncios de empleo.",
+    "canDoBg": "Мога да говоря за работата си и да разбирам обявите за работа",
+    "canDoEl": "Μπορώ να μιλήσω για τη δουλειά μου και να κατανοήσω τις αγγελίες εργασίας",
     "audioFiles": [
       {
         "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD2/32_langenschidt_-_10.2_-_arbeitsalltag.mp3",
         "label": "10.2 - Arbeitsalltag",
         "labelAr": "روتين العمل اليومي",
-        "labelEn": "10.2 - Work Routine",
-        "labelTr": "10.2 - Günlük İş Rutini",
-        "labelRo": "10.2 - Rutina de lucru",
-        "labelBs": "10.2 - Radna rutina",
-        "labelEs": "10.2 - Rutina de trabajo",
-        "labelBg": "10.2 - Работна рутина",
-        "labelEl": "10.2 - Ρουτίνα εργασίας"
+        "labelEn": "Daily work routine",
+        "labelTr": "Günlük çalışma rutini",
+        "labelRo": "Rutina zilnică de lucru",
+        "labelBs": "Dnevna radna rutina",
+        "labelEs": "Rutina de trabajo diaria",
+        "labelBg": "Ежедневна работа",
+        "labelEl": "Καθημερινή ρουτίνα εργασίας"
+      },
+      {
+        "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD2/33_langenschidt_-_10.5_-_im_personalburo.mp3",
+        "label": "10.5 - Im Personalbüro",
+        "labelAr": "في مكتب شؤون الموظفين",
+        "labelEn": "In the Personnel Office",
+        "labelTr": "Personel Dairesi'nde",
+        "labelRo": "În Biroul de Personal",
+        "labelBs": "U Uredu za kadrove",
+        "labelEs": "En la oficina de personal",
+        "labelBg": "В службата за персонал",
+        "labelEl": "Στο Γραφείο Προσωπικού"
+      },
+      {
+        "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD2/36_langenschidt_-_10.10_-_zwei_telefongesprache,_gesprach_1.mp3",
+        "label": "10.10 - Telefongespräch (1)",
+        "labelAr": "مكالمة هاتفية 1",
+        "labelEn": "Phone call 1",
+        "labelTr": "Telefon görüşmesi 1",
+        "labelRo": "Apel telefonic 1",
+        "labelBs": "Telefonski poziv 1",
+        "labelEs": "llamada telefónica 1",
+        "labelBg": "Телефонно обаждане 1",
+        "labelEl": "Τηλεφωνική κλήση 1"
+      },
+      {
+        "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD2/37_langenschidt_-_10.10_-_zwei_telefongesprache,_gesprach_2.mp3",
+        "label": "10.10 - Telefongespräch (2)",
+        "labelAr": "مكالمة هاتفية 2",
+        "labelEn": "Phone call 2",
+        "labelTr": "Telefon görüşmesi 2",
+        "labelRo": "Apel telefonic 2",
+        "labelBs": "Telefonski poziv 2",
+        "labelEs": "llamada telefónica 2",
+        "labelBg": "Телефонно обаждане 2",
+        "labelEl": "Τηλεφωνική κλήση 2"
       }
     ],
     "dialogs": [
@@ -4003,85 +5674,153 @@ const CURRICULUM = [
         "titleAr": "ما مهنتك؟",
         "titleEn": "What is your profession?",
         "titleTr": "Mesleğiniz nedir?",
+        "titleRo": "Care este profesia ta?",
+        "titleBs": "Koja je tvoja profesija?",
+        "titleEs": "¿Cuál es tu profesión?",
+        "titleBg": "каква си професия",
+        "titleEl": "Ποιο είναι το επάγγελμά σας;",
         "lines": [
           {
             "speaker": "A",
             "de": "Was sind Sie von Beruf?",
             "ar": "ما مهنتك؟",
-            "en": "What do you do for a living?",
+            "en": "What is your profession?",
             "tr": "Mesleğiniz nedir?",
-            "ro": "Cu ce ​​​​vă ocupați?",
-            "bs": "čime se baviš?",
-            "es": "¿A qué te dedicas?",
-            "bg": "с какво си изкарваш хляба",
-            "el": "Τι κάνεις για να ζήσεις;"
+            "ro": "Care este profesia ta?",
+            "bs": "Koja je tvoja profesija?",
+            "es": "¿Cuál es tu profesión?",
+            "bg": "каква си професия",
+            "el": "Ποιο είναι το επάγγελμά σας;"
           },
           {
             "speaker": "B",
             "de": "Ich bin Ärztin. Und Sie?",
             "ar": "أنا طبيبة. وأنتَ؟",
             "en": "I am a doctor. And you?",
-            "tr": "Ben doktorum. Ya siz?",
+            "tr": "Ben doktorum. Ve sen?",
             "ro": "Sunt doctor. Și tu?",
             "bs": "Ja sam doktor. A ti?",
             "es": "Soy médico. ¿Y tú?",
             "bg": "Аз съм лекар. а ти",
             "el": "Είμαι γιατρός. Και εσύ;"
+          },
+          {
+            "speaker": "A",
+            "de": "Ich bin Ingenieur. Ich arbeite bei einer Computerfirma.",
+            "ar": "أنا مهندس. أعمل في شركة حاسوب.",
+            "en": "I am an engineer. I work in a computer company.",
+            "tr": "Mühendisim. Bir bilgisayar şirketinde çalışıyorum.",
+            "ro": "Sunt inginer. Lucrez într-o companie de calculatoare.",
+            "bs": "Ja sam inžinjer. Radim u kompjuterskoj kompaniji.",
+            "es": "Soy un ingeniero. Trabajo en una empresa de informática.",
+            "bg": "Аз съм инженер. Работя в компютърна фирма.",
+            "el": "Είμαι μηχανικός. Δουλεύω σε εταιρεία υπολογιστών."
+          },
+          {
+            "speaker": "B",
+            "de": "Das ist interessant! Ich arbeite im Krankenhaus.",
+            "ar": "هذا مثير للاهتمام! أنا أعمل في المستشفى.",
+            "en": "This is interesting! I work in a hospital.",
+            "tr": "Bu ilginç! Bir hastanede çalışıyorum.",
+            "ro": "Acest lucru este interesant! Lucrez într-un spital.",
+            "bs": "Ovo je zanimljivo! Radim u bolnici.",
+            "es": "¡Esto es interesante! Trabajo en un hospital.",
+            "bg": "Това е интересно! Работя в болница.",
+            "el": "Αυτό είναι ενδιαφέρον! Δουλεύω σε νοσοκομείο."
           }
-        ],
-        "titleRo": "Care este profesia ta?",
-        "titleBs": "Koja je tvoja profesija?",
-        "titleEs": "¿Cuál es tu profesión?",
-        "titleBg": "каква си професия",
-        "titleEl": "Ποιο είναι το επάγγελμά σας;"
+        ]
       }
     ],
     "readingTexts": [
       {
         "title": "Stellenanzeige",
         "titleAr": "إعلان وظيفة",
-        "titleEn": "Job Advertisement",
-        "titleTr": "İş İlanı",
+        "titleEn": "Job advertisement",
+        "titleTr": "İş ilanı",
+        "titleRo": "Anunț de angajare",
+        "titleBs": "Oglas za posao",
+        "titleEs": "anuncio de trabajo",
+        "titleBg": "Обява за работа",
+        "titleEl": "αγγελία εργασίας",
         "text": [
           {
-            "de": "Wir suchen einen erfahrenen Koch. Gehalt: 2500 Euro.",
-            "ar": "نبحث عن طباخ ذي خبرة. الراتب: 2500 يورو.",
-            "en": "We are looking for an experienced cook. Salary: 2500 Euros.",
-            "tr": "Deneyimli bir aşçı arıyoruz. Maaş: 2500 Euro.",
-            "ro": "Cautam bucatar cu experienta. Salariu: 2500 euro.",
-            "bs": "Tražimo kuhara sa iskustvom. Plata: 2500 eura.",
-            "es": "Buscamos cocinero con experiencia. Salario: 2500 euros.",
-            "bg": "Търсим готвач с опит. Заплата: 2500 евро.",
-            "el": "Ζητείται μάγειρας έμπειρος. Μισθός: 2500 ευρώ."
+            "de": "Gesucht: Koch/Köchin",
+            "ar": "مطلوب: طباخ/طباخة",
+            "en": "Wanted: Chef/cook",
+            "tr": "Aranan: Şef/aşçı",
+            "ro": "Caut: Bucătar/bucătar",
+            "bs": "Traže se: kuhar/kuhar",
+            "es": "Se busca: Chef/cocinero",
+            "bg": "Търси се: Главен готвач/готвач",
+            "el": "Ζητείται: Σεφ/μάγειρας"
+          },
+          {
+            "de": "Wir suchen einen erfahrenen Koch.",
+            "ar": "نبحث عن طباخ ذي خبرة.",
+            "en": "We are looking for an experienced chef.",
+            "tr": "Tecrübeli aşçı arıyoruz.",
+            "ro": "Cautam un bucatar cu experienta.",
+            "bs": "Tražimo iskusnog kuhara.",
+            "es": "Buscamos cocinero con experiencia.",
+            "bg": "Търсим готвач с опит.",
+            "el": "Αναζητούμε έμπειρο σεφ."
+          },
+          {
+            "de": "Arbeitszeit: 40 Stunden pro Woche.",
+            "ar": "ساعات العمل: 40 ساعة في الأسبوع.",
+            "en": "Working hours: 40 hours per week.",
+            "tr": "Çalışma saatleri: Haftada 40 saat.",
+            "ro": "Program de lucru: 40 de ore pe săptămână.",
+            "bs": "Radno vrijeme: 40 sati sedmično.",
+            "es": "Jornada laboral: 40 horas semanales.",
+            "bg": "Работно време: 40 часа седмично.",
+            "el": "Ώρες εργασίας: 40 ώρες την εβδομάδα."
+          },
+          {
+            "de": "Gehalt: 2500 Euro pro Monat.",
+            "ar": "الراتب: 2500 يورو في الشهر.",
+            "en": "Salary: 2,500 euros per month.",
+            "tr": "Maaş: Aylık 2.500 Euro.",
+            "ro": "Salariu: 2.500 euro pe luna.",
+            "bs": "Plata: 2.500 eura mjesečno.",
+            "es": "Salario: 2.500 euros al mes.",
+            "bg": "Заплата: 2500 евро на месец.",
+            "el": "Μισθός: 2.500 ευρώ το μήνα."
+          },
+          {
+            "de": "Bitte bewerben Sie sich per E-Mail.",
+            "ar": "يرجى التقدم عبر البريد الإلكتروني.",
+            "en": "Please apply via email.",
+            "tr": "Lütfen e-posta yoluyla başvurunuz.",
+            "ro": "Vă rugăm să aplicați prin e-mail.",
+            "bs": "Molimo prijavite se putem e-pošte.",
+            "es": "Por favor presente su solicitud por correo electrónico.",
+            "bg": "Моля, кандидатствайте по имейл.",
+            "el": "Παρακαλούμε υποβάλετε αίτηση μέσω email."
           }
         ],
         "questions": [
           {
-            "q": "Wie viel verdient man?",
-            "qAr": "كم الراتب؟",
-            "qEn": "How much does one earn?",
-            "qTr": "Kişi ne kadar kazanıyor?",
-            "answer": "2500 Euro",
-            "answerAr": "2500 يورو",
-            "answerEn": "2500 Euros",
-            "answerTr": "2500 Euro",
-            "qRo": "Cât câștigă cineva?",
-            "answerRo": "2500 euro",
-            "qBs": "Koliko se zarađuje?",
-            "answerBs": "2500 eura",
-            "qEs": "¿Cuanto gana uno?",
-            "answerEs": "2500euros",
-            "qBg": "Колко печели човек?",
-            "answerBg": "2500 евро",
-            "qEl": "Πόσα κερδίζει κανείς;",
-            "answerEl": "2500 ευρώ"
+            "q": "Wie viel Stunden arbeitet man pro Woche?",
+            "qAr": "كم ساعة في الأسبوع؟",
+            "answer": "40 Stunden",
+            "answerAr": "40 ساعة",
+            "qEn": "How many hours a week?",
+            "answerEn": "40 hours",
+            "qTr": "Haftada kaç saat?",
+            "answerTr": "40 saat",
+            "qRo": "Câte ore pe săptămână?",
+            "answerRo": "40 de ore",
+            "qBs": "Koliko sati sedmično?",
+            "answerBs": "40 sati",
+            "qEs": "¿Cuántas horas a la semana?",
+            "answerEs": "40 horas",
+            "qBg": "Колко часа седмично?",
+            "answerBg": "40 часа",
+            "qEl": "Πόσες ώρες την εβδομάδα;",
+            "answerEl": "40 ώρες"
           }
-        ],
-        "titleRo": "Anunț de locuri de muncă",
-        "titleBs": "Oglas za posao",
-        "titleEs": "Anuncio de empleo",
-        "titleBg": "Обява за работа",
-        "titleEl": "Ανακοίνωση Εργασίας"
+        ]
       }
     ],
     "grammar": [
@@ -4089,37 +5828,99 @@ const CURRICULUM = [
         "id": "berufe-genus",
         "title": "المهن - المذكر والمؤنث",
         "titleDe": "Berufe: maskulin und feminin",
-        "titleEn": "Professions: Masculine and Feminine",
-        "titleTr": "Meslekler: Eril ve Dişil",
-        "explanation": "في الألمانية المهن لها صيغة مذكر ومؤنث. يضاف غالباً لاحقة -in للتأنيث.",
-        "explanationEn": "In German, professions have masculine and feminine forms, usually ending in '-in' for feminine.",
-        "explanationTr": "Almancada mesleklerin eril ve dişil formları vardır, dişil formu genellikle '-in' takısı alır.",
+        "explanation": "في الألمانية المهن لها صيغة مذكر ومؤنث.",
+        "titleEn": "Professions - masculine and feminine",
+        "explanationEn": "In German, professions have a masculine and feminine form.",
+        "titleTr": "Meslekler - eril ve dişil",
+        "explanationTr": "Almanca'da mesleklerin eril ve dişil biçimleri vardır.",
+        "titleRo": "Profesii - masculine și feminine",
+        "explanationRo": "În germană, profesiile au o formă masculină și feminină.",
+        "titleBs": "Profesije - muške i ženske",
+        "explanationBs": "U njemačkom jeziku profesije imaju muški i ženski rod.",
+        "titleEs": "Profesiones: masculinas y femeninas.",
+        "explanationEs": "En alemán las profesiones tienen forma masculina y femenina.",
+        "titleBg": "Професии - мъжки и женски",
+        "explanationBg": "На немски език професиите имат мъжка и женска форма.",
+        "titleEl": "Επαγγέλματα - αρσενικά και θηλυκά",
+        "explanationEl": "Στα γερμανικά, τα επαγγέλματα έχουν ανδρική και γυναικεία μορφή.",
         "rules": [
           {
             "example": "der Arzt → die Ärztin",
             "translation": "الطبيب → الطبيبة",
-            "translationEn": "the male doctor → the female doctor",
-            "translationTr": "erkek doktor → kadın doktor",
+            "note": "نضيف -in للمؤنث",
+            "translationEn": "Doctor → female doctor",
+            "noteEn": "We add -in to the feminine",
+            "translationTr": "Doktor → kadın doktor",
+            "noteTr": "Dişil sözcüğüne -in ekliyoruz",
+            "translationRo": "Doctor → femeie doctor",
+            "noteRo": "Adăugăm -in la feminin",
+            "translationBs": "Doktor → doktorica",
+            "noteBs": "Mi dodajemo ženskom",
+            "translationEs": "Doctor → doctora",
+            "noteEs": "Agregamos -in al femenino",
+            "translationBg": "Лекар → жена лекар",
+            "noteBg": "Добавяме -in към женския род",
+            "translationEl": "Γιατρός → γυναίκα γιατρός",
+            "noteEl": "Προσθέτουμε -in στο θηλυκό"
+          },
+          {
+            "example": "der Lehrer → die Lehrerin",
+            "translation": "المعلم → المعلمة",
             "note": "",
+            "translationEn": "Teacher → parameter",
             "noteEn": "",
+            "translationTr": "Öğretmen → parametre",
             "noteTr": "",
-            "translationRo": "doctorul → femeia doctor",
-            "translationBs": "muški doktor → doktorica",
-            "translationEs": "el doctor varón → la doctora",
-            "translationBg": "лекарят мъж → лекарката",
-            "translationEl": "ο άντρας γιατρός → η γυναίκα γιατρός"
+            "translationRo": "Profesor → parametru",
+            "noteRo": "",
+            "translationBs": "Nastavnik → parametar",
+            "noteBs": "",
+            "translationEs": "Profesor → parámetro",
+            "noteEs": "",
+            "translationBg": "Учител → параметър",
+            "noteBg": "",
+            "translationEl": "Δάσκαλος → παράμετρος",
+            "noteEl": ""
+          },
+          {
+            "example": "der Koch → die Köchin",
+            "translation": "الطباخ → الطباخة",
+            "note": "",
+            "translationEn": "Chef → cook",
+            "noteEn": "",
+            "translationTr": "şef → aşçı",
+            "noteTr": "",
+            "translationRo": "Bucătar → bucătar",
+            "noteRo": "",
+            "translationBs": "Kuvar → kuhar",
+            "noteBs": "",
+            "translationEs": "cocinero → cocinar",
+            "noteEs": "",
+            "translationBg": "Главен готвач → готвач",
+            "noteBg": "",
+            "translationEl": "Σεφ → μάγειρας",
+            "noteEl": ""
+          },
+          {
+            "example": "der Ingenieur → die Ingenieurin",
+            "translation": "المهندس → المهندسة",
+            "note": "",
+            "translationEn": "Engineer → Engineered",
+            "noteEn": "",
+            "translationTr": "Mühendis → Mühendislik",
+            "noteTr": "",
+            "translationRo": "Inginer → Proiectat",
+            "noteRo": "",
+            "translationBs": "Inženjer → Inženjer",
+            "noteBs": "",
+            "translationEs": "Ingeniero → Diseñado",
+            "noteEs": "",
+            "translationBg": "Инженер → Проектиран",
+            "noteBg": "",
+            "translationEl": "Μηχανικός → Μηχανικός",
+            "noteEl": ""
           }
-        ],
-        "titleRo": "Profesii: masculin și feminin",
-        "explanationRo": "În germană, profesiile au forme masculine și feminine, de obicei se termină cu „-in” pentru feminin.",
-        "titleBs": "Profesije: muško i žensko",
-        "explanationBs": "Na njemačkom, profesije imaju oblike muškog i ženskog roda, koji se obično završavaju na '-in' za ženski rod.",
-        "titleEs": "Profesiones: Masculina y Femenina",
-        "explanationEs": "En alemán, las profesiones tienen formas masculinas y femeninas, y normalmente terminan en '-in' para femenino.",
-        "titleBg": "Професии: мъжки и женски",
-        "explanationBg": "На немски език професиите имат форми за мъжки и женски род, обикновено завършващи на „-in“ за женски род.",
-        "titleEl": "Επαγγέλματα: Ανδρικά και Γυναικεία",
-        "explanationEl": "Στα γερμανικά, τα επαγγέλματα έχουν αρσενικές και γυναικείες μορφές, που συνήθως τελειώνουν σε «-in» για το θηλυκό."
+        ]
       }
     ],
     "exercises": [
@@ -4127,124 +5928,78 @@ const CURRICULUM = [
         "type": "mcq",
         "question": "Was ist die weibliche Form von 'Arzt'?",
         "questionAr": "ما صيغة المؤنث لـ Arzt (طبيب)؟",
-        "questionEn": "What is the feminine form of 'Arzt'?",
-        "questionTr": "'Arzt' (erkek doktor) kelimesinin dişil formu nedir?",
+        "answer": 1,
+        "questionEn": "What is the feminine form of Arzt (doctor)?",
+        "questionTr": "Arzt'ın (doktor) dişil formu nedir?",
+        "questionRo": "Care este forma feminină a lui Arzt (medic)?",
+        "questionBs": "Koji je ženski oblik Arzt (doktor)?",
+        "questionEs": "¿Cuál es la forma femenina de Arzt (médico)?",
+        "questionBg": "Каква е женската форма на Arzt (лекар)?",
+        "questionEl": "Ποια είναι η γυναικεία μορφή του Arzt (γιατρός);",
         "options": [
           "Artzt",
           "Ärztin",
           "Arzterin",
           "Ärzten"
         ],
-        "answer": 1,
-        "questionRo": "Care este forma feminină a lui „Arzt”?",
-        "questionBs": "Koji je ženski oblik 'Arzt'?",
-        "questionEs": "¿Cuál es la forma femenina de 'Arzt'?",
-        "questionBg": "Каква е женската форма на „Arzt“?",
-        "questionEl": "Ποια είναι η γυναικεία μορφή του «Arzt»;"
+        "optionsEn": [
+          "Artzt",
+          "Ärztin",
+          "Arzterin",
+          "Ärzten"
+        ],
+        "optionsTr": [
+          "Artzt",
+          "Ärztin",
+          "Arzterin",
+          "Ärzten"
+        ],
+        "optionsRo": [
+          "Artzt",
+          "Ärztin",
+          "Arzterin",
+          "Ärzten"
+        ],
+        "optionsBs": [
+          "Artzt",
+          "Ärztin",
+          "Arzterin",
+          "Ärzten"
+        ],
+        "optionsEs": [
+          "Artzt",
+          "Ärztin",
+          "Arzterin",
+          "Ärzten"
+        ],
+        "optionsBg": [
+          "Artzt",
+          "Ärztin",
+          "Arzterin",
+          "Ärzten"
+        ],
+        "optionsEl": [
+          "Artzt",
+          "Ärztin",
+          "Arzterin",
+          "Ärzten"
+        ]
       }
-    ],
-    "writingPrompts": [
-      {
-        "prompt": "صف عملك الحالي أو المثالي",
-        "promptDe": "Beschreiben Sie Ihre Arbeit / Ihren Traumjob",
-        "promptEn": "Describe your job or dream job",
-        "promptTr": "İşinizi veya hayalinizdeki mesleği tasvir edin",
-        "helpers": [
-          "Ich bin ... von Beruf.",
-          "Ich arbeite bei...",
-          "Mein Traumjob ist..."
-        ],
-        "helpersEn": [
-          "I am a ... by profession.",
-          "I work at...",
-          "My dream job is..."
-        ],
-        "helpersTr": [
-          "Ben ... mesleğindeyim.",
-          "...'da çalışıyorum.",
-          "Hayalimdeki iş..."
-        ],
-        "example": "Ich bin Informatiker. Ich arbeite bei einer Computerfirma. Mein Job macht Spaß.",
-        "promptRo": "Descrie-ți jobul sau jobul de vis",
-        "helpersRo": [
-          "Sunt un... de profesie.",
-          "Lucrez la...",
-          "Slujba mea de vis este..."
-        ],
-        "promptBs": "Opišite svoj posao ili posao iz snova",
-        "promptEs": "Describe tu trabajo o el trabajo de tus sueños.",
-        "promptBg": "Опишете вашата работа или мечтана работа",
-        "promptEl": "Περιγράψτε τη δουλειά σας ή τη δουλειά των ονείρων σας"
-      }
-    ],
-    "speakingPhrases": [
-      {
-        "de": "Ich bin ... von Beruf.",
-        "ar": "مهنتي ...",
-        "en": "I am a ... by profession.",
-        "tr": "Mesleğim ...",
-        "ro": "Sunt un... de profesie.",
-        "bs": "Ja sam ... po profesiji.",
-        "es": "Soy... de profesión.",
-        "bg": "По професия съм ...",
-        "el": "Είμαι ... στο επάγγελμα."
-      },
-      {
-        "de": "Was sind Sie von Beruf?",
-        "ar": "ما مهنتك؟",
-        "en": "What is your profession?",
-        "tr": "Mesleğiniz nedir?",
-        "ro": "Care este profesia ta?",
-        "bs": "Koja je tvoja profesija?",
-        "es": "¿Cuál es tu profesión?",
-        "bg": "каква си професия",
-        "el": "Ποιο είναι το επάγγελμά σας;"
-      }
-    ],
-    "titleRo": "Muncă și profesie",
-    "topicsRo": [
-      "Ocupații",
-      "Locul de muncă",
-      "Căutare de locuri de muncă"
-    ],
-    "canDoRo": "Pot să vorbesc despre jobul meu și să înțeleg anunțurile de angajare",
-    "titleBs": "Posao i profesija",
-    "topicsBs": [
-      "Zanimanja",
-      "Workplace",
-      "Traženje posla"
-    ],
-    "canDoBs": "Mogu govoriti o svom poslu i razumjeti oglase za posao",
-    "titleEs": "Trabajo y profesión",
-    "topicsEs": [
-      "Ocupaciones",
-      "Lugar de trabajo",
-      "búsqueda de empleo"
-    ],
-    "canDoEs": "Puedo hablar sobre mi trabajo y entender los anuncios de empleo.",
-    "titleBg": "Работа и професия",
-    "topicsBg": [
-      "Професии",
-      "Работно място",
-      "Търсене на работа"
-    ],
-    "canDoBg": "Мога да говоря за работата си и да разбирам обявите за работа",
-    "titleEl": "Εργασία & Επάγγελμα",
-    "topicsEl": [
-      "Επαγγέλματα",
-      "Χώρος εργασίας",
-      "Αναζήτηση εργασίας"
-    ],
-    "canDoEl": "Μπορώ να μιλήσω για τη δουλειά μου και να κατανοήσω τις αγγελίες εργασίας"
+    ]
   },
   {
     "id": 12,
     "titleDe": "Essen und Trinken",
     "titleAr": "الأكل والشرب",
-    "titleEn": "Eating and Drinking",
-    "titleTr": "Yemek ve İçmek",
     "emoji": "🍽️",
     "color": "#fb923c",
+    "titleEn": "Eating and drinking",
+    "titleTr": "Yeme ve içme",
+    "titleRo": "Mănâncă și bea",
+    "titleBs": "Jelo i piće",
+    "titleEs": "Comer y beber",
+    "titleBg": "Ядене и пиене",
+    "titleEl": "Φαγοπότι",
     "topics": [
       "المطعم",
       "الطلب",
@@ -4252,170 +6007,377 @@ const CURRICULUM = [
       "الدفع"
     ],
     "topicsEn": [
-      "Restaurant",
-      "Ordering",
+      "The restaurant",
+      "demand",
       "Food preferences",
-      "Paying the bill"
+      "Payment"
     ],
     "topicsTr": [
       "Restoran",
-      "Sipariş verme",
+      "talep etmek",
       "Yemek tercihleri",
-      "Ödeme yapma"
+      "Ödeme"
+    ],
+    "topicsRo": [
+      "Restaurantul",
+      "cerere",
+      "Preferințe alimentare",
+      "Plată"
+    ],
+    "topicsBs": [
+      "Restoran",
+      "potražnja",
+      "Preference u hrani",
+      "Plaćanje"
+    ],
+    "topicsEs": [
+      "el restaurante",
+      "demanda",
+      "Preferencias alimentarias",
+      "Pago"
+    ],
+    "topicsBg": [
+      "Ресторантът",
+      "търсене",
+      "Хранителни предпочитания",
+      "Плащане"
+    ],
+    "topicsEl": [
+      "Το εστιατόριο",
+      "ζήτηση",
+      "Διατροφικές προτιμήσεις",
+      "Πληρωμή"
     ],
     "canDo": "أستطيع أن أطلب في مطعم وأدفع الحساب",
-    "canDoEn": "I can order in a restaurant and pay the bill",
-    "canDoTr": "Restoranda sipariş verebilir ve hesabı ödeyebilirim",
     "canDoDe": "Ich kann im Restaurant bestellen und bezahlen",
+    "canDoEn": "I can order at a restaurant and pay the bill",
+    "canDoTr": "Bir restoranda sipariş verebilirim ve faturayı ödeyebilirim",
+    "canDoRo": "Pot să comand la un restaurant și să plătesc factura",
+    "canDoBs": "Mogu naručiti u restoranu i platiti račun",
+    "canDoEs": "Puedo ordenar en un restaurante y pagar la cuenta.",
+    "canDoBg": "Мога да поръчам в ресторант и да платя сметката",
+    "canDoEl": "Μπορώ να παραγγείλω σε ένα εστιατόριο και να πληρώσω τον λογαριασμό",
     "audioFiles": [
+      {
+        "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD2/51_langenschidt_-_12.3_-_eine_reise_buchen.mp3",
+        "label": "12.3 - Eine Reise buchen",
+        "labelAr": "حجز رحلة سفر",
+        "labelEn": "Book a travel trip",
+        "labelTr": "Seyahat rezervasyonu yapın",
+        "labelRo": "Rezervați o călătorie",
+        "labelBs": "Rezervirajte putovanje",
+        "labelEs": "Reservar un viaje de viaje",
+        "labelBg": "Резервирайте пътуване",
+        "labelEl": "Κλείστε ένα ταξιδιωτικό ταξίδι"
+      },
+      {
+        "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD2/52_langenschidt_-_12.6_-_fahrkarten_kaufen.mp3",
+        "label": "12.6 - Fahrkarten kaufen",
+        "labelAr": "شراء التذاكر",
+        "labelEn": "Buy tickets",
+        "labelTr": "Bilet satın al",
+        "labelRo": "Cumpărați bilete",
+        "labelBs": "Kupite karte",
+        "labelEs": "comprar entradas",
+        "labelBg": "Купете билети",
+        "labelEl": "Αγορά εισιτηρίων"
+      },
+      {
+        "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD2/53_langenschidt_-_12.7_-_an_der_rezeption.mp3",
+        "label": "12.7 - An der Rezeption",
+        "labelAr": "في الاستقبال",
+        "labelEn": "At the reception",
+        "labelTr": "Resepsiyonda",
+        "labelRo": "La receptie",
+        "labelBs": "Na recepciji",
+        "labelEs": "en la recepcion",
+        "labelBg": "На рецепцията",
+        "labelEl": "Στη ρεσεψιόν"
+      },
+      {
+        "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD2/54_langenschidt_-_12.8_-_das_wetter.mp3",
+        "label": "12.8 - Das Wetter",
+        "labelAr": "الطقس",
+        "labelEn": "the weather",
+        "labelTr": "hava",
+        "labelRo": "vremea",
+        "labelBs": "vrijeme",
+        "labelEs": "El clima",
+        "labelBg": "времето",
+        "labelEl": "ο καιρός"
+      },
       {
         "file": "Berliner Platz 1 neu/Audio/Berliner Platz 1 neu - A1 Lernbuch/CD2/56_langenschidt_-_12.12_-_ein_kursausflug,_dialog_1.mp3",
         "label": "12.12 - Exkursion (1)",
         "labelAr": "رحلة الصف 1",
-        "labelEn": "12.12 - Excursion (1)",
-        "labelTr": "12.12 - Sınıf Gezisi (1)",
-        "labelRo": "12.12 - Excursie (1)",
-        "labelBs": "12.12 - Ekskurzija (1)",
-        "labelEs": "12.12 - Excursión (1)",
-        "labelBg": "12.12 - Екскурзия (1)",
-        "labelEl": "12.12 - Εκδρομή (1)"
+        "labelEn": "Class trip 1",
+        "labelTr": "Sınıf gezisi 1",
+        "labelRo": "Călătoria de clasă 1",
+        "labelBs": "Razredni izlet 1",
+        "labelEs": "viaje de clase 1",
+        "labelBg": "Класно пътуване 1",
+        "labelEl": "Εκδρομή στην τάξη 1"
       }
     ],
     "dialogs": [
       {
         "title": "Im Restaurant",
         "titleAr": "في المطعم",
-        "titleEn": "In the Restaurant",
+        "titleEn": "In the restaurant",
         "titleTr": "Restoranda",
+        "titleRo": "În restaurant",
+        "titleBs": "U restoranu",
+        "titleEs": "en el restaurante",
+        "titleBg": "В ресторанта",
+        "titleEl": "Στο εστιατόριο",
         "lines": [
           {
             "speaker": "Kellner",
             "de": "Was darf es sein?",
             "ar": "ماذا تتفضل؟",
-            "en": "What can I get you?",
-            "tr": "Ne alırdınız?",
-            "ro": "Ce pot să-ți aduc?",
-            "bs": "Šta da ti donesem?",
-            "es": "¿Qué puedo conseguirte?",
-            "bg": "Какво мога да ти дам?",
-            "el": "Τι μπορώ να σου πάρω;"
+            "en": "What would you like?",
+            "tr": "Ne alırsınız?",
+            "ro": "Ce ai dori?",
+            "bs": "sta bi zeleo?",
+            "es": "¿Qué le gustaría?",
+            "bg": "Какво бихте искали?",
+            "el": "Τι θα θέλατε;"
           },
           {
             "speaker": "Gast",
-            "de": "Ich möchte die Suppe, bitte. Und ein Wasser.",
-            "ar": "أريد الشوربة من فضلك. وماء.",
-            "en": "I would like the soup, please. And a water.",
-            "tr": "Çorba istiyorum lütfen. Ve bir su.",
-            "ro": "Aș dori supa, te rog. Și o apă.",
-            "bs": "Ja bih supu, molim. I vodu.",
-            "es": "Quisiera la sopa, por favor. Y un agua.",
-            "bg": "Бих искал супата, моля. И вода.",
-            "el": "Θα ήθελα τη σούπα, παρακαλώ. Και ένα νερό."
+            "de": "Ich möchte die Suppe und dann das Schnitzel.",
+            "ar": "أريد الشوربة ثم الشنيتزل.",
+            "en": "I want soup and then schnitzel.",
+            "tr": "Çorba ve ardından şnitzel istiyorum.",
+            "ro": "Vreau supă și apoi șnițel.",
+            "bs": "Hoću supu i onda šniclu.",
+            "es": "Quiero sopa y luego schnitzel.",
+            "bg": "Искам супа и после шницел.",
+            "el": "Θέλω σούπα και μετά σνίτσελ."
+          },
+          {
+            "speaker": "Kellner",
+            "de": "Was möchten Sie trinken?",
+            "ar": "ماذا تريد أن تشرب؟",
+            "en": "What do you want to drink?",
+            "tr": "Ne içmek istersin?",
+            "ro": "Ce vrei să bei?",
+            "bs": "Šta želiš da popiješ?",
+            "es": "¿Qué quieres beber?",
+            "bg": "какво искаш да пиеш",
+            "el": "Τι θέλετε να πιείτε;"
           },
           {
             "speaker": "Gast",
-            "de": "Zahlen, bitte!",
-            "ar": "الحساب من فضلك!",
-            "en": "The bill, please!",
-            "tr": "Hesap lütfen!",
-            "ro": "Factura, vă rog!",
-            "bs": "Račun, molim!",
-            "es": "¡La cuenta, por favor!",
-            "bg": "Сметката, моля!",
-            "el": "Ο λογαριασμός, παρακαλώ!"
+            "de": "Ein Wasser, bitte.",
+            "ar": "ماء من فضلك.",
+            "en": "Water please.",
+            "tr": "Su lütfen.",
+            "ro": "Apă, vă rog.",
+            "bs": "Voda molim.",
+            "es": "Puede traerme agua.",
+            "bg": "Вода, моля.",
+            "el": "Θα ήθελα νερό, παρακαλώ."
+          },
+          {
+            "speaker": "Gast",
+            "de": "Entschuldigung! Zahlen, bitte!",
+            "ar": "عذراً! الحساب من فضلك!",
+            "en": "Sorry! Account please!",
+            "tr": "Üzgünüm! Hesap lütfen!",
+            "ro": "Îmi pare rău! Vă rog cont!",
+            "bs": "Izvinite! Račun molim!",
+            "es": "¡Lo siento! ¡Cuenta por favor!",
+            "bg": "Съжалявам! Сметка моля!",
+            "el": "Συγνώμη! Λογαριασμός παρακαλώ!"
+          },
+          {
+            "speaker": "Kellner",
+            "de": "Das macht 18 Euro 50, bitte.",
+            "ar": "المجموع 18 يورو و50 سنتاً.",
+            "en": "The total is 18 euros and 50 cents.",
+            "tr": "Toplam 18 euro 50 sent.",
+            "ro": "Totalul este de 18 euro și 50 de cenți.",
+            "bs": "Ukupno je 18 eura i 50 centi.",
+            "es": "El total son 18 euros con 50 céntimos.",
+            "bg": "Общата сума е 18 евро и 50 цента.",
+            "el": "Το σύνολο είναι 18 ευρώ και 50 λεπτά."
+          },
+          {
+            "speaker": "Gast",
+            "de": "Stimmt so. Das ist für Sie.",
+            "ar": "احتفظ بالباقي. هذا لك.",
+            "en": "Keep the change. This is for you.",
+            "tr": "Üstü kalsın. Bu sizin için.",
+            "ro": "Păstrați restul. Este pentru dumneavoastră.",
+            "bs": "Zadrži kusur. Ovo je za tebe.",
+            "es": "Quédese con el cambio. Esto es para ti.",
+            "bg": "Запазете рестото. това е за вас",
+            "el": "Κρατήστε τα ρέστα. Αυτά είναι για σάς."
           }
-        ],
-        "titleRo": "În Restaurant",
-        "titleBs": "U restoranu",
-        "titleEs": "en el restaurante",
-        "titleBg": "В ресторанта",
-        "titleEl": "Στο Εστιατόριο"
+        ]
       }
     ],
     "readingTexts": [
       {
         "title": "Die Speisekarte",
         "titleAr": "قائمة الطعام",
-        "titleEn": "The Menu",
-        "titleTr": "Yemek Menüsü",
+        "titleEn": "menu",
+        "titleTr": "menü",
+        "titleRo": "meniu",
+        "titleBs": "meni",
+        "titleEs": "menú",
+        "titleBg": "меню",
+        "titleEl": "μενού",
         "text": [
           {
+            "de": "Vorspeisen: Suppe 4,50 € / Salat 5,00 €",
+            "ar": "المقبلات: شوربة 4.50 يورو / سلطة 5 يورو",
+            "en": "Appetizers: soup 4.50 euros / salad 5 euros",
+            "tr": "Mezeler: çorba 4,50 euro / salata 5 euro",
+            "ro": "Aperitive: supa 4,50 euro / salata 5 euro",
+            "bs": "Predjela: supa 4,50 eura / salata 5 eura",
+            "es": "Aperitivos: sopa 4,50 euros / ensalada 5 euros",
+            "bg": "Предястия: супа 4,50 евро / салата 5 евро",
+            "el": "Ορεκτικά: σούπα 4,50 ευρώ / σαλάτα 5 ευρώ"
+          },
+          {
             "de": "Hauptspeisen: Schnitzel 13,00 € / Pizza 10,50 €",
-            "ar": "الأطباق الرئيسية: شنيتزل 13 يورو / بيتزا 10.50 يورو.",
-            "en": "Main courses: Schnitzel €13.00 / Pizza €10.50.",
-            "tr": "Ana yemekler: Şnitzel 13,00 € / Pizza 10,50 €.",
-            "ro": "Feluri principale: Schnitzel 13,00 € / Pizza 10,50 €.",
-            "bs": "Glavna jela: Šnicla 13,00 € / Pizza 10,50 €.",
-            "es": "Platos principales: Schnitzel 13,00 € / Pizza 10,50 €.",
-            "bg": "Основни ястия: Шницел 13,00 € / Пица 10,50 €.",
-            "el": "Κύρια πιάτα: Σνίτσελ 13,00 € / Πίτσα 10,50 €."
+            "ar": "الأطباق الرئيسية: شنيتزل 13 يورو / بيتزا 10.50 يورو",
+            "en": "Main dishes: Schnitzel €13 / Pizza €10.50",
+            "tr": "Ana yemekler: Schnitzel 13 € / Pizza 10,50 €",
+            "ro": "Feluri principale: Schnitzel 13 € / Pizza 10,50 €",
+            "bs": "Glavna jela: Šnicla 13 € / Pizza 10,50 €",
+            "es": "Platos principales: Schnitzel 13 € / Pizza 10,50 €",
+            "bg": "Основни ястия: Шницел 13 € / Пица 10,50 €",
+            "el": "Κύρια πιάτα: Σνίτσελ 13 € / Πίτσα 10,50 €"
+          },
+          {
+            "de": "Dessert: Eis 3,50 € / Kuchen 4,00 €",
+            "ar": "الحلوى: آيس كريم 3.50 يورو / كيك 4 يورو",
+            "en": "Dessert: Ice cream €3.50 / Cake €4",
+            "tr": "Tatlı: Dondurma 3,50 € / Kek 4 €",
+            "ro": "Desert: Inghetata 3,50€ / Tort 4€",
+            "bs": "Desert: Sladoled 3,50 € / Kolač 4 €",
+            "es": "Postre: Helado 3,50€ / Tarta 4€",
+            "bg": "Десерт: Сладолед 3,50 € / Торта 4 €",
+            "el": "Επιδόρπιο: Παγωτό 3,50€ / Κέικ 4€"
+          },
+          {
+            "de": "Getränke: Wasser 2,00 € / Bier 3,50 €",
+            "ar": "المشروبات: ماء 2 يورو / بيرة 3.50 يورو",
+            "en": "Drinks: water 2 euros / beer 3.50 euros",
+            "tr": "İçecekler: su 2 euro / bira 3,50 euro",
+            "ro": "Băuturi: apă 2 euro / bere 3,50 euro",
+            "bs": "Piće: voda 2 eura / pivo 3,50 eura",
+            "es": "Bebidas: agua 2 euros / cerveza 3,50 euros",
+            "bg": "Напитки: вода 2 евро / бира 3,50 евро",
+            "el": "Ποτά: νερό 2 ευρώ / μπύρα 3,50 ευρώ"
           }
         ],
         "questions": [
           {
             "q": "Was kostet das Schnitzel?",
             "qAr": "بكم الشنيتزل؟",
-            "qEn": "How much is the Schnitzel?",
-            "qTr": "Şnitzel ne kadar?",
-            "answer": "13,00 €",
+            "answer": "13,00 Euro",
             "answerAr": "13 يورو",
-            "answerEn": "13.00 Euros",
-            "answerTr": "13,00 €",
+            "qEn": "How much is schnitzel?",
+            "answerEn": "13 euros",
+            "qTr": "Şnitzel ne kadar?",
+            "answerTr": "13 euro",
             "qRo": "Cât costă șnițelul?",
-            "answerRo": "13,00 euro",
-            "qBs": "Koliko košta šnicla?",
-            "answerBs": "13,00 eura",
-            "qEs": "¿Cuánto cuesta el schnitzel?",
-            "answerEs": "13,00€",
-            "qBg": "Колко струва шницелът?",
-            "answerBg": "13.00 евро",
-            "qEl": "Πόσο κοστίζει το σνίτσελ;",
-            "answerEl": "13,00 ευρώ"
+            "answerRo": "13 euro",
+            "qBs": "Koliko košta šnicle?",
+            "answerBs": "13 eura",
+            "qEs": "¿Cuánto cuesta el escalope?",
+            "answerEs": "13euros",
+            "qBg": "Колко струва шницел?",
+            "answerBg": "13 евро",
+            "qEl": "Πόσο είναι το σνίτσελ;",
+            "answerEl": "13 ευρώ"
           }
-        ],
-        "titleRo": "Meniul",
-        "titleBs": "The Menu",
-        "titleEs": "El menú",
-        "titleBg": "Менюто",
-        "titleEl": "Το Μενού"
+        ]
       }
     ],
     "grammar": [
       {
         "id": "indefinitpronomen",
-        "title": "الضمائر غير المحددة",
+        "title": "الضمائر غير المحددة - man / es gibt",
         "titleDe": "man und es gibt",
-        "titleEn": "Indefinite Pronoun (man) & es gibt",
-        "titleTr": "Belirsiz Zamir (man) & es gibt",
-        "explanation": "الضمير man يُعبر عن العموم (الناس)، بينما التعبير es gibt يعني 'يوجد' ويأتي بعده مفعول به (Akkusativ).",
-        "explanationEn": "The pronoun 'man' represents people/one in general, while 'es gibt' means 'there is/are' and takes an accusative object.",
-        "explanationTr": "'man' zamiri genel olarak insanları temsil eder, 'es gibt' ise 'var' anlamına gelir ve accusative nesne alır.",
+        "explanation": "",
+        "titleEn": "Indefinite pronouns - man/es gibt",
+        "explanationEn": "",
+        "titleTr": "Belirsiz zamirler - man/es gibt",
+        "explanationTr": "",
+        "titleRo": "Pronume nehotărât - man/es gibt",
+        "explanationRo": "",
+        "titleBs": "Neodređene zamjenice - man/es gibt",
+        "explanationBs": "",
+        "titleEs": "Pronombres indefinidos - man/es gibt",
+        "explanationEs": "",
+        "titleBg": "Неопределителни местоимения - man/es gibt",
+        "explanationBg": "",
+        "titleEl": "Αόριστες αντωνυμίες - man/es gibt",
+        "explanationEl": "",
         "rules": [
+          {
+            "example": "Man isst in Deutschland viel Brot.",
+            "translation": "يأكل الناس في ألمانيا الكثير من الخبز.",
+            "note": "man = الناس/أحد",
+            "translationEn": "People in Germany eat a lot of bread.",
+            "noteEn": "man = people/one",
+            "translationTr": "Almanya'da insanlar çok fazla ekmek yiyor.",
+            "noteTr": "adam = insanlar/bir",
+            "translationRo": "Oamenii din Germania mănâncă multă pâine.",
+            "noteRo": "om = oameni/unul",
+            "translationBs": "Ljudi u Nemačkoj jedu mnogo hleba.",
+            "noteBs": "čovjek = ljudi/jedan",
+            "translationEs": "La gente en Alemania come mucho pan.",
+            "noteEs": "hombre = gente/uno",
+            "translationBg": "Хората в Германия ядат много хляб.",
+            "noteBg": "човек = хора/един",
+            "translationEl": "Οι άνθρωποι στη Γερμανία τρώνε πολύ ψωμί.",
+            "noteEl": "άνθρωπος = άνθρωποι/ένας"
+          },
           {
             "example": "Es gibt heute Schnitzel.",
             "translation": "اليوم يوجد شنيتزل.",
-            "translationEn": "There is Schnitzel today.",
+            "note": "es gibt = يوجد",
+            "translationEn": "Today there is schnitzel.",
+            "noteEn": "es gibt = there is",
             "translationTr": "Bugün şnitzel var.",
-            "note": "",
-            "noteEn": "",
-            "noteTr": "",
-            "translationRo": "Există Schnitzel astăzi.",
-            "translationBs": "Danas je šnicl.",
-            "translationEs": "Hoy hay Schnitzel.",
-            "translationBg": "Днес има Шницел.",
-            "translationEl": "Υπάρχει σνίτσελ σήμερα."
+            "noteTr": "es gibt = var",
+            "translationRo": "Astăzi există șnițel.",
+            "noteRo": "es gibt = există",
+            "translationBs": "Danas je tu šnicle.",
+            "noteBs": "es gibt = postoji",
+            "translationEs": "Hoy hay escalope.",
+            "noteEs": "es gibt = hay",
+            "translationBg": "Днес има шницел.",
+            "noteBg": "es gibt = има",
+            "translationEl": "Σήμερα υπάρχει σνίτσελ.",
+            "noteEl": "es gibt = υπάρχει"
+          },
+          {
+            "example": "Es gibt keine Pizza heute.",
+            "translation": "لا يوجد بيتزا اليوم.",
+            "note": "es gibt + kein = لا يوجد",
+            "translationEn": "No pizza today.",
+            "noteEn": "es gibt + kein = none",
+            "translationTr": "Bugün pizza yok.",
+            "noteTr": "es gibt + kein = yok",
+            "translationRo": "Fara pizza azi.",
+            "noteRo": "es gibt + kein = none",
+            "translationBs": "Nema pice danas.",
+            "noteBs": "es gibt + kein = nijedan",
+            "translationEs": "Hoy no hay pizza.",
+            "noteEs": "es gibt + kein = ninguno",
+            "translationBg": "Без пица днес.",
+            "noteBg": "es gibt + kein = няма",
+            "translationEl": "Χωρίς πίτσα σήμερα.",
+            "noteEl": "es gibt + kein = κανένας"
           }
-        ],
-        "titleRo": "Pronume nehotărât (om) & es gibt",
-        "explanationRo": "Pronumele „om” reprezintă oameni/unul în general, în timp ce „es gibt” înseamnă „există/sunt” și ia un obiect acuzativ.",
-        "titleBs": "Neodređena zamjenica (čovjek) & es gibt",
-        "explanationBs": "Zamjenica 'čovjek' predstavlja ljude/jednog općenito, dok 'es gibt' znači 'postoji/su' i uzima akuzativ.",
-        "titleEs": "Pronombre indefinido (hombre) y es gibt",
-        "explanationEs": "El pronombre 'hombre' representa a personas/uno en general, mientras que 'es gibt' significa 'hay/hay' y toma un objeto acusativo.",
-        "titleBg": "Неопределено местоимение (man) & es gibt",
-        "explanationBg": "Местоимението „човек“ представлява хора/един като цяло, докато „es gibt“ означава „има/са“ и приема винителен обект.",
-        "titleEl": "Αόριστος Αντωνυμία (άνδρας) & es gibt",
-        "explanationEl": "Η αντωνυμία 'man' αντιπροσωπεύει τους ανθρώπους/ένα γενικά, ενώ το 'es gibt' σημαίνει 'υπάρχει/είναι' και παίρνει ένα κατηγορούμενο αντικείμενο."
+        ]
       }
     ],
     "exercises": [
@@ -4423,116 +6385,85 @@ const CURRICULUM = [
         "type": "mcq",
         "question": "Zahlen, bitte! Was möchte der Gast?",
         "questionAr": "ماذا يريد الضيف؟",
-        "questionEn": "What does the guest want?",
-        "questionTr": "Müşteri ne istiyor?",
-        "options": [
-          "يريد طعاماً إضافياً / Wants more food / Daha fazla yemek istiyor / Vrea mai multă mâncare",
-          "يريد الحساب / Wants to pay the bill / Hesabı ödemek istiyor / Vrea să plătească factura",
-          "يريد مشروباً / Wants a drink / Bir içecek istiyor / Vrea o băutură",
-          "يريد القائمة / Wants the menu / Menüyü istiyor / Vrea meniul"
-        ],
         "answer": 1,
+        "questionEn": "What does the guest want?",
+        "questionTr": "Misafir ne istiyor?",
         "questionRo": "Ce vrea oaspetele?",
         "questionBs": "Šta gost želi?",
         "questionEs": "¿Qué quiere el invitado?",
         "questionBg": "Какво иска гостът?",
-        "questionEl": "Τι θέλει ο καλεσμένος;"
-      }
-    ],
-    "writingPrompts": [
-      {
-        "prompt": "اكتب طلبك في مطعم",
-        "promptDe": "Schreiben Sie Ihre Bestellung im Restaurant",
-        "promptEn": "Write your order in a restaurant",
-        "promptTr": "Restorandaki siparişinizi yazın",
-        "helpers": [
-          "Ich möchte...",
-          "Zum Trinken..."
+        "questionEl": "Τι θέλει ο καλεσμένος;",
+        "options": [
+          "يريد طعاماً إضافياً",
+          "يريد الحساب",
+          "يريد مشروباً",
+          "يريد القائمة"
         ],
-        "helpersEn": [
-          "I would like...",
-          "To drink..."
+        "optionsEn": [
+          "He wants extra food",
+          "He wants the account",
+          "He wants a drink",
+          "He wants the list"
         ],
-        "helpersTr": [
-          "İstiyorum...",
-          "İçmek için..."
+        "optionsTr": [
+          "Fazladan yiyecek istiyor",
+          "Hesabı istiyor",
+          "Bir içki istiyor",
+          "Listeyi istiyor"
         ],
-        "example": "Ich möchte eine Suppe. Zum Trinken möchte ich ein Mineralwasser.",
-        "promptRo": "Scrieți comanda într-un restaurant",
-        "helpersRo": [
-          "as vrea...",
-          "Sa bea..."
+        "optionsRo": [
+          "Vrea mâncare suplimentară",
+          "Vrea contul",
+          "Vrea o băutură",
+          "El vrea lista"
         ],
-        "promptBs": "Napišite svoju narudžbu u restoranu",
-        "promptEs": "Escribe tu pedido en un restaurante",
-        "promptBg": "Напишете поръчката си в ресторант",
-        "promptEl": "Γράψτε την παραγγελία σας σε ένα εστιατόριο"
-      }
-    ],
-    "speakingPhrases": [
-      {
-        "de": "Zahlen, bitte!",
-        "ar": "الحساب من فضلك!",
-        "en": "The bill, please!",
-        "tr": "Hesap lütfen!",
-        "ro": "Factura, vă rog!",
-        "bs": "Račun, molim!",
-        "es": "¡La cuenta, por favor!",
-        "bg": "Сметката, моля!",
-        "el": "Ο λογαριασμός, παρακαλώ!"
+        "optionsBs": [
+          "Želi dodatnu hranu",
+          "On želi račun",
+          "On želi piće",
+          "On želi listu"
+        ],
+        "optionsEs": [
+          "el quiere comida extra",
+          "el quiere la cuenta",
+          "el quiere un trago",
+          "el quiere la lista"
+        ],
+        "optionsBg": [
+          "Той иска допълнителна храна",
+          "Той иска сметката",
+          "Той иска питие",
+          "Той иска списъка"
+        ],
+        "optionsEl": [
+          "Θέλει επιπλέον φαγητό",
+          "Θέλει τον λογαριασμό",
+          "Θέλει ένα ποτό",
+          "Θέλει τη λίστα"
+        ]
       },
       {
-        "de": "Stimmt so.",
-        "ar": "احتفظ بالباقي.",
-        "en": "Keep the change.",
-        "tr": "Üstü kalsın.",
-        "ro": "Păstrați restul.",
-        "bs": "Zadrži kusur.",
-        "es": "Quédese con el cambio.",
-        "bg": "Запазете рестото.",
-        "el": "Κρατήστε τα ρέστα."
+        "type": "fillblank",
+        "question": "_____ gibt heute Schnitzel.",
+        "questionAr": "أكمل الجملة",
+        "answer": "Es",
+        "questionEn": "Complete the sentence",
+        "questionTr": "Cümleyi tamamla",
+        "questionRo": "Completează propoziția",
+        "questionBs": "Dopuni rečenicu",
+        "questionEs": "Completa la frase",
+        "questionBg": "Довърши изречението",
+        "questionEl": "Συμπλήρωσε την πρόταση",
+        "hint": "es gibt = يوجد",
+        "hintEn": "es gibt = there is",
+        "hintTr": "es gibt = var",
+        "hintRo": "es gibt = există",
+        "hintBs": "es gibt = postoji",
+        "hintEs": "es gibt = hay",
+        "hintBg": "es gibt = има",
+        "hintEl": "es gibt = υπάρχει"
       }
-    ],
-    "titleRo": "Mâncat și băutură",
-    "topicsRo": [
-      "Restaurant",
-      "Comandă",
-      "Preferințe alimentare",
-      "Plata facturii"
-    ],
-    "canDoRo": "Pot să comand într-un restaurant și să plătesc factura",
-    "titleBs": "Jelo i piće",
-    "topicsBs": [
-      "Restoran",
-      "Naručivanje",
-      "Preference u hrani",
-      "Plaćanje računa"
-    ],
-    "canDoBs": "Mogu naručiti u restoranu i platiti račun",
-    "titleEs": "Comer y beber",
-    "topicsEs": [
-      "Restaurante",
-      "Realizar pedidos",
-      "Preferencias alimentarias",
-      "pagar la factura"
-    ],
-    "canDoEs": "Puedo pedir en un restaurante y pagar la cuenta.",
-    "titleBg": "Хранене и пиене",
-    "topicsBg": [
-      "ресторант",
-      "Поръчване",
-      "Хранителни предпочитания",
-      "Плащане на сметката"
-    ],
-    "canDoBg": "Мога да поръчам в ресторант и да платя сметката",
-    "titleEl": "Φαγοπότι",
-    "topicsEl": [
-      "Εστιατόριο",
-      "Παραγγελία",
-      "Διατροφικές προτιμήσεις",
-      "Πληρώνοντας τον λογαριασμό"
-    ],
-    "canDoEl": "Μπορώ να παραγγείλω σε ένα εστιατόριο και να πληρώσω τον λογαριασμό"
+    ]
   }
 ];
 
@@ -4813,6 +6744,47 @@ const CURRICULUM_A2 = [
             "noteEl": "Αρσενικό Κατηγορούμενο παίρνει -en."
           }
         ]
+      },
+      {
+        "id": "adjektivdeklination-bestimmt",
+        "titleDe": "Adjektivdeklination mit bestimmtem Artikel",
+        "title": "صفة الانحراف مع المادة المحددة",
+        "titleEn": "Adjective Declension with Definite Article",
+        "explanation": "الصفات بعد أدوات التعريف (der، die، das) تأخذ نهايات بسيطة (عادة -e أو -en) حسب الحالة.",
+        "explanationEn": "Adjectives after definite articles (der, die, das) take simple endings (usually -e or -en) depending on the case.",
+        "titleTr": "Belirli Artikellerle Sıfat Çekimi",
+        "explanationTr": "Belirli artikellerden (der, die, das) sonra gelen sıfatlar duruma göre basit sonlar (genellikle -e veya -en) alır.",
+        "titleRo": "Declinarea adjectivă cu articol hotărât",
+        "explanationRo": "Adjectivele după articole hotărâte (der, die, das) au terminații simple (de obicei -e sau -en), în funcție de caz.",
+        "titleBs": "Deklinacija pridjeva s određenim članom",
+        "explanationBs": "Pridjevi iza određenih članova (der, die, das) imaju jednostavne nastavke (obično -e ili -en) ovisno o padežu.",
+        "titleEs": "Declinación de adjetivos con artículo definido",
+        "explanationEs": "Los adjetivos después de artículos definidos (der, die, das) toman terminaciones simples (normalmente -e o -en) según el caso.",
+        "titleBg": "Прилагателно склонение с определителен член",
+        "explanationBg": "Прилагателните след определителни членове (der, die, das) имат прости окончания (обикновено -e или -en) в зависимост от случая.",
+        "titleEl": "Κλίση επιθέτου με οριστικό άρθρο",
+        "explanationEl": "Τα επίθετα μετά από οριστικά άρθρα (der, die, das) παίρνουν απλές καταλήξεις (συνήθως -e ή -en) ανάλογα με την περίπτωση.",
+        "rules": [
+          {
+            "example": "Der blaue Mantel gefällt mir gut.",
+            "translation": "أنا أحب المعطف الأزرق.",
+            "translationEn": "I like the blue coat.",
+            "note": "الاسم المذكر مع أداة التعريف يأخذ -e.",
+            "noteEn": "Nominative masculine with definite article takes -e.",
+            "translationTr": "Mavi ceketi severim.",
+            "noteTr": "Belirli artikeller içeren yalın eril -e alır.",
+            "translationRo": "Îmi place haina albastră.",
+            "noteRo": "Nominativ masculin cu articol hotărât ia -e.",
+            "translationBs": "Sviđa mi se plavi kaput.",
+            "noteBs": "Nominativ muškog roda s određenim članom uzima -e.",
+            "translationEs": "Me gusta el abrigo azul.",
+            "noteEs": "Nominativo masculino con artículo definido lleva -e.",
+            "translationBg": "Харесвам синьото палто.",
+            "noteBg": "Именителен падеж от мъжки род с определителен член приема -е.",
+            "translationEl": "Μου αρέσει το μπλε παλτό.",
+            "noteEl": "Ονομαστική αρσενική με οριστικό άρθρο παίρνει -ε."
+          }
+        ]
       }
     ],
     "exercises": [
@@ -4874,6 +6846,30 @@ const CURRICULUM_A2 = [
         "hintEs": "Artículo neutro, acusativo, indefinido.",
         "hintBg": "среден род, винителен падеж, неопределителен член",
         "hintEl": "ουδέτερο, κατηγορούμενο, αόριστο άρθρο"
+      },
+      {
+        "id": 1302,
+        "type": "fillblank",
+        "question": "Das ___ Kleid gefällt mir. (rot)",
+        "questionDe": "Das ___ Kleid gefällt mir. (rot)",
+        "questionEn": "I like the red dress.",
+        "questionAr": "أنا أحب اللباس الأحمر.",
+        "answer": "rote",
+        "questionTr": "Kırmızı elbiseyi beğendim.",
+        "questionRo": "Îmi place rochia roșie.",
+        "questionBs": "Sviđa mi se crvena haljina.",
+        "questionEs": "Me gusta el vestido rojo.",
+        "questionBg": "Харесвам червената рокля.",
+        "questionEl": "Μου αρέσει το κόκκινο φόρεμα.",
+        "hintDe": "bestimmter Artikel, Neutrum, Nominativ",
+        "hintEn": "definite article, neuter, nominative",
+        "hintAr": "أداة تعريفية، محايدة، اسمية",
+        "hintTr": "kesin artikel, nötr, yalın",
+        "hintRo": "articol hotărât, neutru, nominativ",
+        "hintBs": "određeni član, srednji rod, nominativ",
+        "hintEs": "artículo definido, neutro, nominativo",
+        "hintBg": "определителен член, среден род, именителен падеж",
+        "hintEl": "οριστικό άρθρο, ουδέτερο, ονομαστική"
       }
     ],
     "writingPrompts": [
@@ -5164,6 +7160,47 @@ const CURRICULUM_A2 = [
             "noteEl": "Το ρήμα 'habe' πηγαίνει στο τέλος."
           }
         ]
+      },
+      {
+        "id": "ordinalzahlen",
+        "titleDe": "Ordinalzahlen für Datumsangaben",
+        "title": "الأرقام الترتيبية للتواريخ",
+        "titleEn": "Ordinal Numbers for Dates",
+        "explanation": "تستخدم الأرقام الترتيبية للتواريخ باللغة الألمانية. يأخذون نهايات مثل الصفات (على سبيل المثال، der erste Mai، am einunddreißigsten Dezember).",
+        "explanationEn": "Ordinal numbers are used for dates in German. They take endings like adjectives (e.g., der erste Mai, am einunddreißigsten Dezember).",
+        "titleTr": "Tarihler için Sıra Sayıları",
+        "explanationTr": "Ordinal numbers are used for dates in German. Sıfatlar gibi sonlar alırlar (örn. der erste Mai, am einunddreißigsten Dezember).",
+        "titleRo": "Numere ordinale pentru date",
+        "explanationRo": "Ordinal numbers are used for dates in German. They take endings like adjectives (e.g., der erste Mai, am einunddreißigsten Dezember).",
+        "titleBs": "Redni brojevi za datume",
+        "explanationBs": "Za datume na njemačkom jeziku koriste se redni brojevi. Uzimaju nastavke poput prideva (npr. der erste Mai, am einunddreißigsten Dezember).",
+        "titleEs": "Números ordinales para fechas",
+        "explanationEs": "Los números ordinales se utilizan para las fechas en alemán. Toman terminaciones como adjetivos (p. ej., der erste Mai, am einunddreißigsten Dezember).",
+        "titleBg": "Поредни числа за дати",
+        "explanationBg": "За датите на немски се използват редни номера. Те приемат окончания като прилагателни (напр. der erste Mai, am einunddreißigsten Dezember).",
+        "titleEl": "Τακτικοί αριθμοί για ημερομηνίες",
+        "explanationEl": "Ordinal numbers are used for dates in German. They take endings like adjectives (e.g., der erste Mai, am einunddreißigsten Dezember).",
+        "rules": [
+          {
+            "example": "Ich habe am vierundzwanzigsten Dezember Geburtstag.",
+            "translation": "عيد ميلادي يوم الرابع والعشرين من ديسمبر.",
+            "translationEn": "My birthday is on the twenty-fourth of December.",
+            "note": "حرف الجر 'am' يتطلب النهاية -عشرة.",
+            "noteEn": "Preposition 'am' requires the ending -ten.",
+            "translationTr": "My birthday is on the twenty-fourth of December.",
+            "noteTr": "Preposition 'am' requires the ending -ten.",
+            "translationRo": "My birthday is on the twenty-fourth of December.",
+            "noteRo": "Preposition 'am' requires the ending -ten.",
+            "translationBs": "Moj rođendan je dvadeset četvrtog decembra.",
+            "noteBs": "Prijedlog 'am' zahtijeva završetak -deset.",
+            "translationEs": "Mi cumpleaños es el veinticuatro de diciembre.",
+            "noteEs": "La preposición 'am' requiere la terminación -diez.",
+            "translationBg": "Моят рожден ден е на двадесет и четвърти декември.",
+            "noteBg": "Предлогът „съм“ изисква окончание -ten.",
+            "translationEl": "Τα γενέθλιά μου είναι στις είκοσι τέσσερις Δεκεμβρίου.",
+            "noteEl": "Η πρόθεση «am» απαιτεί την κατάληξη -ten."
+          }
+        ]
       }
     ],
     "exercises": [
@@ -5225,6 +7262,30 @@ const CURRICULUM_A2 = [
         "hintEs": "El verbo pertenece al final de la cláusula subordinada.",
         "hintBg": "Глаголът е в края на подчиненото изречение",
         "hintEl": "Το ρήμα ανήκει στο τέλος της δευτερεύουσας πρότασης"
+      },
+      {
+        "id": 1402,
+        "type": "fillblank",
+        "question": "Heute ist der ___ April. (3.)",
+        "questionDe": "Heute ist der ___ April. (3.)",
+        "questionEn": "Today is the third of April.",
+        "questionAr": "اليوم هو الثالث من أبريل.",
+        "answer": "dritte",
+        "questionTr": "Bugün Nisan ayının üçü.",
+        "questionRo": "Astăzi este trei aprilie.",
+        "questionBs": "Danas je treći april.",
+        "questionEs": "Hoy es tres de abril.",
+        "questionBg": "Днес е трети април.",
+        "questionEl": "Σήμερα είναι τρίτη Απριλίου.",
+        "hintDe": "Nominativ, maskulin (der dritte)",
+        "hintEn": "nominative, masculine",
+        "hintAr": "اسمي، مذكر",
+        "hintTr": "yalın, erkeksi",
+        "hintRo": "nominativ, masculin",
+        "hintBs": "nominativ, muški rod",
+        "hintEs": "nominativo, masculino",
+        "hintBg": "именителен падеж, мъжки род",
+        "hintEl": "ονομαστική, αρσενικό"
       }
     ],
     "writingPrompts": [
@@ -5515,6 +7576,47 @@ const CURRICULUM_A2 = [
             "noteEl": "Το 'mich' είναι η αντανακλαστική αντωνυμία για το 'ich'."
           }
         ]
+      },
+      {
+        "id": "verben-praepositionen",
+        "titleDe": "Verben mit Präpositionen",
+        "title": "الأفعال مع حروف الجر",
+        "titleEn": "Verbs with Prepositions",
+        "explanation": "العديد من الأفعال في اللغة الألمانية يتبعها حرف جر محدد وحالة محددة (على سبيل المثال: sich freuen auf + حالة النصب، sprechen mit + حالة الجر).",
+        "explanationEn": "Many verbs in German are followed by a specific preposition and a specific case (e.g. sich freuen auf + Accusative, sprechen mit + Dative).",
+        "titleTr": "Edatlı Fiiller",
+        "explanationTr": "Almanca'da pek çok fiilin ardından belirli bir edat ve belirli bir durum gelir (örneğin, sich freuen auf + Suçlayıcı, sprechen mit + Dative).",
+        "titleRo": "Verbe cu prepoziții",
+        "explanationRo": "Multe verbe din germană sunt urmate de o prepoziție specifică și de un caz specific (de exemplu, sich freuen auf + Acuzativ, sprechen mit + Dativ).",
+        "titleBs": "Glagoli s prijedlozima",
+        "explanationBs": "Mnogi glagoli u njemačkom jeziku prate određeni prijedlog i određeni padež (npr. sich freuen auf + akuzativ, sprechen mit + dativ).",
+        "titleEs": "Verbos con preposiciones",
+        "explanationEs": "Muchos verbos en alemán van seguidos de una preposición específica y un caso específico (por ejemplo, sich freuen auf + acusativo, sprechen mit + dativo).",
+        "titleBg": "Глаголи с предлози",
+        "explanationBg": "Много глаголи на немски са последвани от конкретен предлог и конкретен падеж (напр. sich freuen auf + Акузатив, sprechen mit + Дателен).",
+        "titleEl": "Ρήματα με Προθέσεις",
+        "explanationEl": "Πολλά ρήματα στα γερμανικά ακολουθούνται από μια συγκεκριμένη πρόθεση και μια συγκεκριμένη περίπτωση (π.χ. sich freuen auf + Κατηγορούμενο, sprechen mit + Dative).",
+        "rules": [
+          {
+            "example": "Ich freue mich auf die Party.",
+            "translation": "وإنني أتطلع إلى الحزب.",
+            "translationEn": "I am looking forward to the party.",
+            "note": "sich freuen auf + حالة النصب (حدث مستقبلي).",
+            "noteEn": "sich freuen auf + Accusative (future event).",
+            "translationTr": "Partiyi sabırsızlıkla bekliyorum.",
+            "noteTr": "sich freuen auf + Suçlayıcı (gelecekteki olay).",
+            "translationRo": "Astept cu nerabdare petrecerea.",
+            "noteRo": "sich freuen auf + Acuzativ (eveniment viitor).",
+            "translationBs": "Radujem se zabavi.",
+            "noteBs": "sich freuen auf + Akuzativ (budući događaj).",
+            "translationEs": "Estoy deseando que llegue la fiesta.",
+            "noteEs": "sich freuen auf + Acusativo (evento futuro).",
+            "translationBg": "Очаквам с нетърпение купона.",
+            "noteBg": "sich freuen auf + Акузатив (бъдещо събитие).",
+            "translationEl": "Ανυπομονώ για το πάρτι.",
+            "noteEl": "sich freuen auf + Κατηγορούμενο (μελλοντικό συμβάν)."
+          }
+        ]
       }
     ],
     "exercises": [
@@ -5576,6 +7678,30 @@ const CURRICULUM_A2 = [
         "hintEs": "Pronombre reflexivo para 'wir'",
         "hintBg": "Възвратно местоимение за 'wir'",
         "hintEl": "Ανακλαστική αντωνυμία για «wir»"
+      },
+      {
+        "id": 1502,
+        "type": "fillblank",
+        "question": "Wir sprechen mit ___ Nachbarn. (der, plural)",
+        "questionDe": "Wir sprechen mit ___ Nachbarn. (der, plural)",
+        "questionEn": "We are speaking with the neighbors.",
+        "questionAr": "نحن نتحدث مع الجيران.",
+        "answer": "den",
+        "questionTr": "Komşularla konuşuyoruz.",
+        "questionRo": "Vorbim cu vecinii.",
+        "questionBs": "Razgovaramo sa komšijama.",
+        "questionEs": "Estamos hablando con los vecinos.",
+        "questionBg": "Говорим със съседите.",
+        "questionEl": "Μιλάμε με τους γείτονες.",
+        "hintDe": "Präposition 'mit' erfordert Dativ Plural",
+        "hintEn": "preposition 'mit' requires Dative plural",
+        "hintAr": "حرف الجر \"mit\" يتطلب صيغة الجمع",
+        "hintTr": "'mit' edatı Dative çoğulu gerektirir",
+        "hintRo": "prepoziția „mit” necesită dativ plural",
+        "hintBs": "prijedlog 'mit' zahtijeva Dativ množine",
+        "hintEs": "la preposición 'mit' requiere dativo plural",
+        "hintBg": "предлогът „mit“ изисква дателен падеж множествено число",
+        "hintEl": "Η πρόθεση «mit» απαιτεί δοτική πληθυντικού"
       }
     ],
     "writingPrompts": [
@@ -5866,6 +7992,47 @@ const CURRICULUM_A2 = [
             "noteEl": "Το 'ist' ωθείται μέχρι το τέλος."
           }
         ]
+      },
+      {
+        "id": "temporale-praepositionen",
+        "titleDe": "Temporale Präpositionen",
+        "title": "حروف الجر الزمنية",
+        "titleEn": "Temporal Prepositions",
+        "explanation": "حروف الجر الزمنية مثل vor (قبل)، nach (بعد)، وin (في / بعد مدة) تعبر عن العلاقات الزمنية وعادة ما تتطلب حالة حالة الجر.",
+        "explanationEn": "Temporal prepositions like vor (before), nach (after), and in (in / after a duration) express time relationships and usually require the Dative case.",
+        "titleTr": "Zamansal Edatlar",
+        "explanationTr": "Vor (önce), nach (sonra) ve in (bir süre içinde / sonra) gibi zamansal edatlar zaman ilişkilerini ifade eder ve genellikle Dative durumunu gerektirir.",
+        "titleRo": "Prepoziții temporale",
+        "explanationRo": "Prepozițiile temporale precum vor (înainte), nach (după) și în (în / după o durată) exprimă relații de timp și necesită de obicei cazul dativ.",
+        "titleBs": "Temporal Prepositions",
+        "explanationBs": "Vremenski prijedlozi kao što su vor (prije), nach (poslije) i in (u / poslije nekog trajanja) izražavaju vremenske odnose i obično zahtijevaju dativ.",
+        "titleEs": "Preposiciones temporales",
+        "explanationEs": "Las preposiciones temporales como vor (antes), nach (después) y en (en/después de una duración) expresan relaciones de tiempo y generalmente requieren el caso dativo.",
+        "titleBg": "Темпорални предлози",
+        "explanationBg": "Темпоралните предлози като vor (преди), nach (след) и in (в / след продължителност) изразяват времеви отношения и обикновено изискват дателен падеж.",
+        "titleEl": "Χρονικές Προθέσεις",
+        "explanationEl": "Οι χρονικές προθέσεις όπως vor (πριν), nach (μετά) και in (in / after a duration) εκφράζουν χρονικές σχέσεις και συνήθως απαιτούν την κεφαλαία Dative.",
+        "rules": [
+          {
+            "example": "Nach dem Unterricht lerne ich Deutsch.",
+            "translation": "بعد الدرس أدرس اللغة الألمانية.",
+            "translationEn": "After the lesson, I study German.",
+            "note": "تتطلب كلمة \"nach\" حالة حالة الجر (dem Unterricht).",
+            "noteEn": "'nach' requires the Dative case (dem Unterricht).",
+            "translationTr": "Dersten sonra Almanca çalışıyorum.",
+            "noteTr": "'nach' Dative durumunu (dem Unterricht) gerektirir.",
+            "translationRo": "După lecție, studiez germana.",
+            "noteRo": "„nach” necesită cazul dativ (dem Unterricht).",
+            "translationBs": "Nakon nastave učim njemački.",
+            "noteBs": "'nach' zahtijeva dativ (dem Unterricht).",
+            "translationEs": "Después de la lección, estudio alemán.",
+            "noteEs": "'nach' requiere el caso dativo (dem Unterricht).",
+            "translationBg": "След урока уча немски.",
+            "noteBg": "„nach“ изисква дателен падеж (dem Unterricht).",
+            "translationEl": "Μετά το μάθημα, μαθαίνω γερμανικά.",
+            "noteEl": "Το 'nach' απαιτεί την περίπτωση Dative (dem Unterricht)."
+          }
+        ]
       }
     ],
     "exercises": [
@@ -5927,6 +8094,30 @@ const CURRICULUM_A2 = [
         "hintEs": "El sujeto de la cláusula subordinada es 'wir'.",
         "hintBg": "Предметът на подчиненото изречение е „wir“",
         "hintEl": "Το θέμα της δευτερεύουσας πρότασης είναι \"wir\""
+      },
+      {
+        "id": 1602,
+        "type": "fillblank",
+        "question": "___ der Prüfung war ich sehr nervös. (Before)",
+        "questionDe": "___ der Prüfung war ich sehr nervös. (Before)",
+        "questionEn": "Before the exam I was very nervous.",
+        "questionAr": "قبل الامتحان كنت متوترا جدا.",
+        "answer": "Vor",
+        "questionTr": "Sınavdan önce çok gergindim.",
+        "questionRo": "Înainte de examen eram foarte nervos.",
+        "questionBs": "Prije ispita sam bio jako nervozan.",
+        "questionEs": "Antes del examen estaba muy nervioso.",
+        "questionBg": "Преди изпита бях много нервна.",
+        "questionEl": "Πριν από τις εξετάσεις ήμουν πολύ νευρικός.",
+        "hintDe": "vor + Dativ (feminin: der Prüfung)",
+        "hintEn": "before + Dative (feminine)",
+        "hintAr": "قبل + حالة النصب (مؤنث)",
+        "hintTr": "önce + Dative (dişil)",
+        "hintRo": "înainte + Dativ (feminin)",
+        "hintBs": "prije + Dativ (ženski rod)",
+        "hintEs": "antes + dativo (femenino)",
+        "hintBg": "пред + дателен падеж (женски род)",
+        "hintEl": "πριν + δοτική (θηλυκό)"
       }
     ],
     "writingPrompts": [
@@ -6217,6 +8408,47 @@ const CURRICULUM_A2 = [
             "noteEl": "liegen (θέση -> Dative), legen (κίνηση -> Κατηγορούμενο)."
           }
         ]
+      },
+      {
+        "id": "wechselpraepositionen-verben",
+        "titleDe": "Positions- und Richtungsverben",
+        "title": "التنسيب مقابل أفعال الموقف",
+        "titleEn": "Placement vs. Position Verbs",
+        "explanation": "تميز اللغة الألمانية بين الأفعال التي تحرك شيئًا ما (stellen، legen، hängen + حالة النصب) والحالات التي توضح مكان وجود شيء ما (stehen، liegen، hängen + حالة النصب).",
+        "explanationEn": "German distinguishes between actions moving something (stellen, legen, hängen + Accusative) and states showing where something is (stehen, liegen, hängen + Dative).",
+        "titleTr": "Yerleştirme ve Konum Fiilleri",
+        "explanationTr": "Almanca, bir şeyi hareket ettiren eylemler (stellen, legen, hängen + Accusative) ile bir şeyin nerede olduğunu gösteren durumlar (stehen, liegen, hängen + Dative) arasında ayrım yapar.",
+        "titleRo": "Verbe de plasare versus poziție",
+        "explanationRo": "Germana face distincție între acțiunile care mișcă ceva (stellen, legen, hängen + Acuzativ) și acțiunile care arată unde este ceva (stehen, liegen, hängen + Dativ).",
+        "titleBs": "Položaj glagola u odnosu na položaj",
+        "explanationBs": "Njemački razlikuje radnje koje pokreću nešto (stelen, legen, hängen + akuzativ) i stanja koja pokazuju gdje se nešto nalazi (stehen, liegen, hängen + Dativ).",
+        "titleEs": "Verbos de ubicación versus posición",
+        "explanationEs": "El alemán distingue entre acciones que mueven algo (stellen, legen, hängen + acusativo) y estados que muestran dónde está algo (stehen, liegen, hängen + dativo).",
+        "titleBg": "Разположение срещу глаголи за позиция",
+        "explanationBg": "Немският прави разлика между действия, които преместват нещо (stellen, legen, hängen + Акузатив) и състояния, показващи къде се намира нещо (stehen, liegen, hängen + Дателен падеж).",
+        "titleEl": "Ρήματα τοποθέτησης εναντίον θέσης",
+        "explanationEl": "Τα Γερμανικά κάνουν διάκριση μεταξύ ενεργειών που κινούν κάτι (stellen, legen, hängen + Κατηγορούμενο) και δηλώνει που δείχνει πού βρίσκεται κάτι (stehen, liegen, hängen + Dative).",
+        "rules": [
+          {
+            "example": "Ich lege das Buch auf den Tisch. (Accusative) / Das Buch liegt auf dem Tisch. (Dative)",
+            "translation": "أضع الكتاب على الطاولة. / الكتاب ملقى على الطاولة.",
+            "translationEn": "I lay the book on the table. / The book is lying on the table.",
+            "note": "ليجن (العمل) مقابل ليجن (الحالة).",
+            "noteEn": "legen (action) vs. liegen (state).",
+            "translationTr": "Kitabı masanın üzerine koydum. / Kitap masanın üzerinde yatıyor.",
+            "noteTr": "legen (eylem) vs. liegen (durum).",
+            "translationRo": "Am pus cartea pe masă. / Cartea stă întinsă pe masă.",
+            "noteRo": "legen (acțiune) vs. liegen (stare).",
+            "translationBs": "Spustio sam knjigu na sto. / Knjiga leži na stolu.",
+            "noteBs": "legen (akcija) naspram liegen (stanje).",
+            "translationEs": "Dejo el libro sobre la mesa. / El libro está sobre la mesa.",
+            "noteEs": "legen (acción) vs. liegen (estado).",
+            "translationBg": "Поставям книгата на масата. / Книгата лежи на масата.",
+            "noteBg": "legen (действие) срещу liegen (състояние).",
+            "translationEl": "Ακουμπάω το βιβλίο στο τραπέζι. / Το βιβλίο είναι ξαπλωμένο στο τραπέζι.",
+            "noteEl": "legen (δράση) εναντίον liegen (κατάσταση)."
+          }
+        ]
       }
     ],
     "exercises": [
@@ -6278,6 +8510,30 @@ const CURRICULUM_A2 = [
         "hintEs": "estellen = ¿adónde? -> Acusativo",
         "hintBg": "stellen = накъде? -> Винителен падеж",
         "hintEl": "stellen = πού; -> Κατηγορούμενο"
+      },
+      {
+        "id": 1702,
+        "type": "fillblank",
+        "question": "Die Katze liegt auf ___ Bett. (das)",
+        "questionDe": "Die Katze liegt auf ___ Bett. (das)",
+        "questionEn": "The cat lies on the bed.",
+        "questionAr": "القطة ترقد على السرير.",
+        "answer": "dem",
+        "questionTr": "Kedi yatakta yatıyor.",
+        "questionRo": "Pisica se întinde pe pat.",
+        "questionBs": "Mačka leži na krevetu.",
+        "questionEs": "El gato yace en la cama.",
+        "questionBg": "Котката лежи на леглото.",
+        "questionEl": "Η γάτα ξαπλώνει στο κρεβάτι.",
+        "hintDe": "liegen erfordert Dativ (Ort) für das Bett",
+        "hintEn": "liegen requires Dative (location) for neuter",
+        "hintAr": "يتطلب liegen حالة Dative (الموقع) للمحايد",
+        "hintTr": "liegen kısırlaştırma için Dative (konum) gerektirir",
+        "hintRo": "liegen necesită dativ (locație) pentru neutru",
+        "hintBs": "liegen zahtijeva dativ (lokacija) za srednji rod",
+        "hintEs": "liegen requiere dativo (ubicación) para neutro",
+        "hintBg": "liegen изисква дателен падеж (местоположение) за среден род",
+        "hintEl": "Το liegen απαιτεί Dative (τοποθεσία) για ουδέτερο"
       }
     ],
     "writingPrompts": [
@@ -6568,6 +8824,47 @@ const CURRICULUM_A2 = [
             "noteEl": "Το 'ist' είναι στο τέλος."
           }
         ]
+      },
+      {
+        "id": "richtungsadverbien",
+        "titleDe": "Richtungsadverbien: hin und her",
+        "title": "الاحوال الاتجاهية : هين وهي",
+        "titleEn": "Directional Adverbs: hin and her",
+        "explanation": "الظروف الاتجاهية تعبر عن الحركة. كلمة \"Hin\" تعني الابتعاد عن مكبر الصوت، وكلمة \"her\" تعني التحرك نحو مكبر الصوت (غالبًا ما يتم اختصارها إلى كبح، raus، rüber، rauf، runter).",
+        "explanationEn": "Directional adverbs express movement. 'Hin' means moving away from the speaker, 'her' means moving towards the speaker (often shortened to rein, raus, rüber, rauf, runter).",
+        "titleTr": "Yön Zarfları: hin ve o",
+        "explanationTr": "Yön zarfları hareketi ifade eder. 'Hin' konuşmacıdan uzaklaşmak anlamına gelir, 'her' ise konuşmacıya doğru hareket etmek anlamına gelir (genellikle dizgin, raus, rüber, rauf, runter olarak kısaltılır).",
+        "titleRo": "Adverbe direcționale: hin și ea",
+        "explanationRo": "Adverbele direcționale exprimă mișcarea. „Hin” înseamnă să te îndepărtezi de vorbitor, „ea” înseamnă să te deplasezi către vorbitor (deseori scurtat în rein, raus, rüber, rauf, runter).",
+        "titleBs": "Prilozi za usmjeravanje: hin and her",
+        "explanationBs": "Smjerni prilozi izražavaju kretanje. 'Hin' znači udaljavanje od govornika, 'njena' znači kretanje prema govorniku (često skraćeno na rein, raus, rüber, rauf, runter).",
+        "titleEs": "Adverbios direccionales: hin y ella",
+        "explanationEs": "Los adverbios direccionales expresan movimiento. 'Hin' significa alejarse del hablante, 'ella' significa acercarse al hablante (a menudo abreviado como rein, raus, rüber, rauf, runter).",
+        "titleBg": "Наречия за посока: hin и her",
+        "explanationBg": "Наречията за посока изразяват движение. „Hin“ означава отдалечаване от говорещия, „her“ означава придвижване към говорещия (често съкратено до rein, raus, rüber, rauf, runter).",
+        "titleEl": "Κατευθυντικά Επιρρήματα: hin and her",
+        "explanationEl": "Τα κατευθυντικά επιρρήματα εκφράζουν κίνηση. 'Hin' σημαίνει απομάκρυνση από το ηχείο, 'her' σημαίνει κίνηση προς το ηχείο (συχνά συντομεύεται σε rein, raus, rüber, rauf, runter).",
+        "rules": [
+          {
+            "example": "Komm bitte her! / Geh bitte hin!",
+            "translation": "من فضلك تعال هنا! / من فضلك اذهب إلى هناك!",
+            "translationEn": "Please come here! / Please go there!",
+            "note": "لها (نحو) مقابل هين (بعيدا).",
+            "noteEn": "her (towards) vs. hin (away).",
+            "translationTr": "Lütfen buraya gelin! / Lütfen oraya gidin!",
+            "noteTr": "ona (doğru) karşı hin (uzağa).",
+            "translationRo": "Te rog vino aici! / Te rog du-te acolo!",
+            "noteRo": "ea (spre) vs. hin (departe).",
+            "translationBs": "Molim te dođi ovamo! / Molim te idi tamo!",
+            "noteBs": "njena (prema) vs. hin (udalje).",
+            "translationEs": "¡Por favor ven aquí! / ¡Por favor ve allí!",
+            "noteEs": "ella (hacia) vs. hin (lejos).",
+            "translationBg": "Моля, елате тук! / Моля, отидете там!",
+            "noteBg": "нея (към) срещу хин (далече).",
+            "translationEl": "Παρακαλώ ελάτε εδώ! / Παρακαλώ πηγαίνετε εκεί!",
+            "noteEl": "της (προς) εναντίον ιν (μακριά)."
+          }
+        ]
       }
     ],
     "exercises": [
@@ -6629,6 +8926,30 @@ const CURRICULUM_A2 = [
         "hintEs": "Forma perfecta al final con el verbo auxiliar 'ist'",
         "hintBg": "Перфектна форма в края със спомагателен глагол 'ist'",
         "hintEl": "Τέλεια μορφή στο τέλος με βοηθητικό ρήμα 'ist'"
+      },
+      {
+        "id": 1802,
+        "type": "fillblank",
+        "question": "Komm bitte in das Haus ___! (in / inside)",
+        "questionDe": "Komm bitte in das Haus ___! (in / inside)",
+        "questionEn": "Please come inside the house!",
+        "questionAr": "يرجى الدخول إلى المنزل!",
+        "answer": "rein",
+        "questionTr": "Lütfen evin içine gelin!",
+        "questionRo": "Vă rog să intrați în casă!",
+        "questionBs": "Molim vas uđite u kuću!",
+        "questionEs": "¡Por favor, entra a la casa!",
+        "questionBg": "Моля, влезте в къщата!",
+        "questionEl": "Παρακαλώ ελάτε μέσα στο σπίτι!",
+        "hintDe": "herein = rein (Bewegung zum Sprecher)",
+        "hintEn": "herein = rein (movement towards speaker)",
+        "hintAr": "هنا = كبح جماح (الحركة نحو المتحدث)",
+        "hintTr": "burada = dizgin (konuşmacıya doğru hareket)",
+        "hintRo": "aici = frâu (mișcare către vorbitor)",
+        "hintBs": "ovdje = uzde (kretanje prema govorniku)",
+        "hintEs": "herein = rienda (movimiento hacia el hablante)",
+        "hintBg": "herein = юзда (движение към говорещия)",
+        "hintEl": "herein = χαλινάρι (κίνηση προς το ηχείο)"
       }
     ],
     "writingPrompts": [
@@ -6919,6 +9240,47 @@ const CURRICULUM_A2 = [
             "noteEl": "bequem -> bequemer -> am bequemsten."
           }
         ]
+      },
+      {
+        "id": "adjektivdeklination-ohne-artikel",
+        "titleDe": "Adjektivdeklination ohne Artikel",
+        "title": "تصريف الصفة بدون المادة",
+        "titleEn": "Adjective Declension without Article",
+        "explanation": "عندما لا يكون هناك أداة تعريف قبل الصفة، فإن الصفة نفسها تأخذ النهاية التي كانت ستأخذها أداة التعريف (باستثناء المذكر/المحايد).",
+        "explanationEn": "When there is no article before an adjective, the adjective itself takes the ending that the definite article would have taken (except genitive masculine/neuter).",
+        "titleTr": "Artikelsiz Sıfat Çekimi",
+        "explanationTr": "Bir sıfattan önce artikel olmadığında, sıfatın kendisi, belirli artikelin alabileceği son eki alır (genitive eril/nötr hariç).",
+        "titleRo": "Adjectiv Declinare fără articol",
+        "explanationRo": "Când nu există un articol înaintea unui adjectiv, adjectivul însuși ia finalul pe care ar fi luat-o articolul hotărât (cu excepția genitivului masculin/neutru).",
+        "titleBs": "Deklinacija pridjeva bez člana",
+        "explanationBs": "Kada ispred pridjeva nema člana, sam pridjev uzima završetak koji bi zauzeo određeni član (osim genitiva muškog/srednjeg roda).",
+        "titleEs": "Declinación de adjetivos sin artículo",
+        "explanationEs": "Cuando no hay ningún artículo delante de un adjetivo, el propio adjetivo toma la terminación que habría tomado el artículo definido (excepto genitivo masculino/neutro).",
+        "titleBg": "Прилагателно склонение без член",
+        "explanationBg": "Когато няма член пред прилагателно, самото прилагателно приема окончанието, което би получило определителният член (с изключение на родителен падеж от мъжки/среден род).",
+        "titleEl": "Επίθετο κλίση χωρίς άρθρο",
+        "explanationEl": "Όταν δεν υπάρχει άρθρο πριν από ένα επίθετο, το ίδιο το επίθετο παίρνει την κατάληξη που θα έπαιρνε το οριστικό άρθρο (εκτός από το γενικό αρσενικό/ουδέτερο).",
+        "rules": [
+          {
+            "example": "Kreative Künstler malen bunte Bilder.",
+            "translation": "الفنانون المبدعون يرسمون صورًا ملونة.",
+            "translationEn": "Creative artists paint colorful pictures.",
+            "note": "الجمع الاسمي بدون أداة يأخذ -e.",
+            "noteEn": "Nominative plural without article takes -e.",
+            "translationTr": "Yaratıcı sanatçılar renkli resimler çiziyor.",
+            "noteTr": "Artikelsiz yalın çoğul -e alır.",
+            "translationRo": "Artiștii creativi pictează imagini colorate.",
+            "noteRo": "Nominativ plural fără articol ia -e.",
+            "translationBs": "Kreativni umjetnici slikaju šarene slike.",
+            "noteBs": "Imenativ množine bez člana uzima -e.",
+            "translationEs": "Los artistas creativos pintan cuadros coloridos.",
+            "noteEs": "El nominativo plural sin artículo lleva -e.",
+            "translationBg": "Творческите художници рисуват цветни картини.",
+            "noteBg": "Именителен падеж множествено число без член взема -е.",
+            "translationEl": "Δημιουργικοί καλλιτέχνες ζωγραφίζουν πολύχρωμες εικόνες.",
+            "noteEl": "Ονομαστική πληθυντικού χωρίς άρθρο παίρνει -ε."
+          }
+        ]
       }
     ],
     "exercises": [
@@ -6980,6 +9342,30 @@ const CURRICULUM_A2 = [
         "hintEs": "Forma comparativa de 'tripa'",
         "hintBg": "Сравнителна форма на \"червата\"",
         "hintEl": "Συγκριτική μορφή του «έντερου»"
+      },
+      {
+        "id": 1902,
+        "type": "fillblank",
+        "question": "Ich trinke gern ___ Kaffee. (heiß)",
+        "questionDe": "Ich trinke gern ___ Kaffee. (heiß)",
+        "questionEn": "I like to drink hot coffee.",
+        "questionAr": "أحب شرب القهوة الساخنة.",
+        "answer": "heißen",
+        "questionTr": "Sıcak kahve içmeyi severim.",
+        "questionRo": "Îmi place să beau cafea fierbinte.",
+        "questionBs": "Volim da pijem toplu kafu.",
+        "questionEs": "Me gusta tomar café caliente.",
+        "questionBg": "Обичам да пия горещо кафе.",
+        "questionEl": "Μου αρέσει να πίνω ζεστό καφέ.",
+        "hintDe": "Akkusativ maskulin, kein Artikel",
+        "hintEn": "accusative masculine, no article",
+        "hintAr": "حالة النصب المذكر، لا يوجد مقال",
+        "hintTr": "suçlayıcı erkeksi, makale yok",
+        "hintRo": "acuzativ masculin, fără articol",
+        "hintBs": "akuzativ muškog roda, bez člana",
+        "hintEs": "acusativo masculino, sin artículo",
+        "hintBg": "винителен падеж мъжки род, без член",
+        "hintEl": "κατηγορούμενο αρσενικό, κανένα άρθρο"
       }
     ],
     "writingPrompts": [
@@ -7270,6 +9656,47 @@ const CURRICULUM_A2 = [
             "noteEl": "Εάν η ρήτρα 'wenn' είναι πρώτη, η κύρια πρόταση αρχίζει με το ρήμα."
           }
         ]
+      },
+      {
+        "id": "konjunktiv-zwei",
+        "titleDe": "Konjunktiv II: Höfliche Bitten und Wünsche",
+        "title": "Konjunktiv II: الطلبات والرغبات المهذبة",
+        "titleEn": "Konjunktiv II: Polite Requests and Wishes",
+        "explanation": "يتم استخدام Konjunktiv II للتعبير عن الأحلام والرغبات ولجعل الطلبات تبدو مهذبة للغاية (على سبيل المثال Ich hätte gerne..., Könnten Sie bitte...).",
+        "explanationEn": "Konjunktiv II is used to express dreams, wishes, and to make requests sound very polite (e.g. Ich hätte gerne..., Könnten Sie bitte...).",
+        "titleTr": "Konjunktiv II: Kibar İstekler ve Dilekler",
+        "explanationTr": "Konjunktiv II, hayalleri, dilekleri ifade etmek ve isteklerin kulağa çok kibar gelmesini sağlamak için kullanılır (örn. Ich hätte gerne..., Könnten Sie bitte...).",
+        "titleRo": "Konjunktiv II: Cereri și dorințe politicoase",
+        "explanationRo": "Konjunktiv II este folosit pentru a exprima vise, dorințe și pentru a face cereri să sune foarte politicos (de exemplu, Ich hätte gerne..., Könnten Sie bitte...).",
+        "titleBs": "Konjunktiv II: Uljudni zahtjevi i želje",
+        "explanationBs": "Konjunktiv II se koristi da izrazi snove, želje i učini da zahtjevi zvuče vrlo pristojno (npr. Ich hätte gerne..., Könnten Sie bitte...).",
+        "titleEs": "Konjunktiv II: peticiones y deseos amables",
+        "explanationEs": "Konjunktiv II se utiliza para expresar sueños, deseos y hacer peticiones que suenen muy educadas (por ejemplo, Ich hätte gerne..., Könnten Sie bitte...).",
+        "titleBg": "Konjunktiv II: Учтиви молби и пожелания",
+        "explanationBg": "Konjunktiv II се използва за изразяване на мечти, желания и за да накара молбите да звучат много учтиво (напр. Ich hätte gerne..., Könnten Sie bitte...).",
+        "titleEl": "Konjunktiv II: Ευγενικά αιτήματα και ευχές",
+        "explanationEl": "Το Konjunktiv II χρησιμοποιείται για να εκφράσει όνειρα, επιθυμίες και για να κάνει τα αιτήματα να ακούγονται πολύ ευγενικά (π.χ. Ich hätte gerne..., Könnten Sie bitte...).",
+        "rules": [
+          {
+            "example": "Ich würde gerne mitkommen, wenn ich Zeit hätte.",
+            "translation": "أود أن آتي إذا كان لدي الوقت.",
+            "translationEn": "I would like to come along if I had time.",
+            "note": "würde + صيغة المصدر، وhätte (من haben).",
+            "noteEn": "würde + infinitive, and hätte (from haben).",
+            "translationTr": "Zamanım olursa ben de gelmek isterim.",
+            "noteTr": "würde + mastar ve hätte (haben'den).",
+            "translationRo": "Aș vrea să vin dacă aș avea timp.",
+            "noteRo": "würde + infinitiv și hätte (din haben).",
+            "translationBs": "Voleo bih da dođem ako budem imao vremena.",
+            "noteBs": "würde + infinitiv, i hätte (od haben).",
+            "translationEs": "Me gustaría acompañarme si tuviera tiempo.",
+            "noteEs": "würde + infinitivo y hätte (de haben).",
+            "translationBg": "Бих искал да дойда, ако имах време.",
+            "noteBg": "würde + инфинитив и hätte (от haben).",
+            "translationEl": "Θα ήθελα να έρθω αν είχα χρόνο.",
+            "noteEl": "würde + αόριστος, και hätte (από το haben)."
+          }
+        ]
       }
     ],
     "exercises": [
@@ -7331,6 +9758,30 @@ const CURRICULUM_A2 = [
         "hintEs": "Condición o cláusula subordinada temporal",
         "hintBg": "Условие или темпорално подчинено изречение",
         "hintEl": "Προϋπόθεση ή χρονική δευτερεύουσα ρήτρα"
+      },
+      {
+        "id": 2002,
+        "type": "fillblank",
+        "question": "___ Sie mir bitte helfen? (Could)",
+        "questionDe": "___ Sie mir bitte helfen? (Could)",
+        "questionEn": "Could you please help me?",
+        "questionAr": "هلاّ ساعدتني من فضلك؟",
+        "answer": "Könnten",
+        "questionTr": "Lütfen bana yardım eder misiniz?",
+        "questionRo": "Mă puteți ajuta , vă rog?",
+        "questionBs": "Možete li mi pomoći?",
+        "questionEs": "¿Me podría ayudar?",
+        "questionBg": "Бихте ли ми помогнали?",
+        "questionEl": "Θα μπορούσατε σας παρακαλώ να με βοηθήσετε;",
+        "hintDe": "Höfliche Bitte mit können",
+        "hintEn": "Polite request with können",
+        "hintAr": "طلب مهذب مع können",
+        "hintTr": "Können ile kibar rica",
+        "hintRo": "Cerere politicoasă cu können",
+        "hintBs": "Ljubazan zahtjev sa können",
+        "hintEs": "Solicitud cortés con können",
+        "hintBg": "Учтива молба с können",
+        "hintEl": "Ευγενικό αίτημα με τον können"
       }
     ],
     "writingPrompts": [
@@ -7621,6 +10072,47 @@ const CURRICULUM_A2 = [
             "noteEl": "Präteritum μορφές του müssen (musste) και του können (konnte)."
           }
         ]
+      },
+      {
+        "id": "genitiv",
+        "titleDe": "Der Genitiv",
+        "title": "القضية الجينية",
+        "titleEn": "The Genitive Case",
+        "explanation": "تستخدم الحالة المضاف إليها لإظهار الحيازة أو العلاقة. الأسماء المذكرة والمحايدة تأخذ نهاية إضافية -s أو -es (على سبيل المثال، des Vaters، der Mutter).",
+        "explanationEn": "The genitive case is used to show possession or relationship. Masculine and neuter nouns take an additional -s or -es ending (e.g., des Vaters, der Mutter).",
+        "titleTr": "Genel Durum",
+        "explanationTr": "Genel durum, mülkiyeti veya ilişkiyi göstermek için kullanılır. Eril ve nötr isimler ek olarak -s veya -es ekini alır (örneğin, des Vaters, der Mutter).",
+        "titleRo": "Cazul genitiv",
+        "explanationRo": "Cazul genitiv este folosit pentru a arăta posesia sau relația. Substantivele masculine și neutre au o terminație suplimentară -s sau -es (de exemplu, des Vaters, der Mutter).",
+        "titleBs": "Padež genitiva",
+        "explanationBs": "Genitiv se koristi da pokaže posjedovanje ili odnos. Imenice muškog i srednjeg roda imaju dodatni završetak -s ili -es (npr. des Vaters, der Mutter).",
+        "titleEs": "El caso genitivo",
+        "explanationEs": "El caso genitivo se utiliza para mostrar posesión o relación. Los sustantivos masculinos y neutros llevan una terminación -s o -es adicional (p. ej., des Vaters, der Mutter).",
+        "titleBg": "Родителен падеж",
+        "explanationBg": "Родителният падеж се използва за показване на притежание или връзка. Съществителните от мъжки и среден род имат допълнително окончание -s или -es (напр. des Vaters, der Mutter).",
+        "titleEl": "The Genitive Case",
+        "explanationEl": "Η γενετική περίπτωση χρησιμοποιείται για να δείξει κατοχή ή σχέση. Τα αρσενικά και ουδέτερα ουσιαστικά παίρνουν πρόσθετη κατάληξη -s ή -es (π.χ. des Vaters, der Mutter).",
+        "rules": [
+          {
+            "example": "Das ist das Büro des Chefs.",
+            "translation": "هذا هو مكتب الرئيس.",
+            "translationEn": "That is the boss's office.",
+            "note": "des Chefs (مضاف إليه المذكر).",
+            "noteEn": "des Chefs (masculine genitive).",
+            "translationTr": "Orası patronun ofisi.",
+            "noteTr": "des Chefs (eril genetik).",
+            "translationRo": "Acesta este biroul șefului.",
+            "noteRo": "des Chefs (genitiv masculin).",
+            "translationBs": "To je šefova kancelarija.",
+            "noteBs": "des Chefs (muški genitiv).",
+            "translationEs": "Esa es la oficina del jefe.",
+            "noteEs": "des Chefs (genitivo masculino).",
+            "translationBg": "Това е кабинетът на шефа.",
+            "noteBg": "des Chefs (родителен падеж в мъжки род).",
+            "translationEl": "Εκεί είναι το γραφείο του αφεντικού.",
+            "noteEl": "des Chefs (αρσενικό γένος)."
+          }
+        ]
       }
     ],
     "exercises": [
@@ -7682,6 +10174,30 @@ const CURRICULUM_A2 = [
         "hintEs": "können en Präteritum para 'ich'",
         "hintBg": "können в Präteritum за \"ich\"",
         "hintEl": "können στο Präteritum για το «ich»"
+      },
+      {
+        "id": 2102,
+        "type": "fillblank",
+        "question": "Das ist das Auto ___ Kollegin. (der / die, feminin)",
+        "questionDe": "Das ist das Auto ___ Kollegin. (der / die, feminin)",
+        "questionEn": "That is the colleague's car.",
+        "questionAr": "تلك هي سيارة الزميل.",
+        "answer": "der",
+        "questionTr": "Bu meslektaşının arabası.",
+        "questionRo": "Asta e mașina colegului.",
+        "questionBs": "To je auto kolege.",
+        "questionEs": "Ese es el auto del colega.",
+        "questionBg": "Това е колата на колегата.",
+        "questionEl": "Αυτό είναι το αυτοκίνητο του συναδέλφου.",
+        "hintDe": "Genitiv feminin (der Kollegin)",
+        "hintEn": "genitive feminine (der)",
+        "hintAr": "مؤنث مضاف (دير)",
+        "hintTr": "genel dişil (der)",
+        "hintRo": "genitiv feminin (der)",
+        "hintBs": "genitiv ženskog roda (der)",
+        "hintEs": "genitivo femenino (der)",
+        "hintBg": "родителен падеж женски (der)",
+        "hintEl": "γεννητικό θηλυκό (der)"
       }
     ],
     "writingPrompts": [
@@ -7972,6 +10488,47 @@ const CURRICULUM_A2 = [
             "noteEl": "Ο warten auf παίρνει Αιτητική περίπτωση."
           }
         ]
+      },
+      {
+        "id": "nebensaetze-dass",
+        "titleDe": "Nebensätze mit 'dass'",
+        "title": "الجمل الثانوية مع \"dass\" (ذلك)",
+        "titleEn": "Subordinate Clauses with 'dass' (that)",
+        "explanation": "الجمل الثانوية التي أدخلتها كلمة \"dass\" (التي) تعبر عن الأفكار أو البيانات أو الآراء، وتدفع الفعل المصرف إلى نهاية الجملة.",
+        "explanationEn": "Subordinate clauses introduced by 'dass' (that) express thoughts, statements, or opinions, and push the conjugated verb to the end of the sentence.",
+        "titleTr": "'Dass' (that) ile Yardımcı Cümleler",
+        "explanationTr": "'Dass' (ki bu) tarafından getirilen yan cümleler düşünceleri, ifadeleri veya görüşleri ifade eder ve çekimli fiili cümlenin sonuna iter.",
+        "titleRo": "Propoziții subordonate cu „dass” (că)",
+        "explanationRo": "Propozițiile subordonate introduse de „dass” (care) exprimă gânduri, declarații sau opinii și împing verbul conjugat până la sfârșitul propoziției.",
+        "titleBs": "Podređene rečenice sa 'dass' (to)",
+        "explanationBs": "Podređene rečenice uvedene sa 'dass' (koje) izražavaju misli, izjave ili mišljenja i guraju konjugirani glagol na kraj rečenice.",
+        "titleEs": "Cláusulas subordinadas con 'dass' (eso)",
+        "explanationEs": "Oraciones subordinadas introducidas por 'dass' (que) expresan pensamientos, declaraciones u opiniones y empujan el verbo conjugado hasta el final de la oración.",
+        "titleBg": "Подчинени изречения с „dass“ (това)",
+        "explanationBg": "Подчинени изречения, въведени от „dass“ (които) изразяват мисли, твърдения или мнения и изместват спрегнатия глагол в края на изречението.",
+        "titleEl": "Δευτερεύουσες προτάσεις με «dass» (που)",
+        "explanationEl": "Οι δευτερεύουσες προτάσεις που εισάγονται από το «dass» (που) εκφράζουν σκέψεις, δηλώσεις ή απόψεις και ωθούν το συζευγμένο ρήμα στο τέλος της πρότασης.",
+        "rules": [
+          {
+            "example": "Ich glaube, dass das Internet wichtig ist.",
+            "translation": "أعتقد أن الإنترنت مهم.",
+            "translationEn": "I believe that the internet is important.",
+            "note": "الفعل \"ist\" يذهب إلى النهاية.",
+            "noteEn": "The verb 'ist' goes to the very end.",
+            "translationTr": "İnternetin önemli olduğuna inanıyorum.",
+            "noteTr": "'İst' fiili en sona gider.",
+            "translationRo": "Eu cred că internetul este important.",
+            "noteRo": "Verbul „ist” ajunge până la capăt.",
+            "translationBs": "Vjerujem da je internet važan.",
+            "noteBs": "Glagol 'ist' ide do samog kraja.",
+            "translationEs": "Creo que Internet es importante.",
+            "noteEs": "El verbo 'ist' llega hasta el final.",
+            "translationBg": "Вярвам, че интернет е важен.",
+            "noteBg": "Глаголът „ист“ отива до самия край.",
+            "translationEl": "Πιστεύω ότι το Διαδίκτυο είναι σημαντικό.",
+            "noteEl": "Το ρήμα 'ist' φτάνει μέχρι το τέλος."
+          }
+        ]
       }
     ],
     "exercises": [
@@ -8033,6 +10590,30 @@ const CURRICULUM_A2 = [
         "hintEs": "träumen + von + Dativo (einem ...)",
         "hintBg": "träumen + von + дателен (einem ...)",
         "hintEl": "träumen + von + Dative (einem ...)"
+      },
+      {
+        "id": 2202,
+        "type": "fillblank",
+        "question": "Er sagt, ___ er morgen arbeitet. (that)",
+        "questionDe": "Er sagt, ___ er morgen arbeitet. (that)",
+        "questionEn": "He says that he works tomorrow.",
+        "questionAr": "ويقول أنه يعمل غدا.",
+        "answer": "dass",
+        "questionTr": "Yarın çalışacağını söylüyor.",
+        "questionRo": "Spune că mâine lucrează.",
+        "questionBs": "Kaže da sutra radi.",
+        "questionEs": "Dice que mañana trabaja.",
+        "questionBg": "Казва, че утре работи.",
+        "questionEl": "Λέει ότι δουλεύει αύριο.",
+        "hintDe": "Verbindung mit einem dass-Satz",
+        "hintEn": "linking with a dass-clause",
+        "hintAr": "الربط مع جملة dass",
+        "hintTr": "bir dass cümlesiyle bağlantı kurma",
+        "hintRo": "legând cu o clauză dass",
+        "hintBs": "povezivanje sa dass-klauzulom",
+        "hintEs": "vinculación con una cláusula dass",
+        "hintBg": "свързване с dass-клауза",
+        "hintEl": "σύνδεση με μια ρήτρα dass"
       }
     ],
     "writingPrompts": [
@@ -8323,6 +10904,47 @@ const CURRICULUM_A2 = [
             "noteEl": "Ουδέτερο Ενικό Ονομαστικό/Κατηγορητικό επίθετο τελειώνει σε -e."
           }
         ]
+      },
+      {
+        "id": "nebensaetze-obwohl",
+        "titleDe": "Nebensätze mit 'obwohl'",
+        "title": "الجمل الثانوية مع \"obwohl\" (على الرغم من)",
+        "titleEn": "Subordinate Clauses with 'obwohl' (although)",
+        "explanation": "\"Obwohl\" (على الرغم من / على الرغم من) يقدم تنازلًا أو تباينًا. وهو حرف عطف تابع، فيذهب الفعل المصروف إلى آخره.",
+        "explanationEn": "'Obwohl' (although/even though) introduces a concession or contrast. It is a subordinating conjunction, so the conjugated verb goes to the end.",
+        "titleTr": "'Obwohl' içeren Yardımcı Cümleler (gerçi)",
+        "explanationTr": "'Obwohl' (her ne kadar/olsa da) bir taviz veya karşıtlık getiriyor. Bu bir alt bağlaçtır, dolayısıyla konjuge fiil sonuna gider.",
+        "titleRo": "Propoziții subordonate cu „obwohl” (deși)",
+        "explanationRo": "„Obwohl” (deși/chiar dacă) introduce o concesie sau un contrast. Este o conjuncție subordonată, deci verbul conjugat merge până la sfârșit.",
+        "titleBs": "Podređene rečenice sa 'obwohl' (iako)",
+        "explanationBs": "'Obwohl' (iako/iako) uvodi ustupak ili kontrast. To je podređeni veznik, pa konjugirani glagol ide do kraja.",
+        "titleEs": "Cláusulas subordinadas con 'obwohl' (aunque)",
+        "explanationEs": "'Obwohl' (aunque/aunque) introduce una concesión o contraste. Es una conjunción subordinante, por lo que el verbo conjugado va hasta el final.",
+        "titleBg": "Подчинени изречения с „obwohl“ (въпреки че)",
+        "explanationBg": "„Obwohl“ (въпреки че/въпреки че) въвежда отстъпка или контраст. Това е подчинителна връзка, така че спрегнатият глагол отива в края.",
+        "titleEl": "Δευτερεύουσες προτάσεις με «obwohl» (αν και)",
+        "explanationEl": "Το «Obwohl» (αν και/ακόμα κι αν) εισάγει μια παραχώρηση ή αντίθεση. Είναι δευτερεύων σύνδεσμος, οπότε το συζευγμένο ρήμα πηγαίνει στο τέλος.",
+        "rules": [
+          {
+            "example": "Er geht wählen, obwohl er keine Zeit hat.",
+            "translation": "يذهب للتصويت على الرغم من أنه ليس لديه الوقت.",
+            "translationEn": "He goes to vote even though he has no time.",
+            "note": "الفعل \"قبعة\" يوضع في النهاية.",
+            "noteEn": "The verb 'hat' is placed at the end.",
+            "translationTr": "Zamanı olmamasına rağmen oy kullanmaya gidiyor.",
+            "noteTr": "'Şapka' fiili sonuna yerleştirilir.",
+            "translationRo": "Merge la vot deși nu are timp.",
+            "noteRo": "Verbul „pălărie” este plasat la sfârșit.",
+            "translationBs": "Ide na glasanje iako nema vremena.",
+            "noteBs": "Glagol 'šešir' se nalazi na kraju.",
+            "translationEs": "Va a votar aunque no tiene tiempo.",
+            "noteEs": "El verbo 'sombrero' se coloca al final.",
+            "translationBg": "Отива да гласува, въпреки че няма време.",
+            "noteBg": "В края се поставя глаголът „шапка“.",
+            "translationEl": "Πάει να ψηφίσει κι ας μην έχει χρόνο.",
+            "noteEl": "Το ρήμα «καπέλο» τοποθετείται στο τέλος."
+          }
+        ]
       }
     ],
     "exercises": [
@@ -8384,6 +11006,30 @@ const CURRICULUM_A2 = [
         "hintEs": "artículo definido 'der', masculino, nominativo",
         "hintBg": "определителен член 'der', мъжки род, именителен падеж",
         "hintEl": "οριστικό άρθρο «der», αρσενικό, ονομαστική"
+      },
+      {
+        "id": 2302,
+        "type": "fillblank",
+        "question": "Ich lerne weiter, ___ es schwer ist. (although)",
+        "questionDe": "Ich lerne weiter, ___ es schwer ist. (although)",
+        "questionEn": "I continue to study although it is difficult.",
+        "questionAr": "أواصل الدراسة رغم صعوبتها.",
+        "answer": "obwohl",
+        "questionTr": "Zor da olsa okumaya devam ediyorum.",
+        "questionRo": "Continui sa studiez desi este greu.",
+        "questionBs": "Nastavljam da učim iako je teško.",
+        "questionEs": "Sigo estudiando aunque es difícil.",
+        "questionBg": "Продължавам да уча, въпреки че е трудно.",
+        "questionEl": "Συνεχίζω να σπουδάζω αν και είναι δύσκολο.",
+        "hintDe": "Gegensatz ausgedrückt durch obwohl",
+        "hintEn": "contrast expressed by obwohl",
+        "hintAr": "التباين الذي أعرب عنه obwohl",
+        "hintTr": "obwohl tarafından ifade edilen kontrast",
+        "hintRo": "contrast exprimat de obwohl",
+        "hintBs": "kontrast izražen obwohl",
+        "hintEs": "contraste expresado por obwohl",
+        "hintBg": "контраст, изразен от obwohl",
+        "hintEl": "αντίθεση που εκφράζεται από το obwohl"
       }
     ],
     "writingPrompts": [
@@ -8674,6 +11320,47 @@ const CURRICULUM_A2 = [
             "noteEl": "wegen + Γεν. του der Regen -> des Regens."
           }
         ]
+      },
+      {
+        "id": "finalsaetze",
+        "titleDe": "Finalsätze: um...zu und damit",
+        "title": "البنود النهائية: أم...زو و داميت",
+        "titleEn": "Final Clauses: um...zu and damit",
+        "explanation": "الجمل النهائية تعبر عن الغرض أو الهدف. استخدم \"um...zu\" إذا كان الموضوع هو نفسه في كلا الجملتين، و\"damt\" إذا كان الموضوعان مختلفين.",
+        "explanationEn": "Final clauses express purpose or goal. Use 'um...zu' if the subject is the same in both clauses, and 'damit' if the subjects are different.",
+        "titleTr": "Son Cümleler: um...zu ve kahretsin",
+        "explanationTr": "Son maddeler amacı veya amacı ifade eder. Her iki cümlede de konu aynıysa 'um...zu', konular farklıysa 'lanet olsun' kullanın.",
+        "titleRo": "Clauze finale: um...zu și damit",
+        "explanationRo": "Clauzele finale exprimă scopul sau scopul. Folosiți „um...zu” dacă subiectul este același în ambele propoziții și „damit” dacă subiectele sunt diferite.",
+        "titleBs": "Završne rečenice: um...zu i dovraga",
+        "explanationBs": "Završne rečenice izražavaju svrhu ili cilj. Upotrijebite 'um...zu' ako je subjekt isti u obje rečenice, i 'dovraga' ako su subjekti različiti.",
+        "titleEs": "Cláusulas finales: um...zu y damit",
+        "explanationEs": "Las cláusulas finales expresan propósito u objetivo. Utilice 'um...zu' si el sujeto es el mismo en ambas cláusulas y 'damit' si los sujetos son diferentes.",
+        "titleBg": "Заключителни клаузи: um...zu и damit",
+        "explanationBg": "Финалните клаузи изразяват цел или цел. Използвайте 'um...zu', ако темата е една и съща и в двете клаузи, и 'damit', ако субектите са различни.",
+        "titleEl": "Τελικές ρήτρες: um...zu and damit",
+        "explanationEl": "Οι τελικές ρήτρες εκφράζουν σκοπό ή στόχο. Χρησιμοποιήστε \"um...zu\" αν το θέμα είναι το ίδιο και στις δύο προτάσεις και \"damit\" εάν τα θέματα είναι διαφορετικά.",
+        "rules": [
+          {
+            "example": "Ich reise nach Deutschland, um Deutsch zu lernen.",
+            "translation": "أسافر إلى ألمانيا لتعلم اللغة الألمانية.",
+            "translationEn": "I travel to Germany in order to learn German.",
+            "note": "أم + أكشن + زو + صيغة المصدر.",
+            "noteEn": "um + action + zu + infinitive.",
+            "translationTr": "Almanca öğrenmek için Almanya'ya gidiyorum.",
+            "noteTr": "um + eylem + zu + mastar.",
+            "translationRo": "Călătoresc în Germania pentru a învăța limba germană.",
+            "noteRo": "um + acțiune + zu + infinitiv.",
+            "translationBs": "Putujem u Njemačku kako bih naučio njemački.",
+            "noteBs": "um + akcija + zu + infinitiv.",
+            "translationEs": "Viajo a Alemania para aprender alemán.",
+            "noteEs": "um + acción + zu + infinitivo.",
+            "translationBg": "Пътувам до Германия, за да науча немски.",
+            "noteBg": "um + действие + zu + инфинитив.",
+            "translationEl": "Ταξιδεύω στη Γερμανία για να μάθω γερμανικά.",
+            "noteEl": "um + δράση + zu + αόριστος."
+          }
+        ]
       }
     ],
     "exercises": [
@@ -8735,6 +11422,30 @@ const CURRICULUM_A2 = [
         "hintEs": "Atributo genitivo después de 'trotz des'",
         "hintBg": "Родителен атрибут след „trotz des“",
         "hintEl": "Γενικό χαρακτηριστικό μετά το \"trotz des\""
+      },
+      {
+        "id": 2402,
+        "type": "fillblank",
+        "question": "Sie lernt fleißig, ___ die Prüfung zu bestehen. (in order to)",
+        "questionDe": "Sie lernt fleißig, ___ die Prüfung zu bestehen. (in order to)",
+        "questionEn": "She studies hard in order to pass the exam.",
+        "questionAr": "إنها تدرس بجد من أجل اجتياز الامتحان.",
+        "answer": "um",
+        "questionTr": "Sınavı geçmek için çok çalışıyor.",
+        "questionRo": "Ea învață din greu pentru a trece examenul.",
+        "questionBs": "Vredno uči kako bi položila ispit.",
+        "questionEs": "Ella estudia mucho para aprobar el examen.",
+        "questionBg": "Тя учи усилено, за да издържи изпита.",
+        "questionEl": "Σπουδάζει σκληρά για να περάσει τις εξετάσεις.",
+        "hintDe": "um...zu-Konstruktion für Zweck",
+        "hintEn": "um...zu construction for purpose",
+        "hintAr": "أم...زو البناء لهذا الغرض",
+        "hintTr": "um...zu amaca yönelik inşaat",
+        "hintRo": "um...zu construcție pentru scop",
+        "hintBs": "hm...zu konstrukciju za namjenu",
+        "hintEs": "um...zu construcción para un propósito",
+        "hintBg": "хм...зу конструкция по предназначение",
+        "hintEl": "um...zu κατασκευή για σκοπό"
       }
     ],
     "writingPrompts": [

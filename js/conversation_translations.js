@@ -684,6 +684,341 @@ const CONVERSATION_TRANSLATIONS = {
           ]
         }
       ]
+    },
+    "16": {
+      "title": "Planning a birthday party",
+      "turns": [
+        {
+          "text": "Welcome! My birthday is next week. Can you help me plan?"
+        },
+        {
+          "prompt": "He graciously agreed and suggested holding the party on Saturday",
+          "options": [
+            "Welcome! Yes, with pleasure. Let's celebrate the party on Saturday.",
+            "I will definitely help you! We can celebrate on Saturday."
+          ]
+        },
+        {
+          "text": "Great idea! Should we celebrate in my apartment or in the park?"
+        },
+        {
+          "prompt": "I suggest the park because the weather is nice",
+          "options": [
+            "I suggest we celebrate in the park because the weather is beautiful.",
+            "In the garden is better. The weather on Saturday will be great."
+          ]
+        },
+        {
+          "text": "اتفقنا، في الحديقة! Can you bring a salad with you?"
+        },
+        {
+          "prompt": "Agree and tell him what kind of salad you will be preparing",
+          "options": [
+            "Yes, no problem. I will make a delicious pasta salad.",
+            "Of course, I would gladly bring a potato salad with me."
+          ]
+        },
+        {
+          "text": "Thank you very much! I will now invite other friends. I'll see you later!"
+        },
+        {
+          "prompt": "Say goodbye to your friend and wish him a happy day",
+          "options": [
+            "Good-bye! See you Saturday and have a great time!",
+            "See you soon! I'm looking forward to the party."
+          ]
+        }
+      ]
+    },
+    "17": {
+      "title": "Resolving a dispute with a neighbor",
+      "turns": [
+        {
+          "text": "Good day. I am your neighbor. The music from your apartment is too loud."
+        },
+        {
+          "prompt": "Gently apologize and explain that you are cleaning the apartment",
+          "options": [
+            "Excuse me! I'm very sorry. I'm cleaning my apartment right now.",
+            "Oh, I beg your pardon. I was listening to music while cleaning."
+          ]
+        },
+        {
+          "text": "I understand that, but according to House regulations, we must adhere to the noon rest period, starting at one o'clock."
+        },
+        {
+          "prompt": "Confirm your commitment to the house rules and promise to turn off the music immediately",
+          "options": [
+            "You are right. I will turn off the music immediately.",
+            "I didn't know that. I will turn down the music immediately, of course."
+          ]
+        },
+        {
+          "text": "Thank you very much for your understanding. I work from home and need quiet."
+        },
+        {
+          "prompt": "Express your understanding and wish him success",
+          "options": [
+            "No problem, I understand that very well. Good job!",
+            "I understand. I'm sorry again. Have a happy work day!"
+          ]
+        }
+      ]
+    },
+    "18": {
+      "title": "Talk about vocational training",
+      "turns": [
+        {
+          "text": "Welcome! What do you do after school? Do you do vocational training?"
+        },
+        {
+          "prompt": "Answer him yes and tell him that you are doing vocational training as an electrician",
+          "options": [
+            "Welcome! Yes, I am doing vocational training as an electrician.",
+            "Yes, absolutely. I am learning the profession of electrician in a company."
+          ]
+        },
+        {
+          "text": "Interesting! How long is the vocational training and what is the vocational school like?"
+        },
+        {
+          "prompt": "Tell him how long it is to study and that the grammar is a little difficult",
+          "options": [
+            "Training lasts three years. The school is good, but the rules are difficult.",
+            "It lasts three years. Vocational school is interesting, but sometimes difficult."
+          ]
+        },
+        {
+          "text": "I understand that. Would you like to stay in the company after completing the training?"
+        },
+        {
+          "prompt": "Emphasize your desire to stay because your coworkers are great",
+          "options": [
+            "Yes, I would like to stay because the colleagues are very nice.",
+            "I hope so. The work environment and colleagues are absolutely wonderful."
+          ]
+        },
+        {
+          "text": "Good luck with that! See you later."
+        },
+        {
+          "prompt": "Thank him and bid him farewell",
+          "options": [
+            "Thank you very much! See you soon, bye!",
+            "Thank you very much! Stay safe!"
+          ]
+        }
+      ]
+    },
+    "19": {
+      "title": "Apartment inspection",
+      "turns": [
+        {
+          "text": "Good day. I am the lessor. This is the living room. How do you like it?"
+        },
+        {
+          "prompt": "Express that you like the room because it is large and bright",
+          "options": [
+            "Good day! I like the living room very much. It's big and very bright.",
+            "Very beautiful! The room is really big and has a lot of light."
+          ]
+        },
+        {
+          "text": "Yes, this is correct. The apartment also has a balcony. How much is your budget?"
+        },
+        {
+          "prompt": "Ask about cold rent and side expenses",
+          "options": [
+            "How much is cold rent and how much are side expenses?",
+            "How much does the apartment cost, including heating, per month?"
+          ]
+        },
+        {
+          "text": "The cold rent is 500 euros and the side expenses are 150 euros. The deposit is a cold two months' rent."
+        },
+        {
+          "prompt": "Agree on the price and ask to sign the contract",
+          "options": [
+            "This fits my budget well. When can I sign the lease?",
+            "The price is right. I would gladly rent the apartment."
+          ]
+        }
+      ]
+    },
+    "20": {
+      "title": "Ask about the road",
+      "turns": [
+        {
+          "text": "Excuse me, can I help you? Are you looking for something?"
+        },
+        {
+          "prompt": "Greet the passerby and ask him the way to the main train station",
+          "options": [
+            "Welcome! Yes, please. كيف أصل إلى محطة القطار الرئيسية؟",
+            "Good day. Excuse me, where is the main train station located?"
+          ]
+        },
+        {
+          "text": "Walk straight until the traffic light, then turn left. Or take the subway."
+        },
+        {
+          "prompt": "Ask for the nearest subway station",
+          "options": [
+            "Where is the nearest subway station?",
+            "Is there a subway station near here?"
+          ]
+        },
+        {
+          "text": "The station is right there, behind the bakery. Only 2 minutes walk."
+        },
+        {
+          "prompt": "Thank the passer-by kindly and bid him farewell",
+          "options": [
+            "Thank you very much for your help! See you soon.",
+            "Awesome, thanks so much! Have a nice day!"
+          ]
+        }
+      ]
+    },
+    "21": {
+      "title": "At the Art Museum",
+      "turns": [
+        {
+          "text": "This painting here is very interesting. How do you like it?"
+        },
+        {
+          "prompt": "Answer him that you like it very much because of the bright colors",
+          "options": [
+            "I like the painting very much because the colors are very bright and bright.",
+            "I find it incredibly beautiful. The bright colors are great."
+          ]
+        },
+        {
+          "text": "True, the style is very modern. Do you know who the artist is?"
+        },
+        {
+          "prompt": "Tell him that he is a famous German artist and you have seen his exhibition before",
+          "options": [
+            "Yes, this is a famous German artist. I know his gallery.",
+            "The painting is by a well-known painter. I've seen his artwork before."
+          ]
+        },
+        {
+          "text": "Interesting! Shall we go to the next room?"
+        },
+        {
+          "prompt": "He agreed and suggested having a coffee afterwards",
+          "options": [
+            "Yes, with pleasure. And then we can drink coffee in the café.",
+            "Good idea! Let's keep walking and eat cake later."
+          ]
+        }
+      ]
+    },
+    "22": {
+      "title": "Computer problems",
+      "turns": [
+        {
+          "text": "Welcome. You look nervous. Is your computer not working?"
+        },
+        {
+          "prompt": "Confirm this and explain to him that the screen is black and you cannot type the password",
+          "options": [
+            "Welcome. Yes, the screen is black. I cannot enter my password.",
+            "True, the keyboard is unresponsive and the screen stays dark."
+          ]
+        },
+        {
+          "text": "Have you already tried restarting the laptop?"
+        },
+        {
+          "prompt": "Answer him that you tried that and nothing changed, and ask him about the solution",
+          "options": [
+            "Yes, I tried that but it doesn't help. What should I do?",
+            "I restarted it but nothing works. Do you have an idea?"
+          ]
+        },
+        {
+          "text": "The battery may be dead. Connect it with the charging cable."
+        },
+        {
+          "prompt": "Try it and thank your colleague because the computer started working",
+          "options": [
+            "Oh, you're right! Now it works again. Thank you very much for your help!",
+            "Great, that was the problem. The screen is working. Thank you!"
+          ]
+        }
+      ]
+    },
+    "23": {
+      "title": "Discussion about elections",
+      "turns": [
+        {
+          "text": "Welcome! On Sunday there are elections. Are you going to vote?"
+        },
+        {
+          "prompt": "Emphasize this and explain that voting is a right and a duty for every citizen",
+          "options": [
+            "Welcome! Yes, of course. I believe that voting is an important right.",
+            "certainly. Every citizen must go to vote."
+          ]
+        },
+        {
+          "text": "I don't know. I see that my individual vote won't change anything anyway."
+        },
+        {
+          "prompt": "Gently oppose him and show him that every vote contributes to determining the government and the future",
+          "options": [
+            "This is not true. Every vote matters to determine government and our future.",
+            "I see it differently. Together, many voices make a big difference."
+          ]
+        },
+        {
+          "text": "Hmm, you're actually right. Maybe I'll go with you on Sunday after all."
+        },
+        {
+          "prompt": "Express your happiness and suggest going together in the morning",
+          "options": [
+            "This makes me happy! Let us go together on Sunday morning to the headquarters of the Electoral Commission.",
+            "amazing! I will stop by on Sunday and we will go vote together."
+          ]
+        }
+      ]
+    },
+    "24": {
+      "title": "Comparing cultures",
+      "turns": [
+        {
+          "text": "Welcome! You have now been living in Germany for a year. How do you like it?"
+        },
+        {
+          "prompt": "Answer that you like it very much, but there are differences in daily habits",
+          "options": [
+            "Welcome! I like it very much, although there are many differences in customs.",
+            "very good! But life here is a little different than back home."
+          ]
+        },
+        {
+          "text": "So what is the biggest difference between Germany and your homeland?"
+        },
+        {
+          "prompt": "Tell him that appointments in Germany are very punctual while in your country they are flexible",
+          "options": [
+            "In Germany everyone is very punctual. In my country, appointments are more flexible.",
+            "Punctuality! Here one must always arrive exactly on time."
+          ]
+        },
+        {
+          "text": "That's right, punctuality is very important to us! Were you able to settle in and integrate well?"
+        },
+        {
+          "prompt": "Confirm this and explain that learning the language helped you a lot",
+          "options": [
+            "Yes, I settled in well because I learned German diligently.",
+            "certainly. Speaking the language is the best way to integrate."
+          ]
+        }
+      ]
     }
   },
   "tr": {
@@ -1368,6 +1703,341 @@ const CONVERSATION_TRANSLATIONS = {
           "options": [
             "Evet, kesinlikle! Gezi hepimiz için unutulmaz bir deneyimdi.",
             "Evet, bu harika bir deneyimdi."
+          ]
+        }
+      ]
+    },
+    "16": {
+      "title": "Doğum günü partisi planlamak",
+      "turns": [
+        {
+          "text": "Hoş geldin! Gelecek hafta doğum günüm. Plan yapmama yardım eder misin?"
+        },
+        {
+          "prompt": "O da nezaketle kabul etti ve partinin Cumartesi günü yapılmasını önerdi.",
+          "options": [
+            "Hoş geldin! Evet, memnuniyetle. Partiyi cumartesi günü kutlayalım.",
+            "Sana kesinlikle yardım edeceğim! Cumartesi günü kutlayabiliriz."
+          ]
+        },
+        {
+          "text": "Harika fikir! Benim dairemde mi yoksa parkta mı kutlayalım?"
+        },
+        {
+          "prompt": "Parkı öneriyorum çünkü hava güzel",
+          "options": [
+            "Hava güzel olduğu için parkta kutlamayı öneriyorum.",
+            "Bahçede daha iyi. Cumartesi günü hava çok güzel olacak."
+          ]
+        },
+        {
+          "text": "Anlaştık, parkta! Yanınızda salata getirebilir misiniz?"
+        },
+        {
+          "prompt": "Kabul edin ve ona ne tür bir salata hazırlayacağınızı söyleyin.",
+          "options": [
+            "Evet, sorun değil. Lezzetli bir makarna salatası yapacağım.",
+            "Tabii ki yanımda memnuniyetle patates salatası getiririm."
+          ]
+        },
+        {
+          "text": "Çok teşekkür ederim! Şimdi diğer arkadaşlarımı da davet edeceğim. Sonra görüşürüz!"
+        },
+        {
+          "prompt": "Arkadaşınıza veda edin ve ona mutlu bir gün dileyin",
+          "options": [
+            "Güle güle! Cumartesi görüşürüz ve harika vakit geçirin!",
+            "Yakında görüşürüz! Partiyi sabırsızlıkla bekliyorum."
+          ]
+        }
+      ]
+    },
+    "17": {
+      "title": "Komşuyla olan anlaşmazlığı çözmek",
+      "turns": [
+        {
+          "text": "İyi günler. Ben senin komşunum. Dairenizdeki müzik çok yüksek."
+        },
+        {
+          "prompt": "Nazikçe özür dileyin ve daireyi temizlediğinizi açıklayın",
+          "options": [
+            "Affedersin! Çok üzgünüm. Şu anda dairemi temizliyorum.",
+            "Ah, özür dilerim. Temizlik yaparken müzik dinliyordum."
+          ]
+        },
+        {
+          "text": "Bunu anlıyorum ama Meclis kurallarına göre saat birden başlayarak öğlen dinlenme süresine uymak zorundayız."
+        },
+        {
+          "prompt": "Ev kurallarına bağlılığınızı onaylayın ve müziği hemen kapatacağınıza söz verin",
+          "options": [
+            "Haklısın. Müziği hemen kapatacağım.",
+            "Bunu bilmiyordum. Müziği hemen kapatacağım elbette."
+          ]
+        },
+        {
+          "text": "Anlayışınız için çok teşekkür ederiz. Evden çalışıyorum ve sessizliğe ihtiyacım var."
+        },
+        {
+          "prompt": "Anlayışınızı belirtin ve kendisine başarılar dileyin",
+          "options": [
+            "Sorun değil, bunu çok iyi anlıyorum. Aferin!",
+            "Anladım. Tekrar özür dilerim. Mutlu bir iş günü geçirin!"
+          ]
+        }
+      ]
+    },
+    "18": {
+      "title": "Mesleki eğitim hakkında konuşun",
+      "turns": [
+        {
+          "text": "Hoş geldin! Okuldan sonra ne yaparsın? Mesleki eğitim yapıyor musunuz?"
+        },
+        {
+          "prompt": "Ona evet deyin ve elektrikçi olarak mesleki eğitim yaptığınızı söyleyin.",
+          "options": [
+            "Hoş geldin! Evet, elektrikçi olarak mesleki eğitim yapıyorum.",
+            "Evet, kesinlikle. Bir firmada elektrikçilik mesleğini öğreniyorum."
+          ]
+        },
+        {
+          "text": "İlginç! Mesleki eğitim ne kadar sürüyor ve meslek okulu nasıldır?"
+        },
+        {
+          "prompt": "Ona çalışmanın ne kadar sürdüğünü ve gramerin biraz zor olduğunu söyleyin.",
+          "options": [
+            "Eğitim üç yıl sürer. Okul güzel ama kurallar zor.",
+            "Üç yıl sürer. Meslek okulu ilginç ama bazen zordur."
+          ]
+        },
+        {
+          "text": "Bunu anlıyorum. Eğitimi tamamladıktan sonra şirkette kalmak ister misiniz?"
+        },
+        {
+          "prompt": "İş arkadaşlarınızın harika olması nedeniyle kalma arzunuzu vurgulayın",
+          "options": [
+            "Evet, kalmak isterim çünkü meslektaşlarım çok iyi insanlar.",
+            "Umarım. Çalışma ortamı ve çalışma arkadaşları kesinlikle harika."
+          ]
+        },
+        {
+          "text": "Bu konuda iyi şanslar! Sonra görüşürüz."
+        },
+        {
+          "prompt": "Ona teşekkür edin ve veda edin",
+          "options": [
+            "Çok teşekkür ederim! Yakında görüşürüz, hoşçakal!",
+            "Çok teşekkür ederim! Güvende kalın!"
+          ]
+        }
+      ]
+    },
+    "19": {
+      "title": "Apartman denetimi",
+      "turns": [
+        {
+          "text": "İyi günler. Ben kiraya verenim. Burası oturma odası. Beğendiniz mi?"
+        },
+        {
+          "prompt": "Geniş ve aydınlık olduğu için odayı beğendiğinizi ifade edin",
+          "options": [
+            "İyi günler! Oturma odasını çok seviyorum. Büyük ve çok parlak.",
+            "Çok güzel! Oda gerçekten büyük ve bol ışık alıyor."
+          ]
+        },
+        {
+          "text": "Evet bu doğru. Dairede ayrıca balkon bulunmaktadır. Bütçeniz ne kadar?"
+        },
+        {
+          "prompt": "Soğuk kira ve yan masrafları sorun",
+          "options": [
+            "Soğuk kira ne kadar, yan masraflar ne kadar?",
+            "Bir dairenin ısıtma dahil aylık maliyeti ne kadar?"
+          ]
+        },
+        {
+          "text": "Soğuk kira 500 euro, yan giderler 150 euro. Depozito iki aylık kira bedelidir."
+        },
+        {
+          "prompt": "Fiyatta anlaşın ve sözleşmeyi imzalamayı isteyin",
+          "options": [
+            "Bu benim bütçeme çok iyi uyuyor. Kira kontratını ne zaman imzalayabilirim?",
+            "Fiyat doğru. Daireyi memnuniyetle kiralarım."
+          ]
+        }
+      ]
+    },
+    "20": {
+      "title": "Yolu sor",
+      "turns": [
+        {
+          "text": "Affedersiniz, size yardımcı olabilir miyim? Bir şey mi arıyorsunuz?"
+        },
+        {
+          "prompt": "Yoldan geçeni selamlayın ve ona ana tren istasyonunun yolunu sorun.",
+          "options": [
+            "Hoş geldin! Evet lütfen. Ana tren istasyonuna nasıl giderim?",
+            "İyi günler. Affedersiniz, ana tren istasyonu nerede?"
+          ]
+        },
+        {
+          "text": "Trafik ışığına kadar düz yürüyün, sonra sola dönün. Veya metroya binin."
+        },
+        {
+          "prompt": "En yakın metro istasyonunu sorun",
+          "options": [
+            "En yakın metro istasyonu nerede?",
+            "Buraya yakın bir metro istasyonu var mı?"
+          ]
+        },
+        {
+          "text": "İstasyon tam orada, fırının arkasında. Sadece 2 dakika yürüyün."
+        },
+        {
+          "prompt": "Yoldan geçen kişiye nazikçe teşekkür edin ve ona veda edin",
+          "options": [
+            "Yardımınız için çok teşekkür ederim! Yakında görüşürüz.",
+            "Harika, çok teşekkürler! İyi günler!"
+          ]
+        }
+      ]
+    },
+    "21": {
+      "title": "Sanat Müzesi'nde",
+      "turns": [
+        {
+          "text": "Buradaki tablo çok ilginç. Beğendiniz mi?"
+        },
+        {
+          "prompt": "Parlak renklerden dolayı onu çok beğendiğinizi söyleyin",
+          "options": [
+            "Tabloyu çok beğendim çünkü renkler çok parlak ve canlı.",
+            "İnanılmaz derecede güzel buluyorum. Parlak renkler harika."
+          ]
+        },
+        {
+          "text": "Doğru, tarz çok modern. Sanatçının kim olduğunu biliyor musun?"
+        },
+        {
+          "prompt": "Ona ünlü bir Alman sanatçı olduğunu ve sergisini daha önce gördüğünüzü söyleyin.",
+          "options": [
+            "Evet, bu ünlü bir Alman sanatçı. Galerisini biliyorum.",
+            "Tablo tanınmış bir ressamın eseridir. Daha önce sanat eserlerini görmüştüm."
+          ]
+        },
+        {
+          "text": "İlginç! Yan odaya gidelim mi?"
+        },
+        {
+          "prompt": "Kabul etti ve daha sonra bir kahve içmeyi önerdi.",
+          "options": [
+            "Evet, memnuniyetle. Daha sonra kafede kahve içebiliriz.",
+            "İyi bir fikir! Yürümeye devam edelim ve sonra pasta yiyelim."
+          ]
+        }
+      ]
+    },
+    "22": {
+      "title": "Bilgisayar sorunları",
+      "turns": [
+        {
+          "text": "Hoş geldin. Gergin görünüyorsun. Bilgisayarınız çalışmıyor mu?"
+        },
+        {
+          "prompt": "Bunu doğrulayın ve ona ekranın siyah olduğunu ve şifreyi yazamayacağınızı açıklayın.",
+          "options": [
+            "Hoş geldin. Evet ekran siyah. Şifremi giremiyorum.",
+            "Doğru, klavye yanıt vermiyor ve ekran karanlık kalıyor."
+          ]
+        },
+        {
+          "text": "Dizüstü bilgisayarı yeniden başlatmayı zaten denediniz mi?"
+        },
+        {
+          "prompt": "Ona bunu denediğini ve hiçbir şeyin değişmediğini söyle ve ona çözümü sor.",
+          "options": [
+            "Evet, bunu denedim ama faydası olmadı. Ne yapmalıyım?",
+            "Yeniden başlattım ama hiçbir şey işe yaramıyor. Bir fikrin var mı?"
+          ]
+        },
+        {
+          "text": "Pil bitmiş olabilir. Şarj kablosuyla bağlayın."
+        },
+        {
+          "prompt": "Deneyin ve bilgisayar çalışmaya başladığı için iş arkadaşınıza teşekkür edin",
+          "options": [
+            "Ah, haklısın! Şimdi tekrar çalışıyor. Yardımınız için çok teşekkür ederim!",
+            "Harika, sorun da buydu. Ekran çalışıyor. Teşekkür ederim!"
+          ]
+        }
+      ]
+    },
+    "23": {
+      "title": "Seçimlerle ilgili tartışma",
+      "turns": [
+        {
+          "text": "Hoş geldin! Pazar günü seçimler var. Oy verecek misin?"
+        },
+        {
+          "prompt": "Bunu vurgulayın ve oy vermenin her vatandaş için bir hak ve görev olduğunu anlatın",
+          "options": [
+            "Hoş geldin! Evet elbette. Oy vermenin önemli bir hak olduğuna inanıyorum.",
+            "kesinlikle. Her vatandaşın oy kullanmaya gitmesi gerekiyor."
+          ]
+        },
+        {
+          "text": "Bilmiyorum. Bireysel oyumun zaten hiçbir şeyi değiştirmeyeceğini görüyorum."
+        },
+        {
+          "prompt": "Ona nazikçe karşı çıkın ve ona her oyun hükümeti ve geleceği belirlemeye katkıda bulunduğunu gösterin.",
+          "options": [
+            "Bu doğru değil. Her oy hükümeti ve geleceğimizi belirlemek için önemlidir.",
+            "Ben bunu farklı görüyorum. Birçok ses birlikte büyük bir fark yaratır."
+          ]
+        },
+        {
+          "text": "Hımm, aslında haklısın. Belki pazar günü seninle gelirim."
+        },
+        {
+          "prompt": "Mutluluğunuzu ifade edin ve sabah birlikte gitmeyi teklif edin",
+          "options": [
+            "Bu beni mutlu ediyor! Pazar sabahı birlikte Seçim Komisyonu genel merkezine gidelim.",
+            "inanılmaz! Pazar günü uğrayacağım ve birlikte oy kullanmaya gideceğiz."
+          ]
+        }
+      ]
+    },
+    "24": {
+      "title": "Kültürlerin karşılaştırılması",
+      "turns": [
+        {
+          "text": "Hoş geldin! Bir yıldır Almanya'da yaşıyorsunuz. Beğendiniz mi?"
+        },
+        {
+          "prompt": "Çok beğendiğinizi ancak günlük alışkanlıklarda farklılıklar olduğunu söyleyin.",
+          "options": [
+            "Hoş geldin! Geleneklerde birçok farklılık olmasına rağmen çok hoşuma gidiyor.",
+            "Çok iyi! Ama buradaki hayat memlekettekinden biraz farklı."
+          ]
+        },
+        {
+          "text": "Peki Almanya ile anavatanınız arasındaki en büyük fark nedir?"
+        },
+        {
+          "prompt": "Ona, Almanya'daki randevuların çok dakik olduğunu, sizin ülkenizde ise esnek olduğunu söyleyin.",
+          "options": [
+            "Almanya'da herkes çok dakiktir. Benim ülkemde randevular daha esnektir.",
+            "Dakiklik! Buraya her zaman tam zamanında varmak gerekir."
+          ]
+        },
+        {
+          "text": "Doğru, dakiklik bizim için çok önemli! İyi bir şekilde yerleşip entegre olabildiniz mi?"
+        },
+        {
+          "prompt": "Bunu onaylayın ve dili öğrenmenin size çok yardımcı olduğunu açıklayın.",
+          "options": [
+            "Evet, Almancayı özenle öğrendiğim için iyi yerleştim.",
+            "kesinlikle. Dil konuşmak entegre olmanın en iyi yoludur."
           ]
         }
       ]
@@ -2058,6 +2728,341 @@ const CONVERSATION_TRANSLATIONS = {
           ]
         }
       ]
+    },
+    "16": {
+      "title": "Planifică o petrecere de naștere",
+      "turns": [
+        {
+          "text": "Bun venit! Ziua mea de naștere este săptămâna viitoare. Ma puteti ajuta sa planific?"
+        },
+        {
+          "prompt": "A fost de acord cu bunăvoință și a sugerat să organizeze petrecerea sâmbătă",
+          "options": [
+            "Bun venit! Da, cu plăcere. Să sărbătorim petrecerea sâmbătă.",
+            "cu siguranta te voi ajuta! Putem sărbători sâmbătă."
+          ]
+        },
+        {
+          "text": "Super idee! Ar trebui să sărbătorim în apartamentul meu sau în parc?"
+        },
+        {
+          "prompt": "Recomand parcul pentru că vremea este frumoasă",
+          "options": [
+            "Vă propun să sărbătorim în parc pentru că vremea este frumoasă.",
+            "În grădină este mai bine. Vremea de sâmbătă va fi grozavă."
+          ]
+        },
+        {
+          "text": "De acord, în parc! Poți să aduci o salată cu tine?"
+        },
+        {
+          "prompt": "Fii de acord și spune-i ce fel de salată vei pregăti",
+          "options": [
+            "Da, nicio problemă. Voi face o salată de paste delicioasă.",
+            "Desigur, aș aduce cu plăcere o salată de cartofi cu mine."
+          ]
+        },
+        {
+          "text": "Mulțumesc foarte mult! Acum voi invita alți prieteni. Ne vedem mai târziu!"
+        },
+        {
+          "prompt": "Spune-i la revedere prietenului tău și urează-i o zi fericită",
+          "options": [
+            "La revedere! Ne vedem sâmbătă și distracție plăcută!",
+            "Pe curând! Aștept cu nerăbdare petrecerea."
+          ]
+        }
+      ]
+    },
+    "17": {
+      "title": "Rezolvarea unei dispute cu un vecin",
+      "turns": [
+        {
+          "text": "Bună ziua. Sunt vecinul tău. Muzica din apartamentul tău este prea tare."
+        },
+        {
+          "prompt": "Cereți scuze cu blândețe și explicați că faceți curățenie în apartament",
+          "options": [
+            "Scuzați-mă! îmi pare foarte rău. Îmi fac curățenie în apartament chiar acum.",
+            "Oh, vă cer scuze. Am ascultat muzică în timp ce făceam curățenie."
+          ]
+        },
+        {
+          "text": "Înțeleg asta, dar conform regulamentului Casei, trebuie să respectăm perioada de odihnă la amiază, începând cu ora unu."
+        },
+        {
+          "prompt": "Confirmați-vă angajamentul față de regulile casei și promiteți că veți opri muzica imediat",
+          "options": [
+            "Aveţi dreptate. Voi opri muzica imediat.",
+            "Nu știam asta. Voi refuza muzica imediat, desigur."
+          ]
+        },
+        {
+          "text": "Vă mulțumesc foarte mult pentru înțelegere. I work from home and need quiet."
+        },
+        {
+          "prompt": "Exprimă-ți înțelegerea și urează-i succes",
+          "options": [
+            "No problem, I understand that very well. Loc de muncă bun!",
+            "Am înțeles. Îmi pare rău din nou. Să aveți o zi de lucru fericită!"
+          ]
+        }
+      ]
+    },
+    "18": {
+      "title": "Vorbiți despre formarea profesională",
+      "turns": [
+        {
+          "text": "Bun venit! Ce faci după școală? Faceți formare profesională?"
+        },
+        {
+          "prompt": "Răspunde-i că da și spune-i că faci pregătire profesională ca electrician",
+          "options": [
+            "Bun venit! Da, fac formare profesională ca electrician.",
+            "Da, absolut. Invat meseria de electrician intr-o companie."
+          ]
+        },
+        {
+          "text": "Interesant! Cât durează pregătirea profesională și cum este școala profesională?"
+        },
+        {
+          "prompt": "Spune-i cât durează să studiezi și că gramatica este puțin dificilă",
+          "options": [
+            "Antrenamentul durează trei ani. Școala este bună, dar regulile sunt grele.",
+            "Durează trei ani. Școala profesională este interesantă, dar uneori dificilă."
+          ]
+        },
+        {
+          "text": "înțeleg asta. Doriți să rămâneți în companie după finalizarea formării?"
+        },
+        {
+          "prompt": "Subliniază-ți dorința de a rămâne pentru că colegii tăi sunt grozavi",
+          "options": [
+            "Da, aș vrea să rămân pentru că colegii sunt foarte drăguți.",
+            "Aşa sper. Mediul de lucru și colegii sunt absolut minunate."
+          ]
+        },
+        {
+          "text": "Mult succes cu asta! Ne vedem mai târziu."
+        },
+        {
+          "prompt": "Mulțumește-i și ia rămas bun",
+          "options": [
+            "Mulțumesc foarte mult! Ne vedem în curând, la revedere!",
+            "Mulțumesc foarte mult! Rămâi în siguranță!"
+          ]
+        }
+      ]
+    },
+    "19": {
+      "title": "Inspectie apartament",
+      "turns": [
+        {
+          "text": "Bună ziua. Eu sunt locatorul. Aceasta este camera de zi. Cum vă place?"
+        },
+        {
+          "prompt": "Exprimați că vă place camera pentru că este mare și luminoasă",
+          "options": [
+            "Bună ziua! Imi place foarte mult sufrageria. Este mare și foarte luminos.",
+            "Foarte frumos! Camera este foarte mare și are multă lumină."
+          ]
+        },
+        {
+          "text": "Da, acest lucru este corect. Apartamentul are si balcon. Cât este bugetul tău?"
+        },
+        {
+          "prompt": "Întrebați despre chiria la rece și cheltuielile secundare",
+          "options": [
+            "Cât costă chiria la rece și cât sunt cheltuielile secundare?",
+            "Cât costă lunar apartamentul, inclusiv încălzirea?"
+          ]
+        },
+        {
+          "text": "Chiria la rece este de 500 de euro, iar cheltuielile secundare sunt de 150 de euro. Depozitul este o chirie rece de două luni."
+        },
+        {
+          "prompt": "Acordați prețul și cereți să semnați contractul",
+          "options": [
+            "Acest lucru se potrivește bine bugetului meu. Când pot semna contractul de închiriere?",
+            "Pretul este corect. As inchiria cu placere apartamentul."
+          ]
+        }
+      ]
+    },
+    "20": {
+      "title": "Întrebați despre drum",
+      "turns": [
+        {
+          "text": "Scuză-mă, pot să te ajut? Cauți ceva?"
+        },
+        {
+          "prompt": "Salută-l pe trecător și întreabă-l drumul spre gara principală",
+          "options": [
+            "Bun venit! Da, te rog. Cum ajung la gara principală?",
+            "Bună ziua. Scuzați-mă, unde se află gara principală?"
+          ]
+        },
+        {
+          "text": "Mergeți drept până la semafor, apoi virați la stânga. Sau luați metroul."
+        },
+        {
+          "prompt": "Solicitați cea mai apropiată stație de metrou",
+          "options": [
+            "Unde este cea mai apropiată stație de metrou?",
+            "Există o stație de metrou lângă aici?"
+          ]
+        },
+        {
+          "text": "Stația este chiar acolo, în spatele brutăriei. La doar 2 minute de mers pe jos."
+        },
+        {
+          "prompt": "Mulțumește-i frumos trecătorului și ia rămas bun de la el",
+          "options": [
+            "Vă mulțumesc foarte mult pentru ajutor! Pe curând.",
+            "Minunat, multumesc mult! O zi plăcută!"
+          ]
+        }
+      ]
+    },
+    "21": {
+      "title": "La Muzeul de Artă",
+      "turns": [
+        {
+          "text": "Acest tablou de aici este foarte interesant. Cum vă place?"
+        },
+        {
+          "prompt": "Raspunde-i ca iti place foarte mult din cauza culorilor stralucitoare",
+          "options": [
+            "Îmi place foarte mult tabloul pentru că culorile sunt foarte strălucitoare și strălucitoare.",
+            "Mi se pare incredibil de frumos. Culorile strălucitoare sunt grozave."
+          ]
+        },
+        {
+          "text": "Adevărat, stilul este foarte modern. Știți cine este artistul?"
+        },
+        {
+          "prompt": "Spune-i că este un artist german celebru și i-ai mai văzut expoziția",
+          "options": [
+            "Da, acesta este un artist german celebru. Îi cunosc galeria.",
+            "Pictura este realizată de un pictor cunoscut. I-am mai văzut opera de artă."
+          ]
+        },
+        {
+          "text": "Interesant! Mergem în camera alăturată?"
+        },
+        {
+          "prompt": "El a fost de acord și a sugerat să bea o cafea după aceea",
+          "options": [
+            "Da, cu plăcere. Și apoi putem bea cafea în cafenea.",
+            "Bună idee! Să continuăm să mergem și să mâncăm tortul mai târziu."
+          ]
+        }
+      ]
+    },
+    "22": {
+      "title": "Probleme de calculator",
+      "turns": [
+        {
+          "text": "Bun venit. You look nervous. Nu funcționează computerul tău?"
+        },
+        {
+          "prompt": "Confirmați acest lucru și explicați-i că ecranul este negru și nu puteți introduce parola",
+          "options": [
+            "Bun venit. Da, ecranul este negru. Nu pot introduce parola.",
+            "Adevărat, tastatura nu răspunde și ecranul rămâne întunecat."
+          ]
+        },
+        {
+          "text": "Ați încercat deja să reporniți laptopul?"
+        },
+        {
+          "prompt": "Răspunde-i că ai încercat asta și nu s-a schimbat nimic și întreabă-l despre soluție",
+          "options": [
+            "Yes, I tried that but it doesn't help. Ce ar trebuii să fac?",
+            "L-am repornit dar nu merge nimic. Ai vreo idee?"
+          ]
+        },
+        {
+          "text": "Bateria poate fi descărcată. Conectați-l cu cablul de încărcare."
+        },
+        {
+          "prompt": "Încearcă și mulțumește-ți colegului pentru că computerul a început să funcționeze",
+          "options": [
+            "Oh, you're right! Now it works again. Vă mulțumesc foarte mult pentru ajutor!",
+            "Super, asta a fost problema. The screen is working. Multumesc!"
+          ]
+        }
+      ]
+    },
+    "23": {
+      "title": "Discuție despre alegeri",
+      "turns": [
+        {
+          "text": "Bun venit! Duminică sunt alegeri. Ai de gând să votezi?"
+        },
+        {
+          "prompt": "Subliniați acest lucru și explicați că votul este un drept și o datorie pentru fiecare cetățean",
+          "options": [
+            "Bun venit! Da, desigur. Consider că votul este un drept important.",
+            "cu siguranţă. Fiecare cetățean trebuie să meargă la vot."
+          ]
+        },
+        {
+          "text": "Nu știu. Văd că votul meu individual oricum nu va schimba nimic."
+        },
+        {
+          "prompt": "Opune-i cu blândețe și arată-i că fiecare vot contribuie la determinarea guvernului și a viitorului",
+          "options": [
+            "Acest lucru nu este adevărat. Fiecare vot contează pentru a determina guvernul și viitorul nostru.",
+            "Eu o văd diferit. Împreună, multe voci fac o mare diferență."
+          ]
+        },
+        {
+          "text": "Hmm, chiar ai dreptate. Poate că voi merge cu tine duminică până la urmă."
+        },
+        {
+          "prompt": "Exprimă-ți fericirea și sugerează să mergi împreună dimineața",
+          "options": [
+            "Acest lucru mă face fericit! Să mergem împreună duminică dimineața la sediul Comisiei Electorale.",
+            "uimitor! O să trec duminică și vom merge împreună la vot."
+          ]
+        }
+      ]
+    },
+    "24": {
+      "title": "Compararea culturilor",
+      "turns": [
+        {
+          "text": "Bun venit! Acum locuiești în Germania de un an. Cum vă place?"
+        },
+        {
+          "prompt": "Răspundeți că vă place foarte mult, dar există diferențe în obiceiurile zilnice",
+          "options": [
+            "Bun venit! Îmi place foarte mult, deși sunt multe diferențe de obiceiuri.",
+            "foarte bun! Dar viața de aici este puțin diferită de cea de acasă."
+          ]
+        },
+        {
+          "text": "Deci, care este cea mai mare diferență dintre Germania și patria ta?"
+        },
+        {
+          "prompt": "Spune-i că întâlnirile în Germania sunt foarte punctuale, în timp ce în țara ta sunt flexibile",
+          "options": [
+            "În Germania toată lumea este foarte punctuală. În țara mea, programările sunt mai flexibile.",
+            "Punctualitate! Aici trebuie să ajungi întotdeauna exact la timp."
+          ]
+        },
+        {
+          "text": "Așa e, punctualitatea este foarte importantă pentru noi! Ați reușit să vă instalați și să vă integrați bine?"
+        },
+        {
+          "prompt": "Confirmă acest lucru și explică că învățarea limbii te-a ajutat foarte mult",
+          "options": [
+            "Da, m-am acomodat bine pentru că am învățat germana cu sârguință.",
+            "cu siguranţă. Vorbirea limbii este cea mai bună modalitate de integrare."
+          ]
+        }
+      ]
     }
   },
   "bs": {
@@ -2742,6 +3747,341 @@ const CONVERSATION_TRANSLATIONS = {
           "options": [
             "Da, apsolutno! Putovanje je bilo nezaboravno iskustvo za sve nas.",
             "Da, to je bilo sjajno iskustvo."
+          ]
+        }
+      ]
+    },
+    "16": {
+      "title": "Planiranje rođendanske zabave",
+      "turns": [
+        {
+          "text": "Dobrodošli! Moj rođendan je sljedeće sedmice. Možete li mi pomoći u planiranju?"
+        },
+        {
+          "prompt": "On je ljubazno pristao i predložio održavanje zabave u subotu",
+          "options": [
+            "Dobrodošli! Da, sa zadovoljstvom. Proslavimo zabavu u subotu.",
+            "Definitivno ću ti pomoći! Možemo slaviti u subotu."
+          ]
+        },
+        {
+          "text": "Odlična ideja! Da slavimo u mom stanu ili u parku?"
+        },
+        {
+          "prompt": "Predlažem park jer je lijepo vrijeme",
+          "options": [
+            "Predlažem da proslavimo u parku jer je vrijeme lijepo.",
+            "U vrtu je bolje. U subotu će vrijeme biti odlično."
+          ]
+        },
+        {
+          "text": "Dogovoreno, u parku! Možete li ponijeti salatu sa sobom?"
+        },
+        {
+          "prompt": "Dogovorite se i recite mu kakvu ćete salatu spremati",
+          "options": [
+            "Da, nema problema. Napraviću ukusnu salatu od testenine.",
+            "Naravno, sa sobom bih rado ponio i krompir salatu."
+          ]
+        },
+        {
+          "text": "Hvala vam puno! Sada ću pozvati druge prijatelje. Vidimo se kasnije!"
+        },
+        {
+          "prompt": "Pozdravite se sa svojim prijateljem i poželite mu srećan dan",
+          "options": [
+            "Zbogom! Vidimo se u subotu i lepo se provedite!",
+            "Vidimo se uskoro! Radujem se zabavi."
+          ]
+        }
+      ]
+    },
+    "17": {
+      "title": "Rješavanje spora sa komšijom",
+      "turns": [
+        {
+          "text": "Dobar dan. Ja sam tvoj komšija. The music from your apartment is too loud."
+        },
+        {
+          "prompt": "Nježno se izvinite i objasnite da čistite stan",
+          "options": [
+            "Izvinite me! Jako mi je žao. Čistim svoj stan upravo sada.",
+            "Oh, izvinjavam se. Slušao sam muziku dok sam čistio."
+          ]
+        },
+        {
+          "text": "Razumijem to, ali prema propisima Doma, moramo se pridržavati podnevnog odmora, koji počinje u jedan sat."
+        },
+        {
+          "prompt": "Potvrdite svoju posvećenost kućnom redu i obećajte da ćete odmah isključiti muziku",
+          "options": [
+            "U pravu si. Odmah ću isključiti muziku.",
+            "Nisam to znao. Odmah ću utišati muziku, naravno."
+          ]
+        },
+        {
+          "text": "Hvala vam puno na razumijevanju. Radim od kuće i potrebna mi je tišina."
+        },
+        {
+          "prompt": "Izrazite razumijevanje i poželite mu uspjeh",
+          "options": [
+            "Nema problema, ja to veoma dobro razumem. Dobar posao!",
+            "Razumijem. Još jednom mi je žao. Srećan radni dan!"
+          ]
+        }
+      ]
+    },
+    "18": {
+      "title": "Razgovarajte o stručnom obrazovanju",
+      "turns": [
+        {
+          "text": "Dobrodošli! Šta radiš posle škole? Da li obavljate stručnu obuku?"
+        },
+        {
+          "prompt": "Odgovorite mu da i recite mu da ste na stručnom osposobljavanju za električara",
+          "options": [
+            "Dobrodošli! Da, obavljam stručnu obuku za električara.",
+            "Da, apsolutno. Učim zanimanje električara u firmi."
+          ]
+        },
+        {
+          "text": "Zanimljivo! Koliko traje stručno osposobljavanje i kakva je stručna škola?"
+        },
+        {
+          "prompt": "Reci mu koliko dugo treba da uči i da je gramatika malo teška",
+          "options": [
+            "Obuka traje tri godine. Škola je dobra, ali pravila su teška.",
+            "Traje tri godine. Stručna škola je zanimljiva, ali ponekad teška."
+          ]
+        },
+        {
+          "text": "Razumijem to. Želite li ostati u kompaniji nakon završene obuke?"
+        },
+        {
+          "prompt": "Naglasite svoju želju da ostanete jer su vam kolege sjajni",
+          "options": [
+            "Da, volio bih da ostanem jer su kolege jako ljubazne.",
+            "Nadam se. Radno okruženje i kolege su apsolutno divni."
+          ]
+        },
+        {
+          "text": "Sretno s tim! Vidimo se kasnije."
+        },
+        {
+          "prompt": "Zahvalite mu se i oprostite se od njega",
+          "options": [
+            "Hvala vam puno! Vidimo se uskoro, ćao!",
+            "Hvala vam puno! Budite sigurni!"
+          ]
+        }
+      ]
+    },
+    "19": {
+      "title": "Pregled stana",
+      "turns": [
+        {
+          "text": "Dobar dan. Ja sam zakupodavac. Ovo je dnevna soba. kako ti se sviđa?"
+        },
+        {
+          "prompt": "Izrazite da vam se soba sviđa jer je velika i svijetla",
+          "options": [
+            "Dobar dan! Jako mi se sviđa dnevna soba. Velik je i veoma svetao.",
+            "Veoma lepa! Soba je zaista velika i ima puno svjetla."
+          ]
+        },
+        {
+          "text": "Da, to je tačno. Apartman također ima balkon. Koliki vam je budžet?"
+        },
+        {
+          "prompt": "Pitajte za hladnu rentu i sporedne troškove",
+          "options": [
+            "Koliko je hladna renta, a koliko sporedni troškovi?",
+            "Koliko mjesečno košta stan, uključujući grijanje?"
+          ]
+        },
+        {
+          "text": "Hladna renta je 500 eura, a sporedni troškovi 150 eura. Depozit je hladna dva mjeseca kirije."
+        },
+        {
+          "prompt": "Dogovorite se oko cijene i zatražite potpisivanje ugovora",
+          "options": [
+            "Ovo se dobro uklapa u moj budžet. Kada mogu potpisati ugovor o zakupu?",
+            "Cijena je tačna. Rado bih iznajmio stan."
+          ]
+        }
+      ]
+    },
+    "20": {
+      "title": "Pitaj za put",
+      "turns": [
+        {
+          "text": "Izvinite, mogu li vam pomoći? Da li tražite nešto?"
+        },
+        {
+          "prompt": "Pozdravite prolaznika i pitajte ga za put do glavne željezničke stanice",
+          "options": [
+            "Dobrodošli! Da, molim. Kako da dođem do glavne željezničke stanice?",
+            "Dobar dan. Oprostite, gdje se nalazi glavna željeznička stanica?"
+          ]
+        },
+        {
+          "text": "Hodajte pravo do semafora, a zatim skrenite lijevo. Ili idite podzemnom."
+        },
+        {
+          "prompt": "Pitajte za najbližu stanicu podzemne željeznice",
+          "options": [
+            "Gdje je najbliža stanica podzemne željeznice?",
+            "Postoji li stanica podzemne željeznice u blizini?"
+          ]
+        },
+        {
+          "text": "Stanica je tu, iza pekare. Samo 2 minute hoda."
+        },
+        {
+          "prompt": "Ljubazno zahvalite prolazniku i oprostite se od njega",
+          "options": [
+            "Hvala vam puno na pomoći! Vidimo se uskoro.",
+            "Sjajno, hvala puno! ugodan dan!"
+          ]
+        }
+      ]
+    },
+    "21": {
+      "title": "U Muzeju umjetnosti",
+      "turns": [
+        {
+          "text": "Ova slika ovde je veoma interesantna. kako ti se sviđa?"
+        },
+        {
+          "prompt": "Odgovorite mu da vam se jako sviđa zbog jarkih boja",
+          "options": [
+            "Jako mi se sviđa slika jer su boje jako jarke i jarke.",
+            "Smatram da je to neverovatno lepo. Svijetle boje su odlične."
+          ]
+        },
+        {
+          "text": "Istina, stil je vrlo moderan. Znate li ko je umjetnik?"
+        },
+        {
+          "prompt": "Recite mu da je on poznati njemački umjetnik i da ste već vidjeli njegovu izložbu",
+          "options": [
+            "Da, ovo je poznati njemački umjetnik. Znam njegovu galeriju.",
+            "Slika je poznatog slikara. Već sam vidio njegova umjetnička djela."
+          ]
+        },
+        {
+          "text": "Zanimljivo! Hoćemo li u susjednu sobu?"
+        },
+        {
+          "prompt": "On se složio i predložio da posle popijemo kafu",
+          "options": [
+            "Da, sa zadovoljstvom. A onda možemo popiti kafu u kafiću.",
+            "Dobra ideja! Nastavimo hodati i kasnije jesti tortu."
+          ]
+        }
+      ]
+    },
+    "22": {
+      "title": "Problemi sa računarom",
+      "turns": [
+        {
+          "text": "Dobrodošli. Izgledaš nervozno. Vaš računar ne radi?"
+        },
+        {
+          "prompt": "Potvrdite to i objasnite mu da je ekran crn i da ne možete upisati lozinku",
+          "options": [
+            "Dobrodošli. Da, ekran je crn. Ne mogu unijeti svoju lozinku.",
+            "Istina, tastatura ne reaguje i ekran ostaje taman."
+          ]
+        },
+        {
+          "text": "Jeste li već pokušali ponovo pokrenuti laptop?"
+        },
+        {
+          "prompt": "Odgovorite mu da ste to probali i ništa se nije promijenilo i pitajte ga za rješenje",
+          "options": [
+            "Da, probao sam to ali ne pomaže. šta da radim?",
+            "Ponovo sam ga pokrenuo ali ništa ne radi. Imate li ideju?"
+          ]
+        },
+        {
+          "text": "Baterija je možda prazna. Povežite ga kablom za punjenje."
+        },
+        {
+          "prompt": "Probajte i zahvalite se kolegi jer je kompjuter proradio",
+          "options": [
+            "Oh, u pravu si! Sada opet radi. Hvala vam puno na pomoći!",
+            "Odlično, to je bio problem. Ekran radi. Hvala vam!"
+          ]
+        }
+      ]
+    },
+    "23": {
+      "title": "Diskusija o izborima",
+      "turns": [
+        {
+          "text": "Dobrodošli! U nedjelju su izbori. Hoćeš li glasati?"
+        },
+        {
+          "prompt": "Naglasite ovo i objasnite da je glasanje pravo i dužnost svakog građanina",
+          "options": [
+            "Dobrodošli! Da, naravno. Vjerujem da je glasanje važno pravo.",
+            "svakako. Svaki građanin mora izaći da glasa."
+          ]
+        },
+        {
+          "text": "Ne znam. Vidim da moj pojedinačni glas ionako neće ništa promijeniti."
+        },
+        {
+          "prompt": "Nježno mu se suprotstavite i pokažite mu da svaki glas doprinosi određivanju vlasti i budućnosti",
+          "options": [
+            "Ovo nije istina. Svaki glas je bitan da odredi vladu i našu budućnost.",
+            "Ja to vidim drugačije. Zajedno, mnogi glasovi čine veliku razliku."
+          ]
+        },
+        {
+          "text": "Hmm, zapravo si u pravu. Možda ću ipak ići s tobom u nedjelju."
+        },
+        {
+          "prompt": "Izrazite svoju sreću i predložite da odete zajedno ujutru",
+          "options": [
+            "Ovo me čini srećnim! Hajdemo zajedno u nedjelju ujutro u sjedište Izborne komisije.",
+            "neverovatno! Svratim u nedelju i idemo na glasanje zajedno."
+          ]
+        }
+      ]
+    },
+    "24": {
+      "title": "Poređenje kultura",
+      "turns": [
+        {
+          "text": "Dobrodošli! Već godinu dana živite u Njemačkoj. kako ti se sviđa?"
+        },
+        {
+          "prompt": "Odgovorite da vam se jako sviđa, ali postoje razlike u svakodnevnim navikama",
+          "options": [
+            "Dobrodošli! Jako mi se sviđa, iako ima mnogo razlika u običajima.",
+            "vrlo dobro! Ali život ovdje je malo drugačiji nego kod kuće."
+          ]
+        },
+        {
+          "text": "Dakle, koja je najveća razlika između Njemačke i vaše domovine?"
+        },
+        {
+          "prompt": "Recite mu da su termini u Njemačkoj vrlo tačni, dok su u vašoj zemlji fleksibilni",
+          "options": [
+            "U Njemačkoj su svi vrlo tačni. U mojoj zemlji, termini su fleksibilniji.",
+            "Tačnost! Ovdje se uvijek mora stići tačno na vrijeme."
+          ]
+        },
+        {
+          "text": "Tako je, tačnost nam je veoma važna! Jeste li uspjeli da se naviknete i dobro integrišete?"
+        },
+        {
+          "prompt": "Potvrdite ovo i objasnite da vam je učenje jezika puno pomoglo",
+          "options": [
+            "Da, dobro sam se snašao jer sam marljivo učio njemački.",
+            "svakako. Govoriti jezik je najbolji način za integraciju."
           ]
         }
       ]
@@ -3432,6 +4772,341 @@ const CONVERSATION_TRANSLATIONS = {
           ]
         }
       ]
+    },
+    "16": {
+      "title": "Planificando una fiesta de cumpleaños",
+      "turns": [
+        {
+          "text": "¡Bienvenido! Mi cumpleaños es la próxima semana. ¿Puedes ayudarme a planificar?"
+        },
+        {
+          "prompt": "Él aceptó amablemente y sugirió realizar la fiesta el sábado.",
+          "options": [
+            "¡Bienvenido! Sí, con mucho gusto. Celebremos la fiesta el sábado.",
+            "¡Definitivamente te ayudaré! Podemos celebrarlo el sábado."
+          ]
+        },
+        {
+          "text": "¡Gran idea! ¿Deberíamos celebrar en mi apartamento o en el parque?"
+        },
+        {
+          "prompt": "Recomiendo el parque porque hace buen tiempo.",
+          "options": [
+            "Sugiero que celebremos en el parque porque hace hermoso clima.",
+            "En el jardín es mejor. El tiempo el sábado será estupendo."
+          ]
+        },
+        {
+          "text": "¡De acuerdo, en el parque! ¿Puedes traer una ensalada contigo?"
+        },
+        {
+          "prompt": "Acepta y dile qué tipo de ensalada prepararás.",
+          "options": [
+            "Sí, no hay problema. Haré una deliciosa ensalada de pasta.",
+            "Por supuesto, me gustaría llevarme una ensalada de patatas."
+          ]
+        },
+        {
+          "text": "¡Muchas gracias! Ahora invitaré a otros amigos. ¡Te veré más tarde!"
+        },
+        {
+          "prompt": "Despídete de tu amigo y deséale un feliz día.",
+          "options": [
+            "¡Adiós! ¡Nos vemos el sábado y que lo paséis genial!",
+            "¡Nos vemos pronto! Estoy deseando que llegue la fiesta."
+          ]
+        }
+      ]
+    },
+    "17": {
+      "title": "Resolver una disputa con un vecino",
+      "turns": [
+        {
+          "text": "Buen día. Soy tu vecino. La música de tu apartamento está demasiado alta."
+        },
+        {
+          "prompt": "Discúlpate amablemente y explícale que estás limpiando el apartamento.",
+          "options": [
+            "¡Disculpe! Lo siento mucho. Estoy limpiando mi apartamento ahora mismo.",
+            "Ah, le pido perdón. Estaba escuchando música mientras limpiaba."
+          ]
+        },
+        {
+          "text": "Lo entiendo, pero según las normas de la Cámara debemos respetar el descanso del mediodía, a partir de la una de la madrugada."
+        },
+        {
+          "prompt": "Confirma tu compromiso con las reglas de la casa y promete apagar la música inmediatamente.",
+          "options": [
+            "Tienes razón. Apagaré la música inmediatamente.",
+            "No lo sabía. Por supuesto, bajaré la música inmediatamente."
+          ]
+        },
+        {
+          "text": "Muchas gracias por su comprensión. Trabajo desde casa y necesito tranquilidad."
+        },
+        {
+          "prompt": "Expresa tu comprensión y deséale éxito.",
+          "options": [
+            "No hay problema, lo entiendo muy bien. ¡Buen trabajo!",
+            "Entiendo. Lo siento de nuevo. ¡Que tengas un feliz día laboral!"
+          ]
+        }
+      ]
+    },
+    "18": {
+      "title": "Hablar de formación profesional.",
+      "turns": [
+        {
+          "text": "¡Bienvenido! ¿Qué haces después de la escuela? ¿Haces formación profesional?"
+        },
+        {
+          "prompt": "Contéstale que sí y dile que estás haciendo una formación profesional de electricista.",
+          "options": [
+            "¡Bienvenido! Sí, estoy realizando una formación profesional como electricista.",
+            "Sí, absolutamente. Estoy aprendiendo la profesión de electricista en una empresa."
+          ]
+        },
+        {
+          "text": "¡Interesante! ¿Cuánto dura la formación profesional y cómo es la escuela profesional?"
+        },
+        {
+          "prompt": "Dile cuanto tiempo es estudiar y que la gramática es un poco difícil.",
+          "options": [
+            "La formación tiene una duración de tres años. La escuela es buena, pero las reglas son difíciles.",
+            "Tiene una duración de tres años. La escuela profesional es interesante, pero a veces difícil."
+          ]
+        },
+        {
+          "text": "Lo entiendo. ¿Le gustaría permanecer en la empresa después de finalizar la formación?"
+        },
+        {
+          "prompt": "Enfatiza tu deseo de quedarte porque tus compañeros de trabajo son geniales.",
+          "options": [
+            "Sí, me gustaría quedarme porque los compañeros son muy amables.",
+            "Eso espero. El ambiente de trabajo y los compañeros son absolutamente maravillosos."
+          ]
+        },
+        {
+          "text": "¡Buena suerte con eso! Hasta luego."
+        },
+        {
+          "prompt": "Agradécele y despídete de él.",
+          "options": [
+            "¡Muchas gracias! ¡Hasta pronto, adiós!",
+            "¡Muchas gracias! ¡Mantenerse seguro!"
+          ]
+        }
+      ]
+    },
+    "19": {
+      "title": "Inspección de apartamentos",
+      "turns": [
+        {
+          "text": "Buen día. Soy el arrendador. Esta es la sala de estar. ¿Te gusta eso?"
+        },
+        {
+          "prompt": "Expresa que te gusta la habitación porque es grande y luminosa.",
+          "options": [
+            "¡Buen día! Me gusta mucho el salón. Es grande y muy brillante.",
+            "¡Muy hermoso! La habitación es realmente grande y tiene mucha luz."
+          ]
+        },
+        {
+          "text": "Sí, esto es correcto. El apartamento también tiene un balcón. ¿Cuanto es tu presupuesto?"
+        },
+        {
+          "prompt": "Pregunte por el alquiler en frío y los gastos adicionales.",
+          "options": [
+            "¿A cuánto asciende el alquiler en frío y a cuánto ascienden los gastos adicionales?",
+            "¿Cuánto cuesta el apartamento al mes, incluida la calefacción?"
+          ]
+        },
+        {
+          "text": "El alquiler frío es de 500 euros y los gastos adicionales son de 150 euros. La fianza equivale a dos meses de alquiler."
+        },
+        {
+          "prompt": "Acordar el precio y pedir firmar el contrato.",
+          "options": [
+            "Esto se ajusta bien a mi presupuesto. ¿Cuándo puedo firmar el contrato de arrendamiento?",
+            "El precio es correcto. Con mucho gusto alquilaría el apartamento."
+          ]
+        }
+      ]
+    },
+    "20": {
+      "title": "pregunta por el camino",
+      "turns": [
+        {
+          "text": "Disculpe, ¿puedo ayudarle? ¿Estás buscando algo?"
+        },
+        {
+          "prompt": "Saluda al transeúnte y pregúntale cómo llegar a la estación principal de trenes.",
+          "options": [
+            "¡Bienvenido! Sí, por favor. ¿Cómo llego a la estación principal de trenes?",
+            "Buen día. Disculpe, ¿dónde está ubicada la estación principal de trenes?"
+          ]
+        },
+        {
+          "text": "Camine recto hasta el semáforo y luego gire a la izquierda. O tomar el metro."
+        },
+        {
+          "prompt": "Pregunta por la estación de metro más cercana.",
+          "options": [
+            "¿Dónde está la estación de metro más cercana?",
+            "¿Hay alguna estación de metro cerca de aquí?"
+          ]
+        },
+        {
+          "text": "La estación está justo ahí, detrás de la panadería. A sólo 2 minutos andando."
+        },
+        {
+          "prompt": "Agradezca amablemente al transeúnte y despídase de él.",
+          "options": [
+            "¡Muchas gracias por tu ayuda! Nos vemos pronto.",
+            "Impresionante, ¡muchas gracias! ¡Que tenga un lindo día!"
+          ]
+        }
+      ]
+    },
+    "21": {
+      "title": "En el Museo de Arte",
+      "turns": [
+        {
+          "text": "Esta pintura aquí es muy interesante. ¿Te gusta eso?"
+        },
+        {
+          "prompt": "Contéstale que te gusta mucho por los colores vivos.",
+          "options": [
+            "Me gusta mucho la pintura porque los colores son muy brillantes y brillantes.",
+            "Lo encuentro increíblemente hermoso. Los colores brillantes son geniales."
+          ]
+        },
+        {
+          "text": "Es cierto que el estilo es muy moderno. ¿Sabes quién es el artista?"
+        },
+        {
+          "prompt": "Dile que es un artista alemán famoso y que has visto su exposición antes.",
+          "options": [
+            "Sí, este es un famoso artista alemán. Conozco su galería.",
+            "El cuadro es de un conocido pintor. He visto su obra de arte antes."
+          ]
+        },
+        {
+          "text": "¡Interesante! ¿Vamos a la siguiente habitación?"
+        },
+        {
+          "prompt": "Él estuvo de acuerdo y sugirió tomar un café después.",
+          "options": [
+            "Sí, con mucho gusto. Y luego podremos tomar un café en la cafetería.",
+            "¡Buena idea! Sigamos caminando y comamos pastel más tarde."
+          ]
+        }
+      ]
+    },
+    "22": {
+      "title": "Problemas informáticos",
+      "turns": [
+        {
+          "text": "Bienvenido. Pareces nervioso. ¿Tu computadora no funciona?"
+        },
+        {
+          "prompt": "Confirma esto y explícale que la pantalla está en negro y no puedes escribir la contraseña.",
+          "options": [
+            "Bienvenido. Sí, la pantalla está en negro. No puedo ingresar mi contraseña.",
+            "Es cierto que el teclado no responde y la pantalla permanece oscura."
+          ]
+        },
+        {
+          "text": "¿Ya intentaste reiniciar la computadora portátil?"
+        },
+        {
+          "prompt": "Respóndele que intentaste eso y nada cambió y pregúntale sobre la solución.",
+          "options": [
+            "Sí, lo intenté pero no ayuda. ¿Qué tengo que hacer?",
+            "Lo reinicié pero nada funciona. ¿Tienes una idea?"
+          ]
+        },
+        {
+          "text": "Es posible que la batería esté agotada. Conéctelo con el cable de carga."
+        },
+        {
+          "prompt": "Pruébalo y agradece a tu colega porque la computadora empezó a funcionar.",
+          "options": [
+            "¡Tienes razón! Ahora vuelve a funcionar. ¡Muchas gracias por tu ayuda!",
+            "Genial, ese era el problema. La pantalla está funcionando. ¡Gracias!"
+          ]
+        }
+      ]
+    },
+    "23": {
+      "title": "Discusión sobre elecciones.",
+      "turns": [
+        {
+          "text": "¡Bienvenido! El domingo hay elecciones. ¿Vas a votar?"
+        },
+        {
+          "prompt": "Enfatice esto y explique que votar es un derecho y un deber de todo ciudadano.",
+          "options": [
+            "¡Bienvenido! Sí, claro. Creo que votar es un derecho importante.",
+            "ciertamente. Todo ciudadano debe ir a votar."
+          ]
+        },
+        {
+          "text": "No sé. Veo que mi voto individual no cambiará nada de todos modos."
+        },
+        {
+          "prompt": "Oponerse suavemente a él y demostrarle que cada voto contribuye a determinar el gobierno y el futuro.",
+          "options": [
+            "Esto no es cierto. Cada voto es importante para determinar el gobierno y nuestro futuro.",
+            "Yo lo veo diferente. Juntas, muchas voces marcan una gran diferencia."
+          ]
+        },
+        {
+          "text": "Mmmm, en realidad tienes razón. Quizás después de todo vaya contigo el domingo."
+        },
+        {
+          "prompt": "Expresa tu felicidad y sugiere ir juntos por la mañana.",
+          "options": [
+            "¡Esto me hace feliz! Vayamos juntos el domingo por la mañana a la sede de la Comisión Electoral.",
+            "¡asombroso! Pasaré por aquí el domingo e iremos a votar juntos."
+          ]
+        }
+      ]
+    },
+    "24": {
+      "title": "Comparando culturas",
+      "turns": [
+        {
+          "text": "¡Bienvenido! Usted ya lleva un año viviendo en Alemania. ¿Te gusta eso?"
+        },
+        {
+          "prompt": "Responde que te gusta mucho, pero hay diferencias en los hábitos diarios.",
+          "options": [
+            "¡Bienvenido! Me gusta mucho, aunque hay muchas diferencias de costumbres.",
+            "¡muy bien! Pero la vida aquí es un poco diferente a la de casa."
+          ]
+        },
+        {
+          "text": "Entonces, ¿cuál es la mayor diferencia entre Alemania y su país de origen?"
+        },
+        {
+          "prompt": "Dile que las citas en Alemania son muy puntuales mientras que en tu país son flexibles.",
+          "options": [
+            "En Alemania todo el mundo es muy puntual. En mi país las citas son más flexibles.",
+            "¡Puntualidad! Aquí siempre hay que llegar exactamente a tiempo."
+          ]
+        },
+        {
+          "text": "Así es, ¡la puntualidad es muy importante para nosotros! ¿Pudiste instalarte e integrarte bien?"
+        },
+        {
+          "prompt": "Confirma esto y explica que aprender el idioma te ayudó mucho.",
+          "options": [
+            "Sí, me adapté bien porque aprendí alemán con diligencia.",
+            "ciertamente. Hablar el idioma es la mejor manera de integrarse."
+          ]
+        }
+      ]
     }
   },
   "bg": {
@@ -4119,6 +5794,341 @@ const CONVERSATION_TRANSLATIONS = {
           ]
         }
       ]
+    },
+    "16": {
+      "title": "Планиране на рожден ден",
+      "turns": [
+        {
+          "text": "Добре дошли! Моят рожден ден е другата седмица. Можете ли да ми помогнете да планирам?"
+        },
+        {
+          "prompt": "Той любезно се съгласи и предложи партито да се проведе в събота",
+          "options": [
+            "Добре дошли! Да, с удоволствие. Нека празнуваме купона в събота.",
+            "Определено ще ти помогна! Може да празнуваме в събота."
+          ]
+        },
+        {
+          "text": "Страхотна идея! Да празнуваме в моя апартамент или в парка?"
+        },
+        {
+          "prompt": "Предлагам парка, защото времето е хубаво",
+          "options": [
+            "Предлагам да празнуваме в парка, защото времето е прекрасно.",
+            "В градината е по-добре. Времето в събота ще е страхотно."
+          ]
+        },
+        {
+          "text": "Съгласен, в парка! Можете ли да носите салата с вас?"
+        },
+        {
+          "prompt": "Съгласете се и му кажете каква салата ще приготвите",
+          "options": [
+            "Да, няма проблем. Ще направя вкусна салата с паста.",
+            "Разбира се, с удоволствие бих донесъл със себе си картофена салата."
+          ]
+        },
+        {
+          "text": "Благодаря много! Сега ще поканя и други приятели. Ще се видим по-късно!"
+        },
+        {
+          "prompt": "Кажете сбогом на приятеля си и му пожелайте щастлив ден",
+          "options": [
+            "Довиждане! Ще се видим в събота и приятно изкарване!",
+            "До скоро! Чакам с нетърпение купона."
+          ]
+        }
+      ]
+    },
+    "17": {
+      "title": "Разрешаване на спор със съсед",
+      "turns": [
+        {
+          "text": "Добър ден Аз съм твой съсед. Музиката от вашия апартамент е твърде силна."
+        },
+        {
+          "prompt": "Нежно се извинете и обяснете, че почиствате апартамента",
+          "options": [
+            "извинете! много съжалявам В момента си чистя апартамента.",
+            "О, моля за извинение. Докато чистех, слушах музика."
+          ]
+        },
+        {
+          "text": "Разбирам това, но според правилника на Дома трябва да се придържаме към обедната почивка, която започва в един часа."
+        },
+        {
+          "prompt": "Потвърдете ангажимента си към домашните правила и обещайте незабавно да изключите музиката",
+          "options": [
+            "прав си Веднага ще изключа музиката.",
+            "това не го знаех Веднага ще намаля музиката, разбира се."
+          ]
+        },
+        {
+          "text": "Благодаря ви много за разбирането. Работя от вкъщи и имам нужда от тишина."
+        },
+        {
+          "prompt": "Изразете своето разбиране и му пожелайте успех",
+          "options": [
+            "Няма проблем, разбирам го много добре. добра работа!",
+            "разбирам пак съжалявам Приятен работен ден!"
+          ]
+        }
+      ]
+    },
+    "18": {
+      "title": "Говорете за професионално обучение",
+      "turns": [
+        {
+          "text": "Добре дошли! Какво правиш след училище? Правите ли професионално обучение?"
+        },
+        {
+          "prompt": "Отговорете му с „да“ и му кажете, че получавате професионално обучение за електротехник",
+          "options": [
+            "Добре дошли! Да, получавам професионално обучение за електротехник.",
+            "Да, абсолютно. Уча професия електротехник във фирма."
+          ]
+        },
+        {
+          "text": "Интересно! Колко време е професионалното обучение и какво представлява професионалното училище?"
+        },
+        {
+          "prompt": "Кажете му колко време трябва да учи и че граматиката е малко трудна",
+          "options": [
+            "Обучението е с продължителност три години. Училището е добро, но правилата са трудни.",
+            "Продължава три години. Професионалното училище е интересно, но понякога трудно."
+          ]
+        },
+        {
+          "text": "разбирам това Искате ли да останете в компанията след завършване на обучението?"
+        },
+        {
+          "prompt": "Подчертайте желанието си да останете, защото колегите ви са страхотни",
+          "options": [
+            "Да, бих искал да остана, защото колегите са много мили.",
+            "надявам се Работната среда и колегите са наистина страхотни."
+          ]
+        },
+        {
+          "text": "Успех с това! Ще се видим по-късно."
+        },
+        {
+          "prompt": "Благодарете му и се сбогувайте с него",
+          "options": [
+            "Благодаря много! До скоро, чао!",
+            "Благодаря много! Пазете се!"
+          ]
+        }
+      ]
+    },
+    "19": {
+      "title": "Оглед на апартамент",
+      "turns": [
+        {
+          "text": "Добър ден Аз съм наемодателят. Това е всекидневната. как ви харесва"
+        },
+        {
+          "prompt": "Покажете, че харесвате стаята, защото е голяма и светла",
+          "options": [
+            "Добър ден! Харесвам много хола. Голям е и много ярък.",
+            "Много красиво! Стаята е наистина голяма и има много светлина."
+          ]
+        },
+        {
+          "text": "Да, това е правилно. Апартаментът разполага и с балкон. Колко е вашият бюджет?"
+        },
+        {
+          "prompt": "Попитайте за студен наем и странични разходи",
+          "options": [
+            "Колко е студеният наем и колко са страничните разходи?",
+            "Колко струва апартамента с отопление на месец?"
+          ]
+        },
+        {
+          "text": "Студеният наем е 500 евро, а страничните разходи са 150 евро. Депозитът е студен двумесечен наем."
+        },
+        {
+          "prompt": "Съгласете се за цената и поискайте подписване на договора",
+          "options": [
+            "Това пасва добре на моя бюджет. Кога мога да подпиша договора за наем?",
+            "Цената е правилна. С удоволствие бих наел апартамента."
+          ]
+        }
+      ]
+    },
+    "20": {
+      "title": "Попитайте за пътя",
+      "turns": [
+        {
+          "text": "Извинете, мога ли да ви помогна? търсиш нещо"
+        },
+        {
+          "prompt": "Поздравете минувача и го попитайте за пътя до централната гара",
+          "options": [
+            "Добре дошли! да моля Как да стигна до централната жп гара?",
+            "Добър ден Извинете, къде се намира централната гара?"
+          ]
+        },
+        {
+          "text": "Вървете направо до светофара, след което завийте наляво. Или вземете метрото."
+        },
+        {
+          "prompt": "Попитайте за най-близката станция на метрото",
+          "options": [
+            "Къде е най-близката метростанция?",
+            "Има ли метростанция наблизо?"
+          ]
+        },
+        {
+          "text": "Гарата е точно там, зад пекарната. Само 2 минути пеша."
+        },
+        {
+          "prompt": "Благодарете мило на минувача и се сбогувайте с него",
+          "options": [
+            "Благодаря ви много за помощта! до скоро",
+            "Страхотно, благодаря много! приятен ден!"
+          ]
+        }
+      ]
+    },
+    "21": {
+      "title": "В Художествения музей",
+      "turns": [
+        {
+          "text": "Тази картина тук е много интересна. как ви харесва"
+        },
+        {
+          "prompt": "Отговорете му, че много го харесвате заради ярките цветове",
+          "options": [
+            "Много ми харесва картината, защото цветовете са много ярки и ярки.",
+            "Намирам го за невероятно красиво. Ярките цветове са страхотни."
+          ]
+        },
+        {
+          "text": "Вярно, стилът е много модерен. Знаете ли кой е художникът?"
+        },
+        {
+          "prompt": "Кажете му, че той е известен немски художник и сте виждали изложбата му преди",
+          "options": [
+            "Да, това е известен немски художник. Познавам галерията му.",
+            "Картината е на известен художник. Виждал съм произведенията му и преди."
+          ]
+        },
+        {
+          "text": "Интересно! Да отидем ли в съседната стая?"
+        },
+        {
+          "prompt": "Той се съгласи и предложи да изпием кафе след това",
+          "options": [
+            "Да, с удоволствие. И тогава можем да пием кафе в кафенето.",
+            "Добра идея! Да продължим да вървим и да ядем торта по-късно."
+          ]
+        }
+      ]
+    },
+    "22": {
+      "title": "Компютърни проблеми",
+      "turns": [
+        {
+          "text": "Добре дошли Изглеждаш нервен. Компютърът ви не работи ли?"
+        },
+        {
+          "prompt": "Потвърдете това и му обяснете, че екранът е черен и не можете да въведете паролата",
+          "options": [
+            "Добре дошли Да, екранът е черен. Не мога да въведа паролата си.",
+            "Вярно е, че клавиатурата не реагира и екранът остава тъмен."
+          ]
+        },
+        {
+          "text": "Опитахте ли вече да рестартирате лаптопа?"
+        },
+        {
+          "prompt": "Отговорете му, че сте опитали това и нищо не се е променило, и го попитайте за решението",
+          "options": [
+            "Да, пробвах, но не помогна. какво трябва да направя",
+            "Рестартирах го, но нищо не работи. имаш ли идея"
+          ]
+        },
+        {
+          "text": "Батерията може да е изтощена. Свържете го с кабела за зареждане."
+        },
+        {
+          "prompt": "Пробвай и благодари на колегата че компютъра заработи",
+          "options": [
+            "О, прав си! Сега отново работи. Благодаря ви много за помощта!",
+            "Страхотно, това беше проблемът. Екранът работи. благодаря ви"
+          ]
+        }
+      ]
+    },
+    "23": {
+      "title": "Дискусия за избори",
+      "turns": [
+        {
+          "text": "Добре дошли! В неделя има избори. ще гласуваш ли"
+        },
+        {
+          "prompt": "Подчертайте това и обяснете, че гласуването е право и задължение за всеки гражданин",
+          "options": [
+            "Добре дошли! да разбира се Вярвам, че гласуването е важно право.",
+            "със сигурност. Всеки гражданин трябва да отиде да гласува."
+          ]
+        },
+        {
+          "text": "аз не знам Виждам, че индивидуалният ми вот така или иначе няма да промени нищо."
+        },
+        {
+          "prompt": "Нежно му се противопоставете и му покажете, че всеки глас допринася за определяне на правителството и бъдещето",
+          "options": [
+            "Това не е истина. Всеки глас има значение за определяне на правителството и нашето бъдеще.",
+            "Аз го виждам различно. Заедно много гласове правят голяма разлика."
+          ]
+        },
+        {
+          "text": "Хм, всъщност си прав. Може би все пак ще отида с теб в неделя."
+        },
+        {
+          "prompt": "Изразете щастието си и предложите да отидете заедно сутринта",
+          "options": [
+            "Това ме радва! Да отидем заедно в неделя сутринта в централата на избирателната комисия.",
+            "невероятно! Ще се отбия в неделя и ще отидем да гласуваме заедно."
+          ]
+        }
+      ]
+    },
+    "24": {
+      "title": "Сравняване на култури",
+      "turns": [
+        {
+          "text": "Добре дошли! Вече една година живеете в Германия. как ви харесва"
+        },
+        {
+          "prompt": "Отговорете, че много ви харесва, но има разлики в ежедневните навици",
+          "options": [
+            "Добре дошли! Много ми харесва, въпреки че има много разлики в обичаите.",
+            "много добре! Но животът тук е малко по-различен от този у дома."
+          ]
+        },
+        {
+          "text": "И така, каква е най-голямата разлика между Германия и вашата родина?"
+        },
+        {
+          "prompt": "Кажете му, че срещите в Германия са много точни, докато във вашата страна са гъвкави",
+          "options": [
+            "В Германия всички са много точни. В моята страна назначенията са по-гъвкави.",
+            "Точност! Тук винаги трябва да се стига точно навреме."
+          ]
+        },
+        {
+          "text": "Точно така, точността е много важна за нас! Успяхте ли да се установите и да се интегрирате добре?"
+        },
+        {
+          "prompt": "Потвърдете това и обяснете, че изучаването на езика ви е помогнало много",
+          "options": [
+            "Да, настаних се добре, защото научих усърдно немски.",
+            "със сигурност. Говоренето на езика е най-добрият начин за интегриране."
+          ]
+        }
+      ]
     }
   },
   "el": {
@@ -4803,6 +6813,341 @@ const CONVERSATION_TRANSLATIONS = {
           "options": [
             "Ναι, απολύτως! Το ταξίδι ήταν μια αξέχαστη εμπειρία για όλους μας.",
             "Ναι, ήταν μια μεγάλη εμπειρία."
+          ]
+        }
+      ]
+    },
+    "16": {
+      "title": "Σχεδιάζοντας ένα πάρτι γενεθλίων",
+      "turns": [
+        {
+          "text": "Καλωσόρισμα! Τα γενέθλιά μου είναι την επόμενη εβδομάδα. Μπορείτε να με βοηθήσετε να προγραμματίσω;"
+        },
+        {
+          "prompt": "Συμφώνησε ευγενικά και πρότεινε να γίνει το πάρτι το Σάββατο",
+          "options": [
+            "Καλωσόρισμα! Ναι, με χαρά. Ας γιορτάσουμε το πάρτι το Σάββατο.",
+            "Θα σε βοηθήσω σίγουρα! Μπορούμε να γιορτάσουμε το Σάββατο."
+          ]
+        },
+        {
+          "text": "Φοβερή ιδέα! Να γιορτάσουμε στο διαμέρισμά μου ή στο πάρκο;"
+        },
+        {
+          "prompt": "Προτείνω το πάρκο γιατί ο καιρός είναι καλός",
+          "options": [
+            "Προτείνω να γιορτάσουμε στο πάρκο γιατί ο καιρός είναι όμορφος.",
+            "Στον κήπο είναι καλύτερα. Ο καιρός το Σάββατο θα είναι καλός."
+          ]
+        },
+        {
+          "text": "Σύμφωνοι, στο πάρκο! Μπορείτε να φέρετε μια σαλάτα μαζί σας;"
+        },
+        {
+          "prompt": "Συμφωνήστε και πείτε του τι είδους σαλάτα θα ετοιμάσετε",
+          "options": [
+            "Ναι, κανένα πρόβλημα. Θα φτιάξω μια νόστιμη μακαρονοσαλάτα.",
+            "Φυσικά, θα έφερνα ευχαρίστως μαζί μου μια πατατοσαλάτα."
+          ]
+        },
+        {
+          "text": "Σας ευχαριστώ πολύ! Τώρα θα προσκαλέσω άλλους φίλους. Θα τα πούμε αργότερα!"
+        },
+        {
+          "prompt": "Πείτε αντίο στον φίλο σας και ευχηθείτε του μια χαρούμενη μέρα",
+          "options": [
+            "Αντίο! Τα λέμε το Σάββατο και να περάσουμε υπέροχα!",
+            "Τα λέμε σύντομα! Ανυπομονώ για το πάρτι."
+          ]
+        }
+      ]
+    },
+    "17": {
+      "title": "Επίλυση διαφωνίας με γείτονα",
+      "turns": [
+        {
+          "text": "Καλημέρα. Είμαι ο γείτονάς σου. Η μουσική από το διαμέρισμά σας είναι πολύ δυνατή."
+        },
+        {
+          "prompt": "Ζητήστε απαλά συγγνώμη και εξηγήστε ότι καθαρίζετε το διαμέρισμα",
+          "options": [
+            "Με συγχωρείτε! λυπάμαι πολύ. Καθαρίζω το διαμέρισμά μου αυτή τη στιγμή.",
+            "Ω, ζητώ συγγνώμη. Καθαρίζοντας άκουγα μουσική."
+          ]
+        },
+        {
+          "text": "Το καταλαβαίνω, αλλά σύμφωνα με τους κανονισμούς της Βουλής, πρέπει να τηρούμε την περίοδο μεσημεριανής ανάπαυσης, που ξεκινά από τη μία."
+        },
+        {
+          "prompt": "Επιβεβαιώστε τη δέσμευσή σας στους κανόνες του σπιτιού και υποσχεθείτε να απενεργοποιήσετε αμέσως τη μουσική",
+          "options": [
+            "Έχετε δίκιο. Θα κλείσω αμέσως τη μουσική.",
+            "Δεν το ήξερα αυτό. Θα χαμηλώσω τη μουσική αμέσως, φυσικά."
+          ]
+        },
+        {
+          "text": "Σας ευχαριστούμε πολύ για την κατανόησή σας. Δουλεύω από το σπίτι και χρειάζομαι ησυχία."
+        },
+        {
+          "prompt": "Εκφράστε την κατανόησή σας και ευχηθείτε επιτυχία",
+          "options": [
+            "Κανένα πρόβλημα, το καταλαβαίνω πολύ καλά. Επιτυχία!",
+            "καταλαβαίνω. I'm sorry again. Have a happy work day!"
+          ]
+        }
+      ]
+    },
+    "18": {
+      "title": "Μιλήστε για την επαγγελματική κατάρτιση",
+      "turns": [
+        {
+          "text": "Καλωσόρισμα! Τι κάνεις μετά το σχολείο; Κάνετε επαγγελματική κατάρτιση;"
+        },
+        {
+          "prompt": "Απαντήστε του ναι και πείτε του ότι κάνετε επαγγελματική εκπαίδευση ως ηλεκτρολόγος",
+          "options": [
+            "Καλωσόρισμα! Ναι, κάνω επαγγελματική εκπαίδευση ως ηλεκτρολόγος.",
+            "Ναι, απολύτως. Μαθαίνω το επάγγελμα του ηλεκτρολόγου σε εταιρεία."
+          ]
+        },
+        {
+          "text": "Ενδιαφέρων! Πόσο διαρκεί η επαγγελματική κατάρτιση και πώς είναι η επαγγελματική σχολή;"
+        },
+        {
+          "prompt": "Πείτε του πόσο καιρό έχει να μελετήσει και ότι η γραμματική είναι λίγο δύσκολη",
+          "options": [
+            "Η εκπαίδευση διαρκεί τρία χρόνια. Το σχολείο είναι καλό, αλλά οι κανόνες είναι δύσκολοι.",
+            "Διαρκεί τρία χρόνια. Η επαγγελματική σχολή είναι ενδιαφέρουσα, αλλά μερικές φορές δύσκολη."
+          ]
+        },
+        {
+          "text": "Το καταλαβαίνω. Θα θέλατε να μείνετε στην εταιρεία μετά την ολοκλήρωση της εκπαίδευσης;"
+        },
+        {
+          "prompt": "Δώστε έμφαση στην επιθυμία σας να μείνετε επειδή οι συνάδελφοί σας είναι υπέροχοι",
+          "options": [
+            "Ναι, θα ήθελα να μείνω γιατί οι συνάδελφοι είναι πολύ καλοί.",
+            "Το ελπίζω. Το εργασιακό περιβάλλον και οι συνάδελφοι είναι απολύτως υπέροχοι."
+          ]
+        },
+        {
+          "text": "Καλή τύχη με αυτό! Τα λέμε αργότερα."
+        },
+        {
+          "prompt": "Τον ευχαριστήστε και τον αποχαιρετήστε",
+          "options": [
+            "Σας ευχαριστώ πολύ! Τα λέμε σύντομα, αντίο!",
+            "Σας ευχαριστώ πολύ! Μείνετε ασφαλείς!"
+          ]
+        }
+      ]
+    },
+    "19": {
+      "title": "Έλεγχος διαμερίσματος",
+      "turns": [
+        {
+          "text": "Καλημέρα. Είμαι ο εκμισθωτής. Αυτό είναι το σαλόνι. Πώς σας αρέσει;"
+        },
+        {
+          "prompt": "Δηλώστε ότι σας αρέσει το δωμάτιο γιατί είναι μεγάλο και φωτεινό",
+          "options": [
+            "Καλημέρα! Μου αρέσει πολύ το σαλόνι. Είναι μεγάλο και πολύ φωτεινό.",
+            "Πολύ όμορφο! Το δωμάτιο είναι πραγματικά μεγάλο και έχει πολύ φως."
+          ]
+        },
+        {
+          "text": "Ναι, αυτό είναι σωστό. Το διαμέρισμα διαθέτει επίσης μπαλκόνι. Πόσο είναι ο προϋπολογισμός σας;"
+        },
+        {
+          "prompt": "Ρωτήστε για το κρύο ενοίκιο και τα παράπλευρα έξοδα",
+          "options": [
+            "Πόσο κοστίζει το κρύο ενοίκιο και πόσα τα παράπλευρα έξοδα;",
+            "Πόσο κοστίζει το διαμέρισμα, συμπεριλαμβανομένης της θέρμανσης, ανά μήνα;"
+          ]
+        },
+        {
+          "text": "Το κρύο ενοίκιο είναι 500 ευρώ και τα παράπλευρα 150 ευρώ. Η προκαταβολή είναι ένα κρύο ενοίκιο δύο μηνών."
+        },
+        {
+          "prompt": "Συμφωνήστε για την τιμή και ζητήστε να υπογράψετε τη σύμβαση",
+          "options": [
+            "Αυτό ταιριάζει καλά στον προϋπολογισμό μου. Πότε μπορώ να υπογράψω τη μίσθωση;",
+            "Η τιμή είναι σωστή. Με χαρά θα νοίκιαζα το διαμέρισμα."
+          ]
+        }
+      ]
+    },
+    "20": {
+      "title": "Ρωτήστε για το δρόμο",
+      "turns": [
+        {
+          "text": "Με συγχωρείτε, μπορώ να σας βοηθήσω; Ψάχνετε για κάτι;"
+        },
+        {
+          "prompt": "Χαιρετίστε τον περαστικό και ρωτήστε τον τον δρόμο για τον κεντρικό σιδηροδρομικό σταθμό",
+          "options": [
+            "Καλωσόρισμα! Ναι, παρακαλώ. Πώς θα πάω στον κεντρικό σιδηροδρομικό σταθμό;",
+            "Καλημέρα. Με συγχωρείτε, που βρίσκεται ο κεντρικός σιδηροδρομικός σταθμός;"
+          ]
+        },
+        {
+          "text": "Περπατήστε ευθεία μέχρι το φανάρι και μετά στρίψτε αριστερά. Ή πάρτε το μετρό."
+        },
+        {
+          "prompt": "Ζητήστε τον πλησιέστερο σταθμό του μετρό",
+          "options": [
+            "Πού είναι ο πλησιέστερος σταθμός του μετρό;",
+            "Υπάρχει σταθμός του μετρό εδώ κοντά;"
+          ]
+        },
+        {
+          "text": "Ο σταθμός είναι ακριβώς εκεί, πίσω από το αρτοποιείο. Μόνο 2 λεπτά με τα πόδια."
+        },
+        {
+          "prompt": "Ευχαριστήστε τον περαστικό ευγενικά και αποχαιρετήστε τον",
+          "options": [
+            "Σας ευχαριστώ πολύ για τη βοήθειά σας! Τα λέμε σύντομα.",
+            "Υπέροχο, ευχαριστώ πολύ! Καλή σας μέρα!"
+          ]
+        }
+      ]
+    },
+    "21": {
+      "title": "Στο Μουσείο Τέχνης",
+      "turns": [
+        {
+          "text": "Αυτός ο πίνακας εδώ είναι πολύ ενδιαφέρον. Πώς σας αρέσει;"
+        },
+        {
+          "prompt": "Απάντησε του ότι σου αρέσει πολύ λόγω των έντονων χρωμάτων",
+          "options": [
+            "Μου αρέσει πολύ ο πίνακας γιατί τα χρώματα είναι πολύ έντονα και φωτεινά.",
+            "Το βρίσκω απίστευτα όμορφο. Τα φωτεινά χρώματα είναι υπέροχα."
+          ]
+        },
+        {
+          "text": "Είναι αλήθεια ότι το στυλ είναι πολύ μοντέρνο. Ξέρεις ποιος είναι ο καλλιτέχνης;"
+        },
+        {
+          "prompt": "Πες του ότι είναι διάσημος Γερμανός καλλιτέχνης και έχεις ξαναδεί την έκθεσή του",
+          "options": [
+            "Ναι, αυτός είναι ένας διάσημος Γερμανός καλλιτέχνης. Ξέρω τη γκαλερί του.",
+            "Ο πίνακας είναι γνωστού ζωγράφου. Έχω ξαναδεί τα έργα του."
+          ]
+        },
+        {
+          "text": "Ενδιαφέρων! Πάμε στο διπλανό δωμάτιο;"
+        },
+        {
+          "prompt": "Συμφώνησε και του πρότεινε να πιούμε έναν καφέ μετά",
+          "options": [
+            "Ναι, με χαρά. Και μετά μπορούμε να πιούμε καφέ στο καφέ.",
+            "Καλή ιδέα! Ας συνεχίσουμε να περπατάμε και να φάμε κέικ αργότερα."
+          ]
+        }
+      ]
+    },
+    "22": {
+      "title": "Προβλήματα υπολογιστή",
+      "turns": [
+        {
+          "text": "Καλωσόρισμα. Φαίνεσαι νευρικός. Ο υπολογιστής σας δεν λειτουργεί;"
+        },
+        {
+          "prompt": "Επιβεβαιώστε το και εξηγήστε του ότι η οθόνη είναι μαύρη και δεν μπορείτε να πληκτρολογήσετε τον κωδικό πρόσβασης",
+          "options": [
+            "Καλωσόρισμα. Ναι, η οθόνη είναι μαύρη. Δεν μπορώ να εισάγω τον κωδικό πρόσβασής μου.",
+            "Είναι αλήθεια ότι το πληκτρολόγιο δεν ανταποκρίνεται και η οθόνη παραμένει σκοτεινή."
+          ]
+        },
+        {
+          "text": "Έχετε ήδη δοκιμάσει να κάνετε επανεκκίνηση του φορητού υπολογιστή;"
+        },
+        {
+          "prompt": "Απάντησε του ότι το δοκίμασες και δεν άλλαξε τίποτα και ρώτησε τον για τη λύση",
+          "options": [
+            "Ναι, το δοκίμασα αλλά δεν βοηθάει. Τι πρέπει να κάνω;",
+            "Το επανεκκινησα αλλα δεν δουλευει τιποτα. Έχετε μια ιδέα;"
+          ]
+        },
+        {
+          "text": "Η μπαταρία μπορεί να είναι νεκρή. Συνδέστε το με το καλώδιο φόρτισης."
+        },
+        {
+          "prompt": "Δοκιμάστε το και ευχαριστήστε τον συνάδελφό σας γιατί ο υπολογιστής άρχισε να λειτουργεί",
+          "options": [
+            "Α, έχεις δίκιο! Τώρα λειτουργεί ξανά. Σας ευχαριστώ πολύ για τη βοήθειά σας!",
+            "Ωραία, αυτό ήταν το πρόβλημα. Η οθόνη λειτουργεί. Σας ευχαριστώ!"
+          ]
+        }
+      ]
+    },
+    "23": {
+      "title": "Συζήτηση για τις εκλογές",
+      "turns": [
+        {
+          "text": "Καλωσόρισμα! Την Κυριακή γίνονται εκλογές. Θα ψηφίσετε;"
+        },
+        {
+          "prompt": "Τονίστε αυτό και εξηγήστε ότι η ψήφος είναι δικαίωμα και υποχρέωση κάθε πολίτη",
+          "options": [
+            "Καλωσόρισμα! Ναι, φυσικά. Πιστεύω ότι η ψήφος είναι σημαντικό δικαίωμα.",
+            "σίγουρα. Κάθε πολίτης πρέπει να πάει να ψηφίσει."
+          ]
+        },
+        {
+          "text": "Δεν ξέρω. Βλέπω ότι η ατομική μου ψήφος δεν θα αλλάξει τίποτα ούτως ή άλλως."
+        },
+        {
+          "prompt": "Αντισταθείτε του απαλά και δείξτε του ότι κάθε ψήφος συμβάλλει στον καθορισμό της κυβέρνησης και του μέλλοντος",
+          "options": [
+            "Αυτό δεν είναι αλήθεια. Κάθε ψήφος έχει σημασία για τον καθορισμό της κυβέρνησης και του μέλλοντός μας.",
+            "Εγώ το βλέπω διαφορετικά. Μαζί, πολλές φωνές κάνουν τη μεγάλη διαφορά."
+          ]
+        },
+        {
+          "text": "Χμ, όντως έχεις δίκιο. Ίσως πάω μαζί σου την Κυριακή τελικά."
+        },
+        {
+          "prompt": "Εκφράστε την ευτυχία σας και προτείνετε να πάτε μαζί το πρωί",
+          "options": [
+            "Αυτό με κάνει χαρούμενο! Πάμε μαζί την Κυριακή το πρωί στην έδρα της Εφορευτικής Επιτροπής.",
+            "καταπληκτικός! Θα περάσω την Κυριακή και θα πάμε να ψηφίσουμε μαζί."
+          ]
+        }
+      ]
+    },
+    "24": {
+      "title": "Σύγκριση πολιτισμών",
+      "turns": [
+        {
+          "text": "Καλωσόρισμα! Τώρα ζείτε στη Γερμανία εδώ και ένα χρόνο. Πώς σας αρέσει;"
+        },
+        {
+          "prompt": "Απάντησε ότι σου αρέσει πολύ, αλλά υπάρχουν διαφορές στις καθημερινές συνήθειες",
+          "options": [
+            "Καλωσόρισμα! Μου αρέσει πολύ, αν και υπάρχουν πολλές διαφορές στα έθιμα.",
+            "πολύ καλό! Αλλά η ζωή εδώ είναι λίγο διαφορετική από το πίσω στο σπίτι."
+          ]
+        },
+        {
+          "text": "Ποια είναι λοιπόν η μεγαλύτερη διαφορά μεταξύ της Γερμανίας και της πατρίδας σας;"
+        },
+        {
+          "prompt": "Πείτε του ότι τα ραντεβού στη Γερμανία είναι πολύ ακριβή, ενώ στη χώρα σας είναι ευέλικτα",
+          "options": [
+            "Στη Γερμανία όλοι είναι πολύ ακριβείς. Στη χώρα μου, τα ραντεβού είναι πιο ευέλικτα.",
+            "Ακρίβεια! Εδώ πρέπει πάντα να φτάνει κανείς ακριβώς στην ώρα του."
+          ]
+        },
+        {
+          "text": "Σωστά, η ακρίβεια είναι πολύ σημαντική για εμάς! Καταφέρατε να εγκατασταθείτε και να ενσωματωθείτε καλά;"
+        },
+        {
+          "prompt": "Επιβεβαιώστε το και εξηγήστε ότι η εκμάθηση της γλώσσας σας βοήθησε πολύ",
+          "options": [
+            "Ναι, εγκαταστάθηκα καλά γιατί έμαθα επιμελώς γερμανικά.",
+            "σίγουρα. Το να μιλάς τη γλώσσα είναι ο καλύτερος τρόπος ενσωμάτωσης."
           ]
         }
       ]
