@@ -85,10 +85,6 @@
           <span class="nav-icon">🗣️</span>
           <span class="nav-label" data-i18n="nav_conversation">ممارسة المحادثة</span>
         </div>
-        <div class="nav-item" data-page="ai-voice" id="nav-ai-voice" onclick="navigateTo('ai-voice')">
-          <span class="nav-icon">🤖</span>
-          <span class="nav-label" data-i18n="nav_ai_voice">المعلم الصوتي الذكي</span>
-        </div>
         <div class="nav-item" data-page="summarizer" id="nav-summarizer" onclick="navigateTo('summarizer')">
           <span class="nav-icon">📝</span>
           <span class="nav-label" data-i18n="nav_summarizer">ملخص دراستي</span>
@@ -396,9 +392,6 @@
           <h1 class="page-title" data-i18n="conv_title">🗣️ ممارسة المحادثة - Konversationstraining</h1>
           <p class="page-subtitle" data-i18n="conv_subtitle">محاكاة محادثات تفاعلية بالصوت لبناء الثقة في التحدث بالألمانية</p>
         </div>
-        <div class="header-actions">
-          <button class="btn btn-primary" onclick="navigateTo('ai-voice')" style="background:var(--gradient-accent)">🤖 المعلم الصوتي الذكي (AI)</button>
-        </div>
       </div>
 
       <div class="conversation-selection" id="convSelection" style="display:grid">
@@ -423,70 +416,6 @@
 
       <div class="conversation-results" id="convResults" style="display:none">
         <!-- Final score and button to restart/go back -->
-      </div>
-    </div>
-
-    <!-- AI Voice Tutor Page -->
-    <div class="page" id="page-ai-voice">
-      <div class="page-header">
-        <div class="page-title-area">
-          <h1 class="page-title" data-i18n="ai_voice_title">🗣️ المعلم الصوتي الذكي - AI Voice Tutor</h1>
-          <p class="page-subtitle" data-i18n="ai_voice_subtitle">محادثة فورية صوتية مخصصة لتعلم الألمانية مع الذكاء الاصطناعي وتصحيح القواعد</p>
-        </div>
-        <div class="header-actions">
-          <span class="ai-status-badge" id="aiStatusBadge">متصل بـ AIHubMix (gpt-4o-mini)</span>
-          <button class="btn btn-ghost" onclick="openAISettingsModal()" data-i18n="ai_voice_settings_btn">⚙️ الإعدادات والنموذج</button>
-        </div>
-      </div>
-
-      <!-- Controls & Scenarios Bar -->
-      <div class="ai-controls-bar">
-        <div class="ai-topics-section">
-          <span class="ai-bar-label" data-i18n="ai_voice_topic_label">اختر موضوع المحادثة:</span>
-          <div class="ai-topic-pills" id="aiTopicPills">
-            <!-- Rendered by JS -->
-          </div>
-        </div>
-
-        <div class="ai-options-section">
-          <div class="ai-option-item">
-            <label class="ai-toggle-label">
-              <input type="checkbox" id="aiHandsFreeCb" onchange="toggleHandsFreeMode(this)" />
-              <span data-i18n="ai_voice_handsfree">🎙️ محادثة مستمرة (Hands-Free)</span>
-            </label>
-          </div>
-          <div class="ai-option-item">
-            <span class="ai-bar-label" data-i18n="ai_voice_speed">سرعة الصوت:</span>
-            <select id="aiSpeedSelect" onchange="setAISpeechRate(this.value)" class="filter-select" style="padding:4px 8px;font-size:12px">
-              <option value="0.8" data-i18n="ai_voice_speed_slow">بطيء (0.8x)</option>
-              <option value="1.0" selected data-i18n="ai_voice_speed_normal">عادي (1.0x)</option>
-            </select>
-          </div>
-          <button class="btn btn-ghost btn-sm" onclick="clearAIChat()" data-i18n="ai_voice_clear_chat">🗑️ مسح المحادثة</button>
-        </div>
-      </div>
-
-      <!-- AI Chat Container -->
-      <div class="ai-chat-card">
-        <div class="ai-chat-container" id="aiChatContainer">
-          <!-- Chat Messages -->
-        </div>
-
-        <!-- Voice Interaction Bar -->
-        <div class="ai-interaction-bar">
-          <div class="ai-mic-wrapper">
-            <button class="ai-mic-main-btn" id="aiMicMainBtn" onclick="toggleAIVoiceRecognition()" title="انقر للتحدث بالألمانية">
-              <span class="ai-mic-icon">🎙️</span>
-              <div class="ai-pulse-ring"></div>
-            </button>
-            <span class="ai-mic-status-text" id="aiMicStatusText" data-i18n="ai_voice_hold_to_talk">انقر للتحدث بالألمانية</span>
-          </div>
-
-          <div class="ai-text-input-wrap">
-            <input type="text" class="ai-text-field" id="aiTextInputField" placeholder="أو اكتب رسالتك بالألمانية هنا..." data-i18n-placeholder="ai_voice_input_placeholder" onkeydown="if(event.key==='Enter') handleAISendClick()" />
-            <button class="btn btn-primary ai-send-btn" onclick="handleAISendClick()" data-i18n="ai_voice_send">إرسال ➔</button>
-          </div>
-        </div>
       </div>
     </div>
 
@@ -661,32 +590,6 @@
     </div>
   </div>
 
-  <!-- AI Settings Overlay Modal -->
-  <div class="level-modal-overlay" id="aiSettingsModal" style="display:none">
-    <div class="level-modal-content" style="max-width:520px">
-      <h2 data-i18n="ai_voice_modal_title" class="level-modal-title">⚙️ إعدادات الذكاء الاصطناعي والنموذج</h2>
-      <div class="ai-modal-form" style="display:flex;flex-direction:column;gap:16px;margin-top:16px;text-align:right">
-        <div class="form-group">
-          <label data-i18n="ai_voice_api_key_label" style="display:block;margin-bottom:6px;font-weight:600;font-size:13px">مفتاح API (AIHubMix API Key):</label>
-          <input type="password" id="aiSettingsApiKey" class="filter-select" style="width:100%;padding:10px;direction:ltr" placeholder="sk-aihubmix-..." />
-        </div>
-        <div class="form-group">
-          <label data-i18n="ai_voice_model_label" style="display:block;margin-bottom:6px;font-weight:600;font-size:13px">نموذج الذكاء الاصطناعي (Model):</label>
-          <select id="aiSettingsModel" class="filter-select" style="width:100%;padding:10px">
-            <option value="gpt-4o-mini">OpenAI gpt-4o-mini (موصى به - ممتاز و فائق السرعة)</option>
-            <option value="gemini-1.5-flash">Google gemini-1.5-flash (سريع للمحادثات الصوتية)</option>
-            <option value="claude-3-5-haiku">Anthropic claude-3-5-haiku (دقيق وممتاز لغوياً)</option>
-            <option value="llama-3.3-70b-instruct">Meta llama-3.3-70b-instruct (نموذج مفتوح قوي)</option>
-          </select>
-        </div>
-      </div>
-      <div class="modal-actions" style="margin-top:24px;display:flex;gap:12px;width:100%;justify-content:flex-end">
-        <button class="btn btn-ghost" onclick="closeAISettingsModal()">إلغاء</button>
-        <button class="btn btn-primary" onclick="saveAISettingsFromModal()" data-i18n="ai_voice_save_settings">حفظ الإعدادات</button>
-      </div>
-    </div>
-  </div>
-
   <script src="js/i18n.js"></script>
   <script src="js/curriculum.js"></script>
   <script src="js/vocabulary.js"></script>
@@ -696,7 +599,6 @@
   <script src="js/writing.js"></script>
   <script src="js/conversation_translations.js"></script>
   <script src="js/conversation.js"></script>
-  <script src="js/ai_voice.js"></script>
   <script src="js/summarizer.js"></script>
   <script src="js/app.js?v=1.1"></script>
 </body>

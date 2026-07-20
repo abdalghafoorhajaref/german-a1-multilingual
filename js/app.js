@@ -79,7 +79,6 @@ window.changeLevel = function(level) {
   if (typeof buildQuizSelection === 'function') buildQuizSelection();
   if (typeof buildWritingPage === 'function') buildWritingPage();
   if (typeof backToConvMenu === 'function') backToConvMenu();
-  if (typeof initAIVoicePage === 'function') initAIVoicePage();
   
   // Refresh current page
   navigateTo(currentPage);
@@ -142,7 +141,6 @@ function navigateTo(page, data) {
   if (page === 'grammar') populateGrammarPage();
   if (page === 'writing') buildWritingPage();
   if (page === 'conversation') backToConvMenu();
-  if (page === 'ai-voice' && typeof initAIVoicePage === 'function') initAIVoicePage();
   if (page === 'lesson' && data) openLesson(data);
   if (page === 'summarizer') initSummarizer();
   
