@@ -842,8 +842,8 @@ const CURRICULUM = [
       },
       {
         "type": "mcq",
-        "question": "Wie sagt man 'Wie heißen Sie?' auf Arabisch?",
-        "questionAr": "ما معنى هذه الجملة بالعربية؟",
+        "question": "Was bedeutet 'Wie heißen Sie?'?",
+        "questionAr": "ما معنى 'Wie heißen Sie?'؟",
         "options": [
           "ما لغتك؟",
           "ما اسم حضرتك؟",
@@ -851,13 +851,55 @@ const CURRICULUM = [
           "كم عمرك؟"
         ],
         "answer": 1,
-        "questionEn": "What does this sentence mean in Arabic?",
-        "questionTr": "Bu cümle Arapçada ne anlama geliyor?",
-        "questionRo": "Ce înseamnă această propoziție în arabă?",
-        "questionBs": "Šta ova rečenica znači na arapskom?",
-        "questionEs": "¿Qué significa esta frase en árabe?",
-        "questionBg": "Какво означава това изречение на арабски?",
-        "questionEl": "Τι σημαίνει αυτή η πρόταση στα Αραβικά;"
+        "questionEn": "What does 'Wie heißen Sie?' mean?",
+        "questionTr": "'Wie heißen Sie?' ne anlama gelir?",
+        "questionRo": "Ce înseamnă 'Wie heißen Sie?'?",
+        "questionBs": "Šta znači 'Wie heißen Sie?'?",
+        "questionEs": "¿Qué significa 'Wie heißen Sie?'?",
+        "questionBg": "Какво означава 'Wie heißen Sie?'?",
+        "questionEl": "Τι σημαίνει 'Wie heißen Sie?';",
+        "optionsEn": [
+          "What is your language?",
+          "What is your name?",
+          "Where are you from?",
+          "How old are you?"
+        ],
+        "optionsTr": [
+          "Diliniz nedir?",
+          "Adın ne?",
+          "Nerelisin",
+          "Kaç yaşındasın?"
+        ],
+        "optionsRo": [
+          "Care este limba ta?",
+          "Cum te numești?",
+          "De unde ești?",
+          "Câți ani ai?"
+        ],
+        "optionsBs": [
+          "koji je tvoj jezik?",
+          "kako se zoveš?",
+          "odakle si",
+          "koliko imaš godina?"
+        ],
+        "optionsEs": [
+          "¿Cuál es tu idioma?",
+          "¿Cómo te llamas?",
+          "¿De dónde eres?",
+          "¿Cuántos años tiene?"
+        ],
+        "optionsBg": [
+          "какъв е вашият език",
+          "как се казваш",
+          "ти откъде си",
+          "на колко си години"
+        ],
+        "optionsEl": [
+          "Ποια είναι η γλώσσα σας;",
+          "Πώς σε λένε;",
+          "Από πού είστε;",
+          "Πόσων χρονών είστε;"
+        ]
       },
       {
         "type": "order",
@@ -1645,8 +1687,8 @@ const CURRICULUM = [
     "exercises": [
       {
         "type": "mcq",
-        "question": "Wie sagt man 'Wie geht es Ihnen?' auf Arabisch?",
-        "questionAr": "ما معنى هذه الجملة؟",
+        "question": "Was bedeutet 'Wie geht es Ihnen?'?",
+        "questionAr": "ما معنى 'Wie geht es Ihnen?'؟",
         "options": [
           "ما اسمك؟",
           "من أين أنت؟",
@@ -1654,13 +1696,55 @@ const CURRICULUM = [
           "كم عمرك؟"
         ],
         "answer": 2,
-        "questionEn": "What is the meaning of this sentence?",
-        "questionTr": "Bu cümlenin anlamı nedir?",
-        "questionRo": "Care este sensul acestei propoziții?",
-        "questionBs": "Šta znači ova rečenica?",
-        "questionEs": "¿Cuál es el significado de esta frase?",
-        "questionBg": "Какво е значението на това изречение?",
-        "questionEl": "Ποιο είναι το νόημα αυτής της πρότασης;"
+        "questionEn": "What does 'Wie geht es Ihnen?' mean?",
+        "questionTr": "'Wie geht es Ihnen?' ne anlama gelir?",
+        "questionRo": "Ce înseamnă 'Wie geht es Ihnen?'?",
+        "questionBs": "Šta znači 'Wie geht es Ihnen?'?",
+        "questionEs": "¿Qué significa 'Wie geht es Ihnen?'?",
+        "questionBg": "Какво означава 'Wie geht es Ihnen?'?",
+        "questionEl": "Τι σημαίνει 'Wie geht es Ihnen?';",
+        "optionsEn": [
+          "What is your name",
+          "Where are you from?",
+          "How are you? (official)",
+          "How old are you?"
+        ],
+        "optionsTr": [
+          "Adın ne",
+          "Nerelisin",
+          "Nasılsın? (resmi)",
+          "Kaç yaşındasın?"
+        ],
+        "optionsRo": [
+          "Cum te numești",
+          "De unde ești?",
+          "Ce mai faci? (oficial)",
+          "Câți ani ai?"
+        ],
+        "optionsBs": [
+          "kako se zoveš",
+          "odakle si",
+          "Kako si? (zvanično)",
+          "koliko imaš godina?"
+        ],
+        "optionsEs": [
+          "Cómo te llamas",
+          "¿De dónde eres?",
+          "¿Cómo estás? (oficial)",
+          "¿Cuántos años tiene?"
+        ],
+        "optionsBg": [
+          "как се казваш",
+          "ти откъде си",
+          "как си (официален)",
+          "на колко си години"
+        ],
+        "optionsEl": [
+          "Πώς σε λένε",
+          "Από πού είστε;",
+          "Τι κάνετε; (επίσημος ανώτερος υπάλληλος)",
+          "Πόσων χρονών είστε;"
+        ]
       },
       {
         "type": "fillblank",
@@ -1678,8 +1762,8 @@ const CURRICULUM = [
       },
       {
         "type": "mcq",
-        "question": "Was ist 'dreizehn' auf Arabisch?",
-        "questionAr": "ما معنى dreizehn؟",
+        "question": "Was bedeutet 'dreizehn'?",
+        "questionAr": "ما معنى 'dreizehn'؟",
         "options": [
           "30",
           "13",
@@ -1687,13 +1771,55 @@ const CURRICULUM = [
           "31"
         ],
         "answer": 1,
-        "questionEn": "What does dreizehn mean?",
-        "questionTr": "Dreizehn ne demek?",
-        "questionRo": "Ce înseamnă dreizehn?",
-        "questionBs": "Šta znači dreizehn?",
-        "questionEs": "¿Qué significa dreizehn?",
-        "questionBg": "Какво означава dreizehn?",
-        "questionEl": "Τι σημαίνει η λέξη dreizehn;"
+        "questionEn": "What does 'dreizehn' mean?",
+        "questionTr": "'dreizehn' ne anlama gelir?",
+        "questionRo": "Ce înseamnă 'dreizehn'?",
+        "questionBs": "Šta znači 'dreizehn'?",
+        "questionEs": "¿Qué significa 'dreizehn'?",
+        "questionBg": "Какво означава 'dreizehn'?",
+        "questionEl": "Τι σημαίνει 'dreizehn';",
+        "optionsEn": [
+          "30",
+          "13",
+          "3",
+          "31"
+        ],
+        "optionsTr": [
+          "30",
+          "13",
+          "3",
+          "31"
+        ],
+        "optionsRo": [
+          "30",
+          "13",
+          "3",
+          "31"
+        ],
+        "optionsBs": [
+          "30",
+          "13",
+          "3",
+          "31"
+        ],
+        "optionsEs": [
+          "30",
+          "13",
+          "3",
+          "31"
+        ],
+        "optionsBg": [
+          "30",
+          "13",
+          "3",
+          "31"
+        ],
+        "optionsEl": [
+          "30",
+          "13",
+          "3",
+          "31"
+        ]
       },
       {
         "type": "order",
@@ -2364,7 +2490,49 @@ const CURRICULUM = [
         "questionBs": "Koji je definitivni članak za Buch (knjiga)?",
         "questionEs": "¿Cuál es el artículo definido de Buch (libro)?",
         "questionBg": "Какъв е определителният член за Бух (книга)?",
-        "questionEl": "Ποιο είναι το οριστικό άρθρο για το Buch (βιβλίο);"
+        "questionEl": "Ποιο είναι το οριστικό άρθρο για το Buch (βιβλίο);",
+        "optionsEn": [
+          "the",
+          "the",
+          "the",
+          "a"
+        ],
+        "optionsTr": [
+          "the",
+          "the",
+          "the",
+          "A"
+        ],
+        "optionsRo": [
+          "cel",
+          "cel",
+          "cel",
+          "o"
+        ],
+        "optionsBs": [
+          "the",
+          "the",
+          "the",
+          "a"
+        ],
+        "optionsEs": [
+          "el",
+          "el",
+          "el",
+          "a"
+        ],
+        "optionsBg": [
+          "на",
+          "на",
+          "на",
+          "а"
+        ],
+        "optionsEl": [
+          "ο",
+          "ο",
+          "ο",
+          "ένα"
+        ]
       },
       {
         "type": "fillblank",
@@ -2397,7 +2565,49 @@ const CURRICULUM = [
         "questionBs": "Šta znači naplata?",
         "questionEs": "¿Qué significa billig?",
         "questionBg": "Какво означава billig?",
-        "questionEl": "Τι σημαίνει billig;"
+        "questionEl": "Τι σημαίνει billig;",
+        "optionsEn": [
+          "beloved",
+          "cheap",
+          "Beautiful",
+          "big"
+        ],
+        "optionsTr": [
+          "sevgili",
+          "ucuz",
+          "Güzel",
+          "büyük"
+        ],
+        "optionsRo": [
+          "iubit",
+          "ieftin",
+          "Frumos",
+          "mare"
+        ],
+        "optionsBs": [
+          "voljena",
+          "jeftino",
+          "Beautiful",
+          "veliki"
+        ],
+        "optionsEs": [
+          "amado",
+          "barato",
+          "Hermoso",
+          "grande"
+        ],
+        "optionsBg": [
+          "любима",
+          "евтино",
+          "Красива",
+          "голям"
+        ],
+        "optionsEl": [
+          "αγαπητός",
+          "φτηνός",
+          "Ομορφος",
+          "μεγάλος"
+        ]
       }
     ],
     "speakingPhrases": [
@@ -2929,7 +3139,49 @@ const CURRICULUM = [
         "questionBs": "Šta znači halb zehn?",
         "questionEs": "¿Qué significa halb zehn?",
         "questionBg": "Какво означава halb zehn?",
-        "questionEl": "Τι σημαίνει η λέξη halb zehn;"
+        "questionEl": "Τι σημαίνει η λέξη halb zehn;",
+        "optionsEn": [
+          "Half past ten",
+          "Half past nine",
+          "Ten o'clock",
+          "A quarter to ten"
+        ],
+        "optionsTr": [
+          "on buçuk",
+          "Dokuz buçuk",
+          "saat on",
+          "Ona çeyrek kala"
+        ],
+        "optionsRo": [
+          "Zece și jumătate",
+          "Nouă și jumătate",
+          "Ora zece",
+          "Zece fără un sfert"
+        ],
+        "optionsBs": [
+          "Pola deset",
+          "Pola deset",
+          "Deset sati",
+          "Četvrt do deset"
+        ],
+        "optionsEs": [
+          "Las diez y media",
+          "Las nueve y media",
+          "las diez en punto",
+          "Las diez menos cuarto"
+        ],
+        "optionsBg": [
+          "Десет и половина",
+          "Девет и половина",
+          "Десет часа",
+          "Десет без четвърт"
+        ],
+        "optionsEl": [
+          "Δέκα και μισή",
+          "Εννιά και μισή",
+          "Δέκα η ώρα",
+          "Ένα τέταρτο παρά δέκα"
+        ]
       },
       {
         "type": "fillblank",
@@ -3483,7 +3735,49 @@ const CURRICULUM = [
         "questionBs": "Šta znači Guten Appetit?",
         "questionEs": "¿Qué significa Guten Appetit?",
         "questionBg": "Какво означава Guten Appetit?",
-        "questionEl": "Τι σημαίνει το Guten Appetit;"
+        "questionEl": "Τι σημαίνει το Guten Appetit;",
+        "optionsEn": [
+          "Eat well/have fun",
+          "Thanks for the food",
+          "The food is delicious",
+          "I'm hungry"
+        ],
+        "optionsTr": [
+          "İyi yiyin/eğlenin",
+          "Yemek için teşekkürler",
+          "Yemek lezzetli",
+          "Açım"
+        ],
+        "optionsRo": [
+          "Mănâncă bine/distrează-te",
+          "Mulțumesc pentru mâncare",
+          "Mâncarea este delicioasă",
+          "Mi-e foame"
+        ],
+        "optionsBs": [
+          "Jedite dobro/zabavite se",
+          "Hvala na hrani",
+          "Hrana je ukusna",
+          "gladan sam"
+        ],
+        "optionsEs": [
+          "Come bien/diviertete",
+          "gracias por la comida",
+          "La comida es deliciosa",
+          "tengo hambre"
+        ],
+        "optionsBg": [
+          "Яжте добре/забавлявайте се",
+          "Благодаря за храната",
+          "Храната е вкусна",
+          "аз съм гладна"
+        ],
+        "optionsEl": [
+          "Φάτε καλά/διασκεδάστε",
+          "Ευχαριστώ για το φαγητό",
+          "Το φαγητό είναι νόστιμο",
+          "πεινάω"
+        ]
       },
       {
         "type": "fillblank",
@@ -4101,7 +4395,49 @@ const CURRICULUM = [
         "questionBs": "Šta znači Herzlichen Glückwunsch?",
         "questionEs": "¿Cuál es el significado de Herzlichen Glückwunsch?",
         "questionBg": "Какво е значението на Herzlichen Glückwunsch?",
-        "questionEl": "Ποια είναι η έννοια του Herzlichen Glückwunsch;"
+        "questionEl": "Ποια είναι η έννοια του Herzlichen Glückwunsch;",
+        "optionsEn": [
+          "Welcome",
+          "Thanks",
+          "Happy New Year / Congratulations",
+          "Good-bye"
+        ],
+        "optionsTr": [
+          "Hoş geldin",
+          "Teşekkürler",
+          "Yeni Yılınız Kutlu Olsun / Tebrikler",
+          "Güle güle"
+        ],
+        "optionsRo": [
+          "Bun venit",
+          "Mulţumesc",
+          "La mulți ani / Felicitări",
+          "La revedere"
+        ],
+        "optionsBs": [
+          "Dobrodošli",
+          "Hvala",
+          "Sretna Nova godina / Čestitamo",
+          "Zbogom"
+        ],
+        "optionsEs": [
+          "Bienvenido",
+          "Gracias",
+          "Feliz año nuevo / Felicitaciones",
+          "Adiós"
+        ],
+        "optionsBg": [
+          "Добре дошли",
+          "благодаря",
+          "Честита Нова година / Поздравления",
+          "довиждане"
+        ],
+        "optionsEl": [
+          "Καλωσόρισμα",
+          "Ευχαριστώ",
+          "Καλή χρονιά / Συγχαρητήρια",
+          "Αντίο"
+        ]
       },
       {
         "type": "fillblank",
@@ -4582,7 +4918,49 @@ const CURRICULUM = [
         "questionBs": "Šta znači Wohnzimmer?",
         "questionEs": "¿Qué significa Wohnzimmer?",
         "questionBg": "Какво означава Wohnzimmer?",
-        "questionEl": "Τι σημαίνει η λέξη Wohnzimmer;"
+        "questionEl": "Τι σημαίνει η λέξη Wohnzimmer;",
+        "optionsEn": [
+          "Bedroom",
+          "the kitchen",
+          "Living room",
+          "the bathroom"
+        ],
+        "optionsTr": [
+          "Yatak odası",
+          "mutfak",
+          "Oturma odası",
+          "banyo"
+        ],
+        "optionsRo": [
+          "Dormitor",
+          "bucataria",
+          "Camera de zi",
+          "baia"
+        ],
+        "optionsBs": [
+          "Spavaca soba",
+          "kuhinja",
+          "Dnevni boravak",
+          "kupatilo"
+        ],
+        "optionsEs": [
+          "Dormitorio",
+          "la cocina",
+          "Sala de estar",
+          "el baño"
+        ],
+        "optionsBg": [
+          "Спалня",
+          "кухнята",
+          "Всекидневна",
+          "банята"
+        ],
+        "optionsEl": [
+          "Υπνοδωμάτιο",
+          "την κουζίνα",
+          "Καθιστικό",
+          "το μπάνιο"
+        ]
       },
       {
         "type": "fillblank",
@@ -5079,7 +5457,49 @@ const CURRICULUM = [
         "questionBs": "Kako se kaže 'Imam glavobolju' na njemačkom?",
         "questionEs": "¿Cómo se dice \"me duele la cabeza\" en alemán?",
         "questionBg": "Как се казва „имам главоболие“ на немски?",
-        "questionEl": "Πώς λέτε \"Έχω πονοκέφαλο\" στα Γερμανικά;"
+        "questionEl": "Πώς λέτε \"Έχω πονοκέφαλο\" στα Γερμανικά;",
+        "optionsEn": [
+          "stomach pain",
+          "Headache",
+          "Sore throat",
+          "Fever"
+        ],
+        "optionsTr": [
+          "mide ağrısı",
+          "Baş ağrısı",
+          "Boğaz ağrısı",
+          "Ateş"
+        ],
+        "optionsRo": [
+          "dureri de stomac",
+          "Durere de cap",
+          "Durere de gât",
+          "Febră"
+        ],
+        "optionsBs": [
+          "bol u stomaku",
+          "Glavobolja",
+          "Bol u grlu",
+          "Vrućica"
+        ],
+        "optionsEs": [
+          "dolor de estomago",
+          "Dolor de cabeza",
+          "Dolor de garganta",
+          "Fiebre"
+        ],
+        "optionsBg": [
+          "болка в стомаха",
+          "Главоболие",
+          "Възпалено гърло",
+          "Треска"
+        ],
+        "optionsEl": [
+          "πόνος στο στομάχι",
+          "Πονοκέφαλο",
+          "Πονόλαιμος",
+          "Πυρετός"
+        ]
       }
     ],
     "speakingPhrases": [
@@ -5539,7 +5959,49 @@ const CURRICULUM = [
         "questionBs": "Šta znači hin i zurück?",
         "questionEs": "¿Cuál es el significado de hin y zurück?",
         "questionBg": "Какво е значението на hin и zurück?",
-        "questionEl": "Τι σημαίνει το hin και το zurück;"
+        "questionEl": "Τι σημαίνει το hin και το zurück;",
+        "optionsEn": [
+          "One way only",
+          "Return only",
+          "Back and forth",
+          "Without a ticket"
+        ],
+        "optionsTr": [
+          "Yalnızca tek yön",
+          "Yalnızca iade",
+          "İleri geri",
+          "Bilet olmadan"
+        ],
+        "optionsRo": [
+          "O singură cale",
+          "Retur numai",
+          "Înainte şi înapoi",
+          "Fără bilet"
+        ],
+        "optionsBs": [
+          "Samo na jedan način",
+          "Samo povratak",
+          "Naprijed i naprijed",
+          "Bez karte"
+        ],
+        "optionsEs": [
+          "Solo de una manera",
+          "Sólo devolución",
+          "De aquí para allí",
+          "sin billete"
+        ],
+        "optionsBg": [
+          "Само по един начин",
+          "Само връщане",
+          "Напред и назад",
+          "Без билет"
+        ],
+        "optionsEl": [
+          "Μόνο ένας τρόπος",
+          "Επιστροφή μόνο",
+          "Πηγαινοέρχομαι",
+          "Χωρίς εισιτήριο"
+        ]
       }
     ],
     "speakingPhrases": [
@@ -5952,7 +6414,49 @@ const CURRICULUM = [
         "questionBs": "Šta gern znači ovdje?",
         "questionEs": "¿Qué significa gern aquí?",
         "questionBg": "Какво означава gern тук?",
-        "questionEl": "Τι σημαίνει εδώ το Gern;"
+        "questionEl": "Τι σημαίνει εδώ το Gern;",
+        "optionsEn": [
+          "I don't like",
+          "I like/I like",
+          "I can",
+          "He should"
+        ],
+        "optionsTr": [
+          "hoşuma gitmedi",
+          "hoşuma gitti/beğendim",
+          "Yapabilirim",
+          "O yapmalı"
+        ],
+        "optionsRo": [
+          "Nu-mi place",
+          "imi place/mi place",
+          "pot",
+          "Ar trebui"
+        ],
+        "optionsBs": [
+          "ne volim",
+          "Sviđa mi se/sviđa mi se",
+          "mogu",
+          "Trebao bi"
+        ],
+        "optionsEs": [
+          "no me gusta",
+          "me gusta/me gusta",
+          "Puedo",
+          "el deberia"
+        ],
+        "optionsBg": [
+          "не ми харесва",
+          "харесвам/харесвам",
+          "Аз мога",
+          "Той трябва"
+        ],
+        "optionsEl": [
+          "δεν μου αρέσει",
+          "μου αρέσει/μου αρέσει",
+          "μπορώ",
+          "Θα έπρεπε"
+        ]
       }
     ],
     "speakingPhrases": [
@@ -6398,7 +6902,49 @@ const CURRICULUM = [
         "questionBs": "Koji je ženski oblik Arzt (doktor)?",
         "questionEs": "¿Cuál es la forma femenina de Arzt (médico)?",
         "questionBg": "Каква е женската форма на Arzt (лекар)?",
-        "questionEl": "Ποια είναι η γυναικεία μορφή του Arzt (γιατρός);"
+        "questionEl": "Ποια είναι η γυναικεία μορφή του Arzt (γιατρός);",
+        "optionsEn": [
+          "Doctor",
+          "doctor",
+          "doctor",
+          "doctors"
+        ],
+        "optionsTr": [
+          "Doktor",
+          "doktor",
+          "doktor",
+          "doktorlar"
+        ],
+        "optionsRo": [
+          "Doctor",
+          "doctor",
+          "doctor",
+          "medicii"
+        ],
+        "optionsBs": [
+          "Doktore",
+          "doktore",
+          "doktore",
+          "doktori"
+        ],
+        "optionsEs": [
+          "Doctor",
+          "doctor",
+          "doctor",
+          "doctores"
+        ],
+        "optionsBg": [
+          "лекар",
+          "лекар",
+          "лекар",
+          "лекари"
+        ],
+        "optionsEl": [
+          "Γιατρός",
+          "γιατρός",
+          "γιατρός",
+          "γιατρούς"
+        ]
       }
     ],
     "speakingPhrases": [
@@ -6859,7 +7405,49 @@ const CURRICULUM = [
         "questionBs": "Šta gost želi?",
         "questionEs": "¿Qué quiere el invitado?",
         "questionBg": "Какво иска гостът?",
-        "questionEl": "Τι θέλει ο καλεσμένος;"
+        "questionEl": "Τι θέλει ο καλεσμένος;",
+        "optionsEn": [
+          "He wants extra food",
+          "He wants the account",
+          "He wants a drink",
+          "He wants the list"
+        ],
+        "optionsTr": [
+          "Fazladan yemek istiyor",
+          "Hesabı istiyor",
+          "Bir içki istiyor",
+          "Listeyi istiyor"
+        ],
+        "optionsRo": [
+          "Vrea mâncare suplimentară",
+          "Vrea contul",
+          "Vrea o băutură",
+          "El vrea lista"
+        ],
+        "optionsBs": [
+          "Želi dodatnu hranu",
+          "On želi račun",
+          "On želi piće",
+          "On želi listu"
+        ],
+        "optionsEs": [
+          "el quiere comida extra",
+          "el quiere la cuenta",
+          "el quiere un trago",
+          "el quiere la lista"
+        ],
+        "optionsBg": [
+          "Той иска допълнителна храна",
+          "Той иска сметката",
+          "Той иска питие",
+          "Той иска списъка"
+        ],
+        "optionsEl": [
+          "Θέλει επιπλέον φαγητό",
+          "Θέλει τον λογαριασμό",
+          "Θέλει ένα ποτό",
+          "Θέλει τη λίστα"
+        ]
       },
       {
         "type": "fillblank",
@@ -7476,7 +8064,252 @@ const CURRICULUM_A2 = [
         "hintBs": "srednji, akuzativ, neodređeni član",
         "hintEs": "Artículo neutro, acusativo, indefinido.",
         "hintBg": "среден род, винителен падеж, неопределителен член",
-        "hintEl": "ουδέτερο, κατηγορούμενο, αόριστο άρθρο"
+        "hintEl": "ουδέτερο, κατηγορούμενο, αόριστο άρθρο",
+        "optionsEn": [
+          {
+            "de": "rotes",
+            "en": "red (neut. ending)",
+            "ar": "أحمر (نهاية محايدة)",
+            "tr": "kırmızı (nötr. son)",
+            "ro": "roșu (termină neutră)",
+            "bs": "crvena (neutralni završetak)",
+            "es": "rojo (finalización neutra)",
+            "bg": "червено (неут. окончание)",
+            "el": "κόκκινο (ουδέτερο τέλος)"
+          },
+          {
+            "de": "roten",
+            "en": "red (masc. ending)",
+            "ar": "أحمر (masc.إنهاء)",
+            "tr": "kırmızı (masc. bitiş)",
+            "ro": "roșu (termină masc.)",
+            "bs": "crveno (masc. završetak)",
+            "es": "rojo (finalización masc.)",
+            "bg": "червено (маск. край)",
+            "el": "κόκκινο (αρσ. κατάληξη)"
+          },
+          {
+            "de": "rote",
+            "en": "red (fem. ending)",
+            "ar": "أحمر (فيم. النهاية)",
+            "tr": "kırmızı (dişi sonu)",
+            "ro": "roșu (termină feminină)",
+            "bs": "crvena (ženski završetak)",
+            "es": "rojo (finalización fem.)",
+            "bg": "червено (женско окончание)",
+            "el": "κόκκινο (θηλ. κατάληξη)"
+          }
+        ],
+        "optionsTr": [
+          {
+            "de": "rotes",
+            "en": "red (neut. ending)",
+            "ar": "أحمر (نهاية محايدة)",
+            "tr": "kırmızı (nötr. son)",
+            "ro": "roșu (termină neutră)",
+            "bs": "crvena (neutralni završetak)",
+            "es": "rojo (finalización neutra)",
+            "bg": "червено (неут. окончание)",
+            "el": "κόκκινο (ουδέτερο τέλος)"
+          },
+          {
+            "de": "roten",
+            "en": "red (masc. ending)",
+            "ar": "أحمر (masc.إنهاء)",
+            "tr": "kırmızı (masc. bitiş)",
+            "ro": "roșu (termină masc.)",
+            "bs": "crveno (masc. završetak)",
+            "es": "rojo (finalización masc.)",
+            "bg": "червено (маск. край)",
+            "el": "κόκκινο (αρσ. κατάληξη)"
+          },
+          {
+            "de": "rote",
+            "en": "red (fem. ending)",
+            "ar": "أحمر (فيم. النهاية)",
+            "tr": "kırmızı (dişi sonu)",
+            "ro": "roșu (termină feminină)",
+            "bs": "crvena (ženski završetak)",
+            "es": "rojo (finalización fem.)",
+            "bg": "червено (женско окончание)",
+            "el": "κόκκινο (θηλ. κατάληξη)"
+          }
+        ],
+        "optionsRo": [
+          {
+            "de": "rotes",
+            "en": "red (neut. ending)",
+            "ar": "أحمر (نهاية محايدة)",
+            "tr": "kırmızı (nötr. son)",
+            "ro": "roșu (termină neutră)",
+            "bs": "crvena (neutralni završetak)",
+            "es": "rojo (finalización neutra)",
+            "bg": "червено (неут. окончание)",
+            "el": "κόκκινο (ουδέτερο τέλος)"
+          },
+          {
+            "de": "roten",
+            "en": "red (masc. ending)",
+            "ar": "أحمر (masc.إنهاء)",
+            "tr": "kırmızı (masc. bitiş)",
+            "ro": "roșu (termină masc.)",
+            "bs": "crveno (masc. završetak)",
+            "es": "rojo (finalización masc.)",
+            "bg": "червено (маск. край)",
+            "el": "κόκκινο (αρσ. κατάληξη)"
+          },
+          {
+            "de": "rote",
+            "en": "red (fem. ending)",
+            "ar": "أحمر (فيم. النهاية)",
+            "tr": "kırmızı (dişi sonu)",
+            "ro": "roșu (termină feminină)",
+            "bs": "crvena (ženski završetak)",
+            "es": "rojo (finalización fem.)",
+            "bg": "червено (женско окончание)",
+            "el": "κόκκινο (θηλ. κατάληξη)"
+          }
+        ],
+        "optionsBs": [
+          {
+            "de": "rotes",
+            "en": "red (neut. ending)",
+            "ar": "أحمر (نهاية محايدة)",
+            "tr": "kırmızı (nötr. son)",
+            "ro": "roșu (termină neutră)",
+            "bs": "crvena (neutralni završetak)",
+            "es": "rojo (finalización neutra)",
+            "bg": "червено (неут. окончание)",
+            "el": "κόκκινο (ουδέτερο τέλος)"
+          },
+          {
+            "de": "roten",
+            "en": "red (masc. ending)",
+            "ar": "أحمر (masc.إنهاء)",
+            "tr": "kırmızı (masc. bitiş)",
+            "ro": "roșu (termină masc.)",
+            "bs": "crveno (masc. završetak)",
+            "es": "rojo (finalización masc.)",
+            "bg": "червено (маск. край)",
+            "el": "κόκκινο (αρσ. κατάληξη)"
+          },
+          {
+            "de": "rote",
+            "en": "red (fem. ending)",
+            "ar": "أحمر (فيم. النهاية)",
+            "tr": "kırmızı (dişi sonu)",
+            "ro": "roșu (termină feminină)",
+            "bs": "crvena (ženski završetak)",
+            "es": "rojo (finalización fem.)",
+            "bg": "червено (женско окончание)",
+            "el": "κόκκινο (θηλ. κατάληξη)"
+          }
+        ],
+        "optionsEs": [
+          {
+            "de": "rotes",
+            "en": "red (neut. ending)",
+            "ar": "أحمر (نهاية محايدة)",
+            "tr": "kırmızı (nötr. son)",
+            "ro": "roșu (termină neutră)",
+            "bs": "crvena (neutralni završetak)",
+            "es": "rojo (finalización neutra)",
+            "bg": "червено (неут. окончание)",
+            "el": "κόκκινο (ουδέτερο τέλος)"
+          },
+          {
+            "de": "roten",
+            "en": "red (masc. ending)",
+            "ar": "أحمر (masc.إنهاء)",
+            "tr": "kırmızı (masc. bitiş)",
+            "ro": "roșu (termină masc.)",
+            "bs": "crveno (masc. završetak)",
+            "es": "rojo (finalización masc.)",
+            "bg": "червено (маск. край)",
+            "el": "κόκκινο (αρσ. κατάληξη)"
+          },
+          {
+            "de": "rote",
+            "en": "red (fem. ending)",
+            "ar": "أحمر (فيم. النهاية)",
+            "tr": "kırmızı (dişi sonu)",
+            "ro": "roșu (termină feminină)",
+            "bs": "crvena (ženski završetak)",
+            "es": "rojo (finalización fem.)",
+            "bg": "червено (женско окончание)",
+            "el": "κόκκινο (θηλ. κατάληξη)"
+          }
+        ],
+        "optionsBg": [
+          {
+            "de": "rotes",
+            "en": "red (neut. ending)",
+            "ar": "أحمر (نهاية محايدة)",
+            "tr": "kırmızı (nötr. son)",
+            "ro": "roșu (termină neutră)",
+            "bs": "crvena (neutralni završetak)",
+            "es": "rojo (finalización neutra)",
+            "bg": "червено (неут. окончание)",
+            "el": "κόκκινο (ουδέτερο τέλος)"
+          },
+          {
+            "de": "roten",
+            "en": "red (masc. ending)",
+            "ar": "أحمر (masc.إنهاء)",
+            "tr": "kırmızı (masc. bitiş)",
+            "ro": "roșu (termină masc.)",
+            "bs": "crveno (masc. završetak)",
+            "es": "rojo (finalización masc.)",
+            "bg": "червено (маск. край)",
+            "el": "κόκκινο (αρσ. κατάληξη)"
+          },
+          {
+            "de": "rote",
+            "en": "red (fem. ending)",
+            "ar": "أحمر (فيم. النهاية)",
+            "tr": "kırmızı (dişi sonu)",
+            "ro": "roșu (termină feminină)",
+            "bs": "crvena (ženski završetak)",
+            "es": "rojo (finalización fem.)",
+            "bg": "червено (женско окончание)",
+            "el": "κόκκινο (θηλ. κατάληξη)"
+          }
+        ],
+        "optionsEl": [
+          {
+            "de": "rotes",
+            "en": "red (neut. ending)",
+            "ar": "أحمر (نهاية محايدة)",
+            "tr": "kırmızı (nötr. son)",
+            "ro": "roșu (termină neutră)",
+            "bs": "crvena (neutralni završetak)",
+            "es": "rojo (finalización neutra)",
+            "bg": "червено (неут. окончание)",
+            "el": "κόκκινο (ουδέτερο τέλος)"
+          },
+          {
+            "de": "roten",
+            "en": "red (masc. ending)",
+            "ar": "أحمر (masc.إنهاء)",
+            "tr": "kırmızı (masc. bitiş)",
+            "ro": "roșu (termină masc.)",
+            "bs": "crveno (masc. završetak)",
+            "es": "rojo (finalización masc.)",
+            "bg": "червено (маск. край)",
+            "el": "κόκκινο (αρσ. κατάληξη)"
+          },
+          {
+            "de": "rote",
+            "en": "red (fem. ending)",
+            "ar": "أحمر (فيم. النهاية)",
+            "tr": "kırmızı (dişi sonu)",
+            "ro": "roșu (termină feminină)",
+            "bs": "crvena (ženski završetak)",
+            "es": "rojo (finalización fem.)",
+            "bg": "червено (женско окончание)",
+            "el": "κόκκινο (θηλ. κατάληξη)"
+          }
+        ]
       },
       {
         "id": 1302,
@@ -7892,7 +8725,252 @@ const CURRICULUM_A2 = [
         "hintBs": "Glagol se nalazi na kraju podređene rečenice",
         "hintEs": "El verbo pertenece al final de la cláusula subordinada.",
         "hintBg": "Глаголът е в края на подчиненото изречение",
-        "hintEl": "Το ρήμα ανήκει στο τέλος της δευτερεύουσας πρότασης"
+        "hintEl": "Το ρήμα ανήκει στο τέλος της δευτερεύουσας πρότασης",
+        "optionsEn": [
+          {
+            "de": "bin",
+            "en": "am (verb at end)",
+            "ar": "صباحا (الفعل في النهاية)",
+            "tr": "am (sondaki fiil)",
+            "ro": "am (verb la sfârșit)",
+            "bs": "am (glagol na kraju)",
+            "es": "soy (verbo al final)",
+            "bg": "съм (глагол в края)",
+            "el": "είμαι (ρήμα στο τέλος)"
+          },
+          {
+            "de": "habe",
+            "en": "have",
+            "ar": "يملك",
+            "tr": "sahip olmak",
+            "ro": "au",
+            "bs": "imati",
+            "es": "tener",
+            "bg": "имат",
+            "el": "έχω"
+          },
+          {
+            "de": "bin krank",
+            "en": "am sick",
+            "ar": "أنا مريض",
+            "tr": "hastayım",
+            "ro": "sunt bolnav",
+            "bs": "ja sam bolestan",
+            "es": "estoy enfermo",
+            "bg": "болен съм",
+            "el": "είμαι άρρωστος"
+          }
+        ],
+        "optionsTr": [
+          {
+            "de": "bin",
+            "en": "am (verb at end)",
+            "ar": "صباحا (الفعل في النهاية)",
+            "tr": "am (sondaki fiil)",
+            "ro": "am (verb la sfârșit)",
+            "bs": "am (glagol na kraju)",
+            "es": "soy (verbo al final)",
+            "bg": "съм (глагол в края)",
+            "el": "είμαι (ρήμα στο τέλος)"
+          },
+          {
+            "de": "habe",
+            "en": "have",
+            "ar": "يملك",
+            "tr": "sahip olmak",
+            "ro": "au",
+            "bs": "imati",
+            "es": "tener",
+            "bg": "имат",
+            "el": "έχω"
+          },
+          {
+            "de": "bin krank",
+            "en": "am sick",
+            "ar": "أنا مريض",
+            "tr": "hastayım",
+            "ro": "sunt bolnav",
+            "bs": "ja sam bolestan",
+            "es": "estoy enfermo",
+            "bg": "болен съм",
+            "el": "είμαι άρρωστος"
+          }
+        ],
+        "optionsRo": [
+          {
+            "de": "bin",
+            "en": "am (verb at end)",
+            "ar": "صباحا (الفعل في النهاية)",
+            "tr": "am (sondaki fiil)",
+            "ro": "am (verb la sfârșit)",
+            "bs": "am (glagol na kraju)",
+            "es": "soy (verbo al final)",
+            "bg": "съм (глагол в края)",
+            "el": "είμαι (ρήμα στο τέλος)"
+          },
+          {
+            "de": "habe",
+            "en": "have",
+            "ar": "يملك",
+            "tr": "sahip olmak",
+            "ro": "au",
+            "bs": "imati",
+            "es": "tener",
+            "bg": "имат",
+            "el": "έχω"
+          },
+          {
+            "de": "bin krank",
+            "en": "am sick",
+            "ar": "أنا مريض",
+            "tr": "hastayım",
+            "ro": "sunt bolnav",
+            "bs": "ja sam bolestan",
+            "es": "estoy enfermo",
+            "bg": "болен съм",
+            "el": "είμαι άρρωστος"
+          }
+        ],
+        "optionsBs": [
+          {
+            "de": "bin",
+            "en": "am (verb at end)",
+            "ar": "صباحا (الفعل في النهاية)",
+            "tr": "am (sondaki fiil)",
+            "ro": "am (verb la sfârșit)",
+            "bs": "am (glagol na kraju)",
+            "es": "soy (verbo al final)",
+            "bg": "съм (глагол в края)",
+            "el": "είμαι (ρήμα στο τέλος)"
+          },
+          {
+            "de": "habe",
+            "en": "have",
+            "ar": "يملك",
+            "tr": "sahip olmak",
+            "ro": "au",
+            "bs": "imati",
+            "es": "tener",
+            "bg": "имат",
+            "el": "έχω"
+          },
+          {
+            "de": "bin krank",
+            "en": "am sick",
+            "ar": "أنا مريض",
+            "tr": "hastayım",
+            "ro": "sunt bolnav",
+            "bs": "ja sam bolestan",
+            "es": "estoy enfermo",
+            "bg": "болен съм",
+            "el": "είμαι άρρωστος"
+          }
+        ],
+        "optionsEs": [
+          {
+            "de": "bin",
+            "en": "am (verb at end)",
+            "ar": "صباحا (الفعل في النهاية)",
+            "tr": "am (sondaki fiil)",
+            "ro": "am (verb la sfârșit)",
+            "bs": "am (glagol na kraju)",
+            "es": "soy (verbo al final)",
+            "bg": "съм (глагол в края)",
+            "el": "είμαι (ρήμα στο τέλος)"
+          },
+          {
+            "de": "habe",
+            "en": "have",
+            "ar": "يملك",
+            "tr": "sahip olmak",
+            "ro": "au",
+            "bs": "imati",
+            "es": "tener",
+            "bg": "имат",
+            "el": "έχω"
+          },
+          {
+            "de": "bin krank",
+            "en": "am sick",
+            "ar": "أنا مريض",
+            "tr": "hastayım",
+            "ro": "sunt bolnav",
+            "bs": "ja sam bolestan",
+            "es": "estoy enfermo",
+            "bg": "болен съм",
+            "el": "είμαι άρρωστος"
+          }
+        ],
+        "optionsBg": [
+          {
+            "de": "bin",
+            "en": "am (verb at end)",
+            "ar": "صباحا (الفعل في النهاية)",
+            "tr": "am (sondaki fiil)",
+            "ro": "am (verb la sfârșit)",
+            "bs": "am (glagol na kraju)",
+            "es": "soy (verbo al final)",
+            "bg": "съм (глагол в края)",
+            "el": "είμαι (ρήμα στο τέλος)"
+          },
+          {
+            "de": "habe",
+            "en": "have",
+            "ar": "يملك",
+            "tr": "sahip olmak",
+            "ro": "au",
+            "bs": "imati",
+            "es": "tener",
+            "bg": "имат",
+            "el": "έχω"
+          },
+          {
+            "de": "bin krank",
+            "en": "am sick",
+            "ar": "أنا مريض",
+            "tr": "hastayım",
+            "ro": "sunt bolnav",
+            "bs": "ja sam bolestan",
+            "es": "estoy enfermo",
+            "bg": "болен съм",
+            "el": "είμαι άρρωστος"
+          }
+        ],
+        "optionsEl": [
+          {
+            "de": "bin",
+            "en": "am (verb at end)",
+            "ar": "صباحا (الفعل في النهاية)",
+            "tr": "am (sondaki fiil)",
+            "ro": "am (verb la sfârșit)",
+            "bs": "am (glagol na kraju)",
+            "es": "soy (verbo al final)",
+            "bg": "съм (глагол в края)",
+            "el": "είμαι (ρήμα στο τέλος)"
+          },
+          {
+            "de": "habe",
+            "en": "have",
+            "ar": "يملك",
+            "tr": "sahip olmak",
+            "ro": "au",
+            "bs": "imati",
+            "es": "tener",
+            "bg": "имат",
+            "el": "έχω"
+          },
+          {
+            "de": "bin krank",
+            "en": "am sick",
+            "ar": "أنا مريض",
+            "tr": "hastayım",
+            "ro": "sunt bolnav",
+            "bs": "ja sam bolestan",
+            "es": "estoy enfermo",
+            "bg": "болен съм",
+            "el": "είμαι άρρωστος"
+          }
+        ]
       },
       {
         "id": 1402,
@@ -8384,7 +9462,252 @@ const CURRICULUM_A2 = [
         "hintBs": "Povratna zamjenica za 'wir'",
         "hintEs": "Pronombre reflexivo para 'wir'",
         "hintBg": "Възвратно местоимение за 'wir'",
-        "hintEl": "Ανακλαστική αντωνυμία για «wir»"
+        "hintEl": "Ανακλαστική αντωνυμία για «wir»",
+        "optionsEn": [
+          {
+            "de": "uns",
+            "en": "us / ourselves (reflexive for wir)",
+            "ar": "نحن / أنفسنا (انعكاس لـ wir)",
+            "tr": "biz / kendimiz (kablo için dönüşlü)",
+            "ro": "noi / noi înșine (reflexiv pentru wir)",
+            "bs": "mi / mi (refleksivno za wir)",
+            "es": "nosotros / nosotros mismos (reflexivo de wir)",
+            "bg": "нас / себе си (рефлексивен за wir)",
+            "el": "εμείς / οι εαυτοί μας (αντανακλαστικό για το wir)"
+          },
+          {
+            "de": "sich",
+            "en": "himself/themselves",
+            "ar": "نفسه/أنفسهم",
+            "tr": "kendisi",
+            "ro": "el/ele înșiși",
+            "bs": "sebe/sebe",
+            "es": "él mismo/ellos mismos",
+            "bg": "себе си/себе си",
+            "el": "τον εαυτό τους/τον εαυτό τους"
+          },
+          {
+            "de": "euch",
+            "en": "yourselves",
+            "ar": "أنفسكم",
+            "tr": "kendiniz",
+            "ro": "voi înșivă",
+            "bs": "sebe",
+            "es": "vosotros",
+            "bg": "себе си",
+            "el": "σείς οι ίδιοι"
+          }
+        ],
+        "optionsTr": [
+          {
+            "de": "uns",
+            "en": "us / ourselves (reflexive for wir)",
+            "ar": "نحن / أنفسنا (انعكاس لـ wir)",
+            "tr": "biz / kendimiz (kablo için dönüşlü)",
+            "ro": "noi / noi înșine (reflexiv pentru wir)",
+            "bs": "mi / mi (refleksivno za wir)",
+            "es": "nosotros / nosotros mismos (reflexivo de wir)",
+            "bg": "нас / себе си (рефлексивен за wir)",
+            "el": "εμείς / οι εαυτοί μας (αντανακλαστικό για το wir)"
+          },
+          {
+            "de": "sich",
+            "en": "himself/themselves",
+            "ar": "نفسه/أنفسهم",
+            "tr": "kendisi",
+            "ro": "el/ele înșiși",
+            "bs": "sebe/sebe",
+            "es": "él mismo/ellos mismos",
+            "bg": "себе си/себе си",
+            "el": "τον εαυτό τους/τον εαυτό τους"
+          },
+          {
+            "de": "euch",
+            "en": "yourselves",
+            "ar": "أنفسكم",
+            "tr": "kendiniz",
+            "ro": "voi înșivă",
+            "bs": "sebe",
+            "es": "vosotros",
+            "bg": "себе си",
+            "el": "σείς οι ίδιοι"
+          }
+        ],
+        "optionsRo": [
+          {
+            "de": "uns",
+            "en": "us / ourselves (reflexive for wir)",
+            "ar": "نحن / أنفسنا (انعكاس لـ wir)",
+            "tr": "biz / kendimiz (kablo için dönüşlü)",
+            "ro": "noi / noi înșine (reflexiv pentru wir)",
+            "bs": "mi / mi (refleksivno za wir)",
+            "es": "nosotros / nosotros mismos (reflexivo de wir)",
+            "bg": "нас / себе си (рефлексивен за wir)",
+            "el": "εμείς / οι εαυτοί μας (αντανακλαστικό για το wir)"
+          },
+          {
+            "de": "sich",
+            "en": "himself/themselves",
+            "ar": "نفسه/أنفسهم",
+            "tr": "kendisi",
+            "ro": "el/ele înșiși",
+            "bs": "sebe/sebe",
+            "es": "él mismo/ellos mismos",
+            "bg": "себе си/себе си",
+            "el": "τον εαυτό τους/τον εαυτό τους"
+          },
+          {
+            "de": "euch",
+            "en": "yourselves",
+            "ar": "أنفسكم",
+            "tr": "kendiniz",
+            "ro": "voi înșivă",
+            "bs": "sebe",
+            "es": "vosotros",
+            "bg": "себе си",
+            "el": "σείς οι ίδιοι"
+          }
+        ],
+        "optionsBs": [
+          {
+            "de": "uns",
+            "en": "us / ourselves (reflexive for wir)",
+            "ar": "نحن / أنفسنا (انعكاس لـ wir)",
+            "tr": "biz / kendimiz (kablo için dönüşlü)",
+            "ro": "noi / noi înșine (reflexiv pentru wir)",
+            "bs": "mi / mi (refleksivno za wir)",
+            "es": "nosotros / nosotros mismos (reflexivo de wir)",
+            "bg": "нас / себе си (рефлексивен за wir)",
+            "el": "εμείς / οι εαυτοί μας (αντανακλαστικό για το wir)"
+          },
+          {
+            "de": "sich",
+            "en": "himself/themselves",
+            "ar": "نفسه/أنفسهم",
+            "tr": "kendisi",
+            "ro": "el/ele înșiși",
+            "bs": "sebe/sebe",
+            "es": "él mismo/ellos mismos",
+            "bg": "себе си/себе си",
+            "el": "τον εαυτό τους/τον εαυτό τους"
+          },
+          {
+            "de": "euch",
+            "en": "yourselves",
+            "ar": "أنفسكم",
+            "tr": "kendiniz",
+            "ro": "voi înșivă",
+            "bs": "sebe",
+            "es": "vosotros",
+            "bg": "себе си",
+            "el": "σείς οι ίδιοι"
+          }
+        ],
+        "optionsEs": [
+          {
+            "de": "uns",
+            "en": "us / ourselves (reflexive for wir)",
+            "ar": "نحن / أنفسنا (انعكاس لـ wir)",
+            "tr": "biz / kendimiz (kablo için dönüşlü)",
+            "ro": "noi / noi înșine (reflexiv pentru wir)",
+            "bs": "mi / mi (refleksivno za wir)",
+            "es": "nosotros / nosotros mismos (reflexivo de wir)",
+            "bg": "нас / себе си (рефлексивен за wir)",
+            "el": "εμείς / οι εαυτοί μας (αντανακλαστικό για το wir)"
+          },
+          {
+            "de": "sich",
+            "en": "himself/themselves",
+            "ar": "نفسه/أنفسهم",
+            "tr": "kendisi",
+            "ro": "el/ele înșiși",
+            "bs": "sebe/sebe",
+            "es": "él mismo/ellos mismos",
+            "bg": "себе си/себе си",
+            "el": "τον εαυτό τους/τον εαυτό τους"
+          },
+          {
+            "de": "euch",
+            "en": "yourselves",
+            "ar": "أنفسكم",
+            "tr": "kendiniz",
+            "ro": "voi înșivă",
+            "bs": "sebe",
+            "es": "vosotros",
+            "bg": "себе си",
+            "el": "σείς οι ίδιοι"
+          }
+        ],
+        "optionsBg": [
+          {
+            "de": "uns",
+            "en": "us / ourselves (reflexive for wir)",
+            "ar": "نحن / أنفسنا (انعكاس لـ wir)",
+            "tr": "biz / kendimiz (kablo için dönüşlü)",
+            "ro": "noi / noi înșine (reflexiv pentru wir)",
+            "bs": "mi / mi (refleksivno za wir)",
+            "es": "nosotros / nosotros mismos (reflexivo de wir)",
+            "bg": "нас / себе си (рефлексивен за wir)",
+            "el": "εμείς / οι εαυτοί μας (αντανακλαστικό για το wir)"
+          },
+          {
+            "de": "sich",
+            "en": "himself/themselves",
+            "ar": "نفسه/أنفسهم",
+            "tr": "kendisi",
+            "ro": "el/ele înșiși",
+            "bs": "sebe/sebe",
+            "es": "él mismo/ellos mismos",
+            "bg": "себе си/себе си",
+            "el": "τον εαυτό τους/τον εαυτό τους"
+          },
+          {
+            "de": "euch",
+            "en": "yourselves",
+            "ar": "أنفسكم",
+            "tr": "kendiniz",
+            "ro": "voi înșivă",
+            "bs": "sebe",
+            "es": "vosotros",
+            "bg": "себе си",
+            "el": "σείς οι ίδιοι"
+          }
+        ],
+        "optionsEl": [
+          {
+            "de": "uns",
+            "en": "us / ourselves (reflexive for wir)",
+            "ar": "نحن / أنفسنا (انعكاس لـ wir)",
+            "tr": "biz / kendimiz (kablo için dönüşlü)",
+            "ro": "noi / noi înșine (reflexiv pentru wir)",
+            "bs": "mi / mi (refleksivno za wir)",
+            "es": "nosotros / nosotros mismos (reflexivo de wir)",
+            "bg": "нас / себе си (рефлексивен за wir)",
+            "el": "εμείς / οι εαυτοί μας (αντανακλαστικό για το wir)"
+          },
+          {
+            "de": "sich",
+            "en": "himself/themselves",
+            "ar": "نفسه/أنفسهم",
+            "tr": "kendisi",
+            "ro": "el/ele înșiși",
+            "bs": "sebe/sebe",
+            "es": "él mismo/ellos mismos",
+            "bg": "себе си/себе си",
+            "el": "τον εαυτό τους/τον εαυτό τους"
+          },
+          {
+            "de": "euch",
+            "en": "yourselves",
+            "ar": "أنفسكم",
+            "tr": "kendiniz",
+            "ro": "voi înșivă",
+            "bs": "sebe",
+            "es": "vosotros",
+            "bg": "себе си",
+            "el": "σείς οι ίδιοι"
+          }
+        ]
       },
       {
         "id": 1502,
@@ -8800,7 +10123,252 @@ const CURRICULUM_A2 = [
         "hintBs": "Subjekt podređene rečenice je 'wir'",
         "hintEs": "El sujeto de la cláusula subordinada es 'wir'.",
         "hintBg": "Предметът на подчиненото изречение е „wir“",
-        "hintEl": "Το θέμα της δευτερεύουσας πρότασης είναι \"wir\""
+        "hintEl": "Το θέμα της δευτερεύουσας πρότασης είναι \"wir\"",
+        "optionsEn": [
+          {
+            "de": "müssen",
+            "en": "must (verb at end)",
+            "ar": "يجب (الفعل في النهاية)",
+            "tr": "gerekir (sondaki fiil)",
+            "ro": "trebuie (verb la sfârșit)",
+            "bs": "moram (glagol na kraju)",
+            "es": "debe (verbo al final)",
+            "bg": "трябва (глагол в края)",
+            "el": "πρέπει (ρήμα στο τέλος)"
+          },
+          {
+            "de": "müsst",
+            "en": "must (plural informal)",
+            "ar": "يجب (جمع غير رسمي)",
+            "tr": "gerekir (çoğul gayri resmi)",
+            "ro": "trebuie (plural informal)",
+            "bs": "mora (množina neformalno)",
+            "es": "debe (plural informal)",
+            "bg": "трябва (множествено число неформално)",
+            "el": "πρέπει (πληθυντικός άτυπος)"
+          },
+          {
+            "de": "haben",
+            "en": "have",
+            "ar": "يملك",
+            "tr": "sahip olmak",
+            "ro": "au",
+            "bs": "imati",
+            "es": "tener",
+            "bg": "имат",
+            "el": "έχω"
+          }
+        ],
+        "optionsTr": [
+          {
+            "de": "müssen",
+            "en": "must (verb at end)",
+            "ar": "يجب (الفعل في النهاية)",
+            "tr": "gerekir (sondaki fiil)",
+            "ro": "trebuie (verb la sfârșit)",
+            "bs": "moram (glagol na kraju)",
+            "es": "debe (verbo al final)",
+            "bg": "трябва (глагол в края)",
+            "el": "πρέπει (ρήμα στο τέλος)"
+          },
+          {
+            "de": "müsst",
+            "en": "must (plural informal)",
+            "ar": "يجب (جمع غير رسمي)",
+            "tr": "gerekir (çoğul gayri resmi)",
+            "ro": "trebuie (plural informal)",
+            "bs": "mora (množina neformalno)",
+            "es": "debe (plural informal)",
+            "bg": "трябва (множествено число неформално)",
+            "el": "πρέπει (πληθυντικός άτυπος)"
+          },
+          {
+            "de": "haben",
+            "en": "have",
+            "ar": "يملك",
+            "tr": "sahip olmak",
+            "ro": "au",
+            "bs": "imati",
+            "es": "tener",
+            "bg": "имат",
+            "el": "έχω"
+          }
+        ],
+        "optionsRo": [
+          {
+            "de": "müssen",
+            "en": "must (verb at end)",
+            "ar": "يجب (الفعل في النهاية)",
+            "tr": "gerekir (sondaki fiil)",
+            "ro": "trebuie (verb la sfârșit)",
+            "bs": "moram (glagol na kraju)",
+            "es": "debe (verbo al final)",
+            "bg": "трябва (глагол в края)",
+            "el": "πρέπει (ρήμα στο τέλος)"
+          },
+          {
+            "de": "müsst",
+            "en": "must (plural informal)",
+            "ar": "يجب (جمع غير رسمي)",
+            "tr": "gerekir (çoğul gayri resmi)",
+            "ro": "trebuie (plural informal)",
+            "bs": "mora (množina neformalno)",
+            "es": "debe (plural informal)",
+            "bg": "трябва (множествено число неформално)",
+            "el": "πρέπει (πληθυντικός άτυπος)"
+          },
+          {
+            "de": "haben",
+            "en": "have",
+            "ar": "يملك",
+            "tr": "sahip olmak",
+            "ro": "au",
+            "bs": "imati",
+            "es": "tener",
+            "bg": "имат",
+            "el": "έχω"
+          }
+        ],
+        "optionsBs": [
+          {
+            "de": "müssen",
+            "en": "must (verb at end)",
+            "ar": "يجب (الفعل في النهاية)",
+            "tr": "gerekir (sondaki fiil)",
+            "ro": "trebuie (verb la sfârșit)",
+            "bs": "moram (glagol na kraju)",
+            "es": "debe (verbo al final)",
+            "bg": "трябва (глагол в края)",
+            "el": "πρέπει (ρήμα στο τέλος)"
+          },
+          {
+            "de": "müsst",
+            "en": "must (plural informal)",
+            "ar": "يجب (جمع غير رسمي)",
+            "tr": "gerekir (çoğul gayri resmi)",
+            "ro": "trebuie (plural informal)",
+            "bs": "mora (množina neformalno)",
+            "es": "debe (plural informal)",
+            "bg": "трябва (множествено число неформално)",
+            "el": "πρέπει (πληθυντικός άτυπος)"
+          },
+          {
+            "de": "haben",
+            "en": "have",
+            "ar": "يملك",
+            "tr": "sahip olmak",
+            "ro": "au",
+            "bs": "imati",
+            "es": "tener",
+            "bg": "имат",
+            "el": "έχω"
+          }
+        ],
+        "optionsEs": [
+          {
+            "de": "müssen",
+            "en": "must (verb at end)",
+            "ar": "يجب (الفعل في النهاية)",
+            "tr": "gerekir (sondaki fiil)",
+            "ro": "trebuie (verb la sfârșit)",
+            "bs": "moram (glagol na kraju)",
+            "es": "debe (verbo al final)",
+            "bg": "трябва (глагол в края)",
+            "el": "πρέπει (ρήμα στο τέλος)"
+          },
+          {
+            "de": "müsst",
+            "en": "must (plural informal)",
+            "ar": "يجب (جمع غير رسمي)",
+            "tr": "gerekir (çoğul gayri resmi)",
+            "ro": "trebuie (plural informal)",
+            "bs": "mora (množina neformalno)",
+            "es": "debe (plural informal)",
+            "bg": "трябва (множествено число неформално)",
+            "el": "πρέπει (πληθυντικός άτυπος)"
+          },
+          {
+            "de": "haben",
+            "en": "have",
+            "ar": "يملك",
+            "tr": "sahip olmak",
+            "ro": "au",
+            "bs": "imati",
+            "es": "tener",
+            "bg": "имат",
+            "el": "έχω"
+          }
+        ],
+        "optionsBg": [
+          {
+            "de": "müssen",
+            "en": "must (verb at end)",
+            "ar": "يجب (الفعل في النهاية)",
+            "tr": "gerekir (sondaki fiil)",
+            "ro": "trebuie (verb la sfârșit)",
+            "bs": "moram (glagol na kraju)",
+            "es": "debe (verbo al final)",
+            "bg": "трябва (глагол в края)",
+            "el": "πρέπει (ρήμα στο τέλος)"
+          },
+          {
+            "de": "müsst",
+            "en": "must (plural informal)",
+            "ar": "يجب (جمع غير رسمي)",
+            "tr": "gerekir (çoğul gayri resmi)",
+            "ro": "trebuie (plural informal)",
+            "bs": "mora (množina neformalno)",
+            "es": "debe (plural informal)",
+            "bg": "трябва (множествено число неформално)",
+            "el": "πρέπει (πληθυντικός άτυπος)"
+          },
+          {
+            "de": "haben",
+            "en": "have",
+            "ar": "يملك",
+            "tr": "sahip olmak",
+            "ro": "au",
+            "bs": "imati",
+            "es": "tener",
+            "bg": "имат",
+            "el": "έχω"
+          }
+        ],
+        "optionsEl": [
+          {
+            "de": "müssen",
+            "en": "must (verb at end)",
+            "ar": "يجب (الفعل في النهاية)",
+            "tr": "gerekir (sondaki fiil)",
+            "ro": "trebuie (verb la sfârșit)",
+            "bs": "moram (glagol na kraju)",
+            "es": "debe (verbo al final)",
+            "bg": "трябва (глагол в края)",
+            "el": "πρέπει (ρήμα στο τέλος)"
+          },
+          {
+            "de": "müsst",
+            "en": "must (plural informal)",
+            "ar": "يجب (جمع غير رسمي)",
+            "tr": "gerekir (çoğul gayri resmi)",
+            "ro": "trebuie (plural informal)",
+            "bs": "mora (množina neformalno)",
+            "es": "debe (plural informal)",
+            "bg": "трябва (множествено число неформално)",
+            "el": "πρέπει (πληθυντικός άτυπος)"
+          },
+          {
+            "de": "haben",
+            "en": "have",
+            "ar": "يملك",
+            "tr": "sahip olmak",
+            "ro": "au",
+            "bs": "imati",
+            "es": "tener",
+            "bg": "имат",
+            "el": "έχω"
+          }
+        ]
       },
       {
         "id": 1602,
@@ -9308,7 +10876,252 @@ const CURRICULUM_A2 = [
         "hintBs": "stellen = kuda? -> Akuzativ",
         "hintEs": "estellen = ¿adónde? -> Acusativo",
         "hintBg": "stellen = накъде? -> Винителен падеж",
-        "hintEl": "stellen = πού; -> Κατηγορούμενο"
+        "hintEl": "stellen = πού; -> Κατηγορούμενο",
+        "optionsEn": [
+          {
+            "de": "die",
+            "en": "the (fem. accusative - direction)",
+            "ar": "ال (فيم. حالة النصب - الاتجاه)",
+            "tr": "(dişi suçlayıcı - yön)",
+            "ro": "the (fem. acuzativ - direcție)",
+            "bs": "the (ženski akuzativ - smjer)",
+            "es": "el (fem. acusativo - dirección)",
+            "bg": "the (жен. винителен падеж - посока)",
+            "el": "το (θηλ. κατηγορούμενο - κατεύθυνση)"
+          },
+          {
+            "de": "der",
+            "en": "the (fem. dative)",
+            "ar": "ال (فيم. موطن)",
+            "tr": "(dişil datif)",
+            "ro": "cel (fem. dativ)",
+            "bs": "(ženski dativ)",
+            "es": "el (fem. dativo)",
+            "bg": "(женски дателен)",
+            "el": "η (θηλ. δοτική)"
+          },
+          {
+            "de": "den",
+            "en": "the (masc. accusative)",
+            "ar": "ال (masc. حالة النصب)",
+            "tr": "(masc. suçlayıcı)",
+            "ro": "cel (masc. acuzativ)",
+            "bs": "the (mask. akuzativ)",
+            "es": "el (masc. acusativo)",
+            "bg": "на (маск. винителен падеж)",
+            "el": "το (αρσ. κατηγορούμενο)"
+          }
+        ],
+        "optionsTr": [
+          {
+            "de": "die",
+            "en": "the (fem. accusative - direction)",
+            "ar": "ال (فيم. حالة النصب - الاتجاه)",
+            "tr": "(dişi suçlayıcı - yön)",
+            "ro": "the (fem. acuzativ - direcție)",
+            "bs": "the (ženski akuzativ - smjer)",
+            "es": "el (fem. acusativo - dirección)",
+            "bg": "the (жен. винителен падеж - посока)",
+            "el": "το (θηλ. κατηγορούμενο - κατεύθυνση)"
+          },
+          {
+            "de": "der",
+            "en": "the (fem. dative)",
+            "ar": "ال (فيم. موطن)",
+            "tr": "(dişil datif)",
+            "ro": "cel (fem. dativ)",
+            "bs": "(ženski dativ)",
+            "es": "el (fem. dativo)",
+            "bg": "(женски дателен)",
+            "el": "η (θηλ. δοτική)"
+          },
+          {
+            "de": "den",
+            "en": "the (masc. accusative)",
+            "ar": "ال (masc. حالة النصب)",
+            "tr": "(masc. suçlayıcı)",
+            "ro": "cel (masc. acuzativ)",
+            "bs": "the (mask. akuzativ)",
+            "es": "el (masc. acusativo)",
+            "bg": "на (маск. винителен падеж)",
+            "el": "το (αρσ. κατηγορούμενο)"
+          }
+        ],
+        "optionsRo": [
+          {
+            "de": "die",
+            "en": "the (fem. accusative - direction)",
+            "ar": "ال (فيم. حالة النصب - الاتجاه)",
+            "tr": "(dişi suçlayıcı - yön)",
+            "ro": "the (fem. acuzativ - direcție)",
+            "bs": "the (ženski akuzativ - smjer)",
+            "es": "el (fem. acusativo - dirección)",
+            "bg": "the (жен. винителен падеж - посока)",
+            "el": "το (θηλ. κατηγορούμενο - κατεύθυνση)"
+          },
+          {
+            "de": "der",
+            "en": "the (fem. dative)",
+            "ar": "ال (فيم. موطن)",
+            "tr": "(dişil datif)",
+            "ro": "cel (fem. dativ)",
+            "bs": "(ženski dativ)",
+            "es": "el (fem. dativo)",
+            "bg": "(женски дателен)",
+            "el": "η (θηλ. δοτική)"
+          },
+          {
+            "de": "den",
+            "en": "the (masc. accusative)",
+            "ar": "ال (masc. حالة النصب)",
+            "tr": "(masc. suçlayıcı)",
+            "ro": "cel (masc. acuzativ)",
+            "bs": "the (mask. akuzativ)",
+            "es": "el (masc. acusativo)",
+            "bg": "на (маск. винителен падеж)",
+            "el": "το (αρσ. κατηγορούμενο)"
+          }
+        ],
+        "optionsBs": [
+          {
+            "de": "die",
+            "en": "the (fem. accusative - direction)",
+            "ar": "ال (فيم. حالة النصب - الاتجاه)",
+            "tr": "(dişi suçlayıcı - yön)",
+            "ro": "the (fem. acuzativ - direcție)",
+            "bs": "the (ženski akuzativ - smjer)",
+            "es": "el (fem. acusativo - dirección)",
+            "bg": "the (жен. винителен падеж - посока)",
+            "el": "το (θηλ. κατηγορούμενο - κατεύθυνση)"
+          },
+          {
+            "de": "der",
+            "en": "the (fem. dative)",
+            "ar": "ال (فيم. موطن)",
+            "tr": "(dişil datif)",
+            "ro": "cel (fem. dativ)",
+            "bs": "(ženski dativ)",
+            "es": "el (fem. dativo)",
+            "bg": "(женски дателен)",
+            "el": "η (θηλ. δοτική)"
+          },
+          {
+            "de": "den",
+            "en": "the (masc. accusative)",
+            "ar": "ال (masc. حالة النصب)",
+            "tr": "(masc. suçlayıcı)",
+            "ro": "cel (masc. acuzativ)",
+            "bs": "the (mask. akuzativ)",
+            "es": "el (masc. acusativo)",
+            "bg": "на (маск. винителен падеж)",
+            "el": "το (αρσ. κατηγορούμενο)"
+          }
+        ],
+        "optionsEs": [
+          {
+            "de": "die",
+            "en": "the (fem. accusative - direction)",
+            "ar": "ال (فيم. حالة النصب - الاتجاه)",
+            "tr": "(dişi suçlayıcı - yön)",
+            "ro": "the (fem. acuzativ - direcție)",
+            "bs": "the (ženski akuzativ - smjer)",
+            "es": "el (fem. acusativo - dirección)",
+            "bg": "the (жен. винителен падеж - посока)",
+            "el": "το (θηλ. κατηγορούμενο - κατεύθυνση)"
+          },
+          {
+            "de": "der",
+            "en": "the (fem. dative)",
+            "ar": "ال (فيم. موطن)",
+            "tr": "(dişil datif)",
+            "ro": "cel (fem. dativ)",
+            "bs": "(ženski dativ)",
+            "es": "el (fem. dativo)",
+            "bg": "(женски дателен)",
+            "el": "η (θηλ. δοτική)"
+          },
+          {
+            "de": "den",
+            "en": "the (masc. accusative)",
+            "ar": "ال (masc. حالة النصب)",
+            "tr": "(masc. suçlayıcı)",
+            "ro": "cel (masc. acuzativ)",
+            "bs": "the (mask. akuzativ)",
+            "es": "el (masc. acusativo)",
+            "bg": "на (маск. винителен падеж)",
+            "el": "το (αρσ. κατηγορούμενο)"
+          }
+        ],
+        "optionsBg": [
+          {
+            "de": "die",
+            "en": "the (fem. accusative - direction)",
+            "ar": "ال (فيم. حالة النصب - الاتجاه)",
+            "tr": "(dişi suçlayıcı - yön)",
+            "ro": "the (fem. acuzativ - direcție)",
+            "bs": "the (ženski akuzativ - smjer)",
+            "es": "el (fem. acusativo - dirección)",
+            "bg": "the (жен. винителен падеж - посока)",
+            "el": "το (θηλ. κατηγορούμενο - κατεύθυνση)"
+          },
+          {
+            "de": "der",
+            "en": "the (fem. dative)",
+            "ar": "ال (فيم. موطن)",
+            "tr": "(dişil datif)",
+            "ro": "cel (fem. dativ)",
+            "bs": "(ženski dativ)",
+            "es": "el (fem. dativo)",
+            "bg": "(женски дателен)",
+            "el": "η (θηλ. δοτική)"
+          },
+          {
+            "de": "den",
+            "en": "the (masc. accusative)",
+            "ar": "ال (masc. حالة النصب)",
+            "tr": "(masc. suçlayıcı)",
+            "ro": "cel (masc. acuzativ)",
+            "bs": "the (mask. akuzativ)",
+            "es": "el (masc. acusativo)",
+            "bg": "на (маск. винителен падеж)",
+            "el": "το (αρσ. κατηγορούμενο)"
+          }
+        ],
+        "optionsEl": [
+          {
+            "de": "die",
+            "en": "the (fem. accusative - direction)",
+            "ar": "ال (فيم. حالة النصب - الاتجاه)",
+            "tr": "(dişi suçlayıcı - yön)",
+            "ro": "the (fem. acuzativ - direcție)",
+            "bs": "the (ženski akuzativ - smjer)",
+            "es": "el (fem. acusativo - dirección)",
+            "bg": "the (жен. винителен падеж - посока)",
+            "el": "το (θηλ. κατηγορούμενο - κατεύθυνση)"
+          },
+          {
+            "de": "der",
+            "en": "the (fem. dative)",
+            "ar": "ال (فيم. موطن)",
+            "tr": "(dişil datif)",
+            "ro": "cel (fem. dativ)",
+            "bs": "(ženski dativ)",
+            "es": "el (fem. dativo)",
+            "bg": "(женски дателен)",
+            "el": "η (θηλ. δοτική)"
+          },
+          {
+            "de": "den",
+            "en": "the (masc. accusative)",
+            "ar": "ال (masc. حالة النصب)",
+            "tr": "(masc. suçlayıcı)",
+            "ro": "cel (masc. acuzativ)",
+            "bs": "the (mask. akuzativ)",
+            "es": "el (masc. acusativo)",
+            "bg": "на (маск. винителен падеж)",
+            "el": "το (αρσ. κατηγορούμενο)"
+          }
+        ]
       },
       {
         "id": 1702,
@@ -9724,7 +11537,252 @@ const CURRICULUM_A2 = [
         "hintBs": "Savršen oblik na kraju s pomoćnim glagolom 'ist'",
         "hintEs": "Forma perfecta al final con el verbo auxiliar 'ist'",
         "hintBg": "Перфектна форма в края със спомагателен глагол 'ist'",
-        "hintEl": "Τέλεια μορφή στο τέλος με βοηθητικό ρήμα 'ist'"
+        "hintEl": "Τέλεια μορφή στο τέλος με βοηθητικό ρήμα 'ist'",
+        "optionsEn": [
+          {
+            "de": "abgefahren",
+            "en": "departed (past participle)",
+            "ar": "غادر (النعت الماضي)",
+            "tr": "ayrıldı (geçmiş katılımcı)",
+            "ro": "plecat (participiu trecut)",
+            "bs": "departed (prošlost)",
+            "es": "partió (participio pasado)",
+            "bg": "замина (минало причастие)",
+            "el": "αναχώρησε (παρελθοντικό)"
+          },
+          {
+            "de": "abfährt",
+            "en": "departs",
+            "ar": "يغادر",
+            "tr": "ayrılıyor",
+            "ro": "pleacă",
+            "bs": "odlazi",
+            "es": "sale",
+            "bg": "тръгва",
+            "el": "αναχωρεί"
+          },
+          {
+            "de": "abzufahren",
+            "en": "to depart",
+            "ar": "للمغادرة",
+            "tr": "ayrılmak",
+            "ro": "a pleca",
+            "bs": "da ode",
+            "es": "partir",
+            "bg": "да замина",
+            "el": "να αναχωρήσει"
+          }
+        ],
+        "optionsTr": [
+          {
+            "de": "abgefahren",
+            "en": "departed (past participle)",
+            "ar": "غادر (النعت الماضي)",
+            "tr": "ayrıldı (geçmiş katılımcı)",
+            "ro": "plecat (participiu trecut)",
+            "bs": "departed (prošlost)",
+            "es": "partió (participio pasado)",
+            "bg": "замина (минало причастие)",
+            "el": "αναχώρησε (παρελθοντικό)"
+          },
+          {
+            "de": "abfährt",
+            "en": "departs",
+            "ar": "يغادر",
+            "tr": "ayrılıyor",
+            "ro": "pleacă",
+            "bs": "odlazi",
+            "es": "sale",
+            "bg": "тръгва",
+            "el": "αναχωρεί"
+          },
+          {
+            "de": "abzufahren",
+            "en": "to depart",
+            "ar": "للمغادرة",
+            "tr": "ayrılmak",
+            "ro": "a pleca",
+            "bs": "da ode",
+            "es": "partir",
+            "bg": "да замина",
+            "el": "να αναχωρήσει"
+          }
+        ],
+        "optionsRo": [
+          {
+            "de": "abgefahren",
+            "en": "departed (past participle)",
+            "ar": "غادر (النعت الماضي)",
+            "tr": "ayrıldı (geçmiş katılımcı)",
+            "ro": "plecat (participiu trecut)",
+            "bs": "departed (prošlost)",
+            "es": "partió (participio pasado)",
+            "bg": "замина (минало причастие)",
+            "el": "αναχώρησε (παρελθοντικό)"
+          },
+          {
+            "de": "abfährt",
+            "en": "departs",
+            "ar": "يغادر",
+            "tr": "ayrılıyor",
+            "ro": "pleacă",
+            "bs": "odlazi",
+            "es": "sale",
+            "bg": "тръгва",
+            "el": "αναχωρεί"
+          },
+          {
+            "de": "abzufahren",
+            "en": "to depart",
+            "ar": "للمغادرة",
+            "tr": "ayrılmak",
+            "ro": "a pleca",
+            "bs": "da ode",
+            "es": "partir",
+            "bg": "да замина",
+            "el": "να αναχωρήσει"
+          }
+        ],
+        "optionsBs": [
+          {
+            "de": "abgefahren",
+            "en": "departed (past participle)",
+            "ar": "غادر (النعت الماضي)",
+            "tr": "ayrıldı (geçmiş katılımcı)",
+            "ro": "plecat (participiu trecut)",
+            "bs": "departed (prošlost)",
+            "es": "partió (participio pasado)",
+            "bg": "замина (минало причастие)",
+            "el": "αναχώρησε (παρελθοντικό)"
+          },
+          {
+            "de": "abfährt",
+            "en": "departs",
+            "ar": "يغادر",
+            "tr": "ayrılıyor",
+            "ro": "pleacă",
+            "bs": "odlazi",
+            "es": "sale",
+            "bg": "тръгва",
+            "el": "αναχωρεί"
+          },
+          {
+            "de": "abzufahren",
+            "en": "to depart",
+            "ar": "للمغادرة",
+            "tr": "ayrılmak",
+            "ro": "a pleca",
+            "bs": "da ode",
+            "es": "partir",
+            "bg": "да замина",
+            "el": "να αναχωρήσει"
+          }
+        ],
+        "optionsEs": [
+          {
+            "de": "abgefahren",
+            "en": "departed (past participle)",
+            "ar": "غادر (النعت الماضي)",
+            "tr": "ayrıldı (geçmiş katılımcı)",
+            "ro": "plecat (participiu trecut)",
+            "bs": "departed (prošlost)",
+            "es": "partió (participio pasado)",
+            "bg": "замина (минало причастие)",
+            "el": "αναχώρησε (παρελθοντικό)"
+          },
+          {
+            "de": "abfährt",
+            "en": "departs",
+            "ar": "يغادر",
+            "tr": "ayrılıyor",
+            "ro": "pleacă",
+            "bs": "odlazi",
+            "es": "sale",
+            "bg": "тръгва",
+            "el": "αναχωρεί"
+          },
+          {
+            "de": "abzufahren",
+            "en": "to depart",
+            "ar": "للمغادرة",
+            "tr": "ayrılmak",
+            "ro": "a pleca",
+            "bs": "da ode",
+            "es": "partir",
+            "bg": "да замина",
+            "el": "να αναχωρήσει"
+          }
+        ],
+        "optionsBg": [
+          {
+            "de": "abgefahren",
+            "en": "departed (past participle)",
+            "ar": "غادر (النعت الماضي)",
+            "tr": "ayrıldı (geçmiş katılımcı)",
+            "ro": "plecat (participiu trecut)",
+            "bs": "departed (prošlost)",
+            "es": "partió (participio pasado)",
+            "bg": "замина (минало причастие)",
+            "el": "αναχώρησε (παρελθοντικό)"
+          },
+          {
+            "de": "abfährt",
+            "en": "departs",
+            "ar": "يغادر",
+            "tr": "ayrılıyor",
+            "ro": "pleacă",
+            "bs": "odlazi",
+            "es": "sale",
+            "bg": "тръгва",
+            "el": "αναχωρεί"
+          },
+          {
+            "de": "abzufahren",
+            "en": "to depart",
+            "ar": "للمغادرة",
+            "tr": "ayrılmak",
+            "ro": "a pleca",
+            "bs": "da ode",
+            "es": "partir",
+            "bg": "да замина",
+            "el": "να αναχωρήσει"
+          }
+        ],
+        "optionsEl": [
+          {
+            "de": "abgefahren",
+            "en": "departed (past participle)",
+            "ar": "غادر (النعت الماضي)",
+            "tr": "ayrıldı (geçmiş katılımcı)",
+            "ro": "plecat (participiu trecut)",
+            "bs": "departed (prošlost)",
+            "es": "partió (participio pasado)",
+            "bg": "замина (минало причастие)",
+            "el": "αναχώρησε (παρελθοντικό)"
+          },
+          {
+            "de": "abfährt",
+            "en": "departs",
+            "ar": "يغادر",
+            "tr": "ayrılıyor",
+            "ro": "pleacă",
+            "bs": "odlazi",
+            "es": "sale",
+            "bg": "тръгва",
+            "el": "αναχωρεί"
+          },
+          {
+            "de": "abzufahren",
+            "en": "to depart",
+            "ar": "للمغادرة",
+            "tr": "ayrılmak",
+            "ro": "a pleca",
+            "bs": "da ode",
+            "es": "partir",
+            "bg": "да замина",
+            "el": "να αναχωρήσει"
+          }
+        ]
       },
       {
         "id": 1802,
@@ -10221,7 +12279,252 @@ const CURRICULUM_A2 = [
         "hintBs": "Uporedni oblik 'creva'",
         "hintEs": "Forma comparativa de 'tripa'",
         "hintBg": "Сравнителна форма на \"червата\"",
-        "hintEl": "Συγκριτική μορφή του «έντερου»"
+        "hintEl": "Συγκριτική μορφή του «έντερου»",
+        "optionsEn": [
+          {
+            "de": "besser",
+            "en": "better (comparative of gut)",
+            "ar": "أفضل (مقارنة القناة الهضمية)",
+            "tr": "daha iyi (bağırsakla karşılaştırıldığında)",
+            "ro": "mai bun (comparativ cu intestin)",
+            "bs": "bolje (u poređenju sa crijevima)",
+            "es": "mejor (comparativo de tripa)",
+            "bg": "по-добре (сравнение с червата)",
+            "el": "καλύτερα (σε σύγκριση με το έντερο)"
+          },
+          {
+            "de": "gut",
+            "en": "good",
+            "ar": "جيد",
+            "tr": "iyi",
+            "ro": "bun",
+            "bs": "dobro",
+            "es": "bien",
+            "bg": "добре",
+            "el": "καλός"
+          },
+          {
+            "de": "am besten",
+            "en": "the best",
+            "ar": "الأفضل",
+            "tr": "en iyisi",
+            "ro": "cel mai bun",
+            "bs": "najbolji",
+            "es": "el mejor",
+            "bg": "най-доброто",
+            "el": "το καλύτερο"
+          }
+        ],
+        "optionsTr": [
+          {
+            "de": "besser",
+            "en": "better (comparative of gut)",
+            "ar": "أفضل (مقارنة القناة الهضمية)",
+            "tr": "daha iyi (bağırsakla karşılaştırıldığında)",
+            "ro": "mai bun (comparativ cu intestin)",
+            "bs": "bolje (u poređenju sa crijevima)",
+            "es": "mejor (comparativo de tripa)",
+            "bg": "по-добре (сравнение с червата)",
+            "el": "καλύτερα (σε σύγκριση με το έντερο)"
+          },
+          {
+            "de": "gut",
+            "en": "good",
+            "ar": "جيد",
+            "tr": "iyi",
+            "ro": "bun",
+            "bs": "dobro",
+            "es": "bien",
+            "bg": "добре",
+            "el": "καλός"
+          },
+          {
+            "de": "am besten",
+            "en": "the best",
+            "ar": "الأفضل",
+            "tr": "en iyisi",
+            "ro": "cel mai bun",
+            "bs": "najbolji",
+            "es": "el mejor",
+            "bg": "най-доброто",
+            "el": "το καλύτερο"
+          }
+        ],
+        "optionsRo": [
+          {
+            "de": "besser",
+            "en": "better (comparative of gut)",
+            "ar": "أفضل (مقارنة القناة الهضمية)",
+            "tr": "daha iyi (bağırsakla karşılaştırıldığında)",
+            "ro": "mai bun (comparativ cu intestin)",
+            "bs": "bolje (u poređenju sa crijevima)",
+            "es": "mejor (comparativo de tripa)",
+            "bg": "по-добре (сравнение с червата)",
+            "el": "καλύτερα (σε σύγκριση με το έντερο)"
+          },
+          {
+            "de": "gut",
+            "en": "good",
+            "ar": "جيد",
+            "tr": "iyi",
+            "ro": "bun",
+            "bs": "dobro",
+            "es": "bien",
+            "bg": "добре",
+            "el": "καλός"
+          },
+          {
+            "de": "am besten",
+            "en": "the best",
+            "ar": "الأفضل",
+            "tr": "en iyisi",
+            "ro": "cel mai bun",
+            "bs": "najbolji",
+            "es": "el mejor",
+            "bg": "най-доброто",
+            "el": "το καλύτερο"
+          }
+        ],
+        "optionsBs": [
+          {
+            "de": "besser",
+            "en": "better (comparative of gut)",
+            "ar": "أفضل (مقارنة القناة الهضمية)",
+            "tr": "daha iyi (bağırsakla karşılaştırıldığında)",
+            "ro": "mai bun (comparativ cu intestin)",
+            "bs": "bolje (u poređenju sa crijevima)",
+            "es": "mejor (comparativo de tripa)",
+            "bg": "по-добре (сравнение с червата)",
+            "el": "καλύτερα (σε σύγκριση με το έντερο)"
+          },
+          {
+            "de": "gut",
+            "en": "good",
+            "ar": "جيد",
+            "tr": "iyi",
+            "ro": "bun",
+            "bs": "dobro",
+            "es": "bien",
+            "bg": "добре",
+            "el": "καλός"
+          },
+          {
+            "de": "am besten",
+            "en": "the best",
+            "ar": "الأفضل",
+            "tr": "en iyisi",
+            "ro": "cel mai bun",
+            "bs": "najbolji",
+            "es": "el mejor",
+            "bg": "най-доброто",
+            "el": "το καλύτερο"
+          }
+        ],
+        "optionsEs": [
+          {
+            "de": "besser",
+            "en": "better (comparative of gut)",
+            "ar": "أفضل (مقارنة القناة الهضمية)",
+            "tr": "daha iyi (bağırsakla karşılaştırıldığında)",
+            "ro": "mai bun (comparativ cu intestin)",
+            "bs": "bolje (u poređenju sa crijevima)",
+            "es": "mejor (comparativo de tripa)",
+            "bg": "по-добре (сравнение с червата)",
+            "el": "καλύτερα (σε σύγκριση με το έντερο)"
+          },
+          {
+            "de": "gut",
+            "en": "good",
+            "ar": "جيد",
+            "tr": "iyi",
+            "ro": "bun",
+            "bs": "dobro",
+            "es": "bien",
+            "bg": "добре",
+            "el": "καλός"
+          },
+          {
+            "de": "am besten",
+            "en": "the best",
+            "ar": "الأفضل",
+            "tr": "en iyisi",
+            "ro": "cel mai bun",
+            "bs": "najbolji",
+            "es": "el mejor",
+            "bg": "най-доброто",
+            "el": "το καλύτερο"
+          }
+        ],
+        "optionsBg": [
+          {
+            "de": "besser",
+            "en": "better (comparative of gut)",
+            "ar": "أفضل (مقارنة القناة الهضمية)",
+            "tr": "daha iyi (bağırsakla karşılaştırıldığında)",
+            "ro": "mai bun (comparativ cu intestin)",
+            "bs": "bolje (u poređenju sa crijevima)",
+            "es": "mejor (comparativo de tripa)",
+            "bg": "по-добре (сравнение с червата)",
+            "el": "καλύτερα (σε σύγκριση με το έντερο)"
+          },
+          {
+            "de": "gut",
+            "en": "good",
+            "ar": "جيد",
+            "tr": "iyi",
+            "ro": "bun",
+            "bs": "dobro",
+            "es": "bien",
+            "bg": "добре",
+            "el": "καλός"
+          },
+          {
+            "de": "am besten",
+            "en": "the best",
+            "ar": "الأفضل",
+            "tr": "en iyisi",
+            "ro": "cel mai bun",
+            "bs": "najbolji",
+            "es": "el mejor",
+            "bg": "най-доброто",
+            "el": "το καλύτερο"
+          }
+        ],
+        "optionsEl": [
+          {
+            "de": "besser",
+            "en": "better (comparative of gut)",
+            "ar": "أفضل (مقارنة القناة الهضمية)",
+            "tr": "daha iyi (bağırsakla karşılaştırıldığında)",
+            "ro": "mai bun (comparativ cu intestin)",
+            "bs": "bolje (u poređenju sa crijevima)",
+            "es": "mejor (comparativo de tripa)",
+            "bg": "по-добре (сравнение с червата)",
+            "el": "καλύτερα (σε σύγκριση με το έντερο)"
+          },
+          {
+            "de": "gut",
+            "en": "good",
+            "ar": "جيد",
+            "tr": "iyi",
+            "ro": "bun",
+            "bs": "dobro",
+            "es": "bien",
+            "bg": "добре",
+            "el": "καλός"
+          },
+          {
+            "de": "am besten",
+            "en": "the best",
+            "ar": "الأفضل",
+            "tr": "en iyisi",
+            "ro": "cel mai bun",
+            "bs": "najbolji",
+            "es": "el mejor",
+            "bg": "най-доброто",
+            "el": "το καλύτερο"
+          }
+        ]
       },
       {
         "id": 1902,
@@ -10725,7 +13028,252 @@ const CURRICULUM_A2 = [
         "hintBs": "Uslov ili vremenska podređena rečenica",
         "hintEs": "Condición o cláusula subordinada temporal",
         "hintBg": "Условие или темпорално подчинено изречение",
-        "hintEl": "Προϋπόθεση ή χρονική δευτερεύουσα ρήτρα"
+        "hintEl": "Προϋπόθεση ή χρονική δευτερεύουσα ρήτρα",
+        "optionsEn": [
+          {
+            "de": "Wenn",
+            "en": "If / When",
+            "ar": "إذا / متى",
+            "tr": "Eğer / Ne zaman",
+            "ro": "Dacă / Când",
+            "bs": "Ako / Kada",
+            "es": "Si / Cuando",
+            "bg": "Ако / Кога",
+            "el": "Εάν / Πότε"
+          },
+          {
+            "de": "Weil",
+            "en": "Because",
+            "ar": "لأن",
+            "tr": "Çünkü",
+            "ro": "Deoarece",
+            "bs": "Jer",
+            "es": "Porque",
+            "bg": "защото",
+            "el": "Επειδή"
+          },
+          {
+            "de": "Dass",
+            "en": "That",
+            "ar": "الذي - التي",
+            "tr": "O",
+            "ro": "Că",
+            "bs": "To",
+            "es": "Eso",
+            "bg": "това",
+            "el": "Οτι"
+          }
+        ],
+        "optionsTr": [
+          {
+            "de": "Wenn",
+            "en": "If / When",
+            "ar": "إذا / متى",
+            "tr": "Eğer / Ne zaman",
+            "ro": "Dacă / Când",
+            "bs": "Ako / Kada",
+            "es": "Si / Cuando",
+            "bg": "Ако / Кога",
+            "el": "Εάν / Πότε"
+          },
+          {
+            "de": "Weil",
+            "en": "Because",
+            "ar": "لأن",
+            "tr": "Çünkü",
+            "ro": "Deoarece",
+            "bs": "Jer",
+            "es": "Porque",
+            "bg": "защото",
+            "el": "Επειδή"
+          },
+          {
+            "de": "Dass",
+            "en": "That",
+            "ar": "الذي - التي",
+            "tr": "O",
+            "ro": "Că",
+            "bs": "To",
+            "es": "Eso",
+            "bg": "това",
+            "el": "Οτι"
+          }
+        ],
+        "optionsRo": [
+          {
+            "de": "Wenn",
+            "en": "If / When",
+            "ar": "إذا / متى",
+            "tr": "Eğer / Ne zaman",
+            "ro": "Dacă / Când",
+            "bs": "Ako / Kada",
+            "es": "Si / Cuando",
+            "bg": "Ако / Кога",
+            "el": "Εάν / Πότε"
+          },
+          {
+            "de": "Weil",
+            "en": "Because",
+            "ar": "لأن",
+            "tr": "Çünkü",
+            "ro": "Deoarece",
+            "bs": "Jer",
+            "es": "Porque",
+            "bg": "защото",
+            "el": "Επειδή"
+          },
+          {
+            "de": "Dass",
+            "en": "That",
+            "ar": "الذي - التي",
+            "tr": "O",
+            "ro": "Că",
+            "bs": "To",
+            "es": "Eso",
+            "bg": "това",
+            "el": "Οτι"
+          }
+        ],
+        "optionsBs": [
+          {
+            "de": "Wenn",
+            "en": "If / When",
+            "ar": "إذا / متى",
+            "tr": "Eğer / Ne zaman",
+            "ro": "Dacă / Când",
+            "bs": "Ako / Kada",
+            "es": "Si / Cuando",
+            "bg": "Ако / Кога",
+            "el": "Εάν / Πότε"
+          },
+          {
+            "de": "Weil",
+            "en": "Because",
+            "ar": "لأن",
+            "tr": "Çünkü",
+            "ro": "Deoarece",
+            "bs": "Jer",
+            "es": "Porque",
+            "bg": "защото",
+            "el": "Επειδή"
+          },
+          {
+            "de": "Dass",
+            "en": "That",
+            "ar": "الذي - التي",
+            "tr": "O",
+            "ro": "Că",
+            "bs": "To",
+            "es": "Eso",
+            "bg": "това",
+            "el": "Οτι"
+          }
+        ],
+        "optionsEs": [
+          {
+            "de": "Wenn",
+            "en": "If / When",
+            "ar": "إذا / متى",
+            "tr": "Eğer / Ne zaman",
+            "ro": "Dacă / Când",
+            "bs": "Ako / Kada",
+            "es": "Si / Cuando",
+            "bg": "Ако / Кога",
+            "el": "Εάν / Πότε"
+          },
+          {
+            "de": "Weil",
+            "en": "Because",
+            "ar": "لأن",
+            "tr": "Çünkü",
+            "ro": "Deoarece",
+            "bs": "Jer",
+            "es": "Porque",
+            "bg": "защото",
+            "el": "Επειδή"
+          },
+          {
+            "de": "Dass",
+            "en": "That",
+            "ar": "الذي - التي",
+            "tr": "O",
+            "ro": "Că",
+            "bs": "To",
+            "es": "Eso",
+            "bg": "това",
+            "el": "Οτι"
+          }
+        ],
+        "optionsBg": [
+          {
+            "de": "Wenn",
+            "en": "If / When",
+            "ar": "إذا / متى",
+            "tr": "Eğer / Ne zaman",
+            "ro": "Dacă / Când",
+            "bs": "Ako / Kada",
+            "es": "Si / Cuando",
+            "bg": "Ако / Кога",
+            "el": "Εάν / Πότε"
+          },
+          {
+            "de": "Weil",
+            "en": "Because",
+            "ar": "لأن",
+            "tr": "Çünkü",
+            "ro": "Deoarece",
+            "bs": "Jer",
+            "es": "Porque",
+            "bg": "защото",
+            "el": "Επειδή"
+          },
+          {
+            "de": "Dass",
+            "en": "That",
+            "ar": "الذي - التي",
+            "tr": "O",
+            "ro": "Că",
+            "bs": "To",
+            "es": "Eso",
+            "bg": "това",
+            "el": "Οτι"
+          }
+        ],
+        "optionsEl": [
+          {
+            "de": "Wenn",
+            "en": "If / When",
+            "ar": "إذا / متى",
+            "tr": "Eğer / Ne zaman",
+            "ro": "Dacă / Când",
+            "bs": "Ako / Kada",
+            "es": "Si / Cuando",
+            "bg": "Ако / Кога",
+            "el": "Εάν / Πότε"
+          },
+          {
+            "de": "Weil",
+            "en": "Because",
+            "ar": "لأن",
+            "tr": "Çünkü",
+            "ro": "Deoarece",
+            "bs": "Jer",
+            "es": "Porque",
+            "bg": "защото",
+            "el": "Επειδή"
+          },
+          {
+            "de": "Dass",
+            "en": "That",
+            "ar": "الذي - التي",
+            "tr": "O",
+            "ro": "Că",
+            "bs": "To",
+            "es": "Eso",
+            "bg": "това",
+            "el": "Οτι"
+          }
+        ]
       },
       {
         "id": 2002,
@@ -11217,7 +13765,252 @@ const CURRICULUM_A2 = [
         "hintBs": "können u Präteritum za 'ich'",
         "hintEs": "können en Präteritum para 'ich'",
         "hintBg": "können в Präteritum за \"ich\"",
-        "hintEl": "können στο Präteritum για το «ich»"
+        "hintEl": "können στο Präteritum για το «ich»",
+        "optionsEn": [
+          {
+            "de": "konnte",
+            "en": "could (singular past)",
+            "ar": "يمكن (الماضي المفرد)",
+            "tr": "olabilir (tekil geçmiş)",
+            "ro": "putea (trecut singular)",
+            "bs": "mogao (jedinstvena prošlost)",
+            "es": "podría (pasado singular)",
+            "bg": "може (единствено минало)",
+            "el": "θα μπορούσε (ενικό παρελθόν)"
+          },
+          {
+            "de": "kann",
+            "en": "can (present tense)",
+            "ar": "يستطيع (المضارع)",
+            "tr": "olabilir (şimdiki zaman)",
+            "ro": "can (timpul prezent)",
+            "bs": "može (sadašnje vrijeme)",
+            "es": "puede (tiempo presente)",
+            "bg": "мога (сегашно време)",
+            "el": "μπορώ (ενεστώτα)"
+          },
+          {
+            "de": "konnten",
+            "en": "could (plural past)",
+            "ar": "يمكن (جمع الماضي)",
+            "tr": "olabilir (çoğul geçmiş)",
+            "ro": "putea (plural trecut)",
+            "bs": "mogao (množina prošlost)",
+            "es": "podría (pasado plural)",
+            "bg": "може (множествено число минало)",
+            "el": "θα μπορούσε (πληθυντικός παρελθόν)"
+          }
+        ],
+        "optionsTr": [
+          {
+            "de": "konnte",
+            "en": "could (singular past)",
+            "ar": "يمكن (الماضي المفرد)",
+            "tr": "olabilir (tekil geçmiş)",
+            "ro": "putea (trecut singular)",
+            "bs": "mogao (jedinstvena prošlost)",
+            "es": "podría (pasado singular)",
+            "bg": "може (единствено минало)",
+            "el": "θα μπορούσε (ενικό παρελθόν)"
+          },
+          {
+            "de": "kann",
+            "en": "can (present tense)",
+            "ar": "يستطيع (المضارع)",
+            "tr": "olabilir (şimdiki zaman)",
+            "ro": "can (timpul prezent)",
+            "bs": "može (sadašnje vrijeme)",
+            "es": "puede (tiempo presente)",
+            "bg": "мога (сегашно време)",
+            "el": "μπορώ (ενεστώτα)"
+          },
+          {
+            "de": "konnten",
+            "en": "could (plural past)",
+            "ar": "يمكن (جمع الماضي)",
+            "tr": "olabilir (çoğul geçmiş)",
+            "ro": "putea (plural trecut)",
+            "bs": "mogao (množina prošlost)",
+            "es": "podría (pasado plural)",
+            "bg": "може (множествено число минало)",
+            "el": "θα μπορούσε (πληθυντικός παρελθόν)"
+          }
+        ],
+        "optionsRo": [
+          {
+            "de": "konnte",
+            "en": "could (singular past)",
+            "ar": "يمكن (الماضي المفرد)",
+            "tr": "olabilir (tekil geçmiş)",
+            "ro": "putea (trecut singular)",
+            "bs": "mogao (jedinstvena prošlost)",
+            "es": "podría (pasado singular)",
+            "bg": "може (единствено минало)",
+            "el": "θα μπορούσε (ενικό παρελθόν)"
+          },
+          {
+            "de": "kann",
+            "en": "can (present tense)",
+            "ar": "يستطيع (المضارع)",
+            "tr": "olabilir (şimdiki zaman)",
+            "ro": "can (timpul prezent)",
+            "bs": "može (sadašnje vrijeme)",
+            "es": "puede (tiempo presente)",
+            "bg": "мога (сегашно време)",
+            "el": "μπορώ (ενεστώτα)"
+          },
+          {
+            "de": "konnten",
+            "en": "could (plural past)",
+            "ar": "يمكن (جمع الماضي)",
+            "tr": "olabilir (çoğul geçmiş)",
+            "ro": "putea (plural trecut)",
+            "bs": "mogao (množina prošlost)",
+            "es": "podría (pasado plural)",
+            "bg": "може (множествено число минало)",
+            "el": "θα μπορούσε (πληθυντικός παρελθόν)"
+          }
+        ],
+        "optionsBs": [
+          {
+            "de": "konnte",
+            "en": "could (singular past)",
+            "ar": "يمكن (الماضي المفرد)",
+            "tr": "olabilir (tekil geçmiş)",
+            "ro": "putea (trecut singular)",
+            "bs": "mogao (jedinstvena prošlost)",
+            "es": "podría (pasado singular)",
+            "bg": "може (единствено минало)",
+            "el": "θα μπορούσε (ενικό παρελθόν)"
+          },
+          {
+            "de": "kann",
+            "en": "can (present tense)",
+            "ar": "يستطيع (المضارع)",
+            "tr": "olabilir (şimdiki zaman)",
+            "ro": "can (timpul prezent)",
+            "bs": "može (sadašnje vrijeme)",
+            "es": "puede (tiempo presente)",
+            "bg": "мога (сегашно време)",
+            "el": "μπορώ (ενεστώτα)"
+          },
+          {
+            "de": "konnten",
+            "en": "could (plural past)",
+            "ar": "يمكن (جمع الماضي)",
+            "tr": "olabilir (çoğul geçmiş)",
+            "ro": "putea (plural trecut)",
+            "bs": "mogao (množina prošlost)",
+            "es": "podría (pasado plural)",
+            "bg": "може (множествено число минало)",
+            "el": "θα μπορούσε (πληθυντικός παρελθόν)"
+          }
+        ],
+        "optionsEs": [
+          {
+            "de": "konnte",
+            "en": "could (singular past)",
+            "ar": "يمكن (الماضي المفرد)",
+            "tr": "olabilir (tekil geçmiş)",
+            "ro": "putea (trecut singular)",
+            "bs": "mogao (jedinstvena prošlost)",
+            "es": "podría (pasado singular)",
+            "bg": "може (единствено минало)",
+            "el": "θα μπορούσε (ενικό παρελθόν)"
+          },
+          {
+            "de": "kann",
+            "en": "can (present tense)",
+            "ar": "يستطيع (المضارع)",
+            "tr": "olabilir (şimdiki zaman)",
+            "ro": "can (timpul prezent)",
+            "bs": "može (sadašnje vrijeme)",
+            "es": "puede (tiempo presente)",
+            "bg": "мога (сегашно време)",
+            "el": "μπορώ (ενεστώτα)"
+          },
+          {
+            "de": "konnten",
+            "en": "could (plural past)",
+            "ar": "يمكن (جمع الماضي)",
+            "tr": "olabilir (çoğul geçmiş)",
+            "ro": "putea (plural trecut)",
+            "bs": "mogao (množina prošlost)",
+            "es": "podría (pasado plural)",
+            "bg": "може (множествено число минало)",
+            "el": "θα μπορούσε (πληθυντικός παρελθόν)"
+          }
+        ],
+        "optionsBg": [
+          {
+            "de": "konnte",
+            "en": "could (singular past)",
+            "ar": "يمكن (الماضي المفرد)",
+            "tr": "olabilir (tekil geçmiş)",
+            "ro": "putea (trecut singular)",
+            "bs": "mogao (jedinstvena prošlost)",
+            "es": "podría (pasado singular)",
+            "bg": "може (единствено минало)",
+            "el": "θα μπορούσε (ενικό παρελθόν)"
+          },
+          {
+            "de": "kann",
+            "en": "can (present tense)",
+            "ar": "يستطيع (المضارع)",
+            "tr": "olabilir (şimdiki zaman)",
+            "ro": "can (timpul prezent)",
+            "bs": "može (sadašnje vrijeme)",
+            "es": "puede (tiempo presente)",
+            "bg": "мога (сегашно време)",
+            "el": "μπορώ (ενεστώτα)"
+          },
+          {
+            "de": "konnten",
+            "en": "could (plural past)",
+            "ar": "يمكن (جمع الماضي)",
+            "tr": "olabilir (çoğul geçmiş)",
+            "ro": "putea (plural trecut)",
+            "bs": "mogao (množina prošlost)",
+            "es": "podría (pasado plural)",
+            "bg": "може (множествено число минало)",
+            "el": "θα μπορούσε (πληθυντικός παρελθόν)"
+          }
+        ],
+        "optionsEl": [
+          {
+            "de": "konnte",
+            "en": "could (singular past)",
+            "ar": "يمكن (الماضي المفرد)",
+            "tr": "olabilir (tekil geçmiş)",
+            "ro": "putea (trecut singular)",
+            "bs": "mogao (jedinstvena prošlost)",
+            "es": "podría (pasado singular)",
+            "bg": "може (единствено минало)",
+            "el": "θα μπορούσε (ενικό παρελθόν)"
+          },
+          {
+            "de": "kann",
+            "en": "can (present tense)",
+            "ar": "يستطيع (المضارع)",
+            "tr": "olabilir (şimdiki zaman)",
+            "ro": "can (timpul prezent)",
+            "bs": "može (sadašnje vrijeme)",
+            "es": "puede (tiempo presente)",
+            "bg": "мога (сегашно време)",
+            "el": "μπορώ (ενεστώτα)"
+          },
+          {
+            "de": "konnten",
+            "en": "could (plural past)",
+            "ar": "يمكن (جمع الماضي)",
+            "tr": "olabilir (çoğul geçmiş)",
+            "ro": "putea (plural trecut)",
+            "bs": "mogao (množina prošlost)",
+            "es": "podría (pasado plural)",
+            "bg": "може (множествено число минало)",
+            "el": "θα μπορούσε (πληθυντικός παρελθόν)"
+          }
+        ]
       },
       {
         "id": 2102,
@@ -11633,7 +14426,252 @@ const CURRICULUM_A2 = [
         "hintBs": "träumen + von + Dativ (einem ...)",
         "hintEs": "träumen + von + Dativo (einem ...)",
         "hintBg": "träumen + von + дателен (einem ...)",
-        "hintEl": "träumen + von + Dative (einem ...)"
+        "hintEl": "träumen + von + Dative (einem ...)",
+        "optionsEn": [
+          {
+            "de": "von",
+            "en": "of (takes Dative)",
+            "ar": "من (يأخذ حالة الجر)",
+            "tr": "(Dative'i alır)",
+            "ro": "de (ia dativ)",
+            "bs": "od (uzima dativ)",
+            "es": "de (toma dativo)",
+            "bg": "of (takes Dative)",
+            "el": "από (παίρνει Dative)"
+          },
+          {
+            "de": "auf",
+            "en": "on / for",
+            "ar": "على / ل",
+            "tr": "açık / için",
+            "ro": "pe / pentru",
+            "bs": "na / za",
+            "es": "en / para",
+            "bg": "на / за",
+            "el": "on / για"
+          },
+          {
+            "de": "für",
+            "en": "for",
+            "ar": "ل",
+            "tr": "için",
+            "ro": "pentru",
+            "bs": "za",
+            "es": "para",
+            "bg": "за",
+            "el": "για"
+          }
+        ],
+        "optionsTr": [
+          {
+            "de": "von",
+            "en": "of (takes Dative)",
+            "ar": "من (يأخذ حالة الجر)",
+            "tr": "(Dative'i alır)",
+            "ro": "de (ia dativ)",
+            "bs": "od (uzima dativ)",
+            "es": "de (toma dativo)",
+            "bg": "of (takes Dative)",
+            "el": "από (παίρνει Dative)"
+          },
+          {
+            "de": "auf",
+            "en": "on / for",
+            "ar": "على / ل",
+            "tr": "açık / için",
+            "ro": "pe / pentru",
+            "bs": "na / za",
+            "es": "en / para",
+            "bg": "на / за",
+            "el": "on / για"
+          },
+          {
+            "de": "für",
+            "en": "for",
+            "ar": "ل",
+            "tr": "için",
+            "ro": "pentru",
+            "bs": "za",
+            "es": "para",
+            "bg": "за",
+            "el": "για"
+          }
+        ],
+        "optionsRo": [
+          {
+            "de": "von",
+            "en": "of (takes Dative)",
+            "ar": "من (يأخذ حالة الجر)",
+            "tr": "(Dative'i alır)",
+            "ro": "de (ia dativ)",
+            "bs": "od (uzima dativ)",
+            "es": "de (toma dativo)",
+            "bg": "of (takes Dative)",
+            "el": "από (παίρνει Dative)"
+          },
+          {
+            "de": "auf",
+            "en": "on / for",
+            "ar": "على / ل",
+            "tr": "açık / için",
+            "ro": "pe / pentru",
+            "bs": "na / za",
+            "es": "en / para",
+            "bg": "на / за",
+            "el": "on / για"
+          },
+          {
+            "de": "für",
+            "en": "for",
+            "ar": "ل",
+            "tr": "için",
+            "ro": "pentru",
+            "bs": "za",
+            "es": "para",
+            "bg": "за",
+            "el": "για"
+          }
+        ],
+        "optionsBs": [
+          {
+            "de": "von",
+            "en": "of (takes Dative)",
+            "ar": "من (يأخذ حالة الجر)",
+            "tr": "(Dative'i alır)",
+            "ro": "de (ia dativ)",
+            "bs": "od (uzima dativ)",
+            "es": "de (toma dativo)",
+            "bg": "of (takes Dative)",
+            "el": "από (παίρνει Dative)"
+          },
+          {
+            "de": "auf",
+            "en": "on / for",
+            "ar": "على / ل",
+            "tr": "açık / için",
+            "ro": "pe / pentru",
+            "bs": "na / za",
+            "es": "en / para",
+            "bg": "на / за",
+            "el": "on / για"
+          },
+          {
+            "de": "für",
+            "en": "for",
+            "ar": "ل",
+            "tr": "için",
+            "ro": "pentru",
+            "bs": "za",
+            "es": "para",
+            "bg": "за",
+            "el": "για"
+          }
+        ],
+        "optionsEs": [
+          {
+            "de": "von",
+            "en": "of (takes Dative)",
+            "ar": "من (يأخذ حالة الجر)",
+            "tr": "(Dative'i alır)",
+            "ro": "de (ia dativ)",
+            "bs": "od (uzima dativ)",
+            "es": "de (toma dativo)",
+            "bg": "of (takes Dative)",
+            "el": "από (παίρνει Dative)"
+          },
+          {
+            "de": "auf",
+            "en": "on / for",
+            "ar": "على / ل",
+            "tr": "açık / için",
+            "ro": "pe / pentru",
+            "bs": "na / za",
+            "es": "en / para",
+            "bg": "на / за",
+            "el": "on / για"
+          },
+          {
+            "de": "für",
+            "en": "for",
+            "ar": "ل",
+            "tr": "için",
+            "ro": "pentru",
+            "bs": "za",
+            "es": "para",
+            "bg": "за",
+            "el": "για"
+          }
+        ],
+        "optionsBg": [
+          {
+            "de": "von",
+            "en": "of (takes Dative)",
+            "ar": "من (يأخذ حالة الجر)",
+            "tr": "(Dative'i alır)",
+            "ro": "de (ia dativ)",
+            "bs": "od (uzima dativ)",
+            "es": "de (toma dativo)",
+            "bg": "of (takes Dative)",
+            "el": "από (παίρνει Dative)"
+          },
+          {
+            "de": "auf",
+            "en": "on / for",
+            "ar": "على / ل",
+            "tr": "açık / için",
+            "ro": "pe / pentru",
+            "bs": "na / za",
+            "es": "en / para",
+            "bg": "на / за",
+            "el": "on / για"
+          },
+          {
+            "de": "für",
+            "en": "for",
+            "ar": "ل",
+            "tr": "için",
+            "ro": "pentru",
+            "bs": "za",
+            "es": "para",
+            "bg": "за",
+            "el": "για"
+          }
+        ],
+        "optionsEl": [
+          {
+            "de": "von",
+            "en": "of (takes Dative)",
+            "ar": "من (يأخذ حالة الجر)",
+            "tr": "(Dative'i alır)",
+            "ro": "de (ia dativ)",
+            "bs": "od (uzima dativ)",
+            "es": "de (toma dativo)",
+            "bg": "of (takes Dative)",
+            "el": "από (παίρνει Dative)"
+          },
+          {
+            "de": "auf",
+            "en": "on / for",
+            "ar": "على / ل",
+            "tr": "açık / için",
+            "ro": "pe / pentru",
+            "bs": "na / za",
+            "es": "en / para",
+            "bg": "на / за",
+            "el": "on / για"
+          },
+          {
+            "de": "für",
+            "en": "for",
+            "ar": "ل",
+            "tr": "için",
+            "ro": "pentru",
+            "bs": "za",
+            "es": "para",
+            "bg": "за",
+            "el": "για"
+          }
+        ]
       },
       {
         "id": 2202,
@@ -12049,7 +15087,252 @@ const CURRICULUM_A2 = [
         "hintBs": "određeni član 'der', muški rod, nominativ",
         "hintEs": "artículo definido 'der', masculino, nominativo",
         "hintBg": "определителен член 'der', мъжки род, именителен падеж",
-        "hintEl": "οριστικό άρθρο «der», αρσενικό, ονομαστική"
+        "hintEl": "οριστικό άρθρο «der», αρσενικό, ονομαστική",
+        "optionsEn": [
+          {
+            "de": "e",
+            "en": "-e (masc. nominative ending)",
+            "ar": "-e (masc. النهاية الاسمية)",
+            "tr": "-e (masc. yalın son)",
+            "ro": "-e (masc. terminație nominativă)",
+            "bs": "-e (masc. nominativan završetak)",
+            "es": "-e (finalización nominativa masc.)",
+            "bg": "-e (маск. номинативно окончание)",
+            "el": "-e (αρσ. ονομαστική κατάληξη)"
+          },
+          {
+            "de": "en",
+            "en": "-en",
+            "ar": "-en",
+            "tr": "-en",
+            "ro": "-ro",
+            "bs": "-en",
+            "es": "-es",
+            "bg": "-en",
+            "el": "-en"
+          },
+          {
+            "de": "er",
+            "en": "-er",
+            "ar": "-إيه",
+            "tr": "-er",
+            "ro": "-eh",
+            "bs": "-er",
+            "es": "-er",
+            "bg": "-Ъъъъ",
+            "el": "-εεε"
+          }
+        ],
+        "optionsTr": [
+          {
+            "de": "e",
+            "en": "-e (masc. nominative ending)",
+            "ar": "-e (masc. النهاية الاسمية)",
+            "tr": "-e (masc. yalın son)",
+            "ro": "-e (masc. terminație nominativă)",
+            "bs": "-e (masc. nominativan završetak)",
+            "es": "-e (finalización nominativa masc.)",
+            "bg": "-e (маск. номинативно окончание)",
+            "el": "-e (αρσ. ονομαστική κατάληξη)"
+          },
+          {
+            "de": "en",
+            "en": "-en",
+            "ar": "-en",
+            "tr": "-en",
+            "ro": "-ro",
+            "bs": "-en",
+            "es": "-es",
+            "bg": "-en",
+            "el": "-en"
+          },
+          {
+            "de": "er",
+            "en": "-er",
+            "ar": "-إيه",
+            "tr": "-er",
+            "ro": "-eh",
+            "bs": "-er",
+            "es": "-er",
+            "bg": "-Ъъъъ",
+            "el": "-εεε"
+          }
+        ],
+        "optionsRo": [
+          {
+            "de": "e",
+            "en": "-e (masc. nominative ending)",
+            "ar": "-e (masc. النهاية الاسمية)",
+            "tr": "-e (masc. yalın son)",
+            "ro": "-e (masc. terminație nominativă)",
+            "bs": "-e (masc. nominativan završetak)",
+            "es": "-e (finalización nominativa masc.)",
+            "bg": "-e (маск. номинативно окончание)",
+            "el": "-e (αρσ. ονομαστική κατάληξη)"
+          },
+          {
+            "de": "en",
+            "en": "-en",
+            "ar": "-en",
+            "tr": "-en",
+            "ro": "-ro",
+            "bs": "-en",
+            "es": "-es",
+            "bg": "-en",
+            "el": "-en"
+          },
+          {
+            "de": "er",
+            "en": "-er",
+            "ar": "-إيه",
+            "tr": "-er",
+            "ro": "-eh",
+            "bs": "-er",
+            "es": "-er",
+            "bg": "-Ъъъъ",
+            "el": "-εεε"
+          }
+        ],
+        "optionsBs": [
+          {
+            "de": "e",
+            "en": "-e (masc. nominative ending)",
+            "ar": "-e (masc. النهاية الاسمية)",
+            "tr": "-e (masc. yalın son)",
+            "ro": "-e (masc. terminație nominativă)",
+            "bs": "-e (masc. nominativan završetak)",
+            "es": "-e (finalización nominativa masc.)",
+            "bg": "-e (маск. номинативно окончание)",
+            "el": "-e (αρσ. ονομαστική κατάληξη)"
+          },
+          {
+            "de": "en",
+            "en": "-en",
+            "ar": "-en",
+            "tr": "-en",
+            "ro": "-ro",
+            "bs": "-en",
+            "es": "-es",
+            "bg": "-en",
+            "el": "-en"
+          },
+          {
+            "de": "er",
+            "en": "-er",
+            "ar": "-إيه",
+            "tr": "-er",
+            "ro": "-eh",
+            "bs": "-er",
+            "es": "-er",
+            "bg": "-Ъъъъ",
+            "el": "-εεε"
+          }
+        ],
+        "optionsEs": [
+          {
+            "de": "e",
+            "en": "-e (masc. nominative ending)",
+            "ar": "-e (masc. النهاية الاسمية)",
+            "tr": "-e (masc. yalın son)",
+            "ro": "-e (masc. terminație nominativă)",
+            "bs": "-e (masc. nominativan završetak)",
+            "es": "-e (finalización nominativa masc.)",
+            "bg": "-e (маск. номинативно окончание)",
+            "el": "-e (αρσ. ονομαστική κατάληξη)"
+          },
+          {
+            "de": "en",
+            "en": "-en",
+            "ar": "-en",
+            "tr": "-en",
+            "ro": "-ro",
+            "bs": "-en",
+            "es": "-es",
+            "bg": "-en",
+            "el": "-en"
+          },
+          {
+            "de": "er",
+            "en": "-er",
+            "ar": "-إيه",
+            "tr": "-er",
+            "ro": "-eh",
+            "bs": "-er",
+            "es": "-er",
+            "bg": "-Ъъъъ",
+            "el": "-εεε"
+          }
+        ],
+        "optionsBg": [
+          {
+            "de": "e",
+            "en": "-e (masc. nominative ending)",
+            "ar": "-e (masc. النهاية الاسمية)",
+            "tr": "-e (masc. yalın son)",
+            "ro": "-e (masc. terminație nominativă)",
+            "bs": "-e (masc. nominativan završetak)",
+            "es": "-e (finalización nominativa masc.)",
+            "bg": "-e (маск. номинативно окончание)",
+            "el": "-e (αρσ. ονομαστική κατάληξη)"
+          },
+          {
+            "de": "en",
+            "en": "-en",
+            "ar": "-en",
+            "tr": "-en",
+            "ro": "-ro",
+            "bs": "-en",
+            "es": "-es",
+            "bg": "-en",
+            "el": "-en"
+          },
+          {
+            "de": "er",
+            "en": "-er",
+            "ar": "-إيه",
+            "tr": "-er",
+            "ro": "-eh",
+            "bs": "-er",
+            "es": "-er",
+            "bg": "-Ъъъъ",
+            "el": "-εεε"
+          }
+        ],
+        "optionsEl": [
+          {
+            "de": "e",
+            "en": "-e (masc. nominative ending)",
+            "ar": "-e (masc. النهاية الاسمية)",
+            "tr": "-e (masc. yalın son)",
+            "ro": "-e (masc. terminație nominativă)",
+            "bs": "-e (masc. nominativan završetak)",
+            "es": "-e (finalización nominativa masc.)",
+            "bg": "-e (маск. номинативно окончание)",
+            "el": "-e (αρσ. ονομαστική κατάληξη)"
+          },
+          {
+            "de": "en",
+            "en": "-en",
+            "ar": "-en",
+            "tr": "-en",
+            "ro": "-ro",
+            "bs": "-en",
+            "es": "-es",
+            "bg": "-en",
+            "el": "-en"
+          },
+          {
+            "de": "er",
+            "en": "-er",
+            "ar": "-إيه",
+            "tr": "-er",
+            "ro": "-eh",
+            "bs": "-er",
+            "es": "-er",
+            "bg": "-Ъъъъ",
+            "el": "-εεε"
+          }
+        ]
       },
       {
         "id": 2302,
@@ -12465,7 +15748,252 @@ const CURRICULUM_A2 = [
         "hintBs": "Genitivni atribut iza \"trotz des\"",
         "hintEs": "Atributo genitivo después de 'trotz des'",
         "hintBg": "Родителен атрибут след „trotz des“",
-        "hintEl": "Γενικό χαρακτηριστικό μετά το \"trotz des\""
+        "hintEl": "Γενικό χαρακτηριστικό μετά το \"trotz des\"",
+        "optionsEn": [
+          {
+            "de": "kalten",
+            "en": "-en (masc. genitive ending)",
+            "ar": "-en (masc. نهاية مضافة)",
+            "tr": "-en (masc. genel son)",
+            "ro": "-en (masc. terminație genitiva)",
+            "bs": "-en (masc. genitiv završetak)",
+            "es": "-en (finalización genitiva masc.)",
+            "bg": "-en (маск. родителен падеж)",
+            "el": "-en (αρσ. γεν. κατάληξη)"
+          },
+          {
+            "de": "kalter",
+            "en": "-er",
+            "ar": "-إيه",
+            "tr": "-er",
+            "ro": "-eh",
+            "bs": "-er",
+            "es": "-er",
+            "bg": "-Ъъъъ",
+            "el": "-εεε"
+          },
+          {
+            "de": "kaltes",
+            "en": "-es",
+            "ar": "-es",
+            "tr": "-es",
+            "ro": "-es",
+            "bs": "-es",
+            "es": "-es",
+            "bg": "-es",
+            "el": "-es"
+          }
+        ],
+        "optionsTr": [
+          {
+            "de": "kalten",
+            "en": "-en (masc. genitive ending)",
+            "ar": "-en (masc. نهاية مضافة)",
+            "tr": "-en (masc. genel son)",
+            "ro": "-en (masc. terminație genitiva)",
+            "bs": "-en (masc. genitiv završetak)",
+            "es": "-en (finalización genitiva masc.)",
+            "bg": "-en (маск. родителен падеж)",
+            "el": "-en (αρσ. γεν. κατάληξη)"
+          },
+          {
+            "de": "kalter",
+            "en": "-er",
+            "ar": "-إيه",
+            "tr": "-er",
+            "ro": "-eh",
+            "bs": "-er",
+            "es": "-er",
+            "bg": "-Ъъъъ",
+            "el": "-εεε"
+          },
+          {
+            "de": "kaltes",
+            "en": "-es",
+            "ar": "-es",
+            "tr": "-es",
+            "ro": "-es",
+            "bs": "-es",
+            "es": "-es",
+            "bg": "-es",
+            "el": "-es"
+          }
+        ],
+        "optionsRo": [
+          {
+            "de": "kalten",
+            "en": "-en (masc. genitive ending)",
+            "ar": "-en (masc. نهاية مضافة)",
+            "tr": "-en (masc. genel son)",
+            "ro": "-en (masc. terminație genitiva)",
+            "bs": "-en (masc. genitiv završetak)",
+            "es": "-en (finalización genitiva masc.)",
+            "bg": "-en (маск. родителен падеж)",
+            "el": "-en (αρσ. γεν. κατάληξη)"
+          },
+          {
+            "de": "kalter",
+            "en": "-er",
+            "ar": "-إيه",
+            "tr": "-er",
+            "ro": "-eh",
+            "bs": "-er",
+            "es": "-er",
+            "bg": "-Ъъъъ",
+            "el": "-εεε"
+          },
+          {
+            "de": "kaltes",
+            "en": "-es",
+            "ar": "-es",
+            "tr": "-es",
+            "ro": "-es",
+            "bs": "-es",
+            "es": "-es",
+            "bg": "-es",
+            "el": "-es"
+          }
+        ],
+        "optionsBs": [
+          {
+            "de": "kalten",
+            "en": "-en (masc. genitive ending)",
+            "ar": "-en (masc. نهاية مضافة)",
+            "tr": "-en (masc. genel son)",
+            "ro": "-en (masc. terminație genitiva)",
+            "bs": "-en (masc. genitiv završetak)",
+            "es": "-en (finalización genitiva masc.)",
+            "bg": "-en (маск. родителен падеж)",
+            "el": "-en (αρσ. γεν. κατάληξη)"
+          },
+          {
+            "de": "kalter",
+            "en": "-er",
+            "ar": "-إيه",
+            "tr": "-er",
+            "ro": "-eh",
+            "bs": "-er",
+            "es": "-er",
+            "bg": "-Ъъъъ",
+            "el": "-εεε"
+          },
+          {
+            "de": "kaltes",
+            "en": "-es",
+            "ar": "-es",
+            "tr": "-es",
+            "ro": "-es",
+            "bs": "-es",
+            "es": "-es",
+            "bg": "-es",
+            "el": "-es"
+          }
+        ],
+        "optionsEs": [
+          {
+            "de": "kalten",
+            "en": "-en (masc. genitive ending)",
+            "ar": "-en (masc. نهاية مضافة)",
+            "tr": "-en (masc. genel son)",
+            "ro": "-en (masc. terminație genitiva)",
+            "bs": "-en (masc. genitiv završetak)",
+            "es": "-en (finalización genitiva masc.)",
+            "bg": "-en (маск. родителен падеж)",
+            "el": "-en (αρσ. γεν. κατάληξη)"
+          },
+          {
+            "de": "kalter",
+            "en": "-er",
+            "ar": "-إيه",
+            "tr": "-er",
+            "ro": "-eh",
+            "bs": "-er",
+            "es": "-er",
+            "bg": "-Ъъъъ",
+            "el": "-εεε"
+          },
+          {
+            "de": "kaltes",
+            "en": "-es",
+            "ar": "-es",
+            "tr": "-es",
+            "ro": "-es",
+            "bs": "-es",
+            "es": "-es",
+            "bg": "-es",
+            "el": "-es"
+          }
+        ],
+        "optionsBg": [
+          {
+            "de": "kalten",
+            "en": "-en (masc. genitive ending)",
+            "ar": "-en (masc. نهاية مضافة)",
+            "tr": "-en (masc. genel son)",
+            "ro": "-en (masc. terminație genitiva)",
+            "bs": "-en (masc. genitiv završetak)",
+            "es": "-en (finalización genitiva masc.)",
+            "bg": "-en (маск. родителен падеж)",
+            "el": "-en (αρσ. γεν. κατάληξη)"
+          },
+          {
+            "de": "kalter",
+            "en": "-er",
+            "ar": "-إيه",
+            "tr": "-er",
+            "ro": "-eh",
+            "bs": "-er",
+            "es": "-er",
+            "bg": "-Ъъъъ",
+            "el": "-εεε"
+          },
+          {
+            "de": "kaltes",
+            "en": "-es",
+            "ar": "-es",
+            "tr": "-es",
+            "ro": "-es",
+            "bs": "-es",
+            "es": "-es",
+            "bg": "-es",
+            "el": "-es"
+          }
+        ],
+        "optionsEl": [
+          {
+            "de": "kalten",
+            "en": "-en (masc. genitive ending)",
+            "ar": "-en (masc. نهاية مضافة)",
+            "tr": "-en (masc. genel son)",
+            "ro": "-en (masc. terminație genitiva)",
+            "bs": "-en (masc. genitiv završetak)",
+            "es": "-en (finalización genitiva masc.)",
+            "bg": "-en (маск. родителен падеж)",
+            "el": "-en (αρσ. γεν. κατάληξη)"
+          },
+          {
+            "de": "kalter",
+            "en": "-er",
+            "ar": "-إيه",
+            "tr": "-er",
+            "ro": "-eh",
+            "bs": "-er",
+            "es": "-er",
+            "bg": "-Ъъъъ",
+            "el": "-εεε"
+          },
+          {
+            "de": "kaltes",
+            "en": "-es",
+            "ar": "-es",
+            "tr": "-es",
+            "ro": "-es",
+            "bs": "-es",
+            "es": "-es",
+            "bg": "-es",
+            "el": "-es"
+          }
+        ]
       },
       {
         "id": 2402,

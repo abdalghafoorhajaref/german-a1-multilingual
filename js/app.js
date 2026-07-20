@@ -793,11 +793,10 @@ function renderExercisesTab(ch, container) {
 
 function renderExercise(ex, idx, chId) {
   if (ex.type === 'mcq') {
-    const qTrans = getExerciseQuestionTranslation(ex);
-    const qTransHtml = qTrans ? `<div style="font-size:13px;color:var(--text-secondary);margin-top:4px">${qTrans}</div>` : '';
+    const qTitle = getExerciseQuestionText(ex);
     return `
       <div class="exercise-item">
-        <div class="exercise-question">${idx+1}. ${ex.question}${qTransHtml}</div>
+        <div class="exercise-question">${idx+1}. ${qTitle}</div>
         <div class="options-grid" style="grid-template-columns:1fr 1fr">
           ${ex.options.map((opt, oi) => {
             const transOpt = getExerciseOption(opt, ex, oi);
