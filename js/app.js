@@ -412,21 +412,24 @@ function getExerciseHintText(ex) {
 }
 
 function getExerciseOption(opt, ex, index) {
+  let val = null;
   if (ex && typeof index === 'number') {
-    if (currentLang === 'bs' && ex.optionsBs && ex.optionsBs[index]) return ex.optionsBs[index];
-    if (currentLang === 'es' && ex.optionsEs && ex.optionsEs[index]) return ex.optionsEs[index];
-    if (currentLang === 'bg' && ex.optionsBg && ex.optionsBg[index]) return ex.optionsBg[index];
-    if (currentLang === 'el' && ex.optionsEl && ex.optionsEl[index]) return ex.optionsEl[index];
-    if (currentLang === 'tr' && ex.optionsTr && ex.optionsTr[index]) return ex.optionsTr[index];
-    if (currentLang === 'en' && ex.optionsEn && ex.optionsEn[index]) return ex.optionsEn[index];
-    if (currentLang === 'ro' && ex.optionsRo && ex.optionsRo[index]) return ex.optionsRo[index];
+    if (currentLang === 'bs' && ex.optionsBs && typeof ex.optionsBs[index] !== 'undefined') val = ex.optionsBs[index];
+    else if (currentLang === 'es' && ex.optionsEs && typeof ex.optionsEs[index] !== 'undefined') val = ex.optionsEs[index];
+    else if (currentLang === 'bg' && ex.optionsBg && typeof ex.optionsBg[index] !== 'undefined') val = ex.optionsBg[index];
+    else if (currentLang === 'el' && ex.optionsEl && typeof ex.optionsEl[index] !== 'undefined') val = ex.optionsEl[index];
+    else if (currentLang === 'tr' && ex.optionsTr && typeof ex.optionsTr[index] !== 'undefined') val = ex.optionsTr[index];
+    else if (currentLang === 'en' && ex.optionsEn && typeof ex.optionsEn[index] !== 'undefined') val = ex.optionsEn[index];
+    else if (currentLang === 'ro' && ex.optionsRo && typeof ex.optionsRo[index] !== 'undefined') val = ex.optionsRo[index];
   }
-  if (opt && typeof opt === 'object') {
-    if (currentLang === 'ar') return opt.de;
-    return opt[currentLang] || opt.en || opt.de;
+  if (val === null) val = opt;
+
+  if (val && typeof val === 'object') {
+    if (currentLang === 'ar') return val.ar || val.de || '';
+    return val[currentLang] || val.en || val.de || '';
   }
-  if (opt && typeof opt === 'string' && opt.includes(' / ')) {
-    const parts = opt.split(' / ');
+  if (val && typeof val === 'string' && val.includes(' / ')) {
+    const parts = val.split(' / ');
     if (currentLang === 'ar') return parts[0];
     if (currentLang === 'en') return parts[1] || parts[0];
     if (currentLang === 'tr') return parts[2] || parts[1] || parts[0];
@@ -436,7 +439,7 @@ function getExerciseOption(opt, ex, index) {
     if (currentLang === 'bg') return parts[6] || parts[1] || '';
     if (currentLang === 'el') return parts[7] || parts[1] || '';
   }
-  return opt;
+  return typeof val === 'string' ? val : (val ? String(val) : '');
 }
 
 function getWritingPromptText(wp) {
