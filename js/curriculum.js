@@ -817,14 +817,28 @@ const CURRICULUM = [
         "question": "Ich _____ Maria. (heißen)",
         "questionAr": "أكمل الفراغ بالتصريف الصحيح",
         "answer": "heiße",
-        "hint": "تصريف heißen مع ich"
+        "hint": "تصريف heißen مع ich",
+        "questionEn": "Fill in the blank with the correct conjugation",
+        "questionTr": "Boşluğu doğru çekimle doldurun",
+        "questionRo": "Completați spațiul liber cu conjugarea corectă",
+        "questionBs": "Popunite prazno mjesto pravilnom konjugacijom",
+        "questionEs": "Completa el espacio en blanco con la conjugación correcta.",
+        "questionBg": "Попълнете празното поле с правилното спрежение",
+        "questionEl": "Συμπλήρωσε το κενό με τη σωστή σύζευξη"
       },
       {
         "type": "fillblank",
         "question": "Woher _____ du? (kommen)",
         "questionAr": "أكمل الفراغ",
         "answer": "kommst",
-        "hint": "تصريف kommen مع du"
+        "hint": "تصريف kommen مع du",
+        "questionEn": "Fill in the blank",
+        "questionTr": "Boşluğu doldurun",
+        "questionRo": "Completați spațiul liber",
+        "questionBs": "Popunite prazninu",
+        "questionEs": "Completa el espacio en blanco",
+        "questionBg": "Попълнете празното поле",
+        "questionEl": "Συμπληρώστε το κενό"
       },
       {
         "type": "mcq",
@@ -836,64 +850,148 @@ const CURRICULUM = [
           "من أين أنت؟",
           "كم عمرك؟"
         ],
-        "answer": 1
+        "answer": 1,
+        "questionEn": "What does this sentence mean in Arabic?",
+        "questionTr": "Bu cümle Arapçada ne anlama geliyor?",
+        "questionRo": "Ce înseamnă această propoziție în arabă?",
+        "questionBs": "Šta ova rečenica znači na arapskom?",
+        "questionEs": "¿Qué significa esta frase en árabe?",
+        "questionBg": "Какво означава това изречение на арабски?",
+        "questionEl": "Τι σημαίνει αυτή η πρόταση στα Αραβικά;"
       },
       {
         "type": "order",
         "question": "رتب الكلمات لتكون جملة صحيحة:",
-        "questionAr": "",
+        "questionAr": "رتب الكلمات لتكون جملة صحيحة:",
         "words": [
           "aus",
           "Ich",
           "komme",
           "Deutschland"
         ],
-        "answer": "Ich komme aus Deutschland."
+        "answer": "Ich komme aus Deutschland.",
+        "questionEn": "Arrange the words to form a correct sentence:",
+        "questionTr": "Kelimeleri doğru bir cümle oluşturacak şekilde düzenleyin:",
+        "questionRo": "Aranjați cuvintele pentru a forma o propoziție corectă:",
+        "questionBs": "Rasporedite riječi tako da formirate ispravnu rečenicu:",
+        "questionEs": "Ordena las palabras para formar una oración correcta:",
+        "questionBg": "Подредете думите така, че да образуват правилно изречение:",
+        "questionEl": "Τακτοποίησε τις λέξεις ώστε να σχηματίσουν μια σωστή πρόταση:"
       },
       {
         "type": "matching",
         "question": "طابق بين الألمانية والعربية:",
-        "questionAr": "",
+        "questionAr": "طابق بين الألمانية والعربية:",
         "pairs": [
           {
             "de": "Guten Tag",
-            "ar": "مرحباً/صباح الخير"
+            "ar": "مرحباً/صباح الخير",
+            "en": "Good day",
+            "tr": "İyi günler",
+            "ro": "Bună ziua",
+            "bs": "Dobar dan",
+            "es": "Buen día",
+            "bg": "Добър ден",
+            "el": "Καλημέρα"
           },
           {
             "de": "Danke",
-            "ar": "شكراً"
+            "ar": "شكراً",
+            "en": "Thanks",
+            "tr": "Teşekkürler",
+            "ro": "Mulţumesc",
+            "bs": "Hvala",
+            "es": "Gracias",
+            "bg": "благодаря",
+            "el": "Ευχαριστώ"
           },
           {
             "de": "Bitte",
-            "ar": "من فضلك / عفواً"
+            "ar": "من فضلك / عفواً",
+            "en": "Please",
+            "tr": "Lütfen",
+            "ro": "Vă rog",
+            "bs": "Molim te",
+            "es": "Por favor",
+            "bg": "моля",
+            "el": "Παρακαλώ"
           },
           {
             "de": "Tschüss",
-            "ar": "مع السلامة"
+            "ar": "مع السلامة",
+            "en": "Bye",
+            "tr": "Güle güle",
+            "ro": "la revedere",
+            "bs": "ćao",
+            "es": "Adiós",
+            "bg": "чао",
+            "el": "Αντίο"
           }
-        ]
+        ],
+        "questionEn": "Match German and Arabic:",
+        "questionTr": "Almanca ve Arapçayı eşleştirin:",
+        "questionRo": "Potriviți germană și arabă:",
+        "questionBs": "Uskladite njemački i arapski:",
+        "questionEs": "Combina alemán y árabe:",
+        "questionBg": "Съвпадение на немски и арабски:",
+        "questionEl": "Ταίριασμα Γερμανικών και Αραβικών:"
       }
     ],
     "speakingPhrases": [
       {
         "de": "Guten Tag! Ich heiße ...",
-        "ar": "مرحباً! اسمي ..."
+        "ar": "مرحباً! اسمي ...",
+        "en": "Good day! My name is ...",
+        "tr": "İyi günler! Benim adım...",
+        "ro": "Bună ziua! Numele meu este ...",
+        "bs": "Dobar dan! moje ime je...",
+        "es": "¡Buen día! Mi nombre es ...",
+        "bg": "Добър ден! името ми е...",
+        "el": "Καλημέρα! Το όνομά μου είναι..."
       },
       {
         "de": "Ich komme aus ...",
-        "ar": "أنا من ..."
+        "ar": "أنا من ...",
+        "en": "I come from...",
+        "tr": "geliyorum...",
+        "ro": "eu vin din...",
+        "bs": "dolazim iz...",
+        "es": "Yo vengo de...",
+        "bg": "идвам от...",
+        "el": "προέρχομαι από..."
       },
       {
         "de": "Wie heißen Sie?",
-        "ar": "ما اسم حضرتك؟"
+        "ar": "ما اسم حضرتك؟",
+        "en": "What's your name?",
+        "tr": "Adınız ne?",
+        "ro": "Care e numele tău?",
+        "bs": "kako se zoveš?",
+        "es": "¿Cómo te llamas?",
+        "bg": "как се казваш",
+        "el": "Πώς σε λένε;"
       },
       {
         "de": "Woher kommen Sie?",
-        "ar": "من أين حضرتك؟"
+        "ar": "من أين حضرتك؟",
+        "en": "Where are you from?",
+        "tr": "Nerelisin",
+        "ro": "De unde ești?",
+        "bs": "odakle si",
+        "es": "¿De dónde eres?",
+        "bg": "ти откъде си",
+        "el": "Από πού είστε;"
       },
       {
         "de": "Ich buchstabiere: M-A-R-I-A",
-        "ar": "أتهجى: م-ا-ر-ي-ا"
+        "ar": "أتهجى: م-ا-ر-ي-ا",
+        "en": "I spell: M-A-R-I-A",
+        "tr": "Yazıyorum: M-A-R-I-A",
+        "ro": "Scriu: M-A-R-I-A",
+        "bs": "Spelujem: M-A-R-I-A",
+        "es": "Deletreo: M-A-R-I-A",
+        "bg": "Изписвам: M-A-R-I-A",
+        "el": "συλλαβίζω: Μ-Α-Ρ-Ι-Α"
       }
     ]
   },
@@ -1555,14 +1653,28 @@ const CURRICULUM = [
           "كيف حالك؟ (رسمي)",
           "كم عمرك؟"
         ],
-        "answer": 2
+        "answer": 2,
+        "questionEn": "What is the meaning of this sentence?",
+        "questionTr": "Bu cümlenin anlamı nedir?",
+        "questionRo": "Care este sensul acestei propoziții?",
+        "questionBs": "Šta znači ova rečenica?",
+        "questionEs": "¿Cuál es el significado de esta frase?",
+        "questionBg": "Какво е значението на това изречение?",
+        "questionEl": "Ποιο είναι το νόημα αυτής της πρότασης;"
       },
       {
         "type": "fillblank",
         "question": "Ich _____ Kaffee. (trinken)",
         "questionAr": "أكمل بالتصريف الصحيح",
         "answer": "trinke",
-        "hint": "تصريف trinken مع ich"
+        "hint": "تصريف trinken مع ich",
+        "questionEn": "Complete with correct conjugation",
+        "questionTr": "Doğru çekimle tamamlayın",
+        "questionRo": "Completează cu conjugarea corectă",
+        "questionBs": "Kompletno sa pravilnom konjugacijom",
+        "questionEs": "Completa con la conjugación correcta.",
+        "questionBg": "Пълно с правилно спрежение",
+        "questionEl": "Συμπληρώστε με σωστή σύζευξη"
       },
       {
         "type": "mcq",
@@ -1574,49 +1686,112 @@ const CURRICULUM = [
           "3",
           "31"
         ],
-        "answer": 1
+        "answer": 1,
+        "questionEn": "What does dreizehn mean?",
+        "questionTr": "Dreizehn ne demek?",
+        "questionRo": "Ce înseamnă dreizehn?",
+        "questionBs": "Šta znači dreizehn?",
+        "questionEs": "¿Qué significa dreizehn?",
+        "questionBg": "Какво означава dreizehn?",
+        "questionEl": "Τι σημαίνει η λέξη dreizehn;"
       },
       {
         "type": "order",
         "question": "رتب الكلمات:",
-        "questionAr": "",
+        "questionAr": "رتب الكلمات:",
         "words": [
           "geht",
           "Wie",
           "es",
           "Ihnen"
         ],
-        "answer": "Wie geht es Ihnen?"
+        "answer": "Wie geht es Ihnen?",
+        "questionEn": "Arrange the words:",
+        "questionTr": "Kelimeleri düzenleyin:",
+        "questionRo": "Aranjați cuvintele:",
+        "questionBs": "Rasporedite riječi:",
+        "questionEs": "Ordena las palabras:",
+        "questionBg": "Подредете думите:",
+        "questionEl": "Τακτοποίησε τις λέξεις:"
       }
     ],
     "speakingPhrases": [
       {
         "de": "Wie geht es Ihnen?",
-        "ar": "كيف حالك؟ (رسمي)"
+        "ar": "كيف حالك؟ (رسمي)",
+        "en": "How are you doing?",
+        "tr": "Nasılsın?",
+        "ro": "Ce mai faci?",
+        "bs": "kako si?",
+        "es": "¿Cómo estás?",
+        "bg": "как си",
+        "el": "Τι κάνετε;"
       },
       {
         "de": "Wie geht's?",
-        "ar": "كيف حالك؟ (غير رسمي)"
+        "ar": "كيف حالك؟ (غير رسمي)",
+        "en": "How are you?",
+        "tr": "Nasılsın?",
+        "ro": "Ce mai faci?",
+        "bs": "Kako si?",
+        "es": "¿Cómo estás?",
+        "bg": "как си",
+        "el": "Τι κάνετε;"
       },
       {
         "de": "Gut, danke!",
-        "ar": "بخير، شكراً!"
+        "ar": "بخير، شكراً!",
+        "en": "Good, thanks!",
+        "tr": "Güzel, teşekkürler!",
+        "ro": "Bun, multumesc!",
+        "bs": "Dobro, hvala!",
+        "es": "¡Bien, gracias!",
+        "bg": "Добре, благодаря!",
+        "el": "Ωραία, ευχαριστώ!"
       },
       {
         "de": "Es geht.",
-        "ar": "لا بأس."
+        "ar": "لا بأس.",
+        "en": "It works.",
+        "tr": "İşe yarıyor.",
+        "ro": "Funcționează.",
+        "bs": "Radi.",
+        "es": "Funciona.",
+        "bg": "Работи.",
+        "el": "Λειτουργεί."
       },
       {
         "de": "Nicht so gut.",
-        "ar": "ليس جيداً."
+        "ar": "ليس جيداً.",
+        "en": "Not so good.",
+        "tr": "O kadar iyi değil.",
+        "ro": "Nu atât de bine.",
+        "bs": "Nije tako dobro.",
+        "es": "No tan bien.",
+        "bg": "Не толкова добре.",
+        "el": "Όχι και τόσο καλό."
       },
       {
         "de": "Ich bin müde.",
-        "ar": "أنا متعب."
+        "ar": "أنا متعب.",
+        "en": "I'm tired.",
+        "tr": "Yorgunum.",
+        "ro": "Sunt obosit.",
+        "bs": "Umoran sam.",
+        "es": "Estoy cansado.",
+        "bg": "уморен съм",
+        "el": "Είμαι κουρασμένος."
       },
       {
         "de": "Einen Kaffee, bitte.",
-        "ar": "قهوة من فضلك."
+        "ar": "قهوة من فضلك.",
+        "en": "A coffee, please.",
+        "tr": "Bir kahve lütfen.",
+        "ro": "O cafea, te rog.",
+        "bs": "Kafu, molim.",
+        "es": "Un café, por favor.",
+        "bg": "Едно кафе, моля.",
+        "el": "Ένας καφές, παρακαλώ."
       }
     ]
   },
@@ -2182,14 +2357,28 @@ const CURRICULUM = [
           "das",
           "ein"
         ],
-        "answer": 2
+        "answer": 2,
+        "questionEn": "What is the definite article for Buch (book)?",
+        "questionTr": "Buch (kitap) için kesin makale nedir?",
+        "questionRo": "Care este articolul hotărât pentru Buch (carte)?",
+        "questionBs": "Koji je definitivni članak za Buch (knjiga)?",
+        "questionEs": "¿Cuál es el artículo definido de Buch (libro)?",
+        "questionBg": "Какъв е определителният член за Бух (книга)?",
+        "questionEl": "Ποιο είναι το οριστικό άρθρο για το Buch (βιβλίο);"
       },
       {
         "type": "fillblank",
         "question": "Was kostet _____ Laptop? (der/die/das)",
         "questionAr": "اختر الأداة الصحيحة",
         "answer": "der",
-        "hint": "Laptop مذكر في الألمانية"
+        "hint": "Laptop مذكر في الألمانية",
+        "questionEn": "Choose the right tool",
+        "questionTr": "Doğru aracı seçin",
+        "questionRo": "Alegeți instrumentul potrivit",
+        "questionBs": "Odaberite pravi alat",
+        "questionEs": "Elija la herramienta adecuada",
+        "questionBg": "Изберете правилния инструмент",
+        "questionEl": "Επιλέξτε το σωστό εργαλείο"
       },
       {
         "type": "mcq",
@@ -2201,33 +2390,82 @@ const CURRICULUM = [
           "جميل",
           "كبير"
         ],
-        "answer": 1
+        "answer": 1,
+        "questionEn": "What does billig mean?",
+        "questionTr": "billig ne demek?",
+        "questionRo": "Ce înseamnă billig?",
+        "questionBs": "Šta znači naplata?",
+        "questionEs": "¿Qué significa billig?",
+        "questionBg": "Какво означава billig?",
+        "questionEl": "Τι σημαίνει billig;"
       }
     ],
     "speakingPhrases": [
       {
         "de": "Was kostet das?",
-        "ar": "بكم هذا؟"
+        "ar": "بكم هذا؟",
+        "en": "What does this cost?",
+        "tr": "Bunun maliyeti nedir?",
+        "ro": "Cât costă asta?",
+        "bs": "Koliko ovo košta?",
+        "es": "¿Cuánto cuesta esto?",
+        "bg": "Какво струва това?",
+        "el": "Τι κοστίζει αυτό;"
       },
       {
         "de": "Das kostet ... Euro.",
-        "ar": "هذا يكلف ... يورو."
+        "ar": "هذا يكلف ... يورو.",
+        "en": "That costs... euros.",
+        "tr": "Bu... avroya mal oluyor.",
+        "ro": "Asta costa... euro.",
+        "bs": "To košta... evra.",
+        "es": "Eso cuesta... euros.",
+        "bg": "Това струва... евро.",
+        "el": "Αυτό κοστίζει... ευρώ."
       },
       {
         "de": "Das ist (zu) teuer!",
-        "ar": "هذا (جداً) غالي!"
+        "ar": "هذا (جداً) غالي!",
+        "en": "That's too expensive!",
+        "tr": "Bu çok pahalı!",
+        "ro": "E prea scump!",
+        "bs": "To je preskupo!",
+        "es": "¡Eso es demasiado caro!",
+        "bg": "Това е твърде скъпо!",
+        "el": "Αυτό είναι πολύ ακριβό!"
       },
       {
         "de": "Das ist billig.",
-        "ar": "هذا رخيص."
+        "ar": "هذا رخيص.",
+        "en": "That's cheap.",
+        "tr": "Bu ucuz.",
+        "ro": "Asta e ieftin.",
+        "bs": "To je jeftino.",
+        "es": "Eso es barato.",
+        "bg": "Това е евтино.",
+        "el": "Αυτό είναι φτηνό."
       },
       {
         "de": "Ich nehme das.",
-        "ar": "سآخذ هذا."
+        "ar": "سآخذ هذا.",
+        "en": "I'll take this.",
+        "tr": "Bunu alıyorum.",
+        "ro": "O să iau asta.",
+        "bs": "Ja ću uzeti ovo.",
+        "es": "Me llevaré esto.",
+        "bg": "Ще взема това.",
+        "el": "Θα πάρω αυτό."
       },
       {
         "de": "Haben Sie ...?",
-        "ar": "هل عندكم ...؟"
+        "ar": "هل عندكم ...؟",
+        "en": "Do you have...?",
+        "tr": "Sende var mı...?",
+        "ro": "Aveți...?",
+        "bs": "Da li imate...?",
+        "es": "Tiene...?",
+        "bg": "Имате ли...?",
+        "el": "Έχετε...;"
       }
     ]
   },
@@ -2684,36 +2922,85 @@ const CURRICULUM = [
           "العاشرة",
           "العاشرة إلا الربع"
         ],
-        "answer": 1
+        "answer": 1,
+        "questionEn": "What does halb zehn mean?",
+        "questionTr": "halb zehn ne demek?",
+        "questionRo": "Ce înseamnă halb zehn?",
+        "questionBs": "Šta znači halb zehn?",
+        "questionEs": "¿Qué significa halb zehn?",
+        "questionBg": "Какво означава halb zehn?",
+        "questionEl": "Τι σημαίνει η λέξη halb zehn;"
       },
       {
         "type": "fillblank",
         "question": "Ich _____ um 7 Uhr _____. (aufstehen)",
         "questionAr": "أكمل الفراغ",
         "answer": "stehe / auf",
-        "hint": "فعل منفصل: stehe...auf"
+        "hint": "فعل منفصل: stehe...auf",
+        "questionEn": "Fill in the blank",
+        "questionTr": "Boşluğu doldurun",
+        "questionRo": "Completați spațiul liber",
+        "questionBs": "Popunite prazninu",
+        "questionEs": "Completa el espacio en blanco",
+        "questionBg": "Попълнете празното поле",
+        "questionEl": "Συμπληρώστε το κενό"
       }
     ],
     "speakingPhrases": [
       {
         "de": "Wie spät ist es?",
-        "ar": "كم الساعة؟"
+        "ar": "كم الساعة؟",
+        "en": "What time is it?",
+        "tr": "Saat kaç?",
+        "ro": "Cât este ceasul?",
+        "bs": "Koliko je sati?",
+        "es": "¿Qué hora es?",
+        "bg": "колко е часът",
+        "el": "Τι ώρα είναι;"
       },
       {
         "de": "Es ist drei Uhr.",
-        "ar": "الساعة الثالثة."
+        "ar": "الساعة الثالثة.",
+        "en": "It's three o'clock.",
+        "tr": "Saat üç.",
+        "ro": "Este ora trei.",
+        "bs": "Tri je sata.",
+        "es": "Son las tres en punto.",
+        "bg": "Три часа е.",
+        "el": "Η ώρα είναι τρεις."
       },
       {
         "de": "Es ist halb vier.",
-        "ar": "الساعة الثالثة والنصف."
+        "ar": "الساعة الثالثة والنصف.",
+        "en": "It's half past three.",
+        "tr": "Saat üç buçuk.",
+        "ro": "E trei și jumătate.",
+        "bs": "Pola je tri.",
+        "es": "Son las tres y media.",
+        "bg": "Часът е три и половина.",
+        "el": "Η ώρα είναι τρεις και μισή."
       },
       {
         "de": "Wann beginnt der Kurs?",
-        "ar": "متى يبدأ الدرس؟"
+        "ar": "متى يبدأ الدرس؟",
+        "en": "When does the course start?",
+        "tr": "Kurs ne zaman başlıyor?",
+        "ro": "Când începe cursul?",
+        "bs": "Kada počinje kurs?",
+        "es": "¿Cuándo empieza el curso?",
+        "bg": "Кога започва курсът?",
+        "el": "Πότε ξεκινά το μάθημα;"
       },
       {
         "de": "Hast du Zeit?",
-        "ar": "هل لديك وقت؟"
+        "ar": "هل لديك وقت؟",
+        "en": "Do you have time?",
+        "tr": "Zamanın var mı?",
+        "ro": "ai timp?",
+        "bs": "Imate li vremena?",
+        "es": "¿Tienes tiempo?",
+        "bg": "имаш ли време",
+        "el": "Έχεις χρόνο;"
       }
     ]
   },
@@ -3189,36 +3476,85 @@ const CURRICULUM = [
           "الطعام لذيذ",
           "أنا جائع"
         ],
-        "answer": 0
+        "answer": 0,
+        "questionEn": "What does Guten Appetit mean?",
+        "questionTr": "Guten İştahı ne anlama geliyor?",
+        "questionRo": "Ce înseamnă Guten Appet?",
+        "questionBs": "Šta znači Guten Appetit?",
+        "questionEs": "¿Qué significa Guten Appetit?",
+        "questionBg": "Какво означава Guten Appetit?",
+        "questionEl": "Τι σημαίνει το Guten Appetit;"
       },
       {
         "type": "fillblank",
         "question": "Ich möchte ein _____ Milch. (لتر)",
         "questionAr": "أكمل الفراغ",
         "answer": "Liter",
-        "hint": "وحدة قياس السوائل"
+        "hint": "وحدة قياس السوائل",
+        "questionEn": "Fill in the blank",
+        "questionTr": "Boşluğu doldurun",
+        "questionRo": "Completați spațiul liber",
+        "questionBs": "Popunite prazninu",
+        "questionEs": "Completa el espacio en blanco",
+        "questionBg": "Попълнете празното поле",
+        "questionEl": "Συμπληρώστε το κενό"
       }
     ],
     "speakingPhrases": [
       {
         "de": "Haben Sie ...?",
-        "ar": "هل عندكم ...؟"
+        "ar": "هل عندكم ...؟",
+        "en": "Do you have...?",
+        "tr": "Sende var mı...?",
+        "ro": "Aveți...?",
+        "bs": "Da li imate...?",
+        "es": "Tiene...?",
+        "bg": "Имате ли...?",
+        "el": "Έχετε...;"
       },
       {
         "de": "Ich möchte ... kaufen.",
-        "ar": "أريد أن أشتري ..."
+        "ar": "أريد أن أشتري ...",
+        "en": "I want to buy...",
+        "tr": "Satın almak istiyorum...",
+        "ro": "vreau sa cumpar...",
+        "bs": "želim da kupim...",
+        "es": "quiero comprar...",
+        "bg": "Искам да купя...",
+        "el": "Θέλω να αγοράσω..."
       },
       {
         "de": "Ein Kilo, bitte.",
-        "ar": "كيلو من فضلك."
+        "ar": "كيلو من فضلك.",
+        "en": "One kilo, please.",
+        "tr": "Bir kilo lütfen.",
+        "ro": "Un kilogram, te rog.",
+        "bs": "Jedan kilogram, molim.",
+        "es": "Un kilo, por favor.",
+        "bg": "Един килограм, моля.",
+        "el": "Ένα κιλό παρακαλώ."
       },
       {
         "de": "Was kostet das?",
-        "ar": "بكم هذا؟"
+        "ar": "بكم هذا؟",
+        "en": "What does this cost?",
+        "tr": "Bunun maliyeti nedir?",
+        "ro": "Cât costă asta?",
+        "bs": "Koliko ovo košta?",
+        "es": "¿Cuánto cuesta esto?",
+        "bg": "Какво струва това?",
+        "el": "Τι κοστίζει αυτό;"
       },
       {
         "de": "Guten Appetit!",
-        "ar": "بالهناء والشفاء!"
+        "ar": "بالهناء والشفاء!",
+        "en": "Bon appetit!",
+        "tr": "Afiyet olsun!",
+        "ro": "Poftă bună!",
+        "bs": "Bon appetit!",
+        "es": "¡Buen provecho!",
+        "bg": "Добър апетит!",
+        "el": "Καλή όρεξη!"
       }
     ]
   },
@@ -3758,36 +4094,85 @@ const CURRICULUM = [
           "كل عام وأنت بخير / مبروك",
           "مع السلامة"
         ],
-        "answer": 2
+        "answer": 2,
+        "questionEn": "What is the meaning of Herzlichen Glückwunsch?",
+        "questionTr": "Herzlichen Glückwunsch'un anlamı nedir?",
+        "questionRo": "Ce înseamnă Herzlichen Glückwunsch?",
+        "questionBs": "Šta znači Herzlichen Glückwunsch?",
+        "questionEs": "¿Cuál es el significado de Herzlichen Glückwunsch?",
+        "questionBg": "Какво е значението на Herzlichen Glückwunsch?",
+        "questionEl": "Ποια είναι η έννοια του Herzlichen Glückwunsch;"
       },
       {
         "type": "fillblank",
         "question": "Das ist _____ Mutter. (mein/meine)",
         "questionAr": "أكمل بأداة الملكية الصحيحة",
         "answer": "meine",
-        "hint": "Mutter مؤنث → meine"
+        "hint": "Mutter مؤنث → meine",
+        "questionEn": "Complete with the correct possessive",
+        "questionTr": "Doğru iyelik ekiyle tamamlayın",
+        "questionRo": "Completați cu posesivul corect",
+        "questionBs": "Upotpunjeno ispravnim posesivom",
+        "questionEs": "Completa con el posesivo correcto.",
+        "questionBg": "Завършено с правилното притежателно",
+        "questionEl": "Συμπληρώστε με τη σωστή κτητική"
       }
     ],
     "speakingPhrases": [
       {
         "de": "Ich habe ... Kinder/Geschwister.",
-        "ar": "عندي ... أطفال/إخوة."
+        "ar": "عندي ... أطفال/إخوة.",
+        "en": "I have... children/siblings.",
+        "tr": "Benim... çocuklarım/kardeşlerim var.",
+        "ro": "Am... copii/frați.",
+        "bs": "Imam... djecu/braću i sestre.",
+        "es": "Tengo... hijos/hermanos.",
+        "bg": "Имам... деца/братя и сестри.",
+        "el": "Έχω... παιδιά/αδέρφια."
       },
       {
         "de": "Mein Vater/Mutter heißt ...",
-        "ar": "اسم أبي/أمي ..."
+        "ar": "اسم أبي/أمي ...",
+        "en": "My father/mother's name is...",
+        "tr": "Babamın/annemin adı...",
+        "ro": "Numele tatălui/mamei mele este...",
+        "bs": "Ime mog oca/majke je...",
+        "es": "El nombre de mi padre/madre es...",
+        "bg": "Баща/майка ми се казват...",
+        "el": "Το όνομα του πατέρα μου/της μητέρας μου είναι..."
       },
       {
         "de": "Herzlichen Glückwunsch!",
-        "ar": "كل عام وأنت بخير!"
+        "ar": "كل عام وأنت بخير!",
+        "en": "Congratulations!",
+        "tr": "Tebrikler!",
+        "ro": "Felicitări!",
+        "bs": "Čestitamo!",
+        "es": "¡Felicidades!",
+        "bg": "честито!",
+        "el": "Συγχαρητήρια!"
       },
       {
         "de": "Alles Gute zum Geburtstag!",
-        "ar": "كل عام وأنت بخير! (في عيد الميلاد)"
+        "ar": "كل عام وأنت بخير! (في عيد الميلاد)",
+        "en": "Happy Birthday!",
+        "tr": "Doğum günün kutlu olsun!",
+        "ro": "La mulți ani!",
+        "bs": "Sretan rođendan!",
+        "es": "¡Feliz cumpleaños!",
+        "bg": "честит рожден ден",
+        "el": "Χρόνια Πολλά!"
       },
       {
         "de": "Wie alt bist du?",
-        "ar": "كم عمرك؟"
+        "ar": "كم عمرك؟",
+        "en": "How old are you?",
+        "tr": "Kaç yaşındasın?",
+        "ro": "Câți ani ai?",
+        "bs": "koliko imaš godina?",
+        "es": "¿Cuántos años tiene?",
+        "bg": "на колко си години",
+        "el": "Πόσων χρονών είστε;"
       }
     ]
   },
@@ -4190,32 +4575,74 @@ const CURRICULUM = [
           "غرفة المعيشة",
           "الحمام"
         ],
-        "answer": 2
+        "answer": 2,
+        "questionEn": "What does Wohnzimmer mean?",
+        "questionTr": "Wohnzimmer ne anlama geliyor?",
+        "questionRo": "Ce înseamnă Wohnzimmer?",
+        "questionBs": "Šta znači Wohnzimmer?",
+        "questionEs": "¿Qué significa Wohnzimmer?",
+        "questionBg": "Какво означава Wohnzimmer?",
+        "questionEl": "Τι σημαίνει η λέξη Wohnzimmer;"
       },
       {
         "type": "fillblank",
         "question": "Das Buch ist _____ dem Tisch. (على)",
         "questionAr": "أكمل بحرف الجر المناسب",
         "answer": "auf",
-        "hint": "auf = على"
+        "hint": "auf = على",
+        "questionEn": "Complete with the appropriate preposition",
+        "questionTr": "Uygun edatla tamamlayın",
+        "questionRo": "Completați cu prepoziția corespunzătoare",
+        "questionBs": "Dopuni odgovarajućim prijedlogom",
+        "questionEs": "Completa con la preposición adecuada.",
+        "questionBg": "Допълнете с подходящия предлог",
+        "questionEl": "Συμπληρώστε με την κατάλληλη πρόθεση"
       }
     ],
     "speakingPhrases": [
       {
         "de": "Ich wohne in einer Wohnung/einem Haus.",
-        "ar": "أسكن في شقة/بيت."
+        "ar": "أسكن في شقة/بيت.",
+        "en": "I live in an apartment/house.",
+        "tr": "Bir apartman dairesinde/evde yaşıyorum.",
+        "ro": "Locuiesc intr-un apartament/casa.",
+        "bs": "Živim u stanu/kući.",
+        "es": "Vivo en un apartamento/casa.",
+        "bg": "Живея в апартамент/къща.",
+        "el": "Μένω σε διαμέρισμα/σπίτι."
       },
       {
         "de": "Meine Wohnung hat ... Zimmer.",
-        "ar": "شقتي بها ... غرف."
+        "ar": "شقتي بها ... غرف.",
+        "en": "My apartment has... rooms.",
+        "tr": "Dairemde... odalar var.",
+        "ro": "Apartamentul meu are... camere.",
+        "bs": "Moj stan ima... sobe.",
+        "es": "Mi apartamento tiene... habitaciones.",
+        "bg": "Моят апартамент има... стаи.",
+        "el": "Το διαμέρισμά μου έχει... δωμάτια."
       },
       {
         "de": "Was kostet die Miete?",
-        "ar": "كم الإيجار؟"
+        "ar": "كم الإيجار؟",
+        "en": "How much does the rent cost?",
+        "tr": "Kiranın maliyeti ne kadar?",
+        "ro": "Cât costă chiria?",
+        "bs": "Koliko košta najam?",
+        "es": "¿Cuánto cuesta el alquiler?",
+        "bg": "Колко струва наемът?",
+        "el": "Πόσο κοστίζει το ενοίκιο;"
       },
       {
         "de": "Wo ist ...?",
-        "ar": "أين ...؟"
+        "ar": "أين ...؟",
+        "en": "Where is ...?",
+        "tr": "Nerede...?",
+        "ro": "Unde este...?",
+        "bs": "Gdje je...?",
+        "es": "Dónde es ...?",
+        "bg": "Къде е ...?",
+        "el": "Πού είναι…;"
       }
     ]
   },
@@ -4645,29 +5072,71 @@ const CURRICULUM = [
           "Halsschmerzen",
           "Fieber"
         ],
-        "answer": 1
+        "answer": 1,
+        "questionEn": "How do you say 'I have a headache' in German?",
+        "questionTr": "Almanca'da 'Başım ağrıyor' nasıl denir?",
+        "questionRo": "Cum se spune „Mă doare capul” în germană?",
+        "questionBs": "Kako se kaže 'Imam glavobolju' na njemačkom?",
+        "questionEs": "¿Cómo se dice \"me duele la cabeza\" en alemán?",
+        "questionBg": "Как се казва „имам главоболие“ на немски?",
+        "questionEl": "Πώς λέτε \"Έχω πονοκέφαλο\" στα Γερμανικά;"
       }
     ],
     "speakingPhrases": [
       {
         "de": "Ich habe Kopfschmerzen.",
-        "ar": "عندي صداع."
+        "ar": "عندي صداع.",
+        "en": "I have a headache.",
+        "tr": "Başım ağrıyor.",
+        "ro": "Mă doare capul.",
+        "bs": "Boli me glava.",
+        "es": "Me duele la cabeza.",
+        "bg": "имам главоболие",
+        "el": "έχω πονοκέφαλο."
       },
       {
         "de": "Mir ist schlecht.",
-        "ar": "أشعر بالغثيان."
+        "ar": "أشعر بالغثيان.",
+        "en": "I feel sick.",
+        "tr": "Kötü hissediyorum.",
+        "ro": "Mi-e rău.",
+        "bs": "Muka mi je.",
+        "es": "Me siento enferma.",
+        "bg": "прилошава ми",
+        "el": "Δεν νοιώθω καλά."
       },
       {
         "de": "Ich habe Fieber.",
-        "ar": "عندي حمى/سخونة."
+        "ar": "عندي حمى/سخونة.",
+        "en": "I have a fever.",
+        "tr": "Ateşim var.",
+        "ro": "Am febră.",
+        "bs": "Imam groznicu.",
+        "es": "Tengo fiebre.",
+        "bg": "Имам треска.",
+        "el": "Έχω πυρετό."
       },
       {
         "de": "Was fehlt Ihnen?",
-        "ar": "ما الذي يؤلمك؟"
+        "ar": "ما الذي يؤلمك؟",
+        "en": "What are you missing?",
+        "tr": "Neyi kaçırıyorsun?",
+        "ro": "Ce iti lipseste?",
+        "bs": "šta ti nedostaje?",
+        "es": "¿Qué te falta?",
+        "bg": "какво ти липсва",
+        "el": "Τι σου λείπει;"
       },
       {
         "de": "Ich muss zum Arzt gehen.",
-        "ar": "يجب أن أذهب للطبيب."
+        "ar": "يجب أن أذهب للطبيب.",
+        "en": "I have to go to the doctor.",
+        "tr": "Doktora gitmeliyim.",
+        "ro": "Trebuie să merg la doctor.",
+        "bs": "Moram kod doktora.",
+        "es": "Tengo que ir al médico.",
+        "bg": "Трябва да отида на лекар.",
+        "el": "Πρέπει να πάω στο γιατρό."
       }
     ]
   },
@@ -5063,25 +5532,60 @@ const CURRICULUM = [
           "ذهاباً وعودة",
           "بدون تذكرة"
         ],
-        "answer": 2
+        "answer": 2,
+        "questionEn": "What is the meaning of hin and zurück?",
+        "questionTr": "Hin ve zurück'ün anlamı nedir?",
+        "questionRo": "Ce înseamnă hin și zurück?",
+        "questionBs": "Šta znači hin i zurück?",
+        "questionEs": "¿Cuál es el significado de hin y zurück?",
+        "questionBg": "Какво е значението на hin и zurück?",
+        "questionEl": "Τι σημαίνει το hin και το zurück;"
       }
     ],
     "speakingPhrases": [
       {
         "de": "Entschuldigung, wie komme ich zum Bahnhof?",
-        "ar": "عذراً، كيف أصل إلى محطة القطار؟"
+        "ar": "عذراً، كيف أصل إلى محطة القطار؟",
+        "en": "Excuse me, how do I get to the train station?",
+        "tr": "Affedersiniz, tren istasyonuna nasıl gidebilirim?",
+        "ro": "Scuzați-mă, cum ajung la gară?",
+        "bs": "Izvinite, kako da dođem do železničke stanice?",
+        "es": "Disculpe, ¿cómo llego a la estación de tren?",
+        "bg": "Извинете, как да стигна до гарата?",
+        "el": "Με συγχωρείτε, πώς θα πάω στο σιδηροδρομικό σταθμό;"
       },
       {
         "de": "Gehen Sie geradeaus.",
-        "ar": "اذهب إلى الأمام."
+        "ar": "اذهب إلى الأمام.",
+        "en": "Go straight ahead.",
+        "tr": "Dümdüz ilerleyin.",
+        "ro": "Mergeți drept înainte.",
+        "bs": "Samo napred.",
+        "es": "Siga recto.",
+        "bg": "Давай направо напред.",
+        "el": "Προχώρα ευθεία."
       },
       {
         "de": "Eine Fahrkarte nach ... bitte.",
-        "ar": "تذكرة إلى ... من فضلك."
+        "ar": "تذكرة إلى ... من فضلك.",
+        "en": "A ticket to...please.",
+        "tr": "İçin bir bilet lütfen.",
+        "ro": "Un bilet la ..., vă rog.",
+        "bs": "Karta za...molim.",
+        "es": "Un boleto para ..., por favor.",
+        "bg": "Билет до... моля.",
+        "el": "Ένα εισιτήριο για...παρακαλώ."
       },
       {
         "de": "Von welchem Gleis?",
-        "ar": "من أي رصيف؟"
+        "ar": "من أي رصيف؟",
+        "en": "Which track?",
+        "tr": "Hangi parça?",
+        "ro": "Care piesa?",
+        "bs": "Koja staza?",
+        "es": "¿Qué pista?",
+        "bg": "Коя песен?",
+        "el": "Ποιο κομμάτι;"
       }
     ]
   },
@@ -5441,29 +5945,71 @@ const CURRICULUM = [
           "أستطيع",
           "يجب"
         ],
-        "answer": 1
+        "answer": 1,
+        "questionEn": "What does gern mean here?",
+        "questionTr": "Gern burada ne anlama geliyor?",
+        "questionRo": "Ce înseamnă gern aici?",
+        "questionBs": "Šta gern znači ovdje?",
+        "questionEs": "¿Qué significa gern aquí?",
+        "questionBg": "Какво означава gern тук?",
+        "questionEl": "Τι σημαίνει εδώ το Gern;"
       }
     ],
     "speakingPhrases": [
       {
         "de": "Was machst du gern?",
-        "ar": "ماذا تحب أن تفعل؟"
+        "ar": "ماذا تحب أن تفعل؟",
+        "en": "What do you like to do?",
+        "tr": "Ne yapmayı seversin?",
+        "ro": "Ce îţi place să faci?",
+        "bs": "šta voliš da radiš?",
+        "es": "¿Qué te gusta hacer?",
+        "bg": "какво обичаш да правиш",
+        "el": "Τι σου αρέσει να κάνεις;"
       },
       {
         "de": "Ich spiele gern ...",
-        "ar": "أحب لعب ..."
+        "ar": "أحب لعب ...",
+        "en": "I like to play...",
+        "tr": "oynamayı severim...",
+        "ro": "imi place sa ma joc...",
+        "bs": "volim da se igram...",
+        "es": "me gusta jugar...",
+        "bg": "обичам да играя...",
+        "el": "Μου αρέσει να παίζω..."
       },
       {
         "de": "Ich lese/höre/sehe gern ...",
-        "ar": "أحب قراءة/سماع/مشاهدة ..."
+        "ar": "أحب قراءة/سماع/مشاهدة ...",
+        "en": "I like reading/listening/watching...",
+        "tr": "Okumayı/dinlemeyi/izlemeyi severim...",
+        "ro": "Îmi place să citesc/ascult/văd...",
+        "bs": "Volim da čitam/slušam/gledam...",
+        "es": "Me gusta leer/escuchar/mirar...",
+        "bg": "Обичам да чета/слушам/гледам...",
+        "el": "Μου αρέσει να διαβάζω/ακούω/βλέπω…"
       },
       {
         "de": "Das macht mir Spaß!",
-        "ar": "هذا يسعدني!"
+        "ar": "هذا يسعدني!",
+        "en": "I find that fun!",
+        "tr": "Bunu eğlenceli buluyorum!",
+        "ro": "Mi se pare distractiv!",
+        "bs": "To mi je zabavno!",
+        "es": "¡Me parece divertido!",
+        "bg": "Намирам това за забавно!",
+        "el": "Το βρίσκω διασκεδαστικό!"
       },
       {
         "de": "Hast du Lust, ...?",
-        "ar": "هل تريد ...؟"
+        "ar": "هل تريد ...؟",
+        "en": "Do you feel like, ...?",
+        "tr": "Şöyle mi hissediyorsun...?",
+        "ro": "Ai chef,...?",
+        "bs": "Da li se osjećate kao, ...?",
+        "es": "¿Sientes que...?",
+        "bg": "Чувствате ли се...?",
+        "el": "Νιώθεις ότι...;"
       }
     ]
   },
@@ -5845,25 +6391,60 @@ const CURRICULUM = [
           "Arzterin",
           "Ärzten"
         ],
-        "answer": 1
+        "answer": 1,
+        "questionEn": "What is the feminine form of Arzt (doctor)?",
+        "questionTr": "Arzt'ın (doktor) dişil formu nedir?",
+        "questionRo": "Care este forma feminină a lui Arzt (medic)?",
+        "questionBs": "Koji je ženski oblik Arzt (doktor)?",
+        "questionEs": "¿Cuál es la forma femenina de Arzt (médico)?",
+        "questionBg": "Каква е женската форма на Arzt (лекар)?",
+        "questionEl": "Ποια είναι η γυναικεία μορφή του Arzt (γιατρός);"
       }
     ],
     "speakingPhrases": [
       {
         "de": "Ich bin ... von Beruf.",
-        "ar": "مهنتي ..."
+        "ar": "مهنتي ...",
+        "en": "I am... by profession.",
+        "tr": "Ben... mesleğim gereği.",
+        "ro": "Sunt... de profesie.",
+        "bs": "Ja sam... po profesiji.",
+        "es": "Lo soy... de profesión.",
+        "bg": "Аз съм... по професия.",
+        "el": "Είμαι... στο επάγγελμα."
       },
       {
         "de": "Ich arbeite bei/in ...",
-        "ar": "أعمل في ..."
+        "ar": "أعمل في ...",
+        "en": "I work at/in...",
+        "tr": "Şurada çalışıyorum:",
+        "ro": "Lucrez la/în...",
+        "bs": "radim u/u...",
+        "es": "Trabajo en/en...",
+        "bg": "Работя в/в...",
+        "el": "Δουλεύω σε/στο..."
       },
       {
         "de": "Was sind Sie von Beruf?",
-        "ar": "ما مهنتك؟"
+        "ar": "ما مهنتك؟",
+        "en": "What is your occupation?",
+        "tr": "Mesleğiniz nedir?",
+        "ro": "Care este ocupația ta?",
+        "bs": "Koje je tvoje zanimanje?",
+        "es": "¿Cuál es tu ocupación?",
+        "bg": "каква е вашата професия",
+        "el": "Ποιο είναι το επάγγελμά σας;"
       },
       {
         "de": "Ich suche Arbeit.",
-        "ar": "أبحث عن عمل."
+        "ar": "أبحث عن عمل.",
+        "en": "I'm looking for work.",
+        "tr": "İş arıyorum.",
+        "ro": "Caut de lucru.",
+        "bs": "Tražim posao.",
+        "es": "Estoy buscando trabajo.",
+        "bg": "търся си работа.",
+        "el": "Ψάχνω για δουλειά."
       }
     ]
   },
@@ -6271,36 +6852,85 @@ const CURRICULUM = [
           "يريد مشروباً",
           "يريد القائمة"
         ],
-        "answer": 1
+        "answer": 1,
+        "questionEn": "What does the guest want?",
+        "questionTr": "Misafir ne istiyor?",
+        "questionRo": "Ce vrea oaspete?",
+        "questionBs": "Šta gost želi?",
+        "questionEs": "¿Qué quiere el invitado?",
+        "questionBg": "Какво иска гостът?",
+        "questionEl": "Τι θέλει ο καλεσμένος;"
       },
       {
         "type": "fillblank",
         "question": "_____ gibt heute Schnitzel.",
         "questionAr": "أكمل الجملة",
         "answer": "Es",
-        "hint": "es gibt = يوجد"
+        "hint": "es gibt = يوجد",
+        "questionEn": "Complete the sentence",
+        "questionTr": "Cümleyi tamamla",
+        "questionRo": "Completează propoziția",
+        "questionBs": "Dopuni rečenicu",
+        "questionEs": "Completa la frase",
+        "questionBg": "Довърши изречението",
+        "questionEl": "Συμπλήρωσε την πρόταση"
       }
     ],
     "speakingPhrases": [
       {
         "de": "Was darf es sein?",
-        "ar": "ماذا تتفضل؟"
+        "ar": "ماذا تتفضل؟",
+        "en": "What it may be?",
+        "tr": "Ne olabilir?",
+        "ro": "Ce poate fi?",
+        "bs": "šta bi to moglo biti?",
+        "es": "¿Qué puede ser?",
+        "bg": "Какво може да бъде?",
+        "el": "Τι μπορεί να είναι;"
       },
       {
         "de": "Ich möchte ..., bitte.",
-        "ar": "أريد ... من فضلك."
+        "ar": "أريد ... من فضلك.",
+        "en": "I want..., please.",
+        "tr": "Ben... lütfen.",
+        "ro": "Vreau..., te rog.",
+        "bs": "Želim... molim te.",
+        "es": "Quiero..., por favor.",
+        "bg": "Искам... моля.",
+        "el": "Θέλω... παρακαλώ."
       },
       {
         "de": "Zahlen, bitte!",
-        "ar": "الحساب من فضلك!"
+        "ar": "الحساب من فضلك!",
+        "en": "Please pay!",
+        "tr": "Lütfen ödeyin!",
+        "ro": "Vă rugăm să plătiți!",
+        "bs": "Molimo platite!",
+        "es": "¡Por favor paga!",
+        "bg": "Моля, платете!",
+        "el": "Παρακαλώ πληρώστε!"
       },
       {
         "de": "Stimmt so.",
-        "ar": "احتفظ بالباقي."
+        "ar": "احتفظ بالباقي.",
+        "en": "Keep the change.",
+        "tr": "Üstü kalsın.",
+        "ro": "Păstrați restul.",
+        "bs": "Zadrži kusur.",
+        "es": "Quédese con el cambio.",
+        "bg": "Запазете рестото.",
+        "el": "Κρατήστε τα ρέστα."
       },
       {
         "de": "Das Essen war lecker!",
-        "ar": "الطعام كان لذيذاً!"
+        "ar": "الطعام كان لذيذاً!",
+        "en": "The food was delicious!",
+        "tr": "Yemek çok lezzetliydi!",
+        "ro": "Mâncarea a fost delicioasă!",
+        "bs": "Hrana je bila ukusna!",
+        "es": "¡La comida estuvo deliciosa!",
+        "bg": "Храната беше вкусна!",
+        "el": "Το φαγητό ήταν νόστιμο!"
       }
     ]
   }
