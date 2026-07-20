@@ -827,7 +827,8 @@ function renderExercise(ex, idx, chId) {
       </div>`;
   }
   else if (ex.type === 'order') {
-    const shuffled = shuffle([...ex.words]);
+    const rawWords = Array.isArray(ex.words) ? ex.words : (typeof ex.words === 'string' ? ex.words.split(' ') : (ex.answer ? ex.answer.split(' ') : []));
+    const shuffled = shuffle([...rawWords]);
     return `
       <div class="exercise-item">
         <div class="exercise-question">${idx+1}. ${getExerciseQuestionText(ex)}</div>
@@ -835,13 +836,14 @@ function renderExercise(ex, idx, chId) {
         <div class="word-order-bank" id="exBank_${chId}_${idx}">
           ${shuffled.map(w => `<span class="word-chip" onclick="placeWordEx(this, 'exAnswer_${chId}_${idx}', 'exBank_${chId}_${idx}', '${w}')">${w}</span>`).join('')}
         </div>
-        <button class="btn btn-primary" style="margin-top:12px" onclick="checkOrderEx('exAnswer_${chId}_${idx}', '${ex.answer.replace(/'/g,"\\'")}', 'exFb_${chId}_${idx}')">${getTranslation('btn_verify', 'تحقق')}</button>
+        <button class="btn btn-primary" style="margin-top:12px" onclick="checkOrderEx('exAnswer_${chId}_${idx}', '${(ex.answer || '').replace(/'/g,"\\'")}', 'exFb_${chId}_${idx}')">${getTranslation('btn_verify', 'تحقق')}</button>
         <div class="exercise-feedback" id="exFb_${chId}_${idx}"></div>
       </div>`;
   }
   else if (ex.type === 'matching') {
-    const leftItems = ex.pairs.map(p => p.de);
-    const rightItems = shuffle(ex.pairs.map(p => getPairTranslation(p)));
+    const pairs = Array.isArray(ex.pairs) ? ex.pairs : [];
+    const leftItems = pairs.map(p => p.de);
+    const rightItems = shuffle(pairs.map(p => getPairTranslation(p)));
     return `
       <div class="exercise-item">
         <div class="exercise-question">${idx+1}. ${getExerciseQuestionText(ex)}</div>
@@ -851,7 +853,7 @@ function renderExercise(ex, idx, chId) {
           </div>
           <div>
             ${rightItems.map((item, i) => {
-              const pairIdx = ex.pairs.findIndex(p => getPairTranslation(p) === item);
+              const pairIdx = pairs.findIndex(p => getPairTranslation(p) === item);
               return `<div class="match-item ar-item" id="matchR_${chId}_${idx}_${i}" data-pair="${pairIdx}" onclick="selectMatchItem(this, 'right', ${i}, '${chId}', ${idx})">${item}</div>`;
             }).join('')}
           </div>
