@@ -320,7 +320,9 @@ function checkAnswer() {
   else if (q.type === 'order') {
     const { placed } = window._currentOrderState || { placed: [] };
     userAnswer = placed.join(' ');
-    isCorrect = userAnswer.trim() === q.answer.trim();
+    const normUser = userAnswer.replace(/[.?!,]/g, '').trim().replace(/\s+/g, ' ').toLowerCase();
+    const normAns = q.answer.replace(/[.?!,]/g, '').trim().replace(/\s+/g, ' ').toLowerCase();
+    isCorrect = normUser === normAns;
   }
 
   quizState.answered = true;

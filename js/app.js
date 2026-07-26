@@ -922,7 +922,9 @@ function checkOrderEx(answerId, correctAnswer, fbId) {
   if (!area) return;
   const words = [...area.querySelectorAll('.placed-chip')].map(c => c.textContent);
   const result = words.join(' ');
-  if (result.trim() === correctAnswer.trim()) {
+  const normUser = result.replace(/[.?!,]/g, '').trim().replace(/\s+/g, ' ').toLowerCase();
+  const normAns = correctAnswer.replace(/[.?!,]/g, '').trim().replace(/\s+/g, ' ').toLowerCase();
+  if (normUser === normAns) {
     showFeedback(fbId, true, getTranslation('feedback_correct', 'صحيح! ممتاز!'));
     addScore(20);
   } else {
